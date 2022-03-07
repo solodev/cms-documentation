@@ -10,6 +10,14 @@ tag(){
 #DEVOPS
 DATE=$(date +%d%H%M)
 
+init(){
+    npm install retypeapp
+}
+
+watch(){
+    retype watch
+}
+
 build(){
     retype build
 }

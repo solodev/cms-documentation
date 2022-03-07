@@ -1,4 +1,4 @@
-input: .
+input: src
 output: dist
 url: https://cms.solodev.net/
 branding:
