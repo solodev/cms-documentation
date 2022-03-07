@@ -10,6 +10,13 @@ tag(){
 #DEVOPS
 DATE=$(date +%d%H%M)
 
+build(){
+    retype build
+}
+
+s3(){
+    ./deploy.sh
+}
 
 
 $*
