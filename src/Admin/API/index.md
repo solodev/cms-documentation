@@ -1,0 +1,429 @@
+# Solodev API 
+
+## RESTful features of the Solodev API
+
+
+### What is REST? 
+
+When discussing the Solodev API, terms like “REST” and “RESTful” are often used. “REST” stands for Representational State Transfer. “REST” is an architectural style designed as an alternative to RPC or SOAP-based web services. 
+
+ 
+
+Although there is no official REST standard, common approaches and best practices used across the engineering community define how RESTful APIs should work. 
+
+ 
+
+Solodev follows most of the practices and common definitions of the style. For example, Solodev API uses “resources” that are typically nouns such as Datatable or Calendar. Users can take action on resources using the standard HTTP methods and routes that reflect standard CRUD operations.
+
+### HTTP methods
+
+The Solodev API supports these HTTP methods for interacting with resources: 
+
+ 
+
+- Use a **GET** request to retrieve data. GET requests are safe and indempotent because they do not update or change user data. 
+
+- Use a **POST** request to create new endpoints and update existing ones. 
+
+- Use a **DELETE** request to remove a resource.
+
+
+### Resources
+
+Resources are typically nouns (for e.g. Calendar and Datatable) that users can act on using GET, POST and DELETE HTTP methods.
+
+ 
+
+Solodev documentation refers to endpoints. Endpoints are URIs for individual resources. For example, users can find a collection of calendars by executing a request against the **/calendar/** endpoint.
+
+## Solodev API overview
+
+### Before you start 
+
+The Solodev API is designed to help users implement custom solutions or integrate with RESTful APIs.
+
+ 
+
+The REST architectural style is an integral part of API 3.0. To learn more about REST, refer to RESTful features of the Solodev API.
+
+### What is Solodev API? 
+
+Solodev empowers users to extend their data and content using a built-in Application Programming Interface (API). Solodev provides the user with two API sets:
+
+ 
+
+- ***Solodev System API*** – allows users to store and deliver structured content using a headless version of Solodev CMS. With the System API, users can create and globally manage CMS objects (folders, files, calendars) from the backend using the appropriate routes. For example, users can leverage the search route to search for all modules of the calendar type across all websites. 
+
+- ***Solodev Module API*** – allows users to individually target different module types custom to their environment for management and expose them to external publishing channels such as websites and mobile applications. 
+
+### HTTP Basic Authentication
+
+HTTP Basic Authentication using API tokens are the easiest way to authenticate a request. Solodev recommends storing API tokens in a secure location. Users can authenticate a request using an API key with the following steps: 
+
+ 
+
+- Launch the Solodev Module API or Solodev System API. 
+
+![Api auth step 1](api_auth_1.png)
+
+
+- Open the GET route for the bearertoken.
+
+![API suth step 2 bearertoken](bear_token.png)
+
+- Click the “Try it out” button and enter the values for the token and token_secret.
+
+![Api auth step 3](api_auth_3.png)
+
+- Click Execute to generate a response. 
+
+![Api auth step 4](api_auth_4.png)
+
+- Under the Response Body section, copy the token value without the quotes.
+
+![Api auth step 5](api_auth_5.png)
+
+- Click Authorize and paste the token value into the textbox. 
+
+![Api auth step 6](api_auth_6.png)
+
+- Click Authorize. 
+
+![Api auth step 7](api_auth_7.png)
+
+- Click Close.
+
+![Api auth step 8](api_auth_8.png)
+
+
+### User access
+The permissions assigned to the user who generated the API key determines endpoint access. Learn more about managing permissions. 
+
+ 
+
+### JSON
+Solodev API only supports JSON. All POST and DELETE requests require a valid JSON object for the body.
+
+ 
+### Search Parameters
+Each endpoint uses HTTP methods to perform CRUD (Create, Retrieve, Update, and Destroy) operations against Solodev resources. The CRUD operations are referred to as routes that consist of a variety of parameters. For example, the search route consists of six parameters listed below.  
+
+![Search Parameters](search_params.jpg)
+
+### Code Examples
+After passing the values into the parameters, users can click the Execute button to generate curl requests, Request URLs, or JSON responses. Example responses are provided below: 
+
+***Curl:***
+
+`curl -X GET "https://localhost.solodev.net/api.php/datatable?qry=%7B%22date_modified%22%3A%20%7B%24regex%22%3A%221579636356%22%7D%7D&start=1&length=2&orderStr=%22date_modified%22&orderDir=ASC" -H "accept: */*"`
+
+***Request URL:***
+
+`https://localhost.solodev.net/api.php/datatable?qry=%7B%22date_modified%22%3A%20%7B%24regex%22%3A%221579636356%22%7D%7D&start=1&length=2&orderStr=%22date_modified%22&orderDir=ASC`
+
+
+***Response Body:***
+
+`{
+
+  "datatable": [
+
+    {
+
+      "datatable_id": "4",
+
+      "parent_category_id": "74",
+
+      "name": "Careers",
+
+      "form_template": "119",
+
+      "return_template": "120",
+
+      "web_category": null,
+
+      "html_template": null,
+
+      "datatable_category_group_id": null,
+
+      "date_added": "1579636261",
+
+      "date_modified": "1579636356",
+
+      "enforce_permissions": null,
+
+      "enable_user_groups": null,
+
+      "title_field": null,
+
+      "datatable_type": "Form",
+
+      "small_icon": null,
+
+      "large_icon": null,
+
+      "display_template": null,
+
+      "detail_display_template": null,
+
+      "email_template": null,
+
+      "asset_category_map_anchor": null,
+
+      "items_per_page": null,
+
+      "items_per_row": null,
+
+      "number_of_pages_to_display": null,
+
+      "itemImageDimensionSM": null,
+
+      "itemImageDimensionMED": null,
+
+      "itemImageDimensionLRG": null,
+
+      "protect": null,
+
+      "captcha": null,
+
+      "geocode": null,
+
+      "display_columns": null,
+
+      "asset_fields": null,
+
+      "icon_type": "fab fa-wpforms",
+
+      "tickler_url": null,
+
+      "assignee": null,
+
+      "notify_type": null,
+
+      "description": null,
+
+      "samaccountname": "solodev",
+
+      "tag_template": null,
+
+      "logo": null,
+
+      "post_process": null,
+
+      "force_image_width": null,
+
+      "thumbnail_width": null,
+
+      "has_captcha": null,
+
+      "flat_entries": null,
+
+      "table_relationships": null,
+
+      "table_schema": "datatable_entry_id I(11) NOTNULL PRIMARY,\nprospect_fname C(255) NULL,\nprospect_lname C(255) NULL,\nemail C(255) NULL,\naddress C(255) NULL,\nphone C(255) NULL,\nupload_resume C(255) NULL,\nposition C(255) NULL",
+
+      "module_object_id": "28",
+
+      "module_dm_id": 40,
+
+      "fa": "fas fa-database",
+
+      "key": "datatable_id",
+
+      "process": "showDatatable",
+
+      "route": "/modules/datatable/{{id}}",
+
+      "icon": "fas fa-database"
+
+    },
+
+    {
+
+      "datatable_id": "5",
+
+      "parent_category_id": "74",
+
+      "name": "Footer",
+
+      "form_template": "128",
+
+      "return_template": "129",
+
+      "web_category": null,
+
+      "html_template": null,
+
+      "datatable_category_group_id": null,
+
+      "date_added": "1579636262",
+
+      "date_modified": "1579636357",
+
+      "enforce_permissions": null,
+
+      "enable_user_groups": null,
+
+      "title_field": null,
+
+      "datatable_type": "Form",
+
+      "small_icon": null,
+
+      "large_icon": null,
+
+      "display_template": null,
+
+      "detail_display_template": null,
+
+      "email_template": null,
+
+      "asset_category_map_anchor": null,
+
+      "items_per_page": null,
+
+      "items_per_row": null,
+
+      "number_of_pages_to_display": null,
+
+      "itemImageDimensionSM": null,
+
+      "itemImageDimensionMED": null,
+
+      "itemImageDimensionLRG": null,
+
+      "protect": null,
+
+      "captcha": null,
+
+      "geocode": null,
+
+      "display_columns": null,
+
+      "asset_fields": null,
+
+      "icon_type": "fab fa-wpforms",
+
+      "tickler_url": null,
+
+      "assignee": null,
+
+      "notify_type": null,
+
+      "description": null,
+
+      "samaccountname": "solodev",
+
+      "tag_template": null,
+
+      "logo": null,
+
+      "post_process": null,
+
+      "force_image_width": null,
+
+      "thumbnail_width": null,
+
+      "has_captcha": null,
+
+      "flat_entries": null,
+
+      "table_relationships": null,
+
+      "table_schema": "datatable_entry_id I(11) NOTNULL PRIMARY,\nname C(255) NULL,\nemail C(255) NULL",
+
+      "module_object_id": "28",
+
+      "module_dm_id": 40,
+
+      "fa": "fas fa-database",
+
+      "key": "datatable_id",
+
+      "process": "showDatatable",
+
+      "route": "/modules/datatable/{{id}}",
+
+      "icon": "fas fa-database"
+
+    }
+
+  ]
+}`
+
+ ## Creating and configuring API Tokens 
+
+Solodev empowers users to extend their data and content using a built-in Application Programming Interface (API). Solodev provides the user with two API sets:
+
+ 
+
+- Solodev System API – allows users to store and deliver structured content using a headless version of Solodev CMS.
+
+- Solodev Module API – allows users to expose the data stored in modules to external publishing channels such as websites and mobile applications. 
+
+- This document shows the user how to generate an API key pair and use that key pair to authorize requests to both API sets.
+
+ 
+
+### Step 1 – Create a User 
+
+- Click Users located under the Organization section of the Solodev Dashboard.
+
+- Click Invite User(s) to bring up the Invite User(s) window.
+
+
+- Enter the Email Address and Group Name in the respective fields (press the tab button after entering each email address and group name).
+
+- Enter the message and click Submit.
+
+**Note:** Solodev recommends creating groups and assigning permissions to those groups before creating or inviting users to the platform. Learn more about Solodev Groups.
+
+
+### Step 2 – Generate an API Key
+
+- Login to Solodev CMS.
+
+- Click Manage Profile to bring up the modal window for user options.
+
+- Click My Profile.
+
+- Under the Security section in the dashboard, click API Tokens.
+
+- Click the Add API Key button.
+
+- Review the warning in the Add API Key modal window and click Submit.
+
+- An API Token and API Token Secret are generated.
+
+### Step 3 – Authorizing request to API sets
+
+- Under the ADMIN section of the Solodev dashboard, click API. 
+
+- Launch the Solodev System API or the Solodev Module API (this example will use the Solodev System API).
+
+- Under the Authentication section click the GET /beartoken tab.
+
+- Click the “Try it out” button to enter the values for the token and token_secret.
+
+- To retrieve the API token, open the User’s profile and click API Tokens. Copy the value under the Token column and paste it into token textbox. 
+
+- To retrieve the token secret, click the eye icon and copy the value under the Token Secret column and paste the value into the token secret textbox.
+
+- Click Execute to generate a response.
+
+- Under the Response Body section, copy the token value without the quotes.
+
+- Click Authorize and paste the token value into the textbox. 
+
+- Click Authorize. 
+
+- Click Close. 
+
+### Step 4 – Using the API
+
+- To use the API open any one of the end points below the Authentication section. This example will run the /asset_file Search under the Asset_File Endpoints section. 
+
+- Click the "Try it out" button.
+
+- Click Execute to obtain the Request URL
+
