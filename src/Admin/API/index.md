@@ -108,7 +108,7 @@ Solodev API only supports JSON. All POST and DELETE requests require a valid JSO
 ### Search Parameters
 Each endpoint uses HTTP methods to perform CRUD (Create, Retrieve, Update, and Destroy) operations against Solodev resources. The CRUD operations are referred to as routes that consist of a variety of parameters. For example, the search route consists of six parameters listed below.  
 
-![Search Parameters](search_params.jpg)
+![Search Parameters](search_params.jpg) \
 
 ### Code Examples
 After passing the values into the parameters, users can click the Execute button to generate curl requests, Request URLs, or JSON responses. Example responses are provided below: 
@@ -124,7 +124,7 @@ After passing the values into the parameters, users can click the Execute button
 
 ***Response Body:***
 
-`{
+```{
 
   "datatable": [
 
@@ -349,7 +349,7 @@ After passing the values into the parameters, users can click the Execute button
     }
 
   ]
-}`
+}```
 
  ## Creating and configuring API Tokens 
 
@@ -425,5 +425,51 @@ Solodev empowers users to extend their data and content using a built-in Applica
 
 - Click the "Try it out" button.
 
-- Click Execute to obtain the Request URL
+- Click Execute to obtain the Request URL.
+
+
+## System API Overview
+
+In the previous article, the user learned how to generate an API key pair and use that key pair to authorized requests to both APIs. This article provides an overview of the Solodev System API that allows users to store and deliver structured content using a headless version of Solodev CMS – along with a summary of its frequently used endpoints. 
+
+ 
+
+**Asset Category** – The Asset Category endpoint corresponds to folders on the front end of the Solodev CMS system. With this endpoint, users can create, search and modify folders from the back end. For example, the copy route in the Asset Category endpoint serves the same purpose as copying a folder on the front end of the CMS. 
+
+
+**Asset File** – The Asset File endpoint corresponds to files on the front end of the Solodev CMS system. Users can leverage this endpoint to create, search and manage files from the back end. For example, the Publish route in the Asset File endpoint performs the same function as clicking the publish button on a file in the front end of the CMS. 
+
+ 
+**Calendar** – The Calendar endpoint corresponds to the calendar object. This endpoint enables users to create, search and manage calendars from the back end. The user can leverage the search route to search through all calendars in the CMS system. 
+
+
+**Calendar Entry** – The Calendar Entry endpoint corresponds to the entries located inside the Calendar Module. With this endpoint, users can search, create, and modify calendar entries. With the search route the user can search through all calendar entries.
+
+ 
+**Datatable** – The Datatable endpoint corresponds to the Datatable object. This endpoint enables users to create, search and manage datatable objects from the back end. Users can leverage the search route to search for all datatable objects. 
+
+**Datatable Category** – The Datatable Category endpoint corresponds to the Collection object within the Solodev CMS. With the search route users can search for all categories. 
+
+
+**Datatable Category Group** – The Datatable Category Group endpoint corresponds to the group of categories that can be applied to manager entries. The user can leverage the search route to search for category groups across all modules. 
+
+
+**Datatable Entry** – The Datatable Entry endpoint corresponds to the Datatable Entry objects within the Soldev CMS system. The search route enables to search for all entries across all modules.
+
+**File Group** – The File Group endpoint corresponds to File Group object in the Solodev CMS. The search route enables to search for all File Groups across all websites. 
+
+**File Group File** – The File Group File endpoint corresponds to the File Group Entry within a File Group. With the search route users can search for all entries across all File Groups.
+
+**Link** – The Link endpoint corresponds to the Link object in Solodev CMS. Users can leverage the search route to search all links across websites.  
+
+**Scheduler** – The Scheduler endpoint corresponds to the Scheduler object in Solodev CMS. With the search route, users can search for all Scheduler objects within the CMS system.
+
+**Scheduler File** – The Scheduler File endpoint corresponds to the Scheduler entry object in Solodev CMS. Users can use the search route to search for all scheduler entries across the websites.
+
+**User** – The User endpoint corresponds to the User object in the Solodev dashboard. The search route enables administrators to find users within the CMS system.  
+
+**Website** – The Website endpoint corresponds to the website object in Solodev CMS. The search route enables users to search all websites in the CMS. 
+
+ 
+
 
