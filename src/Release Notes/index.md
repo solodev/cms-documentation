@@ -677,3 +677,743 @@ Solodev CMS 9.1 contains new features, updates, bug fixes, and user interface (U
 - SCMS-1244 - "isPageTemplate" field is not exporting to config.json.
 
 - SCMS-1268 - "fileparse" URLs are not exporting and dynamically referencing their new location upon install on new instance.
+
+
+## Solodev CMS 8.9 Release Notes
+
+Solodev CMS 8.9 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev platform. The primary purpose of the the version was to introduce the Beta version of Solodev 9.0, prepare the underlying app for this upcoming release, and incorporate a number of improvements/bug fixes to better support the Verion 8 lifecycle.
+
+**Key Release Highlights**
+
+- Introduction of Solodev Beta views.
+
+- Improved Add Website workflow.
+
+- Better support for website packages.
+
+- Better support for Solodev on Docker containers.
+
+**New Features**
+
+- SCMS-548 - Incorporate BETA version of upcoming Solodev.
+
+**Improvements**
+
+- SCMS-543 - Remove header and move profile to the left navigation.
+
+- SCMS-549 - Update new login page.
+
+- SCMS-603 - New user form fields.
+
+- SCMS-633 - Add website wizard modifications.
+
+- SCMS-634 - Import package website modifications.
+
+- SCMS-645 - Add support chat feature to app.
+
+**Bug Fixes**
+
+- SCMS-605 - My Profile "submit" button is partially hidden.
+
+- SCMS-616 - Uncaught SyntaxError when viewing STML page.
+
+- SCMS-624 - Websites session issue.
+
+- SCMS-625 - Count() warning on add Datatable/Calendar.
+
+- SCMS-639 - Docker/Apache needs to restart after adding website.
+
+- SCMS-640 - Docker emails not sending.
+
+- SCMS-650 - Codemirror find (CTRL + F) does not work.
+
+
+## Solodev CMS 8.8 Release Notes
+
+Solodev CMS 8.8 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev platform. The latest version of Solodev introduces several new initiatives including support for PHP 7 and the integration with NPM scripts, primarily utilized so that websites can be constructed as packages with all styles and JS files dynamically compiled. The capability to Import/Export packages or folders has also been comprehensively overhauled so as to include support for “package variables”, a package importing wizard, and support for user permissions within a package. Additionally, Solodev 8.8 introduces specific “Branding” and “App” components so that organizations have the capability to create a custom backend user experienced tailored uniquely to their own set of brand styles. Several accessibility enhancements have also been included, particularly in relation to the WYSIWYG editor and its raw HTML output. Bug fixes focused on character encoding, support for older versions of PHP, and patches to existing shortcodes. Enjoy!
+
+**Key Release Highlights**
+
+- Added Restore/Dev syncing capabilities where a separate development instance can be created and synced with a production environment.
+
+- Overhaul of Import/Export of packages, including adding package variables and a comprehensive import wizard.
+
+- Support for PHP 7.
+
+- Backend branding capabilities.
+
+- Quick links to modules and forms (datatables & calendars) on dashboard view.
+
+- NPM Integration.
+
+- Support for custom application views.
+
+- Accessibility updates to the WYSIWYG editor.
+
+### All Release Updates
+
+**Improvements**
+
+- Commit 039db93: CKeditor bold tag update; geocoding URL needed to be https.
+
+- Commit 353c6b2: App permissions during import process.
+
+- Commit a774e9a: Added SSL redirect logic to stmls when site_wide_ssl property is set.
+
+- Commit b9882ac: Added privacy banner shortcode.
+
+- Commit 52d26ce: Added in where string for full_calendar shortcode.
+
+- Commit 8512581: Added Users folder for detecting import path.
+
+- Commit 774604b: Shortcode ability for page title and meta.
+
+- Commit 445b172: Branding / custom app integration into Solodev.
+
+- Commit 62bd639: Update to the NPM install command for Linux.
+
+- Commit f46054f: Adding in color picker to the import process with variables in the importer itself.
+
+- Commit 3212339: NPM integration on package importing and asset_file publishing.
+
+- Commit 066a489: Added in alert for deleting gallery attachments.
+
+- Commit 6b9c7cd: Added in warnings for file manipulation on entries.
+
+- Commit f38e09e: Update to structure for dashboard modules.
+
+- Commit 75ac529: CMS branding overwrite option for users to choose logo and custom CSS to change default styling.
+
+- Commit 661af6b: Accordion shortcodes.
+
+- Commit 046e3dc: Docker preparation and support for PHP 7.
+
+- Commit aa4a668: Put in decoding for find and replace import fields.
+
+- Commit 56366d8: Import / Export package overhaul that allows site wide find replace and company variables to be defined on a template basis.
+
+- Commit d7cb5fe: Added in new Restore module object with associated views and file manipulation.
+
+**Bug Fixes**
+
+- Commit 413cb87: Update to app including meta tag updates on stmls and fix to displaying calendar properties.
+
+- Commit 86433: Origin replace on API calls and ucwords fix for older PHP versions.
+
+- Commit da3a406: Patch for MySQL and PHP 7.
+
+- Commit c5535b2: Captcha missing tag fix.
+
+- Commit e8e87cc: Installer.inc fixes, and AuthorizeNet integration update.
+
+- Commit f8b96ca: Publish files on WYISWYG upload.
+
+- Commit b155592: Fixes for sanitizing html characters.
+
+- Commit ac72948: Escape characters upon export command.
+
+- Commit d69ebc3: Updated domain regex since where special characters were detected as being incorrect.
+
+- Commit 8f6003e: CK update for displaying shortcodes.
+
+- Commit 008052c: Update to validation errors for API.
+
+- Commit 0095a6f: Patch update to pager that was missing some closing tags.
+
+## Solodev CMS 8.5 Release Notes
+
+Solodev CMS 8.5 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev platform. Solodev CMS 8.5 introduces a new and improved business theme (WebCorpCo), redesign of calendars and datatables to make their creation and management easier, an updated API to expose module data for use in third party applications, and a series of platform-wide bug fixes. The release of Solodev CMS 8.5 makes the use of short codes more intuitive and the creation of modules using calendars and datatables easier and more powerful for non-technical administrators. The release of Solodev CMS 8.5 makes the creation, modification, and management of web content in Solodev easier for developers, marketers, and administrators alike and incorporates feedback from the entire Solodev community. Enjoy!
+
+**Important highlights from this release**
+
+Improved user feedback when working with a modules table schema.
+
+Released new and improved business theme (WebCorpCo).
+
+Updated layout of modules to improve ease of use.
+
+Added subtext descriptions through CMS to make more intuitive.
+
+Implemented modules pre-populated with HTML forms for all dropdown options.
+
+Improved dynamic div (drop zone) ability to make inserting content easier.
+
+Added spellcheck for HTML WYSIWYG.
+
+Improved inline editing functionality.
+
+Made improvements to Table Schema.
+
+Implemented a way to make images included via stylesheets.
+
+### All updates for this release:
+
+**Improvements**
+
+- SCMS-485 DONE - htaccess to enable images from included css.
+
+- SCMS-486 DONE - Width and height being set on uploaded images.
+
+- SCMS-488 DONE - Javascript errors in content prevents dynamic div insertion.
+
+- SCMS-489 DONE - Display Columns for Calendars and Datatables.
+
+- SCMS-490 DONE - Show form only if datatable type is set to form.
+
+- SCMS-492 DONE - Uploaded files have their names changed (dots to dashes).
+
+- SCMS-494 DONE - Clean URL function - The Datatable Version.
+
+- SCMS-501 DONE - Prevent double submit on user creation.
+
+- SCMS-503 DONE - Expire detail pages after end date.
+
+- SCMS-508 DONE - Improve dynamic div functionality when dealing with faulty content.
+
+- SCMS-459 DONE - Datatable with No Form Template Should Still Show Something by Default.
+
+- SCMS-460 DONE - homeTemplate.tpl (webcorpco) needs one more DD.
+
+- SCMS-461 DONE - Not allowing Page Publish when Meta Info is Changed.
+
+- SCMS-465 DONE - Spellcheck for HTML WYSIWYG.
+
+- SCMS-476 DONE - Blank template generates stml off of root.
+
+- SCMS-477 DONE - Add Calendar Template.
+
+- SCMS-480 DONE - Update Calendar Template.
+
+- SCMS-481 DONE - Update Datatable Template.
+
+- SCMS-482 DONE - System -> Users Folder Displaying Old Icons.
+
+- SCMS-483 DONE - Add Datatable Template.
+
+- SCMS-484 DONE - Module Fields and Layout Cleanup.
+
+- SCMS-506 DONE - Inline editor strips out links.
+
+- SCMS-511 DONE - Permissions for Assignment Ticklers.
+
+**Bugs**
+
+- SCMS-462 DONE - Adding Table Schema Fields After Creating Module.
+
+- SCMS-468 DONE - Users Profile to display API Key/Token.
+
+- SCMS-470 DONE - API Calls return no data or errors in console.
+
+- SCMS-474 DONE - Improve Functionality on Datatables.
+
+- SCMS-499 DONE - Updated URLs for images inserted via WYSIWYG.
+
+- SCMS-505 DONE - Inserted javascript causing dynamic divs not to appear.
+
+- SCMS-510 DONE - Test STML stub updating when title is updated.
+
+- SCMS-514 DONE - WYSIWYG moves shortcodes around.
+
+- SCMS-515 DONE - Adding New Entry does not show entry #.
+
+- SCMS-516 DONE - Create warning when users delete fields via table schema.
+
+- SCMS-517 DONE - Calendars created without template (via table schema) are overwritten by dropdown. 
+
+- SCMS-518 DONE - Calendar -> Activate "Enable Attachments" if Type = Photo Gallery.
+
+## Solodev CMS 8.4 Release Notes
+
+Solodev CMS 8.4 boasts a series of new features, updates, bug fixes, and User Interface (UI) improvements to the Solodev platform. Solodev CMS 8.4 introduces an automated theme builder, CodeMirror implementation to make writing code in Solodev easier, and a series of platform-wide bug fixes. The release of Solodev CMS 8.4 will make web development on the Solodev CMS platform even easier for content authors, marketers, designers, and developers alike.
+
+**Important highlights from this release**
+
+- Implemented CodeMirror and Search.
+
+- Added Auto-Theme Builder on Install.
+
+- Created Ability to Add Additional Subscriptions.
+
+- Improved UI for Form Upload.
+
+- Improved User Profile UI.
+
+- Improved Drag and Drop Form Builder.
+
+- Improved Validation to Back-end Login.
+
+- Added Redirect to Workspace after Website Install.
+
+- Added functionality to Table Schema Form Builder.
+
+- Fixed Bug Prepending IDs to URLs.
+
+- Improved Object Selection.
+
+### All updates for this release:
+
+**Improvement**
+
+- SCMS-442 DONE - Add Theme On Install.
+
+- SCMS-443 DONE - Add Redirect to www after Website Add.
+
+- SCMS-146 DONE - Account: Create add additional subscription functionality.
+
+- SCMS-247 DONE - Fixed Entry rewriting prepending IDs to URLS.
+
+- SCMS-292 DONE - Added Image, Submit Fields to Table Schema.
+
+- SCMS-312 DONE - Solodev Pricing Page via AWS(SaaS), On Premise.
+
+- SCMS-328 DONE- Sign up for new single server and build demo website - demo10.
+
+- SCMS-358 DONE - Test import package page - Meta Desc & Keywords.
+
+- SCMS-393 DONE - Datatable & Calendar Resaver.
+
+- SCMS-394 DONE - Code Mirror Styling.
+
+- SCMS-412 DONE - Add Website Loader.
+
+- SCMS-425 DONE - Code Mirror Search in document.
+
+- SCMS-399 DONE - Improved Object Selection.
+
+- SCMS-413 DONE - Improved UI for Form Upload.
+
+- SCMS-418 DONE - Enabled Server/Theme Builder Synchronization.
+
+**Bug**
+
+- SCMS-268 DONE - Disabled Zero Integer Save in Module Fields.
+
+- SCMS-379 DONE - Enabled Page Publish with Active JS.
+
+- SCMS-386 DONE - Fixed Initial Module Entry Save.
+
+- SCMS-398 DONE - Improved User Profile UI.
+
+- SCMS-400 DONE - Improved Form Builder.
+
+- SCMS-405 DONE - Added confirmation before deleting a category.
+
+- SCMS-406 DONE - Improved UI on Alias Property.
+
+- SCMS-414 DONE - Added Improved Validation to Backend Login.
+
+
+
+
+## Solodev CMS 8.3 Release Notes
+
+Solodev CMS 8.3. boasts some of the biggest improvements made to the Solodev Platform including but not limited to themes, also known as packages, a complete UI/UX redesign, inline editing to make content edits on the fly, the ability to turn web pages into reusable templates, an all new dashboard to serve as your command center, in-depth documentation, 24/7 support via Zendesk, an HTML5 friendly filesystem, and an entirely new shortcode system to make web development on the Solodev CMS platform even easier for content authors, marketers, designers, and developers.
+
+**Important highlights from this release**
+
+- Added "Forgot Password" functionality to login.
+
+- Added new Business Theme package to CMS.
+
+- Added "Expired in" Functionality.
+
+- Complete User Interface Redesign.
+
+- Added Inline Editing Function.
+
+- Added ability to turn web pages into reusable templates.
+
+- Added new Dashboard with:
+
+            - Tasks/Assignments.
+            - Google Analytics Integration.
+            - Announcements.
+            - Shortcut Actions (Add Page, Add File, Add Module, Add User).
+
+- Added package (theme, module) importer.
+
+- Added In-Depth Documentation to CMS (release notes will be updated here).
+
+- Improved Mobile Responsiveness.
+
+- Added Generate Sitemap/Robots.txt Function.
+
+- Added HTML5 Input Types.
+
+- Added Shortcodes to streamline Web Development.
+
+- Added Support Infrastructure in conjunction with Zendesk.
+
+ 
+
+### All updates for this release:
+
+**New Features**
+
+- SCMS-322 DONE Website Wizard: Add "Import Package" Checkbox Section.
+
+- SCMS-315 DONE Create ability for custom shortcode file.
+
+- SCMS-309 DONE Finalize Business Theme Package.
+
+- SCMS-306 DONE Add Modified by to Datatable Category.
+
+- SCMS-296 DONE Forgot Password: Link front end to back end.
+
+- SCMS-251 DONE Develop new "Pricing" page.
+
+- SCMS-237 DONE Create Package Modules.
+
+- SCMS-211 DONE Import package - The All-in-One.
+
+- SCMS-188 DONE Build Native Document Manager for Craig to review and add to codebase.
+
+- SCMS-178 DONE Complete replacements for Solodev system Icons.
+
+- SCMS-156 DONE Build out Select Approved Theme Step in Wizard.
+
+- SCMS-151 DONE Build Native Slider Manager.
+
+- SCMS-148 DONE Dashboard: Latest Assignments.
+
+- SCMS-133 DONE Build Photo Gallery Manager.
+
+- SCMS-128 DONE Auto-publish files on import.
+
+- SCMS-108 DONE Dashboard Actions: Add Page, File.
+
+- SCMS-106 DONE New Dashboard: Stats / Tasks / Shortcuts.
+
+- SCMS-102 DONE Import Package from website.
+
+- SCMS-65 DONE Add Forgot Password to CMS Front-End.
+
+**Improvements**
+
+- SCMS-384 DONE File Group File Name Input.
+
+- SCMS-375 DONE Got Rid of 'Add Assignment" JS Checkbox.
+
+- SCMS-359 DONE Uneven amount of spaces between pikes and colons.
+
+- SCMS-349 DONE Switch out Old Business Package with New Business Package.
+
+- SCMS-342 DONE Finalize Zendesk Documentation.
+
+- SCMS-326 DONE Delete Analytics Step from Website Wizard.
+
+- SCMS-318 DONE Mobile Responsive Issues.
+
+- SCMS-314 DONE Import Package: Need to show Success/Error Modal.
+
+- SCMS-297 DONE Finalize Package Installer.
+
+- SCMS-295 DONE Add Captcha Error Message.
+
+- SCMS-282 DONE Final Documentation Update for CMS 8.1.
+
+- SCMS-267 DONE Swap out PHP templates with Shortcode Templates.
+
+- SCMS-258 DONE Shortcode WebCorpCo Modules.
+
+- SCMS-230 DONE Create Ability to Update Columns for Datatables / Calendars.
+
+- SCMS-209 DONE Add HTML5 input types.
+
+- SCMS-190 DONE Generate Sitemap.
+
+- SCMS-185 DONE Tabs to accordians.
+
+- SCMS-166 DONE Import Package Functionality on Welcome Wizard.
+
+- SCMS-134 DONE Replace Solodev Icons across the board.
+
+**Bugs**
+
+- SCMS-368 DONE Intranet: Reset Password.
+
+- SCMS-367 DONE Change password causes problems.
+
+- SCMS-360 DONE Page Image on ViewSTML not functioning.
+
+- SCMS-357 DONE Import Package needs Auto-Publish.
+
+- SCMS-354 DONE What is causing overlapping of DD's in back end?
+
+- SCMS-353 DONE Cannot Delete Website.
+
+- SCMS-333 DONE Sitemap is not auto published upon generation.
+
+- SCMS-323 DONE Website Wizard: Analytics Redirect Bug.
+
+- SCMS-316 DONE Resizable Left Nav makes scrolling nearly impossible.
+
+- SCMS-311 DONE Categories not scrolling.
+
+- SCMS-308 DONE Package Processor Template.
+
+- SCMS-304 DONE Asset Category Group does not display ownername in dataGrid.
+
+- SCMS-303 DONE Category Groups Displaying Incorrectly.
+
+- SCMS-301 DONE Team Page not displaying properly.
+
+- SCMS-300 DONE Intranet requires logout.
+
+- SCMS-294 DONE Add User Group Dialog in Calendar Events.
+
+- SCMS-291 DONE Links missing "Modified by" data.
+
+- SCMS-290 DONE Modify User-> Fields not saving when modified.
+
+- SCMS-288 DONE Core Solodev Tree Folders displaying 1970 on Date.
+
+- SCMS-287 DONE Sitemap Generator generating duplicates.
+
+- SCMS-280 DONE Original Event Entry -> Reoccurring Events.
+
+- SCMS-278 DONE New Site Creation Adds _Assets to root.
+
+- SCMS-274 DONE Grid: Sort by, Modified by not functioning.
+
+- SCMS-271 DONE CKEditor Source Code Text Cut Off.
+
+- SCMS-263 DONE Issues where it logs you out without telling you you're logged out.
+
+- SCMS-255 DONE Scrolling not working on manager entry.
+
+- SCMS-254 DONE Thumbnail are not getting created on gallery (calendar).
+
+- SCMS-252 DONE Documents not showing when uploading from WYSIWYG.
+
+- SCMS-236 DONE Google Analytics Timing out within one hour or less.
+
+- SCMS-233 DONE Timeout when publishing large amounts of content.
+
+- SCMS-229 DONE Dashboard: Remove tooltip that has no action and just breaks line.
+
+- SCMS-228 DONE View User is displaying Modify User Template.
+
+- SCMS-227 DONE Expire Date In Button Group Misaligned.
+
+- SCMS-222 DONE Deleted categories can still have children added.
+
+- SCMS-218 DONE Filegroup expire date.
+
+- SCMS-216 DONE Open Tasks not displaying for assigned user on Dashboard.
+
+- SCMS-215 DONE Shortcuts are being pushed below GA.
+
+- SCMS-214 DONE View Asset File: Meta Information Tab has Feedback Tab Fields.
+
+- SCMS-213 DONE ViewSTML: Cannot see full screen when moving left nav.
+
+- SCMS-212 DONE Solodev Dashboard Responsive Issues.
+
+- SCMS-210 DONE Duplicate Files from Landing Page Manager.
+
+- SCMS-207 DONE On Import Package or Select Theme files aren't auto-published.
+
+- SCMS-206 DONE Website Creation Modal Populating in bottom left corner.
+
+- SCMS-202 DONE demo6: Duplicate Views on Session Timeout.
+
+- SCMS-200 DONE Add email type to Form Parser.
+
+- SCMS-193 DONE Clean up Datatable Website Properties.
+
+- SCMS-192 DONE Just get sessions for right date range.
+
+- SCMS-182 DONE Assets being written to root.
+
+- SCMS-176 DONE Import Theme: Image Paths.
+
+- SCMS-174 DONE Native Managers: Need to Auto-publish templates.
+
+- SCMS-161 DONE Dashboard Inner Wrapper.
+
+- SCMS-142 DONE HTML Form Builder Scroll Issue.
+
+- SCMS-139 DONE Responsive: Can't see Next and Previous buttons on Welcome Wizard.
+
+- SCMS-130 DONE Solodev Account Update Slim App Error.
+
+- SCMS-111 DONE Apache restart.
+
+- SCMS-61 DONE Google Analytics Expiration.
+
+- SCMS-57 DONE Subfolder search not functioning.
+
+- SCMS-32 DONE Fix Captcha Shortcode.
+
+**Tasks**
+
+- SCMS-376 DONE ADA fixes on Payments.stml.
+
+- SCMS-374 DONE Incorrect time displayed on Feedback.
+
+- SCMS-373 DONE Too much space between panel and content.
+
+- SCMS-371 DONE Creating Users/Permissions from Config.
+
+- SCMS-370 DONE Meta Data Auto Populate on Import.
+
+- SCMS-365 DONE Error Alert on Update Website for no reason.
+
+- SCMS-363 DONE Social Section is missing from Update User.
+
+- SCMS-352 DONE Package Import: Publish, Stage, and Save Not Selectable.
+
+- SCMS-347 DONE Remove Repeater, Detail Display Options from Inventory and Jobs.
+
+- SCMS-346 DONE Remove Calendar Options that do not trigger panel display.
+
+- SCMS-343 DONE Kill Confluence Doc Iframe, display Zendesk Docs.
+
+- SCMS-341 DONE Smartkrawl.com (Business Package) Final De-Bugging.
+
+- SCMS-340 DONE Mobile Responsive Issue on smartkrawl/webcorpco team page.
+
+- SCMS-338 DONE Add 404.stml.
+
+- SCMS-336 DONE Add Modified by to Category under Category.
+
+- SCMS-334 DONE Organize Documentation on Zendesk to Match Confluence.
+
+- SCMS-332 DONE Fix markup on File Upload button.
+
+- SCMS-331 DONE Add Find and Replace Function to CKEditor/Content Areas.
+
+- SCMS-330 DONE Created Google Alert System for Marketing.
+
+- SCMS-329 DONE Review code that creates SiteMap.
+
+- SCMS-327 DONE Migrate Documentation from Confluence to Zendesk.
+
+- SCMS-325 DONE Find solution to avoid [admin_only] shortcode workaround.
+
+- SCMS-324 DONE Add Select Box (Save, Stage, Publish) to Package Importer.
+
+- SCMS-310 DONE Fixing Google Analytics tracking issues.
+
+- SCMS-307 DONE Style Intranet Forgot Password Pages.
+
+- SCMS-302 DONE Copy Asset File not working.
+
+- SCMS-299 DONE Update the config.json file.
+
+- SCMS-293 DONE Solodev does not allow tilde or accent marks for categories.
+
+- SCMS-276 DONE CKEditor/WYSIWYG Issues.
+
+- SCMS-275 DONE update content for Comparison guide wp.
+
+- SCMS-273 DONE mobile adjustments // webcorpco.
+
+- SCMS-272 DONE add drop down menu for "about us" // webcorpco.
+
+- SCMS-265 DONE Shortcode Clients Manager.
+
+- SCMS-262 DONE Left Panell falls into a "glitch" and keeps cycling back to the top.
+
+- SCMS-261 DONE Left Panel: The expand triangle is very, very sensitive.
+
+- SCMS-257 DONE Shortcode Footer Contact Form.
+
+- SCMS-256 DONE Shortcode Slider Manager.
+
+- SCMS-253 DONE CMS solution comparison guide.
+
+- SCMS-250 DONE Style Resources Manager.
+
+- SCMS-248 DONE WebCorpCo Final Punch List.
+
+- SCMS-246 DONE Complete WebCorpCo Modules.
+
+- SCMS-244 DONE Make "Title" Required for STMLs only.
+
+- SCMS-243 DONE Need to move chevron (too close to chat chevron).
+
+- SCMS-242 DONE Build Module for Real Estate Listings.
+
+- SCMS-241 DONE WebCorpCo Site Edits for Demos.
+
+- SCMS-240 DONE Create global search for webcorpco.
+
+- SCMS-239 DONE Build Module for Automotive Listings.
+
+- SCMS-238 DONE Create generic Category, Date, Search action.
+
+- SCMS-234 DONE Cannot see 'Solodev' on initial login screen.
+
+- SCMS-232 DONE Process Package needs scrollbar.
+
+- SCMS-226 DONE Feedback: Admin has no way of knowing Task is Complete.
+
+- SCMS-219 DONE dynamicDiv button for CkEditor.
+
+- SCMS-217 DONE Create Expires On field for Asset_File.
+
+- SCMS-205 DONE Hitting tab in website url field directs to object chooser for websites folder.
+
+- SCMS-198 DONE Last Looks on WebCorpCo Web Pages and Module Functionality.
+
+- SCMS-191 DONE Calendar Types, future Dates.
+
+- SCMS-184 DONE Update Inventory: Object Chooser not Saving.
+
+- SCMS-177 DONE Draft New Solodev Documentation Hierarchy & Content.
+
+- SCMS-173 DONE Inventory Manager: Display Template Error.
+
+- SCMS-172 DONE Map out list of icons needed to switch out before launch.
+
+- SCMS-171 DONE Build eCommerce Theme.
+
+- SCMS-170 DONE Test Native Modules.
+
+- SCMS-169 DONE Need to add Delete Action in System->Websites.
+
+- SCMS-165 DONE Document all new features.
+
+- SCMS-164 DONE Build out AppStrap Theme for Solodev.
+
+- SCMS-163 DONE Build out Solodev Sandbox Theme.
+
+- SCMS-162 DONE Migrate Cart Templates to demo6.
+
+- SCMS-160 DONE Match Update Calendar Dropdown.
+
+- SCMS-154 DONE Update Folder: Restrict Access Issue.
+
+- SCMS-153 DONE Build FAQ Manager.
+
+- SCMS-150 DONE Dashboard: DTP Not Responsive.
+
+- SCMS-149 DONE Dashboard: Users on Site Now.
+
+- SCMS-145 DONE New Build STML File loses styles when edited inline.
+
+- SCMS-141 DONE Style Preview STML action bar.
+
+- SCMS-140 DONE Test new features.
+
+- SCMS-138 DONE AWS does not accept caps in URL.
+
+- SCMS-137 DONE Contact Us: Send Message Button.
+
+- SCMS-132 DONE Build Sandbox Themes for Free Trials.
+
+- SCMS-131 DONE Solodev Account->Validation: Changing Password->Address Fields.
+
+- SCMS-127 DONE Add Form: Move OK/Cancel Buttons to input as button group.
+
+- SCMS-123 DONE Run builder script on documentation  file.SCMS-87 DONE Documentation: Export HTML from Confluence.SCMS-6 DONE Create Solodev Ticket System.
+
+**Sub-task**
+
+- SCMS-321 DONE Rethink mobile navigation, left-nav cuts off screen, makes it difficult UX.
+
+- SCMS-320 DONE Panel Heading UI Needs Fix.
+
+- SCMS-319 DONE Cannot make inline edits on mobile / when there is other JS on page.

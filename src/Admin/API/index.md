@@ -108,7 +108,7 @@ Solodev API only supports JSON. All POST and DELETE requests require a valid JSO
 ### Search Parameters
 Each endpoint uses HTTP methods to perform CRUD (Create, Retrieve, Update, and Destroy) operations against Solodev resources. The CRUD operations are referred to as routes that consist of a variety of parameters. For example, the search route consists of six parameters listed below.  
 
-![Search Parameters](search_params.jpg) \
+![Search Parameters](search_params.jpg)
 
 ### Code Examples
 After passing the values into the parameters, users can click the Execute button to generate curl requests, Request URLs, or JSON responses. Example responses are provided below: 
@@ -120,11 +120,12 @@ After passing the values into the parameters, users can click the Execute button
 ***Request URL:***
 
 `https://localhost.solodev.net/api.php/datatable?qry=%7B%22date_modified%22%3A%20%7B%24regex%22%3A%221579636356%22%7D%7D&start=1&length=2&orderStr=%22date_modified%22&orderDir=ASC`
-
+ 
 
 ***Response Body:***
 
-```{
+```
+{
 
   "datatable": [
 
@@ -349,9 +350,12 @@ After passing the values into the parameters, users can click the Execute button
     }
 
   ]
-}```
+}
+```
 
- ## Creating and configuring API Tokens 
+
+
+## Creating and configuring API Tokens 
 
 Solodev empowers users to extend their data and content using a built-in Application Programming Interface (API). Solodev provides the user with two API sets:
 
@@ -471,5 +475,38 @@ In the previous article, the user learned how to generate an API key pair and us
 **Website** – The Website endpoint corresponds to the website object in Solodev CMS. The search route enables users to search all websites in the CMS. 
 
  
+## Module API Overview
+
+### Introduction
+
+The previous article provided users with an overview of the Solodev System API and its frequently used endpoints. This article shows the user how to use the Module API to target search across the blog module as opposed to all modules. With the Module API, users can individually target different module types custom to their environment for management and expose them to external publishing channels such as websites and mobile applications. 
+
+ 
+### Step 1 – Authorizing requests to API Module
+
+- Launch the Solodev Module API. 
+- Under the Authentication section click the GET /beartoken tab. 
+- Click the “Try it out” button and enter the values for the token and token_secret.
+- Click Execute to generate a response. 
+- Under the Response Body section, copy the token value without the quotes
+- Click Authorize and paste the token value into the textbox. 
+- Click Authorize. 
+- Click Close.  
 
 
+### Step 2 – Search Across Blog Module
+- Under the Blog Endpoints section, click the Search route to open it.
+- Click the “Try it out” button. 
+- In the text-box next to qry string, enter the search term. This example searches for blog entries with “LunarXP” in the title. 
+- Click Execute. 
+- The Response Body returns blog entries with LunarXP in the title.
+
+
+
+
+
+
+ 
+
+
+ 
