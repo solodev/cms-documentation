@@ -2,6 +2,10 @@
 
 ## Introduction
 
+Solodev features an enterprise permissions management system that allows administrators to specify the ‘Actions’ and ‘Resources’ available to specific users and groups. Solodev supports granular permissions so that administrators can create a permission system as broad or as specific as needed.
+
+### What are Users
+
 Users are the people who have the authorization to access and interact with Solodev’s resources. Administrators can assign users to groups based on specific criteria – harnessing the power of granular permissions.  
 
 Note: Administrators can mimic their organization’s structure by utilizing user groups to provide departments access and functionality specific to their jobs. 
@@ -29,6 +33,27 @@ Administrators can use the following actions to manage users.
 | Login as User | Allows an adiministrator to login as the user for troubleshooting purposes |
 | Permissions | View a user's group and objective permissions |
 | Apps | Set user permissions to objects in the Solodev dashboard |
+
+ 
+
+## User permissions in Action
+
+![user_permissions](user_permissions.jpg)
+
+![user_permissions part 2](user_permissions_p2.jpg)
+
+### A user and their permissions
+
+In the examples above, the user has been given administrative permissions for Websites, Modules, and Documents as well as view permissions for all Support objects.
+
+ 
+
+As a result, the user will have access to the following Dashboard that allows them to access Websites, Modules, Documents and all Support objects.
+
+![user_permissions part 3](user_permissions_p3.jpg)
+
+
+Permissions can be assigned to either users or groups directly. The instructions to assign permissions to users, please refer to the Managing users section of this document.  
 
 
 ## Managing users
