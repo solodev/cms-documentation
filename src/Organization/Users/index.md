@@ -72,3 +72,47 @@ This article shows administrators how to add and remove users from Solodev CMS a
 
 - Type ‘DELETE’ in text box below and click the Delete button to the right of the text box.
 
+## Assigning users to objects
+
+Solodev supports granular permissions that allows administrators to create a permission system – assigning users and groups to specific objects. This document will show the administrator how to assign users to specific actions and resources. 
+
+### Step 1 -- Assigning users to specific actions or resources
+
+- Select Websites located below the Workspace section. 
+
+- Select the row in the members column associated with the desired website to bring up the permissions column.
+
+![adding users to objects step one](adding_users_to_objects.jpg)
+
+- Enter the Name of the user and select the Role.
+
+- Click the + button to add the user. 
+
+![adding users to objects step two](adding_users_to_objects_p2.jpg)
+
+- Click Submit. 
+
+![adding users to objects step three](adding_users_to_objects_p3.jpg)
+
+- The user(s) appear in the row of the members column associated with the selected website. 
+
+![adding users to objects step four](adding_removing_users_to_objects_p4(1).jpg)
+
+
+### Step 2 -- Removing Users from Specific Actions or Resources
+
+- Select Websites located below the Workspace section. 
+
+- Select the row containing the member to be removed.
+
+![removing users from objects step 1](adding_removing_users_to_objects_p4(2).jpg)
+
+- Click the X to the right of the username.
+
+![removing users from objects step 2](removing_users_from_objects_p2.jpg)
+
+- Click Submit.
+
+![removing users from objects step 3](removing_users_from_objects_p3.jpg)
+
+![removing users from objects step 4](removing_users_from_objects_p4.jpg)
