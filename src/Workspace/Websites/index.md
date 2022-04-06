@@ -55,6 +55,7 @@ After that, log into your account and you'll see that the website is added to yo
 
 ## Website file structure in Solodev
 
+
 ### Introduction
 
 Solodev has a unique site structure that is designed for easily building efficient, well-organized websites. After your website has been setup in Solodev, your website will be broken into two folders: web files and www:
