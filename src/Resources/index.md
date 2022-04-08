@@ -1148,13 +1148,13 @@ To obtain the video id:
 
 - Click the Share button on the right just below the vldeo.
 
-[Embedding youtube videos with shortcodes](youtube_1.png)
+![Embedding youtube videos with shortcodes](youtube_1.png)
 
 - Select the Embed Link and copy the video's YouTube ID[^1]. 
 
-[Embedding youtube videos with shortcodes](youtube_2.png)
+![Embedding youtube videos with shortcodes](youtube_2.png)
 
-[Embedding youtube videos with shortcodes](youtube_3.png)
+![Embedding youtube videos with shortcodes](youtube_3.png)
 
 - Insert the shortcode at the appropriate place in the tpl or html file associated with your page. 
 
