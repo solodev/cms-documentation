@@ -803,3 +803,719 @@ Code block here
 
 ---
 
+**Tag Filter:** Provides users with the ability to filter module entries by tags. 
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[id]`(optional) | Specify an id for CSS styling. | 
+| `[class]`(optional) | Specify a class for CSS styling. | 
+
+
+***Shortcode:***
+`[tag_filter]`
+
+***Code Example:*** 
+
+`[tag_filter id="my-select-id" class="my-select-class]`
+
+---
+
+**Entry Tags Repeat:** Retrieves the tags to be displayed.
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[id]`(required) | id of the manager where the data is pulling from. |
+| `[type]`(optional) | Specifies what type of manager the data is pulling from (default: calendar). |
+
+
+***Shortcode:***
+
+`[entry_tags_repeat]`
+
+
+***Code Example:*** 
+
+```
+[entry_tags_repeat id="{{calendar_entry_id}}"]
+      <a class="text-capitalize" href="/blog/tags/{{{name}}}.stml"><u>  {{{title}}}</u></a>
+[/entry_tags_repeat]
+
+```
+
+---
+
+**Category Repeat:** Retrieves the categories to be displayed.
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[parent_id]`(optional) | Allows the user to create subcategories. |
+| `[order]`(optional) | | 
+
+***Shortcode:***
+
+`[cat_repeat]`
+
+***Code Example:*** 
+
+`[cat_repeat parent_id = "###"]`
+
+---
+
+**Repeat Entries Exist:** Checks to see if blog entries exist. 
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[id]`(required) | id of the manager where the data is pulling from. |
+| `[type]`(optional) | Specifies what type of manager the data is pulling from (default: calendar). | 
+| `[order]`(optional) | Specifies how the repreater will organize the data such as by "start_time desc" which will organize entries by the latest start time first. |
+| `[display_type]`(optional) | Changes the date filter (Options: “news”, “events”). |
+| `[category_filter]`(optional) | Filter list of entries by category. |
+| `[tag_filter]` (optional) | Filter list of entries by tags selected in a textbox. |
+| `[pages]` (optional) | Paginate list of entries. |
+| `[offset]` (optional) | Skip entries at the start of the query. (For example, offset = “5” skips the first five entries in the list. |
+| `[where]`(optional) | Perform a SQL query on the database. |
+| `[website_filter]`(optional) | Filter list of news items by website. |
+| `{{field_name}}` | Insert the names of your HTML fields inside these curly braces to print out the appropriate variable. You can find the field_name on your Table Schema. |
+
+***Shortcode:***
+
+`[repeater_entries_exists]`
+
+***Code Example:*** 
+
+`[repeater_entries_exists id = '###' type = "calendar" limit="0,4"]`
+
+**Calendar Entry Attachments:** Gathers the attachments of a module and prints them, much like a repeater, onto a single web page. This is used in the photo gallery modules and document share. 
+
+***Note:*** The photo gallery option must be activated on the module. The steps to do so are outlined below.
+
+***Activating Photo Gallery***
+
+- Open the blog module and click Modify.
+
+![activate your photo gallery step 1](act_photo_gallery_1.png)
+
+- Click the arrow in the Advanced accordion in the modal window to expand it.
+
+![activate your photo gallery step 2](act_photo_gallery_2.png)
+
+- Scroll down and click the checkbox beside Enable Attachments / Gallery.
+
+- Click Submit. 
+
+![activate your photo gallery step 2](act_photo_gallery_3.jpg)
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[id]`(required) | ID of the module from which the data pulling. |
+
+***Shortcode:***
+
+`[calendar_entry_attachments_repeat]`
+
+***Code Example:*** 
+
+```
+
+[calendar_entry_attachments_repeat id={{calendar_entry_id}}]
+  <div class="item">
+    <a data-gallery="multiimages" data-toggle="lightbox" href="{{{attachment_url}}}">
+      <img src="{{{attachment_url}}}" />
+    </a>
+  </div>
+[/calendar_entry_attachments_repeat]
+
+```
+
+---
+
+**Calendar Entry Categories:** Gathers the categories of a module and prints them onto a single web-page.
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[id]`(optional) | ID of the module from which the data is coming. |
+
+***Shortcode:***
+
+`[entry_categories_repeat]`
+
+***Code Example:*** 
+
+```
+
+<div class="services">
+  <h3>Services Included</h3>
+  [entry_categories_repeat id="{{calendar_entry_id}}"]
+    <p>{{{title}}}</p>
+  [/entry_categories_repeat]
+</div>
+
+```
+
+---
+
+**Full Calendar:** This shortcode creates a representation of the full calendar plugin and retrieves calendar entries using the calendar ID of the module in question 
+
+**Full Calendar Includes:** Returns libraries for a full calendar fullcalendar.io/ This is used on the events modules. This shortcode has no attributes. 
+
+  
+***Note:*** 
+
+- [js_full_calendar_includes] and [js_full_calendar] work together. You will need to include both codes in the page in order for it to work.
+
+- Add [js_full_calendar_includes] at the top of the page.
+
+- You need to choose Events as the calendar type.
+
+***Attributes [js_full_calendar]:***
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[calendar_id]`(required) | ID of the calendar. |
+
+
+***Shortcode:***
+
+```
+[js_full_calendar_includes]
+[js_full_calendar]
+
+```
+
+***Code Example:*** 
+
+`[js_full_calendar calendar_id="110"]`
+
+---
+
+**Event Date:** Prints the event end date, typically along with the event’s start date and end time according to [PHP’s date function](https://www.php.net/manual/en/function.date.php). This is used in the events module.
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[format]`(required) | The date format to be returned. | 
+| `[separator]`(optional) | Separates the month, day, and year. | 
+
+***Shortcode:***
+
+`[print_event_end]`
+
+***Code Example:*** 
+
+```
+
+[entry]
+  <h2>{{name}}</h2>
+  <div class="media">
+    [print_date format="F j, Y g:ia" timestamp="{{start_time}}"] [print_event_end format="F j, Y g:ia"]
+  </div>
+[/entry]
+
+```
+
+---
+
+**Solodev Form:** Populates the form from a module by a specified datable ID. 
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+|`[id]`(required) | ID of the datatable where to GET and POST entries. |
+| `[title]`(optional) | Name of the folder to display on the frontend. |
+
+
+***Shortcode:***
+
+`[form]`
+
+***Code Example:*** 
+
+`[form id="40"]`
+
+---
+
+**Landing Page Form:** place a form in blog entries and landing pages.
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[id]`(required) | id of the form. | 
+
+
+***Shortcode:***
+
+`[landing_page_form]`
+
+***Code Example:*** 
+
+`[landing_page_form id="40"]`
+
+---
+
+**CAPTCHA:** Generates a CAPTCHA code image with input field to be included on a form to limit computer-generated form entries. This shortcode has no attributes. 
+
+***Shortcode:***
+
+`[captcha]`
+
+***Code Example:*** 
+
+```
+[captcha]
+
+<input type="submit" class="btn btn-primary" value="Submit">
+
+```
+
+---
+
+###  Miscellaneous shortcodes
+
+**Google Search with Ads:** Embed Google Custom Search with ads on the website.
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[google_cse_id]`(required) | Specify Google Custom Search ID. | 
+
+
+***Shortcode:***
+
+`[google_search]`
+
+***Code Example:*** 
+
+`[google_search google_cse_id="XXXXXXXXXXXXXXXXXX"]`
+
+---
+
+**Google Search No Ads:** Embeds Google Custom Search without ads on the website.
+
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[google_cse_id]`(required) | Specify Google Custom Search ID. |
+| `[google_api_key]`(required) | Google Custom Search ID. |
+
+
+***Shortcode:***
+
+`[google_website_search]`
+
+
+***Code Example:*** 
+
+`[google_website_search google_cse_id="XXXXXXXXXXXXXXXXXX" google_api_key="XXXXXXXXXXXXXXXXXX"]`
+
+---
+
+**YouTube:** Embed YouTube videos to your website. The YouTube video shortcode has two attributes, one required and one optional, listed below.
+
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[youtube id]`(required) | Specify YouTube video id. |
+| `[youtube aspect_ratio]`(optional) | Specify YouTube video aspect ratio. Default is 16:9. |
+
+
+***Shortcode:***
+
+`[youtube id="fg_O2cdOQxA"]`
+
+***Code Example:*** 
+
+To obtain the video id: 
+
+- Browse to the YouTube page where your video is hosted.
+
+- Click the Share button on the right just below the vldeo.
+
+[Embedding youtube videos with shortcodes](youtube_1.png)
+
+- Select the Embed Link and copy the video's YouTube ID[^1]. 
+
+[Embedding youtube videos with shortcodes](youtube_2.png)
+
+[Embedding youtube videos with shortcodes](youtube_3.png)
+
+- Insert the shortcode at the appropriate place in the tpl or html file associated with your page. 
+
+- `[youtube id="fg_O2cdOQxA"]`
+
+- Review and click Publish to save your changes.
+
+**Note:** In terms of the best practices, we don't recommend uploading any videos to the CMS due to file size and playback performance. For alternate streaming options such as Wowza, Vimeo, or Wistia, please ==[contact us](help@solodev.com)==.
+
+
+[^1]: For example, if the link reads https://www.youtube.com/embed/fg_O2cdOQxA?controls=0, you only need to copy the fg_O2cdOQxA after the forward slash.
+
+---
+
+**Conditionals:** Provides functionality to add a conditional statement to the template. Much like standard if/else statements, the `[cond]` shortcodes allows the user to create conditional statements with little coding knowledge.
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[type]`(required) | is, is_not, greater_than, less_than. |
+| `[subject]`(required) | The thing being compared. A subject is typically a variable. For example: `[contype=is_not subject=”start_time” || [value=”end_time”] The event has not started yet…[/cond]`. |
+| `[value]`(required) | What to compare it to. |
+
+
+***Shortcode:***
+
+`[cond]`
+
+***Code Example:*** 
+
+`[cond type=is subject="{{index}}%3" value=0] code goes here… [/cond]`
+
+---
+
+**Sub Conditional:** Operates much like an if/else or else statement. It is the child of the parent conditional statement. 
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[type]`(required) | is, is_not, greater_than, less_than. | 
+| `[subject]`(required) | The thing being compared. A subject is typically a variable. For example: `[contype=is_not subject=”start_time” || [value=”end_time”] The event has not started yet…[/cond]`. |
+| `[value]`(required) | What to compare it to. |
+
+
+***Shortcode:***
+
+`[sub_cond]`
+
+***Code Example:*** 
+
+```
+[cond type=is subject="{{index}}%3" value=0] 
+  [sub_cond type=is_not subject="{{index}}" value=0]
+    </div>
+    <div class="row">
+  [/sub_cond] 
+[/cond]
+
+```
+
+---
+
+**Is Set:** Verifies that a given variable is set. For example, is_set can be used to verify if a user variable is set, such as active, and execute functions accordingly. 
+
+| Attributes | Description |
+| ----------- | ----------- |
+|`[value]`(required) | Value of the object set. |
+
+***Shortcode:***
+
+`[is_set]`
+
+***Code Example:*** 
+
+```
+
+[is_set value="{{image}}"]
+  <img alt="{{event_title}}" class="img-thumbnail img-responsive" src="[get_asset_file_url id={{image}}]"> 
+[/is_set]
+
+```
+
+---
+
+**Is Empty:** Verifies that a given variable is empty. For example, is_empty can be used to verify is a user variable empty and execute functions accordingly. 
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[value]`(required) | Value of the object set. |
+
+
+***Shortcode:***
+
+`[is_empty]`
+
+***Code Example:*** 
+
+```
+[is_empty value="{{image}}"]
+  <img alt="{{event_title}}" class="img-thumbnail img-responsive" src="/core/fileparse.php/268/urlt//placehold.it/360x245"> 
+[/is_empty]
+
+```
+
+---
+
+**Value Set:** Verifies that a specified value set. 
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[override]`(required) | Used if the default being passed as an argument is not set. |
+| `[default]`(optional) | Default attributes. | 
+
+***Shortcode:***
+
+`[value_isset]`
+
+
+***Code Example:*** 
+
+```
+
+<div landing-section-firstContent">
+  <h1 class="landing-h1">[value_isset default="{{name}}" override="{{h1_title}}"]</h1>
+</div>
+
+```
+
+---
+
+**Random:** Returns a random number.
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[min]`(optional) | The lowest value to return(default: 0). | 
+| `[max]`(optional) | The highest value to return (default: 50000). |
+
+***Shortcode:***
+
+`[random]`
+
+***Code Example:*** 
+
+`[random min = 3 max = 7] (prints a random number between 3 and 7 that includes 3 and 7).`
+
+--- 
+
+**Month Filter:** Month filter from January to December.
+
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[id]`(optional) | Specify an id for CSS styling. | 
+| `[class]`(optional) | Specify a class for CSS styling. |
+| `[label]`(optional) | Specifies a label for the select box. |
+
+
+***Shortcode:***
+
+`[month_filter]`
+
+***Code Example:*** 
+
+```
+<div class="row">
+  <div class="col-md-4 form-group">
+    [month_filter class="month_filter"]
+  </div>
+</div>
+
+```
+
+---
+
+**Login/Logout:** Creates a link to log in or log out of a given session.
+
+***Attributes:***
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[logout_redirect]`(optional) | Where to send the user after they are logged out (default: /). | 
+| `[login_page]`(optional) | Page where the user can log in (default: /login.stml). |
+
+
+***Shortcode:***
+
+`[login_logout_link]`
+
+***Code Example:*** 
+
+```
+
+[login_logout_link logout_redirect="/contact/" login_page="/welcome/"]
+
+```
+
+### Building custom shortcodes
+
+With Solodev CMS, users can utilize shortcodes to build dynamic, feature rich applications with maximum functionality and little coding knowledge. Solodev CMS 9 allows developers to create their own custom shortcodes that can be leveraged to create custom modules inside Solodev. This article teaches developers how to build custom shortcodes in Solodev 9. For example, this document will build a hello world short code. 
+
+ 
+
+**Step 1: Create a PHP short code file** 
+ 
+
+- Open the www folder and create a shortcodes folder. 
+
+- Open the shortcodes folder and create a shortcodes.php file. 
+
+- Select Code under the File Type section of the Add File modal and append the .php extension to the file name. 
+
+- In the shortcodes.php file create a shortcode function called ‘hello’ The name of the function is the name of the shortcode. In the code below, attributes are passed to the function as arguments and the required Solodev function is called.  
+
+```
+<?php
+function hello($atts, $content = null){
+
+notify_solodev_shortcode();
+
+}
+?>
+
+```
+
+- Create a PHP variable called $hello to store the string value “hello world” and return the contents of the variable: 
+
+```
+
+$hello = "Hello world!";
+
+return $hello;
+
+```
+
+- After creating a function to return the contents of the $hello variable, add this function to create the shortcode: 
+
+`add_shortcode('hello', 'hello');`
+
+- Click Publish.
+
+- The full code block for the hello shortcode is listed below: 
+
+```
+
+<?php
+function hello($atts, $content = null){
+
+notify_solodev_shortcode();
+
+$hello = "Hello world!";
+
+return $hello;
+
+}
+
+add_shortcode('hello', 'hello');
+
+?>
+
+```
+
+**Note:** Every shortcode function should be written in the following format -- passing the variables $atts and $content as arguments and assigning $content to a null value.
+
+```
+function foo_bar($atts, $content = null) {
+  notify_solodev_shortcode(); }
+
+```
+
+**Step 2: Mapping the shortcode file to the website**
+
+- To map the shortcode created, open the website and click Settings to bring up the Settings modal. 
+
+- Expand the Advanced accordion. 
+
+- Under the ‘Custom Shortcodes File’ section click Browse.
+
+- Select the shortcodes.php file. 
+
+- Click Submit. 
+
+
+**Step 3: Adding the shortcode to a .tpl file**
+
+- Expand the web files -> content directory and open the folder that will contain the .tpl file. 
+
+- Create the .tpl file. Select Code under the File Type and append .tpl to the filename. 
+
+- Open the .tpl file and type: `hello`
+
+- Click Publish.
+
+
+**Step 4: Displaying the contents of the shortcode on the website**
+
+- Open the page that will contain the .tpl file with the shortcode.
+
+- Select the dropzone.
+
+- Click the .tpl file to insert it into the dropzone. 
+
+- Click Publish.
+
+- The contents of the string are displated on the page.
+
+**Note:** When the $content value is set to null, users can set the content within the shortcode using the following format: 
+
+```
+
+[hello]
+
+My content goes here
+
+[/hello]
+
+```
+
+An example of this is reflected in the repeater shortcode:
+
+```
+
+[repeater id="##" limit="0,2"]
+<h2>{{event_title}}</h2>
+<p>{{blog_intro}}</p>
+<a href="{{path}}">{{event_title}}</a>
+[/repeater]
+
+```
+
+**Note:** Note: The $atts variable allows users to set strings and variables when using shortcodes. With the following print_date shortcode,
+
+ ```
+<?php
+
+function print_date($atts, $content = null){
+notify_solodev_shortcode();
+if(!isset($atts['format']))
+    return "format is required";
+  if($atts["datestring"])
+    $timestamp = strtotime($atts["datestring"]);
+  else if($atts["timestamp"])
+    $timestamp = $atts["timestamp"];
+  else
+    $timestamp = time();
+  return date($atts["format"], $timestamp);
+}
+add_shortcode('print_date', 'print_date');
+?>
+
+ ```
+ 
+ users can print the date and time by entering the following short code into a .tpl file and adding it to a page: 
+
+ `[print_date format="F j, Y, g:i a"]`
