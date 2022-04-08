@@ -1,5 +1,6 @@
 
 # Workspace
+
 *Learn how to use the Solodev Dashboard*
 
 The Solodev Dashboard was built to serve as your command center for building amazing websites and applications. From one central location, you can access all of the resources you need in your Solodev environment to build and manage content. 

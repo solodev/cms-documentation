@@ -1,6 +1,8 @@
 
 # Solodev Modules
+
 *Manage content effectively with modules*
+
 ---
 
 ## What are modules? 
