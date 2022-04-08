@@ -1,8 +1,11 @@
+
 # Resources
 
-## Shortcodes
+*From shortcodes to shortcuts, find quick tips and tricks to improve your content operations.* 
 
-### Introduction to shortcodes
+---
+
+## Shortcodes
 
 Shortcodes allows the user to enhance the functionality of their site and gives them the ability to create special features that will distinguishes their site from the competition. Solodev shortcodes are the contextual templating language of Solodev. With a templating language, users are able to code directly against their site content – allowing developers and content editors to work in tandem. 
 

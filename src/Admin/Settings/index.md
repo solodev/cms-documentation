@@ -1,8 +1,9 @@
+
 # Settings
 
-## Introduction
-
 Solodev provides administrators with the ability to manage bits of information related to their organization, domain and Solodev instance. From the settings page users can manage native Solodev applications, workflows, usage reports, branding and advanced configurations. This document will show the user how to access the settings dashboard and provide a summary of each settings category in the dashboard. 
+
+---
 
 ## Accessing Solodev Settings
 
@@ -13,6 +14,7 @@ Solodev provides administrators with the ability to manage bits of information r
 - The user is directed to a page blank page with a settings dashboard. 
 
 - Click on a category to get populate the page and get started. 
+
 
 ## Settings Categories
 

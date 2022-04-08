@@ -1,10 +1,11 @@
+
 # Solodev Modules
+*Manage content effectively with modules*
+---
 
 ## What are modules? 
 
 What do image galleries, blogs, calendars, forms have in common? They all store data such as images, blog entries, dates and contact information. In Solodev, modules are leveraged to manage this data. Modules allow the user to manage any type of data. Modules are one of the most powerful objects in Solodev CMS; they can be as simple or complex as necessary. They can be used to power:
-
- 
 
 - Web Forms
 

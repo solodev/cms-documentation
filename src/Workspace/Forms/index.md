@@ -1,8 +1,10 @@
-# Solodev Forms
 
-## An Introduction to Solodev Forms
+# Forms
+*Create forms with Solodev's graphical form interface.* 
 
-### What is Solodev Form Builder
+--
+
+## What is Solodev Form Builder?
 
 Form Builder serves as the gateway for capturing and sending data from one location to another. Form builder is a dynamic drag-and-drop templating system that simplifies the creation of website forms with little or no code.
 

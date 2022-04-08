@@ -1,20 +1,22 @@
 # Websites
 
-## Introduction
-
 Solodev is a multi-site platform. You can run as many websites and apps in one place with a single login and switch between websites easily. Each website is self-contained meaning they have separate sources such as files and folders. When adding websites, each website will be installed from scratch with their own theme resources but they can share resources . There is also no FTP, hidden files, or need to log into the server.
 
 ![Add a website](adding_a_website.png)
 
 In order to switch between different websites, simply click on "Websites" on the Tree and click on the website you'd like to customize. 
 
- 
+---
+
+## Connecting your domain
 
 Prior to moving forward in Solodev, you must first buy a domain which you will eventually point to your Solodev deployment. Notable domain providers include GoDaddy.com, NameCheap.com, NetworkSolutions.com, or BlueHost.com.
 
  
 
-Once you have your domain name, connect your domain to Solodev by following the instructions below:
+Once you have your domain name, connect your domain to Solodev by following the instructions below.
+
+
 
 ### Step 1 Add your Domain to Solodev
 
@@ -53,10 +55,9 @@ After that, log into your account and you'll see that the website is added to yo
 
 ![Websites Folder](websites_folder.png)
 
+
+
 ## Website file structure in Solodev
-
-
-### Introduction
 
 Solodev has a unique site structure that is designed for easily building efficient, well-organized websites. After your website has been setup in Solodev, your website will be broken into two folders: web files and www:
 
