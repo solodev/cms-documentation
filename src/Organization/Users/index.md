@@ -1,10 +1,13 @@
+
 # Solodev Users
 
-## Introduction
+*Learn how to manage access to Solodev resources with users and groups.*
 
 Solodev features an enterprise permissions management system that allows administrators to specify the ‘Actions’ and ‘Resources’ available to specific users and groups. Solodev supports granular permissions so that administrators can create a permission system as broad or as specific as needed.
 
-### What are Users
+---
+
+## What are Users?
 
 Users are the people who have the authorization to access and interact with Solodev’s resources. Administrators can assign users to groups based on specific criteria – harnessing the power of granular permissions.  
 

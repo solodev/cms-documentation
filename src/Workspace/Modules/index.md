@@ -1,7 +1,7 @@
 
 # Solodev Modules
 
-*Manage content effectively with modules*
+*Manage content effectively with modules.*
 
 ---
 

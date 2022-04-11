@@ -1,8 +1,11 @@
+
 # Permissions
 
-## Introduction
+*Learn best practicies for permissions.*
 
 Solodev recommends using Groups to manage user permissions. Groups should reflect an administrator’s organizational structure. Users who perform similar tasks should be assigned to groups sharing the same criteria. Solodev recommends creating groups and setting group permissions before inviting users to the Solodev CMS system. Solodev does not recommend assigning individual users to resources or setting permissions for individual users. This article will outline the process for creating a group, inviting a user to Solodev CMS, adding a user to a group, and assigning groups to specific actions and resources.
+
+---
 
 ## Creating User Groups
 
