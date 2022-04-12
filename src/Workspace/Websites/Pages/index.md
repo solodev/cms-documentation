@@ -148,7 +148,7 @@ The two-column template we have has a left navigation and a content area on the 
 
 Here's the code for the two-column template:
 
-```
+```html
 <section class="container py-5" id="maincontent">
   <div class="row">
     <div class="col-md-8 col-lg-9 order-md-1">
@@ -311,7 +311,7 @@ When you select and HTML file or a template file on the file tree, you hover ove
 
 As an example, let's take a look at a section inside a sample basetemplate file:
 
-```
+```html
 
 <!-- Top Nav -->
 <div class="dynamicDiv"></div>
