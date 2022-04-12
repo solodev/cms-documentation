@@ -1,5 +1,7 @@
 # Solodev API 
 
+*Create headless applications with Solodev API*
+
 ## RESTful features of the Solodev API
 
 
@@ -124,7 +126,7 @@ After passing the values into the parameters, users can click the Execute button
 
 ***Response Body:***
 
-```
+```json
 {
 
   "datatable": [

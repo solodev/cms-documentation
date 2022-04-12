@@ -74,7 +74,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 [entry]
 <div class="blog-wrapper">
 <h1>{{article_title}}</h1>
@@ -101,7 +101,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 <div class="row">
   <div class="col-md-8">
     <img alt="[get_asset_file_name id={{image}}]" src="[get_asset_file_url id={{image}}]">
@@ -128,7 +128,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 <div class="col-sm-8">
   <h2>{{event_title}}</h2>
   <span class="news-date">[print_date format="F d, Y g:ia" timestamp="{{start_time}}"]</span>
@@ -146,7 +146,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 
 <a class="[lower_case]{{event_title}}[/lower_case]">
   <img alt="[get_asset_file_url id={{clientLogo}}]" src="[get_asset_file_url id={{clientLogo}}]">
@@ -174,7 +174,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 
 <a class="[no_spaces]{{event_title}}[/no_spaces]">
   <img alt="Image" src="/images/logo.png">
@@ -200,7 +200,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 [contact_form_login forward_to="/my-account/" username_field="username" password_field="password"]
           <div class="form-group">
             <label for="username">Email</label>
@@ -236,7 +236,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 [contact_form_signup forward_to="/my-account/" username_field="email" password_field="password"]
         <div class="form-group row">
           <label class="col-md-3 control-label" for="email">Email</label>  
@@ -275,7 +275,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 
 [contact_form_update username_field="accountname" password_field="password" email_field="email"]
 <div class="row">
@@ -320,7 +320,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 
 [contact_form_forgot forward_to="/password-confirm.stml" username_field="username" password_field="password" email_field="mail"]
           <div class="form-group row">
@@ -353,7 +353,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 
 [contact_form_reset forward_to="/my-account/"]
          <div class="form-group">
@@ -399,7 +399,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 <h1>[page_title]</h1> --> Services
 <p>[page_description]</p> --> The Best Services on the Web!
 
@@ -415,7 +415,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 <h2 class="aside-header">[parent_title]</h2> 
 <a class="btn btn-arrow btn-motive" href="/contact-us.stml"><span>Contact Us</span>
   <img src="/core/fileparse.php/14751/urlt/assets/images/arrow-right.png" alt="Arrow Right">
@@ -445,7 +445,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 <section class="ct-page_title">
   <h1>[section_title]<h1>
 </section>
@@ -488,7 +488,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 <div class="nav main-nav">
   [solodev_nav parent_category_id="14742" levels="2" nav_class="navbar-nav navbar-right"]
 </div>
@@ -512,7 +512,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example:***
 
-```
+```html
 
 <div class="breadcrumb-container">
   <ul class="breadcrumb">
@@ -559,7 +559,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example using Font Awesome:***
 
-```
+```html
 <div class="col-md-4">
   [social_share_fa domain="www.webcorpco.com" protocol="http" facebook="true" twitter="true" linkedin="true"]
 </div>
@@ -568,7 +568,7 @@ This framework enables developers to create special kinds of content and functio
 
 ***Code Example using Images:***
 
-```
+```html
 
 <div class="col-md-4">
   [social_share_img domain="www.webcorpco.com" protocol="http" facebook="true" twitter="true" linkedin="true"]
@@ -673,7 +673,7 @@ Code block here
 
 ***Code Example:***
 
-```
+```html
 [entry]
   <h1>{{name}}</h1>
   <p>{{blog_content}}</p>
@@ -696,7 +696,7 @@ Code block here
 
 ***Code Example:***
 
-```
+```html
 
 [entry]
   <h1>{{name}}</h1>
@@ -751,7 +751,7 @@ Code block here
 
 ***Code Example:***
 
-```
+```html
 
 <div class="row">
   <div class="col-md-4">
@@ -842,7 +842,7 @@ Code block here
 
 ***Code Example:*** 
 
-```
+```html
 [entry_tags_repeat id="{{calendar_entry_id}}"]
       <a class="text-capitalize" href="/blog/tags/{{{name}}}.stml"><u>  {{{title}}}</u></a>
 [/entry_tags_repeat]
@@ -924,7 +924,7 @@ Code block here
 
 ***Code Example:*** 
 
-```
+```html
 
 [calendar_entry_attachments_repeat id={{calendar_entry_id}}]
   <div class="item">
@@ -952,7 +952,7 @@ Code block here
 
 ***Code Example:*** 
 
-```
+```html
 
 <div class="services">
   <h3>Services Included</h3>
@@ -1016,7 +1016,7 @@ Code block here
 
 ***Code Example:*** 
 
-```
+```html
 
 [entry]
   <h2>{{name}}</h2>
@@ -1210,7 +1210,7 @@ To obtain the video id:
 
 ***Code Example:*** 
 
-```
+```html
 [cond type=is subject="{{index}}%3" value=0] 
   [sub_cond type=is_not subject="{{index}}" value=0]
     </div>
@@ -1234,7 +1234,7 @@ To obtain the video id:
 
 ***Code Example:*** 
 
-```
+```html
 
 [is_set value="{{image}}"]
   <img alt="{{event_title}}" class="img-thumbnail img-responsive" src="[get_asset_file_url id={{image}}]"> 
@@ -1259,7 +1259,7 @@ To obtain the video id:
 
 ***Code Example:*** 
 
-```
+```html
 [is_empty value="{{image}}"]
   <img alt="{{event_title}}" class="img-thumbnail img-responsive" src="/core/fileparse.php/268/urlt//placehold.it/360x245"> 
 [/is_empty]
@@ -1284,7 +1284,7 @@ To obtain the video id:
 
 ***Code Example:*** 
 
-```
+```html
 
 <div landing-section-firstContent">
   <h1 class="landing-h1">[value_isset default="{{name}}" override="{{h1_title}}"]</h1>
@@ -1331,7 +1331,7 @@ To obtain the video id:
 
 ***Code Example:*** 
 
-```
+```html
 <div class="row">
   <div class="col-md-4 form-group">
     [month_filter class="month_filter"]
@@ -1381,7 +1381,7 @@ With Solodev CMS, users can utilize shortcodes to build dynamic, feature rich ap
 
 - In the shortcodes.php file create a shortcode function called ‘hello’ The name of the function is the name of the shortcode. In the code below, attributes are passed to the function as arguments and the required Solodev function is called.  
 
-```
+```php
 <?php
 function hello($atts, $content = null){
 
@@ -1410,7 +1410,7 @@ return $hello;
 
 - The full code block for the hello shortcode is listed below: 
 
-```
+```php
 
 <?php
 function hello($atts, $content = null){
@@ -1431,7 +1431,7 @@ add_shortcode('hello', 'hello');
 
 **Note:** Every shortcode function should be written in the following format -- passing the variables $atts and $content as arguments and assigning $content to a null value.
 
-```
+```php
 function foo_bar($atts, $content = null) {
   notify_solodev_shortcode(); }
 
@@ -1487,7 +1487,7 @@ My content goes here
 
 An example of this is reflected in the repeater shortcode:
 
-```
+```html
 
 [repeater id="##" limit="0,2"]
 <h2>{{event_title}}</h2>
@@ -1499,7 +1499,7 @@ An example of this is reflected in the repeater shortcode:
 
 **Note:** Note: The $atts variable allows users to set strings and variables when using shortcodes. With the following print_date shortcode,
 
- ```
+ ```php
 <?php
 
 function print_date($atts, $content = null){

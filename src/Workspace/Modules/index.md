@@ -61,7 +61,7 @@ What do image galleries, blogs, calendars, forms have in common? They all store 
 
 The previous chapter provided the user with an overview of Modules and the web applications the user can build with them. This article will provide the user with a high-level overview of leveraging modules to manage their content. 
 
-### Step 1 -- Creating a module
+### Step 1: Creating a module
 
 - Click Modules located in the Workspace section of the Solodev Dashboard.
 
@@ -82,7 +82,7 @@ The previous chapter provided the user with an overview of Modules and the web a
 
 Note: The module folder reflects the name of the module. 
 
-### Step 2 – Adding a module entry
+### Step 2: Adding a module entry
 - Open the web files -> managers -> Blog Module folder. 
 
 - Click on the Blog Module to open it. 
@@ -114,13 +114,13 @@ Note: To save the blog entry without publishing it to the front end click Draft.
 
 Note: Leaving the End Date blank makes the blog post permanent. Leaving the End Date blank on an event based calendar removes the event 24 hours after the Start Date. 
 
-### Step 3 – Viewing entry details
+### Step 3: Viewing entry details
 
 - Open the Blog Module folder and click Blog Module to open it.
 
 - Click on the pen and paper icon to open the entry in a new tab.
 
-### Step 4 – Exporting module entries
+### Step 4: Exporting module entries
 
 - Open the Blog Module folder and click Blog Module or the name of the module to open it. 
 
@@ -134,7 +134,7 @@ Note: Leaving the End Date blank makes the blog post permanent. Leaving the End 
 Note: Users can export up to 250 entries at once. Click the select box below all the entries and choose the desired number entries per page before selecting all entries.  
 
 
-### Step 5 – Deleting module entries
+### Step 5: Deleting module entries
 
 - Open the Blog Module folder and click Blog Module to open it.
 
@@ -145,7 +145,7 @@ Note: Users can export up to 250 entries at once. Click the select box below all
 - Review the warning and click Submit. 
 
 
-### Step 6 – Modifying a module 
+### Step 6: Modifying a module 
 
 - Open the Blog Module folder and click Blog Module to open it.
 
@@ -156,7 +156,7 @@ Note: Users can export up to 250 entries at once. Click the select box below all
 - After making the desired changes click Submit.
 
 
-### Step 7 – Delete a module
+### Step 7: Delete a module
 
 - Open the folder that contains the module. 
 
@@ -172,7 +172,7 @@ The chapter titled Managing your content with modules showed users how to create
 
 Solodev recommends using short codes to add Modules to pages. This document will use the blog from the previous example. Before adding the Blog Module to a page, the user must create a repeater and detail files. 
 
-### Step 1 – Creating a repeater template
+### Step 1: Creating a repeater template
 T
 he repeater template, although optional, displays all entries in the module used. The repeater is written in Solodev Short codes and refers to the user interface template, printing fields in the form of PHP variables through an `$item` array.
 
@@ -198,7 +198,7 @@ he repeater template, although optional, displays all entries in the module used
 
 - In the file enter the following code: 
 
-```
+```html
 [repeater id="##" limit="0,2"]
 
 <h2>{{event_title}}</h2>
@@ -213,7 +213,7 @@ he repeater template, although optional, displays all entries in the module used
 
 - Click Publish.
 
-### Step 2 -- Creating a detail template
+### Step 2: Creating a detail template
 
 The display template shows the specifics of an individual entry from a repeater template. An example would be clicking on an individual blog entry from a list of entries to see the entire blog post. The detail page is a subpage of its parent page on the repeater template. 
 
@@ -221,7 +221,7 @@ The display template shows the specifics of an individual entry from a repeater 
 
 **Shortcode:**
 
-` [entrry] `
+` [entry] `
 
 - Open the desired folder that will contain the detail file. 
 
@@ -233,7 +233,7 @@ The display template shows the specifics of an individual entry from a repeater 
 
 - In the file enter the code: 
 
-``` 
+```html 
 [entry]
 
 <h1>{{name}}</h1>
@@ -245,7 +245,7 @@ The display template shows the specifics of an individual entry from a repeater 
 - Click Publish
 
 
-### Step 3 – Create a page to house the repeater template
+### Step 3: Create a page to house the repeater template
 
 - Expand the www folder and open the folder that will contain the repeater page. 
 
@@ -261,7 +261,7 @@ The display template shows the specifics of an individual entry from a repeater 
 
 - Click Publish.
 
-### Step 4 – Create a page to house the detail template
+### Step 4: Create a page to house the detail template
 
 - Expand the www folder and open the folder that will contain the detail page. 
 
@@ -277,7 +277,7 @@ The display template shows the specifics of an individual entry from a repeater 
 
 - Click Publish. 
 
-### Step 5 – Linking the repeater page to the detail page
+### Step 5: Linking the repeater page to the detail page
 
 - Open the Blog Module located in the web files -> managers -> Blog Module folder.
 
