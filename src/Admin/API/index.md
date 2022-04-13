@@ -1,6 +1,6 @@
 # Solodev API 
 
-*Create headless applications with Solodev API*
+*Create headless applications with Solodev API.*
 
 ## RESTful features of the Solodev API
 
@@ -58,44 +58,6 @@ Solodev empowers users to extend their data and content using a built-in Applica
 
 - ***Solodev Module API*** – allows users to individually target different module types custom to their environment for management and expose them to external publishing channels such as websites and mobile applications. 
 
-### HTTP Basic Authentication
-
-HTTP Basic Authentication using API tokens are the easiest way to authenticate a request. Solodev recommends storing API tokens in a secure location. Users can authenticate a request using an API key with the following steps: 
-
- 
-
-- Launch the Solodev Module API or Solodev System API. 
-
-![Api auth step 1](api_auth_1.png)
-
-
-- Open the GET route for the bearertoken.
-
-![API suth step 2 bearertoken](bear_token.png)
-
-- Click the “Try it out” button and enter the values for the token and token_secret.
-
-![Api auth step 3](api_auth_3.png)
-
-- Click Execute to generate a response. 
-
-![Api auth step 4](api_auth_4.png)
-
-- Under the Response Body section, copy the token value without the quotes.
-
-![Api auth step 5](api_auth_5.png)
-
-- Click Authorize and paste the token value into the textbox. 
-
-![Api auth step 6](api_auth_6.png)
-
-- Click Authorize. 
-
-![Api auth step 7](api_auth_7.png)
-
-- Click Close.
-
-![Api auth step 8](api_auth_8.png)
 
 
 ### User access
@@ -425,7 +387,9 @@ Solodev empowers users to extend their data and content using a built-in Applica
 
 - Click Close. 
 
-### Step 4 – Using the API
+
+
+### Step 5 – Using the API
 
 - To use the API open any one of the end points below the Authentication section. This example will run the /asset_file Search under the Asset_File Endpoints section. 
 

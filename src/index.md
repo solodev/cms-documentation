@@ -1,27 +1,10 @@
-# Page title here
 
-This is a paragraph.
+# Welcome to Solodev!
 
-Both [internal](README.md) and [external](https://example.com) links work.
-
-![Your logo](logo.png)
-
-Another paragraph with **bold**, _italic_, ~~strikethrough~~, and `code` samples.
+[Solodev](https://www.solodev.com/join) is a content management (CMS) and customer experience platform that lets individuals and teams work together on their digital transformation in the Cloud -- powered by AWS. 
 
 ---
 
-## Lists
+![Solodev Welcome Banner](solo_welcome.png)
 
-- First item
-- Second item
-- Third item
-
-1. First item
-2. Second item
-3. Third item
-
-> "Cool! This is a quotation."
-
-!!!
-Need to draw attention to something? Use an alert.
-!!!
+No coding is required and just one Markdown file, such as a `README.md`, will get you started.

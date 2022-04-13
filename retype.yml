@@ -3,8 +3,8 @@ output: dist
 url: cms.solodev.net
 
 branding:
-  logo: src/logo.png
-  label: v1.0.1
+  logo: logo.png
+  label: v 9.6
 
 meta:
   title: " - Generate, publish, and share documentation"

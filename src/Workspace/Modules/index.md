@@ -173,8 +173,8 @@ The chapter titled Managing your content with modules showed users how to create
 Solodev recommends using short codes to add Modules to pages. This document will use the blog from the previous example. Before adding the Blog Module to a page, the user must create a repeater and detail files. 
 
 ### Step 1: Creating a repeater template
-T
-he repeater template, although optional, displays all entries in the module used. The repeater is written in Solodev Short codes and refers to the user interface template, printing fields in the form of PHP variables through an `$item` array.
+
+The repeater template, although optional, displays all entries in the module used. The repeater is written in Solodev Short codes and refers to the user interface template, printing fields in the form of PHP variables through an `$item` array.
 
 **Shortcode**
 

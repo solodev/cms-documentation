@@ -61,7 +61,46 @@ After that, log into your account and you'll see that the website is added to yo
 
 
 
-## Website file structure in Solodev
+## Installing and configuring a theme
+
+When adding websites, Solodev allows the user to import their own theme or choose from one of many themes in the Solodev Marketplace to customize each website created. Before adding a website, a domain name is required. Notable domain providers include GoDaddy.com, NameCheap.com, NetworkSolutions.com, or BlueHost.com. Once you have you can connect your domain to Solodev by following the instructions to add a website provided below: 
+
+### Step 1: Add a Website
+
+After logging into Solodev CMS, click Websites on the Tree located in the menu to the left of the screen and click on the Add Website button.
+
+![Configuring a theme step 1](adding_website.JPG)
+
+
+### Step 2: Choose your theme
+
+Solodev allows the user to choose the SpaceJet Theme. Under Custom Theme, the user can select a Blank Website or import their own theme from the dropdown menu. The user can choose different themes to customize each website created. Once the installation is complete, each website has their own files and folders. Choose the SpaceJet Theme and click Next.
+
+![Configuring a theme step 2](choose_your_theme.JPG)
+
+### Step 3: Specify Your Theme Variables
+
+At this step, the user can customize their website’s color scheme and logo, specify their domain, set their sitename and specify their timezone. The advanced settings allow the user to set the contact information associated with the website’s domain. The site’s branding and logo can be customized after the website has been installed by modifying the settings.json file located in the web files directory. Accept the default settings and click Next.
+
+![Configuring a theme step 2](specify_theme.JPG)
+
+### Step 4: Import the Theme Package
+
+After customizing the color scheme and logo and populating the domain, sitename and timezone the user will be directed to the following screen:
+
+![Configuring a theme step 3](theme_install_page.JPG)
+
+### Step 5: Navigate to your new website 
+
+Once Solodev CMS has built the website, click on the Start Managing Your Website button. The user will be taken to a screen where they can click the url in the Domain Overview section to view their newly created website. 
+
+![Configuring your theme step 4](manage_website.JPG)
+
+
+![Configuring your theme step 5](visit_your_domain.jpg)
+
+
+## Organizing files and folders for your websites
 
 Solodev has a unique site structure that is designed for easily building efficient, well-organized websites. After your website has been setup in Solodev, your website will be broken into two folders: web files and www:
 
@@ -85,13 +124,13 @@ The web files folder is the one that contains the elements that power your Solod
 
 Although not required for your website to work in Solodev CMS, best practices suggest you build out your web files folders in this manner:
 
-- Content - Used to store content (HTML files, images, text files, etc.)
+- **Content:** Used to store content (HTML files, images, text files, etc.)
 
-- Forms - Used to store any datatables that power forms
+- **Forms:** Used to store any datatables that power forms
 
-- Modules - Used to store any managers related to your website(s) such as calendars (Events, Blog, News, etc.)
+- **Modules:** Used to store any managers related to your website(s) such as calendars (Events, Blog, News, etc.)
 
-- Templates - Used to store the various templates that make up the structural foundation for the pages.
+- **Templates:** Used to store the various templates that make up the structural foundation for the pages.
 
 ### www Folder
 
