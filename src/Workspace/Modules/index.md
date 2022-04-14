@@ -1415,3 +1415,675 @@ Solodev recommends building an image gallery using a custom module. Before start
 - Click the Save button near the top of the module entry page. 
 
 - Users can bring up the image gallery on the front page. 
+
+---
+
+
+## Creating an image slider 
+
+A slider allows you display a single image or rotating display of images. This is good for feeding users the most valuable content on your site, and prompting them to take action. The following steps will show you how to create a home image slider module from scratch in Solodev.
+
+This tutorial utilizes [Slick Slider by Ken Wheeler](http://kenwheeler.github.io/slick/). You can use any slider you want, but will have to ensure you include all of the necessary resources, both in the CMS itself and in the template files.
+
+### Step 1: Add a module 
+
+ - Go to the main menu and under the Workspace section, click on Modules. 
+
+ - To add a module, click on Add A Module button on the right side.
+
+ ![Add an image slider step 1](add_image_slider_1.png)
+
+ - Select the Custom Builder option from the menu and click Install:
+
+ ![Add an image slider step 2](add_image_slider_2.png)
+
+- When you click on Install, a side menu will show up with the following fields:
+
+* Name: Pick a name for your module that describes it well.
+
+	- **Type:** The type of the module. There are two types of modules in Solodev: Calendars and Datatables. We'll pick Calendar as the type for the image slider. For more information about the differences between the two type modules, you can refer to this link: What Are Modules?
+
+	- **Display:** Pick Custom from the dropdown menu.
+
+	- **Install Location:** Where you would like to install the module. The default place is Data Center so click on the Browse button, find and pick the folder you created for the image sliders to install the module in.
+
+- The customization option menu should look like the screen below. Once you're done, click on Submit and the module will be installed in the folder you specified.
+
+### Step 2: Create a form for the module 
+
+In order to create and customize all the fields for the image slider, we need to create a structure and a table schema. This all depends on what you're looking to put inside an image gallery. For example if you'd like yo place an h1 heading, an h2 heading, paragraph text, buttons, button link and so on, first you need to create the HTML structure with everything in order and then put in the names of the fields that you'd like to insert into your image gallery. For this purpose, we need to create an HTML form. In this tutorial, we'll supply you with a sample form that you can use and customize for your own needs. First you will need to save this code to your computer. You can use a text editor such as Sublime, or Text Edit. Save the file as a simple text document with .tpl at the end of the file name such as "homepage-slider-form.tpl".
+
+```html 
+
+<div class="row">
+  <div class="col-md-6 form-group">
+    <label class="control-label" for="small_text">Small Heading Text</label>
+    <p class="card-subtitle">(Optional) The first line of the slide title.</p>
+    <input class="form-control" id="small_text" name="small_text" type="text">
+  </div>
+  <div class="col-md-6 form-group">
+    <label class="control-label" for="large_text">Large Heading Text</label>
+    <p class="card-subtitle">(Optional) The second line of the slide title.</p>
+    <input class="form-control" id="large_text" name="large_text" type="text">
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-3 form-group">
+    <label class="control-label" for="button_link">Link</label>
+    <p class="card-subtitle">(Required) The link URL of the slide button.</p>
+    <input class="form-control" id="button_link" name="button_link" type="text">
+  </div>
+  <div class="col-md-3 form-group mt-md-5">
+    <div class="form-check checkbox-custom mt-md-2">
+      <input id="url_new_window" name="link_external" type="checkbox" value="1">
+      <label class="control-label" for="link_external">External Link?</label>
+    </div>
+  </div>
+  <div class="col-md-6 form-group">
+    <label class="control-label" for="button_text">Button Text</label>
+    <p class="card-subtitle">(Required) The text included inside the slide button.</p>
+    <input class="form-control" id="button_text" name="button_text" type="text">
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12 form-group">
+    <label class="control-label" for="slider_content">Slider Content</label>
+    <p class="card-subtitle">(Required) The content of the slide under its title.</p>
+    <textarea class="form-control wysiwyg-basic" id="slider_content" name="slider_content" required=""></textarea>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6 form-group">
+    <label class="control-label" for="slide_picture">Featured Image</label>
+    <p class="card-subtitle">(Required) The main content section for an entry. <strong>Dimensions:</strong> 3000px by 840px.</p>
+    <input class="form-control" id="slide_picture" name="slide_picture" type="file">
+  </div>
+</div>
+
+```
+
+The above code was written in HTML and built with Bootstrap. When it is rendered by the browser, this is the output:
+
+![Rendered form](form-structure.png)
+
+The most important thing to pay attention is the names such as small_text, large_text, button_link, link_external, button_text, slider_content, and slide_picture. The rows all form the structure of the slider form and the id names make up the table schema. You'll see how everything comes together below. 
+
+---
+
+**Upload the Form to the Image Slider Module**
+
+- Once you copy paste the code above and save the code in a .tpl file, go to the folder inside the managers folder and click on the image slider module:
+
+![Image slider module](id-number.png)
+
+**Note:** Take a note of the ID number on the top left side. We'll use this ID number when we will be creating the form for the slider content. When you create your own image slider or any other module, this ID number will be different. We will use this number for this tutorial only.
+
+- Click on the Modify button to open the settings modal for the image slider module:
+
+![Modify button for the image slider](modify-button.png)
+
+- In the modal, click the dropdown button next to Advanced Options. 
+
+- Under Form Template, click on Upload Form. 
+
+- Find the .tpl file you created on your computer and upload it.
+
+![Modify image slider modal](form-template-menu.png)
+
+- When the form is uploaded, under Grid Display, all the names will automatically appear:
+
+![Grid display](names.png)
+
+- The Table Schema will also be automatically updated:
+
+![Table schema](table-schema.png)
+
+
+### Create the Slides
+
+- To create a slide, click on the Add Entry button:
+
+![Add entry button](add-entry.png)
+
+As you can see, all the form fields are populated as we designated in the form template beginning with Small Heading Text (small_text), Large Heading Text (large_text), Link (button_link), an option for External Link (link_external), Button Text (button_text), Slider Content (slider_content), and finally, the Featured Image (slide_picture).
+
+
+![Add image slider entry modal part 1](add-entry-image-slider-1.png)
+
+![Add image slider entry modal part 2](add-entry-image-slider-2.png) 
+
+The fields marked as optional can be left blank. For example, you can choose to write a large heading text, put a button and leave other fields empty. The ones who are left blank won't show up in slides. 
+
+Now that you have created your home slider, its time to add slides.
+
+- In the Add Entry Image Slider menu, give a name to your slide (this won't show up on the slide). 
+
+- Choose a status - Draft or Publish. 
+
+- Fill out the required and desired fields. 
+
+- Upload an image. 
+
+- Hit the Submit button. 
+
+![Slide example](slide-example.png)
+
+- We've added our first slide:
+
+![Single slide example](first-slide.png)
+
+- Go ahead and add more slides with the content you'd like to put. Here is the final version of our slider items:
+
+![Multiple slides example](slides-total.png)
+
+### Add a Repeater
+
+The repeater template will generate the code to repeat all slides. This generally goes into the page file, but it ultimately depends on the website structure. For this case, it will go into the page file.
+
+Just like how we created the home slider tpl file, we will create the repeater file and upload it. We need to add the code to make our slide entries appear.
+
+For the purposes of this tutorial, however, we have provided a repeater template for this tutorial. Add this code to the folder that contains the homepage slider module you created. Copy the code below and make the edit that is required to pull the ID of the correct module.
+
+```html
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<!-- Slick Slider CSS -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<!-- Slick Slider JS -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<header aria-label="Home Hero" class="h-lg-553p position-relative" id="home-hero" role="banner">
+  <div class="slick slick-home w-100" data-arrows="true" data-autoplay="true">
+    [repeater id="60" display_type="news"]
+    <div class="slide position-relative" style="background: url('[get_asset_file_url id={{slider_image}}]'); background-repeat:no-repeat;background-position:center;background-size:cover;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 h-400p h-md-600p d-flex flex-column justify-content-center text-white py-md-5">
+            <h2 class="display-4 mb-0">{{small_text}} <span class="d-block font-weight-bold">{{large_text}}</span></h2>
+            <p class="lead my-4">{{slider_description}}</p>
+            [cond type="is" subject="{{link_external}}" value="1"]
+            <a class="btn btn-primary w-max mt-2 text-white" href="{{button_link}}" target="_blank">{{button_text}}</a>
+            [/cond]
+            [cond type="is_not" subject="{{link_external}}" value="1"]
+            <a class="btn btn-primary w-max mt-2 text-white" href="{{button_link}}">{{button_text}}</a>
+            [/cond]
+          </div><!--  col-->
+        </div><!-- row-->
+      </div><!-- container-->
+    </div>
+    [/repeater]
+  </div>
+</header>
+
+```
+**Note:** the only thing that needs to be edited in this code, is the following section:
+
+`repeater id="60" display_type="news"`
+
+The repeater id="" needs the ID of the homepage slider manager. Open the homepage slider manager and look for the ID at the top left under the name of the module. Place the ID number inside the quotes ("").
+
+The image below outlines where to find the ID of the module.
+
+![Image slider id number](id-number.png)
+
+Open the same folder into which you added the home slider manager. Hover over the Add button and click File.
+
+### Upload the Repeater File 
+
+We used the name "repeater" for this file but you can use any name you would like. Name the file and add the extension .tpl at the end of the file name.
+
+The file name should have no spaces. You can add a hyphen (-) between words. Click here for more information on adding a file.
+
+### Add the Repeater to the page
+
+If you haven't already, create a page that will hold your repeater template. 
+
+Navigate to the page that will contain your repeater template. In order to place the file into your STML, you need to select the Dynamic Div in which you’d like to place it by clicking on it. Once it turns blue, select the file from the left hand file tree and hit Publish.
+
+![Inserting the repeater onto the page](repeater-on-page.png)
+
+**Adding CSS Styling**
+
+Everything done right now achieves the objective of getting the slider working and placed on a specific page. While, optional, it is highly recommended that you apply CSS styling to make the slider look sharp and professional. For more information and guidance on how to create image sliders with Slick Slider and style them, you can read our tutorials on our blog:
+
+[Adding a Hero Slider to your Homepage Using Slick Slider](https://www.solodev.com/blog/web-design/adding-a-hero-slider-to-your-homepage-using-slick-slider.stml)
+
+[How to Use Text Animations with Slick Slider](https://www.solodev.com/blog/web-design/how-to-use-text-animations-with-slick-slider.stml)
+
+[Creating a Featured Content Slider with Slick Slider](https://www.solodev.com/blog/web-design/creating-a-featured-content-slider-with-slick-slider.stml)
+
+[How to Combine FontAwesome with a Slider to Create Quick Links](https://www.solodev.com/blog/web-design/how-to-combine-fontawesome-with-a-slider-to-create-quick-links.stml)
+
+
+Congratulations! If you followed all the steps correctly, your homepage slider should be in place and working, looking similar to this:
+
+![Homepage slider example 1](slide-1.png)
+
+![Homepage slider example 2](slide-2.png)
+
+![Homepage slider example 3](slide-3.png)
+
+Your homepage slider should look something like the following hierarchy, with all necessary assets:
+
+![Slider Assets](slider-assets.png)
+
+---
+
+## Customizing Module Forms
+
+In addition to creating custom modules, users are able to customize modules right down to the form. These next sections allow users to harness the full power of forms to manage their content. 
+
+---
+
+### Adding a WYSIWYG toolbar to a textarea for a module form
+
+The Solodev Visual Editor, also known as a WYSIWYG, editor is an easy-to use browser-based content editor that enables the author to capture and format HTML data without the requirement of coding knowledge. With the WYSIWYG users have access to text editing functions and file enhancements – allowing the user to visualize the end result while the document is being created. 
+
+Users commonly encounter the WYSIWYG when editing an HTML file or adding an entry in the pre-built Solodev modules on the backend. However, users can add the WYSIWYG to their own custom modules. The steps are provided below.
+
+
+**Create a custom module**
+
+- Open the Modules workspace and click Add Module. 
+
+- Click the Install button on the Custom Module. 
+
+- Enter the name of the module, choose ‘Datatable’ for the Type, and choose ‘Website Module’ for the Display.
+
+- Click Browse and install the module in the web files -> managers folder of the website. 
+
+- Click Submit.
+
+**Modify the Table Schema**
+
+- Open the module located in the web files -> managers -> moduleName folder.
+
+- Click Modify. 
+
+- In the modify modal, set the Datatable Type to Website Module. 
+
+- Click the arrow to expand the Table Schema. 
+
+- Click the red minus sign to remove the name entry. 
+
+- Click the orange + sign twice to add two fields. 
+
+- In the first field under the Name column enter “title”, set the Type to Character and Length to 255. Leave the checkbox in the Allow Null column unchecked and the text-box in the Default column empty.
+
+- In the second field under the Name column enter “article”, set the Type to text area. Leave the checkbox in the Allow Null column unchecked and the text-box in the Default column empty. 
+
+- Click the Modify button. In the modify modal notice that the Grid Display contains the name values submitted in the table schema. 
+
+- Click the arrow to expand the _Assets folder and open the custom-form.tpl file. 
+
+- In the custom-form.tpl file, note that there is html code for a form with a Name label and text input to capture the name. 
+
+- Modify the html code by setting the name value in text input and text area to “title” and “article” respectively so that it matches the values submitted in the table schema. 
+
+- In the opening tag of the text area set the class attribute to wysiwyg or wysiwyg-basic. 
+
+```html
+
+<input type="text" class="form-control" name="title" id="title">
+
+<textarea name="article" form="blog" id="article" class="wysiwyg">Enter text here...</textarea>
+
+```
+
+- Set the labels appropriately. The full code block for the form is provided below
+
+```html
+
+<h2><label class="label-control" for="title">Title</label></h2>
+<input type="text" class="form-control" name="title" id="title">
+<h2><label class="label-control" for="article">Article</label></h2>
+<textarea name="article" form="blog" id="article" class="wysiwyg">Enter text here...</textarea>
+
+```
+
+- Click Publish.
+
+---
+
+### Creating categories for modules
+
+Categories are used for broad grouping of posts. Consider them as general topics or table of contents for a website. Categories exist to help identify the subject of a blog. Developers can leverage categories to help their audience find the right type of content on their site. Categories are hierarchal which allows developers to use sub-categories. The steps for creating categories are provided below. 
+
+**Add a collection**
+
+- Open the Blog Module folder located in web files -> managers.
+
+- Click Add Collection.
+
+- Enter the Name, Title and Description of the collection.  
+
+- Click Submit. 
+
+**Add categories**
+
+- Open the newly created collection
+
+- Enter a category in the textbox and click Add. 
+
+- The category is added below. 
+
+**Add subcategories**
+
+- Click parent category to select it. 
+
+- Type the name of the sub-category in the textbox and click Add. 
+
+- The subcategory will appear underneath the folder of the parent category. 
+
+**Deleting categories/subcategories**
+
+- Click the category or expand the parent category and click the subcategory to select it.
+
+- Click Delete.
+
+- Review the warning and click OK.
+
+**Note:** Deleting parent categories will delete subcategories contained therein. 
+
+**Mapping the categories to a module**
+
+- Open the Module.
+
+- Click Modify. 
+
+- In the Modify modal expand the Website Properties.
+
+- Under the Categories section click Browse under the Datatable Category Group. 
+
+- Select the newly created collection. 
+
+- Click Choose. 
+
+- Click Submit. 
+
+**Add categories to each entry**
+
+- Open the module 
+
+- Click the Add Entry button. 
+
+- Enter the name, choose the status and images, populate the heading, intro and content. 
+
+- Scroll down to the Categories section and select the appropriate categories created. 
+
+- If the category is not listed, the user can create them in the modal. 
+
+- Click Submit. 
+
+---
+
+### Creating a category page
+
+Category pages allow your organization to optimize SEO and enhance overall user experience. In Solodev developers can attach category pages to modules by attaching them to category collections and attaching their collection of categories to the module itself. This tutorial shows users how to create category pages for their module. 
+
+**Pre-requisites**
+
+Prior to this tutorial users should have: 
+
+- Installed their module of choice. 
+
+- Created a detail page.
+
+- Mapped the detail page and folder to their module.
+
+- Created a collection.
+
+- Added categories and subcategories to that collection. 
+
+This example adds a category page for the news module created previously. 
+
+**Create a repeater template**
+
+- Open the web files -> content -> news folder. 
+
+- In the news folder, click Add File. 
+
+- Enter the Name (category-repeater.tpl) and Title of the file. 
+
+- Set the File Type to Code. 
+
+- Click Submit. 
+
+- The user is directed to the open file. 
+
+- In the text box, enter the code provided below: 
+
+```html
+
+<div class="row">
+	[repeater id='##'  pages="22" order="start_time desc" display_type="news"]
+		<div class="col-sm-6 col-lg-4 mt-4">
+			<div class="bg-light-gray bg-hover-light-gray-dark pointer box-sizing h-100" onclick="location.href='{{path}}'">
+				<img alt="{{event_title}}" src="[get_asset_file_url id='{{news_image}}']" class="img-fluid">
+				<div class="p-3 p-lg-4">					
+					[entry_categories_repeat id="{{calendar_entry_id}}"]
+						<a class="btn btn-outline-secondary rounded-0 p-1 px-3" href="/news/{{{name}}}">{{{title}}}</a>
+					[/entry_categories_repeat]
+					
+					<h2 class="h4 mt-4 post-intro">
+						[is_set value="{{heading_title}}"]
+							<a class="text-secondary" href="{{path}}">{{heading_title}}</a>
+						[/is_set]
+						[is_empty value="{{heading_title}}"]
+							<a class="text-secondary" href="{{path}}">{{event_title}}</a>
+						[/is_empty]
+					</h2>
+					
+					<p class="text-muted small">
+						[print_date format="F d, Y" timestamp="{{start_time}}"]
+					</p>
+					<p class="post-intro">{{post_intro}}</p>					
+				</div>
+			</div>
+		</div>
+	[/repeater]
+</div>
+
+```
+
+- Click Publish.
+
+**Note:** The id value in the repeater should match the id value of the module. 
+
+**Create a category page to house the repeater**
+
+- Open the www -> news folder. 
+
+- Click Add Page. 
+
+- Enter the Name, Title and Description of the page. 
+
+- Choose a template.
+
+- Click Submit. 
+
+- The user is directed to the category.stml page. 
+
+- Select an empty DynamicDiv on the page.
+
+- Select the category-repeater.tpl file located in the web files -> content -> news folder to insert it into the DynamicDiv.
+
+- Click Publish.
+
+**Map the category page to the collection of news categories**
+
+- Expand the www -> managers -> News folder. 
+
+- Open the News Categories collection
+
+- Click Modify. 
+
+- In the modal window expand the Settings accordion.
+
+- Click Browse.
+
+- Select the category.stml page located in the www -> news folder.
+
+- Click Choose. 
+
+- Click Submit. 
+
+**Map the collection to the news module**
+
+- Open the News Module.
+
+- Click Modify. 
+
+- In the Modify modal expand the Website Properties.
+
+- Under the Categories section click Browse under the Datatable Category Group. 
+
+- Select the newly created collection. 
+
+- Click Choose. 
+
+- Click Submit. 
+
+**Add categories to each entry**
+
+- Open the News module 
+
+- Click the Add Entry button. 
+
+- Populate the fields. 
+
+- Scroll down to the Categories section and select the appropriate categories created. 
+
+- If the category is not listed, the user can create them in the modal. 
+
+- Click Submit. 
+
+---
+
+### Creating tags for modules 
+
+In contrast to categories which are meant for broad grouping of posts, tags describe specific details of individual posts. Tags are analogous to an index list. Tags are not hierarchical. The steps for adding tags to modules are provided below. 
+
+**Create a repeater template file**
+
+- Open the desired folder that will contain the repeater file. 
+
+- Click Add File and enter the Name, Title, and Description. 
+
+- Select Code for the File Type.
+
+- Click Submit.
+
+- In the file enter the following code: 
+
+```html
+
+[repeater id="##" limit="0,2"]
+
+<h2>{{event_title}}</h2>
+
+<p>{{blog_intro}}</p>
+
+<a href="{{path}}">{{event_title}}</a>
+
+[/repeater]
+
+```
+
+- Click Publish. 
+
+**Note:** 
+
+The id value in the repeater should match the id value of the module.
+
+**Create a detail template**
+
+- Open the desired folder that will contain the detail file. 
+
+- Click Add File and enter the Name, Title, and Description. 
+
+- Select Code for the File Type.
+
+- Click Submit.
+
+- In the file enter the code: 
+
+```html
+
+[entry]
+
+<h1>{{name}}</h1>
+
+<p>{{blog_content}}</p>
+
+[/entry]
+
+```
+- Click Publish. 
+
+**Create a page to house the repeater template**
+
+- Expand the www folder and open the folder that will contain the repeater page. 
+
+- Click Add Page. 
+
+- In the Add Page modal and enter the Name, Title, and Description for the page. 
+
+- Open the page and click the dropzone that will contain the repeater template file. 
+
+- Select the repeater template to insert into the dropzone. 
+
+- Click Publish.
+
+**Create a page to house the detail template**
+
+- Expand the www folder and open the folder that will contain the detail page. 
+
+- Click Add Page. 
+
+- In the Add Page modal and enter the Name, Title, and Description for the page. 
+
+- Open the page and click the dropzone that will contain the detail template file. 
+
+- Select the detail template to insert into the dropzone. 
+
+- Click Publish. 
+
+**Mapping the repeater template and the detail template to the module**
+
+- Expand the folder that houses the module and open the module.
+
+- Click Modify.
+
+- In the modify modal window expand the Website Properties section. 
+
+- To the right of the Detail Page Template text-box, click Browse and choose the page that contains the detail template for the blog tags. 
+
+- To the right of the Detail Folder text-box, click Browse and choose the folder that contains the detail page.
+
+- To the right of the Tag Template text-box, click Browse and choose the page that contains the repeater template.
+
+- Click Submit. 
+
+**Adding tags to an entry**
+
+- Open the module 
+
+- Click the Add Entry button. 
+
+- Enter the name, choose the status and images, populate the heading, intro and content. 
+
+- Choose a category. 
+
+- In the Tags text-box, enter the desired tags pressing tab after adding each one.
+
+- Click Submit. 
+
