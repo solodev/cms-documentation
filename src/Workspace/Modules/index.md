@@ -1677,7 +1677,7 @@ Your homepage slider should look something like the following hierarchy, with al
 
 ---
 
-## Customizing Module Forms
+## Customizing Modules
 
 In addition to creating custom modules, users are able to customize modules right down to the form. These next sections allow users to harness the full power of forms to manage their content. 
 
@@ -2084,6 +2084,31 @@ The id value in the repeater should match the id value of the module.
 - Choose a category. 
 
 - In the Tags text-box, enter the desired tags pressing tab after adding each one.
+
+- Click Submit. 
+
+
+### Adding an email tickler
+
+In Solodev CMS, developers can add email ticklers to send form submissions to designated email addresses. For example, when a potential customer signs up for a free trial of your product, an email can be sent to your sales team to notify them of a possible lead. 
+
+Before adding a tickler, users should: 
+
+- Create a website and a module.
+
+- Attach a web form to the module. 
+
+**Add a tickler**
+
+- In the Solodev Dashboard, click Modules.
+
+- Open the desired module.
+
+- Click Email Options to expand the accordion. 
+
+- Enter a valid email address in the Tickler Email Address textbox.
+
+- Click Add. 
 
 - Click Submit. 
 

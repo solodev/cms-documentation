@@ -5,6 +5,6 @@
 
 ---
 
-![Solodev Welcome Banner](solo_welcome.png)
+--![Solodev Welcome Banner](solo_welcome.png)--
 
 No coding is required and just one Markdown file, such as a `README.md`, will get you started.
