@@ -1,11 +1,15 @@
 
-# Solodev Modules
+# Modules
 
 *Manage content effectively with modules.*
 
+
+
 ---
 
+:::
 ## What are modules? 
+:::
 
 What do image galleries, blogs, calendars, forms have in common? They all store data such as images, blog entries, dates and contact information. In Solodev, modules are leveraged to manage this data. Modules allow the user to manage any type of data. Modules are one of the most powerful objects in Solodev CMS; they can be as simple or complex as necessary. They can be used to power:
 
@@ -55,6 +59,8 @@ What do image galleries, blogs, calendars, forms have in common? They all store 
 - Landing Page – Create landing pages for marketing purposes. 
 
 - Custom – a custom calendar gives users the ability to tailor a calendar type to their needs – using some or all the of functionality in the aforementioned calendar types. 
+
+:::
 
 ---
 
