@@ -15,7 +15,7 @@ Note: Tasks are used by developers and members of your internal team to collabor
 
 --- 
 
-## Step 1: Assigning tasks
+## Assigning tasks
 Tasks are assigned to content objects and code in any website or document in Solodev. This article will discuss managing tasks in the Website workspace using a Spacejet theme.
 
 **Prerequisites:** 
@@ -23,7 +23,7 @@ Tasks are assigned to content objects and code in any website or document in Sol
 
 - While not necessary a task can contain a description that is pulled from a page’s or object’s metadata. Solodev recommends adding a meta-description to each object.
 
-### Step 1a: Creating a new task
+**Step 1: Creating a new task**
 
 To create a new task: 
 
@@ -51,7 +51,7 @@ To create a new task:
 
 - Submit.
 
-### Step 1b: Adding attachments to a task 
+**Step 2: Adding attachments to a task**
 
 **Note:** Users are able to add attachments and links inside the textbox using the WYSIWYG.
 
@@ -83,7 +83,7 @@ To do so:
 
 - Click Submit.
 
-### Step 1c: Creating additional tasks
+**Step 3: Creating additional tasks**
 
 Multiple tasks can be added to the same file. Please note that all tasks associated with Solodev objects must be completed by all assignees to be archived. 
 
@@ -105,7 +105,7 @@ To create an additional task:
 
 - Click Submit. 
 
-## Step 2: Viewing Tasks
+## Viewing Tasks
 
 Project managers can a view a list of all tasks, see the status of each task set by the assignee, as well as filter tasks by their main status (Open/Closed).
 
@@ -127,21 +127,21 @@ The list displays:
 
 On the tasks page there is a select box to filter tasks and a search bar. 
 
-### Step 2a: Viewing all tasks
+**Step 1: Viewing all tasks**
 
 - From the task page, click the select box and select All Statuses to view all tasks.
 
 - A list of all tasks and their respective statuses appear.
 
-### Step 2b: Viewing open tasks
+**Step 2: Viewing open tasks**
 
 - From the tasks page, click the select box and choose **Open** to view open tasks.
 
-### Step 2c: Viewing closed tasks
+**Step 3: Viewing closed tasks**
 
 - From the tasks page, click the select box and choose Closed to view closed tasks.
 
-## Step 3: Updating a task status
+## Updating a task status
 
 Assignees are able to add comments to tasks and update the status for each task. The default task status for each assignee is Not Started. Assignees can update the task status by selecting the following statuses:
 
@@ -185,7 +185,7 @@ Assignees can update the status of their tasks by executing the following steps:
 
 - Click Submit. 
 
-## Step 4: Tracking hours for each task
+## Tracking hours for each task
 
 The hours of each task can be tracked by executing the following steps:
 

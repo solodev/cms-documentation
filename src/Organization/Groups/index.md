@@ -45,7 +45,8 @@ Administrator’s can harness the power of granular permissions by creating and 
 
 Solodev supports granular permissions that allows administrators to create a permission system – assigning users and groups to specific objects. This document will show the administrator how to assign permissions to groups globally before assigning groups to specific ‘Actions’ and ‘Resources’ in the Solodev CMS system. 
 
-### Step 1 -- Globally assigning resources and actions to groups
+
+**Globally assigning resources and actions to groups**
 
 - Sign into Solodev CMS with administrator credentials.
 
@@ -71,7 +72,8 @@ Solodev supports granular permissions that allows administrators to create a per
 
 - Add user(s) to the group.
 
-### Step 2 -- Adding Groups to Specific Actions or Resources
+
+**Step 2: Adding Groups to Specific Actions or Resources**
 
 - Select Websites located below the Workspace section. 
 
@@ -93,7 +95,8 @@ Solodev supports granular permissions that allows administrators to create a per
 
 ![adding groups to objects step 4](adding_groups_to_objects_p4.jpg)
 
-### Step 3 -- Removing Groups from Specific Actions or Resources
+
+**Step 3: Removing Groups from Specific Actions or Resources**
 
 - Select Websites located below the Workspace section. 
 

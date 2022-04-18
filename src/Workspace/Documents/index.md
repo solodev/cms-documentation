@@ -36,7 +36,7 @@ Users will encounter the following fields when adding, updating, and modifying a
 | Include in Website Navigation | Structures folder to display in navigation menus. This field is accessible via Website Properties. |
 | Restrict Access in Website to Authorized Users | Allows access to the folder ad contents to be password protected for website visitors. Access this field via Website Properties. |
 
-### Creating a Folder
+**Creating a Folder**
 
 Before adding files to the Documents workspace, users must add a folder to host the files in the Documents workspace. If adding folders to the website workspace, Solodev recommends adding folders that contain HTML content and TPL template files in the web files -> content directory. Folders that contain STML web pages should be added to www directory. Users can add a folder to either workspace by executing the steps below.
 
@@ -51,7 +51,7 @@ Before adding files to the Documents workspace, users must add a folder to host 
 - Click Submit. 
 
 
-### Updating a Folder 
+**Updating a Folder** 
 
 This example shows the user how to update the previously created folder. 
 
@@ -69,11 +69,11 @@ This example shows the user how to update the previously created folder.
 **Note:** Solodev CMS does not allow users to update multiple folders. The update action modifies the folder that is currently open.
 
 
-### Modifying a Folder
+**Modifying a Folder**
 
 Users can copy, move, and delete folders created in the Solodev CMS system. This example will show the users how to perform these actions on the previously created folder. The copy, move and delete actions can be performed on one or more folders. 
 
-**Moving a Folder**
+***Moving a Folder***
 
 - On the Solodev Dashboard, click Documents.
 
@@ -93,7 +93,7 @@ Users can copy, move, and delete folders created in the Solodev CMS system. This
 
 - Click the target folder to access the folder that was moved.
 
-**Copying a Folder**
+***Copying a Folder***
 
 - On the Solodev Dashboard, click Documents.
 
@@ -114,7 +114,7 @@ Users can copy, move, and delete folders created in the Solodev CMS system. This
 - Click the target folder to access the folder that was moved.
 
 
-**Deleting a Folder**
+***Deleting a Folder***
 
 - On the Solodev Dashboard, click Documents.
 
@@ -134,9 +134,9 @@ In the Solodev CMS, a File serves many purposes. Examples of a file includes sim
 
 --- 
 
-### Supported File Types
+**Supported File Types**
 
-**HTML**
+***HTML***
 
 Hypertext Markup Language (HTML) is the markup language used to create the foundation of any web page. In addition to uploading html files to Solodev CMS, users can create and edit html files natively via Solodev’s WYSIWYG or code editor. HTML files can be inserted into STMLs using Dynamic Div Technology.
 
@@ -148,7 +148,7 @@ Hypertext Markup Language (HTML) is the markup language used to create the found
 
 In the Solodev, HTML files are not web pages. HTML pages serve as content blocks that can be organized and embedded into STML pages via Solodev’s Dynamic Div technology. 
 
-**Template Files (.tpl)**
+***Template Files (.tpl)***
 
 Template files allow users to reuse blocks HTML code for each section or page of their website. In addition, template files allow users to harness the power of nested layouts creating drop zones with Dynamic Div technology that can be embedded into STML pages. Templates allow users to utilize more complex html syntax than is possible with the WYSIWYG editor. For more information about template files, please refer to the articles and sections listed below:
 
@@ -163,7 +163,7 @@ Template files allow users to reuse blocks HTML code for each section or page of
 - Create a Sectional Template
 
 
-**Images**
+***Images***
 
 Users can place and specify the display and design of several different types of images throughout their websites. The most widely used formats on the Web are PNG, JPEG, GIF and JPG. Within Solodev CMS, users can utilize photos to create dynamic image-based galleries, sliders, carousels and much more using Solodev Modules which will be covered in a later tutorial. Solodev supports the image formats listed below. 
 
@@ -175,7 +175,7 @@ Users can place and specify the display and design of several different types of
 | .gif | Graphics Interchange Format. |
 | .bmp | Bitmap.|
 
-**Text**
+***Text***
 
 Solodev’s text editor supports a wide range for file types for use. Solodev supports the following ANSCII-based file types. 
 
@@ -188,7 +188,7 @@ Solodev’s text editor supports a wide range for file types for use. Solodev su
 | .json | JavaScript Object Notation. |
 
 
-### Creating a file
+**Creating a file**
 
 - On the Solodev Dashboard, click Documents.
 
@@ -204,7 +204,8 @@ Solodev’s text editor supports a wide range for file types for use. Solodev su
 
 **Note:** As mentioned, Solodev supports a variety of file types. If a file type mentioned is not listed in the select box, users can override the default selection by selecting 'Code' from the select box and append the file extension at the end of the filename (e.g. filename.php).
 
-### Uploading files from a local machine 
+
+**Uploading files from a local machine** 
 
 In addition to creating files within Solodev’s CMS application, users can upload files from their local machine. Solodev CMS allows users to upload four primary file types(HTML, Text, Image, and Document). This article demonstrates how to upload files to the websites and documents workspace. 
 
@@ -222,7 +223,7 @@ In addition to creating files within Solodev’s CMS application, users can uplo
 
 
 
-### File Actions
+**File Actions**
 
 After opening a file in Solodev CMS, users are presented with a text-editor and Actions Menu that can be used to edit and update file properties. The options available to users in the Actions Menu are listed below.
 
@@ -253,9 +254,9 @@ All Solodev files contain a Meta option in the Actions Menu. With the Meta optio
 | Expire Date | The date you would like the file to be pulled from your website. |
 
 
-### Modifying Files
+**Modifying Files**
 
-**Copying a File**
+***Copying a File***
 
 - On the Solodev Dashboard, click Documents.
 
@@ -270,7 +271,7 @@ All Solodev files contain a Meta option in the Actions Menu. With the Meta optio
 - Click Submit. The copied file is listed under the destination folder in the directory tree.
 
 
-**Moving a File**
+***Moving a File***
 
 - On the Solodev Dashboard, click Documents.
 
@@ -284,7 +285,7 @@ All Solodev files contain a Meta option in the Actions Menu. With the Meta optio
 
 - Click Submit. The copied file is listed under the destination folder in the directory tree.
 
-**Deleting a File**
+***Deleting a File***
 
 - On the Solodev Dashboard, click Documents.
 
@@ -299,7 +300,7 @@ All Solodev files contain a Meta option in the Actions Menu. With the Meta optio
 
 **Note:** Deleted Files can be retrieved via the Archive History. 
 
-**Copying, Moving, and Deleting Files in Bulk**
+***Copying, Moving, and Deleting Files in Bulk***
 
 - On the Solodev Dashboard, click Documents.
 
@@ -315,7 +316,7 @@ All Solodev files contain a Meta option in the Actions Menu. With the Meta optio
 
 
 
-### File Groups
+**File Groups**
 
 File Groups are a resource for managing and displaying groups of related files (images, documents, etc) on a Web page. Users can leverage file groups to categorize and display files based on certain criteria or similarity. Administrators commonly leverage File Groups to display a document list with set permissions that grant users access to files in the File Group. Authorized users can add or edit files in the File Group without accessing the web page directly. 
 
@@ -325,7 +326,7 @@ A file group can be used to:
 
 - Create an internal document repository where users can upload and share an array of file types grouped by type, category, relevance, date, etc.
 
-**Add Group**
+***Add Group***
 
 - Click documents located in the workspace section of the Solodev Dashboard.
 
@@ -337,7 +338,7 @@ A file group can be used to:
 
 - Click Submit. 
 
-**Modifying a File Group**
+***Modifying a File Group***
 
 - Click documents located in the workspace section of the Solodev Dashboard.
 
@@ -351,7 +352,7 @@ A file group can be used to:
 
 - Once the desired changes are made, click Submit. 
 
-**Delete A File Group**
+***Delete A File Group***
 
 - Click documents located in the workspace section of the Solodev Dashboard.
 
@@ -363,7 +364,7 @@ A file group can be used to:
 
 - Review the warning and click Submit. 
 
-**Adding a File Group Entry**
+***Adding a File Group Entry***
 
 - Click documents located in the workspace section of the Solodev Dashboard.
 
@@ -383,7 +384,7 @@ A file group can be used to:
 
 - The file(s) selected will populate in the file group.
 
-**Deleting a File Group Entry**
+***Deleting a File Group Entry***
 
 - Click documents located in the workspace section of the Solodev Dashboard.
 
@@ -401,10 +402,11 @@ Archive History allows users to revert a file to a previous version. Solodev CMS
 
  
 
-### Versioning 
+**Versioning**
+
 Each time a file is saved, Solodev CMS archives a new version. Solodev allows users to see which version of the file is open, when it was last modified and by whom.
 
-### Accessing Archive History 
+**Accessing Archive History**
 
 - Click documents located in the workspace section of the Solodev Dashboard.
 
@@ -416,7 +418,7 @@ Each time a file is saved, Solodev CMS archives a new version. Solodev allows us
 
 - Review the information and click Ok to close the window. 
 
-### Reverting Files to Previous Versions 
+**Reverting Files to Previous Versions** 
 
 - Click documents located in the workspace section of the Solodev Dashboard.
 

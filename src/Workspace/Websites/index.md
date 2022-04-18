@@ -22,7 +22,7 @@ Once you have your domain name, connect your domain to Solodev by following the 
 
 
 
-### Step 1 Add your Domain to Solodev
+**Step 1: Add your Domain to Solodev**
 
 The first thing you will need to do, is to log into Solodev CMS. Enter your username and password and click Log In.
 
@@ -32,24 +32,24 @@ On the left side, click on Websites then click on Add Website button.
 
 ![Add website button](solodev-add-website-button.png)
 
-### Step 2 Fill out the Fields
+**Step 2: Fill out the Fields**
 
 In Your **Website Address** section, type in your URL, the domain name of your newly added website. Then select your timezone. Once you're done, click **Next**.
 ![Add website step 1](solodev-add-website-step-1.png)
 
-### Step 3 Choose your Theme
+**Step 3: Choose your Theme**
 
 You can choose the **LunarXP Theme** or under **Custom Theme**, you can choose to have a Blank Website or import your own theme from the dropdown menu. You can choose different themes for each different website you have. Once the installation is complete, each website will have their own different files and folders. Once you choose your theme, click **Next**.
 
 ![Add website step 2](solodev-add-website-step-2.png)
 
-### Step 4 Specify Additional Domain Details
+**Step 4: Specify Additional Domain Details**
 
 This step is for customizing your website's color scheme and logo. There are also advanced settings below. Don't worry if you don't have your design and branding ready. You can always customize your site's branding later by going to settings.
 
 ![Add website step 3](solodev-add-website-step-3.png)
 
-### Step 5 Finish
+**Step 5: Finish**
 
 Click Next and your website will be added:
 
@@ -65,32 +65,32 @@ After that, log into your account and you'll see that the website is added to yo
 
 When adding websites, Solodev allows the user to import their own theme or choose from one of many themes in the Solodev Marketplace to customize each website created. Before adding a website, a domain name is required. Notable domain providers include GoDaddy.com, NameCheap.com, NetworkSolutions.com, or BlueHost.com. Once you have you can connect your domain to Solodev by following the instructions to add a website provided below: 
 
-### Step 1: Add a Website
+**Step 1: Add a Website**
 
 After logging into Solodev CMS, click Websites on the Tree located in the menu to the left of the screen and click on the Add Website button.
 
 ![Configuring a theme step 1](adding_website.JPG)
 
 
-### Step 2: Choose your theme
+**Step 2: Choose your theme**
 
 Solodev allows the user to choose the SpaceJet Theme. Under Custom Theme, the user can select a Blank Website or import their own theme from the dropdown menu. The user can choose different themes to customize each website created. Once the installation is complete, each website has their own files and folders. Choose the SpaceJet Theme and click Next.
 
 ![Configuring a theme step 2](choose_your_theme.JPG)
 
-### Step 3: Specify Your Theme Variables
+**Step 3: Specify Your Theme Variables**
 
 At this step, the user can customize their website’s color scheme and logo, specify their domain, set their sitename and specify their timezone. The advanced settings allow the user to set the contact information associated with the website’s domain. The site’s branding and logo can be customized after the website has been installed by modifying the settings.json file located in the web files directory. Accept the default settings and click Next.
 
 ![Configuring a theme step 2](specify_theme.JPG)
 
-### Step 4: Import the Theme Package
+**Step 4: Import the Theme Package**
 
 After customizing the color scheme and logo and populating the domain, sitename and timezone the user will be directed to the following screen:
 
 ![Configuring a theme step 3](theme_install_page.JPG)
 
-### Step 5: Navigate to your new website 
+**Step 5: Navigate to your new website** 
 
 Once Solodev CMS has built the website, click on the Start Managing Your Website button. The user will be taken to a screen where they can click the url in the Domain Overview section to view their newly created website. 
 

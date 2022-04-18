@@ -13,7 +13,7 @@ Form Builder serves as the gateway for capturing and sending data from one locat
 
 With this graphical user interface users can create and style custom forms with custom labels and input fields or choose from pre-built forms to quickly collect user data.
 
-### Types of forms in Solodev
+**Types of forms in Solodev**
 
 Solodev Forms are used for two main purposes: 
 
@@ -23,9 +23,7 @@ Solodev Forms are used for two main purposes:
 
 - Module Forms – these are forms found on the back-end of Solodev to add, edit and delete module entries for display on user-facing websites. 
 
-### Accessing Solodev Form Builder
-
-**Prerequisites**
+**Accessing Solodev Form Builder**
 
 Before accessing Form Builder, developers should:
 
@@ -41,13 +39,13 @@ From the Solodev Dashboard, click Forms to access Form Builder.
 
 Solodev developers can create a new form module that can be edited using Solodev's dynamic drag and drop graphical user interface known as Forms. 
 
-### Prerequisites
+**Prerequisites**
 
 Before adding a new form module, developers should: 
 
 - Create a new website.
 
-### Adding a form
+**Adding a form**
 
 - Click Forms from the Solodev dashboard.
 
@@ -61,7 +59,7 @@ Before adding a new form module, developers should:
 
 - Click Save. 
 
-### Creating a pre-built form
+**Creating a pre-built form**
 
 In Solodev Forms, graphical elements are organized into three categories: 
 
@@ -92,17 +90,12 @@ From the visual drag and drop editor:
 
 - Click Save. 
 
-### Building a custom form
+**Building a custom form**
 
 Developers can leverage the graphical elements from the Elements and Form/Input categories to build dynamic custom forms. This document will guide the user through building a simple contact form using the graphical elements from these categories. 
 
-## Form Builder Tools
 
-### Introduction
-
-Solodev Form Builder provides developers and content creators with the tools to build, test, and style dynamic forms. This document will provide an overview of the Form Builder dashboard and discuss each property in further detail. 
-
-### Form Builder Dashboard
+## Form Builder Dashboard
 
 **Graphical Elements**
 
@@ -176,7 +169,7 @@ Developers can style all graphical elements in each category, including form tem
 
 Solodev's Form Builder leverages a drag-and-drop, hierarchical templating system to allow developers to create stunning front-end and back-end forms with little to no code. This document will outline the best practices for using Solodev Form Builder's drag and drop system. 
 
-### Best practices
+**Best practices**
 
 Developers should follow the guidelines below when using Form Builder's templating system:
 
@@ -192,11 +185,10 @@ After creating a form, developers can style each item that falls under the Eleme
 
 - Element Styling: apply CSS styling to each form element – adjusting the position, border, layout, size, typography, and background of each element.
 
-For a detailed description of the CSS styles available to developers, please refer to the Form Tools article.  
+For a detailed description of the CSS styles available to developers see the Form Builder Dashboard section.  
 
- 
+**Style form elements** 
 
-### Style form elements 
 To style your form elements:
 
 - Select the element in the drag and drop designer. 
@@ -211,7 +203,7 @@ To style your form elements:
 
 After creating a form, developers can publish forms created in Solodev Forms to their website via shortcodes or using the module directly. This document will outline both steps. 
 
-### Prerequisites
+**Prerequisites**
 
 Before publishing a form, developers should: 
 
@@ -221,7 +213,6 @@ Before publishing a form, developers should:
 
 - Capture the ID number of the form module.
 
-### Publishing the form
 
 **Publishing forms with the form module**
 

@@ -39,7 +39,7 @@ Solodev recommends using Groups to manage user permissions. Groups should reflec
 
 Groups allow Solodev administrators to replicate existing organizational structures and create custom permissions to provide users with appropriate access to information and resources. 
 
-### Step 1: Adding a User to a Group
+**Step 1: Adding a User to a Group**
 
 - Click Groups located under the Organization section of the Solodev Dashboard.
 
@@ -61,7 +61,7 @@ Groups allow Solodev administrators to replicate existing organizational structu
 
 ![adding users to groups step 4](adding_users_to_groups_post_p4.jpg)
 
-### Step 2: Removing a User from a Group
+**Step 2: Removing a User from a Group**
 
 - Click Groups located under the Organization section of the Solodev Dashboard.
 
@@ -81,7 +81,7 @@ Groups allow Solodev administrators to replicate existing organizational structu
 
 ![removing users from groups step 4](removing_users_from_groups_p4.png)
 
-### Step 3: Adding Groups to Specific Actions or Resources
+**Step 3: Adding Groups to Specific Actions or Resources**
 
 - Select Modules located below the Workspace section. 
 

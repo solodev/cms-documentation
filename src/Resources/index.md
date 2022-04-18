@@ -5,6 +5,439 @@
 
 ---
 
+
+:::
+## Advanced Development
+:::
+
+### Website Settings
+
+Website Settings applies to specific websites in the CMS system. Administrators can configure/change their primary URL here, set a domain for staging, add aliases, generate sitemaps and much more. This article provides an overview of Website Settings and their configurable fields.
+
+To access website settings: 
+
+- Click the desired Website from the list of websites from the dashboard.
+
+- Click Settings.
+
+
+**Primary URL:** The primary domain name for your website.
+
+**Editing the Primary URL**
+
+- Click the desired Website from the list of websites from the dashboard.
+
+- Enter the new domain name in the Primary URL text box.
+
+- Click Submit. 
+
+**Domain Information:** Enter staging address, alias, and custom rules to the domain host file in this section.
+
+**Staging website address:** The domain name for your staging site used for testing.
+
+**Adding/Editing staging website address**
+
+- Click the desired Website from the list of websites from the dashboard.
+
+- Click Settings.
+
+- Under the Domain Information accordion, enter the new domain name in the Staging website address text box.
+
+- Click Submit.
+
+**Origin website address:** The domain name(s) for the non-cached version of your production website. 
+
+**Adding/Editing origin website address**
+
+- Click the desired Website from the list of websites from the dashboard.
+
+- Click Settings.
+
+- Under the Domain Information accordion, enter the new domain name in the Origin website address textbox. 
+
+- Click Submit.
+
+**Host settings:** add custom rules to the domain hosts file. 
+
+**Add custom rules**
+
+- Click the desired Website from the list of websites from the dashboard.
+
+- Click Settings. 
+
+- Under the Domain Information accordion, enter the custom rules in the Host Settings textarea.
+
+- Click Submit.
+
+**Domain redirects:** Domain redirects allow you to re-use the same asset using various copies of the original domain under different aliases.
+
+**Adding a domain redirect**
+
+- Click the desired Website from the list of websites from the dashboard.
+
+- Click Settings.
+
+- Under the Domain Redirect section in the settings modal, enter the domain name in the Add Redirect textbox. 
+
+- Click on the **Add+** button.
+
+- The domain name appears below with an option to remove it. 
+
+- Click Submit button at the bottom of the Settings modal window to add the alternate domain name.
+
+
+**Deleting a domain redirect**
+
+- Click the desired Website from the list of websites from the dashboard.
+
+- Click Settings.
+
+- Click the Remove button next to the redirect to be removed. 
+
+- Review the warning.
+
+- Click OK. 
+
+- Click Submit to delete the alternate domain. 
+
+**Sitemap:** Developers can generate a sitemap in this section. The file is in the www folder of your website.
+
+**Generating a sitemap**
+
+- Click the desired Website from the list of websites from the dashboard.
+
+- Click Settings.
+
+- Click the Generate Sitemap button under the Sitemap accordion.
+
+- The sitemap can be found in the www folder. 
+
+**CDN Information:** Configure your website to use a Content Delivery Network. 
+
+**Adding a CDN origin**
+
+- Click the desired Website from the list of websites from the dashboard.
+
+- Click Settings.
+
+- Under the CDN Information accordion, click the Enable CDN checkbox.
+
+- Add the CDN website address/origin URL.
+
+- Choose a provider.
+
+- Click Submit.
+
+**SSL Information:** (Secure Sockets Layer) is the standard security technology for establishing an encrypted link between a web server and a browser. This link ensures that all data passed between the web server and browsers remain private and integral.
+
+SSL Properties | Description 
+--- | ---
+| SSL Website address | The SSL domain name that establishes an HTTPS connection to your website. |
+| SSL Certificate | The certificate for your domain obtained from a Certificate Authority. |
+| SSL Key | The information from the SSL key file goes here |
+| SSL Chain certificate | The ordered list of certificates containing an SSL Certificate and Certificate Authority Certificates goes here. |
+
+**Adding SSL Information**
+
+- Click the desired Website from the list of websites from the dashboard.
+
+- Click Settings.
+
+- Enter the SSL domain name for your website.
+
+- Check the Sitewide SSL checkbox to establish an HTTPS connection across all pages.
+
+- Enter the SSL Certificate.
+
+- Enter the SSL Key.
+
+- Enter the SSL Chain Certificate.
+
+- Click Submit. 
+
+#### Advanced 
+
+Developers can upload shortcode files, export packages, and adjust the timezone in this section.
+
+**Timezone:** Adjust the website’s timezone here.
+
+**Configuring the Timezone**
+
+- Click the desired Website from the list of websites from the dashboard.
+
+- Click Settings.
+
+- Under the Advanced accordion, select the Timezone from the select box.
+
+- Click Submit.
+
+**Custom Shortcodes File:** Upload a custom shortcodes file here.
+
+**Uploading a custom shortcodes file**
+
+- Click the desired Website from the list of websites from the dashboard.
+
+- Click Settings.
+
+- In the Advanced section next to the Custom Shortcodes File textbox, click Browse.
+
+- Choose the Shortcodes file.  
+
+- Click Submit.
+
+### Managing 301 redirects
+
+URL/page redirects can help direct users away from pages that no longer exist or to more preferred locations. 
+
+Solodev supports URL redirects with 301 redirects and an .htaccess file.  
+
+Note: Solodev recommends that administrators exercise extreme caution when modifying an .htaccess file. One error in the .htaccess code can temporarily disable the website. 
+
+Solodev creates an .htaccess file with the creation of each website. This document will show the user how to add a 301 redirect to the .htaccess file. 
+
+**Adding a 301 redirect to a website**
+
+- Click Websites under the Workspace section of the Solodev Dashboard. 
+
+- Click on the Website to open it. 
+
+- Click Redirects located under the Update Website button. 
+
+- If the administrator has created and customized their error 404 document, enter the following lines of code to direct the browser to the error document:
+
+```
+RewriteEngine On
+
+RewriteBase /
+
+### .htaccess file ###
+
+ErrorDocument 404 /404.stml
+
+```
+
+- Enter the 301 redirect in the following format: 
+
+`Redirect 301 /old-page.stml http://www.mydomain.com/new-page.stml`
+
+- The administrator can add additional 301 redirects by placing each redirect on its own line in the .htaccess file. 
+
+- Click Submit. 
+
+**Note:** In the redirect, the old-page.stml should use a relative path and reference the page that should be redirected. The http://www.mydomain.com/new-page.stml should use an absolute path and reference the new page. 
+
+### Packages
+
+Packages allows users to create a fully functional website and deploy to any Solodev installation. Packages can be used for a base starting point on a new project, testing purposes, project deployment, and several applications. Before building packages, users should have a finalized design and a clear sitemap.
+
+ 
+
+All packages are a collection of folders, template files and content that are placed in the web files folder in Solodev. Packages also contain a “config.json” file that installs themes, web pages and modules. 
+
+Packages are zip files that can be uploaded to Solodev during the first step of adding a website in Solodev CMS. With packages, users can import a fully functional website to any specified domain. 
+
+**Creating a package**
+
+***Prerequisites:*** Before building packages, users should have a finalized design and a clear sitemap. To learn more, please review the Building a custom website section in the Solodev documentation. 
+
+To create a package: 
+
+- Create a website. 
+
+- In the modal window click the Advanced tab to access the advanced options.
+
+- Click Export Package. 
+
+- The user is directed to a modal window that provides options to customize the export. 
+
+- Click the checkbox to Include manager entries in export. 
+
+- Click Continue Export. 
+
+- The user is directed to modal window to download the package. 
+
+- Click Download Package. 
+
+- The zip file will be found in the folder that is assigned to Downloads in the web browser.
+
+**Deploying Packages**
+
+- Click Websites under the Workspace section of the dashboard. 
+
+- Click Add Website. 
+
+- In the Blank Website box, click the arrow in the select box and choose Import Package.
+
+- In the textbox located below the select box, click Choose .zip.
+
+- Locate and Select the .zip file and click Next. 
+
+- Enter the domain and Select a time zone based on the organization’s location. 
+
+- Click Next. The user will be directed to a loading page.
+
+- Click “Start Managing Your Website” to open the website with the installed packages. 
+
+---
+
+
+### Deleting a website
+
+Solodev allows users to manage certain pieces of information related to their domain and Solodev instance. When domains are properly configured for Solodev, users can add domain aliases, add a staging version of the site, modify global meta information and more. This section will show you how to delete a website. 
+
+To delete a website, perform the steps listed below: 
+
+- Click Websites under the Workspace section of the Solodev Dashboard. 
+
+- Click on the Website to open it. 
+
+- Click Settings to bring up the modal window. 
+
+- Click the arrow to expand the Advanced tab. 
+
+- Under the prompt “Delete “domain.com”?”, type ‘DELETE’ in the text box. 
+
+- Click the Delete button. 
+
+
+:::
+## ALT tags
+:::
+
+The term "ALT tag" is a common shorthand term used to refer to the ALT attribute within in the IMG tag. Any time you use an image, be sure to include an ALT tag or ALT text within the IMG tag. Doing so will provide a clear text alternative of the image for screen reader users. ALT tags also provide a keyword association with a specific image, meaning an image is more likely to appear in search engine results for that particular keyword. The following steps demonstrate how to add alt tags to your images in Solodev using the WYSIWYG and Code editor.
+
+**Adding an ALT Attribute to an Image using the WYSIWYG**
+
+- Double click on the image in your WYSIWYG editor.
+
+- Add your ALT text to the Alternative Text field. Click Ok.
+
+
+**Adding an ALT Attribute to an Image using the Code Editor**
+
+- Open the desired html file and click on the Source button.
+
+- Add an ALT attribute to your image with the value containing relevant text describing the image.
+
+```html
+
+<img alt="LunarXP Ships" class="img-fluid mb-4" src="/_/images/Ships_Main_Image.jpg"/>
+
+```
+
+- Click Publish.
+
+
+---
+
+
+:::
+
+## Configure Amazon Simple Email Service (SES) in Solodev
+
+:::
+
+---
+
+Solodev CMS supports integration with Amazon SES – a service that allows users to send and receive email using their own email addresses and domains. You can leverage this feature to develop email autoresponders, newsletters, or transactional emails. This article documents adding Amazon SES credentials to Solodev.
+
+Before adding Amazon SES credentials to the CMS you should have completed the following tasks:
+
+- [Sign up for AWS](https://docs.aws.amazon.com/ses/latest/dg/setting-up.html#setting-up-aws-sign-up).
+
+- [Obtain their AWS access keys](https://docs.aws.amazon.com/ses/latest/dg/setting-up.html#get-aws-keys).
+
+- [Download an AWS SDK](https://docs.aws.amazon.com/ses/latest/dg/setting-up.html#download-aws-sdk).
+
+- [Verify your domain](https://docs.aws.amazon.com/ses/latest/dg/send-email-getting-started-migrate.html#send-email-getting-started-migrate-verify-domain).
+
+- [Verify an email address with Amazon SES](https://docs.aws.amazon.com/ses/latest/dg/setting-up.html#quick-start-verify-email-addresses).
+
+- [Obtain Amazon SES SMTP credentials](https://docs.aws.amazon.com/ses/latest/dg/smtp-credentials.html).
+
+- [Connect to an Amazon SES SMTP endpoint](https://docs.aws.amazon.com/ses/latest/dg/smtp-connect.html).
+
+- Obtain the SMTP interface port number.
+
+To review the pre-requisites in more detail, please refer to the [Amazon Simple Email Service Developer Guide](https://docs.aws.amazon.com/ses/latest/dg/Welcome.html). For additional assistance with configuring Amazon Simple Email Service please contact our [support team](mailto:help@solodev.com). 
+
+**Adding Amazon SES credentials to Solodev CMS**
+
+- From the CMS dashboard, click Settings. 
+
+- In the Settings dashboard, click Config.
+
+- Enter the Email From Address. 
+
+- Enter the SMTP Host. 
+
+- Enter the SMTP Port. 
+
+- Enter the SMTP Username. 
+
+- Enter the SMTP Password. 
+
+- Click Submit. 
+
+---
+
+
+## fileparse.php
+
+Solodev includes several built-in scripts which accomplish more extended functionality and help developers get the most out of the Solodev CMS system. This document will discuss fileparse.php script. This script acquires the file path of a resource on the Solodev filesystem for use on the frontend of the site. Generally used in relation to images stored in the web files folder, fileparse.php is used to construct source URLs for `<a>`, `<img>`, `<script>`, and `<link>` tags.
+
+**Constructing a source URL for `<img>` tags**
+
+When a user uploads an image using the WYSIWYG editor, Solodev automatically places the image in an _Assets folder that is a peer to a specific page.
+
+![Asset directory w/ uploaded image](core_script_p1.jpg)
+
+The source for each image tag includes a reference to "fileparse.php". The source of this image in the above screenshot is "/core/fileparse.php/549/urlt/earth.jpg”. The source of the image can be found by opening the html file that contains the uploaded image, right clicking the image, and clicking Image Properties. 
+
+![image properties button](core_script_p2.jpg)
+
+![image source](core_script_p3.jpg)
+
+The reference "fileparse.php" is simply a built-in script that gets the URL of a specific folder ID. In this example, the folder has an ID of 549. The fileparse.php script returns the path to the specified folder and then finds the asset name.
+
+![folder id](core_script_p4.jpg)
+
+The user can reference the earth.jpg image elsewhere on the Solodev site in an image tag by using the source path listed above: 
+
+```html
+<img src="/core/fileparse.php/549/urlt/earth.jpg" alt="earth with lights">
+```
+There are situations where the user needs to upload an image or asset outside of the WYSIWYG editor (for example, .tpl files or modules). For these situations the user can upload the files directly to an _Assets folder using Add File or Upload in the toolbar and use the fileparse.php method to create the asset’ source path. 
+
+
+## Marketing and SEO
+
+Solodev comes with a number of tools out of the box to empower your marketing team and boost your SEO ranking and site visibility. This following resources will cover the pillars of the Solodev Marketing Toolbox.
+
+**Meta Data**
+
+- ***Website*** Solodev comes with a number of tools to boost your SEO ranking and site visibility and help better market your website organically.
+
+- ***Page*** In addition to your website's meta information, you can add meta information to different pages within your site. On any given page in Solodev, simply toggle over from the Content tab to the Meta Information Tab and start adding meta data to your page.
+
+**SEO Basics**
+
+Solodev has a number of ways to create SEO-friendly elements within your website. These components include SEO-friendly URLs, Title Tags, Alt Tags, and more.
+
+**Scheduling**
+
+Schedule content to publish to your web pages and set when certain pieces of content go live or are removed from pages throughout your website. Solodev will automatically publish and remove content according to your schedule, serving up different pieces of content based on the date and time.
+
+**Experiments**
+
+Solodev Experiments is a powerful tool to add to your Marketing Toolbox. You can experiment with different pieces of content on a page, the copy on a page, images on a page, different hero iterations, sliders, you name it. With such A/B testing, you can empower your marketers to create content that consistently delivers.
+
+**Forms**
+
+Use our drag and drop form builder to create forms for placement across your website and connect your forms to a datatable that collects all form submissions, allowing you to capture leads and trigger actions on form submission such as email automation, asset downloads, [tickler emails](https://cms.solodev.net/workspace/modules/custom-modules/#adding-an-email-tickler), and more.
+
+---
+
 ## Shortcodes
 
 Shortcodes allows the user to enhance the functionality of their site and gives them the ability to create special features that will distinguishes their site from the competition. Solodev shortcodes are the contextual templating language of Solodev. With a templating language, users are able to code directly against their site content – allowing developers and content editors to work in tandem. 
@@ -1523,297 +1956,3 @@ add_shortcode('print_date', 'print_date');
 
  `[print_date format="F j, Y, g:i a"]`
 
-:::
-
-## Configure Amazon Simple Email Service (SES) in Solodev
-
-:::
-
----
-
-Solodev CMS supports integration with Amazon SES – a service that allows users to send and receive email using their own email addresses and domains. You can leverage this feature to develop email autoresponders, newsletters, or transactional emails. This article documents adding Amazon SES credentials to Solodev.
-
-Before adding Amazon SES credentials to the CMS you should have completed the following tasks:
-
-- [Sign up for AWS](https://docs.aws.amazon.com/ses/latest/dg/setting-up.html#setting-up-aws-sign-up).
-
-- [Obtain their AWS access keys](https://docs.aws.amazon.com/ses/latest/dg/setting-up.html#get-aws-keys).
-
-- [Download an AWS SDK](https://docs.aws.amazon.com/ses/latest/dg/setting-up.html#download-aws-sdk).
-
-- [Verify your domain](https://docs.aws.amazon.com/ses/latest/dg/send-email-getting-started-migrate.html#send-email-getting-started-migrate-verify-domain).
-
-- [Verify an email address with Amazon SES](https://docs.aws.amazon.com/ses/latest/dg/setting-up.html#quick-start-verify-email-addresses).
-
-- [Obtain Amazon SES SMTP credentials](https://docs.aws.amazon.com/ses/latest/dg/smtp-credentials.html).
-
-- [Connect to an Amazon SES SMTP endpoint](https://docs.aws.amazon.com/ses/latest/dg/smtp-connect.html).
-
-- Obtain the SMTP interface port number.
-
-To review the pre-requisites in more detail, please refer to the [Amazon Simple Email Service Developer Guide](https://docs.aws.amazon.com/ses/latest/dg/Welcome.html). For additional assistance with configuring Amazon Simple Email Service please contact our [support team](mailto:help@solodev.com). 
-
-### Adding Amazon SES credentials to Solodev CMS
-
-- From the CMS dashboard, click Settings. 
-
-- In the Settings dashboard, click Config.
-
-- Enter the Email From Address. 
-
-- Enter the SMTP Host. 
-
-- Enter the SMTP Port. 
-
-- Enter the SMTP Username. 
-
-- Enter the SMTP Password. 
-
-- Click Submit. 
-
-:::
-## ALT tags
-:::
-
-The term "ALT tag" is a common shorthand term used to refer to the ALT attribute within in the IMG tag. Any time you use an image, be sure to include an ALT tag or ALT text within the IMG tag. Doing so will provide a clear text alternative of the image for screen reader users. ALT tags also provide a keyword association with a specific image, meaning an image is more likely to appear in search engine results for that particular keyword. The following steps demonstrate how to add alt tags to your images in Solodev using the WYSIWYG and Code editor.
-
-### Adding an ALT Attribute to an Image using the WYSIWYG
-
-- Double click on the image in your WYSIWYG editor.
-
-- Add your ALT text to the Alternative Text field. Click Ok.
-
-
-### Adding an ALT Attribute to an Image using the Code Editor
-
-- Open the desired html file and click on the Source button.
-
-- Add an ALT attribute to your image with the value containing relevant text describing the image.
-
-```html
-
-<img alt="LunarXP Ships" class="img-fluid mb-4" src="/_/images/Ships_Main_Image.jpg"/>
-
-```
-
-- Click Publish.
-
-:::
-## Advanced Development
-:::
-
-### Website Settings
-
-Website Settings applies to specific websites in the CMS system. Administrators can configure/change their primary URL here, set a domain for staging, add aliases, generate sitemaps and much more. This article provides an overview of Website Settings and their configurable fields.
-
-To access website settings: 
-
-- Click the desired Website from the list of websites from the dashboard.
-
-- Click Settings.
-
-
-**Primary URL:** The primary domain name for your website.
-
-**Editing the Primary URL**
-
-- Click the desired Website from the list of websites from the dashboard.
-
-- Enter the new domain name in the Primary URL text box.
-
-- Click Submit. 
-
-**Domain Information:** Enter staging address, alias, and custom rules to the domain host file in this section.
-
-**Staging website address:** The domain name for your staging site used for testing.
-
-**Adding/Editing staging website address**
-
-- Click the desired Website from the list of websites from the dashboard.
-
-- Click Settings.
-
-- Under the Domain Information accordion, enter the new domain name in the Staging website address text box.
-
-- Click Submit.
-
-**Origin website address:** The domain name(s) for the non-cached version of your production website. 
-
-**Adding/Editing origin website address**
-
-- Click the desired Website from the list of websites from the dashboard.
-
-- Click Settings.
-
-- Under the Domain Information accordion, enter the new domain name in the Origin website address textbox. 
-
-- Click Submit.
-
-**Host settings:** add custom rules to the domain hosts file. 
-
-**Add custom rules**
-
-- Click the desired Website from the list of websites from the dashboard.
-
-- Click Settings. 
-
-- Under the Domain Information accordion, enter the custom rules in the Host Settings textarea.
-
-- Click Submit.
-
-**Domain redirects:** Domain redirects allow you to re-use the same asset using various copies of the original domain under different aliases.
-
-**Adding a domain redirect**
-
-- Click the desired Website from the list of websites from the dashboard.
-
-- Click Settings.
-
-- Under the Domain Redirect section in the settings modal, enter the domain name in the Add Redirect textbox. 
-
-- Click on the **Add+** button.
-
-- The domain name appears below with an option to remove it. 
-
-- Click Submit button at the bottom of the Settings modal window to add the alternate domain name.
-
-
-**Deleting a domain redirect**
-
-- Click the desired Website from the list of websites from the dashboard.
-
-- Click Settings.
-
-- Click the Remove button next to the redirect to be removed. 
-
-- Review the warning.
-
-- Click OK. 
-
-- Click Submit to delete the alternate domain. 
-
-**Sitemap:** Developers can generate a sitemap in this section. The file is in the www folder of your website.
-
-**Generating a sitemap**
-
-- Click the desired Website from the list of websites from the dashboard.
-
-- Click Settings.
-
-- Click the Generate Sitemap button under the Sitemap accordion.
-
-- The sitemap can be found in the www folder. 
-
-**CDN Information:** Configure your website to use a Content Delivery Network. 
-
-**Adding a CDN origin**
-
-- Click the desired Website from the list of websites from the dashboard.
-
-- Click Settings.
-
-- Under the CDN Information accordion, click the Enable CDN checkbox.
-
-- Add the CDN website address/origin URL.
-
-- Choose a provider.
-
-- Click Submit.
-
-**SSL Information:** (Secure Sockets Layer) is the standard security technology for establishing an encrypted link between a web server and a browser. This link ensures that all data passed between the web server and browsers remain private and integral.
-
-SSL Properties | Description 
---- | ---
-| SSL Website address | The SSL domain name that establishes an HTTPS connection to your website. |
-| SSL Certificate | The certificate for your domain obtained from a Certificate Authority. |
-| SSL Key | The information from the SSL key file goes here |
-| SSL Chain certificate | The ordered list of certificates containing an SSL Certificate and Certificate Authority Certificates goes here. |
-
-**Adding SSL Information**
-
-- Click the desired Website from the list of websites from the dashboard.
-
-- Click Settings.
-
-- Enter the SSL domain name for your website.
-
-- Check the Sitewide SSL checkbox to establish an HTTPS connection across all pages.
-
-- Enter the SSL Certificate.
-
-- Enter the SSL Key.
-
-- Enter the SSL Chain Certificate.
-
-- Click Submit. 
-
-#### Advanced 
-
-Developers can upload shortcode files, export packages, and adjust the timezone in this section.
-
-**Timezone:** Adjust the website’s timezone here.
-
-**Configuring the Timezone**
-
-- Click the desired Website from the list of websites from the dashboard.
-
-- Click Settings.
-
-- Under the Advanced accordion, select the Timezone from the select box.
-
-- Click Submit.
-
-**Custom Shortcodes File:** Upload a custom shortcodes file here.
-
-**Uploading a custom shortcodes file**
-
-- Click the desired Website from the list of websites from the dashboard.
-
-- Click Settings.
-
-- In the Advanced section next to the Custom Shortcodes File textbox, click Browse.
-
-- Choose the Shortcodes file.  
-
-- Click Submit.
-
-### Managing 301 redirects
-
-URL/page redirects can help direct users away from pages that no longer exist or to more preferred locations. 
-
-Solodev supports URL redirects with 301 redirects and an .htaccess file.  
-
-Note: Solodev recommends that administrators exercise extreme caution when modifying an .htaccess file. One error in the .htaccess code can temporarily disable the website. 
-
-Solodev creates an .htaccess file with the creation of each website. This document will show the user how to add a 301 redirect to the .htaccess file. 
-
-**Adding a 301 redirect to a website**
-
-- Click Websites under the Workspace section of the Solodev Dashboard. 
-
-- Click on the Website to open it. 
-
-- Click Redirects located under the Update Website button. 
-
-- If the administrator has created and customized their error 404 document, enter the following lines of code to direct the browser to the error document:
-
-```
-RewriteEngine On
-
-RewriteBase /
-
-### .htaccess file ###
-
-ErrorDocument 404 /404.stml
-
-```
-
-- Enter the 301 redirect in the following format: 
-
-`Redirect 301 /old-page.stml http://www.mydomain.com/new-page.stml`
-
-- The administrator can add additional 301 redirects by placing each redirect on its own line in the .htaccess file. 
-
-- Click Submit. 
-
-**Note:** In the redirect, the old-page.stml should use a relative path and reference the page that should be redirected. The http://www.mydomain.com/new-page.stml should use an absolute path and reference the new page. 
