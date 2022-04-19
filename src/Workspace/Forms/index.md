@@ -103,9 +103,9 @@ In Solodev Form Builder, the graphical elements that provide the HTML in the tem
 
  
 
-- Elements: HTML elements such as headers, containers, columns, images, and paragraphs are located here.
+- Elements: HTML elements such as containers and columns are located here.
 
-- Templates: Pre-built forms with the appropriate form fields are found here.
+- Content: HTML elements such as headers, images, paragraphs, and lists.
 
 - Form/Inputs: All form input fields and form buttons are located here.
 
@@ -122,7 +122,7 @@ Graphical elements from each category, possess element settings that developers 
 | Properties | Description | Element Settings |
 | ----------- | ----------- | ----------- | 
 | Container | Bootstrap containers provide the developer with a means to center and horizontally pad their form's contents. | Add links to the container. Choose between fluid and non-fluid options. |
-| Columns | HTML elements, form templates, and form inputs must be placed within columns. As a best practice columns should be embedded in containers. | Add links to the columns. Set the number of columns. Add padding. |
+| Columns | HTML elements, form templates, and form inputs must be placed within columns. As a best practice columns should be embedded in containers. | Add links to the columns. Set the number of columns. Add padding (a css property used to generate space around an element's content inside of any defined borders). |
 
 **Content**
 
@@ -141,10 +141,9 @@ Graphical elements from each category, possess element settings that developers 
 | Input |  The graphical analog to the `<input>` element. | Set the name, input type, label, helper text, placeholder text, ID, prepend icon, append icon. Toggle between required and optional. |
 | File | The graphical analog to the `<input type="file">` that defines a file-select field and a "Browse" button for file uploads | N/A | 
 | Text Area | The graphical analog to the `<text-area>` tag that defines a multiline input control. | Set the label, helper text, placeholder text, Name, ID. Toggle between required and optional. Hide/show the label. | 
-| Checkbox |  The graphical analog to the `<input type="checkbox">` that defines a checkbox. |  Set the label, Name, and ID. | 
-| Select |  The graphical analog to the `<select>` element that defines a drop-down list. | Set the item and values. Arrange the hierarchy of select values. Add select values. Add helper text. Add placeholder text. Set the label. Add a Name. Set the ID. Toggle between required and optional. Hide/show the label. | 
-| Radio Button | The graphical analog to the `<input type ="radio">` that defines a radio button -- which lets a user to select only one of a limited number of choices. | Set the label. Add a Name. Set the ID. Set the Value. |
-|Form Button | The graphical analog to the `<button>` tag that defines a clickable button. | Add links. Select a button style, set the button size, set the button text. | 
+| Checkbox |  The graphical analog to the `<input type="checkbox">` that defines a checkbox. | Set the label, Name, and ID. | 
+| Radio Button | The graphical analog to the `<input type ="radio">` that defines a radio button -- which lets a user to select only one of a limited number of choices. | Set the label. Add a Name. Set the ID. |
+| Form Button | The graphical analog to the `<button>` tag that defines a clickable button. | Add links. Select a button style, set the button size, set the button text. | 
 
 **Form Views**
 
@@ -255,4 +254,27 @@ To publish forms with shortcodes, please refer to the following steps:
 - Click the HTML or .tpl file that contains the form content to place it into the dynamic div. 
 
 - Click Publish.
+
+
+## Settings Glossary
+
+
+The settings for the graphical elements are listed below: 
+
+
+| Settings | Description | 
+| ----------- | ----------- |
+| Fluid | A container setting that keeps the width of a container at 100% across all breakpoints. | 
+| Non-fluid | The default container setting (.container) which sets a max-width at each responsive breakpoint. |
+| Name | Specify a name for an HTML element using lower case letters and underscores to represent spaces (specific to the name, radio button, checkbox, and textarea form elements). Solodev recommends setting the Name and ID attributes to the same value. | 
+| Type | specific to the input form property, these list of types include: text, number, password, email, search, url, and telephone number. |
+| Label | Caption form input, checkbox, radio button, or textarea fields. |
+| Placeholder | Specific to the input and text area form fields, the placeholder attribute specifies a short hin that describes the expected value of an input field. |
+| ID | Specify a unique ID for input, textarea, radio button, and checkbox form fields. IDs should be unique to the form field and follow the same naming conventions as the name attribute. Solodev recommends setting the ID and Name attributes to the same value. |
+| Helper | Specific to the input and text area form fields, helpers are used to convey instructions for input fields and textareas. |
+| Padding | A CSS property, specific to columns, used to generate space around an element's content inside of any defined borders. |
+| Heading size | Specfic to the heading HTML element. Choose a size for your header raging from H1 through H6. | 
+| Alt text | Specify an alternate text for an image, if the image cannot be displayed. |
+| Prepend icon | Add an icon to the left of an input field. |
+| Append icon | Add an icon to the right of an input field. |
 

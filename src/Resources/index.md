@@ -420,21 +420,396 @@ Solodev comes with a number of tools out of the box to empower your marketing te
 
 - ***Page*** In addition to your website's meta information, you can add meta information to different pages within your site. On any given page in Solodev, simply toggle over from the Content tab to the Meta Information Tab and start adding meta data to your page.
 
-**SEO Basics**
+***SEO Basics***
 
 Solodev has a number of ways to create SEO-friendly elements within your website. These components include SEO-friendly URLs, Title Tags, Alt Tags, and more.
 
-**Scheduling**
+***Scheduling***
 
 Schedule content to publish to your web pages and set when certain pieces of content go live or are removed from pages throughout your website. Solodev will automatically publish and remove content according to your schedule, serving up different pieces of content based on the date and time.
 
-**Experiments**
+***Experiments***
 
 Solodev Experiments is a powerful tool to add to your Marketing Toolbox. You can experiment with different pieces of content on a page, the copy on a page, images on a page, different hero iterations, sliders, you name it. With such A/B testing, you can empower your marketers to create content that consistently delivers.
 
-**Forms**
+***Forms***
 
 Use our drag and drop form builder to create forms for placement across your website and connect your forms to a datatable that collects all form submissions, allowing you to capture leads and trigger actions on form submission such as email automation, asset downloads, [tickler emails](https://cms.solodev.net/workspace/modules/custom-modules/#adding-an-email-tickler), and more.
+
+
+***Configuring your website's meta information***
+
+Solodev offers a number of tools to boost SEO ranking, site visibility, and help better market websites organically. In order to configure a website's meta information, open the root of the desired website by clicking the globe icon next to its domain name. Click Update Website.
+
+![Updating your wevbsite step 1](solodev-update-website-button.png)
+
+Note: In the fields below users can add meta information that will dynamically render across every page of their website. When managing multiple websites, users can rank the order in which websites appear. Users can add a site title that will appear on all pages of their site.
+
+ 
+
+Underneath the site title field are two social media fields intended for social meta information. When populated, Solodev dynamically creates Twitter and Facebook meta information for each and every page of the website, furthering SEO visibility beyond search and into the social stratosphere. Users can add Global HTML tags along with header inserts to be included on every web page.
+
+![Updating your website step 2](solodev-update-website-form.png)
+
+
+***Page meta data***
+
+In addition to the website’s meta information, Solodev users can add meta information to different pages within the site. Open any given page (.stml file) and click the Meta button (the information icon) and expand the Meta accordion to start adding meta data to the Meta entry form.
+
+![meta information button](meta_page_1.jpg)
+
+![meta accordion](meta_page_2.jpg)
+
+The Meta tab allows the user to add a Menu Name, Rank, H1 Title, Meta Description, and Meta Keywords. Solodev also dynamically pulls the form fields and text areas and populates the meta information you place in these fields on a page-by-page basis. This document will show the user how to add meta descriptions, meta keywords, and change the meta titles of the page.
+
+![meta modal](meta_page_3.jpg)
+
+
+*Changing the Meta Title*
+
+The meta title, distinct from the headline on the page itself, is an important part of Search Engine optimization. Meta titles are seen by visitors searching the web and read by search engine robots.  
+
+- Open the .stml page.
+
+- Click the Meta button (the information icon) to bring up the meta window.
+
+![changing your meta title step 1](changing_meta_title.png)
+
+- Enter the Title.
+
+- Click Ok.
+
+![Changing your meta title step 2](changing_meta_title_2.png)
+
+- Click Publish.
+
+![Changing your meta title step 3](publish_meta_info.png)
+
+
+*Add a menu Name*
+
+Users that are leveraging a dynamic and programmatic menu can submit the name of the menu in this field. If the website has a long title, users can use the menu name to ensure that visitor’s search terms will point to the site’s URL.
+
+- Open the .stml page.
+
+- Click the Meta button (the information icon) to bring up the meta window.
+
+![Add a menu step 1](meta_info_button.png)
+
+- Expand the Meta accordion.
+
+![add a menu step 2](meta_page_2.jpg)
+
+- Fill out the Menu Name field.
+
+- Click Ok.
+
+![add a menu step 3](menu_name.png)
+
+- Click Publish.
+
+![Add a menu step 4](publish_meta_info.png)
+
+
+*Add a Rank*
+
+The rank is used to rank the items in the programmatic menu. This does not impact SEO results. 
+
+- Open the .stml page.
+
+- Click the Meta button (the information icon) to bring up the meta window.
+
+![Add a rank step 1](meta_info_button.png)
+
+- Expand the Meta accordion.
+
+![add a rank step 2](meta_page_2.jpg)
+
+- Fill out the Rank field.
+
+- Click Ok.
+
+![add a rank step 2](meta_rank.png)
+
+- Click Publish. 
+
+![Add a rank step 3](publish_meta_info.png)
+
+
+*Adding an H1 Title*
+
+The user can add an H1 title to the meta form to ensure that the list of search results matches a visitor’s key search terms. The steps for adding an H1 title are listed below:  
+
+- Open the .stml page.
+
+- Click the Meta button (the information icon) to bring up the meta window.
+
+![Add an H1 Title step 1](meta_info_button.png)
+
+- Expand the Meta accordion.
+
+![Add an H1 title step 2](meta_page_2.jpg)
+
+- Enter the H1 Title.
+
+- Click Ok.
+
+![Add an H1 title step 3](h1_title.png)
+
+- Click Publish. 
+
+![Add an H1 title step 4](publish_meta_info.png)
+
+
+
+*Adding a Meta Description*
+
+Search engines help visitors distinguish between results by adding about the individual pages next to their URLs. Some search engines allow the developer to specify the description that appears next to the page. Solodev recommends that the list of links matches a visitor’s key search terms. To do this, take the first couple sentences of the body copy from the web page and use it as the content for the Meta Description.
+
+- Open the .stml page.
+
+- Click the Meta button (the information icon) to bring up the meta window.
+
+![Add a meta description step 1](meta_info_button.png)
+
+- Expand the Meta accordion
+
+![Add a meta description step 2](meta_page_2.jpg)
+
+- Fill out the Meta Description Field.
+
+- Click Ok.
+
+![Add a meta description step 3](meta_description.png)
+
+- Click Publish. 
+
+![Add a meta description step 4](publish_meta_info.png)
+
+*Adding meta keywords*
+
+Meta Keywords are a specific type of meta tag that appear in the HTML code of a Web page and tell the search engines the topic of the page. Users can explicitly tell search engines exactly what their page is about by specifying a list of relevant keywords in the Meta Keywords field of the STML file. Solodev recommends using a combination of very unique and more general words to describe the contents of your page. 
+
+However, using a greater number of words is not necessarily better. The closer Solodev users match what a prospective visitor types (with no extra words), their pages will achieve a more prominent ranking in the search results.
+
+- Open the .stml page.
+
+- Click the Meta button (the information icon) to bring up the meta window.
+
+![Add meta keywords step 1](meta_info_button.png)
+
+- Expand the Meta accordion
+
+![Add meta keywords step 2](meta_page_2.jpg)
+
+- Enter the keywords in the Meta Keywords field.
+
+- Click Ok. 
+
+![Add meta keywords step 3](meta_keywords.png)
+
+- Click Publish. 
+
+![Add meta keywords step 4](publish_meta_info.png)
+
+
+**Note:** Don’t use keywords where they don’t make sense. It is their natural and consistent use that is rewarded. Don’t repeat keywords endlessly and meaninglessly, as it is considered spamming and results in the page being banned from search engine results. 
+
+ 
+
+**Note:** Although all files contain meta properties, Solodev recommends adding and changing the meta properties of .stml files to improve Search Engine Optimization. 
+
+
+***Scheduler***
+
+Solodev provides the ability to schedule publication of content to a live website in advance. Users can leverage the Scheduler tool to remove and replace the content of a webpage based on a predefined schedule. For example, users can create five different variations of the web page content, upload them to Solodev Scheduler, and set the dates to replace the content along with the frequency of replacement. After setting these parameters, Solodev automates the entire process. 
+
+Schedulers can be used for two main purposes: 
+
+- Set specific dates and times for the publication of content. 
+
+- Display a series of announcements on a web page at a given time. 
+
+
+*Creating a scheduler*
+
+- Open the folder that will contain the schedule. 
+
+- Click Add Scheduler to bring up the Add Scheduler modal. 
+
+- Enter the Name, Title, and Description. 
+
+- Click Submit. 
+
+
+*Modifying a scheduler*
+
+- Open the newly created schedule. 
+
+- Click Modify to bring up the Modify modal.
+
+- Make the required changes to the Name, Title, and Description.
+
+- Click Submit. 
+
+*Deleting a scheduler*
+
+- Open the schedule.
+
+- Click Delete to bring up the Delete modal. 
+
+- Review the warning and click Submit. 
+
+*Creating a scheduler entry*
+
+- Open the scheduler.
+
+- Click Add Entry to bring up the Add Entry modal window.
+
+- Enter a Name for the scheduler entry. 
+
+- Click Browse to select a file from the workspace. This example selects the home-slider.tpl file located in web files -> content -> home.
+
+- Enter a Start Date.
+
+- Click Submit. 
+
+Note: If there is one scheduler entry for an asset file, the asset file will remain published on the page until the entry is removed or another entry is created. When another entry is created within the same scheduler, the previous entry will be removed on the start date of the most recent entry.
+
+*Modifying a scheduler entry*
+
+- Open the scheduler. 
+
+- Click the document icon next to open the desired entry.
+
+- The entry appears in a new tab, where the user can change the name of the entry, preview the file selected, change the selected file, and change the start date. 
+
+- Once the desired changes are made, click Save.  
+
+*Deleting a scheduler entry*
+
+- Open the scheduler. 
+
+- Click the document icon next to open the desired entry.
+
+- Click Delete to bring up the Delete modal window. 
+
+- Review the warning and click Submit. 
+
+*Adding a scheduler to a page*
+
+- Open the page that will contain the scheduler and select the dropzone.
+
+- Click on the scheduler to insert it into the dropzone.
+
+- Click Publish. 
+
+
+
+***A/B Testing***
+
+A/B Testing is the most essential tool marketers can use to target visitors by testing their responses to varying content. Experiments allows users to test different iterations of content on different pages and track the iterations receiving the most conversions and engagement. 
+
+With Solodev Experiments, users can experiment with different pieces of content on a page, the copy on a page, images on page, different hero iterations, and sliders. This article shows the user how to create and modify experiments and their entries. 
+
+**Note:** Prior to conducting experiments in Solodev, users should arrange the different iterations to be tested. Given that visitors can see the different iterations of content on the website, Solodev recommends ensuring that the correct iterations are tested. Content cannot be a page itself, but a file in the web files directory with an .HTML or .TPL extension. 
+
+
+*Add an Experiment*
+
+- Open the web files -> content -> experiments directory. 
+
+- Click Add Experiment to bring up the Add Experiment window.
+
+- Enter the Name. 
+
+- Click Submit. 
+
+Note: Name and describe your experiments so that at first glance, collaborators know the intent of the experiment, in this case, the intent is to see which performs better, a static hero image or a hero slider. 
+
+*Add an entry to an experiment*
+
+- Click on the beaker icon next to the experiment name to open the experiment.
+
+- Add content to the experiment by clicking the Browse button.
+
+- Select home-slider.tpl (Solodev’s slider), located in the web files -> content -> home directory, for the first iteration of the experiment and click Choose.
+
+- The first iteration of the experiment is displayed to the left of the Browse button.
+
+- To configure the content, enter the name adjust the frequency, and click the checkbox located under the Active column.
+
+- Click Save.
+
+- Scroll to the right and click the orange + button to populate a new row.
+
+- Follow the steps 1 – 6 to add the second iteration. For this iteration, select home-video.tpl located in the web files -> content -> home directory. 
+
+*Add an experiment to a page*
+
+- Open the page that will contain the experiment and select the dropzone for the experiment.
+
+- Select the experiment from the web files directory and click Publish.
+
+**Note:** 50% of site visitors will see the Video iteration of the homepage and the remainder will see the Hero Slider iteration. 
+
+
+*Changing the frequency of iterations in an experiment*
+
+If an iteration in an experiment does not perform well, users may want to increase the frequency to gain more data. Alternatively, users may want to decrease the frequency or remove the iteration altogether in which that content is displayed.  
+
+- Open the experiment to display the iterations. 
+
+- Adjust the frequency sliders. 
+
+- Click Save.
+
+**Note:** As you can see above, the slider entry has a higher conversion rate than the video entry does. We'll increase the frequency of the slider and decrease the frequency of the video.
+
+
+*Removing iterations/entries from an experiment* 
+
+- Open the experiment to display the iterations. 
+
+- Scroll to the right and click the grey – button.
+
+- Click Save.
+
+
+*Adding iterations*
+
+In the previous example, this document guided the user through creating an experiment with two iterations. Suppose that the user would like to test more than one slider and more than one video image. In this case, the user can add content to the web files folder to add further iterations to the experiment.  
+
+- Open the experiment to display the iterations.
+
+- Click the orange + button on the far right of the Slider to add a new row. 
+
+- Click Browse, select the desired content from the file tree, and click Choose.
+
+- Enter the name of the frequency, click the checkbox in the Active column and adjust the frequency slider. 
+
+- Click Save to save the iteration.
+
+*Disabling an iteration*
+
+- Open the experiment to display the iterations.
+
+- Click the checkbox to remove the check mark from the Active column.
+
+- Click Save. 
+
+*Deleting an Experiment*
+
+- Open the folder containing the experiment. 
+
+- Select the checkbox next to the experiment.
+
+- Click Delete to bring up the modal window.
+
+- Review the warning and click Submit.
+
+
+**Note:** While Solodev Experiments tracks conversion rates locally, users can send conversion data to google optimize, which is integrated with google analytics, for granular tracking. To leverage Google Optimize, create a new experiment that mimics the variations configured in Solodev and place the Google Optimize key in the **Google Experiment ID** field.
 
 ---
 
