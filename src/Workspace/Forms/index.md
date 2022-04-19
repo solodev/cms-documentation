@@ -123,28 +123,28 @@ Graphical elements from each category, possess element settings that developers 
 | ----------- | ----------- | ----------- | 
 | Container | Bootstrap containers provide the developer with a means to center and horizontally pad their form's contents. | Add links to the container. Choose between fluid and non-fluid options. |
 | Columns | HTML elements, form templates, and form inputs must be placed within columns. As a best practice columns should be embedded in containers. | Add links to the columns. Set the number of columns. Add padding. |
-| Header | The header element represents a container for introductory content. | Add links to the header. Set heading size. |
-| Image | The graphical analog to the `<img>` tag used to embed an image in an HTML page. | Add links to the image. Add an image. Add alt text. Set image shape. Set image width and height. |
-| Paragraph | The graphical analog to the `<p>` tag that defines a paragraph on an HTML page. | No settings. |
 
-**Templates**
+**Content**
 
 | Properties | Description | Element Settings |
 | ----------- | ----------- | ----------- | 
-| Contact Form | A form template that contains First Name, Last Name, Email address, Phone number, Message fields, and a Submit button.  | Set the Form Tag, Form Name  Form Action, Form Method, and Enctype. | 
-| Subscribe Form |  A form template that contains First Name, Last Name, Address, City, State, Zip fields, and a Submit button. | Set the Form Tag, Form Name  Form Action, Form Method, and Enctype. | 
+| Header | The header element represents a container for introductory content. | Add links to the header. Set heading size. |
+| Image | The graphical analog to the `<img>` tag used to embed an image in an HTML page. | Add links to the image. Add an image. Add alt text. Set image shape. Set image width and height. |
+| Paragraph | The graphical analog to the `<p>` tag that defines a paragraph on an HTML page. | No settings. |
+| List | The graphical analog to the `<ul>` or `<ol>` tags rendered into a [list group](https://getbootstrap.com/docs/5.0/components/list-group/). | Reorder, add, or remove elements in the list group. | 
 
 **Forms**
 
 | Properties | Description | Element Settings |
-| ----------- | ----------- | ----------- | 
+| ----------- | ----------- | ----------- |
+| Dropdown | The graphical analog to the bootstrap [dropdown component](https://getbootstrap.com/docs/5.0/components/dropdowns/) that displays list of links and more. | Add links. Select a button style, set the button size, set the button text. |  
 | Input |  The graphical analog to the `<input>` element. | Set the name, input type, label, helper text, placeholder text, ID, prepend icon, append icon. Toggle between required and optional. |
 | File | The graphical analog to the `<input type="file">` that defines a file-select field and a "Browse" button for file uploads | N/A | 
-| Text Area | The graphical analog to the <text-area> tag that defines a multiline input control. | Set the label, helper text, placeholder text, Name, ID. Toggle between required and optional. Hide/show the label. | 
+| Text Area | The graphical analog to the `<text-area>` tag that defines a multiline input control. | Set the label, helper text, placeholder text, Name, ID. Toggle between required and optional. Hide/show the label. | 
 | Checkbox |  The graphical analog to the `<input type="checkbox">` that defines a checkbox. |  Set the label, Name, and ID. | 
 | Select |  The graphical analog to the `<select>` element that defines a drop-down list. | Set the item and values. Arrange the hierarchy of select values. Add select values. Add helper text. Add placeholder text. Set the label. Add a Name. Set the ID. Toggle between required and optional. Hide/show the label. | 
 | Radio Button | The graphical analog to the `<input type ="radio">` that defines a radio button -- which lets a user to select only one of a limited number of choices. | Set the label. Add a Name. Set the ID. Set the Value. |
-|Form Button | The graphical analog to the button element that defines a clickable button. | Add links. Select a button style, set the button size, set the button text. | 
+|Form Button | The graphical analog to the `<button>` tag that defines a clickable button. | Add links. Select a button style, set the button size, set the button text. | 
 
 **Form Views**
 
