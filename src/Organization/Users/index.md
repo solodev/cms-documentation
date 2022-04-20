@@ -1,5 +1,5 @@
 
-# Solodev Users
+# Users
 
 *Learn how to manage access to Solodev resources with users and groups.*
 
@@ -39,22 +39,16 @@ Administrators can use the following actions to manage users.
 
  
 
-## User permissions in Action
-
 ![user_permissions](user_permissions.jpg)
 
 ![user_permissions part 2](user_permissions_p2.jpg)
 
-### A user and their permissions
 
-In the examples above, the user has been given administrative permissions for Websites, Modules, and Documents as well as view permissions for all Support objects.
-
- 
+In the examples above, the user has been given administrative permissions for Websites, Modules, and Documents as well as view permissions for all Support objects. 
 
 As a result, the user will have access to the following Dashboard that allows them to access Websites, Modules, Documents and all Support objects.
 
 ![user_permissions part 3](user_permissions_p3.jpg)
-
 
 Permissions can be assigned to either users or groups directly. The instructions to assign permissions to users, please refer to the Managing users section of this document.  
 
@@ -63,13 +57,9 @@ Permissions can be assigned to either users or groups directly. The instructions
 
 Administrators or “super users” in Solodev can add users and assign permissions, providing them access to certain areas of the Solodev dashboard. Administrators can leverage granular permissions by specifying the actions that users can perform in Solodev.  
 
- 
+This article shows administrators how to add and remove users from Solodev CMS and reset their passwords.  
 
-This article shows administrators how to add and remove users from Solodev CMS and reset their passwords. 
-
- 
-
-### Step 1 – Adding a user to Solodev CMS
+**Adding a user to Solodev CMS**
 
 - Click Users located under the Organization section of the Solodev Dashboard.
 
@@ -79,7 +69,8 @@ This article shows administrators how to add and remove users from Solodev CMS a
 
 - Enter the message and click Submit.
 
-### Step 2 – Resetting a user's password
+**Resetting a user's password**
+
 - Under the Organization section located in the Solodev dashboard, click Users.
 
 - Choose the user whose password needs to be reset.
@@ -90,7 +81,7 @@ This article shows administrators how to add and remove users from Solodev CMS a
 
 - Click Submit.
 
-### Step 3 – Removing a user from Solodev CMS
+**Removing a user from Solodev CMS**
 
 - Click Users located under the Organization section of the Solodev Dashboard.
 
@@ -104,7 +95,7 @@ This article shows administrators how to add and remove users from Solodev CMS a
 
 Solodev supports granular permissions that allows administrators to create a permission system – assigning users and groups to specific objects. This document will show the administrator how to assign users to specific actions and resources. 
 
-### Step 1 -- Assigning users to specific actions or resources
+**Assigning users to specific actions or resources**
 
 - Select Websites located below the Workspace section. 
 
@@ -127,7 +118,7 @@ Solodev supports granular permissions that allows administrators to create a per
 ![adding users to objects step four](adding_removing_users_to_objects_p4(1).jpg)
 
 
-### Step 2 -- Removing Users from Specific Actions or Resources
+**Removing Users from Specific Actions or Resources**
 
 - Select Websites located below the Workspace section. 
 

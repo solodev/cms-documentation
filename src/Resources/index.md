@@ -155,13 +155,13 @@ SSL Properties | Description
 
 - Click Submit. 
 
-#### Advanced 
+**Advanced** 
 
 Developers can upload shortcode files, export packages, and adjust the timezone in this section.
 
-**Timezone:** Adjust the website’s timezone here.
+***Timezone:*** Adjust the website’s timezone here.
 
-**Configuring the Timezone**
+***Configuring the Timezone***
 
 - Click the desired Website from the list of websites from the dashboard.
 
@@ -171,9 +171,9 @@ Developers can upload shortcode files, export packages, and adjust the timezone 
 
 - Click Submit.
 
-**Custom Shortcodes File:** Upload a custom shortcodes file here.
+***Custom Shortcodes File:*** Upload a custom shortcodes file here.
 
-**Uploading a custom shortcodes file**
+***Uploading a custom shortcodes file***
 
 - Click the desired Website from the list of websites from the dashboard.
 
@@ -225,6 +225,7 @@ ErrorDocument 404 /404.stml
 - Click Submit. 
 
 **Note:** In the redirect, the old-page.stml should use a relative path and reference the page that should be redirected. The http://www.mydomain.com/new-page.stml should use an absolute path and reference the new page. 
+
 
 ### Packages
 
@@ -330,14 +331,102 @@ The term "ALT tag" is a common shorthand term used to refer to the ALT attribute
 
 ---
 
+## AWS Marketplace
+
+
+**Choosing and installing a Solodev stack**
+
+Solodev allows users to choose from a wide range of Solodev CMS products to meet their project requirements. From the non-technical marketer to the robust developer, Solodev lets everyone work together -- building enterprise-grade websites or complex API-driven applications such as eCommerce shopping carts. Learn more about choosing a stack from the AWS Marketplace and configuring your stack with detailed installation instructions from our github repository. 
+
+*Subscribing to a stack*
+
+Before subscribing to a desired stack, Solodev recommends that customers have: 
+
+- Created an AWS account. 
+
+- Reviewed the description of Solodev stacks. 
+
+To subscribe to a Solodev stack: 
+
+- Sign into your AWS account.
+
+![Subscribing to a Solodev stack step 1](aws_marketplace_1.jpg)
+
+- Go to Solodev’s AWS github page. 
+
+![Subscribing to a Solodev stack step 2](aws_marketplace_2.jpg)
+
+- Scroll down to access to the summarily described Solodev stacks. 
+
+- Once the desired stack is found, click the Quick Launch: AWS Marketplace link at the end of the short description.
+
+![Subscribing to a Solodev stack step 3](aws_marketplace_3.jpg)
+
+- The user is directed to the Solodev product page on AWS where they can see product overviews, reviews, and request support. 
+
+- Click Continue to Subscribe. 
+
+![Subscribing to a Solodev stack step 4](aws_marketplace_4.jpg)
+
+- Click Accept Terms to complete the subscription process. 
+
+![Subscribing to a Solodev stack step 5](aws_marketplace_5.jpg)
+
+- Wait until the subscription is processed. 
+
+![Subscribing to a Solodev stack step 6](aws_marketplace_6.jpg)
+
+- Once the subscription is processed, click Continue to Configuration and follow the installation instructions for your specific stack.
+
+![Subscribing to a Solodev stack step 7](aws_marketplace_7.jpg) 
+
+*Choosing a stack*
+
+Since the stacks offered by Solodev tend to differ in technical complexity, Solodev recommends that users choose their stacks based on project requirements and their scale. For example, if a customer and their organization would like to make a lifestyle blog to accompany their brand, Solodev CMS Professional Edition is an optimal solution for their needs. Descriptions of the Solodev stacks and links to detailed installation instructions from our github repository are provided below.
+
+Before installing a desired stack, we recommend that you: 
+
+ 
+- Create an AWS account.
+
+- [Subscribe to a Solodev stack on the AWS Marketplace](https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b). 
+
+- Configured your [VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html) and [EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html) Key Pair. 
+
+
+*Solodev stacks and installation instructions*
+
+
+A brief description of each Solodev stack and installation instructions are provided below.
+
+ 
+
+- Solodev CMS Lite Edition -- Ideal for small development projects. Solodev CMS Lite Edition provides users with advanced features and capabilities on a single web server. Available with convenient hourly billing or annual options. 
+
+ 
+
+- Solodev CMS Professional Edition -- Users are able to build a professional-grade website, app or portal with the power of Solodev, backed by PHP, Apache Mongo and more -- all on a single web server with an external Amazon RDS MySQL database.
+
+ 
+
+- Solodev CMS Enterprise Edition -- Quickly and easily deploy Solodev Enterprise to build websites portal or applications that can handle any amount of traffic, leveraging multiple geographic data centers for unmatched redundancy, security and scalability. 
+
+ 
+
+- Solodev CMS Enterprise Edition for Docker -- Fully containerized and designed for enterprise grade demands, Solodev CMS Enterprise Edition for Docker is powered by Amazon Elastic Container Service (ECS).
+
+ 
+
+- Solodev Content Management (CMS) for Kubernetes -- Designed for enterprise level demands and built on a secure architecture managed by Amazon EKS, Solodev CMS Enterprise Edition for Kubernetes allows users to focus on building, deploying and managing their applications without worrying about the underlying infrastructure.
+
+---
+
 
 :::
 
 ## Configure Amazon Simple Email Service (SES) in Solodev
 
 :::
-
----
 
 Solodev CMS supports integration with Amazon SES – a service that allows users to send and receive email using their own email addresses and domains. You can leverage this feature to develop email autoresponders, newsletters, or transactional emails. This article documents adding Amazon SES credentials to Solodev.
 
@@ -380,6 +469,7 @@ To review the pre-requisites in more detail, please refer to the [Amazon Simple 
 - Click Submit. 
 
 ---
+
 
 
 ## fileparse.php
@@ -2331,3 +2421,69 @@ add_shortcode('print_date', 'print_date');
 
  `[print_date format="F j, Y, g:i a"]`
 
+## Uploading documents and images via the WYSIWYG editor
+
+The WYSWYG editor allows users to capture and format HTML data without the requirement of coding knowledge. 
+
+Users commonly encounter the WYSIWYG when editing an HTML file or adding an entry in the prebuilt Solodev modules on the backend. 
+
+In this section, we will document adding images and documents via the WYSIWYG editor. 
+
+**Adding images via the WYSIWYG**
+
+- Open a specific HTML file
+
+- When the file is opened, the user should see the WYSIWYG toolbar below the file action buttons (Draft, Stage, Publish, etc). 
+
+- Use the cursor to select an empty space in the document.
+
+- Click the photo icon in the WYSIWYG toolbar to bring up the image properties modal window. 
+
+- Next to the URL textbox, click Browse Server to bring up a file manager modal window. 
+
+- Next to the Search textbox, click Upload to bring up the Upload Files modal window.
+
+- Click Browse in the Upload Files modal window. 
+
+- Choose the file and click Upload. 
+
+- Click Choose File.
+
+- The user is taken to the Image Properties modal window where they can add Alternative text, set the width, height, border, HSpace Vspace and Alignment. 
+
+- Enter the desired values (if any) and click OK.
+
+- Click Publish. 
+
+**Note:** Solodev does not accept files greater than 50MB in size.
+
+**Uploading document files via the WYSIWYG**
+
+- Open a specific HTML file.
+
+- When the file is opened, the user should see the WYSIWYG toolbar below the file action buttons (Draft, Stage, Publish, etc). 
+
+- Use the cursor to select an empty space in the document or, conversely, highlight the text you want to turn into a link to a document file.
+
+- Click the link icon in the WYSIWYG toolbar to bring up the Link modal window. 
+
+- Beneath the Protocol textbox, click Browse Server to bring up a file manager modal window. 
+
+- Next to the Search textbox, click the Upload button to bring up the Upload Files modal window.
+
+- Click Browse in the Upload Files modal window. 
+
+- Choose the file and click Upload. 
+
+- Click Choose File.
+
+- The user is taken to the Link modal window where they can add a Display Text. 
+
+- Enter the Display Text and click OK.
+
+- The Display Text appears in the document.
+
+- Click Publish. 
+
+
+**Note:** Solodev does not accept files or images greater than 50MB in size.

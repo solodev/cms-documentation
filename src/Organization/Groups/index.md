@@ -1,5 +1,5 @@
 
-# User Groups
+# Groups
 
 *Learn how to manage access to Solodev resources with users and groups.*
 

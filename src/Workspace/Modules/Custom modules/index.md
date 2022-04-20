@@ -1390,11 +1390,146 @@ Your homepage slider should look something like the following hierarchy, with al
 
 ![Slider Assets](slider-assets.png)
 
----
 
+
+**Managing slider entries**
+
+***Adding a slider entry***
+
+- From the Solodev dashboard, click Modules. 
+
+- In the list of Modules, click Image Sliders.
+
+-  Click Add Entry.
+
+- In the Modal Window enter a Name and select a Status (choose from Draft, Stage, or Publish). Next enter a Small Heading Text, Large Heading Text and Slider Content. Please follow any length requirements listed for any of the text boxes mentioned if necessary.
+
+- Users can also add links for the slider button and indicate if it is an external link. Next enter the call to action text for the button.
+
+- Users can add a featured image from the Solodev Filesystem or their local machine using the Browse or Upload buttons respectively.
+
+- Finally, creators can set the Schedule for slide publication and removal.
+
+- Once the required fields are populated, click Submit.
+
+***Modify slider content***
+
+ From the Solodev Dashboard, click Modules.
+
+- In the list of Modules, click Image Sliders.
+
+- Open the desired entry by clicking the pencil and paper icon.
+
+- The user is directed to a page where they can enter the Name, Small Heading Text, Large Heading Text, Slider Content, Link and Button Text, Status, Start, and Stop Date.
+
+- Once the appropriate fields are modified click Save.
+
+***Updating slider images with files from your local machine***
+
+In the desired entry, content creators can update Slider images using files from their local machine by performing the following steps:
+
+Under the Featured Image section, click Upload to select an image from your local machine.
+
+- Choose the image and click Open.
+
+- The file name appears to the right of the recycle bin icon.
+
+- Click Save.
+
+***Updating slider images using files from Solodev filesystem***
+
+In the desired entry, content creators can update Slider images using files from the Solodev filesystem by performing the following steps:
+
+- Under the Slide Image section, click Browse to select an image from the CMS.
+
+- Click the checkbox next to the desired image and click Choose File.
+
+- The file name appears to the right of the recycle bin icon.
+
+- Click Save.
+
+**Note:** Before saving please ensure that the Publish status is selected to push changes in real time.
+
+---
 ## Customizing Modules
 
 In addition to creating custom modules, users are able to customize modules right down to the form. These next sections allow users to harness the full power of forms to manage their content. 
+
+---
+
+### Customizing module form entry fields
+
+Solodev provides users with eight pre-packaged modules that anticipate their organization’s needs. These modules contain module forms with pre-built fields that allow users to add edit and delete module entries for display on user-facing websites. 
+
+However, Solodev also empowers users to create their own custom module and create a custom module form for the back-end of Solodev CMS. Users are also able to replace pre-built module forms with custom module forms in pre-packaged modules to their liking. 
+
+**Step 1: Create a custom module**
+
+- On the Solodev dashboard, click Modules.
+
+- Click Add Module on the next page. 
+
+- On the Custom Builder card, click Install. 
+
+- Enter the name of the module, choose ‘Datatable’ for the Type, and choose ‘Website Module’ for the Display.
+
+- Click Browse and install the module in the web files -> managers folder of the website. 
+
+- Click Submit.
+
+- Open the module located in the web files -> managers -> Custom Module folder. 
+
+- Click Add Entry. 
+
+- The user will notice an input text box titled Name. 
+
+- Prior to uploading a custom form, the grid display and Table Schema contain a name column. If the user opens the custom-form.tpl file located in the web files -> managers -> Custom Module Form -> Assets folder, the file contains html for a form with one name column. 
+
+**Step 2: Create a form**
+
+- Open a text editor (for example, Notepad++, Sublime Text, Atom, Visual Code). 
+
+- Copy the code provided below: 
+
+```html
+
+<h2><label class="label-control" for="title">Title</label></h2>
+<input type="text" class="form-control" name="title" id="title">
+<h2><label class="label-control" for="article">Article</label></h2>
+<textarea name="article" form="blog" id="article" class="wysiwyg">Enter text here...</textarea>
+
+```
+
+- Save the file as an .html or .tpl file. 
+
+**Note:** When creating a form for upload, Solodev recommends setting the values in the name field for input and textarea tags. 
+
+**Step 3: Uploading the form**
+
+- Open the website and navigate to the web files -> managers -> Custom Module Form folder. 
+
+- Open the Module.
+
+- Click Modify to bring up the Modify Custom Module Form modal window. 
+
+- Under the Datatable Type choose Website Module.
+
+- Click the arrow in the Advanced section of the Modal.
+
+- Under Form Template section, click Upload Form. 
+
+- Choose the desired form and click Submit to complete the upload. 
+
+
+**Step 4: Verifying the entry fields of the module match the entry fields specified in the form**
+
+- Click Modify to bring up the modal window. 
+
+- Under the grid display and the table schema, the user will see that the display columns and entries in the name field found in the table schema match the name values specified in the custom form created in Step 2. 
+ 
+**Note:** Users can quickly verify the entry fields by opening the module and clicking Add Entry. 
+
+
 
 ---
 
