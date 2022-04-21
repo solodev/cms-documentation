@@ -185,7 +185,7 @@ Developers can upload shortcode files, export packages, and adjust the timezone 
 
 - Click Submit.
 
-### Managing 301 redirects
+### 301 redirects
 
 URL/page redirects can help direct users away from pages that no longer exist or to more preferred locations. 
 
