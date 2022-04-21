@@ -401,23 +401,23 @@ A brief description of each Solodev stack and installation instructions are prov
 
  
 
-- Solodev CMS Lite Edition -- Ideal for small development projects. Solodev CMS Lite Edition provides users with advanced features and capabilities on a single web server. Available with convenient hourly billing or annual options. 
+- ***[Solodev CMS Lite Edition](https://github.com/solodev/aws/blob/master/pages/solodev-cms-lite.md):*** Ideal for small development projects. Solodev CMS Lite Edition provides users with advanced features and capabilities on a single web server. Available with convenient hourly billing or annual options. 
 
  
 
-- Solodev CMS Professional Edition -- Users are able to build a professional-grade website, app or portal with the power of Solodev, backed by PHP, Apache Mongo and more -- all on a single web server with an external Amazon RDS MySQL database.
+- ***[Solodev CMS Professional Edition](https://github.com/solodev/aws/blob/master/pages/solodev-cms-pro.md):*** Users are able to build a professional-grade website, app or portal with the power of Solodev, backed by PHP, Apache Mongo and more -- all on a single web server with an external Amazon RDS MySQL database.
 
  
 
-- Solodev CMS Enterprise Edition -- Quickly and easily deploy Solodev Enterprise to build websites portal or applications that can handle any amount of traffic, leveraging multiple geographic data centers for unmatched redundancy, security and scalability. 
+- ***[Solodev CMS Enterprise Edition](https://github.com/solodev/aws/blob/master/pages/solodev-cms-enterprise-opsworks.md):*** Quickly and easily deploy Solodev Enterprise to build websites portal or applications that can handle any amount of traffic, leveraging multiple geographic data centers for unmatched redundancy, security and scalability. 
 
  
 
-- Solodev CMS Enterprise Edition for Docker -- Fully containerized and designed for enterprise grade demands, Solodev CMS Enterprise Edition for Docker is powered by Amazon Elastic Container Service (ECS).
+- ***[Solodev CMS Enterprise Edition for Docker](https://github.com/solodev/aws/blob/master/pages/solodev-cms-enterprise-docker.md):*** Fully containerized and designed for enterprise grade demands, Solodev CMS Enterprise Edition for Docker is powered by Amazon Elastic Container Service (ECS).
 
  
 
-- Solodev Content Management (CMS) for Kubernetes -- Designed for enterprise level demands and built on a secure architecture managed by Amazon EKS, Solodev CMS Enterprise Edition for Kubernetes allows users to focus on building, deploying and managing their applications without worrying about the underlying infrastructure.
+- ***[Solodev Content Management (CMS) for Kubernetes](https://github.com/solodev/aws/blob/master/pages/solodev-cms-enterprise-kubernetes.md):*** Designed for enterprise level demands and built on a secure architecture managed by Amazon EKS, Solodev CMS Enterprise Edition for Kubernetes allows users to focus on building, deploying and managing their applications without worrying about the underlying infrastructure.
 
 ---
 
