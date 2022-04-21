@@ -499,6 +499,339 @@ The user can reference the earth.jpg image elsewhere on the Solodev site in an i
 ```
 There are situations where the user needs to upload an image or asset outside of the WYSIWYG editor (for example, .tpl files or modules). For these situations the user can upload the files directly to an _Assets folder using Add File or Upload in the toolbar and use the fileparse.php method to create the asset’ source path. 
 
+---
+
+## Intranets
+
+Intranets are a major part of enterprise websites. In some cases, organizations use intranets for a majority of their workload, while their public facing website is informal in nature. Intranets serve a multitude of purposes from document, sharing task management, workflows, digital asset management, content authoring and storage -- accessible to the organization and its authorized users. This tutorial shows the user how to create an intranet using Solodev. 
+
+Prior to building an Intranet in Solodev users should be able to: 
+
+- Use shortcodes.
+
+
+**Step 1: Create an intranet folder**
+
+- Open the web files -> content folder. 
+
+- Click Add Folder. 
+
+- Enter the Name, Title, and Description. 
+
+- Click Submit.
+
+**Step 2: Create the login template (index.tpl file)**
+
+- With the intranet folder open, click Add File.
+
+- Enter the Name and Title of the file (append '.tpl' to the end of the name. For example, index.tpl).
+
+- Choose 'Code' for the Type.
+
+- Click Submit.
+
+- The user is directed to the file.
+
+- Enter the code block provided below: 
+
+```html
+
+<div class="row mt-4 mb-5 align-items-end">
+	<div class="col-md-6">
+		<h3 class="text-fourth font-weight-bold">Welcome</h3>
+		[form_login secure_area="/intranet/secure/"][form_error_messages]
+			<input class="form-control rounded-0 mt-4 p-2 w-100" id="mail" name="mail" placeholder="you@mail.com" type="email"  />
+			<input class="form-control rounded-0 mt-3 p-2 w-100" id="solodevpassword" name="solodevpassword" placeholder="password" type="password" />
+			<div class="mt-3 d-flex justify-content-between align-items-center">
+				<div class="w-50 d-flex align-items-center">
+					<input id="sys_chk_news" type="checkbox" /><span class="pl-2">Remember me</span>
+				</div>
+				<div class="w-50 text-right">
+					<a class="lost-pass ml-auto" href="/intranet/forgot-password.stml">Forgot password?</a>
+				</div>
+			</div>
+			<div class="pt-5">
+				<button class="btn btn-tertiary w-100" id="loginBtn" type="submit">Login</button>
+			</div>
+		[/form_login]
+	</div>
+	<div class="col-md-6 text-center mt-4 mt-md-0">
+		<a href="/intranet/register.stml">
+			<img alt="Account" class="account" src="http://www.webcorpco.com/core/fileparse.php/1532/urlt/assets/images/reg-account.png" />
+		</a>
+		<p>Not a member? Don’t worry</p>
+			<a class="btn btn-primary-dark w-100" href="/intranet/register.stml">Create an account</a>
+	</div>
+</div>
+
+```
+
+- Click Publish. 
+
+**Step 3: Create a sign-up template(register.tpl file)**
+
+- With the intranet folder open, click Add File.
+
+- Enter the Name and Title of the file (append '.tpl' to the end of the name. For example, register.tpl).
+
+- Choose 'Code' for the Type.
+
+- Click Submit.
+
+- The user is directed to the file.
+
+- Enter the code block provided below: 
+
+```html 
+
+<div class="row mt-4 mb-5 align-items-end">
+	<div class="col-md-12">
+		<h3 class="text-fourth font-weight-bold">Welcome</h3>
+		<p>Sign up for access to the WebCorpCo Intranet. Please enter in an email and a password.</p>
+        
+		[form_register secure_area="/intranet/secure/" user_folder="122" ][form_error_messages]
+			<label for="mail_create" class="font-weight-bold">Email</label>
+			<input class="form-control rounded-0 p-2 w-100" id="samaccountname" name="samaccountname" placeholder="you@mail.com" type="email" />
+            
+			<label for="solodevpassword_create" class="font-weight-bold mt-3">Password</label>
+			<input class="form-control rounded-0 p-2 w-100" id="solodevpassword" name="solodevpassword" placeholder="Password" type="password" />
+			
+            <div class="pt-5">
+				<button class="btn btn-primary-dark w-100" id="createAccount" type="submit">Create an Account</button>
+			</div>
+		[/form_register]
+	</div>
+</div>
+
+```
+
+- Click Publish. 
+
+**Step 4: Create a forgot-password template (forgot-password.tpl)**
+
+- With the intranet folder open, click Add File.
+
+- Enter the Name and Title of the file (append '.tpl' to the end of the name. For example, forgot-password.tpl).
+
+- Choose 'Code' for the Type.
+
+- Click Submit.
+
+- The user is directed to the file.
+
+- Enter the code block provided below: 
+
+```html
+
+<div class="row my-4">
+	[form_forgot_password forward_to="/intranet/password-confirmation.stml" login_page="/intranet/" from_email="[site_email]"]
+		<div class="col-md-4 py-2">
+        	[form_error_messages]
+			<label class="control-label" for="checkEmail">
+				<strong>Please enter your email address</strong>
+			</label>
+		</div>
+		<div class="col-md-4 py-2">
+			<input class="rounded-0 form-control" id="checkEmail" name="checkEmail" type="text" />
+		</div>
+		<div class="col-md-4 py-2">
+			<button class="btn btn-fourth w-100 mb-3" name="Insert" type="submit">Reset Password</button>
+		</div>
+  	[/form_forgot_password]
+	<div class="col-md-12">
+		<a href="/intranet/">Back to Login Page</a>
+	</div>
+</div>
+
+```
+
+- Click Publish. 
+
+**Step 5: Create the password confirmation template (password-confirmation.tpl)**
+
+- Open the intranet folder and click Add File.
+
+- Enter the Name and Title of the file (append '.tpl' to the end of the name. For example, password-confirmation.tpl).
+
+- Choose 'Code' for the Type.
+
+- Click Submit.
+
+- The user is directed to the file.
+
+- Enter the code block provided below: 
+
+```html
+
+<div class="row my-4">
+   <div class="col-md-12">
+       <div class="alert alert-info rounded-0" role="alert">
+           You will receive an email with instructions to reset your password...
+       </div>
+    </div>
+</div>
+
+```
+- Click Publish.
+
+**Step 6: Create a secure folder**
+
+- Open the intranet folder and click Add Folder. 
+
+- Enter the Name (‘secure’), Title and Description of the folder. 
+
+- Click Submit.
+
+
+Step 7: Create an account page template(index.tpl)
+
+- Open the secure folder and click Add File
+
+- Enter the Name and Title of the file (append '.tpl' to the end of the name. For example, index.tpl).
+
+- Choose 'Code' for the Type.
+
+- Click Submit.
+
+- The user is directed to the file.
+
+- Enter the code block provided below: 
+
+```html
+
+<div class="row">
+	<div class="col-md-12">
+		<p>The list below contains the files that are available to the current user. They are located in the User's folder under Documents.</p>
+    	[user_documents]
+	</div>
+</div>
+
+```
+- Click Publish. 
+
+**Step 8: Create an intranet folder in the www folder**
+
+- Open the www folder and click Add Folder. 
+
+- Enter the Name, Title and Description of the folder. 
+
+- Click Submit. 
+
+**Step 9: Create a login page (index.stml)**
+
+- Open the www -> intranet folder. 
+
+- Click Add Page.
+
+- Enter the Name (index), Title and Description of the page.
+
+- Choose your template. 
+
+- Click Submit. 
+
+- The user is directed to the page. 
+
+- Click the empty dynamic div in the index.stml page. 
+
+- Choose the index.tpl file located in web files - > content -> intranet folder. 
+
+- Click Publish. 
+
+**Step 10: Create a signup page**
+
+- Open the www -> intranet folder. 
+
+- Click Add Page.
+
+- Enter the Name (register), Title and Description of the page.
+
+- Choose your template. 
+
+- Click Submit. 
+
+- The user is directed to the register page. 
+
+- Click the empty dynamic div in the register.stml page. 
+
+- Click the register.tpl file located in web files -> content -> intranet folder. 
+
+- Click Publish. 
+
+**Step 11: Create a forgot password page**
+
+- Open the www -> intranet folder. 
+
+- Click Add Page.
+
+- Enter the Name (forgot-password), Title and Description of the page.
+
+- Choose your template. 
+
+- Click Submit. 
+
+- The user is directed to the forgot-password page. 
+
+- Click the empty dynamic div in the forgot-password.stml page. 
+
+- Click the forgot-password.tpl file located in web files -> content -> intranet folder. 
+
+- Click Publish. 
+
+**Step 12: Create a password-confirmation page**
+
+Open the **www -> intranet** folder. 
+
+Click **Add Page**.
+
+Enter the **Name** (password-confirmation), **Title** and **Description** of the page.
+
+Choose your template. 
+
+Click **Submit**. 
+
+The user is directed to the password-confirmation page. 
+
+Click the empty dynamic div in the password-confirmation.stml page. 
+
+Click the **password-confirmation.tpl** file located in **web files -> content -> intranet** folder. 
+
+Click **Publish**. 
+
+
+**Step 13: Create a secure folder in the intranet folder**
+
+- Open the www -> intranet folder and click Add Folder. 
+
+- Enter the Name (secure), Title and Description of the folder. 
+
+- Click Submit. 
+
+**Step 14: Create an account page for the users**
+
+- Open the **www -> intranet -> secure** folder.
+
+- Click **Add Page**. 
+
+- Enter the **Name (index)**, **Title** and **Description** of the page.
+
+- Choose your template. 
+
+- Click **Submit**. 
+
+- The user is directed to the index page. 
+
+- Click the empty dynamic div in the index.stml page. 
+
+- Click the **index.tpl** file located in **web files -> content -> intranet -> secure** folder. 
+
+- Click **Publish**. 
+
+**Note:** Any files placed in the "secure" folder will only be accessible to authorized users granted access to the Intranet.
+
+
+
+---
+
 
 ## Marketing and SEO
 
@@ -900,6 +1233,48 @@ In the previous example, this document guided the user through creating an exper
 
 
 **Note:** While Solodev Experiments tracks conversion rates locally, users can send conversion data to google optimize, which is integrated with google analytics, for granular tracking. To leverage Google Optimize, create a new experiment that mimics the variations configured in Solodev and place the Google Optimize key in the **Google Experiment ID** field.
+
+---
+
+## Page templates
+
+Solodev pages consist of a collection of HTML content. Pages contain Dynamic divs or dropzones throughout the page that specify where HTML content is inserted throughout the page. With Pages, users can create Page Templates – pages that can be re-used to build out more pages. This tutorial shows the user how to convert a page into a template and use page templates to build out the website. 
+
+**Step 1: Creating a template from a page**
+
+- Expand the www folder and open the desire page.
+
+- Open the page that will be transformed into a template. 
+
+- Click Meta. 
+
+- In the modal window, click the arrow to expand the Advanced section.
+
+- At the bottom of the Advanced section, click the checkbox next to Is Template.
+
+- Click Submit.
+
+**Step 2: Creating a page with the newly created template**
+
+- Open the www folder. 
+
+- Click Add Page.
+
+- Enter the Name, Title and Description in the modal window. 
+
+- Under Template section select the arrow in the checkbox to choose the newly created template (all-pages.stml).
+
+- Click Submit. 
+
+- The user will be directed to the new page automatically. 
+
+**Step 3: Adding HTML content to the new page**  
+
+- With the new page open, select the empty Dynamic Div.
+
+- Choose the appropriate html file to insert. 
+
+- Click Publish. 
 
 ---
 
@@ -2487,3 +2862,79 @@ In this section, we will document adding images and documents via the WYSIWYG ed
 
 
 **Note:** Solodev does not accept files or images greater than 50MB in size.
+
+---
+
+## Web libraries
+
+With Solodev CMS, users can import any web library or framework that can be included from a script or a CDN. Solodev recommends that users utilize simple web libraries or frameworks (for e.g. jQuery, Bootstrap, or Google Fonts) when creating websites in the CMS system. This article shows the user how to include the jQuery library from a script file and CDN. 
+
+**Including web libraries via script file**
+
+- Open the website. 
+
+- Expand the **www -> _** folder (Create a _ folder if one does not exist).
+
+- Open the **script** folder.
+
+- Click the **Upload** button. 
+
+- Drag the **jquery-3.4.1.min.js** file into the dropbox and click **Upload**.
+
+- Click the tab with the website url to open the website
+
+- Click the **Update Website** button.
+
+- Scroll down to the **Global Header** Insert text area.
+
+- Use script tags and enter the file path as the value of the src attribute to load the **jquery-3.4.1.min.js** file.
+
+```html
+
+<script src="/_/script/jquery-3.4.1.min.js"></script>
+
+```
+
+- Click **Submit**.
+
+**Including web libraries via CDN**
+
+- Open the Website.
+
+- Click the Update Website button.
+
+- Scroll down to the Global Header Insert text area.
+
+- Use script tags and enter the url of the CDN as the value of the src attribute to load the jQuery library.
+
+```html
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+```
+
+- Click **Submit**. 
+
+
+Note: In the example below, an html file (about-us.html) with a simple animation script is created and inserted in the about-us.stml file. The code block is listed below. 
+
+```html
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({
+      left: '250px',
+      height: '+=150px',
+      width: '+=150px'
+    });
+  });
+});
+</script>  
+<button>Start Animation</button>
+
+<p> Here is an example of a simple animation using jQuery</p>
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+```
