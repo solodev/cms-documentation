@@ -1,6 +1,6 @@
 # Release Notes
 
-*Feature updates, enhancements, improvements, and bug fixes for each Solodev release are tracked and documented here.*
+Feature updates, enhancements, improvements, and bug fixes for each Solodev release are tracked and documented here.
 
 ---
 

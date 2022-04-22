@@ -1,7 +1,7 @@
 
 # API 
 
-*Create headless applications with Solodev API.*
+Create headless applications with Solodev API.
 
 ---
 

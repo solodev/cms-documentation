@@ -1,10 +1,6 @@
 
 # Modules
 
-*Manage content effectively with modules.*
-
-
-
 ---
 
 :::

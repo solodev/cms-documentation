@@ -1,8 +1,6 @@
 
 # Custom modules
 
-*Learn how to build and publish custom modules or add custom features to existing modules to suit your needs.*
-
 ---
 
 ## Creating a career module

@@ -1,11 +1,6 @@
 
 # Getting Started 
 
-*A brief introduction to Solodev documentation and the platform.*
-
---- 
-
-## Introduction to Solodev 
 
 Welcome to the supporting documentation for Solodev, an enterprise web experience platform that offers content producers, designers, and developers total control over their content.
 
@@ -13,10 +8,10 @@ Solodev features secure cloud hosting, 24/7 U.S. based support, and a powerful c
 
 Solodev is extremely powerful and flexible. The platform has been deployed for a number of organizations and in a wide variety of industries. Your Solodev installation has the capability to power custom website modules, integrate with your third-party applications, and deliver content and applications to your end users.
 
+
 ---
 
-
-## About Solodev Documentation
+## How to use this documentation
 
 In the ensuing articles, you will find information, concepts, tutorials, examples, and everything you need to get the most out of Solodev. Along the way, we will highlight some key features of the Platform and point you to a number of helpful resources.
 

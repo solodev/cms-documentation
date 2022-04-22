@@ -1,8 +1,6 @@
 
 # Users
 
-*Learn how to manage access to Solodev resources with users and groups.*
-
 Solodev features an enterprise permissions management system that allows administrators to specify the ‘Actions’ and ‘Resources’ available to specific users and groups. Solodev supports granular permissions so that administrators can create a permission system as broad or as specific as needed.
 
 ---

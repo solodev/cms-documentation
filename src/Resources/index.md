@@ -1,7 +1,7 @@
 
 # Resources
 
-*From shortcodes to shortcuts, find quick tips and tricks to improve your content operations.* 
+From shortcodes to shortcuts, find quick tips and tricks to improve your content operations.
 
 ---
 

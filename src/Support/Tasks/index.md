@@ -1,9 +1,7 @@
 
-# Solodev Tasks
+# Tasks
 
-*Facilitate team collaboration with tasks.*
-
-Solodev Tasks are a collaboration resource that allows developers and their teams to work on projects and requirements in their websites and applications. Project requirements can include content as well as objects or code.
+Tasks are a collaboration resource that allows developers and their teams to work on projects and requirements in their websites and applications. Project requirements can include content as well as objects or code.
 
  
 
@@ -11,7 +9,7 @@ Tasks are designed to provide a team leader or project member with the ability t
 
  
 
-Note: Tasks are used by developers and members of your internal team to collaborate directly in websites and apps and are not connected to Solodev support. For assistance based on your support contract, contact us at help@solodev.com.
+Note: Tasks are used by developers and members of your internal team to collaborate directly in websites and apps and are not connected to Solodev support. For assistance based on your support contract, [contact us](mailto:help@solodev.com).
 
 --- 
 

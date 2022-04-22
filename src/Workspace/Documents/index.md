@@ -1,9 +1,7 @@
 
 # Documents 
 
-*Learn how to manage files, folders, and file groups with Solodev Documents.*[^1]
-
-Solodev documents serves as a collaborative repository for files and folders destined for the web or that can be used for a company intranet. This document will show content creators how to create and mofify files and folders in Solodev and harness the power of schedulers and file groups to manage your content.
+Solodev documents serves as a collaborative repository for files and folders destined for the web or that can be used for a company intranet. This document will show content creators how to create and mofify files and folders in Solodev and harness the power of file groups to manage your content[^1].
 
 ---
 

@@ -1,8 +1,6 @@
 
 # Groups
 
-*Learn how to manage access to Solodev resources with users and groups.*
-
 
 Administrator’s can harness the power of granular permissions by creating and assigning users to groups based on specific criteria. With user groups, administrators can provide departments access and functionality specific to their jobs. This article shows Solodev administrators how to manage user groups. 
 

@@ -1,8 +1,6 @@
 
 # Forms
 
-*Create forms with Solodev's graphical form interface.* 
-
 ---
 
 ## What is Solodev Form Builder?

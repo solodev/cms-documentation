@@ -1,8 +1,6 @@
 
 # FAQs
 
-*General, billing, and technical FAQs can be found here.*
-
 ---
 
 ## General FAQs

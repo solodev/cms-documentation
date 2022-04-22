@@ -1,12 +1,10 @@
 
 # Workspace
 
-*Learn how to use the Solodev Dashboard*
-
-The Solodev Dashboard was built to serve as your command center for building amazing websites and applications. From one central location, you can access all of the resources you need in your Solodev environment to build and manage content. 
+The workspace in Solodev is your primary dashboard, and serves as the command center for building and managing websites and applications. From one central location, you can access all of the resources you need in your Solodev environment to run your content operations. 
 
  
-The article below will go into further detail about each component of the User Interface and give you a more in-depth understanding of how Solodev works as well as how the Interface was designed to streamline the development and content management processes.
+This article will provide detail about each component of the workspace and how it streamlines the content management and development processes.
 
 ---
 
