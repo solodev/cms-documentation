@@ -1,10 +1,7 @@
 
 # Websites
 
-*From connecting your domain to mastering the file structure -- become a whiz with websites.*
-
-
-Solodev is a multi-site platform. You can run as many websites and apps in one place with a single login and switch between websites easily. Each website is self-contained meaning they have separate sources such as files and folders. When adding websites, each website will be installed from scratch with their own theme resources but they can share resources . There is also no FTP, hidden files, or need to log into the server.
+Solodev is a multi-site platform. You can run as many websites and apps with a single login and switch between websites easily. Each website has separate sources such as files and folders. When adding websites, each website will be installed from scratch with their own theme resources that can be shared across websites. There is also no FTP, hidden files, or need to log into the server.
 
 ![Add a website](adding_a_website.png)
 
@@ -14,7 +11,7 @@ In order to switch between different websites, simply click on "Websites" on the
 
 ## Connecting your domain
 
-Prior to moving forward in Solodev, you must first buy a domain which you will eventually point to your Solodev deployment. Notable domain providers include GoDaddy.com, NameCheap.com, NetworkSolutions.com, or BlueHost.com.
+Prior to moving forward in Solodev, purchasing a domain is required. The domain will point to your Solodev deployment. Notable domain providers include GoDaddy.com, NameCheap.com, NetworkSolutions.com, or BlueHost.com.
 
  
 
@@ -24,7 +21,7 @@ Once you have your domain name, connect your domain to Solodev by following the 
 
 **Step 1: Add your Domain to Solodev**
 
-The first thing you will need to do, is to log into Solodev CMS. Enter your username and password and click Log In.
+Navigate to the Solodev login screen. Enter your username and password and click Log In.
 
 ![Login page](solodev-login-page.png)
 
@@ -39,7 +36,7 @@ In Your **Website Address** section, type in your URL, the domain name of your n
 
 **Step 3: Choose your Theme**
 
-You can choose the **LunarXP Theme** or under **Custom Theme**, you can choose to have a Blank Website or import your own theme from the dropdown menu. You can choose different themes for each different website you have. Once the installation is complete, each website will have their own different files and folders. Once you choose your theme, click **Next**.
+You can choose from the **LunarXP Theme** or the **Custom Theme**. Create a Blank Website or import your own theme from the dropdown menu using the **Custom Theme** option. You can choose different themes for each website you create. Once the installation is complete, each website will have their own self-contained files and folders. Once you choose your theme, click **Next**.
 
 ![Add website step 2](solodev-add-website-step-2.png)
 
@@ -63,7 +60,7 @@ After that, log into your account and you'll see that the website is added to yo
 
 ## Installing and configuring a theme
 
-When adding websites, Solodev allows the user to import their own theme or choose from one of many themes in the Solodev Marketplace to customize each website created. Before adding a website, a domain name is required. Notable domain providers include GoDaddy.com, NameCheap.com, NetworkSolutions.com, or BlueHost.com. Once you have you can connect your domain to Solodev by following the instructions to add a website provided below: 
+Solodev allows you to import your own theme or choose from one of many themes in the Solodev Marketplace to customize each website created. Before adding a website, a domain name is required. Notable domain providers include GoDaddy.com, NameCheap.com, NetworkSolutions.com, or BlueHost.com. Once you have you can connect your domain to Solodev by following the instructions to add a website provided below: 
 
 **Step 1: Add a Website**
 
@@ -74,25 +71,25 @@ After logging into Solodev CMS, click Websites on the Tree located in the menu t
 
 **Step 2: Choose your theme**
 
-Solodev allows the user to choose the SpaceJet Theme. Under Custom Theme, the user can select a Blank Website or import their own theme from the dropdown menu. The user can choose different themes to customize each website created. Once the installation is complete, each website has their own files and folders. Choose the SpaceJet Theme and click Next.
+You can choose from the SpaceJet Theme or the Custom Theme. Create a Blank Website or import your own theme from the dropdown menu. Select different themes to customize each website created. Once the installation is complete, each website has their own files and folders. Choose the SpaceJet Theme and click Next.
 
 ![Configuring a theme step 2](choose_your_theme.JPG)
 
 **Step 3: Specify Your Theme Variables**
 
-At this step, the user can customize their website’s color scheme and logo, specify their domain, set their sitename and specify their timezone. The advanced settings allow the user to set the contact information associated with the website’s domain. The site’s branding and logo can be customized after the website has been installed by modifying the settings.json file located in the web files directory. Accept the default settings and click Next.
+At this step, the user can customize their website’s color scheme and logo, specify their domain, set their sitename, and specify their timezone. Set the contact information associated with the website’s domain using the advanced settings. Customize the site's branding and logo by modifying the settings.json file located in the web files directory. Accept the default settings and click Next.
 
 ![Configuring a theme step 2](specify_theme.JPG)
 
 **Step 4: Import the Theme Package**
 
-After customizing the color scheme and logo and populating the domain, sitename and timezone the user will be directed to the following screen:
+After customizing the color scheme and logo and populating the domain, sitename, and timezone, the user will be directed to the following screen:
 
 ![Configuring a theme step 3](theme_install_page.JPG)
 
 **Step 5: Navigate to your new website** 
 
-Once Solodev CMS has built the website, click on the Start Managing Your Website button. The user will be taken to a screen where they can click the url in the Domain Overview section to view their newly created website. 
+Once the website is built, click on the Start Managing Your Website button. You are directed to a screen where you can click the url in the Domain Overview section to view your new website. 
 
 ![Configuring your theme step 4](manage_website.JPG)
 
@@ -103,13 +100,11 @@ Once Solodev CMS has built the website, click on the Start Managing Your Website
 ## Customizing your theme
 
 
-After building a website with the Spacejet theme, users can customize the logos, color-scheme, and content to suit their organization’s design and branding needs. To start customizing the website, login to Solodev CMS and click on Websites in the menu located to the left of the screen. Then click on the newly created website to get started. 
+After building a website with the Spacejet theme, you can customize the logos, color-scheme, and content to suit your organization’s design and branding needs. To customize the website, login to Solodev CMS and click on Websites in the menu located to the left of the screen. Then click on the newly created website to get started. 
 
 **Step 1: Making CSS changes**
 
 Users can make changes to the color scheme of their website by modifying the **_theme-variables.scss** file. 
-
- 
 
 - To access the file, open the web files folder located in the menu on the left side of the screen. 
 
@@ -117,15 +112,15 @@ Users can make changes to the color scheme of their website by modifying the **_
 
 - Open the _theme-variables.scss file. 
 
-- Modify the theme colors to meet the desired design and branding requirements
+- Modify your theme colors to meet your design and branding requirements.
 
-- Users can save the changes by clicking Draft, Stage, or Publish.
+- Save your changes by clicking Draft, Stage, or Publish.
 
-Users can modify the theme colors to meet their design and branding requirements. 
+ 
 
 **Step 2: Customize the content**
 
-Users can customize the website’s content and layout to their liking by modifying the .html and .tpl files located in the content folder. With Template (.tpl) files users can harness the power of nested layouts, using Dynamic Div technology to create additional drop zones for html content blocks that can be embedded into STML pages.
+Modify the .html and .tpl files located in the content folder to customize the website's branding and layout to your liking. Template (.tpl) files allow you to use Dynamic Div technology to  create additional drop zones for content blocks and harness the power of nested layouts.
 
 This example modifies the content for the about page. 
 
@@ -135,25 +130,25 @@ This example modifies the content for the about page.
 
 - Open the about directory to view the list of files. 
 
-- To modify the text on the about page click the about.html file.
+- Click the about.html file to modify the text on the about page.
 
-- Users can add HTML content using our WYSWYG editor or using source code. The WYSWYG editor is the default option. 
+- Add HTML content using our WYSWYG editor or source code. The WYSWYG editor is the default option. 
 
-- To edit or add html content using source code, users can click the source button. 
+- Click the source button to add or edit your html content using source code. 
 
-- Users can save the changes by clicking **Draft**, **Stage**, or **Publish**. 
+- Save your changes by clicking **Draft**, **Stage**, or **Publish**. 
 
 **Step 3: Customize the layout**
 
-With the web files, content and about folders open, users can change the layout on the about page. To do so:  
+With the web files, content and about folders open, you can change the layout on the about page. To do so:  
 
 - Open the about-boxes.tpl file to bring up the text editor. 
 
-- Users can add and remove html and dynamic divs to their liking.
+- Add and remove html and dynamic divs to your liking.
 
-- To save changes, click Draft, Publish, or Stage.
+- Click Draft, Publish, or Stage to save your changes.
  
-Users can view their changes by opening the .stml file associated with the about page. To do so: 
+View your changes by opening the .stml file associated with the about page. To do so: 
 
 - Open the www directory.
 
@@ -163,21 +158,21 @@ Users can view their changes by opening the .stml file associated with the about
 
 **Step 4: Adding Pages**
 
-Users can further customize the prebuilt website to their needs by adding pages. A page in Solodev is a collection of HTML content that is inserted using Dynamic Divs or ‘drop zones’ throughout the page. Users can leverage the drop zones to specify where html content is inserted – further customizing the layout of the page. Pages in Solodev have the file extension .STML. Solodev recommends creating .stml pages in the www directory. This example will add a history page to the about folder. 
+Further customize the prebuilt website to your needs by adding pages. A page in Solodev is a collection of HTML content that is inserted using Dynamic Divs or ‘drop zones’ throughout the page. Leverage drop zones to specify where html content is inserted – further customizing the layout of the page. Pages in Solodev have the file extension .STML. Solodev recommends creating .stml pages in the www directory. This example will add a history page to the about folder. 
 
 - Open the www folder.
 
 - Click on the about folder to open a tab displaying the list of files and folders contained within.
 
-- Click Add Page and a form will appear on the right.
+- Click Add Page to bring up the Add Page modal.
 
 - Type in the Name, Title and Description of the page.
 
-- Choose from the available templates. The user can skip this step if they would like to build a custom template for the page and add it later. 
+- Choose from the available templates. You can skip this step if you decide to build a custom page template to add to your site later. 
 
 - Click Submit.
 
-- The user is taken to the page to start adding content and the page is listed in the about directory.
+- You are directed to the page to start adding content and the page is listed in the about directory.
 
 Please note that the name functions as the url for the page. Solodev recommends using lower case letters for names and separating spaces with dashes or hyphens. The title is what customers will see in the tabs of their browser. Solodev recommends capitalizing titles of webpages. The description is used for internal purposes. 
 
