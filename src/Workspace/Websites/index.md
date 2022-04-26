@@ -25,7 +25,7 @@ Navigate to the Solodev login screen. Enter your username and password and click
 
 ![Login page](solodev-login-page.png)
 
-On the left side, click on Websites then click on Add Website button.
+Click on Websites under the workspace section of the dashboard. Next, click on the Add Website button.
 
 ![Add website button](solodev-add-website-button.png)
 
@@ -71,7 +71,7 @@ After logging into Solodev CMS, click Websites on the Tree located in the menu t
 
 **Step 2: Choose your theme**
 
-You can choose from the SpaceJet Theme or the Custom Theme. Create a Blank Website or import your own theme from the dropdown menu. Select different themes to customize each website created. Once the installation is complete, each website has their own files and folders. Choose the SpaceJet Theme and click Next.
+You can choose from the SpaceJet Theme or the Custom Theme. Create a Blank Website or import your own theme from the dropdown menu using the **Custom Theme** option. Select different themes to customize each website created. Once the installation is complete, each website has their own files and folders. Choose the SpaceJet Theme and click Next.
 
 ![Configuring a theme step 2](choose_your_theme.JPG)
 
@@ -104,7 +104,7 @@ After building a website with the Spacejet theme, you can customize the logos, c
 
 **Step 1: Making CSS changes**
 
-Users can make changes to the color scheme of their website by modifying the **_theme-variables.scss** file. 
+Modify the **_theme-variables.scss** file to change the color scheme of your website. 
 
 - To access the file, open the web files folder located in the menu on the left side of the screen. 
 
@@ -158,7 +158,7 @@ View your changes by opening the .stml file associated with the about page. To d
 
 **Step 4: Adding Pages**
 
-Further customize the prebuilt website to your needs by adding pages. A page in Solodev is a collection of HTML content that is inserted using Dynamic Divs or ‘drop zones’ throughout the page. Leverage drop zones to specify where html content is inserted – further customizing the layout of the page. Pages in Solodev have the file extension .STML. Solodev recommends creating .stml pages in the www directory. This example will add a history page to the about folder. 
+Further customize the prebuilt website to your needs by adding pages. A page in Solodev is a collection of HTML content that is inserted using Dynamic Divs or ‘drop zones’ throughout the page. Leverage drop zones to specify where html content is inserted to further customize the layout of your page. Pages in Solodev have the file extension .STML. Solodev recommends creating .stml pages in the www directory. This example will add a history page to the about folder. 
 
 - Open the www folder.
 
@@ -178,7 +178,7 @@ Please note that the name functions as the url for the page. Solodev recommends 
 
 **Step 5: Changing the Logo**
 
-After building a website using prebuilt themes, users can change the logo after the fact using the settings.json file. To do so: 
+After building a website using prebuilt themes, you can change the logo after the fact using the settings.json file. To do so: 
 
 - Upload a photo to the _/images directory located in the www folder.
 
@@ -188,7 +188,7 @@ After building a website using prebuilt themes, users can change the logo after 
 
 - Change the default path under site_logo or site_logo_2.
 
-- To save changes, click **Draft**, **Publish**, or **Stage**.
+- Click **Draft**, **Publish**, or **Stage** to save your changes.
 
 **Note:** To save the changes without publishing it to the front end click Draft. To save and stage the changes, click Stage. To save the changes and make them publicly available on the front end click Publish. 
 
@@ -199,13 +199,13 @@ Solodev has a unique site structure that is designed for easily building efficie
 
 - The **web files** folder is where all of the individual elements that make up those pages are located. It stores your site templates, content blocks, individual modules, and other components
 
-- The **www** folder is your public website folder; everything in this folder is publicly accessible. This folder is where all of the site's pages are located; the pages users see when they navigate to your website.
+- The **www** folder is your public website folder; everything in this folder is publicly accessible. This folder is where all of the site's pages are located.
 
 While it is entirely up to you how to name your files, a suggested way to do it is to have the **www** folder mirror your website's main navigation and your **web files** folder be made up of folders for content, navigation and templates.
 
 ![basic file structure](basic_file_structure.png)
 
-To see the contents of these folders, simply click on the triangle drop-down icon on the left and it will unfold all the contents inside that folder:
+Click on the drop-down icon next to the folder to open it and display all its contents:
 
 ![Folder Dropdown](folder_dropdown.png)
 
@@ -227,7 +227,7 @@ Although not required for your website to work in Solodev CMS, best practices su
 
 ### www Folder
 
-The **www** folder should reflect the site map. It should contain all of the root files of your website -- folders, .stml, assets, etc.
+The **www** folder should reflect your sitemap. It should contain all of the root files of your website: folders, .stml pages, assets, etc.
 
 ![wwww folder](www.JPG)
 
@@ -237,7 +237,7 @@ These .stml files are built with templates that use Dynamic Divs. A template is 
 
 ### The Dynamic between the Web Files and www Folders
 
-The web files and www folders mutually reinforce one another and help each other power the content, code, and pages that make up a website. As such, it is important to understand how these two folders are intended to work with one another.
+The web files and www folders mutually reinforce one another and help each other power the content, code, and pages that make up a website. As such, it is important to understand how these two folders interact.
 
 As has been mentioned, the web files folder is generally used to store all of your website's component pieces. Create HTML files, upload images, create forms, create datatable managers, and house your site's template and theme assets.
 
@@ -255,5 +255,5 @@ Below is the "index.stml" file which is under the WWW folder and corresponds to 
 
 The index.stml page is comprised of the base template (the header and footer) and contains a number of Dynamic Divs. As in the example here, the Dynamic Divs are filled with the various elements from the corresponding "home" folder under the web files folder.
 
-Most pages should follow this basic relationship, where content and page elements are under the web files folder and the WWW file contains .stml files that puts its all together.
+Most pages should follow this basic relationship, where content and page elements are under the web files folder and the WWW file contains .stml files that puts it all together.
 

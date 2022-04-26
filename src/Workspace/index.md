@@ -29,7 +29,7 @@ The Tree is the main control area where you can access all the tools and documen
 
 - **Forms:**
 
-
+- **Documents:** This is a space where you can create folders and all kinds of files. Whether you want to store design files, images, marketing materials, you can do so with Documents.
 
 ### Organization
 
@@ -39,8 +39,6 @@ Organization
 - **Users:** Users are the people who have access to Solodev and its resources as determined by the permissions they have been assigned by a system administrator. 
 
 - **Groups:** Users can be bundled together in groups based on criteria specified by an administrator i.e. design, marketing, sales.
-
-- **Documents:** This is a space where you can create folders and all kinds of files. Whether you want to store design files, images, marketing materials, you can do so with Documents.
 
 - **Contacts:** Users of your intranet are collected and displayed here. 
 

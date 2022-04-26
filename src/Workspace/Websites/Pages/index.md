@@ -1,7 +1,7 @@
 # Structuring your Page
 
 
-In Solodev CMS, all pages are given an ".stml" extension. STML files are HTML files that contain server side includes (SSI); which is used to generate dynamic content for the page. When you create a page in Solodev, it will automatically have the ".stml" extension but if you're creating a page with a code editor, you need to manually give it an extention of ".stml" before you upload the file on Solodev.
+In Solodev CMS, all pages are given an ".stml" extension. STML files are HTML files that contain server side includes (SSI) used to generate dynamic content for the page. When you create a page in Solodev, it will automatically have the ".stml" extension but if you're creating a page with a code editor, you need to manually give it an extention of ".stml" before you upload the file to the CMS.
 
 ![stml extension](stmlextensioneg.png)
 
@@ -12,7 +12,7 @@ In Solodev CMS, all pages are given an ".stml" extension. STML files are HTML fi
 
 ### Organize your page with content blocks
 
-Pages are comprised of “drop zones” that allow you to insert content blocks into a given area. Traditional content blocks (given an “.html” extension) can easily be edited either inline or through a WYSIWYG editor. `Code blocks (traditionally with a “.tpl” extension) can be edited in the system directly.
+Pages contain “drop zones” that allow you to insert content blocks into a given area. Traditional content blocks (given an “.html” extension) can easily be edited either inline or through a WYSIWYG editor. `Code blocks (traditionally with a “.tpl” extension) can be edited in the system directly.
 
 ***The difference between .html files and .tpl files in Solodev:***
 
