@@ -11,11 +11,11 @@ In order to switch between different websites, simply click on "Websites" on the
 
 ## Connecting your domain
 
-Prior to moving forward in Solodev, purchasing a domain is required. The domain will point to your Solodev deployment. Notable domain providers include GoDaddy.com, NameCheap.com, NetworkSolutions.com, or BlueHost.com.
+Prior to creating a website in Solodev, purchasing a domain is required. The domain will point to your Solodev deployment. Notable domain providers include GoDaddy.com, NameCheap.com, NetworkSolutions.com, or BlueHost.com.
 
  
 
-Once you have your domain name, connect your domain to Solodev by following the instructions below.
+Once you have your domain name, connect it to Solodev by following the instructions below.
 
 
 
@@ -60,7 +60,7 @@ After that, log into your account and you'll see that the website is added to yo
 
 ## Installing and configuring a theme
 
-Solodev allows you to import your own theme or choose from one of many themes in the Solodev Marketplace to customize each website created. Before adding a website, a domain name is required. Notable domain providers include GoDaddy.com, NameCheap.com, NetworkSolutions.com, or BlueHost.com. Once you have you can connect your domain to Solodev by following the instructions to add a website provided below: 
+Solodev allows you to import your own theme or choose from one of many themes in the Solodev Marketplace to customize each website created. Before adding a website, a domain name is required. Notable domain providers include GoDaddy.com, NameCheap.com, NetworkSolutions.com, or BlueHost.com. Once you have your domain name, connect it to Solodev by following the instructions to add a website provided below: 
 
 **Step 1: Add a Website**
 
@@ -71,19 +71,19 @@ After logging into Solodev CMS, click Websites on the Tree located in the menu t
 
 **Step 2: Choose your theme**
 
-You can choose from the SpaceJet Theme or the Custom Theme. Create a Blank Website or import your own theme from the dropdown menu using the **Custom Theme** option. Select different themes to customize each website created. Once the installation is complete, each website has their own files and folders. Choose the SpaceJet Theme and click Next.
+You can choose from the SpaceJet Theme or the Custom Theme. Create a Blank Website or import your own theme from the dropdown menu using the **Custom Theme** option. Select different themes to customize each website created. Once the installation is complete, each website has its own files and folders. Choose the SpaceJet Theme and click Next.
 
 ![Configuring a theme step 2](choose_your_theme.JPG)
 
 **Step 3: Specify Your Theme Variables**
 
-At this step, the user can customize their website’s color scheme and logo, specify their domain, set their sitename, and specify their timezone. Set the contact information associated with the website’s domain using the advanced settings. Customize the site's branding and logo by modifying the settings.json file located in the web files directory. Accept the default settings and click Next.
+At this step, you can customize you website’s color scheme and logo, specify your domain, set your sitename, and specify your timezone. Set the contact information associated with the website’s domain using the advanced settings. Customize the site's branding and logo by modifying the settings.json file located in the web files directory. Accept the default settings and click Next.
 
 ![Configuring a theme step 2](specify_theme.JPG)
 
 **Step 4: Import the Theme Package**
 
-After customizing the color scheme and logo and populating the domain, sitename, and timezone, the user will be directed to the following screen:
+After customizing the color scheme and logo and populating the domain, sitename, and timezone, you will be directed to the following screen:
 
 ![Configuring a theme step 3](theme_install_page.JPG)
 
@@ -100,7 +100,7 @@ Once the website is built, click on the Start Managing Your Website button. You 
 ## Customizing your theme
 
 
-After building a website with the Spacejet theme, you can customize the logos, color-scheme, and content to suit your organization’s design and branding needs. To customize the website, login to Solodev CMS and click on Websites in the menu located to the left of the screen. Then click on the newly created website to get started. 
+After building a website with the Spacejet theme, you can customize the logos, color-scheme, and content to suit your organization’s design and branding needs. To customize your website, login to Solodev CMS and click on Websites in the menu located to the left of the screen. Then click on your newly created website to get started. 
 
 **Step 1: Making CSS changes**
 

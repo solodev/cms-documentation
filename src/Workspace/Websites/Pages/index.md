@@ -12,7 +12,7 @@ In Solodev CMS, all pages are given an ".stml" extension. STML files are HTML fi
 
 ### Organize your page with content blocks
 
-Pages contain “drop zones” that allow you to insert content blocks into a given area. Traditional content blocks (given an “.html” extension) can easily be edited either inline or through a WYSIWYG editor. `Code blocks (traditionally with a “.tpl” extension) can be edited in the system directly.
+Pages contain “drop zones” that allow you to insert content blocks into a given area. Traditional content blocks (given an “.html” extension) can easily be edited either inline or through a WYSIWYG editor. Code blocks (traditionally with a “.tpl” extension) can be edited in the system directly.
 
 ***The difference between .html files and .tpl files in Solodev:***
 
@@ -22,7 +22,7 @@ Pages contain “drop zones” that allow you to insert content blocks into a gi
 
 Previously, we talked about the [two main folder structures](https://cms.solodev.net/workspace/websites/#website-file-structure-in-solodev) in Solodev. There are two main folders: **web files** and **www**. Both directories, **web files** and **www** mimic one another with the web files folder displaying folders filled with HTML content and your www folder housing the same folder structure with one difference, instead of HTML content they are composed of web pages. Let's explain this further:
 
-Pages in Solodev have a different structure than regular web pages. Regular web pages are HTML files with an ".html" extension such as index.html, about.html etc. Inside these pages, there's HTML code. Web pages in Solodev have an ".stml" extension and inside they store multiple HTML files as content. 
+Pages in Solodev have a different structure than regular web pages. Regular web pages are HTML files with an ".html" extension such as index.html, about.html etc. Inside these pages, there's HTML code. Web pages in Solodev have an ".stml" extension and store multiple HTML files as content. 
 
 So what is the main difference between content and pages in Solodev?
 
@@ -38,14 +38,14 @@ Here's how it looks when you click on Source to display the source code:
 
 ![html source code content](example-html-content-source-code.png)
 
-Then you'd go to the **www** folder and and insert that HTML file in the .stml file:
+Then you'd go to the **www** folder, open the .stml file, and insert that HTML file in the .stml file:
 
 ![html content  on a page](html-content-on-a-page.png)
 
 
 ### Create components based upon sections of your HTML
 
-Before you can build your website you first need to deconstruct your designs into common elements that can then be turned into theme templates. This process involves identifying common areas of the site that will be present across all pages of a website as well as design elements which are unique to specific pages. In identifying these components, you will be able to clearly structure your theme.
+Before you can build your website you must deconstruct your designs into common elements that can then be turned into theme templates. This process involves identifying common areas of your site that will be present across all pages and design elements which are unique to specific pages. In identifying these components, you will be able to clearly structure your theme.
 
  
 
@@ -53,24 +53,18 @@ In Solodev, there are three kinds of templates:
 
  
 
-Base Template: The base template is the most important template in that it contains the essential resources that will be included in every web page on your website. A base template typically consists of a header and footer, references to asset files, and dynamic divs to place content. Note that any changes you make the base template will reflect your entire website. 
+**Base Template:** The base template is the most important template. It contains the essential resources that will be included in every web page on your website. A base template typically consists of a header and footer, references to asset files, and dynamic divs to place content. Note that any changes you make the base template will reflect across your entire website. 
 
-Interior Template: The interior template is typically placed in the base template and serves as the interior of a "Section" of your website. The benefit in a content template is it can be re-used for sections of your website that require multiple pages, allowing you to re-use your content template to build out your web pages.
+**Interior Template:** The interior template is typically placed in the base template and serves as the interior of a "Section" of your website. The interior template can be re-used for sections of your website that require multiple pages.
 
-Sectional Template: A sectional template is a high level overview page with links to different sections of your website. Sectional templates can be used "at will" and there are 1,000s of iterations of what a sectional template should look like. For example, recent blog posts, recent news and testimonials sections on a homepage are sectional templates.
+**Sectional Template:** A sectional template is a high level overview page with links to different sections of your website. Sectional templates can be used "at will" and there are 1,000s of iterations of what a sectional template should look like. For example, recent blog posts, recent news and testimonials sections on a homepage are sectional templates.
 
-You can find more detailed information about the templates over here: 
-Create a Base Template
-Create an Interior Template
-Create a Sectional Template 
+
+As mentioned previously, HTML components must be identified and organized by page before placing them into templates. For example headers and footers go into the base template since headers and footers are common across all pages. However some components such as team member sections are placed in sectional templates.
 
  
 
-Before you begin putting HTML components into templates, you need to identify which components will appear on all pages and which components will be unique to some pages. Components such as header and footer go into the base template since every page needs a header and a footer but some components such as team member sections, product descriptions etc. need to be in a sectional template.
-
- 
-
-Next, we will talk about how to construct each type of templates.
+Next, we will talk about how to construct each type of template.
 
 
 ### Constructing templates
@@ -79,7 +73,7 @@ Next, we will talk about how to construct each type of templates.
 
 #### Create a base template
 
-The base template is the most important template in that it contains the essential resources that will be included in every web page on your website. A base template typically consists of a header and footer, references to asset files, and dynamic divs to place content. Note that any changes you make the base template will reflect your entire website. In this article we will show you how to build a base template and demonstrate its value in a real world situation.
+The base template is the most important template. It contains the essential resources that appear across all pages of the website. A base template typically consists of a header and footer, references to asset files, and dynamic divs to place content. Note that any changes you make the base template will reflect across your entire website. We will show you how to build a base template and demonstrate its value in a real world situation.
 
 Below is a screenshot of a base template in Solodev:
 
@@ -107,7 +101,7 @@ Below is the code of a sample base template. It includes the code for Google Ana
 ![Base template dynamic divs](base-template-dynamic-divs.png)
 
 
-We'll talk in detail about the Dynamic Divs  in the next article. In Solodev, Dynamic Divs make laying out web pages easy and completely customizable while removing the need to duplicate HTML. Dynamic Divs allow you to use HTML markup to create drop zones where you can insert content onto a web page. 
+In Solodev, Dynamic Divs removes the need to duplicate HTML and simplifies web page design. Dynamic Divs allow you to use HTML markup to create drop zones where you can insert content onto a web page. We'll provide additional detail about the Dynamic Divs in later sections.
 
 **Step 2: Create a page using baseTemplate.tpl**
 
@@ -148,7 +142,7 @@ We created a base template and added code in it but in order to get it to displa
 
 #### Create an interior template
 
-The interior template is typically placed in the base template and serves as the interior of a "Section" of your website. The benefit in a content template is it can be re-used for sections of your website that require multiple pages, allowing you to re-use your content template to build out your web pages. In this article we will show you how to create a content template that we will re-use to create pages for difference services.
+The interior template is typically placed in the base template and serves as the interior of a "Section" of your website. The interior template can be re-used for sections of your website that require multiple pages. We will show you how to create an interior template that we will re-use to create pages for difference services.
 
  
 
@@ -158,7 +152,7 @@ Below is a screenshot of a two-column template in Solodev:
 
 **Note:** In the screenshot above the base template is still in place and there are other templates added as well such as breadcrumbs. The interior and sectional templates are added inside the base template. 
 
-The two-column template we have has a left navigation and a content area on the right. It can be used for any page that has multiple links and descriptions. 
+The two-column template has a left navigation and a content area on the right. It can be used for any page that has multiple links and descriptions. 
 
 Here's the code for the two-column template:
 
@@ -289,7 +283,7 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 ![Dropzones](blue-drop-zone.png)
 
-When you select and HTML file or a template file on the file tree, you hover over a blue drop zone and place the file inside the drop zone. All these drop zones are created by DynamicDivs. Dynamic Divs allow you to use HTML markup to create drop zones where you can insert content onto a web page. The Dynamic Div system works extremely well with the Bootstrap grid system as it allows developers to insert Dynamic Divs into the Bootstrap grid allowing you to easily insert content once the layout of the page has been created. Here is the simple HTML code to create a DynamicDiv:
+When you select an HTML file or a template file on the file tree, you hover over a blue drop zone and place the file inside the drop zone. All these drop zones are created by DynamicDivs. Dynamic Divs allow you to use HTML markup to create drop zones where you can insert content onto a web page. The Dynamic Div system works extremely well with the Bootstrap grid system. Dynamic Divs are placed into bootstrap grids to create a custom page layout where your content resides. Here is the simple HTML code to create a DynamicDiv:
 
 `<div class="dynamicDiv"></div>`
 
@@ -323,13 +317,13 @@ As an example, let's take a look at a section inside a sample basetemplate file:
 
 ```
 
-For each component area such as the top navigation, the hero section, breadcrumbs, the main content area, and footer there is a div container with a dynamicDiv class. This means that in the code above, since there are 6 dynamicDivs, when you insert the template on the page, there will be 6 empty blue drop zones available for you to insert your top navigation, the hero section, breadcrumbs, the main content area, and footer templates. You can create as many blue drop zones as you want by inserting dynamicDivs inside your templates. 
+For each component area such as the top navigation, the hero section, breadcrumbs, the main content area, and footer there is a div container with a dynamicDiv class. When you insert the template on the page, there will be 6 empty blue drop zones for you to insert your top navigation, the hero section, breadcrumbs, the main content area, and footer templates. You can create as many blue drop zones as you want by inserting dynamicDivs inside your templates. 
 
 Each Dynamic Div is marked with dotted lines. Every time you select a Dynamic Div, it will highlight in blue.
 
 ![blue zone with dotted lines](blue-zone-dotted-lines.png)
 
-You can add unique content to each Dynamic Div container. Adding content to the left navigation and right content block produces a page similar to below:
+You can add unique content to each Dynamic Div container. Adding content to the left navigation and right content block produces a page similar to the one below:
 
 ![dynamic div content areas](dynamicdiv-content-areas.png)
 
