@@ -20,7 +20,7 @@ Pages contain “drop zones” that allow you to insert content blocks into a gi
 
 .tpl should be used if you're creating complex HTML synxtax such as nested divs.
 
-Previously, we talked about the [two main folder structures](https://cms.solodev.net/workspace/websites/#website-file-structure-in-solodev) in Solodev. There are two main folders: **web files** and **www**. Both directories, **web files** and **www** mimic one another with the web files folder displaying folders filled with HTML content and your www folder housing the same folder structure with one difference, instead of HTML content they are composed of web pages. Let's explain this further:
+Previously, we discussed the [two main folder structures](https://cms.solodev.net/workspace/websites/#website-file-structure-in-solodev) in Solodev. There are two main folders: **web files** and **www**. Both directories, **web files** and **www**, mimic one another in their strucuture. The web files folder displays folders filled with HTML and .tpl content and the www folder shares the same folder structure with one difference, instead of HTML and .tpl content they are composed of web pages. Let's explain this further:
 
 Pages in Solodev have a different structure than regular web pages. Regular web pages are HTML files with an ".html" extension such as index.html, about.html etc. Inside these pages, there's HTML code. Web pages in Solodev have an ".stml" extension and store multiple HTML files as content. 
 
@@ -53,14 +53,14 @@ In Solodev, there are three kinds of templates:
 
  
 
-**Base Template:** The base template is the most important template. It contains the essential resources that will be included in every web page on your website. A base template typically consists of a header and footer, references to asset files, and dynamic divs to place content. Note that any changes you make the base template will reflect across your entire website. 
+**Base Template:** The base template is the most important template. It contains the essential resources that will be included in every web page on your website. A base template typically consists of a header and footer, references to asset files, and dynamic divs to place content. Changes made to the base template will reflect across your entire website. 
 
 **Interior Template:** The interior template is typically placed in the base template and serves as the interior of a "Section" of your website. The interior template can be re-used for sections of your website that require multiple pages.
 
 **Sectional Template:** A sectional template is a high level overview page with links to different sections of your website. Sectional templates can be used "at will" and there are 1,000s of iterations of what a sectional template should look like. For example, recent blog posts, recent news and testimonials sections on a homepage are sectional templates.
 
 
-As mentioned previously, HTML components must be identified and organized by page before placing them into templates. For example headers and footers go into the base template since headers and footers are common across all pages. However some components such as team member sections are placed in sectional templates.
+As mentioned previously, HTML components must be identified before placing them into templates. For example headers and footers go into the base template since headers and footers are common across all pages. However some components such as team member sections are placed in sectional templates.
 
  
 
@@ -105,9 +105,9 @@ In Solodev, Dynamic Divs removes the need to duplicate HTML and simplifies web p
 
 **Step 2: Create a page using baseTemplate.tpl**
 
-We created a base template and added code in it but in order to get it to display on the website, we actually need to create a page to put the template in. As an example, let's create a homepage. Since the homepage is the first and the default page when the website is opened, we will create an index.stml right inside the www folder. The homepage shouldn't be inside any subfolders.
+We created a base template and added code to it. To display the template on the website, create a page to house the template. As an example, let's create a homepage. Since the homepage is the first and the default page when the website is opened, we will create an index.stml right inside the www folder. The homepage shouldn't be inside any subfolders.
 
-- Go to the www directory and on the right-side menu, click on *Add Page*. 
+- Click on the www directory and on the actions menu, click *Add Page*. 
 
 - Set a name for the page. 
 
@@ -142,7 +142,7 @@ We created a base template and added code in it but in order to get it to displa
 
 #### Create an interior template
 
-The interior template is typically placed in the base template and serves as the interior of a "Section" of your website. The interior template can be re-used for sections of your website that require multiple pages. We will show you how to create an interior template that we will re-use to create pages for difference services.
+The interior template is typically placed in the base template and serves as the interior of a "Section" of your website. The interior template can be re-used for sections of your website that require multiple pages. We will show you how to create an interior template that you can re-use to create pages for difference services.
 
  
 
@@ -179,11 +179,11 @@ Here's the code for the two-column template:
 
 **Note:** We're using Bootstrap for the website so the template above also contains Bootstrap elements. 
 
-Other interior template examples we have are the one-column template, full-width template and so on.
+Other interior template examples include the one-column template and full-width template.
 
 **Creating an interior template**
 
-An interior template is created the same way the base template is created. Even though it is not necessary, you can create a folder and organize the different kinds of templates over there. In our example, we created a folder titled content and put the interior templates inside that folder:
+An interior template is created the same way the base template is created. Even though it is not necessary, you can create a folder in which to organize various templates. In our example, we created a folder titled content and put the interior templates inside that folder:
 
 ![Interior template folder](interior-template-folder.png)
 
@@ -261,9 +261,9 @@ Below is a screenshot of a sectional template in Solodev:
 
 - Add the sectional template files in the following order: 
 
-    1. Recent news
-    2. Blog
-    3. About boxes 
+    * Recent news
+    * Blog
+    * About boxes 
 
 - Add the remaining templates such as the contact form, footer, etc. 
 
@@ -273,7 +273,7 @@ If you followed the instructions your sectional template should appear as below:
 
 ![Sectional Template](About_LunarXP.jpg)
 
-**Note:** If you would like to insert more templates in a page and can't find enough blue zones to drop them into, you can create more DynamicDivs to increase the number of drop zones.
+**Note:** If you would like to insert more templates in a page and exhausted your drop zones, you can create more DynamicDivs to increase the number of drop zones.
 
 ### Using DynamicDivs to create custom pages
 

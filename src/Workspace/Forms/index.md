@@ -9,21 +9,19 @@ Form Builder serves as the gateway for capturing and sending data from one locat
 
  
 
-With this graphical user interface users can create and style custom forms with custom labels and input fields or choose from pre-built forms to quickly collect user data.
+With this graphical user interface you can create and style custom forms with custom labels and input fields or choose from pre-built forms to quickly collect user data.
 
 **Types of forms in Solodev**
 
-Solodev Forms are used for two main purposes: 
+Solodev Forms are used for two main purposes:  
 
- 
+- ***Website Forms*** – these are forms found on the front-end of a website, the most common being a “Contact Us” form that captures site visitors’ data and sends it to its Solodev Module. 
 
-- Website Forms – these are forms found on the front-end of a website, the most common being a “Contact Us” form that captures site visitors’ data and sends it to its Solodev Module. 
-
-- Module Forms – these are forms found on the back-end of Solodev to add, edit and delete module entries for display on user-facing websites. 
+- ***Module Forms*** – these are forms found on the back-end of Solodev to add, edit, and delete module entries for display on user-facing websites. 
 
 **Accessing Solodev Form Builder**
 
-Before accessing Form Builder, developers should:
+Before accessing Form Builder, you should:
 
 - Create a website.
 
@@ -39,7 +37,7 @@ Solodev developers can create a new form module that can be edited using Solodev
 
 **Prerequisites**
 
-Before adding a new form module, developers should: 
+Before adding a new form module, you should: 
 
 - Create a new website.
 
@@ -49,7 +47,7 @@ Before adding a new form module, developers should:
 
 - Click Add Form.
 
-- The developer is directed into a visual drag-and-drop editor. 
+- You are directed to a visual drag-and-drop editor. 
 
 - Enter a Name for the form module. 
 
@@ -67,7 +65,7 @@ In Solodev Forms, graphical elements are organized into three categories:
 
 - Form/Inputs: All form input fields and form buttons are located here.
 
-Developers can leverage the graphical elements in each category to create stunning web forms to capture customer or lead data. 
+Leverage the graphical elements in each category to create stunning web forms to capture customer or lead data. 
 
  
 From the visual drag and drop editor:
@@ -90,7 +88,7 @@ From the visual drag and drop editor:
 
 **Building a custom form**
 
-Developers can leverage the graphical elements from the Elements and Form/Input categories to build dynamic custom forms. This document will guide the user through building a simple contact form using the graphical elements from these categories. 
+ Graphical elements from the Elements and Form/Input categories give you the power to build dynamic custom forms. We will demonstrate building a simple contact form using the graphical elements from these categories. 
 
 
 ## Form Builder Dashboard
@@ -101,11 +99,11 @@ In Solodev Form Builder, the graphical elements that provide the HTML in the tem
 
  
 
-- Elements: HTML elements such as containers and columns are located here.
+- ***Elements:*** HTML elements such as containers and columns are located here.
 
-- Content: HTML elements such as headers, images, paragraphs, and lists.
+- ***Content:*** HTML elements such as headers, images, paragraphs, and lists.
 
-- Form/Inputs: All form input fields and form buttons are located here.
+- ***Form/Inputs:*** All form input fields and form buttons are located here.
 
 ![Form Dashboard](form_dash.png)
 
