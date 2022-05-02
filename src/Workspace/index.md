@@ -27,7 +27,7 @@ The Tree is the main control area where you can access all the tools and documen
 
 - **Modules:** Modules in Solodev store data and control how that data is displayed on your website. In other words, whenever you need a slideshow, a photo gallery, calendar, blog or any kind of list, modules will help you create and customize the data.
 
-- **Forms:**
+- **Forms:** Use a dynamic drag-and-drop templating system to simplify the creation of website forms with little or no code.
 
 - **Documents:** This is a space where you can create folders and all kinds of files. Whether you want to store design files, images, marketing materials, you can do so with Documents.
 

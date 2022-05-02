@@ -15,9 +15,9 @@ With this graphical user interface you can create and style custom forms with cu
 
 Solodev Forms are used for two main purposes:  
 
-- ***Website Forms*** – these are forms found on the front-end of a website, the most common being a “Contact Us” form that captures site visitors’ data and sends it to its Solodev Module. 
+- ***Website Forms*** – these are forms found on the front-end of a website. A common example is a “Contact Us” form that captures site visitors’ data and sends it to the module associated with the form. 
 
-- ***Module Forms*** – these are forms found on the back-end of Solodev to add, edit, and delete module entries for display on user-facing websites. 
+- ***Module Forms*** – these forms, found on the back-end of the SolodevCMS, are used to add, edit, and delete module entries for display on user-facing websites. A common example is the Blog module.
 
 **Accessing Solodev Form Builder**
 
@@ -72,13 +72,17 @@ From the visual drag and drop editor:
 
 - Drag a container onto the blank document template
 
-- Drag a header into the container.
+- Drag a column into the container.
+
+- Drag a header into the column.
 
 - Edit the header text.
 
 - Drag another container below the header.
 
-- Drag the form template of your choice into the container below the header.
+- Drag a column into the new container.
+
+- Drag the form template of your choice into the column below the header.
 
 - Enter the Name of the Form.
 
@@ -118,7 +122,7 @@ Graphical elements from each category, possess element settings that developers 
 | Properties | Description | Element Settings |
 | ----------- | ----------- | ----------- | 
 | Container | Bootstrap containers provide the developer with a means to center and horizontally pad their form's contents. | Add links to the container. Choose between fluid and non-fluid options. |
-| Columns | HTML elements, form templates, and form inputs must be placed within columns. As a best practice columns should be embedded in containers. | Add links to the columns. Set the number of columns. Add padding (a css property used to generate space around an element's content inside of any defined borders). |
+| Columns | HTML elements, form templates, and form inputs must be placed within columns. As a best practice columns should be embedded in containers. | Add links to the columns. Set the number of columns. Add padding. |
 
 **Content**
 
@@ -143,13 +147,13 @@ Graphical elements from each category, possess element settings that developers 
 
 **Form Views**
 
-Developers can preview their forms from the form builder in different screen sizes. Form views are located in the top navigation pane in Solodev Form Builder. Preview forms in a desktop view, tablet view, mobile landscape view, and mobile portrait view. 
+Developers can preview their forms in different screen sizes using Form Views. Form views are located in the top navigation pane in Solodev Form Builder. Preview forms in a desktop view, tablet view, mobile landscape view, and mobile portrait view. 
 
  
 
 **Element Styling**
 
-Developers can style all graphical elements in each category, including form templates, using Element Styling. Element Styling allows the developer to apply CSS styling to each graphical element with little or no code. Below is a description of the CSS properties that can be styled. 
+Developers can style all graphical elements in each category using Element Styling. Element Styling allows the developer to apply CSS styling to each graphical element with little or no code. Below is a description of the CSS properties that can be styled. 
 
 | Properties | Description | 
 | ----------- | ----------- |
@@ -162,7 +166,7 @@ Developers can style all graphical elements in each category, including form tem
 
 ## Drag and drop designer
 
-Solodev's Form Builder leverages a drag-and-drop, hierarchical templating system to allow developers to create stunning front-end and back-end forms with little to no code. This document will outline the best practices for using Solodev Form Builder's drag and drop system. 
+Solodev's Form Builder leverages a drag-and-drop, hierarchical templating system to allow developers to create stunning front-end and back-end forms with little to no code. Learn the best practices for using Solodev Form Builder's drag and drop system. 
 
 **Best practices**
 
@@ -176,7 +180,7 @@ Developers should follow the guidelines below when using Form Builder's templati
 
 ## Styling your form
 
-After creating a form, developers can style each item that falls under the Elements, Forms, and Templates categories. Style settings are  found in the Element Styling tab defined below: 
+After creating a form, developers can style each item that falls under the Elements, Forms, and Templates categories. Style settings are found in the Element Styling tab defined below: 
 
 - Element Styling: apply CSS styling to each form element – adjusting the position, border, layout, size, typography, and background of each element.
 

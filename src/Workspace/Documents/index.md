@@ -1,17 +1,17 @@
 
 # Documents 
 
-Solodev documents serves as a collaborative repository for files and folders destined for the web or that can be used for a company intranet. This document will show content creators how to create and mofify files and folders in Solodev and harness the power of file groups to manage your content[^1].
+Solodev documents serves as a collaborative repository for files and folders destined for the web or that can be used for a company intranet. This document will show you how to create and modify files and folders in Solodev and harness the power of file groups to manage your content[^1].
 
 ---
 
 ## Folders
 
-Folders are built in a nested tree hierarchy and serve as containers of all Solodev resources including files and folders to your website(s). Users can modify and customize folders to suit their needs. A folder can be used as a document repository for a company intranet or used to store HTML, TPL, and STML files destined for the web. This document will teach you how to create and modify a folder in Solodev.
+Folders are built in a nested tree hierarchy and serve as containers of all Solodev resources including files and folders to your website(s). You can modify and customize folders to suit your needs. A folder can be used as a document repository for a company intranet or used to store HTML, TPL, and STML files destined for the web. This scetion will discuss creating and modifying a folder in Solodev.
 
  
 
-Users will encounter the following fields when adding, updating, and modifying a folder.
+The following fields are frequently encountered when adding, updating, and modifying a folder.
 
 ![Folder fields part one](folder_fields_p1.JPG)
 
@@ -36,7 +36,7 @@ Users will encounter the following fields when adding, updating, and modifying a
 
 **Creating a Folder**
 
-Before adding files to the Documents workspace, users must add a folder to host the files in the Documents workspace. If adding folders to the website workspace, Solodev recommends adding folders that contain HTML content and TPL template files in the web files -> content directory. Folders that contain STML web pages should be added to www directory. Users can add a folder to either workspace by executing the steps below.
+Before adding files to the Documents workspace, you must add a folder to host the files in the Documents workspace. If adding folders to the website workspace, Solodev recommends adding folders that contain HTML content and TPL template files in the web files -> content directory. Folders that contain STML web pages should be added to www directory. Folders are added to either workspace by executing the steps below.
 
  
 
@@ -69,7 +69,7 @@ This example shows the user how to update the previously created folder.
 
 **Modifying a Folder**
 
-Users can copy, move, and delete folders created in the Solodev CMS system. This example will show the users how to perform these actions on the previously created folder. The copy, move and delete actions can be performed on one or more folders. 
+Copy, move, and delete folders created in the Solodev CMS system. We will perform these actions using the previously created folder as an example. The copy, move, and delete actions can be performed on multiple folders. 
 
 ***Moving a Folder***
 
@@ -124,11 +124,11 @@ Users can copy, move, and delete folders created in the Solodev CMS system. This
 
 - Click Submit. 
 
-**Note:** Users can use the steps outlined above to create, modify and update folders in the websites workspace.  
+**Note:** Use the steps outlined above to create, modify, and update folders in the websites workspace.  
 
 ## Files
 
-In the Solodev CMS, a File serves many purposes. Examples of a file includes simple text documents, spreadsheets, PDFs, images, or HTML files. Files are stored in folders and have a different Resource View depending on their file type. Solodev CMS supports four primary file types. 
+Files serve many purposes in the CMS. Examples of a file includes simple text documents, spreadsheets, PDFs, images, or HTML files. Files are stored in folders and have a different Resource View depending on their file type. Solodev CMS supports four primary file types. 
 
 --- 
 
@@ -136,7 +136,7 @@ In the Solodev CMS, a File serves many purposes. Examples of a file includes sim
 
 ***HTML***
 
-Hypertext Markup Language (HTML) is the markup language used to create the foundation of any web page. In addition to uploading html files to Solodev CMS, users can create and edit html files natively via Solodev’s WYSIWYG or code editor. HTML files can be inserted into STMLs using Dynamic Div Technology.
+Hypertext Markup Language (HTML) is the markup language used to create the foundation of any web page. In addition to uploading html files to Solodev CMS, you can create and edit html files natively via Solodev’s WYSIWYG or code editor. HTML files can be inserted into STMLs using Dynamic Div Technology.
 
 
 | File Extension | Description |
@@ -144,11 +144,11 @@ Hypertext Markup Language (HTML) is the markup language used to create the found
 | .html | An acronym for hyper-text-markup-language and the extension for web pages. | 
 | .htm | An abbreviation for an HTML file. |
 
-In the Solodev, HTML files are not web pages. HTML pages serve as content blocks that can be organized and embedded into STML pages via Solodev’s Dynamic Div technology. 
+In Solodev CMS, HTML files are not web pages. HTML pages serve as content blocks that can be organized and embedded into STML pages via Solodev’s Dynamic Div technology. 
 
 ***Template Files (.tpl)***
 
-Template files allow users to reuse blocks HTML code for each section or page of their website. In addition, template files allow users to harness the power of nested layouts creating drop zones with Dynamic Div technology that can be embedded into STML pages. Templates allow users to utilize more complex html syntax than is possible with the WYSIWYG editor. For more information about template files, please refer to the articles and sections listed below:
+Template files allow you to reuse blocks HTML code for each section or page of your website. Template files give you the additional ability to harness the power of nested layouts and create drop zones with Dynamic Div technology that can be embedded into STML pages. With templates you can utilize more complex html syntax than is possible with the WYSIWYG editor. For more information about template files, please refer to the articles and sections listed below:
 
  
 
@@ -163,7 +163,7 @@ Template files allow users to reuse blocks HTML code for each section or page of
 
 ***Images***
 
-Users can place and specify the display and design of several different types of images throughout their websites. The most widely used formats on the Web are PNG, JPEG, GIF and JPG. Within Solodev CMS, users can utilize photos to create dynamic image-based galleries, sliders, carousels and much more using Solodev Modules which will be covered in a later tutorial. Solodev supports the image formats listed below. 
+Solodev gives you the power to place and specify the display and design of several different types of images throughout your websites. Commonly used formats on the Web include PNG, JPEG, GIF and JPG. Utilize images to create dynamic photo galleries, sliders, carousels and much more using Solodev Modules. Solodev supports the image formats listed below. 
 
 | File Extension | Description |
 | ----------- | ----------- |
@@ -192,7 +192,7 @@ Solodev’s text editor supports a wide range for file types for use. Solodev su
 
 - Click the desired folder to open it. 
 
-- Click the Add File button to bring up the Add File window. 
+- Click the Add File button to bring up the Add File modal window. 
 
 - Enter the Name and Title
 
@@ -205,25 +205,25 @@ Solodev’s text editor supports a wide range for file types for use. Solodev su
 
 **Uploading files from a local machine** 
 
-In addition to creating files within Solodev’s CMS application, users can upload files from their local machine. Solodev CMS allows users to upload four primary file types(HTML, Text, Image, and Document). This article demonstrates how to upload files to the websites and documents workspace. 
+In addition to creating files within the CMS, you can upload files from your local machine. Solodev CMS allows you to upload four primary file types(HTML, Text, Image, and Document). To upload a file follow the steps below. 
 
 - On the Solodev Dashboard, click Documents.
 
 - Click the desired folder to open it. 
 
-- Click the upload button to bring up the upload window. 
+- Click the upload button to bring up the upload modal window. 
 
-- Users can upload one or more files by clicking the browse button or dragging the files into the box.
+- Upload one or more files by clicking the browse button or dragging the files into the box.
 
-- Once the files are selected, users can upload the files using a variety options (Upload + Save, Upload + Stage, and Upload). Click Upload.
+- Once the files are selected, you can upload the files using a variety options (Upload + Save, Upload + Stage, and Upload). Click Upload.
 
-**Note:** Note: To upload and save files without publishing them users can choose the Upload + Save option. To save the file and publish it to a staging server users can choose the Upload + Stage option. To save the file and push it to the live site users can choose the Upload option.
+**Note:**To upload and save files without publishing them users can choose the Upload + Save option. To save the file and publish it to a staging server users can choose the Upload + Stage option. To save the file and push it to the live site users can choose the Upload option.
 
 
 
 **File Actions**
 
-After opening a file in Solodev CMS, users are presented with a text-editor and Actions Menu that can be used to edit and update file properties. The options available to users in the Actions Menu are listed below.
+Opening a file presents you with a text-editor and an Actions Menu that you can use to edit and update file properties. The available options in the Actions menu are listed below.
 
 | Actions | Description |
 | ----------- | ----------- |
