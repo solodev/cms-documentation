@@ -1,20 +1,21 @@
 
 # Tasks
 
-Tasks are a collaboration resource that allows developers and their teams to work on projects and requirements in their websites and applications. Project requirements can include content as well as objects or code.
+Tasks are a collaboration resource that allows you and your teams to work on projects and requirements in websites and applications. Project requirements can include content as well as objects or code.
 
  
 
-Tasks are designed to provide a team leader or project member with the ability to enroll other team members as well as track hours and progress to provide more insight around a project. Each user in tasks has the ability to be an assigner, with the ability to create new tasks, or an assignee –  with the ability to perform tasks.
+Tasks provide team leaders and members with the ability to enroll other team members and track hours and progress to provide more insight around a project. Each task user can create new tasks and assign it to others or receive and perform tasks.
 
  
 
-Note: Tasks are used by developers and members of your internal team to collaborate directly in websites and apps and are not connected to Solodev support. For assistance based on your support contract, [contact us](mailto:help@solodev.com).
+**Note:** Tasks are used by developers and members of your internal team to collaborate directly in websites and apps and are not connected to Solodev support. For assistance based on your support contract, [contact us](mailto:help@solodev.com).
 
 --- 
 
 ## Assigning tasks
-Tasks are assigned to content objects and code in any website or document in Solodev. This article will discuss managing tasks in the Website workspace using a Spacejet theme.
+
+Tasks are assigned to content objects and code in any website or document in Solodev. Manage tasks in the Website workspace using a Spacejet theme with the following directions.
 
 **Prerequisites:** 
 - Developers and project managers should have already created a website or installed the Spacejet theme.
@@ -47,11 +48,11 @@ To create a new task:
 
 - To add multiple users, type the name of the user after selecting the first one.
 
-- Submit.
+- Click Submit.
 
 **Step 2: Adding attachments to a task**
 
-**Note:** Users are able to add attachments and links inside the textbox using the WYSIWYG.
+**Note:** Add attachments and links inside the textbox using the WYSIWYG.
 
 To do so:
 
@@ -109,7 +110,7 @@ Project managers can a view a list of all tasks, see the status of each task set
 
 - To access the task list, click the Task button under the Support section of the Solodev Dashboard.
 
-- The user is taken to a page with a list of tasks. 
+- You are directed to a page with a list of tasks. 
 
 The list displays:
 

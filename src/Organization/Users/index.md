@@ -7,9 +7,9 @@ Solodev features an enterprise permissions management system that allows adminis
 
 ## What are Users?
 
-Users are the people who have the authorization to access and interact with Solodev’s resources. Administrators can assign users to groups based on specific criteria – harnessing the power of granular permissions.  
+Users are the people who have the authorization to access and interact with Solodev’s resources. Harness the power of granular permissions by assigning users to groups based on specific criteria.  
 
-Note: Administrators can mimic their organization’s structure by utilizing user groups to provide departments access and functionality specific to their jobs. 
+Note: Administrators can mimic their organization’s structure by utilizing user groups to provide department access and functionality specific to their jobs. 
 
 Administrators will encounter the following fields when modifying a user.
 
@@ -22,7 +22,7 @@ Administrators will encounter the following fields when modifying a user.
 | Timezone | User's timezone |  
 
 
-Administrators can use the following actions to manage users. 
+Use the following actions to manage users. 
 
 
 
@@ -44,18 +44,18 @@ Administrators can use the following actions to manage users.
 
 In the examples above, the user has been given administrative permissions for Websites, Modules, and Documents as well as view permissions for all Support objects. 
 
-As a result, the user will have access to the following Dashboard that allows them to access Websites, Modules, Documents and all Support objects.
+As a result, the user will obtain access to the following dashboard items: Websites, Modules, Documents and all Support objects.
 
 ![user_permissions part 3](user_permissions_p3.jpg)
 
-Permissions can be assigned to either users or groups directly. The instructions to assign permissions to users, please refer to the Managing users section of this document.  
+To directly assign permissions to users or groups please refer to the Managing users section of this document.  
 
 
 ## Managing users
 
-Administrators or “super users” in Solodev can add users and assign permissions, providing them access to certain areas of the Solodev dashboard. Administrators can leverage granular permissions by specifying the actions that users can perform in Solodev.  
+Administrators or “super users” in Solodev can add users and assign permissions, providing access to certain areas of the Solodev dashboard. Leverage granular permissions by specifying the actions that users can perform in Solodev.  
 
-This article shows administrators how to add and remove users from Solodev CMS and reset their passwords.  
+Learn how to add and remove users from Solodev CMS and reset their passwords with the instructions below.  
 
 **Adding a user to Solodev CMS**
 
@@ -85,13 +85,13 @@ This article shows administrators how to add and remove users from Solodev CMS a
 
 - Select the desired User.
 
-- Click the Delete button to bring up the Delete window.
+- Click the Delete button to bring up the Delete modal window.
 
 - Type ‘DELETE’ in text box below and click the Delete button to the right of the text box.
 
 ## Assigning users to objects
 
-Solodev supports granular permissions that allows administrators to create a permission system – assigning users and groups to specific objects. This document will show the administrator how to assign users to specific actions and resources. 
+Solodev supports granular permissions that allows you to create a permission system by assigning users and groups to specific objects. Learn how to assign users to specific actions and resources below. 
 
 **Assigning users to specific actions or resources**
 

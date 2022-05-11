@@ -2,7 +2,7 @@
 # Groups
 
 
-Administrator’s can harness the power of granular permissions by creating and assigning users to groups based on specific criteria. With user groups, administrators can provide departments access and functionality specific to their jobs. This article shows Solodev administrators how to manage user groups. 
+Harness the power of granular permissions by creating and assigning users to groups based on specific criteria. With groups, you can provide departments access and functionality specific to your team member's jobs. 
 
 ---
 
@@ -10,7 +10,7 @@ Administrator’s can harness the power of granular permissions by creating and 
 
 - Click Groups located under the Organization section of the Solodev Dashboard.
 
-- Click Add Group to bring up the Add Group window. 
+- Click Add Group to bring up the modal window. 
 
 ![adding groups step 1](adding_user_Groups_p1.png)
 
@@ -28,11 +28,11 @@ Administrator’s can harness the power of granular permissions by creating and 
 
 ![deleting user groups step 1](deleting_user_groups.jpg)
 
-- Click Modify to bring up the Modify window.
+- Click Modify to bring up the modal window.
 
 ![deleting user groups step 2](deleting_user_groups_p2.jpg)
 
-- Click the arrow to the right of the Advanced section to display the advanced options.
+- Click the arrow to expand the Advanced section and display the advanced options.
  
 - Type ‘DELETE’ in the text box and click the Delete button.
 
@@ -41,7 +41,7 @@ Administrator’s can harness the power of granular permissions by creating and 
 
 ## Assinging Groups to Objects
 
-Solodev supports granular permissions that allows administrators to create a permission system – assigning users and groups to specific objects. This document will show the administrator how to assign permissions to groups globally before assigning groups to specific ‘Actions’ and ‘Resources’ in the Solodev CMS system. 
+Solodev supports granular permissions that facilitates the creation of sophisticated permission systems – assigning users and groups to specific objects. Use the steps below to assign permissions to groups globally or assign groups to specific ‘Actions’ and ‘Resources’. 
 
 
 **Globally assigning resources and actions to groups**
@@ -54,7 +54,7 @@ Solodev supports granular permissions that allows administrators to create a per
 
 ![adding global permissions step 1](adding_global_permissions_p1.jpg)
 
-- Click Manage located below ‘Apps the group has access to’ to display the permissions window.
+- Click Manage located below ‘Apps the group has access to’ to display the permissions modal window.
 
 ![adding global permissions step 2](adding_global_permissions_p2.jpg)
 
@@ -75,7 +75,7 @@ Solodev supports granular permissions that allows administrators to create a per
 
 - Select Websites located below the Workspace section. 
 
-- Select the row in the members column associated with the desired website to bring up the permissions column.
+- Select the row in the members column associated with the desired website to bring up the permissions modal window.
 
 ![adding groups to objects step 1](adding_groups_to_objects.jpg)
 

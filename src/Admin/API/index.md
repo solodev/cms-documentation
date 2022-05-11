@@ -10,7 +10,7 @@ Create headless applications with Solodev API.
 
 **What is REST?** 
 
-When discussing the Solodev API, terms like “REST” and “RESTful” are often used. “REST” stands for Representational State Transfer. “REST” is an architectural style designed as an alternative to RPC or SOAP-based web services. 
+When discussing the Solodev API terms like “REST” and “RESTful” are often used. “REST” stands for Representational State Transfer. “REST” is an architectural style designed as an alternative to RPC or SOAP-based web services. 
 
  
 
@@ -18,7 +18,7 @@ Although there is no official REST standard, common approaches and best practice
 
  
 
-Solodev follows most of the practices and common definitions of the style. For example, Solodev API uses “resources” that are typically nouns such as Datatable or Calendar. Users can take action on resources using the standard HTTP methods and routes that reflect standard CRUD operations.
+Solodev follows most of the practices and common definitions of the style. For example, Solodev API uses “resources” that are typically nouns such as Datatable or Calendar. You can act on resources using the standard HTTP methods and routes that reflect standard CRUD operations.
 
 **HTTP methods**
 
@@ -35,35 +35,33 @@ The Solodev API supports these HTTP methods for interacting with resources:
 
 **Resources**
 
-Resources are typically nouns (for e.g. Calendar and Datatable) that users can act on using GET, POST and DELETE HTTP methods.
+Resources are typically nouns (for e.g. Calendar and Datatable) that you can act on using GET, POST and DELETE HTTP methods.
 
  
 
-Solodev documentation refers to endpoints. Endpoints are URIs for individual resources. For example, users can find a collection of calendars by executing a request against the **/calendar/** endpoint.
+Solodev documentation refers to endpoints. Endpoints are URIs for individual resources. For example, you can find a collection of calendars by executing a request against the **/calendar/** endpoint.
 
 ## API overview
 
 **Before you start**
 
-The Solodev API is designed to help users implement custom solutions or integrate with RESTful APIs.
-
- 
+The Solodev API is designed to help users implement custom solutions or integrate with RESTful APIs. 
 
 The REST architectural style is an integral part of API 3.0. To learn more about REST, refer to RESTful features of the Solodev API.
 
 **What is Solodev API?**
 
-Solodev empowers users to extend their data and content using a built-in Application Programming Interface (API). Solodev provides the user with two API sets:
+Solodev empowers you to extend your data and content using a built-in Application Programming Interface (API). Solodev provides the user with two API sets:
 
  
 
-- ***Solodev System API:*** allows users to store and deliver structured content using a headless version of Solodev CMS. With the System API, users can create and globally manage CMS objects (folders, files, calendars) from the backend using the appropriate routes. For example, users can leverage the search route to search for all modules of the calendar type across all websites. 
+- ***Solodev System API:*** allows you to store and deliver structured content using a headless version of Solodev CMS. Use the System API to create and globally manage CMS objects (folders, files, calendars) from the backend using the appropriate routes. For example, the search route can query all modules for the calendar type across all websites. 
 
 - ***Solodev Module API:*** allows users to individually target different module types custom to their environment for management and expose them to external publishing channels such as websites and mobile applications. 
 
 
 
-**User access:** The permissions assigned to the user who generated the API key determines endpoint access. Learn more about managing permissions. 
+**User access:** The permissions assigned to the user who generated the API key determines endpoint access. [Learn more about managing permissions](https://cms.solodev.net/organization/permissions-best-practices/). 
 
  
 
@@ -324,15 +322,13 @@ After passing the values into the parameters, users can click the Execute button
 
 ## Creating and configuring API Tokens 
 
-Solodev empowers users to extend their data and content using a built-in Application Programming Interface (API). Solodev provides the user with two API sets:
-
- 
+Extend your data and content using a built-in Application Programming Interface (API). Solodev provides you with two API sets: 
 
 - Solodev System API – allows users to store and deliver structured content using a headless version of Solodev CMS.
 
 - Solodev Module API – allows users to expose the data stored in modules to external publishing channels such as websites and mobile applications. 
 
-- This document shows the user how to generate an API key pair and use that key pair to authorize requests to both API sets.
+- We will show you how to generate an API key pair and use that key pair to authorize requests to both API sets.
 
  
 
@@ -341,7 +337,6 @@ Solodev empowers users to extend their data and content using a built-in Applica
 - Click Users located under the Organization section of the Solodev Dashboard.
 
 - Click Invite User(s) to bring up the Invite User(s) window.
-
 
 - Enter the Email Address and Group Name in the respective fields (press the tab button after entering each email address and group name).
 
@@ -403,50 +398,50 @@ Solodev empowers users to extend their data and content using a built-in Applica
 
 ## System API Overview
 
-In the previous article, the user learned how to generate an API key pair and use that key pair to authorized requests to both APIs. This article provides an overview of the Solodev System API that allows users to store and deliver structured content using a headless version of Solodev CMS – along with a summary of its frequently used endpoints. 
+In the previous section, you learned how to generate an API key pair and use that key pair to authorized requests to both APIs. This section provides an overview of the Solodev System API that allows you to store and deliver structured content using a headless version of Solodev CMS – along with a summary of its frequently used endpoints. 
 
  
 
-**Asset Category:** The Asset Category endpoint corresponds to folders on the front end of the Solodev CMS system. With this endpoint, users can create, search and modify folders from the back end. For example, the copy route in the Asset Category endpoint serves the same purpose as copying a folder on the front end of the CMS. 
+**Asset Category:** The Asset Category endpoint corresponds to folders on the front end of the Solodev CMS system. Use this endpoint to create, search, and modify folders from the back end. For example, the copy route in the Asset Category endpoint serves the same purpose as copying a folder on the front end of the CMS. 
 
 
-**Asset File:** The Asset File endpoint corresponds to files on the front end of the Solodev CMS system. Users can leverage this endpoint to create, search and manage files from the back end. For example, the Publish route in the Asset File endpoint performs the same function as clicking the publish button on a file in the front end of the CMS. 
-
- 
-**Calendar:** The Calendar endpoint corresponds to the calendar object. This endpoint enables users to create, search and manage calendars from the back end. The user can leverage the search route to search through all calendars in the CMS system. 
-
-
-**Calendar Entry:** The Calendar Entry endpoint corresponds to the entries located inside the Calendar Module. With this endpoint, users can search, create, and modify calendar entries. With the search route the user can search through all calendar entries.
+**Asset File:** The Asset File endpoint corresponds to files on the front end of the Solodev CMS system. Use this endpoint to create, search and manage files from the back end. For example, the Publish route in the Asset File endpoint performs the same function as clicking the publish button on a file in the front end of the CMS. 
 
  
-**Datatable:** The Datatable endpoint corresponds to the Datatable object. This endpoint enables users to create, search and manage datatable objects from the back end. Users can leverage the search route to search for all datatable objects. 
-
-**Datatable Category:** The Datatable Category endpoint corresponds to the Collection object within the Solodev CMS. With the search route users can search for all categories. 
+**Calendar:** The Calendar endpoint corresponds to the calendar object. Create, search and manage calendars from the back end with this endpoint. For example, use the search route to query all calendars in the CMS system. 
 
 
-**Datatable Category Group:** The Datatable Category Group endpoint corresponds to the group of categories that can be applied to manager entries. The user can leverage the search route to search for category groups across all modules. 
+**Calendar Entry:** The Calendar Entry endpoint corresponds to the entries located inside the Calendar Module. Search, create, and modify calendar entries with this endpoint. For example, use the search route to query all calendars entries.
+
+ 
+**Datatable:** The Datatable endpoint corresponds to the Datatable object. This endpoint creates, searches and manages datatable objects from the back end. Query datatable objects with the search route. 
+
+**Datatable Category:** The Datatable Category endpoint corresponds to the Collection object within the Solodev CMS. Query all categories with the search route. 
 
 
-**Datatable Entry:** The Datatable Entry endpoint corresponds to the Datatable Entry objects within the Soldev CMS system. The search route enables to search for all entries across all modules.
+**Datatable Category Group:** The Datatable Category Group endpoint corresponds to the group of categories that can be applied to manager entries. Use the search route to search for category groups across all modules. 
+
+
+**Datatable Entry:** The Datatable Entry endpoint corresponds to the Datatable Entry objects within the Soldev CMS system. Search for all entries across all modules with the search route.
 
 **File Group:** The File Group endpoint corresponds to File Group object in the Solodev CMS. The search route enables to search for all File Groups across all websites. 
 
-**File Group Fil:** The File Group File endpoint corresponds to the File Group Entry within a File Group. With the search route users can search for all entries across all File Groups.
+**File Group Fil:** The File Group File endpoint corresponds to the File Group Entry within a File Group. Use the search route to query entries across all File Groups.
 
-**Link:** The Link endpoint corresponds to the Link object in Solodev CMS. Users can leverage the search route to search all links across websites.  
+**Link:** The Link endpoint corresponds to the Link object in Solodev CMS. Leverage the search route to search all links across websites.  
 
-**Scheduler:** The Scheduler endpoint corresponds to the Scheduler object in Solodev CMS. With the search route, users can search for all Scheduler objects within the CMS system.
+**Scheduler:** The Scheduler endpoint corresponds to the Scheduler object in Solodev CMS. Search for all Scheduler objects within the CMS system using the search route.
 
-**Scheduler File:** The Scheduler File endpoint corresponds to the Scheduler entry object in Solodev CMS. Users can use the search route to search for all scheduler entries across the websites.
+**Scheduler File:** The Scheduler File endpoint corresponds to the Scheduler entry object in Solodev CMS. Use the search route to search for all scheduler entries across the websites.
 
-**User:** The User endpoint corresponds to the User object in the Solodev dashboard. The search route enables administrators to find users within the CMS system.  
+**User:** The User endpoint corresponds to the User object in the Solodev dashboard. Use the search route to find users within the CMS system.  
 
-**Website:** The Website endpoint corresponds to the website object in Solodev CMS. The search route enables users to search all websites in the CMS. 
+**Website:** The Website endpoint corresponds to the website object in Solodev CMS. Search all websites in the CMS with the search route. 
 
  
 ## Module API Overview
 
-The previous article provided users with an overview of the Solodev System API and its frequently used endpoints. This article shows the user how to use the Module API to target search across the blog module as opposed to all modules. With the Module API, users can individually target different module types custom to their environment for management and expose them to external publishing channels such as websites and mobile applications. 
+The previous section provided you with an overview of the Solodev System API and its frequently used endpoints. We will now show you how to use the Module API to target search across the blog module. Individually target different module types custom to their environment for management and expose them to external publishing channels such as websites and mobile applications with Module API. 
 
  
 **Step 1: Authorizing requests to API Module**

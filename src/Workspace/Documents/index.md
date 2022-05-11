@@ -239,7 +239,7 @@ Opening a file presents you with a text-editor and an Actions Menu that you can 
 
 **Meta Information**
 
-All Solodev files contain a Meta option in the Actions Menu. With the Meta option, users can define meta attributes for each file. Users can optimize their site’s visibility in search engine results with meta keywords and meta data.
+All Solodev files contain a Meta option in the Actions Menu. The Meta option defines meta attributes for each file. Optimize your site’s visibility in search engine results with meta keywords and meta data.
 
 | Field | Description |
 | ----------- | ----------- |
@@ -316,7 +316,7 @@ All Solodev files contain a Meta option in the Actions Menu. With the Meta optio
 
 **File Groups**
 
-File Groups are a resource for managing and displaying groups of related files (images, documents, etc) on a Web page. Users can leverage file groups to categorize and display files based on certain criteria or similarity. Administrators commonly leverage File Groups to display a document list with set permissions that grant users access to files in the File Group. Authorized users can add or edit files in the File Group without accessing the web page directly. 
+File Groups are a resource for managing and displaying groups of related files (images, documents, etc) on a Web page. Leverage file groups to categorize and display files based on certain criteria or similarity. Administrators commonly use File Groups to display a document list with set permissions that grant users access to files in the File Group. Authorized users can add or edit files in the File Group without accessing the web page directly. 
 
 A file group can be used to: 
 
@@ -372,7 +372,7 @@ A file group can be used to:
 
 - Click the Add Entry button. 
 
-- From the add entry window, expand the appropriate directory and select a file from the workspace by clicking the checkbox.
+- From the add entry modal window, expand the appropriate directory and select a file from the workspace by clicking the checkbox.
 
 - Select a date for publication. 
 
