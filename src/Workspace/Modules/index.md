@@ -70,24 +70,47 @@ The previous section provided you with an introduction to Modules and the web ap
 
 - Click Add Module.
 
-- You are directed to a page with a list of modules.
+- You are directed to the add module page.
 
-- Click the Install button on the Blog Module to bring up the Module Window.
+![Add Module page](add_module_3.png)
 
-- Enter the Name of the module and click Browse to set the installation location.
+- Select the preferred module from the intercom help chat to download it to your local machine.
 
-- Solodev recommends installing modules into web files -> managers folder.
+![Intercom help chat](add_module_4.png)
 
-- Click Submit.
+![Intercom help chat part II](add_module_5.png)
 
-- The module can be found in the web files -> managers -> Blog Module folder.
+- Enter the Name of the module.
+
+![Add module page (name)](add_module_6.png)
+
+- Click browse. 
+
+![Add module page (location)](add_module_7.png)
+
+- Select the location of the module from the Choose Object modal window and click Choose.
+
+![Add module page (choose object)](add_module_7b.png)
+
+- Click upload .zip. 
+
+![Add module page(upload zip file)](add_module_8.png)
+
+- From your local machine, select the previously downloaded module package.
+
+- Click Add. 
+![Add module page(add the module package)](add_module_9.png)
+
+- You are redirected to the modules page where your module is listed. 
+
+![Listed modules](add_module_10.png)
 
 
 **Note:** The module folder reflects the name of the module. 
 
 **Step 2: Adding a module entry**
 
-- Open the web files -> managers -> Blog Module folder. 
+- Click Modules located in the Workspace section of the Solodev Dashboard. 
 
 - Click on the Blog Module to open it. 
 
@@ -119,13 +142,17 @@ The previous section provided you with an introduction to Modules and the web ap
 
 **Step 3: Viewing entry details**
 
-- Open the Blog Module folder and click Blog Module to open it.
+- Click Modules located in the workspace section of the Solodev dashboard. 
+
+- Click Blog Module to open it.
 
 - Click the pen and paper icon to open the entry in a new tab.
 
 **Step 4: Exporting module entries**
 
-- Open the Blog Module folder and click Blog Module or the name of the module to open it. 
+- Click Modules located in the workspace section of the Solodev dashboard. 
+
+- Click Blog Module to open it.
 
 - Click the checkbox to the left of the Status column to select all entries or the checkbox next to each entry to select specific entries. 
 
@@ -139,7 +166,9 @@ Note: You can export up to 250 module entries at once. Click the select box belo
 
 **Step 5: Deleting module entries**
 
-- Open the Blog Module folder and click Blog Module to open it.
+- Click Modules located in the workspace section of the Solodev dashboard. 
+
+- Click Blog Module to open it.
 
 - Click the checkbox to select the desired entry.
 
@@ -150,7 +179,9 @@ Note: You can export up to 250 module entries at once. Click the select box belo
 
 **Step 6: Modifying a module** 
 
-- Open the Blog Module folder and click Blog Module to open it.
+- Click Modules located in the workspace section of the Solodev dashboard. 
+
+- Click Blog Module to open it.
 
 - Click Modify to bring up the module window.
 
@@ -161,7 +192,7 @@ Note: You can export up to 250 module entries at once. Click the select box belo
 
 **Step 7: Delete a module**
 
-- Open the folder that contains the module. 
+- Click Modules located in the workspace section of the Solodev dashboard. 
 
 - Click the checkbox to select the Blog Module. 
 
@@ -286,7 +317,9 @@ The detail template shows the specifics of an individual entry from a repeater t
 
 **Step 5: Linking the repeater page to the detail page**
 
-- Open the Blog Module located in the web files -> managers -> Blog Module folder.
+- Click Modules located in the workspace section of the Solodev dashboard.
+
+- Click the Blog Module to open it.
 
 - Click Modify. 
 
