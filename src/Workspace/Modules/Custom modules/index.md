@@ -20,15 +20,21 @@ Users should be familiar with:
 
 - Click Add Module on the next page. 
 
-- On the Career Portal card, click Install. 
+- You are directed to the add module page.
 
-- In the modal window enter the name of the module. 
+- Select the careers module from the intercom help chat to download it to your local machine.
 
-- Click Browse and select the web files -> managers folder. 
+- Enter the Name of the module.
 
-- Click Choose. 
+- Click browse. 
 
-- Click Submit.
+- Select the location of the module from the Choose Object modal window and click Choose.
+
+- Click upload .zip. 
+
+- From your local machine, select the careers module package.
+
+- Click Add. 
 
 
 **Step 2: Creating a repeater template**
@@ -160,7 +166,7 @@ Users should be familiar with:
 
 **Step 6: Mapping the detail.stml page to the careers module**
 
-- Expand the web files -> managers -> Career Portal folders. 
+- On the Solodev dashboard, click Modules. 
 
 - Open the Career Portal module. 
 
@@ -181,7 +187,7 @@ Users should be familiar with:
 
 **Step 7: Adding an Entry**
 
-- Expand the web files -> managers -> Career Portal folders. 
+- On the Solodev dashboard, click Modules. 
 
 - Open the Career Portal module. 
 
@@ -216,15 +222,21 @@ Users should be familiar with:
 
 - Click Add Module on the next page. 
 
-- On the News Desk card, click Install. 
+- You are directed to the add module page.
 
-- In the modal window enter the name of the module. 
+- Select the news module from the intercom help chat to download it to your local machine.
 
-- Click Browse and select the web files -> managers folder. 
+- Enter the Name of the module.
 
-- Click Choose. 
+- Click browse. 
 
-- Click Submit. 
+- Select the location of the module from the Choose Object modal window and click Choose.
+
+- Click upload .zip. 
+
+- From your local machine, select the news module package.
+
+- Click Add. 
 
 
 **Step 2: Creating a repeater template**
@@ -360,7 +372,7 @@ Users should be familiar with:
 
 **Step 6: Mapping the detail.stml page to the team module**
 
-- Expand the web files -> managers -> News folders. 
+- On the Solodev dashboard, click Modules.  
 
 - Open the News module. 
 
@@ -381,7 +393,7 @@ Users should be familiar with:
 
 **Step 7: Adding an Entry**
 
-- Expand the web files -> managers -> News folders. 
+- On the Solodev dashboard, click Modules.  
 
 - Open the News module. 
 
@@ -418,15 +430,21 @@ Users must be familiar with the following:
 
 - Click Add Modules on the next page.
 
-- On the Team card click Install. 
+- You are directed to the add module page.
 
-- In the modal window Enter the Name of the module. 
+- Select the team module from the intercom help chat to download it to your local machine.
 
-- Click Browse and select the web files -> managers folder. 
+- Enter the Name of the module.
 
-- Click Choose. 
+- Click browse. 
 
-- Click Submit. 
+- Select the location of the module from the Choose Object modal window and click Choose.
+
+- Click upload .zip. 
+
+- From your local machine, select the team module package.
+
+- Click Add. 
 
 **Step2: Creating a repeater template**
 
@@ -595,9 +613,9 @@ Users must be familiar with the following:
 
 **Step 6: Mapping the detail.stml page to the team module** 
 
-- Expand the web files -> managers -> Staff folders. 
+- On the Solodev dasboard, click Modules. 
 
-- Open the Staff module. 
+- Open the Team module. 
 
 - Click Modify. 
 
@@ -616,7 +634,7 @@ Users must be familiar with the following:
 
 **Step 7: Add an Entry**
 
-- Expand the web files -> managers -> Staff folders. 
+- On the Solodev dasboard, click Modules. 
 
 - Open the Team module. 
 
@@ -651,13 +669,21 @@ Users must be familiar with:
 
 - Click Add Module on the next page.
 
-- On the Landing Page Studio card click Install. 
+- You are directed to the add module page.
 
-- In the modal window click Browse and select the web files -> managers folder. 
+- Select the landing page module from the intercom help chat to download it to your local machine.
 
-- Click Choose. 
+- Enter the Name of the module.
 
-- Click Submit. 
+- Click browse. 
+
+- Select the location of the module from the Choose Object modal window and click Choose.
+
+- Click upload .zip. 
+
+- From your local machine, select the landing page module package.
+
+- Click Add. 
 
 **Step 2: Creating a detail template**
 
@@ -851,7 +877,7 @@ Users must be familiar with:
 
 **Step 4: Mapping the detail.stml page to the landing page studio module**
 
-- Expand the web files -> managers -> Landing Page Studio folders. 
+- On the Solodev dashbaord, click Modules. 
 
 - Open the Language Page Studio module. 
 
@@ -871,7 +897,7 @@ Users must be familiar with:
 
 **Step 5: Adding an entry to the module** 
 
-- Expand the web files -> managers -> Landing Page Studio folders. 
+- On the Solodev dashbaord, click Modules. 
 
 - Open the Landing Page Studio module. 
 
