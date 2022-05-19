@@ -1,6 +1,8 @@
 
 # FAQs
 
+Commonly asked questions about the Solodev platform. 
+
 ---
 
 ## General FAQs

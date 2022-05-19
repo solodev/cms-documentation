@@ -1,6 +1,8 @@
 
 # Custom modules
 
+Modules designed to make content management easier and streamline content operations. Modules can be added, customized, or built from scratch. 
+
 ---
 
 ## Creating a career module

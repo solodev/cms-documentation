@@ -1,6 +1,8 @@
 
 # Forms
 
+Use a dynamic drag-and-drop templating system to simplify the creation of website forms with little or no code.
+
 ---
 
 ## What is Solodev Form Builder?
