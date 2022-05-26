@@ -723,7 +723,7 @@ Prior to building an Intranet in Solodev users should be able to:
 ```
 - Click Publish. 
 
-Create an account update page template (For example, account_update.tpl)
+**Step 8: Create an account update page template (For example, account_update.tpl)**
 
 - Open the secure folder and click Add File
 
@@ -793,7 +793,7 @@ Create an account update page template (For example, account_update.tpl)
 
 ```
 
-**Step 8: Create an intranet folder in the www folder**
+**Step 9: Create an intranet folder in the www folder**
 
 - Open the www folder and click Add Folder. 
 
@@ -801,7 +801,7 @@ Create an account update page template (For example, account_update.tpl)
 
 - Click Submit. 
 
-**Step 9: Create a login page (index.stml)**
+**Step 10: Create a login page (index.stml)**
 
 - Open the www -> intranet folder. 
 
@@ -821,7 +821,7 @@ Create an account update page template (For example, account_update.tpl)
 
 - Click Publish. 
 
-**Step 10: Create a signup page**
+**Step 11: Create a signup page**
 
 - Open the www -> intranet folder. 
 
@@ -841,7 +841,7 @@ Create an account update page template (For example, account_update.tpl)
 
 - Click Publish. 
 
-**Step 11: Create a forgot password page**
+**Step 12: Create a forgot password page**
 
 - Open the www -> intranet folder. 
 
@@ -861,7 +861,7 @@ Create an account update page template (For example, account_update.tpl)
 
 - Click Publish. 
 
-**Step 12: Create a password-confirmation page**
+**Step 13: Create a password-confirmation page**
 
 Open the **www -> intranet** folder. 
 
@@ -882,7 +882,7 @@ Click the **password-confirmation.tpl** file located in **web files -> content -
 Click **Publish**. 
 
 
-**Step 13: Create a secure folder in the intranet folder**
+**Step 14: Create a secure folder in the intranet folder**
 
 - Open the www -> intranet folder and click Add Folder. 
 
@@ -890,7 +890,7 @@ Click **Publish**.
 
 - Click Submit. 
 
-**Step 14: Create an account page for the users**
+**Step 15: Create an account page for the users**
 
 - Open the **www -> intranet -> secure** folder.
 
@@ -902,11 +902,31 @@ Click **Publish**.
 
 - Click **Submit**. 
 
-- The user is directed to the index page. 
+- The user is directed to the index.stml file. 
 
 - Click the empty dynamic div in the index.stml page. 
 
 - Click the **index.tpl** file located in **web files -> content -> intranet -> secure** folder. 
+
+- Click **Publish**. 
+
+Step 16: Create an update page for users
+
+- Open the **www -> intranet -> secure** folder.
+
+- Click **Add Page**. 
+
+- Enter the **Name (update)**, **Title** and **Description** of the page.
+
+- Choose your template. 
+
+- Click **Submit**. 
+
+- The user is directed to the update.stml. 
+
+- Click the empty dynamic div in the update.stml page. 
+
+- Click the **account_update.tpl** file located in **web files -> content -> intranet -> secure** folder. 
 
 - Click **Publish**. 
 
@@ -1709,7 +1729,6 @@ This framework enables developers to create special kinds of content and functio
   </div>
 </div>
 [/contact_form_update]
-
 
 ```
 ---
