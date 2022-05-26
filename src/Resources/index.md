@@ -508,7 +508,7 @@ Intranets are a major part of enterprise websites. In some cases, organizations 
 Prior to building an Intranet in Solodev users should be able to: 
 
 - Use shortcodes.
-
+- Configure and invite contacts. Learn more about [contacts](https://cms.solodev.net/organization/contacts/)
 
 **Step 1: Create an intranet folder**
 
@@ -536,10 +536,11 @@ Prior to building an Intranet in Solodev users should be able to:
 
 ```html
 
+[contact_form_session]
 <div class="row mt-4 mb-5 align-items-end">
 	<div class="col-md-6">
 		<h3 class="text-fourth font-weight-bold">Welcome</h3>
-		[form_login secure_area="/intranet/secure/"][form_error_messages]
+		[contact_form_login][form_error_messages]
 			<input class="form-control rounded-0 mt-4 p-2 w-100" id="mail" name="mail" placeholder="you@mail.com" type="email"  />
 			<input class="form-control rounded-0 mt-3 p-2 w-100" id="solodevpassword" name="solodevpassword" placeholder="password" type="password" />
 			<div class="mt-3 d-flex justify-content-between align-items-center">
@@ -553,13 +554,13 @@ Prior to building an Intranet in Solodev users should be able to:
 			<div class="pt-5">
 				<button class="btn btn-tertiary w-100" id="loginBtn" type="submit">Login</button>
 			</div>
-		[/form_login]
+		[/contact_form_login]
 	</div>
 	<div class="col-md-6 text-center mt-4 mt-md-0">
 		<a href="/intranet/register.stml">
 			<img alt="Account" class="account" src="http://www.webcorpco.com/core/fileparse.php/1532/urlt/assets/images/reg-account.png" />
 		</a>
-		<p>Not a member? Don’t worry</p>
+		<p>Not a member? Don't worry</p>
 			<a class="btn btn-primary-dark w-100" href="/intranet/register.stml">Create an account</a>
 	</div>
 </div>
@@ -584,22 +585,26 @@ Prior to building an Intranet in Solodev users should be able to:
 
 ```html 
 
+[contact_form_session]
 <div class="row mt-4 mb-5 align-items-end">
 	<div class="col-md-12">
 		<h3 class="text-fourth font-weight-bold">Welcome</h3>
 		<p>Sign up for access to the WebCorpCo Intranet. Please enter in an email and a password.</p>
         
-		[form_register secure_area="/intranet/secure/" user_folder="122" ][form_error_messages]
-			<label for="mail_create" class="font-weight-bold">Email</label>
-			<input class="form-control rounded-0 p-2 w-100" id="samaccountname" name="samaccountname" placeholder="you@mail.com" type="email" />
+		[contact_form_signup]
+			<label for="username" class="font-weight-bold">Email</label>
+			<input class="form-control rounded-0 p-2 w-100" id="username" name="username" placeholder="you@mail.com" type="email" />
             
-			<label for="solodevpassword_create" class="font-weight-bold mt-3">Password</label>
-			<input class="form-control rounded-0 p-2 w-100" id="solodevpassword" name="solodevpassword" placeholder="Password" type="password" />
+			<label for="password" class="font-weight-bold mt-3">Password</label>
+			<input class="form-control rounded-0 p-2 w-100" id="password" name="password" placeholder="Password" type="password" />
+			
+			<label for="password_confirm" class="font-weight-bold mt-3">Confirm Password</label>
+			<input class="form-control rounded-0 p-2 w-100" id="password_confirm" name="password_confirm" placeholder="Confirm Password" type="password" />
 			
             <div class="pt-5">
 				<button class="btn btn-primary-dark w-100" id="createAccount" type="submit">Create an Account</button>
 			</div>
-		[/form_register]
+		[/contact_form_signup]
 	</div>
 </div>
 
@@ -624,7 +629,7 @@ Prior to building an Intranet in Solodev users should be able to:
 ```html
 
 <div class="row my-4">
-	[form_forgot_password forward_to="/intranet/password-confirmation.stml" login_page="/intranet/" from_email="[site_email]"]
+	[contact_form_reset forward_to="/intranet/password-confirmation.stml" login_page="/intranet/" from_email="[site_email]"]
 		<div class="col-md-4 py-2">
         	[form_error_messages]
 			<label class="control-label" for="checkEmail">
@@ -637,7 +642,7 @@ Prior to building an Intranet in Solodev users should be able to:
 		<div class="col-md-4 py-2">
 			<button class="btn btn-fourth w-100 mb-3" name="Insert" type="submit">Reset Password</button>
 		</div>
-  	[/form_forgot_password]
+  	[/contact_form_reset]
 	<div class="col-md-12">
 		<a href="/intranet/">Back to Login Page</a>
 	</div>
