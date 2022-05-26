@@ -536,7 +536,7 @@ Prior to building an Intranet in Solodev users should be able to:
 
 ```html
 
-[contact_form_session]
+
 <div class="row mt-4 mb-5 align-items-end">
 	<div class="col-md-6">
 		<h3 class="text-fourth font-weight-bold">Welcome</h3>
@@ -585,7 +585,7 @@ Prior to building an Intranet in Solodev users should be able to:
 
 ```html 
 
-[contact_form_session]
+
 <div class="row mt-4 mb-5 align-items-end">
 	<div class="col-md-12">
 		<h3 class="text-fourth font-weight-bold">Welcome</h3>
@@ -697,7 +697,7 @@ Prior to building an Intranet in Solodev users should be able to:
 - Click Submit.
 
 
-Step 7: Create an account page template(index.tpl)
+**Step 7: Create an account page template(index.tpl)**
 
 - Open the secure folder and click Add File
 
@@ -712,7 +712,7 @@ Step 7: Create an account page template(index.tpl)
 - Enter the code block provided below: 
 
 ```html
-
+[contact_form_session]
 <div class="row">
 	<div class="col-md-12">
 		<p>The list below contains the files that are available to the current user. They are located in the User's folder under Documents.</p>
@@ -722,6 +722,76 @@ Step 7: Create an account page template(index.tpl)
 
 ```
 - Click Publish. 
+
+Create an account update page template (For example, account_update.tpl)
+
+- Open the secure folder and click Add File
+
+- Enter the Name and Title of the file (append '.tpl' to the end of the name).
+
+- Choose 'Code' for the Type.
+
+- Click Submit.
+
+- The user is directed to the file.
+
+- Enter the code block provided below: 
+
+```html
+
+[contact_form_session]
+[contact_form_update username_field="samaccountname" password_field="password" email_field="mail"]
+<div class="row">
+  <div class="col-sm-12">
+      <div class="form-group">
+         <h2>Update User Information</h2>
+      </div>
+  </div>
+  <div class="col-sm-12">
+      <div class="form-group">
+          <label class="control-label" for="givenname">First Name</label>
+          <input id="givenname" name="givenname" class="form-control" type="text" value="{{givenname}}">
+      </div>
+      <div class="form-group">
+          <label class="control-label" for="sn">Last Name</label>
+          <input id="sn" name="sn" class="form-control" type="text" value="{{sn}}">
+      </div>
+      <div class="form-group">
+          <label class="control-label" for="mail">Email</label>
+          <input id="mail" name="mail" class="form-control" type="text" value="{{mail}}">
+      </div>
+      <div class="form-group">
+          <label class="control-label" for="primaryphone">Primary Phone</label>
+          <input id="primaryphone" name="primaryphone" class="form-control" type="text" value="{{primaryphone}}">
+      </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+      <div class="form-group">
+         <h2>Login Information</h2>
+      </div>
+      <div class="form-group">
+          <label class="control-label" for="oldSamaccountname">User Name</label>
+          <input id="samaccountname" disabled readonly name="samaccountname" class="form-control" type="text" value="{{samaccountname}}">
+      </div>
+      <div class="form-group">
+          <label class="control-label" for="password">New Password</label>
+          <input id="password" name="password" class="form-control" type="password">
+      </div>
+      <div class="form-group">
+          <label class="control-label" for="password_confirm">Confirm Password</label>
+          <input id="password_confirm" name="password_confirm" class="form-control" type="password">
+      </div>
+      <div class="form-group">
+          <input type="submit" class="btn form-control btn-primary" name="Submit" value="Update User">
+      </div>
+  </div>
+</div>
+[/contact_form_update]
+
+```
 
 **Step 8: Create an intranet folder in the www folder**
 
@@ -840,7 +910,7 @@ Click **Publish**.
 
 - Click **Publish**. 
 
-**Note:** Any files placed in the "secure" folder will only be accessible to authorized users granted access to the Intranet.
+**Note:** Any files placed in the "secure" folder should contain the `[contact_form_session]` shortcode to render it accessible to authorized users. Solodev recommends putting the shortcode in a left nav that is common across all templates in the secure folder. 
 
 
 
@@ -1473,6 +1543,31 @@ This framework enables developers to create special kinds of content and functio
 
 ### Shortcodes for users
 
+
+***Contact Form Session:*** Place this code on each page that needs to be secured.
+
+| Attributes | Description |
+| ----------- | ----------- |
+| `[forward_to]`(optional) | by default it will forward the non-logged in contact to the homepage. |
+
+***Shortcode:*** 
+
+`contact_form_session`
+
+***Code Example:*** 
+
+```html
+
+[contact_form_session]
+<div class="row">
+	<div class="col-md-12">
+		<p>The list below contains the files that are available to the current user. They are located in the User's folder under Documents.</p>
+    	[user_documents]
+	</div>
+</div>
+
+```
+
 ***Contact Form Login:** provides a form wrapper for users to login on the frontend of the website. 
 
 ***Attributes:***
@@ -1564,31 +1659,57 @@ This framework enables developers to create special kinds of content and functio
 
 ```html
 
-[contact_form_update username_field="accountname" password_field="password" email_field="email"]
+[contact_form_update username_field="samaccountname" password_field="password" email_field="mail"]
+<div class="row">
+  <div class="col-sm-12">
+      <div class="form-group">
+         <h2>Update User Information</h2>
+      </div>
+  </div>
+  <div class="col-sm-12">
+      <div class="form-group">
+          <label class="control-label" for="givenname">First Name</label>
+          <input id="givenname" name="givenname" class="form-control" type="text" value="{{givenname}}">
+      </div>
+      <div class="form-group">
+          <label class="control-label" for="sn">Last Name</label>
+          <input id="sn" name="sn" class="form-control" type="text" value="{{sn}}">
+      </div>
+      <div class="form-group">
+          <label class="control-label" for="mail">Email</label>
+          <input id="mail" name="mail" class="form-control" type="text" value="{{mail}}">
+      </div>
+      <div class="form-group">
+          <label class="control-label" for="primaryphone">Primary Phone</label>
+          <input id="primaryphone" name="primaryphone" class="form-control" type="text" value="{{primaryphone}}">
+      </div>
+  </div>
+</div>
+
 <div class="row">
   <div class="col-sm-12">
       <div class="form-group">
          <h2>Login Information</h2>
       </div>
       <div class="form-group">
-          <label class="control-label" for="oldaccountname">User Name</label>
-          <input id="=accountname" disabled readonly name="accountname" class="form-control" type="text" value="<?=$contact->accountname?>">
+          <label class="control-label" for="oldSamaccountname">User Name</label>
+          <input id="samaccountname" disabled readonly name="samaccountname" class="form-control" type="text" value="{{samaccountname}}">
       </div>
       <div class="form-group">
           <label class="control-label" for="password">New Password</label>
-          <input id="password" name="password" class="form-control" type="password" value="">
+          <input id="password" name="password" class="form-control" type="password">
       </div>
       <div class="form-group">
           <label class="control-label" for="password_confirm">Confirm Password</label>
-          <input id="password_confirm" name="password_confirm" class="form-control" type="password" value="">
+          <input id="password_confirm" name="password_confirm" class="form-control" type="password">
       </div>
       <div class="form-group">
           <input type="submit" class="btn form-control btn-primary" name="Submit" value="Update User">
       </div>
   </div>
 </div>
-
 [/contact_form_update]
+
 
 ```
 ---
