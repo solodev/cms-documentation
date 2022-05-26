@@ -540,7 +540,7 @@ Prior to building an Intranet in Solodev users should be able to:
 <div class="row mt-4 mb-5 align-items-end">
 	<div class="col-md-6">
 		<h3 class="text-fourth font-weight-bold">Welcome</h3>
-		[contact_form_login][form_error_messages]
+		[contact_form_login forward_to="/my-account/" username_field="username" password_field="password"][form_error_messages]
 			<input class="form-control rounded-0 mt-4 p-2 w-100" id="mail" name="mail" placeholder="you@mail.com" type="email"  />
 			<input class="form-control rounded-0 mt-3 p-2 w-100" id="solodevpassword" name="solodevpassword" placeholder="password" type="password" />
 			<div class="mt-3 d-flex justify-content-between align-items-center">
@@ -591,20 +591,31 @@ Prior to building an Intranet in Solodev users should be able to:
 		<h3 class="text-fourth font-weight-bold">Welcome</h3>
 		<p>Sign up for access to the WebCorpCo Intranet. Please enter in an email and a password.</p>
         
-		[contact_form_signup]
-			<label for="username" class="font-weight-bold">Email</label>
-			<input class="form-control rounded-0 p-2 w-100" id="username" name="username" placeholder="you@mail.com" type="email" />
-            
-			<label for="password" class="font-weight-bold mt-3">Password</label>
-			<input class="form-control rounded-0 p-2 w-100" id="password" name="password" placeholder="Password" type="password" />
-			
-			<label for="password_confirm" class="font-weight-bold mt-3">Confirm Password</label>
-			<input class="form-control rounded-0 p-2 w-100" id="password_confirm" name="password_confirm" placeholder="Confirm Password" type="password" />
-			
-            <div class="pt-5">
-				<button class="btn btn-primary-dark w-100" id="createAccount" type="submit">Create an Account</button>
-			</div>
-		[/contact_form_signup]
+		[contact_form_signup forward_to="/my-account/" username_field="email" password_field="password"][form_error_messages]
+        <div class="form-group row">
+          <label class="col-md-3 control-label" for="email">Email</label>  
+          <div class="col-md-9">
+            <input id="email" name="email" class="form-control input-md required validate" required="" type="text">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-md-3 control-label" for="email">Password</label>  
+          <div class="col-md-9">
+            <input id="password" name="password" class="form-control input-md required validate" required="" type="password">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-md-3 control-label" for="email">Confirm Password</label>  
+          <div class="col-md-9">
+            <input id="password_confirm" name="password_confirm" class="form-control input-md required validate" required="" type="password">
+          </div>
+        </div>
+
+        <div class="form-group text-center">
+          <input class="btn btn-primary" value="REGISTER" name="image" type="submit" width="164" height="27" />
+        </div>
+[/contact_form_signup]
 	</div>
 </div>
 
@@ -629,20 +640,18 @@ Prior to building an Intranet in Solodev users should be able to:
 ```html
 
 <div class="row my-4">
-	[contact_form_reset forward_to="/intranet/password-confirmation.stml" login_page="/intranet/" from_email="[site_email]"]
-		<div class="col-md-4 py-2">
-        	[form_error_messages]
-			<label class="control-label" for="checkEmail">
-				<strong>Please enter your email address</strong>
-			</label>
-		</div>
-		<div class="col-md-4 py-2">
-			<input class="rounded-0 form-control" id="checkEmail" name="checkEmail" type="text" />
-		</div>
-		<div class="col-md-4 py-2">
-			<button class="btn btn-fourth w-100 mb-3" name="Insert" type="submit">Reset Password</button>
-		</div>
-  	[/contact_form_reset]
+	[contact_form_forgot forward_to="/password-confirm.stml" username_field="username" password_field="password" email_field="mail"]
+          <div class="form-group row">
+            <label class="col-md-3 control-label" for="email">Email</label>  
+            <div class="col-md-9">
+              [form_error_messages]
+              <input id="username" name="username" class="form-control input-md required validate" required="" type="text">
+            </div>
+          </div>
+         <div class="form-group text-center">
+          <input class="btn btn-primary" value="Reset" name="image" type="submit" width="164" height="27" />
+        </div>
+[/contact_form_forgot]
 	<div class="col-md-12">
 		<a href="/intranet/">Back to Login Page</a>
 	</div>
