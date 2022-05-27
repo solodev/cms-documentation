@@ -40,17 +40,13 @@ Organization
 
 - **Groups:** Users can be bundled together in groups based on criteria specified by an administrator i.e. design, marketing, sales.
 
-- **Contacts:** Users of your intranet are collected and displayed here. 
+- **Contacts:** Manage users of your intranet with Contacts.  
 
 ### Support
 
 - **Documentation:** A direct link to the Solodev documentation.
 
 - **Tasks:** Manage and collaborate on proect requirements for your website or application. 
-
-- **Tours:** Includes various tours of the Solodev CMS to help you get familiar with the interface.
-
-- **Personalize:** Solodev's recommendation engine as a service that allows you to serve more relevant products and content to your customers. 
 
 ### Admin
 
