@@ -6,6 +6,6 @@
 
 ---
 
---![Solodev Welcome Banner](solo_welcome.png)--
+><img src="../../../images/solo_welcome.png" alt="solo_welcome.png" style="width: 100%; display: block"></a>
 
 No coding is required and just one Markdown file, such as a `README.md`, will get you started.
