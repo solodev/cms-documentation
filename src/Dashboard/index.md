@@ -44,7 +44,6 @@ To find content you want enter name and click on the blue magnifying class icon 
 
 ><img src="../../../images/dashboard7.jpg" alt="dashboard7.jpg" style="width: 100%; display: block"></a>
 
-
 ---
 
 ## Websites
