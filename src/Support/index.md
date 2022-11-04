@@ -1,14 +1,10 @@
 # Support
 
-
-
 ---
 
 ## Menu
 
 On the left there is a menu. There are 2 sections that you can select.
-
-><img src="../../../images/support.jpg" alt="support.jpg" style="width: 20%; display: block"></a>
 
 - <a href="/support/tasks">Tasks</a>
 

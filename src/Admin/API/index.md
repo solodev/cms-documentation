@@ -12,27 +12,19 @@ In practice, Swagger allows to display interactive REST API documentation in whi
 
 On the left there is a menu. There are option to go back or go to <a href="/admin/api/system-api/">System API</a>, <a href="/admin/api/module-api/">Module API</a>, <a href="/admin/api/api-tokens/">API Tokens</a>.
 
-><img src="../../../images/api.jpg" alt="api" style="width: 20%; display: block"></a>
-
 ---
 
 ## API types
 
 In Solodev CMS there are System API and Module API. 
 
-><img src="../../../images/api2.jpg" alt="api2" style="width: 100%; display: block"></a>
-
 ### System API
 
 System APIs unlock data from core systems of record within an organization.
 
-><img src="../../../images/api3.jpg" alt="api3" style="width: 50%; display: block"></a>
-
 ### Module API
 
 Module API unlock data from particular modules within an organization.
-
-><img src="../../../images/api4.jpg" alt="api4" style="width: 50%; display: block"></a>
 
 ---
 

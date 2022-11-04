@@ -8,8 +8,6 @@ The workspace in Solodev is your primary dashboard, and serves as the command ce
 
 On the left there is a menu. There are 4 sections that you can select.
 
-><img src="../../../images/workspace.jpg" alt="workspace.jpg" style="width: 20%; display: block"></a>
-
 - <a href="/workspace/websites-overview">Websites</a>
 
 The Websites tab allows to switch between multiple websites with a single click.
