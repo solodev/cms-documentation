@@ -2,6 +2,8 @@
 
 Adding a website in Solodev CMS is a simple process, and can be completed in minutes by following the steps below.
 
+><img src="../../../images/websites-add.jpg" alt="websites-add" style="width: 100%; display: block"></a>
+
 ## Step 1: Add Website Address
 
 Enter website address.
@@ -41,6 +43,8 @@ Enter description, if needed.
 ## Step 5: Click "Add" button
 
 Once you’ve completed all of the fields, click the blue “Add” button and your website will be created.
+
+><img src="../../../images/websites-add6.jpg" alt="websites-add6" style="width: 20%; display: block"></a>
 
 !!! Please Note:
 The website build process may take several minutes to complete after clicking the "Add" button. Do not close or quit your browser duing this process.

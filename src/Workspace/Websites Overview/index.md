@@ -26,6 +26,6 @@ Click on the website card to open and <a href="/workspace/websites-overview/upda
 
 ## Add Website
 
-Click on the "Add Website" card to <a href="/workspace/websites-overview/add-website">add a new website</a>.
+Click on the "Add Website" card and follow simple steps to <a href="/workspace/websites-overview/add-website">add a new website</a>.
 
 ---
