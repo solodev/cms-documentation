@@ -16,7 +16,7 @@ Permissions can be changed in relation to:
 
 ## Step 2: Role
 
-Select the role you would like to apply to the chosen user. There are three options to choose from:
+Select the role you would like to apply to the chosen user. There are four options to choose from:
 
 - **View:** The view role will only allow the chosen user or group the ability to see this item.
 - **Stager:** The stager role will only allow to edit a file but the change will not show on the live site. It first has to be reviewed by someone with higher privileges before the change can be published.

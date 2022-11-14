@@ -6,7 +6,7 @@ Users are the people who have the authorization to access and interact with Solo
 Administrators can mimic their organization’s structure by utilizing user groups to provide departments access and functionality specific to their jobs. 
 !!!
 
-In users page there is a full list of existing users with the details as name and group they are belong to.
+In users page there is a full list of existing users with the details as name and groups they belong to.
 
 ---
 

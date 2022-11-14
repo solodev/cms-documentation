@@ -3,15 +3,10 @@
 In Settings page you are able to manage:
 
 - Domain Information
-
 - Sitemap
-
 - CDN Information
-
 - SSL Information
-
 - Payment Information
-
 - Advanced Settings
 
 ---

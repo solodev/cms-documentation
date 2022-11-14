@@ -1,24 +1,44 @@
 # Add Website
 
-Adding a page to your org in Solodev Cloud is a simple process, and can be completed in minutes by following the steps below.
+Adding a website in Solodev CMS is a simple process, and can be completed in minutes by following the steps below.
 
-## Website Address
+## Step 1: Add Website Address
 
 Enter website address.
 
-## Package
+><img src="../../../images/websites-add2.jpg" alt="websites-add2" style="width: 50%; display: block"></a>
 
-Upload package (optional).
+!!! Please Note:
+This must be a valid URL such as www.yourdomain.com.
+!!!
 
-## Website Timezone
+## Step 2: Add Package
 
-Choose website timezone
+Upload package from your computer. This is not mandatory.
 
-## Description
+><img src="../../../images/websites-add3.jpg" alt="websites-add3" style="width: 20%; display: block"></a>
 
-Enter description.
+!!! Please Note:
+File should be in .zip format.
+!!!
 
-## Add
+## Step 3: Add Website Timezone
+
+Choose website timezone from the list.
+
+><img src="../../../images/websites-add4.jpg" alt="websites-add4" style="width: 50%; display: block"></a>
+
+!!! Please Note:
+Set your timezone based on your location.
+!!!
+
+## Step 4: Add Description
+
+Enter description, if needed.
+
+><img src="../../../images/websites-add5.jpg" alt="websites-add5" style="width: 50%; display: block"></a>
+
+## Step 5: Click "Add" button
 
 Once you’ve completed all of the fields, click the blue “Add” button and your website will be created.
 
