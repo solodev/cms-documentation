@@ -6,33 +6,21 @@ Adding a website in Solodev CMS is a simple process, and can be completed in min
 
 ## Add Website Address
 
-Type the website address.
-
-!!! Please Note:
-This must be a valid URL such as www.yourdomain.com.
-!!!
+Type the website address. This must be a valid URL such as www.yourdomain.com.
 
 ## Add Package
 
-Upload package from your computer. This is not a mandatory step.
-
-!!! Please Note:
-File should be in .zip format.
-!!!
+Upload package from your computer. This is not a mandatory step. File should be in .zip format.
 
 ## Add Website Timezone
 
-Expand the timezone list and choose the desired timezone.
-
-!!! Please Note:
-Set your timezone based on your location.
-!!!
+Expand the timezone list and choose the desired timezone. It should be based on your location.
 
 ## Add Description
 
 Enter website description, if needed.
 
-## Click "Add" button
+## Confirm
 
 Once you’ve completed all of the fields, click the blue “Add” button and your website will be created.
 
