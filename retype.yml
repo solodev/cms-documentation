@@ -1,9 +1,10 @@
 input: src
 output: dist
 url: cms.solodev.net
+favicon: images/favicon.png
 
 branding:
-  logo: logo.png
+  logo: images/logo.png
   label: v 9.6
 
 meta:
