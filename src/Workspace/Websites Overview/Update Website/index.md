@@ -373,17 +373,18 @@ After clicking redirects page you will open formular where you are able to enter
 
 If the administrator has created and customized their error 404 document, enter the following lines of code to direct the browser to the error document:
 
-```RewriteEngine On```
-
-```RewriteBase /```
-
-``` .htaccess file```
-
-```ErrorDocument 404 /404.stml```
+```
+RewriteEngine On
+RewriteBase /
+.htaccess file
+ErrorDocument 404 /404.stml
+```
 
 Then you should enter the 301 redirect in the following format: 
 
-```Redirect 301 /old-page.stml http://www.mydomain.com/new-page.stml```
+```
+Redirect 301 /old-page.stml http://www.mydomain.com/new-page.stml
+```
 
 The administrator can add additional 301 redirects by placing each redirect on its own line in the .htaccess file. 
 
