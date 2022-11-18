@@ -167,11 +167,16 @@ Users can upload one or more files by clicking the browse button or dragging the
 
 ><img src="../../../images/websites-update12.jpg" alt="websites-update12" style="width: 40%; display: block"></a>
 
-
-
 ### Add Group
 
-Developers can use groups to mimic their organizational structure and take advantage of granular permissions. To add group follow the steps in the table.
+File Groups are a resource for managing and displaying groups of related files (images, documents, etc) on a Web page. Users can leverage file groups to categorize and display files based on certain criteria or similarity. Administrators commonly leverage File Groups to display a document list with set permissions that grant users access to files in the File Group. Authorized users can add or edit files in the File Group without accessing the web page directly. 
+
+A file group can be used to: 
+
+- Display a list of files of a file group and their content on the front-end of a website.
+- Create an internal document repository where users can upload and share an array of file types grouped by type, category, relevance, date, etc.
+
+To add group follow steps in the table.
 
 ><img src="../../../images/websites-update13.jpg" alt="websites-update13" style="width: 40%; display: block"></a>
 
@@ -183,7 +188,49 @@ Developers can use groups to mimic their organizational structure and take advan
 
 After passing all the steps submit your changes by clicking blue "Submit" button.
 
+You can add, modify and delete entry.
 
+><img src="../../../images/websites-update33.jpg" alt="websites-update33" style="width: 100%; display: block"></a>
+
+You can add file to the group by clicking button "Add Entry".
+
+To create entry follow the steps from the table.
+
+><img src="../../../images/websites-update30.jpg" alt="websites-update30" style="width: 40%; display: block"></a>
+
+**Element** | **Description**
+:--- | ---
+**File** | Choose file you would like to add to the group.
+**Start Date** | Select when you would like your file published. 
+**End Date** | Select when you would like your file removed. 
+
+After passing all the steps submit your changes by clicking blue "Submit" button.
+
+You can modify entry by clicking button "Modify Entry".
+
+To modify entry follow the steps from the table.
+
+><img src="../../../images/websites-update31.jpg" alt="websites-update31" style="width: 40%; display: block"></a>
+
+**Element** | **Description**
+:--- | ---
+**Name** | To add it, type a name in the text box.
+**Title** | To add it, type a title in the text box.
+**Description** | To add it, type a description in the text box.
+
+After making changes submit them by clicking blue "Submit" button.
+
+You can delete entry by clicking button "Delete".
+
+><img src="../../../images/websites-update32.jpg" alt="websites-update32" style="width: 40%; display: block"></a>
+
+To delete entry mark file that you want to delete and click blue "Submit" button.
+
+!!! Alert:
+Deleting a file from a group will permanently remove the scheduler and cannot be undone.
+!!!
+
+To completely remove a group follow the steps from the section General.
 
 ### Add Experiment
 
@@ -314,6 +361,48 @@ To learn more about permissions, go to <a href="/workspace/websites-overview/per
 
 ---
 
+## Redirects
+
+URL/page redirects can help direct users away from pages that no longer exist or to more preferred locations. To do that, you need to create an .htaccess file with the creation of each website. To do that open redirects page. 
+
+><img src="../../../images/redirects.jpg" alt="redirects" style="width: 30%; display: block"></a>
+
+After clicking redirects page you will open formular where you are able to enter the code.
+
+><img src="../../../images/redirects2.jpg" alt="redirects2" style="width: 70%; display: block"></a>
+
+If the administrator has created and customized their error 404 document, enter the following lines of code to direct the browser to the error document:
+
+```RewriteEngine On```
+
+```RewriteBase /```
+
+``` .htaccess file```
+
+```ErrorDocument 404 /404.stml```
+
+Then you should enter the 301 redirect in the following format: 
+
+```Redirect 301 /old-page.stml http://www.mydomain.com/new-page.stml```
+
+The administrator can add additional 301 redirects by placing each redirect on its own line in the .htaccess file. 
+
+To save your changes click blue "Submit" button.
+
+To check history of changes click "History" button. 
+
+><img src="../../../images/redirects3.jpg" alt="redirects3" style="width: 70%; display: block"></a>
+
+---
+
+## Settings
+
+To learn more about website settings, go to <a href="/workspace/websites-overview/settings">settings page</a>.
+
+><img src="../../../images/redirects.jpg" alt="redirects" style="width: 30%; display: block"></a>
+
+---
+
 ## Update Website
 
 Click the blue "Update Website" button on the right to open additional update options.
@@ -375,6 +464,12 @@ To add your own class to this, you can pass an argument in to the function, like
 This would add a body class of ```my-class``` on each page of your site.
 
 To add body class enter text in text box and submit your changes.
+
+---
+
+## Permissions
+
+To learn more about permissions, go to <a href="/workspace/websites-overview/permissions">permissions page</a>.
 
 ---
 
