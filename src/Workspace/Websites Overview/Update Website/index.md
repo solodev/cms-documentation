@@ -114,7 +114,7 @@ Deleting a folder will permanently remove the folder and all of its content and 
 
 #### Copy
 
-To move your item to another folder, select the folder you want to move the item to and click blue "Submit" button.
+To copy your item to another folder, select the folder you want to copy the item to and click blue "Submit" button.
 
 ><img src="../../../images/websites-update27.jpg" alt="websites-update27" style="width: 40%; display: block"></a>
 
@@ -157,15 +157,203 @@ Users can upload one or more files by clicking the browse button or dragging the
 
 ### Add Folder
 
+As it was mentioned in Update Folder section, folders are built in a nested tree hierarchy and serve as containers of all Solodev resources including files and folders to your website(s).
+
+To add folder you need to fill out the formular below.
+
 ><img src="../../../images/websites-update11.jpg" alt="websites-update11" style="width: 40%; display: block"></a>
+
+Follow the steps in the table.
+
+**Element** | **Description**
+:--- | ---
+**Name** | To add it, type a name in the text box.
+**Title** | To add it, type a title in the text box.
+**Description** | To add it, type a description in the text box.
+
+After passing all the steps submit your changes by clicking blue "Submit" button.
 
 ### Add File
 
+In the Solodev CMS, a File serves many purposes. Examples of a file includes simple text documents, spreadsheets, PDFs, images, or HTML files. Files are stored in folders and have a different Resource View depending on their file type. Solodev CMS supports four primary file types described below.
+
+**File Type** | **Description**
+:--- | ---
+**HTML** | A file type that has a WYSIWYG editor for manipulating HTML content.
+**Image** | The most widely used formats on the Web are PNG, GIF and JPEG.
+**Text** | An ANSCII based file type such as .txt, .css, and .tpl.
+**Document** | Word processing document, spreadsheet, PDF, etc.
+
+To add file you have to fill out formular presented in the screenshot below.
+
 ><img src="../../../images/websites-update10.jpg" alt="websites-update10" style="width: 40%; display: block"></a>
+
+Follow steps in the table.
+
+**Element** | **Description**
+:--- | ---
+**Name** | To add it, type a name in the text box.
+**Title** | To add it, type a name in the text box.
+**File Type** | To select file type, expand the file types list and choose one.
+
+After passing all the steps submit your changes by clicking blue "Submit" button.
+
+You can open your file from the level of the tree on the left. You will be redirected to the page where you can manage your file.
+
+><img src="../../../images/websites-update38.jpg" alt="websites-update38" style="width: 100%; display: block"></a>
+
+In the table you can find descriptions of actions from Actions Menu that can be used to edit and update file properties.
+
+**Action** | **Description**
+:--- | ---
+**Draft** | Saves a file on the backend without publishing it to the front end. 
+**Stage** | Saves the file and publish it to the staging server (if one is being used). 
+**Publish** | Saves the file and pushes the file to the live website. 
+**Copy** | Creates a duplicate of a file. 
+**Move** | Moves the file to a new location. 
+**Delete** | Removes a file permanently from the CMS.
+**Add to Group** | 	Adds a file to a file group. 
+**History** | A directory of previous versions of a file that can be used to roll back changes.
+
+#### Draft
+
+To use this option just click "Draft" button.
+
+#### Publish
+
+To use this option just click "Publish" button.
+
+#### Add to Group
+
+To add file to group fill out the formular below.
+
+><img src="../../../images/websites-update40.jpg" alt="websites-update40" style="width: 40%; display: block"></a>
+
+To do that, follow the steps in the table.
+
+**Element** | **Description**
+:--- | ---
+**File** | Choose file you would like to add to the group.
+**Start Date** | Select when you would like your file published. 
+**End Date** | Select when you would like your file removed. 
+
+After passing all the steps submit your changes by clicking blue "Submit" button.
+
+#### History
+
+To check history of changes click "History" button. 
+
+><img src="../../../images/websites-update41.jpg" alt="websites-update41" style="width: 70%; display: block"></a>
+
+#### Copy
+
+To copy your file to another folder, select the folder you want to copy the file to and click blue "Submit" button.
+
+><img src="../../../images/websites-update42.jpg" alt="websites-update42" style="width: 40%; display: block"></a>
+
+#### Move
+
+To move your file to another folder, select the folder you want to move the file to and click blue "Submit" button.
+
+><img src="../../../images/websites-update43.jpg" alt="websites-update43" style="width: 40%; display: block"></a>
+
+#### Delete
+
+To delete file mark an file that you want to delete and click blue "Submit" button.
+
+><img src="../../../images/websites-update44.jpg" alt="websites-update44" style="width: 40%; display: block"></a>
+
+!!! Alert:
+Deleting a file will permanently remove the file and cannot be undone.
+!!!
+
+#### Meta Information
+
+All Solodev files contain a Meta option in the Actions Menu. With the Meta option, users can define meta attributes for each file. Users can optimize their site’s visibility in search engine results with meta keywords and meta data.
+
+To open Meta Information click on information icon on the right.
+
+Meta Information is divided into three subsections: About, Meta and Advanced.
+
+><img src="../../../images/websites-update45.jpg" alt="websites-update45" style="width: 40%; display: block"></a>
+
+In section About you can manage features presented in the screenshot below.
+
+><img src="../../../images/websites-update46.jpg" alt="websites-update46" style="width: 40%; display: block"></a>
+
+To change any of features follow the steps in the table.
+
+**Element** | **Description**
+:--- | ---
+**Title** | The title of the file that will be displayed on both the back and front end. To change it, type it in the text box.
+**Description** | A description of the contents of the file. To add it, type it in the text box.
+
+After making changes submit them by clicking blue "Submit" button.
+
+Next subsection is Meta. Below is the form that relates to this section
+
+><img src="../../../images/websites-update47.jpg" alt="websites-update47" style="width: 40%; display: block"></a>
+
+To change any of features follow the steps in the table.
+
+**Element** | **Description**
+:--- | ---
+**Rank** | The ranking of your file (1, 2, 3) relative to the other files. To add it, type it in the text box.
+**Meta Description** | A description of the file that will help improve SEO. To add it, type it in the text box.
+**Meta Keywords** | Keywords attached to the file that will help improve SEO. To add it, type it in the text box.
+
+After making changes submit them by clicking blue "Submit" button.
+
+The last subsection is Advanced. Below is the form that relates to this section
+
+><img src="../../../images/websites-update48.jpg" alt="websites-update48" style="width: 40%; display: block"></a>
+
+To change any of features follow the steps in the table.
+
+**Element** | **Description**
+:--- | ---
+**Publish Date** | The date you should like the file to be published. To add it, type it in the text box.
+**Expire Date** | The date you would like the file to be pulled from your website. To add it, type it in the text box.s
+
+After making changes submit them by clicking blue "Submit" button.
 
 ### Add Link
 
+You can add URL link to your website. To do that follow the steps in the table.
+
 ><img src="../../../images/websites-update12.jpg" alt="websites-update12" style="width: 40%; display: block"></a>
+
+**Element** | **Description**
+:--- | ---
+**Name** | To add it, type a name in the text box.
+**Fully Qualified Link Address** | Add link address here. To do that, type address in the text box.
+**Open In New Window** | Tick this option to allow opening page in the new window.
+**Rank** | Rank order of the URL when displayed in the menu navigation. To add it, type a rank in the text box. **Lowest number listed first.**
+**Description** | To add it, type a description in the text box.
+
+After passing all the steps submit your changes by clicking blue "Submit" button.
+
+You can add, modify and delete your links. To do that open added link from the level of the tree. You will be redirected to the page presented in the screenshot below.
+
+><img src="../../../images/websites-update34.jpg" alt="websites-update34" style="width: 100%; display: block"></a>
+
+To modify link implement changes and click "Save" button.
+
+To copy your link to another folder, select the folder you want to copy the link to and click blue "Submit" button.
+
+><img src="../../../images/websites-update36.jpg" alt="websites-update36" style="width: 40%; display: block"></a>
+
+To move your link to another folder, select the folder you want to move the link to and click blue "Submit" button.
+
+><img src="../../../images/websites-update35.jpg" alt="websites-update35" style="width: 40%; display: block"></a>
+
+To delete link mark link that you want to delete and click blue "Submit" button.
+
+><img src="../../../images/websites-update37.jpg" alt="websites-update37" style="width: 40%; display: block"></a>
+
+!!! Alert:
+Deleting link will permanently remove the link and cannot be undone.
+!!!
 
 ### Add Group
 
@@ -456,11 +644,15 @@ The body class in is a class or series of classes that are applied to the HTML b
 
 The body class is normally included in a theme using the following code:
 
-```<body <?php body_class(); ?>>```
+```
+<body <?php body_class(); ?>>
+```
 
 To add your own class to this, you can pass an argument in to the function, like so:
 
-```<body <?php body_class( 'my-class' ); ?>>```
+```
+<body <?php body_class( 'my-class' ); ?>>
+```
 
 This would add a body class of ```my-class``` on each page of your site.
 
