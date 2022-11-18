@@ -5,7 +5,7 @@ In Solodev CMS platform numerous websites and apps with a single login can be ru
 Website Management System in Solodev CMS is divided into the following sections that are presented in the table below.
 
 **Websites section** | **What you can do here** 
-:---: | ---
+:--- | ---
 <a href="/workspace/websites-overview/update-website">Update Website</a> | Here, above all, you can manage the www and web files folders into which your website is broken.
 <a href="/workspace/websites-overview/delete-website">Delete Website</a> | Your website can be permanently deleted. Here you will learn how to do it. 
 <a href="/workspace/websites-overview/add-website">Add Website</a> | In this section you will find out how to add a website. This simple process is explained in a few steps.
