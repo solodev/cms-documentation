@@ -14,9 +14,13 @@ From module dashboard you have an access to all tools that are necessary to effe
 
 ## Search
 
-You can filter modules based on its name. To find specific module enter phrase you are looking for into the search bar.
+You can filter modules based on its name. To find specific module enter phrase you are looking for into the search bar.,
 
-## Update Website
+## Members
+
+You can click the member icon to open <a href="/workspace/modules-overview/permissions">permissions page</a> where you can manage members priviledges.
+
+## Update Module
 
 Click the module to <a href="/workspace/modules-overview/update-module">manage your module</a>.
 
