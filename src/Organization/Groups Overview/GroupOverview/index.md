@@ -1,4 +1,4 @@
-# Group Overview
+# Groups Overview
 
 Thanks to a group overview page you are able to manage and modify group, define access level of the members of a group, assign apps to which a given group has an access to, as well as manage the app permissions.
 

@@ -1,4 +1,4 @@
-# Modify
+# Modify Group
 
 When you open specific group, after clicking "Modify" button you are able to change some group features.
 
