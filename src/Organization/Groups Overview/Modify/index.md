@@ -23,19 +23,19 @@ Upload Team Image | Upload team image from your computer. **Recommended size: 20
 Name | Add a group name.
 Purpose | Enter purpose of a group.
 
-## Advanced
+### Advanced
 
 In this place you are able to delete your group. 
 
 ><img src="../../../images/modify2.jpg" alt="modify2" style="width: 50%; display: block"></a>
 
-### Actions
+#### Actions
 
 **Name** | **Description** 
 :--- | ---
 Delete | Click the red "Delete" button to delete your group.
 
-### Fields
+#### Fields
 
 **Name** | **Description** 
 :--- | ---

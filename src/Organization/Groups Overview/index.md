@@ -31,6 +31,8 @@ When you click group member, you will able to manage default permissions.
 
 In this place you can add permissions to users/groups.
 
+><img src="../../../images/permissions2.jpg" alt="permissions2" style="width: 50%; display: block"></a>
+
 ##### Actions
 
 **Name** | **Description** 
@@ -47,6 +49,8 @@ Role | Expand the list and choose role. There are four options to choose from. T
 #### Managing Permissions
 
 In this place you can manage permissions of users/groups.
+
+><img src="../../../images/permissions3.jpg" alt="permissions3" style="width: 50%; display: block"></a>
 
 ##### Actions
 
