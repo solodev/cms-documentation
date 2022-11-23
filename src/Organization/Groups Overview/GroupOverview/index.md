@@ -2,7 +2,7 @@
 
 Thanks to a group overview page you are able to manage and modify group, define access level of the members of a group, assign apps to which a given group has an access to, as well as manage the app permissions.
 
-><img src="../../../Images/GroupOverview1.jpg" alt="GroupOverview1" style="width: 50%; display: block"></a>
+><img src="../../../images/groupoverview1.jpg" alt="groupoverview1" style="width: 50%; display: block"></a>
 
 ---
 
@@ -10,7 +10,7 @@ Thanks to a group overview page you are able to manage and modify group, define 
 
 In this section you can modify basic settings of your group like: name, purpose or team image. You can also delete the group and assign the permissions.
 
-><img src="../../../Images/GroupOverview2.jpg" alt="GroupOverview2" style="width: 50%; display: block"></a>
+><img src="../../../images/groupoverview2.jpg" alt="GroupOverview2" style="width: 50%; display: block"></a>
 
 ### Actions
 
@@ -25,7 +25,7 @@ Permissions | Here you will be able to assign the level access of the group to g
 
 In this section you can assign a roles to the individual members of your group as well as remove the member.
 
-><img src="../../../Images/GroupOverview3.jpg" alt="GroupOverview3" style="width: 50%; display: block"></a>
+><img src="../../../images/groupoverview3.jpg" alt="GroupOverview3" style="width: 50%; display: block"></a>
 
 ### Actions
 
@@ -53,7 +53,7 @@ While selecting the role you would like to apply to the chosen group member you 
 
 In this section you can you can check the apps that the given group has an access to, level of the access as well as manage those apps permissions.
 
-><img src="../../../Images/GroupOverview4.jpg" alt="GroupOverview4" style="width: 50%; display: block"></a>
+><img src="../../../images/groupoverview4.jpg" alt="GroupOverview4" style="width: 50%; display: block"></a>
 
 
 ### Actions
@@ -67,7 +67,7 @@ Manage | You can manage the apps the group has aceess to as well as the level of
 
 Here you can manage the apps that a group has an access to as well as level of this access. After clicking "Manage" button the modal will appear.
 
-><img src="../../../Images/GroupOverview5.jpg" alt="GroupOverview5" style="width: 50%; display: block"></a>
+><img src="../../../images/groupoverview5.jpg" alt="GroupOverview5" style="width: 50%; display: block"></a>
 
 ##### Actions
 
