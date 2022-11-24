@@ -1,4 +1,4 @@
-# Websites Overview
+# Websites
 
 In Solodev CMS platform numerous websites and apps with a single login can be run, switching between websites is very easy. Each website has separate sources such as files and folders. When adding websites, each website will be installed from scratch with their own theme resources that can be shared across websites. There is also no FTP, hidden files, or need to log into the server.
 
