@@ -71,6 +71,3 @@ Click the blue "Submit" button at the bottom right to apply your changes.
 !!!Note:
 Any changes made above will not be applied unless the submit button is clicked.
 !!!
-
-
-s
