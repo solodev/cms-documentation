@@ -1,4 +1,4 @@
-# Add Module
+# Module Overview
 
 Adding a module in Solodev CMS is a simple process, and can be completed in minutes by following the steps below.
 
