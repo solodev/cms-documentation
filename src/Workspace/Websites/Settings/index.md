@@ -118,9 +118,9 @@ In this section you can manage advances settings.
 
 **Name** | **Description** 
 :--- | ---
-Add Custom Shortcodes File |
-Export package |
-Delete website | 
+Add Custom Shortcodes File | Shortcodes act as shortcuts that allow you to embed elements into a post or page quickly. These usually consist of a single line of code within square brackets. This code will display a predetermined feature on the front end of your site. To custom shortcode file you need to create the shortcode's function saving it in .php format. Then you have to <a href="/workspace/Documents/add-file/">add file</a> to website. After adding a file you can use "Add Custom Shortcodes File" option.
+Export | Click button "Export" to export website package.
+Delete | Click the red "Delete" button to delete your website.
 
 ### Fields
 
@@ -128,7 +128,29 @@ Delete website |
 :--- | ---
 Timezone | To change timezone, expand the list and choose the desired timezone. It should be based on your location.
 Document Repository ID | To add ID of the document repository, enter ID in text box.
-Calendar ID to connect to STMLs | You can connnect your calendar to STMLs. To do that, you need to enter calendar ID
+Calendar ID to connect to STMLs | To connect your calendar to STMLs, you need to enter calendar ID.
+Delete | Type DELETE in all-caps in the text field.
 
 ---
+
+### Export
+
+Here you can find more information about option to export website package.
+
+#### Actions
+
+**Name** | **Description** 
+:--- | ---
+Include manager entries in export | Mark this option if you want to include manager entries in export.
+Continue Export | To export package click blue "Continue Export" button.
+
+---
+
+## Confirm
+
+Click the blue "Submit" button at the bottom right to apply your changes.
+
+!!!Note:
+Any changes made above will not be applied unless the submit button is clicked.
+!!!
 
