@@ -1,26 +1,20 @@
 # Website Overview
 
-Adding a website in Solodev CMS is a simple process, and can be completed in minutes.
+Thanks to a website overview page you have access to many options, like redirects, settings, update website or permissions. You are also able to see recently added files.
 
-><img src="../../../images/websites-add7.jpg" alt="websites-add7" style="width: 50%; display: block"></a>
+><img src="../../../images/website-overview.jpg" alt="website-overview" style="width: 100%; display: block"></a>
 
-## Fields
+## Actions
 
 **Name** | **Description** 
 :--- | ---
-Website Address | Type the website address. This must be a valid URL such as www.yourdomain.com.
-Package | Upload package from your computer. This is not a mandatory step. File should be in .zip format.
-Website Timezone | Expand the timezone list and choose the desired timezone. It should be based on your location.
-Description | Enter website description, if needed.
+<a href="/workspace/websites/redirects">Redirects</a>| URL/page redirects can help direct users away from pages that no longer exist or to more preferred locations. Click blue "Redirects" button on the right to access it.
+<a href="/workspace/websites/settings">Settings</a> | Here you can access many settings in relation to a domain, CDN, and many others. Click "Settings" button on the right to access it.
+<a href="/workspace/websites/update-website">Update Website</a> | In this place, you can update your website by changing the site title, and adding Facebook URL, among others. Click "Update Website" button on the right to access it.
+<a href="/workspace/websites/permissions">Permissions</a> | Permissions are a powerful tool that allow you to manage access for users and groups. Click "Permissions" button on the right to access it.
+Recent Files | Click recently added file to open it.
 
-## Confirm
-
-Once you’ve completed all of the fields, click the blue “Add” button and your website will be created.
-
-!!! Tip:
-The website build process may take several minutes to complete after clicking the "Add" button. Do not close or quit your browser duing this process.
-!!!
-
+---
 
 
 

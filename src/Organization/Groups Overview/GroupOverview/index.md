@@ -16,7 +16,7 @@ In this section you can modify basic settings of your group like: name, purpose 
 
 **Name** | **Description** 
 :--- | ---
-Modify | Here you will be able to manage the basic properties of your group. Please read <a href="/workspace/websites-overview/delete-website">modify group</a> for more information.
+Modify | Here you will be able to manage the basic properties of your group. Please read <a href="/organization/groups-overview/modify">modify group</a> for more information.
 Permissions | Here you will be able to assign the level access of the group to given folders containing your website.
 
 ---
