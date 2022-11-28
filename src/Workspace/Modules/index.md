@@ -2,6 +2,26 @@
 
 Modules enable developers to build no code/low content management features. These features expand the capability of Solodev CMS containers and deployments  -- making it easier for developers, content, managers, and marketing executives to expand website or web application features and manage content with little or no code.
 
+There are two types of Modules:
+
+- Calendars – a type of module that can be modified to create date-based customer facing applications. Calendars can be used to build an unlimited number of custom web and mobile applications to manage content. 
+- Datatables – are database dependent applications that can be formatted for display in a variety of ways on several devices. 
+
+With Datatables, users can build: 
+
+- User Interface - Build custom user interfaces to interact with your data.
+- Database Schemas - Define fields and Solodev CMS builds tables to store data.
+- Categorization - Create a system of relationships and categorization for your data.
+- RESTful APIs - Utilize a built-in API to expose datatable information to external publishing channels such as websites, mobile apps, intranets and other API enabled technologies.
+
+Solodev supports the following Calendar Types: 
+
+- Events – A calendar that shows events that have a specific start and end date.
+- Blog -- The blog is suited for article feeds, news entries, and other sets of data where end dates are optional. 
+- Photos – A photo calendar is great for displaying photos or creating a gallery. 
+- Landing Page – Create landing pages for marketing purposes. 
+- Custom – a custom calendar gives users the ability to tailor a calendar type to their needs – using some or all the of functionality in the aforementioned calendar types. 
+
 The modules dashboard gives you an overview of existing modules that are presented in the form of a list. Each module is shown with details such as name, location, and members.
 
 From the module dashboard, you have access to all tools that are necessary to effectively manage module infrastructure.
@@ -46,7 +66,7 @@ Add Permissions | Click the orange "+" sign to add permissions.
 **Name** | **Description** 
 :--- | ---
 Name | Enter the name of the user/group.
-Role | Expand the list and choose a role. There are four options to choose from. They are listed below.</p> <p>**View:** The view role will only allow the chosen user or group the ability to see this item.</p> <p>**Stager:** The stager role will only allow editing a file but the change will not show on the live site. It first has to be reviewed by someone with higher privileges before the change can be published.</p> <p>**Editor:** The editor role will enable the chosen user or group the ability to see and edit this item.</p><p>**Admin:** The admin role enables the chosen user or group the ability to see, edit and manage this item. This permission allows the abili
+Role | Expand the list and choose a role. There are four options to choose from. They are listed below.</p> <p>**View:** The view role will only allow the chosen user or group the ability to see this item.</p> <p>**Stager:** The stager role will only allow editing a file but the change will not show on the live site. It first has to be reviewed by someone with higher privileges before the change can be published.</p> <p>**Editor:** The editor role will enable the chosen user or group the ability to see and edit this item.</p><p>**Admin:** The admin role enables the chosen user or group the ability to see, edit and manage this item. This permission allows the abilito add or remove users and groups as well as the ability to modify or delete the entity.</p>
 
 #### Managing Permissions
 
