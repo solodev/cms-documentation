@@ -17,12 +17,13 @@ Modify | Choose this option to modify entry.
 Delete | Choose this option to delete entry.
 Import | Choose this option to import entry.
 Export | Choose this option to export entry.
+Find |  Click blue "Find" button to find the entry you want.
 
 ## Fields
 
 **Name** | **Description** 
 :--- | ---
-Find | Enter entry name that you want to find and click blue "Find" button.
+Find | Enter entry name that you want to find.
 
 ---
 
@@ -97,17 +98,37 @@ Create Thumbnail for Uploaded Photos | Here you can add dimension of the thumbna
 
 #### Advanced Options
 
+In this place you can manage the advanced options.
+
 ><img src="../../../images/module-overview9.jpg" alt="module-overview9" style="width: 70%; display: block"></a>
 
 ##### Actions
 
 **Name** | **Description** 
 :--- | ---
+Upload Form | Choose this option if you want to upload form from your computer.
+Edit Form | 
+Error Document | 
+Enable Attachments / Gallery | 
+Enforce User Permissions | 
+Enable User Groups | 
+Protect Fields | 
+Enable Website Mapping | 
+Resave All Entries (On Submit) | 
+Export Module | 
+Add Template Map | 
+Delete Module | Click the red "Delete" button to delete your module.
 
 ##### Fields
 
 **Name** | **Description** 
 :--- | ---
+Custom Icon | 
+Geo-Coded Fields | 
+Field Name to use in URL | 
+Asset Fields | 
+Post Processing | 
+Delete Module | Type DELETE in all-caps in the text field.
 
 #### Table Schema
 
@@ -119,17 +140,17 @@ In this place you can manage your database table schema.
 
 **Name** | **Description** 
 :--- | ---
-"+/-" option | 
+"+/-" option | Use these options to add/ remove the column.
 
 ##### Fields
 
 **Name** | **Description** 
 :--- | ---
-Name |
-Type |
-Length |
-Allow Null |
-Default |
+Name | Use this option to modify column name.
+Type | Use this option to modify column type.
+Length | Use this option to modify column length.
+Allow Null | Mark this option to allow null in the column.
+Default | Use this option to make the column default.
 
 #### API Info
 
