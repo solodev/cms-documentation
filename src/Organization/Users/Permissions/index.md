@@ -25,12 +25,12 @@ Select the role you would like to apply to the chosen user. There are four optio
 
 ### Step 3: Remove permissions
 
-To remove permissions click on the "X" option to the right.
+To remove permissions click on the **X** option to the right.
 
 ### Step 3: Submit
 
-Click the blue "Submit" button at the bottom right to apply your changes.
+Click the blue **Submit** button at the bottom right to apply your changes.
 
-!!!Please Note:
+!!!Note:
 Any changes made above will not be applied unless the submit button is clicked.
 !!!

@@ -1,4 +1,4 @@
-# Users Overview
+# Users
 
 Users are the people who have the authorization to access and interact with Solodev’s resources. Administrators can assign users to groups based on specific criteria – harnessing the power of granular permissions. 
 
