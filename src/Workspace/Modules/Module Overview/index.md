@@ -107,28 +107,40 @@ In this place you can manage the advanced options.
 **Name** | **Description** 
 :--- | ---
 Upload Form | Choose this option if you want to upload form from your computer.
-Edit Form | 
-Error Document | 
-Enable Attachments / Gallery | 
-Enforce User Permissions | 
-Enable User Groups | 
-Protect Fields | 
-Enable Website Mapping | 
-Resave All Entries (On Submit) | 
-Export Module | 
-Add Template Map | 
+Edit Form | Choose this option if you want to edit form.
+Error Document | Designate what contents should show when an event expires by clicking blue "Browse" button.
+Enable Attachments / Gallery | Choose this option to enable attachments / gallery.
+Enforce User Permissions | Choose this option to enforce user permissions.
+Enable User Groups | Choose this option to enable user groups.
+Protect Fields | Choose this option to protect fields.
+Enable Website Mapping | Choose this option to enable website mapping.
+Resave All Entries (On Submit) | Choose this option to resave all entries.
+Export Module | Choose this option to export module.
+Add Template Map | Choose this option to add template map - you can define custom attributes for future access. To do that click button "Add Template Map" and enter name and value then. 
 Delete Module | Click the red "Delete" button to delete your module.
 
 ##### Fields
 
 **Name** | **Description** 
 :--- | ---
-Custom Icon | 
-Geo-Coded Fields | 
-Field Name to use in URL | 
-Asset Fields | 
-Post Processing | 
+Custom Icon | Enter font awesome icon class.
+Geo-Coded Fields | Enter comma separated list of fields used to generate latitude and longitude that will be saved in fields named "lat" and "lng" respectively.
+Field Name to use in URL | Designate a field name to be accessed via URL. (event_title is default).
+Asset Fields | Here you can link a field in your Calendar to a public URL.
+Post Processing | Here you can write your own PHP to handle form submissions.
 Delete Module | Type DELETE in all-caps in the text field.
+
+###### Export Module
+
+Choose this option to export module.
+
+><img src="../../../images/module-overview10.jpg" alt="module-overview10" style="width: 40%; display: block"></a>
+
+####### Actions
+**Name** | **Description** 
+:--- | ---
+Include manager entries in export | You can mark this option to include manager entries in export.
+Continue Export | Choose this option to finalize export process.
 
 #### Table Schema
 
@@ -188,3 +200,11 @@ Browse | Select the file from your computer that you want to import.
 Mark "Empty DB" | Mark this option if you want to have the database empty.
 
 ---
+
+## Confirm 
+
+Click the blue "Submit" button at the bottom right to apply your changes.
+
+!!!Note:
+Any changes made above will not be applied unless the submit button is clicked.
+!!!

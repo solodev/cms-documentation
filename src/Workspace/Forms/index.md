@@ -2,6 +2,11 @@
 
 Solodev developers can create a new form module that can be edited using Solodev's dynamic drag and drop graphical user interface known as Forms. 
 
+Solodev Forms are used for two main purposes: 
+
+- Website Forms – these are forms found on the front-end of a website, the most common being a “Contact Us” form that captures site visitors’ data and sends it to its Solodev Module. 
+- Module Forms – these are forms found on the back-end of Solodev to add, edit and delete module entries for display on user-facing websites. 
+
 ><img src="../../../images/forms.jpg" alt="forms" style="width: 100%; display: block"></a>
 
 ## Actions
@@ -39,7 +44,7 @@ Add Permissions | Click the orange "+" sign to add permissions.
 **Name** | **Description** 
 :--- | ---
 Name | Enter the name of the user/group.
-Role | Expand the list and choose a role. There are four options to choose from. They are listed below.</p> <p>**View:** The view role will only allow the chosen user or group the ability to see this item.</p> <p>**Stager:** The stager role will only allow editing a file but the change will not show on the live site. It first has to be reviewed by someone with higher privileges before the change can be published.</p> <p>**Editor:** The editor role will enable the chosen user or group the ability to see and edit this item.</p><p>**Admin:** The admin role enables the chosen user or group the ability to see, edit and manage this item. This permission allows the abili
+Role | Expand the list and choose a role. There are four options to choose from. They are listed below.</p> <p>**View:** The view role will only allow the chosen user or group the ability to see this item.</p> <p>**Stager:** The stager role will only allow editing a file but the change will not show on the live site. It first has to be reviewed by someone with higher privileges before the change can be published.</p> <p>**Editor:** The editor role will enable the chosen user or group the ability to see and edit this item.</p><p>**Admin:** The admin role enables the chosen user or group the ability to see, edit and manage this item. This permission allows the ability to add or remove users and groups as well as the ability to modify or delete the entity.</p>
 
 #### Managing Permissions
 
