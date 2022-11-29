@@ -2,7 +2,7 @@
 
 Access a specific group in your CMS to view all its members, add or delete members, modify roles, and manage permissions at both the member and group level.
 
-><img src="../../../images/groupoverview1.jpg" alt="groupoverview1" style="width: 100%; display: block"></a>
+><img src="../../../images/groupoverview1.png" alt="groupoverview1" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -37,18 +37,19 @@ A group or group member can be assigned one of four roles in Solodev CMS:
 
 View and manage group permissions to specific apps in your CMS by clicking the **Manage** button. 
 
-><img src="../../../images/groupoverview4.jpg" alt="GroupOverview4" style="width: 100%; display: block"></a>
+><img src="../../../images/groupoverview4.png" alt="GroupOverview4" style="width: 100%; display: block"></a>
 
-#### Manage Permissions
+**Name** | **Description** 
+:--- | ---
+Manage | Allow access to specific apps and set roles for your group.
 
-Allow access to specific apps and set roles for your group.  
 
-><img src="../../../images/groupoverview5.jpg" alt="GroupOverview5" style="width: 75%; display: block"></a>
+><img src="../../../images/groupoverview5.png" alt="GroupOverview5" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
 Allow access | Check the box to the left of each app or item to grant access to your group.
-Role | Set the role for each app or item as View, Stager, Editor, or Admin. 
+Choose Role | Set the role for each app or item as View, Stager, Editor, or Admin. 
 
 ## Groups Review
 
