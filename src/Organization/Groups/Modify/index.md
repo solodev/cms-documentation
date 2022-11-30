@@ -24,7 +24,7 @@ Here you are able to delete your group.
 
 **Name** | **Description** 
 :--- | ---
-Delete | Type DELETE in all-caps into the text field and click the red "Delete" button to delete your group.
+Delete | Type DELETE in all-caps into the text field and click the red "**Delete**" button to delete your group.
 
 
 !!! Note:
@@ -33,7 +33,7 @@ Deleting a group will permanently remove the group and all of its content and ca
 
 ## Confirm
 
-Click the blue "Submit" button at the bottom right to apply your changes.
+Click the blue "**Submit**" button at the bottom right to apply your changes.
 
 !!!Note:
 Any changes made above will not be applied unless the submit button is clicked.

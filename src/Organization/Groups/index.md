@@ -1,21 +1,20 @@
 # Groups
 
-With groups, you can provide departments access and functionality specific to your team member's jobs. On the groups page, you can find a full list of existing groups with their details as names and members who belong to them.
+Create groups in your CMS to manage , add members to your group, and manage roles and permissions. To view or modify a group's details, click on the group name in the main table.
 
-><img src="../../../images/groups.jpg" alt="groups" style="width: 100%; display: block"></a>
+><img src="../../../images/groups.png" alt="groups" style="width: 100%; display: block"></a>
 
 
 
 **Name** | **Description** 
 :--- | ---
-<a href="/organization/groups-overview/add-group/">Add Group</a> | Add a new group.
-<a href="/organization/groups-overview/modify/">Enter Group</a> | Click the name of the group you want to open and modify.
-Member Permissions | Add or remove persmissions for individual members of a group.
+<a href="/organization/groups-overview/add-group/">Add Group</a> | Add a new group. 
+<a href="/organization/groups/#member-permissions">Member Permissions </a> | Add or remove permissions for individual members of a group.
 
 
 ## Member Permissions
 
-Click any of the group members to manage his/her permissions.
+Click on any of the Member icons in the table to add or remove members and manage their roles. 
 
 
 ><img src="../../../images/permissions2.png" alt="permissions2" style="width: 30%; display: block"></a>
@@ -24,16 +23,29 @@ Click any of the group members to manage his/her permissions.
 
 **Name** | **Description** 
 :--- | ---
-Add Permissions | Click the orange "+" sign to add permissions.
-Name | Enter the name of the user/group.
-Role | Expand the list and choose a role. There are four options to choose from. They are listed below.</p> <p>**View:** The view role will only allow the chosen user or group the ability to see this item.</p> <p>**Stager:** The stager role will only allow editing a file but the change will not show on the live site. It first has to be reviewed by someone with higher privileges before the change can be published.</p> <p>**Editor:** The editor role will enable the chosen user or group the ability to see and edit this item.</p><p>**Admin:** The admin role enables the chosen user or group the ability to see, edit and manage this item. This permission allows the ability to add or remove users and groups as well as the ability to modify or delete the entity.</p>
-Managing Permissions | Here you can manage the permissions of users with allready assigned roles.
-Delete | Click the "x" button next to a user to remove his/her permissions.
+Name | Enter the name of a member you want to add to your group.
+Role | Assign a View, Stager, Editor, or Admin role to a new or existing member via the dropdown menus.
+Add | Click the orange "**+**" button to add a new member to your group.
+Delete |  Click the "**x**" on the right side of the table to remove a member from your group. 
 
+
+!!!
+**Note**
+
+A group or group member can be assigned one of four roles in Solodev CMS:
+
+**View:** Allows a member to see items and content.
+
+**Stager:** Enables a member to create or modify content but not publish.
+
+**Editor:** Gives a member the ability to view, create, edit, and publish.
+
+**Admin:** Provides full editor control and management of group members.
+!!!
 
 ## Confirm
 
-Click the blue "Submit" button at the bottom right to apply your changes.
+Click the blue "**Submit**" button at the bottom right to apply your changes.
 
 !!!Note:
 Any changes made above will not be applied unless the submit button is clicked.
