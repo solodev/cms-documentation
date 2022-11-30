@@ -11,18 +11,13 @@ Permissions are a powerful tool that allows you to manage access for users and g
 Delete | Click the "**x**" button to remove permissions.
 Role | Assign a View, Stager, Editor, or Admin role via the dropdown menus.
 
-!!!
-**Note**
-
+!!! Note:
 A group or group member can be assigned one of four roles in Solodev CMS:
 
-**View:** Allows a member to see items and content.
-
-**Stager:** Enables a member to create or modify content but not publish.
-
-**Editor:** Gives a member the ability to view, create, edit, and publish.
-
-**Admin:** Provides full editor control and management of group members.
+- **View:** Allows a member to see items and content. 
+- **Stager:** Enables a member to create or modify content but not publish.
+- **Editor:** Gives a member the ability to view, create, edit, and publish.
+- **Admin:** Provides full editor control and management of group members.
 !!!
 
 

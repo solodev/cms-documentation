@@ -1,6 +1,6 @@
 # Modify Group
 
-After opening specific group, you are able to change group features by clicking "Modify" button.
+After opening specific group, you are able to change group features by clicking "**Modify**" button.
 
 
 ><img src="../../../images/modify.jpg" alt="modify" style="width: 40%; display: block"></a>
