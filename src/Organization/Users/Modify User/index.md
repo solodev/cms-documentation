@@ -1,72 +1,53 @@
 # Modify User
 
-When you open specific user you are redirected to the page where you can manage its profile.
+Add a user's personal details, including first name, last name, title, company, and timezone. Enter the values in each field and click **Submit**.
 
-Administrators or “Super Users” in Solodev can add users and assign permissions, providing them access to certain areas of the Solodev dashboard. Administrators can leverage granular permissions by specifying the actions that users can perform in Solodev.  
+><img src="../../../images/modify.png" alt="modify" style="width: 40%; display: block"></a>
 
----
-
-## Login as User
-
-You can login as user that you chose by clicking on **Login as User** button.
-
----
-
-## Worked on
-
-On the right there is content list that the user has recently worked on. There is also information about last modification date. 
-You can open any of item by clicking it. 
-
----
-
-## Groups the user is part of
-
-Underneath the worked on list there is a list of groups that the user is part of. Click the group to <a href="/organization/groups-overview/update-group">manage</a>  it.
-
----
-
-## Permissions
-
-Click **Permissions** button on on the left to <a href="/organization/users-overview/permissions/">manage permissions</a>.
+**Name** | **Description** 
+:--- | ---
+First Name  | Enter the user’s first name in the field.
+Last Name  | Enter the user’s last name or surname in the field.
+Title  | Enter the user’s company title in the field (optional).
+Company | Enter the user’s company name in the field (optional).
+Timezone | Enter the user’s timezone in the field (optional).
 
 ---
 
 ## Delete
 
-Click **Delete** button on on the left to <a href="/organization/users-overview/delete-user/">delete user</a>.
+Remove a user from your CMS.
 
----
+><img src="../../../images/modify2.png" alt="modify2" style="width: 45%; display: block"></a>
 
-## Modify
+**Name** | **Description** 
+:--- | ---
+Delete  | In the text field, type the word **DELETE** in all caps and click the Delete button.
 
-Click "Modify" button on on the left to change user details.
-
-### First Name
-
-Enter new name.
-
-### Last Name
-
-Enter new last name.
-
-### Title
-
-Enter new title.
-
-### Company
-
-Enter new company.
-
-### Timezone
-
-Change your timezone, choosing new one from the list.
+!!! Note:
+Deleting a user is permanent and cannot be undone.
+!!!
 
 ---
 
 ## Reset Password
 
-To reset your password Click the **Reset Password** button located underneath the user’s profile photo. 
+Send an automatic email to a user that allows them to reset their password and disable their current password.
 
-Type RESET in all-caps in the text field and click the blue **Submit** button to reset your password.
+><img src="../../../images/modify3.png" alt="modify3" style="width: 45%; display: block"></a>
 
-This action will send an email to the user to allow them to reset their password, and disable the current password for that user.
+**Name** | **Description** 
+:--- | ---
+Reset Password  | In the text field, type the word **RESET** in all caps and click the **Submit** button.
+
+---
+
+## Login as User
+
+Login as another user in your CMS to modify their profile and access apps and folders using their ID. On the user’s screen, click **Login as User**. Your profile and the order of your screen options will automatically change.
+
+><img src="../../../images/modify4.png" alt="modify4" style="width: 35%; display: block"></a>
+
+!!! Note:
+Once you have logged in as another user, you will need to log out before logging back in with your own profile.
+!!!

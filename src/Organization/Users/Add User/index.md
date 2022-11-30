@@ -1,6 +1,6 @@
 # Add User
 
-Adding an user in Solodev CMS is a simple process, and can be completed in minutes by following the steps below.
+Adding a user in Solodev CMS is a simple process, and can be completed in minutes.
 
 ## Email Address(es)
 

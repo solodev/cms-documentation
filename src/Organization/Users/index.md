@@ -1,24 +1,16 @@
 # Users
 
-Users are the people who have the authorization to access and interact with Solodev’s resources. Administrators can assign users to groups based on specific criteria – harnessing the power of granular permissions. 
+View, manage, and invite users to your CMS deployment and see what groups they are members of. Click on a user's name to access or modify their details.
+
+><img src="../../../images/user.png" alt="user" style="width: 100%; display: block"></a>
+
+**Name** | **Description** 
+:--- | ---
+<a href="/organization/users/add-user">Invite User(s)</a> | Add new user or users to your CMS deployment
+
 
 !!! Note:
-Administrators can mimic their organization’s structure by utilizing user groups to provide departments access and functionality specific to their jobs. 
+New users are added through your Solodev CMS deployment and must first be registered in Solodev Cloud.
 !!!
 
-In users page there is a full list of existing users with the details as name and groups they belong to.
-
 ---
-
-## Search
-
-You can filter users based on the name. To find specific user enter search name.
-
----
-
-## Add User
-
-Click on the blue "Invite User" button on on the right to <a href="/organization/users-overview/add-user/">add a new user</a>.
-
----
-
