@@ -188,7 +188,7 @@ Submit | When you get sure that entry/ all entries you want to delete are marked
 
 ### Import
 
-Here you can import entry. To do that you need to prepare file in .CSV format.
+Here you can import entry. To do that you need to prepare file in .CSV format. To have database clean, mark option "Empty DB".
 
 ><img src="../../../images/module-overview3.jpg" alt="module-overview3" style="width: 50%; display: block"></a>
 
