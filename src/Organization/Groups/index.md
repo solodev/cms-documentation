@@ -1,6 +1,6 @@
 # Groups
 
-Create groups in your CMS to manage , add members to your group, and manage roles and permissions. To view or modify a group's details, click on the group name in the main table.
+Create groups in your CMS to manage, add members to your group, and manage roles and permissions. To view or modify a group's details, click on the group name in the main table.
 
 ><img src="../../../images/groups.png" alt="groups" style="width: 100%; display: block"></a>
 
@@ -40,8 +40,5 @@ A group or group member can be assigned one of four roles in Solodev CMS:
 
 ## Confirm
 
-Click the blue "**Submit**" button at the bottom right to apply your changes.
+Click the blue **Submit** button at the bottom right to apply your changes.
 
-!!!Note:
-Any changes made above will not be applied unless the submit button is clicked.
-!!!

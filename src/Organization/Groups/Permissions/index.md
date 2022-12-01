@@ -8,7 +8,7 @@ Permissions are a powerful tool that allows you to manage access for users and g
 
 **Name** | **Description** 
 :--- | ---
-Delete | Click the "**x**" button to remove permissions.
+Delete | Click the **x** button to remove permissions.
 Role | Assign a View, Stager, Editor, or Admin role via the dropdown menus.
 
 !!! Note:
@@ -23,10 +23,8 @@ A group or group member can be assigned one of four roles in Solodev CMS:
 
 ## Confirm
 
-Click the blue "**Submit**" button at the bottom right to apply your changes.
+Click the blue **Submit** button at the bottom right to apply your changes.
 
-!!!Note:
-Any changes made above will not be applied unless the submit button is clicked.
-!!!
+
 
 
