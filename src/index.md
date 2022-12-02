@@ -1,6 +1,5 @@
 # Welcome
-
-
+---
 
 [Solodev](https://www.solodev.com/join) is a content management (CMS) and customer experience platform that lets individuals and teams work together on their digital transformation in the Cloud -- powered by AWS. 
 
