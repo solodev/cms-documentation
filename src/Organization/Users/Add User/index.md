@@ -14,7 +14,7 @@ Search a group to add the user to.
 
 Type welcome message (optional).
 
-## Submit
+## Confirm
 
 Once you’ve completed all of the fields, click the blue **Submit** button and user will receive an e-mail with information.
 

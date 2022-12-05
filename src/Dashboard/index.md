@@ -19,7 +19,7 @@ On the left there is a menu. There are 4 main sections with some pages that you 
 
 - <a href="/organization/users-overview/">Users</a>
 - <a href="/organization/groups-overview/">Groups</a>
-- <a href="/organization/contacts-overview/">Contacts</a>
+- <a href="/organization/contacts/">Contacts</a>
 
 ### <a href="/support/">Support</a>
 

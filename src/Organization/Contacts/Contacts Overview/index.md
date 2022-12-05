@@ -4,18 +4,15 @@ In Solodev, users can create intranets to manage the majority of their workload 
 
 ---
 
-## Search
-
-You can filter contacts based on the name. To find specific user enter search name.
-
----
-
 ## Add Contact
+><img src="../../../images/contacts.png" alt="add-contact" style="width: 100%; display: block"></a>
 
-Click on the "Invite User" button on on the right to <a href="/organization/contacts-overview/add-contact/">add a new contact</a>.
+Click on the <a href="/organization/contacts/add-contact/">**Add Contact**</a>. button on the upper right.
 
 ---
 
 ## Delete Contact
+><img src="../../../images/delete-contact.png" alt="delete-contact" style="width: 100%; display: block"></a>
 
-Click on the blue "Delete" button on on the right to <a href="/organization/contacts-overview/delete-contact/">delete a contact</a>.
+Click on the <a href="/organization/contacts/delete-contact/">**Delete**</a> button in the upper right.
+

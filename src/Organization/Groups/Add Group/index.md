@@ -16,5 +16,5 @@ Purpose | Enter the purpose of a group.
 Once you’ve completed all of the fields, click the blue **Submit** button and your group will be created.
 
 !!!Note:
-The group build process may take several minutes to complete after clicking the **Add** button. Do not close or quit your browser during this process.
+The group build process may take several minutes to complete after clicking the **Submit** button. Do not close or quit your browser during this process.
 !!!
