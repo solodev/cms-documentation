@@ -20,8 +20,8 @@ View all group members, modify roles, or delete users from your group.
 
 **Name** | **Description** 
 :--- | ---
-Role | Update a member’s role to View, Stager, Editor, or Admin.
-Delete | Remove a member from your group by clicking the “X” to the right of the user’s name.
+Role | Assign a View, Stager, Editor, or Admin role to a new or existing member via the dropdown menus.
+Delete | Remove a member from your group by clicking the **X** to the right of the user’s name.
 
 
 !!! Note:

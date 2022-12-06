@@ -1,10 +1,9 @@
 # Update Website
 
-In this place, you can update your website by changing the site title, and adding Facebook URL, among others.
+Here, you can update your website by changing the site title, and adding Facebook URL, among others.
 
 ><img src="../../../images/websites-update3.jpg" alt="websites-update3" style="width: 40%; display: block"></a>
 
-## Fields
 
 **Name** | **Description** 
 :--- | ---
@@ -17,8 +16,4 @@ Body Class | The body class is a class or series of classes that are applied to 
 
 ## Confirm
 
-Click the blue "Submit" button at the bottom right to apply your changes.
-
-!!!Note:
-Any changes made above will not be applied unless the submit button is clicked.
-!!!
+Click the blue **Submit** button at the bottom right to apply your changes.

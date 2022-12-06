@@ -1,31 +1,24 @@
 # Settings
 
-Here you can access many settings in relation to a domain, CDN, and many others.
+Here you can access many settings in relation to a domain, CDN, and others.
 
 ><img src="../../../images/settings9.jpg" alt="settings9" style="width: 30%; display: block"></a>
 
-## Fields
 
 **Name** | **Description** 
 :--- | ---
-Primary URL | This is the main URL that browsers will use to access your site. To update the Primary URL type a new address into the field.
+Primary URL |  To update the Primary URL type a new address into the field.
 
----
+!!!TIP:
+The Primary URL is the main URL that browsers will use to access your site.
+!!!
 
 ## Domain Information
 
-In this section you can update domain information: website address(es), host settings and redirects.
+In this section you can update domain information: website address(es), host settings and redirects. You can add and remove redirects by clicking orange **+** and blue **-** buttons respectively.
 
 ><img src="../../../images/settings10.jpg" alt="settings10" style="width: 30%; display: block"></a>
 
-### Actions
-
-**Name** | **Description** 
-:--- | ---
-Add Redirect| Domain redirects allow you to forward your domain visitors to any URL of your choice (to a new domain or a different website). You can add redirect by entering URL in the text box and clicking orange "Add" button.
-Remove Redirect | To remove redirect click the blue "Remove" button.
-
-### Fields
 
 **Name** | **Description** 
 :--- | ---
@@ -33,7 +26,7 @@ Staging website address(es)| To add staging website address put each address in 
 Origin website address(es) | To add origin website address put each address in the new line.
 Host Settings | To change host settings enter the details in text box.
 
----
+
 
 ## Sitemap
 
@@ -41,58 +34,43 @@ A sitemap is a file where you provide information about the pages and other file
 
 ><img src="../../../images/settings11.jpg" alt="settings11" style="width: 40%; display: block"></a>
 
-### Actions
 
 **Name** | **Description** 
 :--- | ---
-Generate Sitemap | To generate a sitemap of website click "Generate Sitemap" button.
+Generate Sitemap | To generate a sitemap of website click **Generate Sitemap** button.
 
 !!!Note:
-The output process may take several minutes to complete after clicking the "Generate Sitemap" button. Do not close or quit your browser duing this process.
+The output process may take several minutes to complete after clicking **Generate Sitemap** button. Do not close or quit your browser duing this process.
 !!!
 
----
+
 
 ## CDN Information
-
-A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.
 
 A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos. 
 
 ><img src="../../../images/settings4.jpg" alt="settings4" style="width: 40%; display: block"></a>
 
-### Actions
 
 **Name** | **Description** 
 :--- | ---
 Enable CDN | Check this option to manage CDN features.
-
-
-### Fields
-
-**Name** | **Description** 
-:--- | ---
 CDN website address | Enter CDN URL.
-CDN Provider | To add CND provider choose it from the list. After choosing AWS you will be able to enter AWS CDN. 
+CDN Provider | Choose the CDN Provider from the dropdown menu. 
 
 ---
 
 ## SSL Information
 
-Secure Sockets Layer (SSL) is a standard security technology for establishing an encrypted link between a server and a client—typically a web server (website) and a browser, or a mail server and a mail client (e.g., Outlook).
+Secure Sockets Layer (SSL) is a technology for establishing an encrypted link between a server and a client.
 
 ><img src="../../../images/settings15.jpg" alt="settings15" style="width: 30%; display: block"></a>
 
-### Actions
+
 
 **Name** | **Description** 
 :--- | ---
- Sitewide SSL (Canonical) | Mark this checkbox to force an  HTTPS connection to all pages.
-
-### Fields
-
-**Name** | **Description** 
-:--- | ---
+Sitewide SSL (Canonical) | Mark this checkbox to force an  HTTPS connection to all pages.
 SSL website address | This is the domain name that establishes an HTTPS connection to your website. To add it enter text in text box.
 SSL Certificate | SSL certificates create a foundation of trust by establishing a secure connection. To add SSL certificate, enter text in text box.
 SSL Key | The SSL/TLS protocol uses a pair of keys – one private, one public – to authenticate, secure and manage secure connections. These keys are a linked pair of text files and are created together as a pair when you create your Certificate Signing Request (CSR). SSL works by making one key of the pair (the public key) known to the outside world, while the other (the private key) remains a secret only you know. To add SSL key, enter text in text box.
@@ -114,43 +92,35 @@ In this section you can manage advances settings.
 
 ><img src="../../../images/settings14.jpg" alt="settings14" style="width: 40%; display: block"></a>
 
-### Actions
+
 
 **Name** | **Description** 
 :--- | ---
-Add Custom Shortcodes File | Shortcodes act as shortcuts that allow you to embed elements into a post or page quickly. These usually consist of a single line of code within square brackets. This code will display a predetermined feature on the front end of your site. To custom shortcode file you need to create the shortcode's function saving it in .php format. Then you have to <a href="/workspace/Documents/add-file/">add file</a> to website. After adding a file you can use "Add Custom Shortcodes File" option.
-Export | Click button "Export" to export website package.
-Delete | Click the red "Delete" button to delete your website.
-
-### Fields
-
-**Name** | **Description** 
-:--- | ---
-Timezone | To change timezone, expand the list and choose the desired timezone. It should be based on your location.
+Timezone | To change timezone, expand the list and choose the desired timezone.
 Document Repository ID | To add ID of the document repository, enter ID in text box.
 Calendar ID to connect to STMLs | To connect your calendar to STMLs, you need to enter calendar ID.
-Delete | Type DELETE in all-caps in the text field.
+Custom Shortcodes File | Shortcodes act as shortcuts that allow you to embed elements into a post or page quickly. Add shortcodes file by using **Add Custom Shortcodes File** option.
+Export | Click button **Export** to export website package.
+Delete | To remove your website, type DELETE in all caps into the field and click the red **Delete** button.
 
----
+
 
 ### Export
 
 Here you can find more information about option to export website package.
 
-#### Actions
+
 
 **Name** | **Description** 
 :--- | ---
 Include manager entries in export | Mark this option if you want to include manager entries in export.
-Continue Export | To export package click blue "Continue Export" button.
+Continue Export | To export package click blue **Continue Export** button.
 
 ---
 
 ## Confirm
 
-Click the blue "Submit" button at the bottom right to apply your changes.
+Click the blue **Submit** button at the bottom right to apply your changes.
 
-!!!Note:
-Any changes made above will not be applied unless the submit button is clicked.
-!!!
+
 

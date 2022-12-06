@@ -2,7 +2,7 @@
 
 Add a user's personal details, including first name, last name, title, company, and timezone. Enter the values in each field and click **Submit**.
 
-><img src="../../../images/modify.png" alt="modify" style="width: 40%; display: block"></a>
+><img src="../../../images/modify-user.jpg" alt="modify" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
