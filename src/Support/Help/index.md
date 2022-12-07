@@ -14,8 +14,8 @@ The results are listed below.
 
 ## Go to Dashboard
 
-You can go back to the dashboard by cliking on button "Go to Dashboard" on the right.
+You can go back to the dashboard by clicking on button "Go to Dashboard" on the right.
 
 ## Language
 
-You can change language by cliking on button "Language" on the right.
+You can change language by clicking on button "Language" on the right.

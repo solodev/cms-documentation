@@ -30,7 +30,7 @@ When you click website member, you will able to manage default permissions.
 :--- | ---
 Name | Enter the name of the user/group.
 Role | Assign a View, Stager, Editor, or Admin role via the dropdown menus.
-Delete | Click the **x** button to remove permissions.
+Delete | Click the **"x"** button to remove permissions.
 
 !!! Note:
 A group or group member can be assigned one of four roles in Solodev CMS:

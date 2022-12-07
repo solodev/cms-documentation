@@ -8,20 +8,20 @@ Administrators can use contacts to make the intranet accessible to the organizat
 ---
 
 ## Modify 
-><img src="../../../images/modify-contact.png" alt="modify-contact" style="width: 100%; display: block"></a>
+><img src="../../../images/modify-contact.png" alt="modify-contact" style="width: 40%; display: block"></a>
 
 Update a contact’s details including name, number, and address.
 
 ---
 
 ## Reset Password
-><img src="../../../images/reset-contact.png" alt="reset-contact" style="width: 100%; display: block"></a>
+><img src="../../../images/reset-contact.png" alt="reset-contact" style="width: 50%; display: block"></a>
 
 Update a contact's password
 
 ---
 
 ## Delete
-><img src="../../../images/delete-contact1.png" alt="delete-contact" style="width: 100%; display: block"></a>
+><img src="../../../images/delete-contact1.png" alt="delete-contact" style="width: 50%; display: block"></a>
 
 Remove a contact from your CMS deployment.

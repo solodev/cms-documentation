@@ -9,7 +9,7 @@ Add a new member to your CMS deployment, manage user roles, and remove users.
 :--- | ---
 Add User Deployment Member | Invite a new user to your CMS deployment.
 Role | Update a member’s role to User or Admin.
-Delete | Remove a member from your deployment by clicking the **X** to the far right of each row.
+Delete | Remove a member from your deployment by clicking the **"x"** to the far right of each row.
 
 !!! Tip:
 Adding a new user requires a transfer from Solodev CMS to Solodev Cloud. To return to your CMS deployment, click **Services** at the top of the left navigation.

@@ -15,7 +15,7 @@ The Primary URL is the main URL that browsers will use to access your site.
 
 ## Domain Information
 
-In this section you can update domain information: website address(es), host settings and redirects. You can add and remove redirects by clicking orange **+** and blue **-** buttons respectively.
+In this section you can update domain information: website address(es), host settings and redirects. You can add and remove redirects by clicking orange **"+"** and blue **"-"** buttons respectively.
 
 ><img src="../../../images/settings10.jpg" alt="settings10" style="width: 30%; display: block"></a>
 

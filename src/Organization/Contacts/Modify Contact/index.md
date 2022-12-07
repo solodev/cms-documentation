@@ -2,7 +2,7 @@
 
 Modify a contacts's notification preferences, phone number, phone carrier and include notes. Enter the values in each field and click **Update**.
 
-><img src="../../../images/modify-contact.png" alt="modify-contact" style="width: 100%; display: block"></a>
+><img src="../../../images/modify-contact.png" alt="modify-contact" style="width: 45%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

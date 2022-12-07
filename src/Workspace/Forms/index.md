@@ -26,8 +26,8 @@ Click on any of the members next to a module name to add or remove module member
 :--- | ---
 Name | Enter the name of a member you want to add to your group.
 Role | Assign a View, Stager, Editor, or Admin role to a new or existing member via the dropdown menus.
-Add | Click the orange **+** button to add a new member to your group.
-Delete |  Click the **x** on the right side of the table to remove a member from your group. 
+Add | Click the orange **"+"** button to add a new member to your group.
+Delete |  Click the **"x"** on the right side of the table to remove a member from your group. 
 
 
 !!! Note:

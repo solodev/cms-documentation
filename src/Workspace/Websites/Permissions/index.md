@@ -1,6 +1,6 @@
 # Permissions
 
-Assign roles to users or groups, manage and delete permissions. Click on a orange **+** button to assign permissions to new user/group.
+Assign roles to users or groups, manage and delete permissions. Click on a orange **"+"** button to assign permissions to new user/group.
 
 
 
@@ -12,7 +12,7 @@ Assign roles to users or groups, manage and delete permissions. Click on a orang
 :--- | ---
 Name | Enter the name of the user/group.
 Role | Assign a View, Stager, Editor, or Admin role via the dropdown menus.
-Delete | Click the **x** button to remove permissions.
+Delete | Click the **"x"** button to remove permissions.
 
 !!! Note:
 A group or group member can be assigned one of four roles in Solodev CMS:

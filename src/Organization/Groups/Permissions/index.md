@@ -8,7 +8,7 @@ Permissions are a powerful tool that allows you to manage access for users and g
 
 **Name** | **Description** 
 :--- | ---
-Delete | Click the **x** button to remove permissions.
+Delete | Click the **"x"** button to remove permissions.
 Role | Assign a View, Stager, Editor, or Admin role via the dropdown menus.
 
 !!! Note:

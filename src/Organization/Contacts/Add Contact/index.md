@@ -2,7 +2,7 @@
 
 Add a contact's personal details, including first name, last name, email, and phone number. Enter the values in each field and click **Submit**.
 
-><img src="../../../images/add-contact.png" alt="add-contact" style="width: 60%; display: block"></a>
+><img src="../../../images/add-contact.png" alt="add-contact" style="width: 45%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
