@@ -26,10 +26,10 @@ While it is entirely up to you how to name your files, Solodev suggests that the
 
 **Element** | **Description** 
 :--- | ---
-<a href="/workspace/websites-overview/update-website">Update Website</a> | In this place, you can update your website by changing the site title, and adding Facebook URL, among others.
-<a href="/workspace/websites-overview/settings">Settings</a> | Here you can access many settings in relation to a domain, CDN, and many others.
-<a href="/workspace/websites-overview/redirects">Redirects</a> | URL/page redirects can help direct users away from pages that no longer exist or to more preferred locations.
-<a href="/workspace/websites-overview/permissions">Permissions</a> |  Permission modals exist for almost all elements to help you organize and manage your organization and team(s).
+<a href="/workspace/websites/update-website/">Update Website</a> | In this place, you can update your website by changing the site title, and adding Facebook URL, among others.
+<a href="/workspace/websites/settings">Settings</a> | Here you can access many settings in relation to a domain, CDN, and many others.
+<a href="/workspace/websites/redirects">Redirects</a> | URL/page redirects can help direct users away from pages that no longer exist or to more preferred locations.
+<a href="/workspace/websites/permissions">Permissions</a> |  Permission modals exist for almost all elements to help you organize and manage your organization and team(s).
 
 Click on the drop-down icon next to the folder to open it and display all its contents.
 

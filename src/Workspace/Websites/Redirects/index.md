@@ -31,4 +31,4 @@ Code Field| Here you can edit code snippet.
 
 ## Confirm
 
-Click the blue **Submit** button at the bottom right to apply your changes.
+Once you have completed all the fields, click **Submit** to apply your changes.

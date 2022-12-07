@@ -33,9 +33,7 @@ Deleting a group will permanently remove the group and all of its content and ca
 
 ## Confirm
 
-Click the blue **Submit** button at the bottom right to apply your changes.
-
-
+Once you have completed all the fields, click **Submit** to apply your changes.
 
 
 

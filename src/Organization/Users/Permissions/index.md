@@ -12,3 +12,9 @@ Delete | Remove a permission for a user, folder, or group.
 !!! Note:
 You can access additional permissions and details by clicking on the user name, folder, or group in the permissions table.
 !!!
+
+#### Confirm
+
+Once you have completed all the fields, click **Submit** to apply your changes.
+
+
