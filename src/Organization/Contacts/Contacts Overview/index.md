@@ -1,18 +1,27 @@
 # Contacts Overview 
 
-In Solodev, users can create intranets to manage the majority of their workload from document sharing to storage. Administrators can use contacts to make the intranet accessible to the organization and manage its authoriized users. This document will show you how to assign administrators to manage intranet contacts, invite users to your intranet, set notification preferences for intranet users, and delete users from your intranet. 
+Administrators can use contacts to make the intranet accessible to the organization and manage its authorized users. 
+
+---
+><img src="../../../images/contact.png" alt="contact" style="width: 100%; display: block"></a>
 
 ---
 
-## Add Contact
-><img src="../../../images/contacts.png" alt="add-contact" style="width: 100%; display: block"></a>
+## Modify 
+><img src="../../../images/modify-contact.png" alt="modify-contact" style="width: 100%; display: block"></a>
 
-Click on the <a href="/organization/contacts/add-contact/">**Add Contact**</a>. button on the upper right.
+Update a contact’s details including name, number, and address.
 
 ---
 
-## Delete Contact
-><img src="../../../images/delete-contact.png" alt="delete-contact" style="width: 100%; display: block"></a>
+## Reset Password
+><img src="../../../images/reset-contact.png" alt="reset-contact" style="width: 100%; display: block"></a>
 
-Click on the <a href="/organization/contacts/delete-contact/">**Delete**</a> button in the upper right.
+Update a contact's password
 
+---
+
+## Delete
+><img src="../../../images/delete-contact1.png" alt="delete-contact" style="width: 100%; display: block"></a>
+
+Remove a contact from your CMS deployment.
