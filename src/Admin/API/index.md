@@ -6,6 +6,16 @@ The importance of efficient and reliable APIs cannot be overstated and is why So
 
 In practice, Swagger allows to display interactive REST API documentation in which you can test and run queries through the integration with code. All commands are fully described, along with the information that the API takes and returns. More advanced configurations take into account authorizations as well as roles that are available to individual users.
 
+**Element** | **Description** 
+:--- | ---
+<a href="/admin/api/module-api/">Module API</a>, <a href="/admin/api/api-tokens/">API Tokens</a>.
+
+
+
+
+
+
+
 ---
 
 ## Menu

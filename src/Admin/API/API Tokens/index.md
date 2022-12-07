@@ -1,6 +1,6 @@
 # API Tokens
 
-An API token is similar to a password and allows you to authenticate to Dataverse Software APIs to perform actions as you. Many Dataverse Software APIs require the use of an API token.
+An API token is similar to a password and allows you to authenticate to Dataverse Software APIs to perform actions as you. Many Dataverse Software APIs require the use of an API token..
 
 To start adding and managing your API tokens, you need to go to API Tokens page.
 
