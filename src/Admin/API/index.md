@@ -6,35 +6,14 @@ The importance of efficient and reliable APIs cannot be overstated and is why So
 
 In practice, Swagger allows to display interactive REST API documentation in which you can test and run queries through the integration with code. All commands are fully described, along with the information that the API takes and returns. More advanced configurations take into account authorizations as well as roles that are available to individual users.
 
+><img src="../../../images/api.jpg" alt="api" style="width: 100%; display: block"></a>
+
 **Element** | **Description** 
 :--- | ---
-<a href="/admin/api/module-api/">Module API</a>, <a href="/admin/api/api-tokens/">API Tokens</a>.
+<a href="/admin/api/module-api/">Module API</a> | Module API unlocks data from particular modules within an organization. To go there you need to use link from the tree on the left or click the button Launched presented in the screenshot above. 
+<a href="/admin/api/system-api/">System API</a> | System APIs unlocks data from core systems of record within an organization. To go there you need to use link from the tree on the left or click the button Launched presented in the screenshot above.
+<a href="/admin/api/api-tokens/">API Tokens</a> | An API token is similar to a password and allows you to authenticate to Dataverse Software APIs to perform actions as you. Here you are able to manage API tokens. To go there you need to use link from the tree on the left.
 
 
 
-
-
-
-
----
-
-## Menu
-
-On the left there is a menu. There are option to go back or go to <a href="/admin/api/system-api/">System API</a>, <a href="/admin/api/module-api/">Module API</a>, <a href="/admin/api/api-tokens/">API Tokens</a>.
-
----
-
-## API types
-
-In Solodev CMS there are System API and Module API. 
-
-### System API
-
-System APIs unlock data from core systems of record within an organization.
-
-### Module API
-
-Module API unlock data from particular modules within an organization.
-
----
 
