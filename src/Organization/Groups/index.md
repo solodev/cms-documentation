@@ -25,8 +25,8 @@ Click on any of the Member icons in the table to add or remove members and manag
 :--- | ---
 Name | Enter the name of a member you want to add to your group.
 Role | Assign a View, Stager, Editor, or Admin role to a new or existing member via the dropdown menus.
-Add | Click the orange "**+**" button to add a new member to your group.
-Delete |  Click the "**x**" on the right side of the table to remove a member from your group. 
+Add | Click the orange **+** button to add a new member to your group.
+Delete |  Click the **x** on the right side of the table to remove a member from your group. 
 
 
 !!! Note:
@@ -40,5 +40,5 @@ A group or group member can be assigned one of four roles in Solodev CMS:
 
 ## Confirm
 
-Click the blue **Submit** button at the bottom right to apply your changes.
+Once you have completed all the fields, click **Submit** to apply your changes.
 

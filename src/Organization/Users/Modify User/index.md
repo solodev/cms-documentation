@@ -14,7 +14,7 @@ Timezone | Enter the user’s timezone in the field (optional).
 
 ---
 
-## Delete
+## Advanced
 
 Remove a user from your CMS.
 

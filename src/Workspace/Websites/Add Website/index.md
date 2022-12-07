@@ -16,7 +16,7 @@ Description | Enter website description, if needed.
 
 ## Confirm
 
-Once you’ve completed all of the fields, click the blue “Add” button and your website will be created.
+Once you have completed all the fields, click **Add** to add new website.
 
 !!! Note:
 The website build process may take several minutes to complete after clicking the "Add" button. Do not close or quit your browser during this process.

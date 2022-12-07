@@ -120,7 +120,6 @@ Continue Export | To export package click blue **Continue Export** button.
 
 ## Confirm
 
-Click the blue **Submit** button at the bottom right to apply your changes.
-
+Once you have completed all the fields, click **Submit** to apply your changes.
 
 

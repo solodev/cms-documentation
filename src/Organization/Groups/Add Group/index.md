@@ -13,7 +13,7 @@ Purpose | Enter the purpose of a group.
 
 ## Confirm
 
-Once you’ve completed all of the fields, click the blue **Submit** button and your group will be created.
+Once you have completed all the fields, click **Submit** to create your group.
 
 !!!Note:
 The group build process may take several minutes to complete after clicking the **Submit** button. Do not close or quit your browser during this process.

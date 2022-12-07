@@ -16,4 +16,4 @@ Body Class | The body class is a class or series of classes that are applied to 
 
 ## Confirm
 
-Click the blue **Submit** button at the bottom right to apply your changes.
+Once you have completed all the fields, click **Submit** to apply your changes.

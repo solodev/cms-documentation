@@ -7,67 +7,38 @@ Solodev Forms are used for two main purposes:
 - Website Forms – these are forms found on the front-end of a website, the most common being a “Contact Us” form that captures site visitors’ data and sends it to its Solodev Module. 
 - Module Forms – these are forms found on the back-end of Solodev to add, edit and delete module entries for display on user-facing websites. 
 
+To find a specific form enter it's name into the search field.
+
+To enter and modify specific form click the form name.
+
 ><img src="../../../images/forms.jpg" alt="forms" style="width: 100%; display: block"></a>
 
-## Actions
+## Member Permissions
+
+Click on any of the members next to a module name to add or remove module members and manage their roles. 
+
+
+><img src="../../../images/permissions2.png" alt="permissions2" style="width: 30%; display: block"></a>
+
+
 
 **Name** | **Description** 
 :--- | ---
-Enter Form | Click the form you want to open and <a href="/workspace/forms/update-form/">modify</a>.
+Name | Enter the name of a member you want to add to your group.
+Role | Assign a View, Stager, Editor, or Admin role to a new or existing member via the dropdown menus.
+Add | Click the orange **+** button to add a new member to your group.
+Delete |  Click the **x** on the right side of the table to remove a member from your group. 
 
-## Fields
 
-**Name** | **Description** 
-:--- | ---
-Search Name | You can filter forms based on their names. To find a specific form enter the search name.
+!!! Note:
+A group or group member can be assigned one of four roles in Solodev CMS:
 
----
-
-### Default Permissions
-
-When you click group member, you will able to manage default permissions.
-
-#### Adding Permissions
-
-In this place, you can add permissions to users/groups.
-
-><img src="../../../images/permissions2.jpg" alt="permissions2" style="width: 50%; display: block"></a>
-
-##### Actions
-
-**Name** | **Description** 
-:--- | ---
-Add Permissions | Click the orange "+" sign to add permissions.
-
-##### Fields
-
-**Name** | **Description** 
-:--- | ---
-Name | Enter the name of the user/group.
-Role | Expand the list and choose a role. There are four options to choose from. They are listed below.</p> <p>**View:** The view role will only allow the chosen user or group the ability to see this item.</p> <p>**Stager:** The stager role will only allow editing a file but the change will not show on the live site. It first has to be reviewed by someone with higher privileges before the change can be published.</p> <p>**Editor:** The editor role will enable the chosen user or group the ability to see and edit this item.</p><p>**Admin:** The admin role enables the chosen user or group the ability to see, edit and manage this item. This permission allows the ability to add or remove users and groups as well as the ability to modify or delete the entity.</p>
-
-#### Managing Permissions
-
-In this place, you can manage the permissions of users/groups.
-
-><img src="../../../images/permissions3.jpg" alt="permissions3" style="width: 50%; display: block"></a>
-
-##### Actions
-
-**Name** | **Description** 
-:--- | ---
-Delete | Click the "x" button to remove permissions.
-
-##### Fields
-
-**Name** | **Description** 
-:--- | ---
-Role | Expand the list and choose the role. There are four options to choose from. They are listed below.</p> <p>**View:** The view role will only allow the chosen user or group the ability to see this item.</p> <p>**Stager:** The stager role will only allow editing a file but the change will not show on the live site. It first has to be reviewed by someone with higher privileges before the change can be published.</p> <p>**Editor:** The editor role will enable the chosen user or group the ability to see and edit this item.</p><p>**Admin:** The admin role enables the chosen user or group the ability to see, edit and manage this item. This permission allows the ability to add or remove users and groups as well as the ability to modify or delete the entity.</p>
-
-##### Confirm
-
-Click the blue "Submit" button at the bottom right to apply your changes.
-
-!!!Note:
-Any changes made above will not be applied unless the submit button is clicked.
+- **View:** Allows a member to see items and content. 
+- **Stager:** Enables a member to create or modify content but not publish.
+- **Editor:** Gives a member the ability to view, create, edit, and publish.
+- **Admin:** Provides full editor control and management of group members.
 !!!
+
+## Confirm
+
+Once you have completed all the fields, click **Submit** to apply your changes.
