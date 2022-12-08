@@ -6,7 +6,7 @@ Branding displays your logo and custom CSS.
 
 **Name** | **Description** 
 :--- | ---
-Upload Logo | Upload logo from your computer
+Upload Logo | Upload logo from your computer.
 
 !!!Note:
 Recommended size: 360px x 360px.
@@ -22,7 +22,7 @@ Here you can modify the look and feel of your backend experience.
 :--- | ---
 Change Primary Button Color | Choose this option to change primary button color. Click it and choose the color.
 Change Secondary Button Color | Choose this option to change primary button color. Click it and choose the color.
-Custom CSS | Type custom CSS code
+Custom CSS | Type custom CSS code.
 
 ## Custom Dashboard
 

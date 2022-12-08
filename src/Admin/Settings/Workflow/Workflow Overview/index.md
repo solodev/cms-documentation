@@ -20,7 +20,7 @@ User can choose from different workflow types:
 - **Form Submission**.
 !!!
 
-## Select a user/asigneee
+## Select a user/asignee
 
 Here you can select a user/asignee
 
