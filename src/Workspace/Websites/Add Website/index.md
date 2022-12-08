@@ -2,7 +2,7 @@
 
 Adding a website in Solodev CMS is a simple process, and can be completed in minutes.
 
-><img src="../../../images/websites-add7.jpg" alt="websites-add7" style="width: 50%; display: block"></a>
+><img src="../../../images/websites-add7.jpg" alt="websites-add7" style="width: 40%; display: block"></a>
 
 
 
