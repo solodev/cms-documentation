@@ -2,72 +2,40 @@
 
 Here is a general overview of the CMS workspace. Your workspace will remain in a format similar to the above with slight variances depending on which part you are in.
 
----
+In general, there are four main sections in the CMS workspace. They consist of smaller parts. 
 
-## Menu
+At the top, there is the Search option, which can be used to find CMS content.
 
-On the left there is a menu. There are 4 main sections with some pages that you can select.
+In the dashboard, you can also find the existing websites, which are shown as cards. Each card displays a thumbnail of the website, and its name and is clickable to access the website directly.
 
-### <a href="/workspace/">Workspace</a>
+In the Recents section, you are able to find recently updated items.
 
-- <a href="/workspace/websites-overview">Websites</a>
-- <a href="/workspace/modules-overview">Modules</a>
-- <a href="/workspace/forms-overview">Forms</a>
-- <a href="/workspace/documents-overview">Documents</a>
-
-### <a href="/organization/">Organization</a>
-
-- <a href="/organization/users-overview/">Users</a>
-- <a href="/organization/groups-overview/">Groups</a>
-- <a href="/organization/contacts/">Contacts</a>
-
-### <a href="/support/">Support</a>
-
-- <a href="/support/tasks/">Tasks</a>
-- <a href="/support/help/">Help</a>
-
-### <a href="/admin/">Admin</a>
-
-- <a href="/admin/settings/">Settings</a>
-- <a href="/admin/filesystem/">Filesystem</a>
-- <a href="/admin/api/">API</a>
+><img src="../../../images/dashboard.jpg" alt="dashboard" style="width: 100%; display: block"></a>
 
 ---
 
-## Search
+**Name** | **Description** 
+:--- | ---
+**<a href="/workspace/">Workspace</a>** | 
+<a href="/workspace/websites-overview">Websites</a> |
+<a href="/workspace/modules-overview">Modules</a> |
+<a href="/workspace/forms-overview">Forms</a> |
+<a href="/workspace/documents-overview">Documents</a> |
+**<a href="/organization/">Organization</a>** | 
+<a href="/organization/users-overview/">Users</a> |
+<a href="/organization/groups-overview/">Groups</a> |
+<a href="/organization/contacts/">Contacts</a> |
+**<a href="/support/">Support</a>** |
+<a href="/support/tasks/">Tasks</a> |
+<a href="/support/help/">Help</a> |
+**<a href="/admin/">Admin</a>** |
+<a href="/admin/settings/">Settings</a> |
+<a href="/admin/filesystem/">Filesystem</a> |
+<a href="/admin/api/">API</a> |
 
-To find content you want enter name and click on the blue magnifying class icon on the right.
 
----
 
-## Websites
 
-### Current Websites
 
-Existing websites are shown as cards on the dashboard. Each card displays a thumbnail of the website, its name and is clickable to <a href="/services/read/">access the website</a> directly.
-
-### Add Website
-
-Click on the "Add Website" card to <a href="/services/add/">add a new website</a>.
-
----
-
-## My Profile
-
-Click on "Manage Profile" icon at the bottom left to manage your <a href="/profile/">profile</a> or log out.
-
-### Profile
-
-Click on "Manage Profile" icon at the bottom left to manage your <a href="/profile/">profile</a>.
-
-### Log Out
-
-Click on "Log Out" to log out from CMS.
-
----
-
-## Recents
-
-In Recents section you are able to find recently uploaded photo objects.
 
 
