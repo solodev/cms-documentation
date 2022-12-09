@@ -10,7 +10,7 @@ Adding a workflow in Solodev CMS is a simple process, and can be completed in mi
 Name | Enter the workflow's name.
 Type | Choose the workflow's type.
 [Select user](https://cms.solodev.net/admin/settings/workflow/workflow-overview/#select-a-userasignee) | Browse the user.
-[Assign to](https://cms.solodev.net/admin/settings/workflow/workflow-overview/##select-a-userasignee) | Click to choose someone to assign the workflow to.
+[Assign to](https://cms.solodev.net/admin/settings/workflow/workflow-overview/#select-a-userasignee) | Click to choose someone to assign the workflow to.
 Tickler Information | You can add email ticklers to send form submissions to designated email addresses. To do that, enter email's address.
 
 !!!Note:
