@@ -16,22 +16,22 @@ In the Recents section, you are able to find recently updated items.
 
 **Name** | **Description** 
 :--- | ---
-**<a href="/workspace/">Workspace</a>** | 
-<a href="/workspace/websites-overview">Websites</a> |
-<a href="/workspace/modules-overview">Modules</a> |
-<a href="/workspace/forms-overview">Forms</a> |
-<a href="/workspace/documents-overview">Documents</a> |
-**<a href="/organization/">Organization</a>** | 
-<a href="/organization/users-overview/">Users</a> |
-<a href="/organization/groups-overview/">Groups</a> |
-<a href="/organization/contacts/">Contacts</a> |
-**<a href="/support/">Support</a>** |
-<a href="/support/tasks/">Tasks</a> |
-<a href="/support/help/">Help</a> |
-**<a href="/admin/">Admin</a>** |
-<a href="/admin/settings/">Settings</a> |
-<a href="/admin/filesystem/">Filesystem</a> |
-<a href="/admin/api/">API</a> |
+**<a href="/workspace/">Workspace</a>** | In workspace you can build and manage websites and applications. 
+<a href="/workspace/websites-overview">Websites</a> | Here you can create and manage websites.
+<a href="/workspace/modules-overview">Modules</a> | Here you can create and manage modules.
+<a href="/workspace/forms-overview">Forms</a> | Here you can create and manage forms.
+<a href="/workspace/documents-overview">Documents</a> | Here you can create and manage documents.
+**<a href="/organization/">Organization</a>** | In this section you can manage member access to organizational data with sophisticated security features such as granular permissions and build or manage groups.
+<a href="/organization/users/">Users</a> | In this section you can view, manage, and invite users to your CMS deployment and see what groups they are members of. 
+<a href="/organization/groups/">Groups</a> | In Groups you can create groups in your CMS to manage, add members to your group, and manage roles and permissions.
+<a href="/organization/contacts/">Contacts</a> | Here you can view, manage, add and update Contacts in your CMS deployment. 
+**<a href="/support/">Support</a>** | here you can find support related to your activities in CMS. 	
+<a href="/support/tasks/">Tasks</a> | In this section you can manage your tasks, that allow you to collaborate with team members in your CMS deployment to update code, create content, modify images, and more.
+<a href="/support/help/">Help</a> | Here you can learn what to do if you're having trouble.
+**<a href="/admin/">Admin</a>** | Here you can manage the admin part, that consists of Settings, Filesystem and API sections.
+<a href="/admin/settings/">Settings</a> | Here you can manage different features.
+<a href="/admin/filesystem/">Filesystem</a> | In this section you can manage Filesystem, which reflects the structure of information contained in the CMS.
+<a href="/admin/api/">API</a> | Here you can manage API.
 
 
 

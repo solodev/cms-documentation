@@ -21,10 +21,10 @@ When clicking on any catalog you can manage it by using 7 options. You can also 
 
 **Name** | **Description** 
 :--- | ---
-<a href="/workspace/documents/document-overview/update-folder/">Update Folder</a> | Click here to update the folder. 
+<a href="/workspace/documents/document-overview/updatefolder/">Update Folder</a> | Click here to update the folder. 
 <a href="/workspace/documents/document-overview/upload/">Upload</a> |  Click here to upload the file from your computer. 
-<a href="/workspace/documents/document-overview/add-folder/">Add Folder</a>  | Click here to add the folder. 
-<a href="/workspace/documents/document-overview/add-file/">Add File</a>  | Click here to add the file.
-<a href="/workspace/documents/document-overview/add-group/">Add Group</a>  | Click here to add the group.
-<a href="/workspace/documents/document-overview/add-collection/">Add Collection</a>  | Click here to add the collections.
+<a href="/workspace/documents/document-overview/addfolder/">Add Folder</a>  | Click here to add the folder. 
+<a href="/workspace/documents/document-overview/addfile/">Add File</a>  | Click here to add the file.
+<a href="/workspace/documents/document-overview/addgroup/">Add Group</a>  | Click here to add the group.
+<a href="/workspace/documents/document-overview/addcollection/">Add Collection</a>  | Click here to add the collections.
 <a href="/workspace/documents/document-overview/permissions/">Permissions</a>  | Click here to manage permissions.

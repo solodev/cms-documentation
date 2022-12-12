@@ -1,6 +1,6 @@
 # Settings
 
-Settings consists of 6 sections.
+The Settings section allows you a wide range of functionality regarding your Solodev environment. Settings consists of 6 parts.
 
 ><img src="../../../images/settings16.jpg" alt="settings16" style="width: 20%; display: block"></a>
 
