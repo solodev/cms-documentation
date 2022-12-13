@@ -1,41 +1,49 @@
 # Dashboard
 
-Here is a general overview of the CMS workspace. Your workspace will remain in a format similar to the above with slight variances depending on which part you are in.
-
-In general, there are four main sections in the CMS workspace. They consist of smaller parts. 
-
-At the top, there is the Search option, which can be used to find CMS content.
-
-In the dashboard, you can also find the existing websites, which are shown as cards. Each card displays a thumbnail of the website, and its name and is clickable to access the website directly.
-
-In the Recents section, you are able to find recently updated items.
+The Dashboard is the home screen of your CMS. From here, you can quickly connect to your websites and recent work, manage users and groups, track tasks, and more. You can also access more advanced admin features, including the CMS file system and API.
 
 ><img src="../../../images/dashboard.jpg" alt="dashboard" style="width: 100%; display: block"></a>
 
----
+**Name** | **Description** 
+:--- | ---
+<a href="/workspace/">Workspace</a> | Build and manage websites, access modules, build custom forms, and store documents in your CMS. 
+<a href="/organization/">Organization</a> | Manage users, create groups, set permissions, and create contact lists. 
+<a href="/support/">Support</a> | View and update your team’s tasks across websites and access Solodev documentation.
+<a href="/admin/">Admin</a> | Manage your CMS settings for apps and workflows, set permissions, access the CMS file system, and utilize the Solodev API.
+
+!!!TIP:
+No matter where you are in the CMS, you can always return to your Dashboard by clicking your organization’s logo in the upper left corner of the screen. 
+!!!
+
+## Websites
+
+You can access any of your active websites by using the cards on the main Dashboard. 
+
+><img src="../../../images/dashboard2.jpg" alt="dashboard2" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-**<a href="/workspace/">Workspace</a>** | In workspace you can build and manage websites and applications. 
-<a href="/workspace/websites-overview">Websites</a> | Here you can create and manage websites.
-<a href="/workspace/modules-overview">Modules</a> | Here you can create and manage modules.
-<a href="/workspace/forms-overview">Forms</a> | Here you can create and manage forms.
-<a href="/workspace/documents-overview">Documents</a> | Here you can create and manage documents.
-**<a href="/organization/">Organization</a>** | In this section you can manage member access to organizational data with sophisticated security features such as granular permissions and build or manage groups.
-<a href="/organization/users/">Users</a> | In this section you can view, manage, and invite users to your CMS deployment and see what groups they are members of. 
-<a href="/organization/groups/">Groups</a> | In Groups you can create groups in your CMS to manage, add members to your group, and manage roles and permissions.
-<a href="/organization/contacts/">Contacts</a> | Here you can view, manage, add and update Contacts in your CMS deployment. 
-**<a href="/support/">Support</a>** | here you can find support related to your activities in CMS. 	
-<a href="/support/tasks/">Tasks</a> | In this section you can manage your tasks, that allow you to collaborate with team members in your CMS deployment to update code, create content, modify images, and more.
-<a href="/support/help/">Help</a> | Here you can learn what to do if you're having trouble.
-**<a href="/admin/">Admin</a>** | Here you can manage the admin part, that consists of Settings, Filesystem and API sections.
-<a href="/admin/settings/">Settings</a> | Here you can manage different features.
-<a href="/admin/filesystem/">Filesystem</a> | In this section you can manage Filesystem, which reflects the structure of information contained in the CMS.
-<a href="/admin/api/">API</a> | Here you can manage API.
+Add Website | Create a new website in your CMS deployment.
 
+!!!TIP:
+Click on the thumbnail image or default logo to begin editing your website in the CMS. You can also click on the website URL or arrow icon at the lower right to view the live site. 
+!!!
 
+## Recents
 
+From the Dashboard, you can quickly link to the most recent website pages, templates files, documents, or images you have worked on in your CMS deployment. 
 
+To access a specific file, click on a row in the Recents table. 
 
+><img src="../../../images/dashboard3.jpg" alt="dashboard3" style="width: 100%; display: block"></a>
 
+## Search
+
+Locate specific files in your CMS by using the Search bar at the top of the Dashboard. Browse for .html files, PDF documents, blog posts, images, and more. 
+
+><img src="../../../images/dashboard4.jpg" alt="dashboard4" style="width: 100%; display: block"></a>
+
+!!!Note:
+You can press the Enter button or click the blue button at the right side of the Search field. 
+!!!
 
