@@ -1,21 +1,14 @@
 # Help
 
-Help page allows you to quickly and conveniently get an answer to the questions you may have. 
+Access the Solodev CMS documentation to search for answers to technical questions and guidance on features and functionality.
 
----
+To open the documentation, click the **Help** link under **Support** in the left navigation.
 
-## Search
+><img src="../../../images/help1.png" alt="help" style="width: 18%; display: block"></a>
 
-To get an answer to your question enter phrase and click enter.
 
-The results are listed below.
+!!!Tip:
+You can directly access relevant documentation from anywhere in the CMS for specific apps and functionality. Simply browse to a specific screen and click on the **help center icon** in the lower right corner. 
+!!!
 
----
-
-## Go to Dashboard
-
-You can go back to the dashboard by clicking on button "Go to Dashboard" on the right.
-
-## Language
-
-You can change language by clicking on button "Language" on the right.
+The help center also provides a chat feature for asking general technical questions. For more information on Support, click here.

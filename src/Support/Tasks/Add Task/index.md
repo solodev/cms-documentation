@@ -2,7 +2,7 @@
 
 Create a new task, assign members to the task, and schedule a due date. 
 
-><img src="../../../images/add-task.png" alt="add-task" style="width: 90%; display: block"></a>
+><img src="../../../images/add-task.png" alt="add-task" style="width: 75%; display: block"></a>
 --- 
 
 **Name** | **Description** 
@@ -33,8 +33,6 @@ If a webpage or file contains a meta description, it will automatically appear i
 
 ## Confirm
 Once you have completed entering your task details, click **Submit task**. The member(s) assigned to the task will automatically receive an email with information regarding the task. 
-
-><img src="../../../images/add-task3.png" alt="add-task3" style="width: 50%; display: block"></a>
 
 !!! Tip: 
 If a member has not received their task email, ask them to check their spam folder.

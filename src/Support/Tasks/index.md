@@ -2,7 +2,7 @@
 
 Collaborate with team members in your CMS deployment to update code, create content, modify images, and more. Assign and view tasks, add new tasks, send messages, and manage your task status and details. 
 
-><img src="../../../images/tasks.png" alt="tasks" style="width: 100%; display: block"></a>
+><img src="../../../images/tasks-main.jpg" alt="tasks" style="width: 100%; display: block"></a>
 --- 
 
 ## My Tasks
