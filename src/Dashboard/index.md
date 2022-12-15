@@ -26,8 +26,10 @@ You can access any of your active websites by using the cards on the main Dashbo
 
 ><img src="../../../images/updated_db2.png" alt="websites" style="width: 100%; display: block"></a>
 
-### Add Website
-Create a new website in your CMS deployment.
+**Name** | **Description** 
+:--- | ---
+<a href="https://cms.solodev.net/workspace/websites/add-website/">Add Website</a> | Create a new website in your CMS deployment.
+
 
 !!! Tip:
 Click on the thumbnail image or default logo to begin editing your website in the CMS. You can also click on the website URL or arrow icon at the lower right to view the live site. 
