@@ -1,56 +1,39 @@
 # Websites
 
-In Solodev CMS platform numerous websites and apps with a single login can be run, switching between websites is very easy. Each website has separate sources such as files and folders. When adding websites, each website will be installed from scratch with their own theme resources that can be shared across websites. There is also no FTP, hidden files, or need to log into the server.
+From the main Websites dashboard, you can view and access the existing websites in your CMS deployment, manage permissions for your website members, and add new websites. 
 
-The websites dashboard gives you an overview of existing websites that are presented in the form of cards in the table. Each website is shown with details such as name and its members.
-
-You can filter websites based on their names. To find a specific website enter the search name.
-
-To enter the website click the name of the website you want to open and modify.
-
-When you click website member, you will able to manage default permissions.
+To modify a website, click on a thumbnail image or a website name from the table. This will link you to the website’s main CMS dashboard. 
 
 ><img src="../../../images/websites.jpg" alt="websites" style="width: 100%; display: block"></a>
 
-
-
-**Name** | **Description** 
-:--- | ---
-<a href="/workspace/websites/add-website/">Add Website</a> | Click the **Add website** button add a new page .
-
-
-
+!!!TIP:
+Use the search field in the upper right corner to locate or filter specific websites in your CMS.
+!!!
 
 ## Permissions
 
-><img src="../../../images/permissions2.jpg" alt="permissions2" style="width: 40%; display: block"></a>
+Add new members to your website, manage member roles, and remove members.
 
+><img src="../../../images/permissions2.jpg" alt="permissions2" style="width: 30%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-Name | Enter the name of the user/group.
-Role | Assign a View, Stager, Editor, or Admin role via the dropdown menus.
-Delete | Click the **"x"** button to remove permissions.
+Name | Enter the name of the member you wish to add to your website.
+Role | Assign a View, Stage, Editor, or Admin role via the dropdown menu to the right of each member name.
+Delete | Click the “x” button to remove a member from a website.
 
 !!! Note:
-A group or group member can be assigned one of four roles in Solodev CMS:
+A website member can be assigned one of four roles:
 
-- **View:** Allows a member to see items and content. 
+- **View:** Allows a member to see items and content.
 - **Stager:** Enables a member to create or modify content but not publish.
 - **Editor:** Gives a member the ability to view, create, edit, and publish.
-- **Admin:** Provides full editor control and management of group members.
+- **Admin:** Provides full editor control and management of website members.
 !!!
-
 
 ## Confirm
 
 Once you have completed all the fields, click **Submit** to apply your changes.
-
-
-
-
-
-
 
 
 
