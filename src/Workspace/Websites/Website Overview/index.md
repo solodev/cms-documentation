@@ -4,7 +4,7 @@ Thanks to a website overview page you have access to many options, like redirect
 
 Click recently added file to open it
 
-><img src="../../../images/website-overview.jpg" alt="website-overview" style="width: 100%; display: block"></a>
+><img src="../../../images/website-overview-image.jpg" alt="website-overview-image" style="width: 100%; display: block"></a>
 
 ## Actions
 
