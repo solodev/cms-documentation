@@ -1,19 +1,19 @@
 # Add Website
 
-Adding a website in Solodev CMS is a simple process, and can be completed in minutes.
+Add a new website to your CMS deployment.
 
-><img src="../../../images/websites-add7.jpg" alt="websites-add7" style="width: 60%; display: block"></a>
+><img src="../../../images/add-website.png" alt="add-website" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-Name | Customize the name.
-Domain | Choose the domain.
-Timezone | Expand the timezone list and choose the desired timezone.
-CMS | Select the CMS you want to add this module to.
-Theme | Enter website description, if needed.
+Name | Add a custom title to identify your website within your CMS deployment.
+Domain | Choose a domain from your existing options, or add a new domain.
+Timezone | Select a timezone for your website to help specify its location.
+CMS | Choose a CMS for your website. Select from options that are purchased and ready to install, or you can add a new CMS.
+Theme | Add an optional theme package to your website. Select from options that are purchased and ready to install, or you can add a new theme.
 
-!!!TIP:
-The website name should be a valid URL such as www.yourdomain.com. 
+!!!Note:
+When adding a Name to your website, make sure it is a valid URL such as “www.youdomain.com”. Prior to adding a website in Solodev, you will also need to point your DNS to this server. 
 !!!
 
 ## Confirm

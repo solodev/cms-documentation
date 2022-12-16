@@ -49,7 +49,7 @@ Manage | Allow access to specific apps and set roles for your group.
 **Name** | **Description** 
 :--- | ---
 Allow access | Check the box to the left of each app or item to grant access to your group.
- Role | Assign a View, Stager, Editor, or Admin role to each app in your CMS. 
+Role | Assign a View, Stager, Editor, or Admin role to each app in your CMS. 
 
 ## Groups Review
 
