@@ -1,19 +1,17 @@
 # Organization
 
-In this section you can manage member access to organizational data with sophisticated security features such as granular permissions and build or manage groups.
+In your Organization, you can manage the individual users in your CMS, create groups and invite members, and build custom contact lists.
 
-## Menu 
+There are three main sections in your Organization. Each can be accessed using the left navigation:
 
-On the left there is a menu. There are 3 main sections with some pages that you can select.
+><img src="../../../images/organization.jpg" alt="organization" style="width: 20%; display: block"></a>
 
-- **<a href="/organization/users">Users</a>**
+**Name** | **Description** 
+:--- | ---
+<a href="/organization/users">Users</a> | View, manage, and invite users to your CMS.
+<a href="/organization/groups">Groups</a> | Create groups, add members to your group, and manage their roles and permissions.
+<a href="/organization/contacts">Contacts</a> | View, manage, add, and update contacts in your CMS. 
 
-Users are the people who have access to Solodev and its resources as determined by the permissions they have been assigned by a system administrator. 
-
-- **<a href="/organization/groups">Groups</a>** 
-
-Users can be bundled together in groups based on criteria specified by an administrator i.e. design, marketing, sales.
-
-- **<a href="/organization/contacts-overview">Contacts</a>** 
-
-Manage users of your intranet with Contacts. 
+!!!TIP:
+You can manage individual user and group access across all your websites and apps at multiple levels using permissions.
+!!!
