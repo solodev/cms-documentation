@@ -15,7 +15,7 @@ Solodev CMS can be deployed in minutes through the Solodev Marketplace <a href="
 You can also subscribe to Solodev CMS through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b">AWS Marketplace</a> in Lite, Pro, or Enterprise editions, as well as a container option for Kubernetes.
 
 !!!Tip:
-Need help with a custom enterprise deployment with unique requirements?[Contact our professional services team](mailto:sales@solodev.com).
+Need help with a custom enterprise deployment with unique requirements? [Contact our professional services team](mailto:sales@solodev.com).
 !!! 
 
 ---
@@ -36,30 +36,39 @@ Solodev CMS is a cloud-first platform built exclusively for AWS. To launch a dep
 ## Features
 
 :icon-shield-check: **Easy to use for content pros**
+
 Built with marketers in mind, Solodev CMS provides a low-code/no-code experience that makes it easy for content creators and teams to publish across channels in seconds. 
 
 :icon-pencil: **Designed for developers**
+
 With full access to HTML, CSS, PHP, and more, developers can create custom advanced, mobile responsive websites and apps with robust functionality. 
 
 :icon-paintbrush: **Create amazing websites**
+
 There’s no limit to what you can build using Solodev. Make beautiful websites or individual pages with traditional template-based features. 
 
 :icon-server: **Manage everything in one place**
+
 Solodev CMS is natively multi-site, making it easy to build, launch, access, and manage all your websites and apps from a single point of control. 
 
 :icon-tools: **Build advanced web apps**
+
 Create custom shopping carts, inventory systems, and blogs using Solodev’s built-in modules.
 
 :icon-issue-reopened: **Integrate with third-party apps**
+
 The Solodev API makes it easy to connect with almost any third-party app, from MailChimp to Salesforce. Use the built-in Swagger library to quickly integrate modules like contact or career forms. 
 
 :icon-cloud: **Hybrid headless**
+
 Looking to power a front-end React, Vue, Angular, or Next.js website–or publish to the Internet of Things? Use Solodev’s modules to push content almost anywhere using our headless CMS features. 
 
 :icon-trophy: **Personalize your experiences**
+
 Use Solodev’s A/B testing to create content “experiments” and optimize your website and landing pages to improve conversions. 
 
 :icon-comment-discussion: **Manage and collaborate with your team**
+
 Set up individual users and groups and manage their roles using the industry’s most granular permissions system. Invite new members to CMS deployments, assign tasks and collaborate on website projects, and manage your team at every level. 
 
 ---
