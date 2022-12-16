@@ -1,23 +1,29 @@
 # Overview
 
-Welcome to the supporting documentation for Solodev, an enterprise web experience platform that offers content producers, designers, and developers total control over their content.
+The Solodev CMS documentation contains technical information, detailed explanations, illustrative screenshots, and helpful tips for using your CMS successfully. 
 
-Solodev features secure cloud hosting, 24/7 U.S. based support, and a powerful content management system to make sure all members of your team can contribute and update areas of the website when needed.
+Our documentation is clearly organized and corresponds directly to the navigation tree in the CMS – making it easy to find answers based on each screen within the app. There are also links to other relevant articles and additional resources located throughout the documentation. 
 
-Solodev is extremely powerful and flexible. The platform has been deployed for a number of organizations and in a wide variety of industries. Your Solodev installation has the capability to power custom website modules, integrate with your third-party applications, and deliver content and applications to your end users.
+><img src="../../../images/overviewmain.png" alt="Overview" style="width: 100%; display: block"></a>
 
----
 
-## How to use this documentation
+To access the Solodev documentation, click on the **Help** link under **Support** in the left navigation of your CMS Dashboard. 
 
-In the ensuing articles, you will find information, concepts, tutorials, examples, and everything you need to get the most out of Solodev. Along the way, we will highlight some key features of the Platform and point you to a number of helpful resources.
+You can also view documentation for a specific screen anywhere in Solodev by clicking the **help center icon** in the lower right of each screen. 
 
-Documentation is organized so that you can find your subject and need as quickly as possible. We understand that a wide variety of users work within Solodev, including content marketers, designers, web developers, and IT administrators. Accordingly, the Solodev team has done our best to arrange the documentation so that sections are grouped based on the needs of a particular audience.
+!!! Note
+Can’t find what you need in our documentation? If you require additional technical assistance, please refer to our **Support** options in the **Welcome** section. 
+!!!
 
-Use the navigation tree to browse the various sections. Conversely, search for any topic you need help with. 
 
----
+**Name** | **Description** 
+:--- | ---
+Navigation | Use the left navigation to browse documentation based on the same tree structure as the CMS. Click each section to view its available subsections.
+Filter | Refine your search of navigation sections and subsections.
+Version | Quickly confirm the version number of the Solodev CMS in the upper left corner. 
+Contents | Access the various content sections on each page by using the right-hand navigation.
+Search | Use the search field in the upper right corner to locate specific articles and topics. 
 
-## Are we missing something? 
-
-If you find that we don't cover a specific subject, feel free to let us know! Please [contact us](mailto:help@solodev.com) to let our support staff know that a certain section could use more information. Our goal is to empower Solodev users and we encourage any feedback that works to that end.
+!!!Tip
+You can also click through the documentation sequentially by using the **Previous/Next** buttons at the bottom left and right of each article. 
+!!!
