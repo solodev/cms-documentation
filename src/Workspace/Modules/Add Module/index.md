@@ -7,12 +7,14 @@ Adding a module in Solodev CMS is a simple process, and can be completed in minu
 
 **Name** | **Description** 
 :--- | ---
-Name | Add a module name.
-Choose Location | Choose install location.
-Add Package | Upload the package from your computer. The file should be in .zip format.
-Description | Enter module description, if needed.
+Select Module | Select the module you want to add.
+Name | Customize the name.
+CMS | Select the CMS you want to add this module to.
 
+!!!TIP:
+You can choose module type from blog, careers, team, events, and contact form.
+!!!
 
 ## Confirm
 
-Once you have completed all the fields, click **Submit** to apply your changes.
+Once you have completed all the fields, click **Launch** to apply your changes.
