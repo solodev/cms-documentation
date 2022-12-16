@@ -1,6 +1,6 @@
 # Add Contact
 
-Add a contact's personal details, including first name, last name, email, and phone number. Enter the values in each field and click **Submit**.
+Adding a contact in Solodev CMS is a simple process, and can be completed in minutes.
 
 ><img src="../../../images/add-contact.png" alt="add-contact" style="width: 45%; display: block"></a>
 
@@ -16,7 +16,3 @@ Phone Number | Enter the contact's number in the field (optional).
 ## Confirm
 
 Once you’ve completed all of the fields, click the blue **Submit** button and invited person will receive message to the email address.
-
-!!! Note:
-The contact addition process may take several minutes to complete after clicking the **Submit** button. Do not close or quit your browser during this process.
-!!!
