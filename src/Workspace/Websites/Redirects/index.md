@@ -21,7 +21,7 @@ Code editor| Use code to add redirects or other functions in the editor window.
 
 !!!Tip:
 In Solodev, you will need to structure your redirects to include the Redirect syntax, the specific redirect code, and the path that you wish to redirect from. Most importantly, you must include the absolute URL – including the https/http and www – for the target domain. 
-```
+``` js
 Redirect 301 /partners https://www.spacejet.org/customers/
 ```
 !!!
