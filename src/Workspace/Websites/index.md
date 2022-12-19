@@ -10,6 +10,10 @@ To modify a website, click on a thumbnail image or a website name from the table
 Use the search field in the upper right corner to locate or filter specific websites in your CMS.
 !!!
 
+**Name** | **Description** 
+:--- | ---
+<a href="/workspace/websites/add-website/">Add Website</a> | Create a new website in your CMS deployment.
+
 ## Permissions
 
 Add new members to your website, manage member roles, and remove members.
