@@ -1,6 +1,6 @@
-# Modify Contact
+# Modify
 
-You can modify contact details every time by clicking the button **modify**.
+Modify contact details every time by clicking the button **modify**.
 
 ><img src="../../../images/modify-contact.png" alt="modify-contact" style="width: 45%; display: block"></a>
 
@@ -18,8 +18,6 @@ Zip Code | Enter the zip code.
 Country/Region | Expand the list and choose a suitable country/region.
 Contact Type | Enter the contact type.
 Status | Enter the status.
-
---- 
 
 ## Confirm
 
