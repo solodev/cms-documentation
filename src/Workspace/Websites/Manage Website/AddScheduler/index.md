@@ -13,4 +13,8 @@ Schedulers can be used for two main purposes:
 :--- | ---
 Name | Add the scheduler name.
 Title | Add the scheduler title.
-Description | Add or change the scheduler description.
+Description | Add scheduler description.
+
+## Confirm
+
+Once you have completed all the fields, click **Submit** to apply your changes.

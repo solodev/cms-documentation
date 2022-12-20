@@ -13,4 +13,8 @@ A file group can be used to:
 :--- | ---
 Name | Add the group name.
 Title | Add the group title.
-Description | Add or change the group description.
+Description | Add the group description.
+
+## Confirm
+
+Once you have completed all the fields, click **Submit** to apply your changes.
