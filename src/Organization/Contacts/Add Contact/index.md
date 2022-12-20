@@ -15,4 +15,4 @@ Phone Number | Enter the contact's number in the field (optional).
 
 ## Confirm
 
-Once you’ve completed all of the fields, click the blue **Submit** button and invited person will receive message to the email address.
+Once you have completed all the fields, click **Submit** button to apply your changes and invited person will receive message to the email address.

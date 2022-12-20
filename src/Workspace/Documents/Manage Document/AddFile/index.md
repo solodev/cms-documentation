@@ -18,3 +18,7 @@ Solodev CMS supports four primary types of files:
 - Text - An ANSCII based file type such as .txt, .css, and .tpl.
 - Document - Word processing document, spreadsheet, PDF, etc.
 !!!
+
+## Confirm
+
+Once you have completed all the fields, click **Submit** to apply your changes.

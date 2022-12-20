@@ -7,13 +7,9 @@ Update a contact's password.
 **Name** | **Description** 
 :--- | ---
 New Password  | Enter the new password.
-Confirm Password | Re-write the new password.
+Confirm Password | Rewrite the new password.
 
 ## Confirm
 
-Once you’ve completed all of the fields, click the blue **Submit** button to apply your changes.
-
-
-
-
+Once you have completed all the fields, click **Submit** to apply your changes.
 

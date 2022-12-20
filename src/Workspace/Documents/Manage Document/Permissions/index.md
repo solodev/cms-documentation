@@ -23,3 +23,7 @@ A group or group member can be assigned one of four roles in Solodev CMS:
 - **Editor:** Gives a member the ability to view, create, edit, and publish.
 - **Admin:** Provides full editor control and management of group members.
 !!!
+
+## Confirm
+
+Once you have completed all the fields, click **Submit** to apply your changes.

@@ -6,4 +6,4 @@ Remove a contact from your CMS deployment. Make sure the contact name you want t
 
 ## Confirm
 
-Click blue **Submit** button to delete contact.
+Once you have completed all the fields, click **Submit** to apply your changes.
