@@ -24,8 +24,8 @@ Need help with a custom enterprise deployment with unique requirements? [Contact
 :--- | ---
 Lite | Ideal for small website projects, MVPs, or proof-of-concept apps. **Only available in the AWS Marketplace**. 
 Pro| A single-server deployment designed for business-level projects that require moderate scalability. 
-Enterprise | A cluster deployment with load balancing and auto scaling, designed for high availability websites and apps. 
-Kubernetes | A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. **Only available in the AWS Marketplace**.
+Enterprise | A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps. 
+Kubernetes | A container-based CMS deployment with an orchestration via Kubernetes and Amazon EKS. **Only available in the AWS Marketplace**.
 
 !!!Note:
 Solodev CMS is a cloud-first platform built exclusively for AWS. To launch a deployment from the Solodev Cloud or the AWS Marketplace, you or your organization will require an <a href="https://www.solodev.com/marketplace/aws">AWS Account</a>. 
@@ -39,7 +39,7 @@ Solodev CMS is a cloud-first platform built exclusively for AWS. To launch a dep
 Built with marketers in mind, Solodev CMS provides a low-code/no-code experience that makes it easy for content creators and teams to publish across channels in seconds. 
 
 :icon-pencil: **Designed for developers**<br>
-With full access to HTML, CSS, PHP, and more, developers can create custom advanced, mobile responsive websites and apps with robust functionality. 
+With full access to HTML, CSS, PHP, and more, developers can create custom advanced, mobile-responsive websites and apps with robust functionality. 
 
 :icon-paintbrush: **Create amazing websites**<br>
 There’s no limit to what you can build using Solodev. Make beautiful websites or individual pages with traditional template-based features. 

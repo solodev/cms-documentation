@@ -4,7 +4,7 @@
 
 ## Menu
 
-On the left there is a menu. There are 2 sections that you can select.
+On the left, there is a menu. There are 2 sections that you can select.
 
 - <a href="/support/tasks">Tasks</a>
 

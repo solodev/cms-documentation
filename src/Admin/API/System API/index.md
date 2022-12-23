@@ -1,10 +1,10 @@
 # System API
 
-System APIs unlocks data from core systems of record within an organization.
+System APIs unlock data from core systems of record within an organization.
 
 The System API page will display the Swagger-UI which takes an existing JSON or YAML document and creates interactive documentation.
 
-At the top you can check the server list.
+At the top, you can check the server list.
 
 ><img src="../../../images/systemapi.jpg" alt="systemapi" style="width: 100%; display: block"></a>
 

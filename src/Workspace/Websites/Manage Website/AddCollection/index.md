@@ -18,7 +18,7 @@ Manage website properties.
 
 **Element** | **Description**
 :--- | ---
-Page Template | Add page template by clicking browse button. Page templates are pages that can be re-used to build out more pages. Page template will serve as an index for Datatable Categories.
+Page Template | Add page template by clicking the browse button. Page templates are pages that can be reused to build out more pages. The page template will serve as an index for Datatable Categories.
 
 ## Confirm
 

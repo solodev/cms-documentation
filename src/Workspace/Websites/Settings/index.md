@@ -1,6 +1,6 @@
 # Settings
 
-Here you can access many settings in relation to a domain, CDN, and others.
+Here you can access many settings related to a domain, CDN, and others.
 
 ><img src="../../../images/settings9.jpg" alt="settings9" style="width: 30%; display: block"></a>
 
@@ -15,16 +15,16 @@ The Primary URL is the main URL that browsers will use to access your site.
 
 ## Domain Information
 
-In this section you can update domain information: website address(es), host settings and redirects. You can add and remove redirects by clicking orange **"+"** and blue **"-"** buttons respectively.
+In this section, you can update domain information: website address(es), host settings, and redirects. You can add and remove redirects by clicking the **"+"** and **"-"** buttons respectively.
 
 ><img src="../../../images/settings10.jpg" alt="settings10" style="width: 30%; display: block"></a>
 
 
 **Name** | **Description** 
 :--- | ---
-Staging website address(es)| To add staging website address put each address in the new line.
-Origin website address(es) | To add origin website address put each address in the new line.
-Host Settings | To change host settings enter the details in text box.
+Staging website address(es)| To add a staging website address put each address in the new line.
+Origin website address(es) | To add the origin website address put each address in the new line.
+Host Settings | To change host settings enter the details in the text box.
 
 
 
@@ -37,10 +37,10 @@ A sitemap is a file where you provide information about the pages and other file
 
 **Name** | **Description** 
 :--- | ---
-Generate Sitemap | To generate a sitemap of website click **Generate Sitemap** button.
+Generate Sitemap | To generate a sitemap of the website click the **Generate Sitemap** button.
 
 !!!Note:
-The output process may take several minutes to complete after clicking **Generate Sitemap** button. Do not close or quit your browser duing this process.
+The output process may take several minutes to complete after clicking the **Generate Sitemap** button. Do not close or quit your browser during this process.
 !!!
 
 
@@ -71,10 +71,10 @@ Secure Sockets Layer (SSL) is a technology for establishing an encrypted link be
 **Name** | **Description** 
 :--- | ---
 Sitewide SSL (Canonical) | Mark this checkbox to force an  HTTPS connection to all pages.
-SSL website address | This is the domain name that establishes an HTTPS connection to your website. To add it enter text in text box.
-SSL Certificate | SSL certificates create a foundation of trust by establishing a secure connection. To add SSL certificate, enter text in text box.
-SSL Key | The SSL/TLS protocol uses a pair of keys – one private, one public – to authenticate, secure and manage secure connections. These keys are a linked pair of text files and are created together as a pair when you create your Certificate Signing Request (CSR). SSL works by making one key of the pair (the public key) known to the outside world, while the other (the private key) remains a secret only you know. To add SSL key, enter text in text box.
-SSL Chain Certificate | There are two types of certificate authorities (CAs): root CAs and intermediate CAs. For an SSL certificate to be trusted, that certificate must have been issued by a CA that’s included in the trusted store of the device that’s connecting. If the certificate wasn’t issued by a trusted CA, the connecting device (eg. a web browser) checks to see if the certificate of the issuing CA was issued by a trusted CA. It continues checking until either a trusted CA is found (at which point a trusted, secure connection will be established), or no trusted CA can be found (at which point the device will usually display an error). The list of SSL certificates, from the root certificate to the end-user certificate, represents the SSL certificate chain. To add SSL chain certificate, enter text in text box.
+SSL website address | This is the domain name that establishes an HTTPS connection to your website. To add it enter text in the text box.
+SSL Certificate | SSL certificates create a foundation of trust by establishing a secure connection. To add an SSL certificate, enter text in the text box.
+SSL Key | The SSL/TLS protocol uses a pair of keys – one private, one public – to authenticate, secure, and manage secure connections. These keys are a linked pair of text files and are created together as a pair when you create your Certificate Signing Request (CSR). SSL works by making one key of the pair (the public key) known to the outside world, while the other (the private key) remains a secret only you know. To add the SSL key, enter text in the text box.
+SSL Chain Certificate | There are two types of certificate authorities (CAs): root CAs and intermediate CAs. For an SSL certificate to be trusted, that certificate must have been issued by a CA that’s included in the trusted store of the device that’s connecting. If the certificate wasn’t issued by a trusted CA, the connecting device (eg. a web browser) checks to see if the certificate of the issuing CA was issued by a trusted CA. It continues checking until either a trusted CA is found (at which point a trusted, secure connection will be established), or no trusted CA can be found (at which point the device will usually display an error). The list of SSL certificates, from the root certificate to the end-user certificate, represents the SSL certificate chain. To add an SSL chain certificate, enter text in the text box.
 
 ---
 
@@ -88,7 +88,7 @@ Payment Information is moved into <a href="/admin/settings/config/">Config</a>.
 
 ## Advanced
 
-In this section you can manage advances settings.
+In this section, you can manage advanced settings.
 
 ><img src="../../../images/settings14.jpg" alt="settings14" style="width: 40%; display: block"></a>
 
@@ -96,25 +96,25 @@ In this section you can manage advances settings.
 
 **Name** | **Description** 
 :--- | ---
-Timezone | To change timezone, expand the list and choose the desired timezone.
-Document Repository ID | To add ID of the document repository, enter ID in text box.
-Calendar ID to connect to STMLs | To connect your calendar to STMLs, you need to enter calendar ID.
-Custom Shortcodes File | Shortcodes act as shortcuts that allow you to embed elements into a post or page quickly. Add shortcodes file by using **Add Custom Shortcodes File** option.
-Export | Click button **Export** to export website package.
+Timezone | To change the timezone, expand the list and choose the desired timezone.
+Document Repository ID | To add the ID of the document repository, enter the ID in the text box.
+Calendar ID to connect to STMLs | To connect your calendar to STMLs, you need to enter your calendar ID.
+Custom Shortcodes File | Shortcodes act as shortcuts that allow you to embed elements into a post or page quickly. Add shortcodes file by using the **Add Custom Shortcodes File** option.
+Export | Click the **Export** button to export the website package.
 Delete | To remove your website, type DELETE in all caps into the field and click the red **Delete** button.
 
 
 
 ### Export
 
-Here you can find more information about option to export website package.
+Here you can find more information about the option to export the website package.
 
 
 
 **Name** | **Description** 
 :--- | ---
 Include manager entries in export | Mark this option if you want to include manager entries in export.
-Continue Export | To export package click blue **Continue Export** button.
+Continue Export | To export the package click **Continue Export** button.
 
 ---
 

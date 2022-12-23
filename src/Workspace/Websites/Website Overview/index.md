@@ -1,6 +1,6 @@
 # Website Overview
 
-Access a specific website in your CMS to update details, manage settings, apply redirects, and modify permissions for members. You can also view and access the most recent files you have worked on in your website. 
+Access a specific website in your CMS to update details, manage settings, apply redirects, and modify permissions for members. You can also view and access the most recent files you have worked on. 
 
 ><img src="../../../images/website_overview_1.jpg" alt="website-overview-image" style="width: 100%; display: block"></a>
 
@@ -17,7 +17,7 @@ You can quickly link to your live website in another browser window by clicking 
 
 ## Recent Files
 
-From the website overview, you can quickly link to the most recent pages, templates files, documents, or images you have worked on in your website. 
+From the website overview, you can quickly link to the most recent pages, template files, documents, or images you have worked on. 
 
 To access a specific file, click on a row in the **Recent Files** table. 
 

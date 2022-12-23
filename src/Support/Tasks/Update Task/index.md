@@ -1,6 +1,6 @@
 # Update Task
 
-Communicate with task members, change a task status, and apply the number of hours spent to each update.
+Communicate with task members, change task status, and apply the number of hours spent to each update.
 
 ><img src="../../../images/update_task.png" alt="update_tasks" style="width: 55%; display: block"></a>
 
@@ -29,5 +29,5 @@ When selecting a status from the menu, you can choose from the options below. A 
 Once you have entered your question or update in the field, changed the task status, and applied the hours spent, click **Submit**. 
 
 !!!Note:
-You can ask a question or post an update without changing status or adding hours spent. Each item can be modified individually. 
+You can ask a question or post an update without changing the status or adding hours spent. Each item can be modified individually. 
 !!!

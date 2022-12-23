@@ -18,14 +18,14 @@ Control how folders work with websites.
 
 **Element** | **Description**
 :--- | ---
-Menu Name | Add or change the folder name in a menu navigation.
+Menu Name | Add or change the folder name in the menu navigation.
 Rank | Add or change the rank that orders the folder when displayed in the menu navigation. **Lowest number listed first.**
-Layout | Add or change the layout. Layout is predefined templates. The way the contents of a folder will be displayed in the navigation is based on it.
+Layout | Add or change the layout. The layout is predefined templates. The way the contents of a folder will be displayed in the navigation is based on it.
 Levels | Add or change levels. The level says how deep the elements in the folder will be displayed in the navigation.
 Datable Category Group ID | Select datable category group ID. This is the ID for a group of categories.
 Datable Category ID | Add or change datable category ID. This is the ID for a specific category.
-Upload Image | Add an image to the folder or change it. It allows to query the image associated with the folder.
-Include in Website Navigation | Mark this option to structure folder to display in navigation menus.
+Upload Image | Add an image to the folder or change it. It allows querying the image associated with the folder.
+Include in Website Navigation | Mark this option to structure the folder to display in navigation menus.
 Restrict Access in Website to Authorized Users | Mark this option to protect content with a password.
 
 ## Advanced

@@ -1,6 +1,6 @@
 # Import
 
-Here you can import entry. To do that you need to prepare file in .CSV format. To have database clean, mark option "Empty DB".
+Here you can import entries. To do that you need to prepare the file in .CSV format. To have the database clean, mark the option "Empty DB".
 
 ><img src="../../../../images/module-overview3.jpg" alt="module-overview3" style="width: 50%; display: block"></a>
 

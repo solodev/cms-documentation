@@ -13,7 +13,7 @@ CMS | Choose a CMS for your website. Select from options that are purchased and 
 Theme (optional) | Add a theme package to your website. Select from options that are purchased and ready to install, or you can add a new theme from the Solodev Marketplace.
 
 !!!Tip:
-When adding a new domain, it must be a valid URL such as www.yourdomain.com. Prior to adding a website in Solodev, point your DNS to this server. 
+When adding a new domain, it must be a valid URL such as www.yourdomain.com. Before adding a website in Solodev, point your DNS to this server. 
 !!!
 
 ---
@@ -33,8 +33,8 @@ While most themes in the Solodev Marketplace will provide a similar experience, 
 
 **Name** | **Description** 
 :--- | ---
-Name | Choose the name that will appear in your website theme, such as the title of your business or organization.
-Logo | Upload your own logo. (Note: This will replace the default logo in your theme package.)
+Name | Choose the name that will appear in your website themes, such as the title of your business or organization.
+Logo | Upload your logo. (Note: This will replace the default logo in your theme package.)
 Colors | Use the color pickers to select three custom colors for your theme, including a primary, secondary, and call-to-action color. 
 
 ---

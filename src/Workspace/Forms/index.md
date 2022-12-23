@@ -1,15 +1,15 @@
 # Forms
 
-Solodev developers can create a new form module that can be edited using Solodev's dynamic drag and drop graphical user interface known as Forms. 
+Solodev developers can create a new form module that can be edited using Solodev's dynamic drag-and-drop graphical user interface known as Forms. 
 
 Solodev Forms are used for two main purposes: 
 
-- Website Forms – these are forms found on the front-end of a website, the most common being a “Contact Us” form that captures site visitors’ data and sends it to its Solodev Module. 
+- Website Forms – these are forms found on the front end of a website, the most common being a “Contact Us” form that captures site visitors’ data and sends it to its Solodev Module. 
 - Module Forms – these are forms found on the back-end of Solodev to add, edit and delete module entries for display on user-facing websites. 
 
-To find a specific form enter it's name into the search field.
+To find a specific form enter its name into the search field.
 
-To enter and modify specific form click the form name.
+To enter and modify a specific form click the form name.
 
 ><img src="../../../images/forms.jpg" alt="forms" style="width: 100%; display: block"></a>
 
@@ -36,7 +36,7 @@ A group or group member can be assigned one of four roles in Solodev CMS:
 - **View:** Allows a member to see items and content. 
 - **Stager:** Enables a member to create or modify content but not publish.
 - **Editor:** Gives a member the ability to view, create, edit, and publish.
-- **Admin:** Provides full editor control and management of group members.
+- **Admin:** Provides full editorial control and management of group members.
 !!!
 
 ## Confirm

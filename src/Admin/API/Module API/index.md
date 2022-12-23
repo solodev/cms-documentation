@@ -4,7 +4,7 @@ Module API unlocks data from particular modules within an organization.
 
 The Module API page will display the Swagger-UI which takes an existing JSON or YAML document and creates interactive documentation.
 
-At the top you can check the server list.
+At the top, you can check the server list.
 
 ><img src="../../../images/moduleapi.jpg" alt="moduleapi" style="width: 100%; display: block"></a>
 

@@ -1,6 +1,6 @@
 # Modify User
 
-Add a user's personal details, including first name, last name, title, company, and timezone. Enter the values in each field and click **Submit**.
+Add a user's details, including first name, last name, title, company, and timezone. Enter the values in each field and click **Submit**.
 
 ><img src="../../../images/modify-user.jpg" alt="modify" style="width: 40%; display: block"></a>
 
@@ -49,5 +49,5 @@ Login as another user in your CMS to modify their profile and access apps and fo
 ><img src="../../../images/modify4.png" alt="modify4" style="width: 35%; display: block"></a>
 
 !!! Note:
-Once you have logged in as another user, you will need to log out before logging back in with your own profile.
+Once you have logged in as another user, you will need to log out before logging back in with your profile.
 !!!

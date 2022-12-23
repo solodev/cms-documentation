@@ -1,6 +1,6 @@
 # Import
 
-Here you can import entry. To do that you need to prepare file in .CSV format.
+Here you can import entries. To do that you need to prepare the file in .CSV format.
 
 ><img src="../../../../images/module-overview3.jpg" alt="module-overview3" style="width: 50%; display: block"></a>
 
