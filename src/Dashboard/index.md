@@ -1,6 +1,6 @@
 # Dashboard
 
-The Dashboard is the home screen of your CMS. From here, you can quickly connect to your websites and recent work, manage users and groups, track tasks, and more. You can also access more advanced admin features, including the CMS file system and API.
+The Dashboard is the home screen of your CMS. From here, you can quickly connect to your websites and recent work, manage users and groups, track tasks, and more. You can also access advanced admin features, including the CMS file system and API.
 
 ><img src="../../../images/updated_db.png" alt="dashboard" style="width: 100%; display: block"></a>
 
@@ -9,10 +9,10 @@ The Dashboard is the home screen of your CMS. From here, you can quickly connect
 **Name** | **Description** 
 :--- | ---
 <a href="/workspace/">Workspace</a> | Build and manage websites, access modules, build custom forms, and store documents in your CMS. 
-<a href="/organization/">Organization</a> | Manage users, create groups, set permissions, and create contact lists. 
-<a href="/workspace/modules">Modules</a> | Here you can create and manage modules.
+<a href="/organization/">Organization</a> | Manage users, create groups, set permissions, and build contact lists. 
+<a href="/workspace/modules">Modules</a> | Create and manage website modules.
 <a href="/support/">Support</a> | View and update your team’s tasks across websites and access Solodev documentation.
-<a href="/admin/">Admin</a> | Manage your CMS settings for apps and workflows, set permissions, access the CMS file system and utilize the Solodev API.
+<a href="/admin/">Admin</a> | Manage your CMS settings for apps and workflows, set permissions, access the CMS file system, and utilize the Solodev API.
 
 !!! Tip:
 No matter where you are in the CMS, you can always return to your Dashboard by clicking your organization’s logo in the upper left corner of the screen. 
@@ -39,7 +39,7 @@ Click on the thumbnail image or default logo to begin editing your website in th
 
 From the Dashboard, you can quickly link to the most recent website pages, template files, documents, or images you have worked on in your CMS deployment. 
 
-To access a specific file, click on a row in the Recents table. 
+To access a specific file, click on a row in the **Recents** table. 
 
 ><img src="../../../images/updated_db3.png" alt="recents" style="width: 100%; display: block"></a>
 
@@ -61,4 +61,4 @@ You can press the **Enter** button or click the blue button at the right side of
 
 Use the links in the lower left corner of your Dashboard to manage your profile or log out of Solodev CMS.  
 
-><img src="../../../images/dashboard-profile.png" alt="dashboard-profile" style="width: 100%; display: block"></a>
+><img src="../../../images/dashboard-profile.png" alt="dashboard-profile" style="width: 30%; display: block"></a>

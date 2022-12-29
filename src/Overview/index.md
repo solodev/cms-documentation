@@ -12,15 +12,14 @@ To access the Solodev documentation, click on the **Help** link under **Support*
 You can also view documentation for a specific screen anywhere in Solodev by clicking the **help center icon** in the lower right of each screen. 
 
 !!! Note
-Can’t find what you need in our documentation? If you require additional technical assistance, please refer to our **Support** options in the **Welcome** section. 
+Can’t find what you need in our documentation? If you require additional technical assistance, please refer to our <a href="https://cms.solodev.net/#support">Support</a> options in the <a href="https://cms.solodev.net/">Welcome</a> section. 
 !!!
-
 
 **Name** | **Description** 
 :--- | ---
 Navigation | Use the left navigation to browse documentation based on the same tree structure as the CMS. Click each section to view its available subsections.
 Filter | Refine your search of navigation sections and subsections.
-Version | Quickly confirm the version number of the Solodev CMS in the upper left corner. 
+Version | Quickly confirm the version number of your Solodev CMS in the upper left corner. 
 Contents | Access the various content sections on each page by using the right-hand navigation.
 Search | Use the search field in the upper right corner to locate specific articles and topics. 
 
