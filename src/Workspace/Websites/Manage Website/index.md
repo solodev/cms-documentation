@@ -2,7 +2,7 @@
 
 After creating the website, manage it from the website dashboard.
 
-To <a href="/workspace/documents/manage-filefolder/">manage file/folder</a> mark the item, that you are interested in.  
+To <a href="/workspace/documents/manage-filefolder/">manage file/folder</a>, mark the item that you are interested in.  
 
 Find the website content by using the search field at the top.
 

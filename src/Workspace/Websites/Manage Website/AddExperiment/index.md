@@ -7,7 +7,7 @@ A/B Testing is the most essential tool marketers can use to target visitors by t
 **Element** | **Description**
 :--- | ---
 Name | Add the experiment name.
-Google Experiment ID | Send conversion data to google optimize, which is integrated with google analytics, for granular tracking. To leverage Google Optimize, create a new experiment that mimics the variations configured in Solodev and place the Google Optimize key in the field.
+Google Experiment ID | Send conversion data to Google Optimize, which is integrated with Google Analytics, for granular tracking. To leverage Google Optimize, create a new experiment that mimics the variations configured in Solodev and place the Google Optimize key in the field.
  
 ## Confirm
 
