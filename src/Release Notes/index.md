@@ -35,6 +35,7 @@ Upgrades include both Okta SSO and Salesforce API integrations, as well as impro
 -	Updated “get data” call on datatables, enabling legacy detail templates from inserted datatables to still function
 -	Updated Zencoder with “content-type” header check
 
+---
 
 ### v9.6
 
@@ -60,6 +61,8 @@ Noteworthy upgrades include expanded honeypot capabilities for added spam protec
 - Fixed MongoDB code so it correctly pulls in module fields when the "module_id" is included in the "$and" portion of a query
 - Improved package importer, ensuring that enhanced control variables are passed to new objects
 - Deployed general JavaScript improvements that were impacting user experience
+
+---
 
 ### v9.5
 
@@ -100,6 +103,7 @@ Noteworthy upgrades include fixes to the MySQL 8 database columns and code impro
 -	Updated “filemanager” table scrolling
 -	Updated “ckeditor” files
 
+---
 ### v9.4
 
 Published in Q2 2021, Solodev CMS 9.4 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev Content Management System.
@@ -135,6 +139,7 @@ From a feature perspective, 9.4 adds Captcha enhancements and a variety of UI up
 -	CMS-1934 - Check permissions being added when a normal user adds a folder
 -	CMS-1728 - Added "Organization Name" field to Config view and settings.php so that Intercom users are automatically associated with a company
 
+---
 ### v9.3
 
 Solodev CMS 9.3 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev platform. This version of Solodev CMS includes a greater integration with Solodev Cloud, increased support for native AWS services such as Redis Clusters and Backup Manager, and improved image/thumbnail generation. Additional features include a new Collaboration view that improves upon the existing Feedback task system. Bug fixes include better image/document upload handling and escaping automatically generated Meta Descriptions.
@@ -185,6 +190,7 @@ Solodev CMS 9.3 contains new features, updates, bug fixes, and user interface (U
 -	CMS-1958 - Next and Previous module entry arrows produce app errors if user is logged out
 -	CMS-1969 - Mailer_Manager isset checks for smtp_username and smtp_password but not smtp_host
 
+---
 ### v9.2
 
 Solodev CMS 9.2 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev platform. This version of Solodev CMS includes a native Swagger API documentation and API Token system to allow end users the ability to control CMS functionality through a secure REST API. Additional features and improvements include: integration capability with Amazon Simple Email Service (SES), a system-wide search on the CMS dashboard, a new "SpaceJet" website theme, better logging/streaming during Website and App installations, as well as an improved upload workflow for documents and images within a given WYSIWYG editor. Bug fixes include better support for Windows environments, various route/Slim errors, and improved RSVP functionality.
@@ -258,6 +264,7 @@ Solodev CMS 9.2 contains new features, updates, bug fixes, and user interface (U
 -	CMS-1904 - The "Hello World" App displays PHP warnings and errors
 -	CMS-1910 - Typo in API Swagger
 
+---
 ### v9.1
 Solodev CMS 9.1 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev platform. This version of Solodev primarily focused on improvements within the Solodev Platform itself including improved User and Group views, additions to the package exporter, the addition of product "Tours", and support for XML files. New features include a completely new "file browser" when adding images to module entries or via the content WYSIWYG as well as a horizontally resizable left navigation when viewing the file tree. Bug fixes include fixing JavaScript errors, fixing errors in Internet Explorer, and improved performance with module grids.
 
@@ -369,6 +376,7 @@ Solodev CMS 9.1 contains new features, updates, bug fixes, and user interface (U
 -	CMS-1725 - Uploading a document through the WYSIWYG "Link -> Upload" button returns "Incorrect server response".
 -	CMS-1738 - Certain actions cause the tabs to move up on the page, effectively hiding them from view.
 
+---
 ### v9.0
 
 Solodev CMS 9.0 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev platform. This version of Solodev includes a comprehensive re-imagining of the Solodev backend with updated views, templates, and styles. A streamlined left nav allows users to quickly access common components such as Managers and Users. Table grids have been given a styling overhaul as have action buttons so that users clearly see what actions are available on a given view. All dependencies such as Boostrap and jQuery have been updated to the latest stable versions. New password policies are now in place to encourage more secure user passwords and sessions. Bug enhancements include fixes to the package importing process and dependency script errors.
@@ -461,6 +469,7 @@ Solodev CMS 9.0 contains new features, updates, bug fixes, and user interface (U
 -	SCMS-1244 - "isPageTemplate" field is not exporting to config.json.
 -	SCMS-1268 - "fileparse" URLs are not exporting and dynamically referencing their new location upon install on new instance.
 
+---
 ### v8.9
 Solodev CMS 8.9 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev platform. The primary purpose of the the version was to introduce the Beta version of Solodev 9.0, prepare the underlying app for this upcoming release, and incorporate a number of improvements/bug fixes to better support the Verion 8 lifecycle.
 
@@ -490,6 +499,7 @@ SCMS-548 - Incorporate BETA version of upcoming Solodev.
 -	SCMS-640 - Docker emails not sending.
 -	SCMS-650 - Codemirror find (CTRL + F) does not work.
 
+---
 ### v8.8
 Solodev CMS 8.8 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev platform. The latest version of Solodev introduces several new initiatives including support for PHP 7 and the integration with NPM scripts, primarily utilized so that websites can be constructed as packages with all styles and JS files dynamically compiled. The capability to Import/Export packages or folders has also been comprehensively overhauled so as to include support for “package variables”, a package importing wizard, and support for user permissions within a package. Additionally, Solodev 8.8 introduces specific “Branding” and “App” components so that organizations have the capability to create a custom backend user experienced tailored uniquely to their own set of brand styles. Several accessibility enhancements have also been included, particularly in relation to the WYSIWYG editor and its raw HTML output. Bug fixes focused on character encoding, support for older versions of PHP, and patches to existing shortcodes. Enjoy!
 
@@ -540,6 +550,7 @@ Solodev CMS 8.8 contains new features, updates, bug fixes, and user interface (U
 -	Commit 008052c: Update to validation errors for API.
 -	Commit 0095a6f: Patch update to pager that was missing some closing tags.
 
+---
 ### v8.5
 Solodev CMS 8.5 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev platform. Solodev CMS 8.5 introduces a new and improved business theme (WebCorpCo), redesign of calendars and datatables to make their creation and management easier, an updated API to expose module data for use in third party applications, and a series of platform-wide bug fixes. The release of Solodev CMS 8.5 makes the use of short codes more intuitive and the creation of modules using calendars and datatables easier and more powerful for non-technical administrators. The release of Solodev CMS 8.5 makes the creation, modification, and management of web content in Solodev easier for developers, marketers, and administrators alike and incorporates feedback from the entire Solodev community. Enjoy!
 
@@ -595,6 +606,7 @@ Solodev CMS 8.5 contains new features, updates, bug fixes, and user interface (U
 -	SCMS-517 DONE - Calendars created without template (via table schema) are overwritten by dropdown. 
 -	SCMS-518 DONE - Calendar -> Activate "Enable Attachments" if Type = Photo Gallery.
 
+---
 ### v8.4
 Solodev CMS 8.4 boasts a series of new features, updates, bug fixes, and User Interface (UI) improvements to the Solodev platform. Solodev CMS 8.4 introduces an automated theme builder, CodeMirror implementation to make writing code in Solodev easier, and a series of platform-wide bug fixes. The release of Solodev CMS 8.4 will make web development on the Solodev CMS platform even easier for content authors, marketers, designers, and developers alike.
 
@@ -639,6 +651,7 @@ Solodev CMS 8.4 boasts a series of new features, updates, bug fixes, and User In
 -	SCMS-406 DONE - Improved UI on Alias Property.
 -	SCMS-414 DONE - Added Improved Validation to Backend Login.
 
+---
 ### v8.3
 Solodev CMS 8.3. boasts some of the biggest improvements made to the Solodev Platform including but not limited to themes, also known as packages, a complete UI/UX redesign, inline editing to make content edits on the fly, the ability to turn web pages into reusable templates, an all new dashboard to serve as your command center, in-depth documentation, 24/7 support via Zendesk, an HTML5 friendly filesystem, and an entirely new shortcode system to make web development on the Solodev CMS platform even easier for content authors, marketers, designers, and developers.
 
