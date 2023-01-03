@@ -2,7 +2,7 @@
 
 Branding displays your logo and custom CSS.
 
-><img src="../../../images/branding.jpg" alt="branding" style="width: 100%; display: block"></a>
+<img src="../../../images/branding.jpg" alt="branding" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -16,7 +16,7 @@ Recommended size: 360px x 360px.
 
 Here you can modify the look and feel of your backend experience. 
 
-><img src="../../../images/branding2.jpg" alt="branding2" style="width: 100%; display: block"></a>
+<img src="../../../images/branding2.jpg" alt="branding2" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -28,7 +28,7 @@ Custom CSS | Type custom CSS code.
 
 Here you can update what is first seen when logging into CMS.
 
-><img src="../../../images/branding3.jpg" alt="branding3" style="width: 100%; display: block"></a>
+<img src="../../../images/branding3.jpg" alt="branding3" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

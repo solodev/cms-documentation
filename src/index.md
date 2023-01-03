@@ -2,7 +2,7 @@
 
 Build amazing websites, apps, and digital experiences in the AWS cloud with Solodev CMS!
 
-><img src="../../../images/solo_welcome.png" alt="solo_welcome.png" style="width: 100%; display: block"></a>
+<img src="../../../images/solo_welcome.png" alt="solo_welcome.png" style="width: 100%; display: block"></a>
 
 Solodev is an enterprise content management (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud – powered by Amazon Web Services (AWS). 
 
@@ -12,7 +12,7 @@ Solodev is an enterprise content management (CMS) and customer experience platfo
 
 Solodev CMS can be deployed in minutes through the <a href="https://www.solodev.com/marketplace">Solodev Marketplace</a>  and is available in either <a href="https://www.solodev.com/marketplace/solodev-cms-pro">Pro</a> or <a href="https://www.solodev.com/marketplace/solodev-cms-enterprise">Enterprise</a> editions, with Cloud and Static versions coming soon. 
 
-You can also subscribe to Solodev CMS through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b">AWS Marketplace</a> in Lite, Pro, or Enterprise editions, as well as a container option for Kubernetes.
+You can also subscribe to Solodev CMS through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b" target="_blank" rel="noopener noreferrer">AWS Marketplace</a> in Lite, Pro, or Enterprise editions, as well as a container option for Kubernetes.
 
 !!!Tip:
 Need help with a custom enterprise deployment with unique requirements? [Contact our professional services team](mailto:sales@solodev.com).

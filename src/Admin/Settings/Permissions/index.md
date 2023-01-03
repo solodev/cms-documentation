@@ -4,7 +4,7 @@ Permissions are a powerful tool that allows you to manage access for users and g
 
 On the permissions page, you have the list of users and groups with roles assigned to them. You can also search for users by using the search field at the top. 
 
-><img src="../../../images/adminpermissions.jpg" alt="adminpermissions" style="width: 100%; display: block"></a>
+<img src="../../../images/adminpermissions.jpg" alt="adminpermissions" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

@@ -2,7 +2,7 @@
 
 In the workflow page you are able to manage and add your workflow. You can also filter workflows by typing workflow name that you want to find.
 
-><img src="../../../../images/workflow.jpg" alt="workflow" style="width: 100%; display: block"></a>
+<img src="../../../../images/workflow.jpg" alt="workflow" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

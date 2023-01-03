@@ -2,7 +2,7 @@
 
 The Dashboard is the home screen of your CMS. From here, you can quickly connect to your websites and recent work, manage users and groups, track tasks, and more. You can also access advanced admin features, including the CMS file system and API.
 
-><img src="../../../images/updated_db.png" alt="dashboard" style="width: 100%; display: block"></a>
+<img src="../../../images/updated_db.png" alt="dashboard" style="width: 100%; display: block"></a>
 
 ---
 
@@ -24,7 +24,7 @@ No matter where you are in the CMS, you can always return to your Dashboard by c
 
 You can access any of your active websites by using the cards on the main Dashboard. 
 
-><img src="../../../images/updated_db2.png" alt="websites" style="width: 100%; display: block"></a>
+<img src="../../../images/updated_db2.png" alt="websites" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -41,7 +41,7 @@ From the Dashboard, you can quickly link to the most recent website pages, templ
 
 To access a specific file, click on a row in the **Recents** table. 
 
-><img src="../../../images/updated_db3.png" alt="recents" style="width: 100%; display: block"></a>
+<img src="../../../images/updated_db3.png" alt="recents" style="width: 100%; display: block"></a>
 
 ---
 
@@ -49,7 +49,7 @@ To access a specific file, click on a row in the **Recents** table.
 
 Locate specific files in your CMS by using the Search bar at the top of the Dashboard. Browse for .html files, PDF documents, blog posts, images, and more. 
 
-><img src="../../../images/updated_db4.png" alt="search" style="width: 100%; display: block"></a>
+<img src="../../../images/updated_db4.png" alt="search" style="width: 100%; display: block"></a>
 
 !!! Note:
 You can press the **Enter** button or click the blue button at the right side of the Search field. 
@@ -61,4 +61,4 @@ You can press the **Enter** button or click the blue button at the right side of
 
 Use the links in the lower left corner of your Dashboard to manage your profile or log out of Solodev CMS.  
 
-><img src="../../../images/dashboard-profile.png" alt="dashboard-profile" style="width: 30%; display: block"></a>
+<img src="../../../images/dashboard-profile.png" alt="dashboard-profile" style="width: 30%; display: block"></a>

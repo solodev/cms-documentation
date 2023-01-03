@@ -2,7 +2,7 @@
 
 Here you can manage workflow.
 
-><img src="../../../../images/form-overview9.jpg" alt="form-overview9" style="width: 70%; display: block"></a>
+<img src="../../../../images/form-overview9.jpg" alt="form-overview9" style="width: 70%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -14,7 +14,7 @@ Delete | Choose this option to delete the workflow.
 
 Here you can add WorkFlow.
 
-><img src="../../../../images/form-overview10.jpg" alt="form-overview10" style="width: 70%; display: block"></a>
+<img src="../../../../images/form-overview10.jpg" alt="form-overview10" style="width: 70%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

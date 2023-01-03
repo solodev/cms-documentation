@@ -2,7 +2,7 @@
 
 Adding an app in Solodev CMS is a simple process, and can be completed in minutes.
 
-><img src="../../../../images/apps2.jpg" alt="apps2" style="width: 50%; display: block"></a>
+<img src="../../../../images/apps2.jpg" alt="apps2" style="width: 50%; display: block"></a>
 
 
 **Name** | **Description** 

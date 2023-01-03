@@ -4,7 +4,7 @@ From the main Websites dashboard, you can view and access the existing websites 
 
 To modify a website, click on a thumbnail image or a website name from the table. This will link you to the website’s main CMS dashboard. 
 
-><img src="../../../images/websites.jpg" alt="websites" style="width: 100%; display: block"></a>
+<img src="../../../images/websites.jpg" alt="websites" style="width: 100%; display: block"></a>
 
 !!!TIP:
 Use the search field in the upper right corner to locate or filter specific websites in your CMS.
@@ -18,7 +18,7 @@ Use the search field in the upper right corner to locate or filter specific webs
 
 Add new members to your website, manage member roles, and remove members.
 
-><img src="../../../images/permissions2.jpg" alt="permissions2" style="width: 30%; display: block"></a>
+<img src="../../../images/permissions2.jpg" alt="permissions2" style="width: 30%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

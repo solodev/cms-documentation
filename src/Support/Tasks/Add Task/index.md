@@ -2,7 +2,7 @@
 
 Create a new task, assign members to the task, and schedule a due date. 
 
-><img src="../../../images/add-task.png" alt="add-task" style="width: 75%; display: block"></a>
+<img src="../../../images/add-task.png" alt="add-task" style="width: 75%; display: block"></a>
 --- 
 
 **Name** | **Description** 
@@ -19,7 +19,7 @@ To add or manage tasks while logged into your CMS deployment, click on the “pe
 ## Task Detail
 Name your task, assign members, and add a due date.
 
-><img src="../../../images/add-task2.png" alt="add-task2" style="width: 75%; display: block"></a>
+<img src="../../../images/add-task2.png" alt="add-task2" style="width: 75%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

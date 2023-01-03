@@ -2,7 +2,7 @@
 
 Add a user's details, including first name, last name, title, company, and timezone. Enter the values in each field and click **Submit**.
 
-><img src="../../../images/modify-user.jpg" alt="modify" style="width: 40%; display: block"></a>
+<img src="../../../images/modify-user.jpg" alt="modify" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -18,7 +18,7 @@ Timezone | Enter the user’s timezone in the field (optional).
 
 Remove a user from your CMS.
 
-><img src="../../../images/modify2.png" alt="modify2" style="width: 45%; display: block"></a>
+<img src="../../../images/modify2.png" alt="modify2" style="width: 45%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -34,7 +34,7 @@ Deleting a user is permanent and cannot be undone.
 
 Send an automatic email to a user that allows them to reset their password and disable their current password.
 
-><img src="../../../images/modify3.png" alt="modify3" style="width: 45%; display: block"></a>
+<img src="../../../images/modify3.png" alt="modify3" style="width: 45%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -46,7 +46,7 @@ Reset Password  | In the text field, type the word **RESET** in all caps and cli
 
 Login as another user in your CMS to modify their profile and access apps and folders using their ID. On the user’s screen, click **Login as User**. Your profile and the order of your screen options will automatically change.
 
-><img src="../../../images/modify4.png" alt="modify4" style="width: 35%; display: block"></a>
+<img src="../../../images/modify4.png" alt="modify4" style="width: 35%; display: block"></a>
 
 !!! Note:
 Once you have logged in as another user, you will need to log out before logging back in with your profile.

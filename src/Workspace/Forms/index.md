@@ -11,14 +11,14 @@ To find a specific form enter its name into the search field.
 
 To enter and modify a specific form click the form name.
 
-><img src="../../../images/forms.jpg" alt="forms" style="width: 100%; display: block"></a>
+<img src="../../../images/forms.jpg" alt="forms" style="width: 100%; display: block"></a>
 
 ## Member Permissions
 
 Click on any of the members next to a module name to add or remove module members and manage their roles. 
 
 
-><img src="../../../images/permissions2.png" alt="permissions2" style="width: 30%; display: block"></a>
+<img src="../../../images/permissions2.png" alt="permissions2" style="width: 30%; display: block"></a>
 
 
 

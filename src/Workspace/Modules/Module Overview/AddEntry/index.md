@@ -3,7 +3,7 @@
 
 Adding an entry is a simple process and can be completed in minutes.
 
-><img src="../../../../images/module-overview2.jpg" alt="module-overview2" style="width: 70%; display: block"></a>
+<img src="../../../../images/module-overview2.jpg" alt="module-overview2" style="width: 70%; display: block"></a>
 
 
 

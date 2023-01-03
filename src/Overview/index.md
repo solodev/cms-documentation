@@ -4,7 +4,7 @@ The Solodev CMS documentation contains technical information, detailed explanati
 
 Our documentation is clearly organized and corresponds directly to the navigation tree in the CMS – making it easy to find answers based on each screen within the app. There are also links to other relevant articles and additional resources located throughout the documentation. 
 
-><img src="../../../images/overviewmain.png" alt="Overview" style="width: 100%; display: block"></a>
+<img src="../../../images/overviewmain.png" alt="Overview" style="width: 100%; display: block"></a>
 
 
 To access the Solodev documentation, click on the **Help** link under **Support** in the left navigation of your CMS Dashboard. 

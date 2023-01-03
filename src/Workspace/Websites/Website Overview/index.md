@@ -2,7 +2,7 @@
 
 Access a specific website in your CMS to update details, manage settings, apply redirects, and modify permissions for members. You can also view and access the most recent files you have worked on. 
 
-><img src="../../../images/website_overview_1.jpg" alt="website-overview-image" style="width: 100%; display: block"></a>
+<img src="../../../images/website_overview_1.jpg" alt="website-overview-image" style="width: 100%; display: block"></a>
 
 !!!Tip:
 You can quickly link to your live website in another browser window by clicking the **Domain Overview** URL to the right of the thumbnail. 

@@ -2,7 +2,7 @@
 
 Add a new member to your CMS deployment, manage user roles, and remove users. 
 
-><img src="../../../images/add-user1.png" alt="add-user" style="width: 100%; display: block"></a>
+<img src="../../../images/add-user1.png" alt="add-user" style="width: 100%; display: block"></a>
 
 
 **Name** | **Description** 
@@ -19,7 +19,7 @@ Adding a new user requires a transfer from Solodev CMS to Solodev Cloud. To retu
 
 Invite a new member to your CMS deployment.
 
-><img src="../../../images/add-user2.png" alt="add-user" style="width: 45%; display: block"></a>
+<img src="../../../images/add-user2.png" alt="add-user" style="width: 45%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

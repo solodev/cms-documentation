@@ -2,7 +2,7 @@
 
 Here, you can update your website by changing the site title, and adding Facebook URL, among others.
 
-><img src="../../../images/websites-update3.jpg" alt="websites-update3" style="width: 40%; display: block"></a>
+<img src="../../../images/websites-update3.jpg" alt="websites-update3" style="width: 40%; display: block"></a>
 
 
 **Name** | **Description** 

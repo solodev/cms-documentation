@@ -4,7 +4,7 @@ Solodev Apps are ways to extend the functionality of Solodev CMS to fit individu
 
 In apps page you are able to manage the order in which items such as modules or forms are displayed in your dashboard. To change the order click on the item and hold down the left mouse button while moving the item to the desired location.
 
-><img src="../../../images/apps.jpg" alt="apps" style="width: 100%; display: block"></a>
+<img src="../../../images/apps.jpg" alt="apps" style="width: 100%; display: block"></a>
 
 **Element** | **Description** 
 :--- | ---

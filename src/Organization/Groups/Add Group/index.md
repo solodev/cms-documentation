@@ -2,7 +2,7 @@
 
 Adding a group in Solodev CMS is a simple process, and can be completed in minutes.
 
-><img src="../../../images/groups-add.jpg" alt="groups-add" style="width: 40%; display: block"></a>
+<img src="../../../images/groups-add.jpg" alt="groups-add" style="width: 40%; display: block"></a>
 
 
 **Name** | **Description** 

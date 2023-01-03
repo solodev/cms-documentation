@@ -4,7 +4,7 @@ An API token is similar to a password and allows you to authenticate to Datavers
 
 On the API tokens page, you have the list of existing tokens. Each token is shown with details such as the token name, status, and a token secret that can be previewed using the eye icon.
 
-><img src="../../../images/apitokens.jpg" alt="apitokens" style="width: 100%; display: block"></a>
+<img src="../../../images/apitokens.jpg" alt="apitokens" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -14,7 +14,7 @@ On the API tokens page, you have the list of existing tokens. Each token is show
 
 Here you can add a new API token.
 
-><img src="../../../images/apitokens2.jpg" alt="apitokens2" style="width: 40%; display: block"></a>
+<img src="../../../images/apitokens2.jpg" alt="apitokens2" style="width: 40%; display: block"></a>
 
 ## Confirm
 

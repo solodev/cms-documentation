@@ -2,7 +2,7 @@
 
 Manage files and folders by marking the item you want to manage.
 
-><img src="../../../images/managefilesfolders.jpg" alt="managefilesfolders" style="width: 100%; display: block"></a>
+<img src="../../../images/managefilesfolders.jpg" alt="managefilesfolders" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

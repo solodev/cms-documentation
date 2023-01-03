@@ -4,7 +4,7 @@ Access the Solodev CMS documentation to search for answers to technical question
 
 To open the documentation, click the **Help** link under **Support** in the left navigation.
 
-><img src="../../../images/help1.png" alt="help" style="width: 18%; display: block"></a>
+<img src="../../../images/help1.png" alt="help" style="width: 18%; display: block"></a>
 
 
 !!!Tip:

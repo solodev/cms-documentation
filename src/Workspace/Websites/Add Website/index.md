@@ -2,7 +2,7 @@
 
 In Solodev, you can easily create, customize, and launch a new website with just a few basic details. Simply choose a domain, select a CMS, and add an optional theme package. 
 
-><img src="../../../images/add-website-form.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="../../../images/add-website-form.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -25,7 +25,7 @@ Once you have completed all the necessary fields for your website, click **Add**
 
 If you selected a theme package, you may have the option to customize your new website with specific brand details such as a business name, logo, colors, and more.
   
-><img src="../../../images/customize-theme.jpg" alt="customize-theme" style="width: 100%; display: block"></a>
+<img src="../../../images/customize-theme.jpg" alt="customize-theme" style="width: 100%; display: block"></a>
 
 !!!Tip:
 While most themes in the Solodev Marketplace will provide a similar experience, each will vary based on its unique capabilities. Remember to follow the instructions at this step based on your purchased theme.
@@ -43,7 +43,7 @@ Colors | Use the color pickers to select three custom colors for your theme, inc
 
 Depending on your theme package, you may have the option to customize additional business details, contact information, and social media links that will appear on your new website.
 
-><img src="../../../images/customize-theme-advanced.jpg" alt="customize-theme-advanced" style="width: 50%; display: block"></a>
+<img src="../../../images/customize-theme-advanced.jpg" alt="customize-theme-advanced" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

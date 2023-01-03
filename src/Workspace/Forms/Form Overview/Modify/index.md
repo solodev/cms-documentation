@@ -2,7 +2,7 @@
 
 Here you can modify some entry features.
 
-><img src="../../../../images/form-overview3.jpg" alt="form-overview3" style="width: 70%; display: block"></a>
+<img src="../../../../images/form-overview3.jpg" alt="form-overview3" style="width: 70%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -14,7 +14,7 @@ Display/Hide Columns | Use this option to display/hide columns. To do that, you 
 
 Here you can use email options for your datable.
 
-><img src="../../../../images/form-overview7.jpg" alt="form-overview7" style="width: 70%; display: block"></a>
+<img src="../../../../images/form-overview7.jpg" alt="form-overview7" style="width: 70%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -31,7 +31,7 @@ Auto Assign Users | You can use this option to auto-assign users.
 
 Here you can define advanced options.
 
-><img src="../../../../images/form-overview8.jpg" alt="form-overview8" style="width: 70%; display: block"></a>
+<img src="../../../../images/form-overview8.jpg" alt="form-overview8" style="width: 70%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -59,7 +59,7 @@ Delete Module | To remove your entry, type DELETE in all caps into the field and
 
 Here you can manage your database table schema.
 
-><img src="../../../../images/form-overview5.jpg" alt="form-overview5" style="width: 70%; display: block"></a>
+<img src="../../../../images/form-overview5.jpg" alt="form-overview5" style="width: 70%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -74,7 +74,7 @@ Default | Use this option to make the column default.
 
 Here you can relate the data table to other modules.
 
-><img src="../../../../images/form-overview4.jpg" alt="form-overview4" style="width: 70%; display: block"></a>
+<img src="../../../../images/form-overview4.jpg" alt="form-overview4" style="width: 70%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -88,7 +88,7 @@ Field | Here you can choose a field.
 
 Here you can find API Info, that can be used in <a href="/admin/api">API section</a> to connect.
 
-><img src="../../../../images/form-overview6.jpg" alt="form-overview6" style="width: 70%; display: block"></a>
+<img src="../../../../images/form-overview6.jpg" alt="form-overview6" style="width: 70%; display: block"></a>
 
 
 

@@ -6,7 +6,7 @@ Manage your documents.
 
 Find the document by using the search field at the top.
 
-><img src="../../../images/document-overview.jpg" alt="document-overview" style="width: 100%; display: block"></a>
+<img src="../../../images/document-overview.jpg" alt="document-overview" style="width: 100%; display: block"></a>
 
 **Element** | **Description**
 :--- | ---

@@ -2,7 +2,7 @@
 
 Once you have entered your current and new password in the appropriate fields, click Submit.
 
-><img src="../../../images/account-change-username.png" alt="change username" style="width: 45%; display: block"></a>
+<img src="../../../images/account-change-username.png" alt="change username" style="width: 45%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

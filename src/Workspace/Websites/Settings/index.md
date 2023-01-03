@@ -2,7 +2,7 @@
 
 Here you can access many settings related to a domain, CDN, and others.
 
-><img src="../../../images/settings9.jpg" alt="settings9" style="width: 30%; display: block"></a>
+<img src="../../../images/settings9.jpg" alt="settings9" style="width: 30%; display: block"></a>
 
 
 **Name** | **Description** 
@@ -17,7 +17,7 @@ The Primary URL is the main URL that browsers will use to access your site.
 
 In this section, you can update domain information: website address(es), host settings, and redirects. You can add and remove redirects by clicking the **"+"** and **"-"** buttons respectively.
 
-><img src="../../../images/settings10.jpg" alt="settings10" style="width: 30%; display: block"></a>
+<img src="../../../images/settings10.jpg" alt="settings10" style="width: 30%; display: block"></a>
 
 
 **Name** | **Description** 
@@ -32,7 +32,7 @@ Host Settings | To change host settings enter the details in the text box.
 
 A sitemap is a file where you provide information about the pages and other files on your site, and the relationships between them.
 
-><img src="../../../images/settings11.jpg" alt="settings11" style="width: 40%; display: block"></a>
+<img src="../../../images/settings11.jpg" alt="settings11" style="width: 40%; display: block"></a>
 
 
 **Name** | **Description** 
@@ -49,7 +49,7 @@ The output process may take several minutes to complete after clicking the **Gen
 
 A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos. 
 
-><img src="../../../images/settings4.jpg" alt="settings4" style="width: 40%; display: block"></a>
+<img src="../../../images/settings4.jpg" alt="settings4" style="width: 40%; display: block"></a>
 
 
 **Name** | **Description** 
@@ -64,7 +64,7 @@ CDN Provider | Choose the CDN Provider from the dropdown menu.
 
 Secure Sockets Layer (SSL) is a technology for establishing an encrypted link between a server and a client.
 
-><img src="../../../images/settings15.jpg" alt="settings15" style="width: 30%; display: block"></a>
+<img src="../../../images/settings15.jpg" alt="settings15" style="width: 30%; display: block"></a>
 
 
 
@@ -82,7 +82,7 @@ SSL Chain Certificate | There are two types of certificate authorities (CAs): ro
 
 Payment Information is moved into <a href="/admin/settings/config/">Config</a>.
 
-><img src="../../../images/settings13.jpg" alt="settings13" style="width: 40%; display: block"></a>
+<img src="../../../images/settings13.jpg" alt="settings13" style="width: 40%; display: block"></a>
 
 ---
 
@@ -90,7 +90,7 @@ Payment Information is moved into <a href="/admin/settings/config/">Config</a>.
 
 In this section, you can manage advanced settings.
 
-><img src="../../../images/settings14.jpg" alt="settings14" style="width: 40%; display: block"></a>
+<img src="../../../images/settings14.jpg" alt="settings14" style="width: 40%; display: block"></a>
 
 
 

@@ -2,7 +2,7 @@
 
 Adding a workflow in Solodev CMS is a simple process, and can be completed in minutes.
 
-><img src="../../../../images/workflow3.jpg" alt="workflow3" style="width: 100%; display: block"></a>
+<img src="../../../../images/workflow3.jpg" alt="workflow3" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -24,7 +24,7 @@ User can choose from different workflow types:
 
 Here you can select a user/asignee
 
-><img src="../../../../images/workflow5.jpg" alt="workflow5" style="width: 40%; display: block"></a>
+<img src="../../../../images/workflow5.jpg" alt="workflow5" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -34,7 +34,7 @@ Choose | Find the object and click button Choose to confirm your choice.
 
 Here you can delete your workflow.
 
-><img src="../../../../images/workflow4.jpg" alt="workflow4" style="width: 50%; display: block"></a>
+<img src="../../../../images/workflow4.jpg" alt="workflow4" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

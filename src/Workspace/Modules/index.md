@@ -31,7 +31,7 @@ To find a specific module enter its name into the search field.
 To enter and modify a specific module click the module name. 
 
 
-><img src="../../../images/modules.jpg" alt="modules" style="width: 100%; display: block"></a>
+<img src="../../../images/modules.jpg" alt="modules" style="width: 100%; display: block"></a>
 
 
 **Name** | **Description** 
@@ -44,7 +44,7 @@ To enter and modify a specific module click the module name.
 Click on any of the members next to a module name to add or remove module members and manage their roles. 
 
 
-><img src="../../../images/permissions2.png" alt="permissions2" style="width: 30%; display: block"></a>
+<img src="../../../images/permissions2.png" alt="permissions2" style="width: 30%; display: block"></a>
 
 
 

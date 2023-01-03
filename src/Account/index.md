@@ -2,7 +2,7 @@
 
 Manage your user profile details and update your username or password. You can also add API tokens that are associated with your Solodev Cloud account. 
 
-><img src="../../../images/account-main.png" alt="admin" style="width: 20%; display: block"></a>
+<img src="../../../images/account-main.png" alt="admin" style="width: 20%; display: block"></a>
 
 !!!Tip:
 To access your profile, select **My Profile** from the menu in the lower right corner of the CMS.

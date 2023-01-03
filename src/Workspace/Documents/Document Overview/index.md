@@ -4,7 +4,7 @@ Manage your documents by using different options like add file or add folder and
 
 Find the document by using the search field at the top.
 
-><img src="../../../images/manage-documents.jpg" alt="manage-documents" style="width: 100%; display: block"></a>
+<img src="../../../images/manage-documents.jpg" alt="manage-documents" style="width: 100%; display: block"></a>
 
 **Element** | **Description**
 :--- | ---

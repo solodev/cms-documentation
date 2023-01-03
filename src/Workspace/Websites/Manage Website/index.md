@@ -6,7 +6,7 @@ To <a href="/workspace/documents/manage-filefolder/">manage file/folder</a>, mar
 
 Find the website content by using the search field at the top.
 
-><img src="../../../images/manage-website.jpg" alt="manage-website" style="width: 100%; display: block"></a>
+<img src="../../../images/manage-website.jpg" alt="manage-website" style="width: 100%; display: block"></a>
 
 **Element** | **Description**
 :--- | ---

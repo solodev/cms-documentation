@@ -4,7 +4,7 @@ Thanks to a module overview page you can manage entries within the module.
 
 To find an entry you are interested in type its name into the filter field and click the **Find** button.
 
-><img src="../../../images/module-overview.jpg" alt="module-overview" style="width: 100%; display: block"></a>
+<img src="../../../images/module-overview.jpg" alt="module-overview" style="width: 100%; display: block"></a>
 
 !!!Note:
 Please remember to mark the entry you want to work with before continuing with any actions.

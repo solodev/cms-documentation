@@ -2,7 +2,7 @@
 
 Communicate with task members, change task status, and apply the number of hours spent to each update.
 
-><img src="../../../images/update_task.png" alt="update_tasks" style="width: 55%; display: block"></a>
+<img src="../../../images/update_task.png" alt="update_tasks" style="width: 55%; display: block"></a>
 
 !!!Tip:
 You can track the total amount of time spent on a task by ensuring all task members include the hours spent on each update. All hours are automatically added up, and the total will appear at the top of the task window. 
