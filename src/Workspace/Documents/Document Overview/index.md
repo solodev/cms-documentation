@@ -6,7 +6,7 @@ Find the document by using the search field at the top.
 
 <img src="../../../images/manage-documents.jpg" alt="manage-documents" style="width: 100%; display: block"></a>
 
-**Element** | **Description**
+**Name** | **Description**
 :--- | ---
 <a href="/workspace/documents/document-overview/updatefolder/">Update Folder</a> | Update the folder.
 <a href="/workspace/documents/document-overview/upload/">Upload</a> |Upload the content from your computer.

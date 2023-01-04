@@ -6,6 +6,6 @@ In apps page you are able to manage the order in which items such as modules or 
 
 <img src="../../../images/apps.jpg" alt="apps" style="width: 100%; display: block"></a>
 
-**Element** | **Description** 
+**Name** | **Description** 
 :--- | ---
 <a href="/admin/settings/apps/add-app/">Add App</a> | Add a new app.

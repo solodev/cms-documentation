@@ -4,7 +4,7 @@ In the Solodev CMS, a File serves many purposes. Examples of a file include simp
 
 <img src="../../../../images/documents10.jpg" alt="documents10" style="width: 50%; display: block"></a>
 
-**Element** | **Description**
+**Name** | **Description**
 :--- | ---
 Name | Add the file name.
 Title | Add the file title.

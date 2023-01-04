@@ -8,7 +8,7 @@ In practice, Swagger allows you to display interactive REST API documentation in
 
 <img src="../../../images/api.jpg" alt="api" style="width: 100%; display: block"></a>
 
-**Element** | **Description** 
+**Name** | **Description** 
 :--- | ---
 <a href="/admin/api/module-api/">Module API</a> | Module API unlocks data from particular modules within an organization. To go there you need to use the link from the tree on the left or click the button Launched presented in the screenshot above. 
 <a href="/admin/api/system-api/">System API</a> | System APIs unlock data from core systems of record within an organization. To go there you need to use the link from the tree on the left or click the button Launched presented in the screenshot above.

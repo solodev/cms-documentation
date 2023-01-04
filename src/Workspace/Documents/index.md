@@ -8,6 +8,6 @@ Find the document by using the search field at the top.
 
 <img src="../../../images/document-overview.jpg" alt="document-overview" style="width: 100%; display: block"></a>
 
-**Element** | **Description**
+**Name** | **Description**
 :--- | ---
 <a href="/workspace/documents/document-overview/addfolder/">Add Folder</a> | Add the folder.
