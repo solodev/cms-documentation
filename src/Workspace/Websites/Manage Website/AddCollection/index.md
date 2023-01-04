@@ -4,7 +4,7 @@ Category pages allow to optimize SEO and enhance overall user experience. In Sol
 
 <img src="../../../../images/documents4.jpg" alt="documents4" style="width: 50%; display: block"></a>
 
-**Element** | **Description**
+**Name** | **Description**
 :--- | ---
 Name | Add the collection name.
 Title | Add the collection title.
@@ -16,7 +16,7 @@ Manage website properties.
 
 <img src="../../../../images/documents5.jpg" alt="documents5" style="width: 50%; display: block"></a>
 
-**Element** | **Description**
+**Name** | **Description**
 :--- | ---
 Page Template | Add page template by clicking the browse button. Page templates are pages that can be reused to build out more pages. The page template will serve as an index for Datatable Categories.
 

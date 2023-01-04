@@ -4,7 +4,7 @@ Upload a file from your computer. Solodev CMS allows users to upload four primar
 
 <img src="../../../../images/documents12.jpg" alt="documents12" style="width: 50%; display: block"></a>
 
-**Element** | **Description**
+**Name** | **Description**
 :--- | ---
 Browse | Browse the file and add it from your computer.
 Upload + Save |  Upload and save files without publishing them.
