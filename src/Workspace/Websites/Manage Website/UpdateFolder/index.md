@@ -4,7 +4,7 @@ Folders are built in a nested tree hierarchy and serve as containers of all Solo
 
 <img src="../../../../images/documents13.jpg" alt="documents13" style="width: 50%; display: block"></a>
 
-**Element** | **Description**
+**Name** | **Description**
 :--- | ---
 Name | Add or change the folder name.
 Title | Add or change the folder title.
@@ -16,7 +16,7 @@ Control how folders work with websites.
 
 ><img src="../../../../images/documents15.jpg" alt="documents15" style="width: 50%; display: block"></a>
 
-**Element** | **Description**
+**Name** | **Description**
 :--- | ---
 Menu Name | Add or change the folder name in the menu navigation.
 Rank | Add or change the rank that orders the folder when displayed in the menu navigation. **Lowest number listed first.**
@@ -34,7 +34,7 @@ Execute advanced operations.
 
 <img src="../../../../images/documents14.jpg" alt="documents14" style="width: 50%; display: block"></a>
 
-**Element** | **Description**
+**Name** | **Description**
 :--- | ---
 Delete | Click the red **Delete** button to remove the folder.
 

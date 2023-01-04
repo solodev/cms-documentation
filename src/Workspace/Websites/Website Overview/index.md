@@ -21,4 +21,4 @@ From the website overview, you can quickly link to the most recent pages, templa
 
 To access a specific file, click on a row in the **Recent Files** table. 
 
-><img src="../../../images/website_overview.jpg" alt="website-overview-image" style="width: 100%; display: block"></a>
+<img src="../../../images/website_overview.jpg" alt="website-overview-image" style="width: 100%; display: block"></a>
