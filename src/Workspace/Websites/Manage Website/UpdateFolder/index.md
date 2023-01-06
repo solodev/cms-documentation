@@ -14,7 +14,7 @@ Description | Add or change the folder description.
 
 Control how folders work with websites.
 
-><img src="../../../../images/documents15.jpg" alt="documents15" style="width: 50%; display: block"></a>
+<img src="../../../../images/documents15.jpg" alt="documents15" style="width: 50%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
