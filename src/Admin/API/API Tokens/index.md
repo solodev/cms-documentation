@@ -14,7 +14,7 @@ On the API tokens page, you have the list of existing tokens. Each token is show
 
 Here you can add a new API token.
 
-<img src="../../../images/apitokens2.jpg" alt="apitokens2" style="width: 40%; display: block"></a>
+<img src="../../../images/apitokens2.jpg" alt="apitokens2" style="width: 45%; display: block"></a>
 
 ## Confirm
 

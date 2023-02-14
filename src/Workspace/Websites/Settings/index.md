@@ -2,7 +2,7 @@
 
 Here you can access many settings related to a domain, CDN, and others.
 
-<img src="../../../images/settings9.jpg" alt="settings9" style="width: 30%; display: block"></a>
+<img src="../../../images/settings9.jpg" alt="settings9" style="width: 40%; display: block"></a>
 
 
 **Name** | **Description** 
@@ -17,7 +17,7 @@ The Primary URL is the main URL that browsers will use to access your site.
 
 In this section, you can update domain information: website address(es), host settings, and redirects. You can add and remove redirects by clicking the **"+"** and **"-"** buttons respectively.
 
-<img src="../../../images/settings10.jpg" alt="settings10" style="width: 30%; display: block"></a>
+<img src="../../../images/settings10.jpg" alt="settings10" style="width: 40%; display: block"></a>
 
 
 **Name** | **Description** 
@@ -64,7 +64,7 @@ CDN Provider | Choose the CDN Provider from the dropdown menu.
 
 Secure Sockets Layer (SSL) is a technology for establishing an encrypted link between a server and a client.
 
-<img src="../../../images/settings15.jpg" alt="settings15" style="width: 30%; display: block"></a>
+<img src="../../../images/settings15.jpg" alt="settings15" style="width: 40%; display: block"></a>
 
 
 

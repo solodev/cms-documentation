@@ -62,7 +62,7 @@ Delete Module | To remove your entry, type DELETE in all caps into the field and
 
 Choose this option to export the module.
 
-<img src="../../../../images/module-overview10.jpg" alt="module-overview10" style="width: 40%; display: block"></a>
+<img src="../../../../images/module-overview10.jpg" alt="module-overview10" style="width: 35%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -73,7 +73,7 @@ Continue Export | Choose this option to finalize the export process.
 
 In this place, you can manage your database table schema.
 
-<img src="../../../../images/module-overview7.jpg" alt="module-overview7" style="width: 70%; display: block"></a>
+<img src="../../../../images/module-overview7.jpg" alt="module-overview7" style="width: 60%; display: block"></a>
 
 
 
@@ -91,7 +91,7 @@ Default | Use this option to make the column default.
 
 Here you can find API Info, that can be used in <a href="/admin/api">API section</a> to connect.
 
-<img src="../../../../images/module-overview8.jpg" alt="module-overview8" style="width: 70%; display: block"></a>
+<img src="../../../../images/module-overview8.jpg" alt="module-overview8" style="width: 60%; display: block"></a>
 
 
 

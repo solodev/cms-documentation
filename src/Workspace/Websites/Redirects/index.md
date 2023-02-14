@@ -30,7 +30,7 @@ Redirect 301 /partners https://www.spacejet.org/customers/
 
 View the history of your .htaccess file including redirects. See the date that each version was created on and who updated the version. You can also compare versions and even restore a previous version as your current version.
 
-<img src="../../../images/redirect-history.jpg" alt="redirect-history" style="width: 60%; display: block"></a>
+<img src="../../../images/redirect-history.jpg" alt="redirect-history" style="width: 65%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

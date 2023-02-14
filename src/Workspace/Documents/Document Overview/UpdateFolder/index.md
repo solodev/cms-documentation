@@ -15,7 +15,6 @@ Description | Add or change the folder description.
 Control how folders work with websites.
 
 <img src="../../../../images/documents15.jpg" alt="documents15" style="width: 50%; display: block"></a>
-
 **Name** | **Description**
 :--- | ---
 Menu Name | Add or change the folder name in the menu navigation.
@@ -32,7 +31,7 @@ Restrict Access in Website to Authorized Users | Mark this option to protect con
 
 Execute advanced operations.
 
-<img src="../../../../images/documents14.jpg" alt="documents14" style="width: 50%; display: block"></a>
+<img src="../../../../images/documents14.jpg" alt="documents14" style="width: 35%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---

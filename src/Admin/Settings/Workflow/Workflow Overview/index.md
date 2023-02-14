@@ -24,7 +24,7 @@ User can choose from different workflow types:
 
 Here you can select a user/asignee
 
-<img src="../../../../images/workflow5.jpg" alt="workflow5" style="width: 40%; display: block"></a>
+<img src="../../../../images/workflow5.jpg" alt="workflow5" style="width: 45%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

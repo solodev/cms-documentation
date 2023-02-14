@@ -18,7 +18,7 @@ Use the search field in the upper right corner to locate or filter specific webs
 
 Add new members to your website, manage member roles, and remove members.
 
-<img src="../../../images/permissions2.jpg" alt="permissions2" style="width: 30%; display: block"></a>
+<img src="../../../images/permissions2.jpg" alt="permissions2" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -38,6 +38,5 @@ A website member can be assigned one of four roles:
 ## Confirm
 
 Once you have completed all the fields, click **Submit** to apply your changes.
-
 
 

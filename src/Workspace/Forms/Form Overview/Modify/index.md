@@ -74,7 +74,7 @@ Default | Use this option to make the column default.
 
 Here you can relate the data table to other modules.
 
-<img src="../../../../images/form-overview4.jpg" alt="form-overview4" style="width: 70%; display: block"></a>
+<img src="../../../../images/form-overview4.jpg" alt="form-overview4" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

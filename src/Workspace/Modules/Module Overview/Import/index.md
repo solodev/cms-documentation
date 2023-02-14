@@ -2,7 +2,7 @@
 
 Here you can import entries. To do that you need to prepare the file in .CSV format. To have the database clean, mark the option "Empty DB".
 
-<img src="../../../../images/module-overview3.jpg" alt="module-overview3" style="width: 50%; display: block"></a>
+<img src="../../../../images/module-overview3.jpg" alt="module-overview3" style="width: 40%; display: block"></a>
 
 
 **Name** | **Description** 

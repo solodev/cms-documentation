@@ -2,7 +2,7 @@
 
 Add a user's details, including first name, last name, title, company, and timezone. Enter the values in each field and click **Submit**.
 
-<img src="../../../images/modify-user.jpg" alt="modify" style="width: 40%; display: block"></a>
+<img src="../../../images/modify-user.jpg" alt="modify" style="width: 45%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -19,7 +19,6 @@ Timezone | Enter the user’s timezone in the field (optional).
 Remove a user from your CMS.
 
 <img src="../../../images/modify2.png" alt="modify2" style="width: 45%; display: block"></a>
-
 **Name** | **Description** 
 :--- | ---
 Delete  | In the text field, type the word **DELETE** in all caps and click the Delete button.

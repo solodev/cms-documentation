@@ -35,7 +35,7 @@ Replace Image | If you already have a profile image, click the camera icon and s
 
 Convert your headshot photo into a realistic 3-D avatar with custom attributes.
 
-<img src="../../../images/account-create-avatar.png" alt="create avatar" style="width: 40%; display: block"></a>
+<img src="../../../images/account-create-avatar.png" alt="create avatar" style="width: 45%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

@@ -11,7 +11,7 @@ Add Task | Create a new task for a file, page, or object in your CMS deployment.
 
 !!! Tip: 
 To add or manage tasks while logged into your CMS deployment, click on the “people” icon in the upper right corner of your screen: 
-<img src="../../../images/add-task1.png" alt="add-task1" style="width: 50%; display: block"></a>
+<img src="../../../images/add-task1.png" alt="add-task1" style="width: 45%; display: block"></a>
 !!!
 
 ---
