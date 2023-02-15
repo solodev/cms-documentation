@@ -43,12 +43,3 @@ Execute | Click this button to execute the HTTP response.
 !!!Note:
 Click on Cancel to cancel the action. 
 !!!
-
-
-
-
-
-
-
-
-
