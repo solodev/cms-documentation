@@ -8,7 +8,7 @@ Create groups in your CMS, add members to your group, and manage roles and permi
 
 **Name** | **Description** 
 :--- | ---
-<a href="/organization/groups-overview/add-group/">Add Group</a> | Add a new group. 
+<a href="/organization/groups/add-group/#add-group">Add Group</a> | Add a new group. 
 <a href="/organization/groups/#member-permissions">Member Permissions </a> | Add or remove permissions for individual members of a group.
 
 
