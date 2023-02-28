@@ -6,34 +6,36 @@ Branding displays your logo and custom CSS.
 
 **Name** | **Description** 
 :--- | ---
-Upload Logo | Upload logo from your computer.
+Upload Logo | Upload the logo from your computer.
+[Custom CSS](https://cms.solodev.net/admin/settings/branding/#custom-css)| Modify the look and feel of your backend experience. 
+[Custom Dashboard](https://cms.solodev.net/admin/settings/branding/#custom-dashboard)| Update what is first seen when logging into CMS.
 
 !!!Note:
-Recommended size: 360px x 360px.
+Recommended logo size: 360px x 360px.
 !!!
 
 ## Custom CSS
 
-Here you can modify the look and feel of your backend experience. 
+Modify the look and feel of your backend experience. 
 
 <img src="../../../images/branding2.jpg" alt="branding2" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-Change Primary Button Color | Choose this option to change primary button color. Click it and choose the color.
-Change Secondary Button Color | Choose this option to change primary button color. Click it and choose the color.
+Change Primary Button Color | Change primary button color. Click it and choose the color.
+Change Secondary Button Color | Change secondary button color. Click it and choose the color.
 Custom CSS | Type custom CSS code.
 
 ## Custom Dashboard
 
-Here you can update what is first seen when logging into CMS.
+Update what is first seen when logging into CMS.
 
 <img src="../../../images/branding3.jpg" alt="branding3" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-Enable Custom Dashboard | Mark this option if you want to have custom dasboard enabled.
-Custom Dashboard Markup | Here you can enter custom dashboard markup.
+Enable Custom Dashboard | Mark this option if you want to have a custom dashboard enabled.
+Custom Dashboard Markup | enter custom dashboard markup.
 
 ## Confirm
 

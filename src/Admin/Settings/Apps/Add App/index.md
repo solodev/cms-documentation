@@ -2,16 +2,12 @@
 
 Adding an app in Solodev CMS is a simple process, and can be completed in minutes.
 
-<img src="../../../../images/apps2.jpg" alt="apps2" style="width: 50%; display: block"></a>
-
-
 **Name** | **Description** 
 :--- | ---
-Name | Enter the apps’s name in the field.
-Locations | Choose the location.
-Add Package | Upload the package from your computer. The file should be in .zip format.
-Description | Enter the description, if any.
+App | Enter the apps’s name.
+Name | Customize the name.
+CMS | Select the CMS you want to add this app to or launch the new one from the marketplace.
 
 ## Confirm
 
-Click the blue **Submit** button at the bottom right to apply your changes.
+Once you have completed all the fields, click **Launch** to add your app.

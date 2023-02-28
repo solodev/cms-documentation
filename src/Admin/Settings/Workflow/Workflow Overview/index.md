@@ -1,44 +1,45 @@
 # Workflow Overview
 
-Adding a workflow in Solodev CMS is a simple process, and can be completed in minutes.
-
-<img src="../../../../images/workflow3.jpg" alt="workflow3" style="width: 100%; display: block"></a>
+Make changes in your workflow. 
 
 **Name** | **Description** 
 :--- | ---
-[Delete](https://cms.solodev.net/admin/settings/workflow/workflow-overview/#delete)| Click to delete your workflow.
+[Workflow Management](https://cms.solodev.net/admin/settings/workflow/workflow-overview/#workflow-management)| Manage your workflow.
+[Delete](https://cms.solodev.net/admin/settings/workflow/workflow-overview/#delete)| Delete your workflow.
+
+## Workflow Management
+
+Manage your workflow.
+
+**Name** | **Description** 
+:--- | ---
 Name | Enter the workflow's name.
 Type | Choose the workflow's type.
-[Select user](https://cms.solodev.net/admin/settings/workflow/workflow-overview/#select-a-userasignee) | Browse the user.
-[Assign to](https://cms.solodev.net/admin/settings/workflow/workflow-overview/#select-a-userasignee) | Click to choose someone to assign the workflow to.
-Tickler Information | You can add email ticklers to send form submissions to designated email addresses. To do that, enter email's address.
+Choose Datable | Choose datable by using **Browse** button.
+Variables | Enter the variables.
+If Statement | Enter if statement.
+Then Statement | Enter then statement.
 
 !!!Note:
-User can choose from different workflow types:
+Users can choose from different workflow types:
 - **File:** Saved, Staged, Published.
 - **Task:** Completed by User, Completed by Group.
 - **Form Submission**.
 !!!
 
-## Select a user/asignee
-
-Here you can select a user/asignee
-
-<img src="../../../../images/workflow5.jpg" alt="workflow5" style="width: 45%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-Choose | Find the object and click button Choose to confirm your choice.
-
 ## Delete
 
-Here you can delete your workflow.
+Delete your workflow.
 
-<img src="../../../../images/workflow4.jpg" alt="workflow4" style="width: 50%; display: block"></a>
+<img src="../../../images/groups-update2.jpg" alt="groups-update2" style="width: 35%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
 Delete | To remove your workflow, type **DELETE** in all caps into the field and click the red Delete button.
+
+!!! Note:
+Deleting a workflow will permanently remove the workflow and all of its content and cannot be undone.
+!!!
 
 ## Confirm
 

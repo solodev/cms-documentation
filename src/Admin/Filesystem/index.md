@@ -11,20 +11,24 @@ The main catalogs are as follows:
 - Users
 - Websites
 
+**Name** | **Description** 
+:--- | ---
+[Custom CSS](https://cms.solodev.net/admin/filesystem/#filesystem-management)| Manage your filesystem.
+
 ---
 
 ## Filesystem Management
 
-When clicking on any catalog you can manage it by using 7 options. You can also search files by using the option Search at the top.
+When clicking on any catalog you can manage it by using 7 options. Search files by using the option **Search** at the top.
 
 <img src="../../../images/filesystem2.jpg" alt="filesystem2" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-<a href="/workspace/documents/document-overview/updatefolder/">Update Folder</a> | Click here to update the folder. 
-<a href="/workspace/documents/document-overview/upload/">Upload</a> |  Click here to upload the file from your computer. 
-<a href="/workspace/documents/document-overview/addfolder/">Add Folder</a>  | Click here to add the folder. 
-<a href="/workspace/documents/document-overview/addfile/">Add File</a>  | Click here to add the file.
-<a href="/workspace/documents/document-overview/addgroup/">Add Group</a>  | Click here to add the group.
-<a href="/workspace/documents/document-overview/addcollection/">Add Collection</a>  | Click here to add the collections.
-<a href="/workspace/documents/document-overview/permissions/">Permissions</a>  | Click here to manage permissions.
+<a href="/workspace/documents/document-overview/updatefolder/">Update Folder</a> | Update the folder. 
+<a href="/workspace/documents/document-overview/upload/">Upload</a> |  Upload the file from your computer. 
+<a href="/workspace/documents/document-overview/addfolder/">Add Folder</a>  | Add the folder. 
+<a href="/workspace/documents/document-overview/addfile/">Add File</a>  | Add the file.
+<a href="/workspace/documents/document-overview/addgroup/">Add Group</a>  | Add the group.
+<a href="/workspace/documents/document-overview/addcollection/">Add Collection</a>  | Add the collections.
+<a href="/workspace/documents/document-overview/permissions/">Permissions</a>  | Manage permissions.

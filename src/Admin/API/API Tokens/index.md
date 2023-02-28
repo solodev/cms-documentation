@@ -12,7 +12,7 @@ On the API tokens page, you have the list of existing tokens. Each token is show
 
 ## Add API Key
 
-Here you can add a new API token.
+Add a new API token.
 
 <img src="../../../images/apitokens2.jpg" alt="apitokens2" style="width: 45%; display: block"></a>
 
