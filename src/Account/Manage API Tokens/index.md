@@ -8,7 +8,7 @@ Existing tokens are listed in the table on the API tokens dashboard. Each token 
 <img src="../../../images/account-api-tokens.png" alt="api tokens" style="width: 100%; display: block"></a>
 
 !!!Tip:
-Most software APIs require the use of an API token. To connect and manage apps and services with your API tokens using Solodev, please review the <a href="https://cms.solodev.net/admin/api/">API section</a>, as well as the more advanced features in the <a href="https://cloud.solodev.net/profile/apitokens/">Solodev Cloud</a> documentation. 
+Most software APIs require the use of an API token. To connect and manage apps and services with your API tokens using Solodev, please review the <a href="/admin/api/#api">API section</a>, as well as the more advanced features in the <a href="/admin/api/api-tokens/#api-tokens">Solodev Cloud</a> documentation. 
 !!!
 
 **Name** | **Description** 

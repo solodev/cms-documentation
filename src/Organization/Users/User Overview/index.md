@@ -7,7 +7,7 @@ Modify a user’s details, delete a user from your CMS, and manage a user’s pe
 **Name** | **Description** 
 :--- | ---
 <a href="/organization/users/modify-user">Modify User</a> | Update a user’s details including name, title, company, and timezone.
-<a href="https://cms.solodev.net/organization/users/modify-user/#delete">Delete</a> | Remove a user from your CMS deployment.
+<a href="/organization/users/modify-user/#advanced">Delete</a> | Remove a user from your CMS deployment.
 <a href="https://cms.solodev.net/organization/users/modify-user/#reset-password">Reset Password</a> | Send an email that allows a user to update their password.
 <a href="https://cms.solodev.net/organization/users/modify-user/#login-as-user">Login as User</a> | Assume a user’s profile to log in and manage their details.
 <a href="/organization/users/permissions">Permissions</a>| Manage a user’s access to apps and modules in your CMS.

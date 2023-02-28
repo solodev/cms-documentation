@@ -19,6 +19,7 @@ Timezone | Enter the user’s timezone in the field (optional).
 Remove a user from your CMS.
 
 <img src="../../../images/modify2.png" alt="modify2" style="width: 45%; display: block"></a>
+
 **Name** | **Description** 
 :--- | ---
 Delete  | In the text field, type the word **DELETE** in all caps and click the Delete button.
