@@ -53,7 +53,7 @@ Create custom shopping carts, inventory systems, and blogs using Solodev’s bui
 :icon-issue-reopened: **Integrate with third-party apps**<br>
 The Solodev API makes it easy to connect with almost any third-party app, from MailChimp to Salesforce. Use the built-in Swagger library to quickly integrate modules like contact or career forms. 
 
-:icon-cloud: **Hybrid headless**<br>
+:icon-git-branch: **Hybrid headless**<br>
 Looking to power a front-end React, Vue, Angular, or Next.js website–or publish to the Internet of Things? Use Solodev’s modules to push content almost anywhere using our headless CMS features. 
 
 :icon-trophy: **Personalize your experiences**<br>
