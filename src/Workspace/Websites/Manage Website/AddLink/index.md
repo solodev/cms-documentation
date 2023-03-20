@@ -2,7 +2,7 @@
 
 You can add a URL link to your website.
 
-<img src="../../../../images/documents9.jpg" alt="documents9" style="width: 40%; display: block"></a>
+<img src="../../../../images/documents9.jpg" alt="documents9" style="width: 50%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---

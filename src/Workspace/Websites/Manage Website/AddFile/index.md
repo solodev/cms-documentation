@@ -2,7 +2,7 @@
 
 In the Solodev CMS, a file serves many purposes. Examples of a file include simple text documents, spreadsheets, PDFs, images, or HTML files. Files are stored in folders and have a different Resource View depending on their file type.
 
-<img src="../../../../images/documents10.jpg" alt="documents10" style="width: 40%; display: block"></a>
+<img src="../../../../images/documents10.jpg" alt="documents10" style="width: 50%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
