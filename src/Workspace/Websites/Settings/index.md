@@ -6,10 +6,10 @@ Here you can access many settings related to a domain, CDN, and others.
 
 **Name** | **Description** 
 :--- | ---
-[Domain Information](http://www.cms.solodev.net/workspace/websites/settings/#domain) | Manage your domain information.
-[Sitemap](http://www.cms.solodev.net/workspace/websites/settings/#sitemap) | Generate your sitemap.
-[SSL Information](http://www.cms.solodev.net/workspace/websites/settings/#ssl-information) | Manage your SSL information.
-[Advanced](http://www.cms.solodev.net/workspace/websites/settings/#advanced) | Manage the advanced settings.
+<a href="/workspace/websites/settings/#domain-information">Domain Information</a>  | Manage your domain information.
+<a href="/workspace/websites/settings/#sitemap">Sitemap</a>  | Generate your sitemap.
+<a href="/workspace/websites/settings/#ssl-information">SSL Information</a>  | Manage your SSL information.
+<a href="/workspace/websites/settings/#advanced">Advanced</a> | Manage the advanced settings.
 
 
 ## Domain Information

@@ -9,7 +9,7 @@ Category pages allow to optimize SEO and enhance overall user experience. In Sol
 Name | Add the collection name.
 Title | Add the collection title.
 Description | Add the collection description.
-[Website Properties](https://www.cms.solodev.net/workspace/websites/manage-website/addcollection/#website-properties) | Manage Website Properties.
+<a href="/workspace/websites/manage-website/addcollection/#website-properties">Website Properties</a> | Manage Website Properties.
 
 ## Website Properties
 

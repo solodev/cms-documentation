@@ -7,9 +7,9 @@ Here, you can update your website by changing the site title, and adding Faceboo
 **Name** | **Description** 
 :--- | ---
 Site Title | Change the site title.
-[Social Media](http://www.cms.solodev.net/workspace/websites/update-website/#social-media) | Manage your social media.
-[Meta Information](http://www.cms.solodev.net/workspace/websites/update-website/#meta-information) | Manage your meta information.
-[Custom Pages](http://www.cms.solodev.net/workspace/websites/update-website/#custom-pages) | Manage custom pages.
+<a href="/workspace/websites/update-website/#social-media">Social Media</a> | Manage your social media.
+<a href="/workspace/websites/update-website/#meta-information">Meta Information</a>  | Manage your meta information.
+<a href="/workspace/websites/update-website/#custom-pages">Custom Pages</a> | Manage custom pages.
 
 ## Social Media
 

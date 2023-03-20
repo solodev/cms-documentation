@@ -2,7 +2,7 @@
 
 Manage your documents.
 
-<a href="/workspace/documents/document-overview/">Open the item</a> that you want to make changes in. Mark the item to <a href="/workspace/documents/manage-filefolder/"> copy, move or delete </a> it.
+<a href="/organization/documents/document-overview/">Open the item</a> that you want to make changes in. Mark the item to <a href="/organization/documents/manage-filefolder/"> copy, move or delete </a> it.
 
 Find the document by using the search field at the top.
 
@@ -10,4 +10,4 @@ Find the document by using the search field at the top.
 
 **Name** | **Description**
 :--- | ---
-<a href="/workspace/documents/document-overview/addfolder/">Add Folder</a> | Add the folder.
+<a href="/organization/documents/document-overview/addfolder/">Add Folder</a> | Add the folder.
