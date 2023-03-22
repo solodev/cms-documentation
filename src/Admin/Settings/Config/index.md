@@ -1,6 +1,6 @@
 # Config
 
-The config category of settings applies to all websites in the CMS system. You can configure payment options, SSL, email, and much more. 
+The config category of settings applies to all websites in the CMS system. Configure payment options, SSL, email, and much more. 
 
 <img src="../../../images/config.jpg" alt="config" style="width: 100%; display: block"></a>
 
@@ -13,6 +13,8 @@ The config category of settings applies to all websites in the CMS system. You c
 [Click Tracking](https://cms.solodev.net/admin/settings/config/#click-tracking)| Manage click tracking, which is a method of tracking the behavior of website users by registering clicks on the website.
 [Rules](https://cms.solodev.net/admin/settings/config/#rules)| Manage rules for a variety of resources in the CMS system and the CMS system itself. 
 [AWS](https://cms.solodev.net/admin/settings/config/#aws)| Manage AWS.
+[Google](https://cms.solodev.net/admin/settings/config/#google)| Manage Google.
+[IP Quality Score](https://cms.solodev.net/admin/settings/config/#ip-quality-score)| Manage IP Quality Score.
 [Salesforce](https://cms.solodev.net/admin/settings/config/#salesforce)| Manage Salesforce access.
 [Payment](https://cms.solodev.net/admin/settings/config/#payment)| Manage payment.
 [Tasks](https://cms.solodev.net/admin/settings/config/#tasks)| Manage tasks.
@@ -101,6 +103,10 @@ If a website built in Solodev is configured to use a CloudFront CDN, you can inv
 :--- | ---
 AWS Key | Enter the access key ID. 
 AWS Secret | Enter secret access key. 
+
+## Google
+
+## IP Quality Score
 
 ## Salesforce
 
