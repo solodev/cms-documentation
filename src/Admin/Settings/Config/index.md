@@ -14,6 +14,7 @@ The config category of settings applies to all websites in the CMS system. Confi
 [Rules](https://cms.solodev.net/admin/settings/config/#rules)| Manage rules for a variety of resources in the CMS system and the CMS system itself. 
 [AWS](https://cms.solodev.net/admin/settings/config/#aws)| Manage AWS.
 [Google](https://cms.solodev.net/admin/settings/config/#google)| Manage Google.
+[Spam Keyword List](https://cms.solodev.net/admin/settings/config/#spam-keyword-list)| Manage Spam Keyword List.
 [IP Quality Score](https://cms.solodev.net/admin/settings/config/#ip-quality-score)| Manage IP Quality Score.
 [Salesforce](https://cms.solodev.net/admin/settings/config/#salesforce)| Manage Salesforce access.
 [Payment](https://cms.solodev.net/admin/settings/config/#payment)| Manage payment.
@@ -102,11 +103,42 @@ If a website built in Solodev is configured to use a CloudFront CDN, you can inv
 **Name** | **Description** 
 :--- | ---
 AWS Key | Enter the access key ID. 
-AWS Secret | Enter secret access key. 
+AWS Secret | Enter secret access key.
 
 ## Google
 
+Manage your Google access.
+
+<img src="../../../images/google.jpg" alt="google" style="width: 100%; display: block"></a>
+
+**Name** | **Description** 
+:--- | ---
+reCAPTCHA Site Key | Enter the reCAPTCHA site key. 
+reCAPTCHA Secret Key | Enter the reCAPTCHA secret key.
+
+## Spam Keyword List
+
+Manage your spam keyword list. It is a built-in spam filtering feature that helps minimize form entries that contain specific keywords, such as profanity. 
+
+<img src="../../../images/spamkeywordlist.jpg" alt="spamkeywordlist" style="width: 100%; display: block"></a>
+
+**Name** | **Description** 
+:--- | ---
+Spam Keyword List | Enter the spam keyword list.
+
+!!!Tip:
+Each individual entry should be included on its own line.
+!!!
+
 ## IP Quality Score
+
+Manage your IP Quality Score. It is used to analyze IP addresses, phone numbers, email addresses, and URLs or domains to identify sophisticated bad actors and high-risk behavior.
+
+<img src="../../../images/ipqualityscore.jpg" alt="ipqualityscore" style="width: 100%; display: block"></a>
+
+**Name** | **Description** 
+:--- | ---
+IP Quality Score Key | Enter the IP quality score key.
 
 ## Salesforce
 
@@ -158,7 +190,7 @@ Display Overall Task Status | Overall task status can be displayed. To do that, 
 
 ## SSO
 
-Manage SSO. It permits a user to use one set of login credentials - for example, a username and password - to access multiple applications. 
+Manage SSO. It permits a user to use one set of login credentials - for example, a username and password - to access multiple applications.
 
 <img src="../../../images/sso.jpg" alt="sso" style="width: 100%; display: block"></a>
 
