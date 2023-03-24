@@ -2,7 +2,7 @@
 
 In Solodev, you can easily create, customize, and launch a new website with just a few basic details. Simply choose a domain, select a CMS, and add an optional theme package. 
 
-<img src="../../../images/add-website-form.jpg" alt="add-website" style="width: 40%; display: block"></a>
+<img src="../../../images/add-website-form.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

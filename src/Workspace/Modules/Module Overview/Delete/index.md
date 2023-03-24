@@ -2,7 +2,7 @@
 
 Here you can delete the entry.
 
-<img src="../../../../images/module-overview4.jpg" alt="module-overview4" style="width: 40%; display: block"></a>
+<img src="../../../../images/module-overview4.jpg" alt="module-overview4" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
