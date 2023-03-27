@@ -3,7 +3,7 @@
 Update a group's details or delete a group from your CMS by clicking the Modify button on the Groups Overview.
 
 
-<img src="../../../images/modify.png" alt="modify" style="width: 40%; display: block"></a>
+<img src="../../../images/modify.png" alt="modify" style="width: 50%; display: block"></a>
 
 
 
@@ -19,7 +19,7 @@ Team Image | Upload a custom image for your group. **Recommended size: 200px x 2
 
 Under the Advanced dropdown, you can execute advanced operations such as deleting a group. 
 
-<img src="../../../images/modify2.png" alt="modify2" style="width: 45%; display: block"></a>
+<img src="../../../images/modify2.png" alt="modify2" style="width: 50%; display: block"></a>
 
 
 **Name** | **Description** 

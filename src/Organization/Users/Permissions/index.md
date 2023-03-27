@@ -2,7 +2,7 @@
 
 Assign roles to users, manage access, and delete permissions. Click on a user name, folder, or group in the table row to view and access a specific item. 
 
-<img src="../../../images/permissions.png" alt="permissions" style="width: 35%; display: block"></a>
+<img src="../../../images/permissions.png" alt="permissions" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
