@@ -7,12 +7,12 @@ Here you can modify some entry features.
 **Name** | **Description** 
 :--- | ---
 Name | Modify name.
-Datable Type | Modify datable type. You can choose from data storage, website module, and website form.
+Data table Type | Modify data table type. You can choose from data storage, website module, and website form.
 Display/Hide Columns | Use this option to display/hide columns. To do that, you need to use arrows placed between fields.
 
 ## Email Options
 
-Here you can use email options for your datable.
+Use email options for your datable.
 
 <img src="../../../../images/form-overview7.jpg" alt="form-overview7" style="width: 70%; display: block"></a>
 
@@ -20,16 +20,16 @@ Here you can use email options for your datable.
 :--- | ---
 Upload Return Page | Choose this option if you want to upload the return page from your computer.
 Edit | Choose this option if you want to edit the document.
-Upload Custom Mail | Here you can upload an email to send users upon form submission. 
-Notification Type | Here you can choose notification type: form submission, submission + custom email, or other.
+Upload Custom Mail | Upload an email to send users upon form submission. 
+Notification Type | Choose notification type: form submission, submission + custom email, or other.
 Tickler Email Address | Use this option if you want to send form submissions to an email address you designate. Add the email address and click the **Add** button.
-Email List | In the email list you can manage the email addresses, that were added. To remove the email address mark it and click the **Delete** button. 
+Email List | In the email list, you can manage the email addresses, that were added. To remove the email address mark it and click the **Delete** button. 
 Tickler URL | You can keep users informed of the actions of your Datatable at URL. To do that, enter the URL.
 Auto Assign Users | You can use this option to auto-assign users.
 
 ## Advanced
 
-Here you can define advanced options.
+Access and define advanced options.
 
 <img src="../../../../images/form-overview8.jpg" alt="form-overview8" style="width: 70%; display: block"></a>
 
@@ -41,7 +41,7 @@ Design Form | Choose this option to design the form in Page Studio.
 Custom Icon | Enter font awesome icon class.
 Geo-Coded Fields | Enter a comma-separated list of fields used to generate latitude and longitude that will be saved in fields named "lat" and "lng" respectively.
 Field Name to use in URL | Designate a field name to be accessed via URL. (event_title is the default).
-Asset Fields | Here you can link a field in your Datable to a public URL.
+Asset Fields | Here you can link a field in your data table to a public URL.
 Post Processing | Here you can write your PHP to handle form submissions.
 Enforce User Permissions | Choose this option to enforce user permissions.
 Enable User Groups | Choose this option to enable user groups.

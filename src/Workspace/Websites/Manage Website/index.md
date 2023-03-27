@@ -23,4 +23,4 @@ To access the dashboard, click once on the www files or www folder in the left t
 <a href="/workspace/websites/manage-website/addcollection/">Add Collection</a> | Create custom categories for organizing collections of modules.
 <a href="/workspace/websites/manage-website/stage/">Stage</a> | Assign files or folders to be reviewed and published.
 <a href="/workspace/websites/manage-website/publish/">Publish</a> | Push files or folders live on your website. 
-<a href="/workspace/websites/manage-website/permissions/">Permissions</a> | Manage user access to files and folder with specific roles.  
+<a href="/workspace/websites/manage-website/permissions/">Permissions</a> | Manage user access to files and folders with specific roles.  

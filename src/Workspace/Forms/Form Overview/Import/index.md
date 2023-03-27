@@ -1,13 +1,13 @@
 # Import
 
-Here you can import entries. To do that you need to prepare the file in .CSV format.
+Import entries by preparing the file in .CSV format.
 
 <img src="../../../../images/module-overview3.jpg" alt="module-overview3" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-Browse | Select the file from your computer that you want to import.
-Empty DB | Mark this option if you want to have the database empty.
+Browse | Select the file from your computer you want to import.
+Empty DB | Mark this option if you want to leave the database empty.
 
 ## Confirm 
 

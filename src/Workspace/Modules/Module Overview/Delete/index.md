@@ -1,6 +1,6 @@
 # Delete
 
-Here you can delete the entry.
+Delete module entries.
 
 <img src="../../../../images/module-overview4.jpg" alt="module-overview4" style="width: 40%; display: block"></a>
 

@@ -4,12 +4,12 @@ Solodev developers can create a new form module that can be edited using Solodev
 
 Solodev Forms are used for two main purposes: 
 
-- Website Forms – these are forms found on the front end of a website, the most common being a “Contact Us” form that captures site visitors’ data and sends it to its Solodev Module. 
+- Website Forms – these are forms found on the front end of a website, the most common being a “Contact Us” form that captures site visitors’ data and sends it to its Solodev module. 
 - Module Forms – these are forms found on the back-end of Solodev to add, edit and delete module entries for display on user-facing websites. 
 
-To find a specific form enter its name into the search field.
+To find a specific form, enter its name into the search field.
 
-To enter and modify a specific form click the form name.
+To enter and modify a specific form, click the form name.
 
 <img src="../../../images/forms.jpg" alt="forms" style="width: 100%; display: block"></a>
 

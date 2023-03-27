@@ -20,7 +20,7 @@ In this section, you can update domain information: website address(es), host se
 
 **Name** | **Description** 
 :--- | ---
-Host Settings | To change host settings enter the details in the text box.
+Host Settings | To change host settings, enter the details in the text box.
 Add Redirects | Add redirects by using the button **Add**.
 Remove Redirects | Remove redirects by using the button **Remove**. 
 

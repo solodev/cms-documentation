@@ -16,7 +16,7 @@ There are several types of common redirects that can be used to forward traffic,
 
 **Name** | **Description** 
 :--- | ---
-History | View the history of your redirects, compare versions, and restore a previous version as current version.
+History | View the history of your redirects, compare versions, and restore a previous version as the current version.
 Code editor| Use code to add redirects or other functions in the editor window.  
 
 !!!Tip:

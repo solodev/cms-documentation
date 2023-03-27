@@ -4,8 +4,8 @@ Make changes in your workflow.
 
 **Name** | **Description** 
 :--- | ---
-[Workflow Management](https://cms.solodev.net/admin/settings/workflow/workflow-overview/#workflow-management)| Manage your workflow.
-[Delete](https://cms.solodev.net/admin/settings/workflow/workflow-overview/#delete)| Delete your workflow.
+<a href="/admin/settings/workflow/workflow-overview/#workflow-management">Workflow Management</a> | Manage your workflow.
+<a href="/admin/settings/workflow/workflow-overview/#delete">Delete</a> | Delete your workflow.
 
 ## Workflow Management
 

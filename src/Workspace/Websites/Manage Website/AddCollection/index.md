@@ -1,6 +1,6 @@
 # Add Collection 
 
-Category pages allow to optimize SEO and enhance overall user experience. In Solodev developers can attach category pages to modules by attaching them to category collections and attaching their collection of categories to the module itself. Before creating a category, create a collection.
+Category pages allow to optimize SEO and enhance overall user experience. In Solodev, developers can attach category pages to modules by attaching them to category collections and attaching their collection of categories to the module itself. Before creating a category, create a collection.
 
 <img src="../../../../images/addcollection.jpg" alt="addcollection" style="width: 50%; display: block"></a>
 

@@ -1,8 +1,8 @@
 # Module Overview
 
-Thanks to a module overview page you can manage entries within the module.
+Manage entries within the module on the Module Overview page.
 
-To find an entry you are interested in type its name into the filter field and click the **Find** button.
+To find an entry you are interested in, type its name into the filter field and click the **Find** button.
 
 <img src="../../../images/module-overview.jpg" alt="module-overview" style="width: 100%; display: block"></a>
 

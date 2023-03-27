@@ -1,6 +1,6 @@
 # Form Overview
 
-Thanks to a form overview page you can manage entries within the form.
+Manage entries with a form on the Form Overview page.
 
 <img src="../../../images/form-overview.jpg" alt="form-overview" style="width: 100%; display: block"></a>
 
