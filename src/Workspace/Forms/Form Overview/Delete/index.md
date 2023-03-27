@@ -1,13 +1,12 @@
 # Delete
 
-
-Here you can delete the entry.
+Delete a form entry.
 
 <img src="../../../../images/module-overview4.jpg" alt="module-overview4" style="width: 45%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-Submit | When you get sure that entry/ all entries you want to delete are marked, click the blue **Submit** button to delete entry/entries.
+Submit | When you are sure all entries you want to delete are marked, click the blue **Submit** button to delete entry/entries.
 
 ## Confirm 
 

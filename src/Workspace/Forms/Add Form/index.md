@@ -8,9 +8,9 @@ Adding a form in Solodev CMS is a simple process, and can be completed in minute
 **Name** | **Description** 
 :--- | ---
 Name | Customize the name.
-Choose Install Location | Choose your form location.
-[Page Studio Manual](https://cloud.solodev.net/pages/pages/page-overview/#solodev-static) | Create your form using Page Studio.
+Choose Install Location | Choose the form location.
+[Page Studio Manual](https://cloud.solodev.net/pages/pages/page-overview/#solodev-static) | Create the form using Page Studio.
 
 ## Confirm
 
-Once you would like to finish your activity in Page Studio, click **Save** to apply your changes.
+Once you finish your activity in Page Studio, click **Save** to apply your changes.

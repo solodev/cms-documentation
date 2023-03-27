@@ -20,9 +20,9 @@ Here you can add WorkFlow.
 :--- | ---
 Name | You can add a name here (lowercased and separated with dashes).
 Type | Choose type. You can select from File (Saved, Staged, Published), Task (Completed by a user, Completed by a user from a group), and Form Submission.
-Select user | You can select user here by using the **Browse** button.
-Assign to | You can select assignee here by using the **Browse** button.
-Tickler Information | Enter the email address here.
+Select user | Select user by using the **Browse** button.
+Assign to | Select assignee by using the **Browse** button.
+Tickler Information | Enter the email address.
 
 
 

@@ -17,10 +17,10 @@ You can add the following file types:<p>
 
 **File Extension** | **Description**
 :--- | ---
-.js | JavaScript. To use javascript files across all pages, reference the file path of the script in the Global Header Insert found in the Update Website Window . 
-.css | Cascading Style Sheets. To use css files across all pages, reference the file path in the Global Header Insert found in the Update Website Window.
+.js | JavaScript. To use javascript files across all pages, reference the file path of the script in the Global Header Insert found in the Update Website Window. 
+.css | Cascading Style Sheets. To use CSS files across all pages, reference the file path in the Global Header Insert found in the Update Website window.
 .php | Hypertext Preprocessor.
-.xml files | Extensible Markup Language. Users can leverage xml files to create sitemaps.
+.xml files | Extensible Markup Language. Users can leverage XML files to create sitemaps.
 .json | JavaScript Object Notation.
 !!!
 
