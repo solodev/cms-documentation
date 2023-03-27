@@ -11,12 +11,17 @@ Title | Add the file title.
 File Type | Choose the file type.
 
 !!! Note:
-Solodev CMS supports four primary types of files:
+You can add the following file types:<p>
+- **HTML** - Hypertext Markup Language (HTML) is the markup language used to create the foundation of any web page. In the Solodev, HTML files are not web pages. HTML pages serve as content blocks that can be organized and embedded into STML pages via Solodev’s Dynamic Div technology.
+- **Code** - Solodev’s text editor supports a wide range for file types for use. Solodev supports the following ANSCII-based file types:
 
-- HTML - A file type that has a WYSIWYG editor for manipulating HTML content.
-- Image - The most widely used formats on the Web are PNG, GIF, and JPEG.
-- Text - An ASCII based file type such as .txt, .css, and .tpl.
-- Document - Word processing document, spreadsheet, PDF, etc.
+**File Extension** | **Description**
+:--- | ---
+.js | JavaScript. To use javascript files across all pages, reference the file path of the script in the Global Header Insert found in the Update Website Window . 
+.css | Cascading Style Sheets. To use css files across all pages, reference the file path in the Global Header Insert found in the Update Website Window.
+.php | Hypertext Preprocessor.
+.xml files | Extensible Markup Language. Users can leverage xml files to create sitemaps.
+.json | JavaScript Object Notation.
 !!!
 
 ## Confirm

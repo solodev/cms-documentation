@@ -2,6 +2,8 @@
 
 Make changes in your workflow. 
 
+<img src="../../../../images/workflowoverview.jpg" alt="workflowoverview" style="width: 100%; display: block"></a>
+
 **Name** | **Description** 
 :--- | ---
 <a href="/admin/settings/workflow/workflow-overview/#workflow-management">Workflow Management</a> | Manage your workflow.
@@ -10,6 +12,8 @@ Make changes in your workflow.
 ## Workflow Management
 
 Manage your workflow.
+
+<img src="../../../../images/workflowoverview2.jpg" alt="workflowoverview2" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -31,7 +35,7 @@ Users can choose from different workflow types:
 
 Delete your workflow.
 
-<img src="../../../images/groups-update2.jpg" alt="groups-update2" style="width: 35%; display: block"></a>
+<img src="../../../../images/deleteworkflow.jpg" alt="deleteworkflow" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

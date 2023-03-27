@@ -9,6 +9,8 @@ Folders are built in a nested tree hierarchy and serve as containers for all Sol
 Name | Add or change the folder name.
 Title | Add or change the folder title.
 Description | Add or change the folder description.
+[Website Properties](https://cms.solodev.net/workspace/websites/manage-website/updatefolder/#website-properties) | Manage website properties.
+[Advanced](https://cms.solodev.net/workspace/websites/manage-website/updatefolder/#advanced) | Execute advanced operations.
 
 ## Website Properties
 

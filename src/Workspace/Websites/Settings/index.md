@@ -45,7 +45,7 @@ The output process may take several minutes to complete after clicking the **Gen
 Secure Sockets Layer (SSL) is a technology for establishing an encrypted link between a server and a client.
 Here you can manage your SSL information.
 
-<img src="../../../images/settings15.jpg" alt="settings15" style="width: 40%; display: block"></a>
+<img src="../../../images/settings15.jpg" alt="settings15" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -61,7 +61,7 @@ SSL Chain Certificate | There are two types of certificate authorities (CAs): ro
 
 In this section, you can manage advanced settings.
 
-<img src="../../../images/settings14.jpg" alt="settings14" style="width: 40%; display: block"></a>
+<img src="../../../images/settings14.jpg" alt="settings14" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
