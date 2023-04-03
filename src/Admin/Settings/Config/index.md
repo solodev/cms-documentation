@@ -1,25 +1,25 @@
 # Config
 
-The config category of settings applies to all websites in the CMS system. Configure payment options, SSL, email, and much more. 
+The config category of settings applies to all websites in the CMS system. Configure settings for payment options, SSL, email and more.
 
 <img src="../../../images/config.jpg" alt="config" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-[Organization Settings](https://cms.solodev.net/admin/settings/config/#organization-settings)| Manage your organization settings such as organization name and address.
-[Email](https://cms.solodev.net/admin/settings/config/#email)| Manage email details.
-[SSL](https://cms.solodev.net/admin/settings/config/#ssl)| Manage SSL connection.
-[Cache](https://cms.solodev.net/admin/settings/config/#cache)| Determine how long files or pages are stored.
-[Click Tracking](https://cms.solodev.net/admin/settings/config/#click-tracking)| Manage click tracking, which is a method of tracking the behavior of website users by registering clicks on the website.
-[Rules](https://cms.solodev.net/admin/settings/config/#rules)| Manage rules for a variety of resources in the CMS system and the CMS system itself. 
-[AWS](https://cms.solodev.net/admin/settings/config/#aws)| Manage AWS.
-[Google](https://cms.solodev.net/admin/settings/config/#google)| Manage Google.
-[Spam Keyword List](https://cms.solodev.net/admin/settings/config/#spam-keyword-list)| Manage Spam Keyword List.
-[IP Quality Score](https://cms.solodev.net/admin/settings/config/#ip-quality-score)| Manage IP Quality Score.
-[Salesforce](https://cms.solodev.net/admin/settings/config/#salesforce)| Manage Salesforce access.
-[Payment](https://cms.solodev.net/admin/settings/config/#payment)| Manage payment.
-[Tasks](https://cms.solodev.net/admin/settings/config/#tasks)| Manage tasks.
-[SSO](https://cms.solodev.net/admin/settings/config/#sso)| Manage SSO.
+<a href="/admin/settings/config/#organization-settings">Organization Settings</a>| Manage your organization settings such as organization name and address.
+<a href="/admin/settings/config/#email">Email</a>| Manage email details for the official correspondence from the organization.
+<a href="/admin/settings/config/#ssl">SSL</a>| Manage secure sockets layer (SSL) which establishes an encrypted link between the web server and a browser.
+<a href="/admin/settings/config/#cache">Cache</a>| Determine how long files or pages are stored.
+<a href="/admin/settings/config/#click-tracking">Click Tracking</a>| Create settings for click tracking, which monitors click behavior of users on your sites.
+<a href="/admin/settings/config/#rules">Rules</a>| Manage rules for a variety of resources in the CMS system and the CMS system itself. 
+<a href="/admin/settings/config/#aws">AWS</a>| Specify AWS Keys and Secret Keys
+<a href="/admin/settings/config/#google">Google</a>| Manage your Google access.
+<a href="/admin/settings/config/#spam-keyword-list">Spam Keyword List</a>| Filter form entries that contain specific spam keywords.
+<a href="/admin/settings/config/#ip-quality-score">IP Quality Score</a>| Assess IP quality score by analyzing IP addresses, phone numbers, email addresses and more.
+<a href="/admin/settings/config/#salesforce">Salesforce</a>| Manage settings in connecting your Solodev CMS to Salesforce.
+<a href="/admin/settings/config/#payment">Payment</a>| Manage payment settings, process test payments, or connect payment gateways and more.
+<a href="/admin/settings/config/#tasks">Tasks</a> | Create and manage task labels and workflows.
+<a href="/admin/settings/config/#sso">SSO</a>| Manage settings for single sign-on (SSO) capabilities in multiple applications.
 
 ## Organization Settings
 
@@ -29,8 +29,8 @@ Set the name and address associated with your organization.
 
 **Name** | **Description** 
 :--- | ---
-Organization Name | Enter the organization name.
-Organization Address | Enter the organization address.
+Organization Name | Identifies organization
+Organization Address | Standard physical and/or postal location of the organization.
 
 ## Email
 
@@ -71,7 +71,7 @@ File Cache | Set the maximum age in seconds that CMS files are stored in the cac
 
 ## Click Tracking
 
-Track when users leave their websites or track engagement when users click on documents and use those events for web analytics. 
+Track when users click on an external link to leave your website, or track engagement when a user clicks on a document or other asset. Both can be used with web analytics to help you follow patterns and trends among users.
 
 <img src="../../../images/clicktracking.jpg" alt="clicktracking" style="width: 100%; display: block"></a>
 
@@ -82,7 +82,7 @@ Document Click Tracking | Track when users click on site documents.
 
 ## Rules
 
-Set rules for a variety of resources in the CMS system and the CMS system itself. 
+Establish rules for a variety of resources within the CMS.
 
 <img src="../../../images/rules.jpg" alt="rules" style="width: 100%; display: block"></a>
 
@@ -118,7 +118,7 @@ reCAPTCHA Secret Key | Enter the reCAPTCHA secret key.
 
 ## Spam Keyword List
 
-Manage your spam keyword list. It is a built-in spam filtering feature that helps minimize form entries that contain specific keywords, such as profanity. 
+The spam keyword list is a built-in spam filtering feature that will help minimize form entries that contain specific keywords, including profanity. Identify these words and enter them into the field below.
 
 <img src="../../../images/spamkeywordlist.jpg" alt="spamkeywordlist" style="width: 100%; display: block"></a>
 
@@ -132,7 +132,7 @@ Each individual entry should be included on its own line.
 
 ## IP Quality Score
 
-Manage your IP Quality Score. It is used to analyze IP addresses, phone numbers, email addresses, and URLs or domains to identify sophisticated bad actors and high-risk behavior.
+An IP quality score is used to analyze IP addresses, phone numbers, email addresses, and URLs/domains to identify sophisticated bad actors or high-risk behaviors from visitors on your website.
 
 <img src="../../../images/ipqualityscore.jpg" alt="ipqualityscore" style="width: 100%; display: block"></a>
 
@@ -157,7 +157,7 @@ Sandbox | Enable this mode to perform test activities.
 
 ## Payment
 
-Solodev allows you to process and accept payments on their website. You are provided with a sandbox mode so that you can test the processing of payments and turn it off when they are ready to sell. You can choose from payment gateways such as Paypal and Authorize.net. In addition, you can decide whether to accept AMEX or Discover Cards.
+Process and accept payments on your website through settings in Solodev CMS. Test payment processing in sandbox mode, and remove sandbox mode when testing is completed and you are ready to process payments. Choose from mulitple payment gateway options. Also, you can decide whether to accept AMEX or Discover cards and execute the setting that works for you.
 
 <img src="../../../images/payment.jpg" alt="payment" style="width: 100%; display: block"></a>
 
@@ -208,4 +208,3 @@ Client Secret | Enter the client secret.
 ## Confirm
 
 Click the blue **Submit** button at the bottom right to apply your changes.
-
