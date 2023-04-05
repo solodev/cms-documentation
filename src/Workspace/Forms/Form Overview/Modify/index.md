@@ -1,48 +1,48 @@
 # Modify 
 
-Here you can modify some entry features.
+Modify form entries, including displayed fields, email settings, table schema, relationships and more.
 
 <img src="../../../../images/form-overview3.jpg" alt="form-overview3" style="width: 70%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-Name | Modify name.
-Data table Type | Modify data table type. You can choose from data storage, website module, and website form.
-Display/Hide Columns | Use this option to display/hide columns. To do that, you need to use arrows placed between fields.
+Name | Make changes to the form name.
+Data table Type | Modify the data table type. Choose from Data Storage, Website Module and Website Form.
+Display/Hide Columns | Select the option to display/hide columns on the form. Use the arrows to make your selections in the right column.
 
 ## Email Options
 
-Use email options for your datable.
+Browse and select email options for your data table.
 
 <img src="../../../../images/form-overview7.jpg" alt="form-overview7" style="width: 70%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
 Upload Return Page | Choose this option if you want to upload the return page from your computer.
-Edit | Choose this option if you want to edit the document.
-Upload Custom Mail | Upload an email to send users upon form submission. 
+Edit | Choose this option if you want to edit the document sent to users.
+Upload Custom Mail | Upload an email template to send users upon form submission. 
 Notification Type | Choose notification type: form submission, submission + custom email, or other.
 Tickler Email Address | Use this option if you want to send form submissions to an email address you designate. Add the email address and click the **Add** button.
-Email List | In the email list, you can manage the email addresses, that were added. To remove the email address mark it and click the **Delete** button. 
-Tickler URL | You can keep users informed of the actions of your Datatable at URL. To do that, enter the URL.
+Email List | Manage email addresses that have been added. To remove an email address, mark it and select the **Delete** button. 
+Tickler URL | Keep users informed of the actions of your Datatable at URL by entering the URL.
 Auto Assign Users | You can use this option to auto-assign users.
 
 ## Advanced
 
-Access and define advanced options.
+Access and define advanced options, for forms and form entries.
 
 <img src="../../../../images/form-overview8.jpg" alt="form-overview8" style="width: 70%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-Upload Form | Choose this option if you want to upload the form from your computer.
-Edit Form | Choose this option if you want to edit the form.
-Design Form | Choose this option to design the form in Page Studio.
+Upload Form | Select this option to upload a predesigned form.
+Edit Form | Make changes to an existing form.
+Design Form | Select this option to design a new form in Page Studio.
 Custom Icon | Enter font awesome icon class.
 Geo-Coded Fields | Enter a comma-separated list of fields used to generate latitude and longitude that will be saved in fields named "lat" and "lng" respectively.
 Field Name to use in URL | Designate a field name to be accessed via URL. (event_title is the default).
-Asset Fields | Here you can link a field in your data table to a public URL.
-Post Processing | Here you can write your PHP to handle form submissions.
+Asset Fields | Link a field in your data table to a public URL.
+Post Processing | Write your PHP to handle form submissions.
 Enforce User Permissions | Choose this option to enforce user permissions.
 Enable User Groups | Choose this option to enable user groups.
 Protect Fields | Choose this option to protect fields.
