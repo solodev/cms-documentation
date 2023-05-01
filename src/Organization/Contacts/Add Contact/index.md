@@ -6,9 +6,9 @@ Adding a contact in Solodev CMS is a simple process, and can be completed in min
 
 **Name** | **Description** 
 :--- | ---
-First Name  | Enter the user’s first name in the field.
-Last Name  | Enter the user’s last name or surname in the field.
-Email  | Enter the contact's email in the field (optional).
+First Name | Enter the user’s first name in the field.
+Last Name | Enter the user’s last name or surname in the field.
+Email | Enter the contact's email in the field (optional).
 Phone Number | Enter the contact's number in the field (optional).
 
 ---

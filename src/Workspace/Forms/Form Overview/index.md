@@ -16,4 +16,3 @@ Please remember to mark the entry you want to work with before any further actio
 <a href="/workspace/forms/form-overview/export/">Export</a> | Choose this option to export entry.
 <a href="/workspace/forms/form-overview/workflow/">WorkFlow</a> |  Choose this option to add WorkFlow.
 <a href="/workspace/forms/form-overview/delete/">Delete</a> | Choose this option to delete entry.
-

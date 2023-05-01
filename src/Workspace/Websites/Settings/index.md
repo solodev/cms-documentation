@@ -6,9 +6,9 @@ Here you can access many settings related to a domain, CDN, and others.
 
 **Name** | **Description** 
 :--- | ---
-<a href="/workspace/websites/settings/#domain-information">Domain Information</a>  | Manage your domain information.
-<a href="/workspace/websites/settings/#sitemap">Sitemap</a>  | Generate your sitemap.
-<a href="/workspace/websites/settings/#ssl-information">SSL Information</a>  | Manage your SSL information.
+<a href="/workspace/websites/settings/#domain-information">Domain Information</a> | Manage your domain information.
+<a href="/workspace/websites/settings/#sitemap">Sitemap</a> | Generate your sitemap.
+<a href="/workspace/websites/settings/#ssl-information">SSL Information</a> | Manage your SSL information.
 <a href="/workspace/websites/settings/#advanced">Advanced</a> | Manage the advanced settings.
 
 

@@ -6,9 +6,9 @@ Add a user's details, including first name, last name, title, company, and timez
 
 **Name** | **Description** 
 :--- | ---
-First Name  | Enter the user’s first name in the field.
-Last Name  | Enter the user’s last name or surname in the field.
-Title  | Enter the user’s company title in the field (optional).
+First Name | Enter the user’s first name in the field.
+Last Name | Enter the user’s last name or surname in the field.
+Title | Enter the user’s company title in the field (optional).
 Company | Enter the user’s company name in the field (optional).
 Timezone | Enter the user’s timezone in the field (optional).
 
@@ -22,7 +22,7 @@ Remove a user from your CMS.
 
 **Name** | **Description** 
 :--- | ---
-Delete  | In the text field, type the word **DELETE** in all caps and click the Delete button.
+Delete | In the text field, type the word **DELETE** in all caps and click the Delete button.
 
 !!! Note:
 Deleting a user is permanent and cannot be undone.
@@ -38,7 +38,7 @@ Send an automatic email to a user that allows them to reset their password and d
 
 **Name** | **Description** 
 :--- | ---
-Reset Password  | In the text field, type the word **RESET** in all caps and click the **Submit** button.
+Reset Password | In the text field, type the word **RESET** in all caps and click the **Submit** button.
 
 ---
 

@@ -8,7 +8,7 @@ Modify contact details every time by clicking the button **modify**.
 :--- | ---
 First Name | Enter the contact's first name.
 Last Name | Enter the contact's last name.
-Phone Number  | Enter the contact’s phone number.
+Phone Number | Enter the contact’s phone number.
 Business Number | Enter the contact’s business number.
 Address 1 | Enter the contact's address.
 Address 2 | Enter the contact's address.

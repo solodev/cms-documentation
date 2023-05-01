@@ -8,7 +8,7 @@ Here, you can update your website by changing the site title and adding Facebook
 :--- | ---
 Site Title | Change the site title.
 <a href="/workspace/websites/update-website/#social-media">Social Media</a> | Manage your social media.
-<a href="/workspace/websites/update-website/#meta-information">Meta Information</a>  | Manage your meta information.
+<a href="/workspace/websites/update-website/#meta-information">Meta Information</a> | Manage your meta information.
 <a href="/workspace/websites/update-website/#custom-pages">Custom Pages</a> | Manage custom pages.
 
 ## Social Media

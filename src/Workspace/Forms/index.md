@@ -17,10 +17,7 @@ To enter and modify a specific form, click the form name.
 
 Click on any of the members next to a module name to add or remove module members and manage their roles. 
 
-
 <img src="../../../images/permissions2.png" alt="permissions2" style="width: 40%; display: block"></a>
-
-
 
 **Name** | **Description** 
 :--- | ---

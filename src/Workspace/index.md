@@ -4,7 +4,7 @@ In your Workspace, you can access websites to manage content, use low-code modul
 
 There are four main sections in your Workspace. Each can be accessed using the left navigation:
 
-<img src="../../images/workspace11.jpg" alt="workspace11" style="width: 20%; display: block"></a>
+<img src="../../images/workspace11.jpg" alt="workspace11" style="width: 25%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

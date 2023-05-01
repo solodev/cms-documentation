@@ -6,7 +6,7 @@ Update a contact's password.
 
 **Name** | **Description** 
 :--- | ---
-New Password  | Enter the new password.
+New Password | Enter the new password.
 Confirm Password | Rewrite the new password.
 
 ## Confirm

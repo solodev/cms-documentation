@@ -16,7 +16,7 @@ Upload | Upload the image from your PC.
 Advertisement Link | If needed, add the advertisement link.
 Alt Description | Add description, if needed.
 Start | Enter the start date for publication. 
-Stop  | Enter the end date for publication.
+Stop | Enter the end date for publication.
 Groups | Enter the name of users/groups that should have access to entry.
 
 
