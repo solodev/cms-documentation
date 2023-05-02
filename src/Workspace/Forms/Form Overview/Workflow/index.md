@@ -24,8 +24,6 @@ Select user | Select user by using the **Browse** button.
 Assign to | Select assignee by using the **Browse** button.
 Tickler Information | Enter the email address.
 
-
-
 ## Confirm 
 
 Once you have completed all the fields, click **Submit** to apply your changes.
