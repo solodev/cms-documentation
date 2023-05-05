@@ -6,7 +6,7 @@ Adding an app in Solodev CMS is a simple process, and can be completed in minute
 
 **Name** | **Description** 
 :--- | ---
-App | Enter the apps’s name.
+App | Enter the apps’s name or launch the new one from the marketplace.
 Name | Customize the name.
 CMS | Select the CMS you want to add this app to or launch the new one from the marketplace.
 

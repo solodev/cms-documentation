@@ -1,6 +1,6 @@
 # Workflow
 
-Manage and add your workflow. Filter workflows by typing workflow name that you want to find.
+Manage and add your workflows. Filter workflows by typing workflow name that you want to find.
 
 <img src="../../../../images/workflow.jpg" alt="workflow" style="width: 100%; display: block"></a>
 

@@ -17,6 +17,7 @@ The config category of settings applies to all websites in the CMS system. Confi
 <a href="/admin/settings/config/#spam-keyword-list">Spam Keyword List</a>| Filter form entries that contain specific spam keywords.
 <a href="/admin/settings/config/#ip-quality-score">IP Quality Score</a>| Assess IP quality score by analyzing IP addresses, phone numbers, email addresses and more.
 <a href="/admin/settings/config/#salesforce">Salesforce</a>| Manage settings in connecting your Solodev CMS to Salesforce.
+<a href="/admin/settings/config/#wowza">Wowza</a>| Manage settings in connecting your Solodev CMS to Wowza.
 <a href="/admin/settings/config/#payment">Payment</a>| Manage payment settings, process test payments, or connect payment gateways and more.
 <a href="/admin/settings/config/#tasks">Tasks</a> | Create and manage task labels and workflows.
 <a href="/admin/settings/config/#sso">SSO</a>| Manage settings for single sign-on (SSO) capabilities in multiple applications.
@@ -154,6 +155,19 @@ Consumer Key | Enter the consumer key.
 Consumer Secret | Enter the consumer secret.
 Security Token | Enter the security token.
 Sandbox | Enable this mode to perform test activities. 
+
+## Wowza
+
+Solodev CMS allows you to use Wowza - streaming engine. Manage its features.
+
+<img src="../../../images/wowza.jpg" alt="wowza" style="width: 100%; display: block"></a>
+
+**Name** | **Description** 
+:--- | ---
+Wowza Username | Enter the salesforce username.
+Wowza Password | Enter the salesforce password.
+Wowza Host| Enter the Wowza Host address.
+
 
 ## Payment
 

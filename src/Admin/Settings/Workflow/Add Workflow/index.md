@@ -15,6 +15,8 @@ User can choose from different workflow types:
 - **File:** Saved, Staged, Published.
 - **Task:** Completed by User, Completed by Group.
 - **Form Submission**.
+
+Depending on your choice you may be presented with additional options allowing for better control over added workflow. Those additional fields are optional.
 !!!
 
 ## Confirm

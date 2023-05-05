@@ -1,4 +1,4 @@
-# Manage API Tokens
+# API Tokens
 
 Add, store, and manage API tokens associated with your account, allowing you to authenticate your connection to different apps and services. 
 
