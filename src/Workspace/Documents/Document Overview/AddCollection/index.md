@@ -14,7 +14,7 @@ Description | Add the collection description.
 
 Manage website properties.
 
-<img src="../../../../images/documents5.jpg" alt="documents5" style="width: 40%; display: block"></a>
+<img src="/../../../../images/documents5.5.png" alt="documents5" style="width: 50%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
