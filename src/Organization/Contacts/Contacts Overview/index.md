@@ -24,4 +24,4 @@ Notes| Enter the additional notes, if needed.
 
 ## Confirm
 
-Once you have completed all the fields, click **Submit** to apply your changes.
+Once you have completed all the fields, click **Update** to apply your changes.
