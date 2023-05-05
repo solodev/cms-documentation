@@ -6,11 +6,11 @@ Modify a user’s details, delete a user from your CMS, and manage a user’s pe
 
 **Name** | **Description** 
 :--- | ---
-<a href="/organization/users/modify-user">Modify User</a> | Update a user’s details including name, title, company, and timezone.
-<a href="/organization/users/modify-user/#advanced">Delete</a> | Remove a user from your CMS deployment.
-<a href="https://cms.solodev.net/organization/users/modify-user/#reset-password">Reset Password</a> | Send an email that allows a user to update their password.
-<a href="https://cms.solodev.net/organization/users/modify-user/#login-as-user">Login as User</a> | Assume a user’s profile to log in and manage their details.
-<a href="/organization/users/permissions">Permissions</a>| Manage a user’s access to apps and modules in your CMS.
+<a href="/organization/users/user-overview/modify-user">Modify User</a> | Update a user’s details including name, title, company, and timezone.
+<a href="/organization/users/user-overview/delete-user">Delete</a> | Remove a user from your CMS deployment.
+<a href="/organization/users/user-overview/reset-password">Reset Password</a> | Send an email that allows a user to update their password.
+<a href="/organization/users/user-overview/login-as-user">Login as User</a> | Assume a user’s profile to log in and manage their details.
+<a href="/organization/users/user-overview/permissions">Permissions</a>| Manage a user’s access to apps and modules in your CMS.
 
 !!! Note:
 Only users with an admin role can manage or modify another user’s profile details.
@@ -33,13 +33,13 @@ View and access the groups that a user is a member of by clicking on a specific 
 ---
 
 ## Apps the user has access to
-View the apps a user has access to and their associated role. You can modify a user’s access in <a href="/organization/users/permissions">Permissions</a>.
+View the apps a user has access to and their associated role. You can modify a user’s access in <a href="/organization/users/user-overview/permissions">Permissions</a>.
 
 <img src="../../../images/uoverview03.png" alt="uoverview 3" style="width: 100%; display: block"></a>
 
 ---
 
 ## Profile
-View a user’s profile details, including their company and timezone. You can update profile details in <a href="/organization/users/modify-user">Modify User</a>.
+View a user’s profile details, including their company and timezone. You can update profile details in <a href="/organization/users/user-overview/modify-user">Modify User</a>.
 
 <img src="../../../images/uoverview4.png" alt="uoverview 4" style="width: 35%; display: block"></a>

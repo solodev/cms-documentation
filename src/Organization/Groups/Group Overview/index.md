@@ -7,7 +7,7 @@ Access a specific group in your CMS to view all its members, add or delete membe
 **Name** | **Description** 
 :--- | ---
 <a href="/organization/groups/modify">Modify</a> | Update the name, purpose, and team image for your group.
-<a href="/organization/groups/modify">Delete</a> | Permanently remove the group under Advanced Operations.
+<a href="/organization/users/user-overview/delete-user/">Delete</a> | Permanently remove the group under Advanced Operations.
 <a href="/organization/groups/permissions">Permissions</a> | Manage group roles for specific folders and apps in your CMS. 
 
 ---
