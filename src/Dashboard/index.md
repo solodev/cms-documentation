@@ -2,7 +2,7 @@
 
 The Dashboard is the home screen of your CMS. From here, you can quickly connect to your websites and recent work, manage users and groups, track tasks, and more. You can also access advanced admin features, including the CMS file system and API.
 
-<img src="../../../images/dashboard9.jpg" alt="dashboard9" style="width: 100%; display: block"></a>
+<img src="../../../images/dashboard9.png" alt="dashboard9" style="width: 100%; display: block"></a>
 
 ---
 
