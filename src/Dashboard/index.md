@@ -40,7 +40,7 @@ From the Dashboard, you can quickly link to the most recent website pages, templ
 
 To access a specific file, click on a row in the **Recents** table. 
 
-<img src="../../../images/updated_db3.png" alt="recents" style="width: 100%; display: block"></a>
+<img src="../../../images/updated_db3.png" alt="recents" style="width: 70%; display: block"></a>
 
 ---
 
