@@ -61,3 +61,9 @@ You can press the **Enter** button or click the blue button at the right side of
 Use the links in the lower left corner of your Dashboard to manage your profile or log out of Solodev CMS.  
 
 <img src="../../../images/dashboard-profile.png" alt="dashboard-profile" style="width: 25%; display: block"></a>
+
+**Name** | **Description** 
+:--- | ---
+Manage Profile | Open submenu allowing to access and edit your profile details.
+<a href="/account/">My Profile</a> | Check and edit your profile details.
+Log Out| Log Out from your Solodev CMS. 
