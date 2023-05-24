@@ -1,9 +1,6 @@
 # Other Files
 
-Remove the file/folder from your CMS deployment. Make sure the item you want to delete is marked.
+<img src="../../../../images/other-files.png" alt="other files" style="width: 100%; display: block"></a>
 
-<img src="../../../../images/delete.jpg" alt="delete" style="width: 50%; display: block"></a>
-
-## Confirm
-
-Once you have completed all the fields, click **Submit** to apply your changes.
+## Download Files
+To download the files, right-click the filename then choose "Save Target As" or "Save Link As..." 

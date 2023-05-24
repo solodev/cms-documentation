@@ -7,4 +7,5 @@ Editing files is the process of modifying digital documents or data files by mak
 **Name** | **Description** 
 :--- | ---
 <a href="/workspace/documents/editing-files/html-files/">HTML Files</a> | Copy the file or folder.
+<a href="/workspace/documents/editing-files/image-files/">Image Files</a> | Move the file or folder.
 <a href="/workspace/documents/editing-files/other-files/">Other Files</a> | Move the file or folder.
