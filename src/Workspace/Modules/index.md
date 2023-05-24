@@ -26,12 +26,14 @@ The modules dashboard gives you an overview of existing modules that are present
 
 From the module dashboard, you have access to all tools that are necessary to effectively manage module infrastructure.
 
-To find a specific module, enter its name into the search field.
-
 To enter and modify a specific module, click the module name. 
 
 
 <img src="../../../images/modules.jpg" alt="modules" style="width: 100%; display: block"></a>
+
+!!!TIP:
+Use the search field in the upper right corner to locate a specific module.
+!!!
 
 
 **Name** | **Description** 
