@@ -10,8 +10,8 @@ To access your profile, select **My Profile** from the menu in the lower right c
 
 **Name** | **Description** 
 :--- | ---
-Profile | Update your profile details including name, phone number, timezone, and title. 
-Email | Review and confirm the master email address associated with your account. Note: you cannot change your master email address at this time.
+<a href="/account/manage-profile/">Profile</a> | Update your profile details including name, phone number, timezone, and title. 
+<a href="/account/change-email">Email</a> | Review and confirm the master email address associated with your account. Note: you cannot change your master email address at this time.
 Username | Review and update your account username.
-Security | Update your current password with a new password.
-API Tokens | Add, store, and manage API tokens associated with deployments and other services in your account.
+<a href="/account/change-password">Security</a> | Update your current password with a new password.
+<a href="/account/api-tokens">API Tokens</a> | Add, store, and manage API tokens associated with deployments and other services in your account.
