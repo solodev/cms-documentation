@@ -1,6 +1,6 @@
 # HTML Files
 
-Copy the file/folder to another folder. Make sure the item you want to copy is marked.
+Edit the HTML files you have created
 
 <img src="../../../../images/html-files.png" alt="html files" style="width: 100%; display: block"></a>
 
