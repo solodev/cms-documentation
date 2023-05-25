@@ -1,5 +1,47 @@
 # Release Notes
 
+### v9.8
+
+Solodev CMS 9.8 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. Version 9.8 further optimizes the performance of the platform and modernizes code to reflect current technologies and practices. 
+
+Upgrades include a new serverless AWS document database solution to replace MongoDB, as well as new spam prevention capabilities, image optimization features, and more. 
+
+#### Key Release Highlights
+- Replaced MongoDB document database with with AWS DocumentDB service
+- Added IP Quality Score keyword list for enhanced spam prevention
+
+#### New Features
+- Accordion navigation option with child links available via shortcode
+- Anchor linking option added to module wysiwyg toolbars
+- ARIA link capability added to CK Editor
+- Google reCAPTCHA integration 
+- Uploaded images forced to resize according to Solodev CMS module settings 
+- Wowza streaming video API integration and recording route implementation
+- 7.4 revert for immediate rollback as needed 
+
+#### Improvements
+- Added sanitize function for keyword update
+- Added manager upload field
+- Preserved breadcrumb when performing resave all on a manger 
+- Retained config secrets password fields
+- Enhanced pager shortcode
+- Locked down submitdatatable to be admin only
+- Improved universal search to all queries going to searchObjects
+- Introduced custom class loader for Windows environment
+- Updated cleaning values from form submissions
+- Updated ionCube to encode in php7.4
+- Updated SSO login user checking flow 
+- Replaced node-sass with sass
+
+#### Bug Fixes
+- Added single quote marks as acceptable character in user email addresses
+- Added ARIA on honeypot to prevent ADA issue
+- Corrected paging parameters
+- Fixed form pixel route issue
+- Fixed folder and file renaming bug
+- Fixed cascading delete issue with null folder deleting itself
+- Corrected reCAPTCHA action
+
 ### v9.7 
 
 Solodev CMS 9.7 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. Version 9.7 further optimizes the performance of the platform and modernizes code to reflect current technologies and practices. 
@@ -7,33 +49,33 @@ Solodev CMS 9.7 contains new features, updates, bug fixes, and user interface (U
 Upgrades include both Okta SSO and Salesforce API integrations, as well as improved spam prevention for Solodev forms. New features include enhanced search capabilities for webfiles in STMLs, updates to dynamic div styling, and more.
 
 #### Key Release Highlights
--	Enhanced spam prevention for form submissions
--	Improved cleaning of user-submitted data
--	Updated SSL certificate for solodev.net
--	Added new OKTA SSO integration
--	Added Salesforce API integration to access documents/files hosted on SFDC
+- Enhanced spam prevention for form submissions
+- Improved cleaning of user-submitted data
+- Updated SSL certificate for solodev.net
+- Added new OKTA SSO integration
+- Added Salesforce API integration to access documents/files hosted on SFDC
 
 #### New Features
--	Added new search capability for locating webfiles files in STMLs (audit file)
--	Added config settings for Salesforce and composer library for SFDC connection
--	Updated highlighted dynamic div styling
+- Added new search capability for locating webfiles files in STMLs (audit file)
+- Added config settings for Salesforce and composer library for SFDC connection
+- Updated highlighted dynamic div styling
 
 #### Improvements
--	Removed outdated PHP code to enhance overall security
--	Enhanced customization capabilities when adding a packaged website
--	Added permission for contacts to generate their own API token
--	Added "useragent" settings for basic cURL calls
--	Removed outdated Slim include from the codebase
--	Updated REST API to OpenAPI version 3.0
--	Improved local development with webpack
+- Removed outdated PHP code to enhance overall security
+- Enhanced customization capabilities when adding a packaged website
+- Added permission for contacts to generate their own API token
+- Added "useragent" settings for basic cURL calls
+- Removed outdated Slim include from the codebase
+- Updated REST API to OpenAPI version 3.0
+- Improved local development with webpack
 
 #### Bug Fixes
--	Reworked navigation to clarify user flow back to Solodev Cloud
--	Removed frontend reference to webpack JavaScript references in shortcodes
--	Moved up HTML email generation, so it correctly passes to workflow processing
--	Changed conditions for rank to be “display_rank”
--	Updated “get data” call on datatables, enabling legacy detail templates from inserted datatables to still function
--	Updated Zencoder with “content-type” header check
+- Reworked navigation to clarify user flow back to Solodev Cloud
+- Removed frontend reference to webpack JavaScript references in shortcodes
+- Moved up HTML email generation, so it correctly passes to workflow processing
+- Changed conditions for rank to be “display_rank”
+- Updated “get data” call on datatables, enabling legacy detail templates from inserted datatables to still function
+- Updated Zencoder with “content-type” header check
 
 ---
 

@@ -2,11 +2,11 @@
 
 Edit the HTML files you have created
 
-<img src="../../../../images/meta-data.png" alt="html files" style="width: 100%; display: block"></a>
+<img src="../../../../images/meta-data.png" alt="html files" style="width: 50%; display: block"></a>
 
 ## About
 
-<img src="../../../../images/meta-about.png" alt="html files" style="width: 100%; display: block"></a>
+<img src="../../../../images/meta-about.png" alt="html files" style="width: 50%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
@@ -15,7 +15,7 @@ Description | Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia dolor 
 
 ## Meta
 
-<img src="../../../../images/meta-meta.png" alt="html files" style="width: 100%; display: block"></a>
+<img src="../../../../images/meta-meta.png" alt="html files" style="width: 50%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
@@ -24,7 +24,7 @@ Meta Description | Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia d
 Meta Keywords | Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
 
 ## Advanced
-<img src="../../../../images/meta-advanced.png" alt="html files" style="width: 100%; display: block"></a>
+<img src="../../../../images/meta-advanced.png" alt="html files" style="width: 50%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
