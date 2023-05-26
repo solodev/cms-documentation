@@ -4,7 +4,7 @@
 
 Solodev CMS 9.8 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. Version 9.8 further optimizes the performance of the platform and modernizes code to reflect current technologies and practices. 
 
-Upgrades include a new serverless AWS document database solution to replace MongoDB, as well as new spam prevention capabilities, image optimization features, and more. 
+Upgrades include a new serverless AWS document database solution to replace MongoDB, as well as new spam prevention capabilities and more. 
 
 #### Key Release Highlights
 - Replaced MongoDB document database with with AWS DocumentDB service
@@ -15,32 +15,29 @@ Upgrades include a new serverless AWS document database solution to replace Mong
 - Anchor linking option added to module wysiwyg toolbars
 - ARIA link capability added to CK Editor
 - Google reCAPTCHA integration 
-- Uploaded images forced to resize according to Solodev CMS module settings 
 - Wowza streaming video API integration and recording route implementation
-- 7.4 revert for immediate rollback as needed 
 
 #### Improvements
 - Added sanitize function for keyword update
+- Added ARIA on honeypot to prevent ADA issue
 - Added manager upload field
-- Preserved breadcrumb when performing resave all on a manger 
 - Retained config secrets password fields
 - Enhanced pager shortcode
 - Locked down submitdatatable to be admin only
 - Improved universal search to all queries going to searchObjects
 - Introduced custom class loader for Windows environment
-- Updated cleaning values from form submissions
-- Updated ionCube to encode in php7.4
+- Updated ionCube to encode in php
 - Updated SSO login user checking flow 
+- Uploaded images forced to resize according to Solodev CMS module settings 
 - Replaced node-sass with sass
 
 #### Bug Fixes
-- Added single quote marks as acceptable character in user email addresses
-- Added ARIA on honeypot to prevent ADA issue
-- Corrected paging parameters
-- Fixed form pixel route issue
-- Fixed folder and file renaming bug
-- Fixed cascading delete issue with null folder deleting itself
 - Corrected reCAPTCHA action
+- Fixed form pixel route
+- Fixed folder and file renaming bug
+
+---
+
 
 ### v9.7 
 
