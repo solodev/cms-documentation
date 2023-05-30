@@ -10,7 +10,7 @@ Solodev is an enterprise content management system (CMS) and customer experience
 
 ## Quick Start
 
-Solodev CMS can be deployed in minutes through the <a href="https://www.solodev.com/marketplace">Solodev Marketplace</a>  and is available in either <a href="https://www.solodev.com/marketplace/solodev-cms-pro">Pro</a> or <a href="https://www.solodev.com/marketplace/solodev-cms-enterprise">Enterprise</a> editions, with Cloud and Static versions coming soon. 
+Solodev CMS can be deployed in minutes through the <a href="https://www.solodev.com/marketplace" target="_blank">Solodev Marketplace</a>  and is available in either <a href="https://www.solodev.com/marketplace/solodev-cms-pro" target="_blank">Pro</a> or <a href="https://www.solodev.com/marketplace/solodev-cms-enterprise" target="_blank">Enterprise</a> editions, with Cloud and Static versions coming soon. 
 
 You can also subscribe to Solodev CMS through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b" target="_blank" rel="noopener noreferrer">AWS Marketplace</a> in Lite, Pro, or Enterprise editions, as well as a container option for Kubernetes.
 
@@ -28,7 +28,7 @@ Enterprise | A cluster deployment with load balancing and auto-scaling, designed
 Kubernetes | A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. Only available in the AWS Marketplace.
 
 !!!Note:
-Solodev CMS is a cloud-first platform built exclusively for AWS. To launch a deployment from the Solodev Cloud or the AWS Marketplace, you or your organization will require an <a href="https://www.solodev.com/marketplace/aws">AWS Account</a>. 
+Solodev CMS is a cloud-first platform built exclusively for AWS. To launch a deployment from the Solodev Cloud or the AWS Marketplace, you or your organization will require an <a href="https://www.solodev.com/marketplace/aws" target="_blank">AWS Account</a>. 
 !!!
 
 ---
@@ -70,6 +70,6 @@ Set up individual users and groups and manage their roles using the industry’s
 :--- | ---
 Solodev Help Desk | Enterprise customers can purchase our world-class Solodev Help Desk service with any CMS deployment. Solodev Help Desk is available Monday through Friday, 8 AM – 6 PM EST. [Click Here](mailto:sales@solodev.com) to speak with a customer service representative. 
 Critical Care Service Level Agreements (SLAs) | Solodev CMS customers can also purchase an optional SLA with 24/7/365 monitoring and 2, 4, or 6-hour response times. [Click Here](mailto:sales@solodev.com) to speak with a customer service representative.
-General Chat Support | To report a bug, submit a feature request, ask a technical question, or provide feedback, please use our <a href="https://www.solodev.com/">website chat</a>. 
+General Chat Support | To report a bug, submit a feature request, ask a technical question, or provide feedback, please use our <a href="https://www.solodev.com/" target="_blank">website chat</a>. 
 
 

@@ -2,7 +2,7 @@
 
 Upload a file to your current file to overwrite it.
 
-<img src="../../../../images/overwrite.png" alt="html files" style="width: 100%; display: block"></a>
+<img src="../../../../images/overwrite.png" alt="html files" style="width: 50%; display: block"></a>
 
 
 **Name** | **Description**

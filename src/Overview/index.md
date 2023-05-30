@@ -12,7 +12,7 @@ To access the Solodev documentation, click on the **Help** link under **Support*
 <!--You can also view documentation for a specific screen anywhere in Solodev by clicking the **help center icon** in the lower right of each screen. -->
 
 !!! Note
-Can’t find what you need in our documentation? If you require additional technical assistance, please refer to our <a href="https://cms.solodev.net/#support">Support</a> options in the <a href="https://cms.solodev.net/">Welcome</a> section. 
+Can’t find what you need in our documentation? If you require additional technical assistance, please refer to our <a href="/#support">Support</a> options in the <a href="/#welcome">Welcome</a> section. 
 !!!
 
 **Name** | **Description** 

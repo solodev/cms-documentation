@@ -27,7 +27,7 @@ You can access any of your active websites by using the cards on the main Dashbo
 
 **Name** | **Description** 
 :--- | ---
-<a href="https://cms.solodev.net/workspace/websites/add-website/">Add Website</a> | Create a new website in your CMS deployment.
+<a href="/workspace/websites/add-website/">Add Website</a> | Create a new website in your CMS deployment.
 
 
 !!! Tip:
