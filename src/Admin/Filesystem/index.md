@@ -13,7 +13,7 @@ The main catalogs are as follows:
 
 **Name** | **Description** 
 :--- | ---
-[Custom CSS](https://cms.solodev.net/admin/filesystem/#filesystem-management)| Manage your filesystem.
+<a href="/admin/filesystem/#filesystem-management">Custom CSS</a> | Manage your filesystem.
 
 ---
 

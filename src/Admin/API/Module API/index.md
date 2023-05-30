@@ -8,10 +8,10 @@ Check the server list at the top.
 
 <img src="../../../images/moduleapi.jpg" alt="moduleapi" style="width: 100%; display: block"></a>
 
-**Name** | **Description** 
-:--- | ---
-[Authorize](https://cms.solodev.net/admin/api/module-api/#authorize) | Click this button to authorize yourself to gain access to Swagger.
-[Swagger Management](https://cms.solodev.net/admin/api/module-api/#swagger-management) | Select a method name to expand the section.
+**Name** | **Description**  
+:--- | --- 
+<a href="/admin/api/module-api/#authorize">Authorize</a> | Click this button to authorize yourself to gain access to Swagger.
+<a href="/admin/api/module-api/#swagger-management">Swagger Management</a> | Select a method name to expand the section.
 
 ## Authorize
 

@@ -10,8 +10,8 @@ Check the server list at the top.
 
 **Name** | **Description** 
 :--- | ---
-[Authorize](https://cms.solodev.net/admin/api/system-api/#authorize) | Click this button to authorize yourself to gain access to Swagger.
-[Swagger Management](https://cms.solodev.net/admin/api/system-api/#swagger-management) | Select a method name to expand the section.
+<a href="/admin/api/system-api/#authorize">Authorize</a> | Click this button to authorize yourself to gain access to Swagger.
+<a href="/admin/api/system-api/#swagger-management">Swagger Management</a> | Select a method name to expand the section.
 
 ## Authorize
 

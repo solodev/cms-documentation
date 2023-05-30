@@ -6,9 +6,9 @@ Branding displays your logo and custom CSS.
 
 **Name** | **Description** 
 :--- | ---
-Upload Logo | Upload the logo from your computer.
-[Custom CSS](https://cms.solodev.net/admin/settings/branding/#custom-css)| Modify the look and feel of your backend experience. 
-[Custom Dashboard](https://cms.solodev.net/admin/settings/branding/#custom-dashboard)| Update what is first seen when logging into CMS.
+Upload Logo | Upload the logo from your computer.  
+<a href="/admin/settings/branding/#custom-css">Custom CSS</a> | Modify the look and feel of your backend experience. 
+<a href="/admin/settings/branding/#custom-dashboard">Custom Dashboard</a> | Update what is first seen when logging into CMS.
 
 !!!Note:
 Recommended logo size: 360px x 360px.
