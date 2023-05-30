@@ -4,7 +4,7 @@ Build amazing websites, apps, and digital experiences in the AWS cloud with Solo
 
 <img src="../../../images/solo_welcome.png" alt="solo_welcome.png" style="width: 100%; display: block"></a>
 
-Solodev is an enterprise content management (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud – powered by Amazon Web Services (AWS). 
+Solodev is an enterprise content management system (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud – powered by Amazon Web Services (AWS). 
 
 ---
 
@@ -42,7 +42,7 @@ Built with marketers in mind, Solodev CMS provides a low-code/no-code experience
 With full access to HTML, CSS, PHP, and more, developers can create custom advanced, mobile-responsive websites and apps with robust functionality. 
 
 :icon-paintbrush: **Create amazing websites**<br>
-There’s no limit to what you can build using Solodev. Make beautiful websites or individual pages with traditional template-based features. 
+There’s no limit to what you can build using Solodev CMS. Make beautiful websites or individual pages with traditional template-based features. 
 
 :icon-server: **Manage everything in one place**<br>
 Solodev CMS is natively multi-site, making it easy to build, launch, access, and manage all your websites and apps from a single point of control. 

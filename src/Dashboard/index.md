@@ -51,14 +51,14 @@ Locate specific files in your CMS by using the Search bar at the top of the Dash
 <img src="../../../images/updated_db4.png" alt="search" style="width: 100%; display: block"></a>
 
 !!! Note:
-You can press the **Enter** button or click the blue button at the right side of the Search field. 
+You can press the **Enter** button or click the blue button at the right side of the Search field to start searching. 
 !!!
 
 ---
 
 ## Profile 
 
-Use the links in the lower left corner of your Dashboard to manage your profile or log out of Solodev CMS.  
+Use the links in the lower left corner of your Dashboard to manage your profile or log out from Solodev CMS.  
 
 <img src="../../../images/dashboard-profile.png" alt="dashboard-profile" style="width: 25%; display: block"></a>
 
@@ -66,4 +66,4 @@ Use the links in the lower left corner of your Dashboard to manage your profile 
 :--- | ---
 Manage Profile | Open submenu allowing to access and edit your profile details.
 <a href="/account/">My Profile</a> | Check and edit your profile details.
-Log Out| Log Out from your Solodev CMS. 
+Log Out| Log Out from Solodev CMS. 
