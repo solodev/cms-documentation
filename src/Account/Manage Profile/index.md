@@ -2,7 +2,7 @@
 
 Update your account details, including your name and phone number, as well as your specific timezone and business title. 
 
-<img src="../../../images/account-manage-profile.png" alt="manage profile" style="width: 50%; display: block"></a>
+<img src="../../../images/account-manage-profile.png" alt="manage profile" style="width: 60%; display: block"></a>
 
 !!!Note:
 Only your first and last name are required. All other fields are optional. 
@@ -20,7 +20,7 @@ Title | List your business title, such as “Director of Marketing,” etc. (opt
 
 Add a custom photo, image, or graphic to your account profile. 
 
-<img src="../../../images/account-profile-image.png" alt="profile image" style="width: 25%; display: block"></a>
+<img src="../../../images/account-profile-image.png" alt="profile image" style="width: 30%; display: block"></a>
 
 !!!Tip:
 Keep in mind that this is the image that you and your team members will see when collaborating in your CMS. It is sometimes accompanied by your username, but not always. Consider making it intuitive, like a headshot, or a unique graphic that is easy to identify.
@@ -35,7 +35,7 @@ Replace Image | If you already have a profile image, click the camera icon and s
 
 Convert your headshot photo into a realistic 3-D avatar with custom attributes.
 
-<img src="../../../images/account-create-avatar.png" alt="create avatar" style="width: 45%; display: block"></a>
+<img src="../../../images/account-create-avatar.png" alt="create avatar" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
