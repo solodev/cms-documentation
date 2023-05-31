@@ -24,7 +24,7 @@ Facebook URL | To add a Facebook URL, enter the URL in the text box.
 Social Media Image | Add your social media image by using the button **Upload**. You can also delete it by clicking the button **Delete**.
 
 !!!Note:
-Default image used when sharing a page via social media.
+Social Media Image is a default image used when sharing a page via social media.
 !!!
 
 ## Meta Information

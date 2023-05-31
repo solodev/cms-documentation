@@ -16,7 +16,7 @@ Use the search field in the upper right corner to locate or filter specific webs
 
 ## Permissions
 
-Add new members to your website, manage member roles, and remove members.
+Add new members to your website, manage member roles, and remove members. In order to open the Permission modal please click circkles under "Members" column.
 
 <img src="../../../images/permissions2.jpg" alt="permissions2" style="width: 40%; display: block"></a>
 

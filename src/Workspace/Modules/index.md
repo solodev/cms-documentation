@@ -43,7 +43,7 @@ Use the search field in the upper right corner to locate a specific module.
 
 ## Member Permissions
 
-Click on any of the members next to a module name to add or remove module members and manage their roles. 
+Click on any of the members next to a module name to add or remove module members and manage their roles. In order to open the Permission modal please click circkles under "Members" column.
 
 
 <img src="../../../images/permissions2.png" alt="permissions2" style="width: 35%; display: block"></a>

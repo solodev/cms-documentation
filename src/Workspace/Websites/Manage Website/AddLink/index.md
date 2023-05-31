@@ -1,6 +1,6 @@
 # Add Link 
 
-You can add a URL link to your website.
+You can add an URL link to your website.
 
 <img src="../../../../images/documents9.jpg" alt="documents9" style="width: 50%; display: block"></a>
 
