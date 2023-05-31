@@ -19,6 +19,3 @@ Add a new API token.
 ## Confirm
 
 Click the blue **Submit** button at the bottom right to apply your changes.
-
-
-

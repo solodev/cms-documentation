@@ -1,6 +1,6 @@
 # Filesystem
 
-The filesystem page reflects the structure of information contained in the CMS, reflecting the physical (sectors) setting of the data and assigning them to specific logical settings (files, directories), visible to the user and the application. 
+The filesystem page reflects the structure of information contained in the CMS, representing the physical (sectors) setting of the data and assigning them to specific logical settings (files, directories) visible to the user and the application. 
 
 <img src="../../../images/filesystem.jpg" alt="filesystem" style="width: 25%; display: block"></a>
 
@@ -19,7 +19,7 @@ The main catalogs are as follows:
 
 ## Filesystem Management
 
-When clicking on any catalog you can manage it by using 7 options. Search files by using the option **Search** at the top.
+When clicking on any catalog, you can manage it by using the 7 options provided. You can search for files by using the **Search** option at the top.
 
 <img src="../../../images/filesystem2.jpg" alt="filesystem2" style="width: 100%; display: block"></a>
 
