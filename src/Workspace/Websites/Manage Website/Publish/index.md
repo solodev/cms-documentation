@@ -1,3 +1,3 @@
 # Publish
 
-TO BE FINISHED (BUTTON DOESN'T WORK).
+Push files or folders live to your website.
