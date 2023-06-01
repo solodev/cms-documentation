@@ -15,7 +15,7 @@ Choose Install Location | Choose the form location.
 
 Forms are created based on the Form Studio editor. It has robust built-in drag-and-drop WYSIWYG editor, as well as the option to toggle to edit sources directly.
 
-<img src="../../../images/FormStudio.jpg" alt="FormStudio" style="width: 100%; display: block"></a>
+<img src="../../../images/form-studio.jpg" alt="FormStudio" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
