@@ -1,6 +1,6 @@
 # Delete
 
-Edit the HTML files you have created
+Permanently remove a file
 
 <img src="../../../../images/delete-file.png" alt="html files" style="width: 50%; display: block"></a>
 

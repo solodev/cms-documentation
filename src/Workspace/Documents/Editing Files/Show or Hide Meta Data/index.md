@@ -1,6 +1,6 @@
 # Show/Hide Meta Data
 
-Edit the HTML files you have created
+Add/update your page's name and title, structure and rank them, and add meta information to boost you SEO
 
 <img src="../../../../images/meta-data.png" alt="html files" style="width: 50%; display: block"></a>
 

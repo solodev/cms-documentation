@@ -1,6 +1,6 @@
 # Add to Group
 
-Add file to group
+Allow users to effortlessly include files into designated groups for easy organization and efficient access.
 
 <img src="../../../../images/add-to-group.png" alt="html files" style="width: 50%; display: block"></a>
 
