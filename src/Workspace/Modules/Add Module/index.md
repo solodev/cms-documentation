@@ -18,4 +18,4 @@ The uploaded package should be in **.zip** format.
 
 ## Confirm
 
-Once you have completed all the fields, click **Launch** to apply your changes.
+Once you have completed all the fields, click **Add** to apply your changes.

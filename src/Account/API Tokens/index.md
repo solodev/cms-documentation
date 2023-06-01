@@ -16,8 +16,8 @@ Most software APIs require the use of an API token. To connect and manage apps a
 Name | The name of your API token.
 Token | The API key for your specific app or service. Note that the default state is hidden, but the key can be revealed by clicking the **eye icon** to the right of the token.
 Change Status | Toggle your token from active to inactive.
-Add Token | Enter an API key to add to your table.  
-Reset Token | Force a reset of your token.
+<a href="/account/api-tokens/#add-token">Add Token</a> | Enter an API key to add to your table.  
+<a href="/account/api-tokens/#reset-token">Reset Token</a> | Force a reset of your token.
 Delete Token | Remove a token from your account. 
 
 ## Add Token
@@ -26,7 +26,11 @@ Add a custom API token to your account and manage it from your dashboard table.
 
 <img src="../../../images/account-add-token.png" alt="add token" style="width: 50%; display: block"></a>
 
-## Confirm 
+**Name** | **Description** 
+:--- | ---
+Name | Enter the name of your new token.
+
+### Confirm 
 
 Once you have entered your new username, click **Submit**.
 
@@ -36,9 +40,11 @@ Force an API token to reset by clicking the **Reset** link at the far right of e
 
 <img src="../../../images/account-delete.png" alt="reset token" style="width: 45%; display: block"></a>
 
-## Delete Token
-
-Instantly remove a token from your account by clicking the **X** at the far right of each row in the dashboard table. 
+**Name** | **Description** 
+:--- | ---
+Reset | Reset your token.
+Change Status | Toggle your token from active to inactive.
+Delete Token | Instantly remove a token from your account by clicking the **X** at the far right of each row in the dashboard table. 
 
 !!!Note:
 Deleting an API token cannot be undone. Once removed, the key will need to be re-added. 

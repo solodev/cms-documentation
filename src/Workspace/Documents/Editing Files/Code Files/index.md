@@ -1,4 +1,4 @@
-# Other Files
+# Code Files
 
 Here you can edit your code files that you have created.
 
@@ -24,8 +24,10 @@ Publish | Moves file from the staging server and makes it live.
 <a href="/workspace/documents/editing-files/overwrite-current-file/">Overwrite Current File</a> |  Upload a file to your current file to overwrite it.
 <a href="/support/tasks/">Tasks</a> | Create tasks and assign them to your team members. Follow their progress and update the flow as needed.
 
+## Download Files
+To download the files, right-click the filename then choose "Save Target As" or "Save Link As..." 
+
+
 ## Confirm
 
 Once you have completed all the fields, click **Submit** to apply your changes.
-## Download Files
-To download the files, right-click the filename then choose "Save Target As" or "Save Link As..." 

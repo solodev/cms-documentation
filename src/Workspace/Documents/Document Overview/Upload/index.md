@@ -20,4 +20,4 @@ Upload one or more files by clicking the browse button or dragging the files int
 
 ## Confirm
 
-Once you have completed all the fields, click **Submit** to apply your changes.
+Once you have completed all the fields, click **Upload** to apply your changes.

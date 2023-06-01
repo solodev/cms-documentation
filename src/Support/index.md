@@ -1,18 +1,14 @@
 # Support
 
----
+In your Support section, you can manage tasks assigned to teams and individuals as well as enter help documentation and learn what to do if you're having trouble.
 
-## Menu
+There are two main sections in your Support. Each can be accessed using the left navigation:
 
-On the left, there is a menu. There are 2 sections that you can select.
 
-- <a href="/support/tasks">Tasks</a>
+<img src="../../../images/help1.png" alt="help" style="width: 25%; display: block"></a>
 
-Here you can manage your tasks. 
-Tasks are a collaboration resource that allows you and your teams to work on projects and requirements in websites and applications. 
+**Name** | **Description** 
+:--- | ---
+<a href="/support/tasks">Tasks</a> | View, manage, and invite users to your CMS.
+<a href="/support/help">Help</a> | Create groups, add members to your group, and manage their roles and permissions.
 
-- <a href="/support/help">Help</a>
-
-Here you can learn what to do if you're having trouble.
-
----

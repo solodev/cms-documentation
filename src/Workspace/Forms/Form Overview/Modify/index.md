@@ -69,7 +69,8 @@ Type | Use this option to modify column type.
 Length | Use this option to modify column length.
 Allow Null | Mark this option to allow null in the column.
 Default | Use this option to make the column default.
-You | Already know what it
+
+
 ## Relationships
 
 Here you can relate the data table to other modules.

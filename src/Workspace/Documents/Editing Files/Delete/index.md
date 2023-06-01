@@ -4,6 +4,10 @@ Edit the HTML files you have created
 
 <img src="../../../../images/delete-file.png" alt="html files" style="width: 50%; display: block"></a>
 
+**Name** | **Description**
+:--- | ---
+Name | Mark the File/Folder you want to delete.
+
 ## Confirm
 
 Once you have completed all the fields, click **Submit** to apply your changes.

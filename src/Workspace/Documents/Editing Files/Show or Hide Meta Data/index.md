@@ -4,14 +4,19 @@ Edit the HTML files you have created
 
 <img src="../../../../images/meta-data.png" alt="html files" style="width: 50%; display: block"></a>
 
+**Name** | **Description**
+:--- | ---
+Name | Indicates the name of the file you are editing.
+
 ## About
 
 <img src="../../../../images/meta-about.png" alt="html files" style="width: 50%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
-Title | Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
-Description | Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
+URL | Click the link to copy the file.
+Title | Add a title.
+Description | Add a file description.
 
 ## Meta
 
@@ -19,17 +24,17 @@ Description | Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia dolor 
 
 **Name** | **Description**
 :--- | ---
-Rank | Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
-Meta Description | Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
-Meta Keywords | Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
+Rank | Add or change the rank that orders the folder when displayed in the menu navigation. **Lowest number listed first.**
+Meta Description | Add or change the Meta description.
+Meta Keywords | Add or change the Meta Keywords.
 
 ## Advanced
 <img src="../../../../images/meta-advanced.png" alt="html files" style="width: 50%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
-Publish Date | Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
-Expire Date | Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia dolor sit amet 
+Publish Date | Control when your Meta data appears.
+Expire Date | Control when your Meta data is removed.
 
 ## Confirm
 

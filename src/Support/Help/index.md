@@ -11,4 +11,3 @@ To open the documentation, click the **Help** link under **Support** in the left
 You can directly access relevant documentation from anywhere in the CMS for specific apps and functionality. Simply browse to a specific screen and click on the **help center icon** in the lower right corner. 
 !!!
 
-The help center also provides a chat feature for asking general technical questions. For more information on Support, click here.

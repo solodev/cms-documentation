@@ -6,6 +6,7 @@ Add file to group
 
 **Name** | **Description**
 :--- | ---
+File tree | Choose the File/Folder by using the file tree.
 Start Date | Control when your selection appears.
 End Date | Control when your selection is removed.
 
