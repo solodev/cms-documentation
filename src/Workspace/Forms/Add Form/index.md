@@ -11,6 +11,10 @@ Name | Customize the name.
 Choose Install Location | Choose the form location.  
 [Form Studio](#form-studio) | Create the form using Form Studio.
 
+!!!Note:
+Put the file into the forms folder in web files
+!!!
+
 ## Form Studio
 
 Forms are created based on the Form Studio editor. It has robust built-in drag-and-drop WYSIWYG editor, as well as the option to toggle to edit sources directly.
