@@ -4,14 +4,9 @@ Learn more about shortcodes used for multi-functional, date-based elements calle
 
 The previous article showed users how to leverage shortcodes for pages and sections. This article provides an overview of shortcodes used for multi-functional, date-based elements called modules. 
 
- 
-
 Repeater – refers to the user interface template, printing fields in the form of PHP variables through an $item array.
-
- 
-
-
-  Attributes:
+  
+Attributes:
 
 **Attributes** | **Description** 
 :--- | ---
@@ -27,72 +22,47 @@ Repeater – refers to the user interface template, printing fields in the form 
 ```[where]```(optional) | Perform a SQL query on the database.
 ```[website_filter]```(optional) | Filter list of news items by website.
 
-
-
 {{field_name}}
 
 Insert the names of your HTML fields inside these curly braces to print out the appropriate variable. You can find the field_name on your Table Schema.
 
- 
- 
-
-
-  Shortcode:
-
- 
-```
+```js
 [repeater]
 ```
-  
+
 Code Example:
 
- 
-```
+```js
 [repeater id="23" limit="0,4"]
   <h2>{{event_title}}</h2>
   <p>{{blog_intro}}</p>
 [/repeater]
 ```
 
- 
-
 Detail – shows the specifics of an individual entry from a repeater template. 
 
- 
-
-
-  Attributes:
+Attributes:
 
 **Attributes** | **Description** 
 :--- | ---
 ```[id](optional)``` | Used to reference a specific entry or map the list of repeater entries to detail page entries.
 
+Shortcode:
 
-
-  Shortcode:
-
- 
-```
+```js
 [entry]
 ```
 
-  Code Example:
+Code Example:
 
- ```
-
+```js
 [entry]
   <h1>{{name}}</h1>
   <p>{{blog_content}}</p>
 [/entry]
 ```
 
- 
-
 Sub Entry – Queries a specific entry within a detail page.
-
- 
-
-  
 
 Attributes: 
 
@@ -100,23 +70,15 @@ Attributes:
 :--- | ---
 ```[id](required)``` | Used to query a specific entry.
 
+Shortcode:
  
-
-  Shortcode:
- 
-
- 
-```
+```js
 [sub_entry]
 ``` 
 
- 
+Code Examples:
 
-
-  Code Examples:
-
- 
-```
+```js
 [entry]
   <h1>{{name}}</h1>
   [sub_entry id="###"]
@@ -125,14 +87,8 @@ Attributes:
 [/entry]
 ```
 
-
-
 Category Filter – Provides users with the ability to filter module entries by category.
 
- 
-
- 
-  
 Attributes: 
 
 **Attributes** | **Description** 
@@ -145,42 +101,19 @@ Attributes:
 ```[input_class]```(optional) | Adds classes to the category filter.
 ```[input_id]```(optional) | Adds an ID to the category filter.
 
- 
- 
+Shortcode:
 
- 
-
-
-  Shortcode:
-
- 
-```
+```js
 [category_filter]
 ```
 
-  Code Example:
-
- 
+Code Example:
 
 [category_filter category_group_id="32" all_value=" "]
- 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 Date Filter – Provides users with the ability to filter module entries by date.
 
- 
-
-
-  Attributes:
+Attributes:
  
 **Attributes** | **Description** 
 :--- | ---
@@ -192,19 +125,15 @@ Date Filter – Provides users with the ability to filter module entries by date
 ```[all_value=””]``` | Enables Bootstrap Selectize.
 ```[label]```(optional) | Generates the label for the select box.
 
+Shortcode:
  
-
-  Shortcode:
-
- 
-```
+```js
 [date_filter]
 ```
 
-  Code Example:
-
+Code Example:
  
-```
+```js
 <div class="row">
   <div class="col-md-4">
    [date_filter years="2010-2015" all_value=" "]
@@ -212,15 +141,9 @@ Date Filter – Provides users with the ability to filter module entries by date
 </div>
 ```
 
- 
-
 Month List – Loops through the months of the year starting with current month. 
 
- 
-
-
-
-  Attributes:
+Attributes:
 
 **Attributes** | **Description** 
 :--- | ---
@@ -228,29 +151,20 @@ Month List – Loops through the months of the year starting with current month.
 ```[start_year]```(optional) | The default start year (default: current year).
 ```[start_month]```(optional) | The default start month(default: current month).
 
- 
-
-  Shortcode:
+Shortcode:
 
  
-```
+```js
 [month_list]
 ```
 Code Example:
 
- 
-
+```js
 [month_list class="month_list"]
- 
-
- 
+```
 
 Search Filter -- Allows the user to search module entries using strings or integers.
-
  
-
-
-  
 Attributes:
 
 **Attributes** | **Description** 
@@ -261,29 +175,19 @@ Attributes:
 ```[button_class]```(optional) | Specify a class for CSS styling. Applies to the button.
 ```[button_text]```(optional) | Set the text for the search button.
 
- 
- 
+Shortcode:
 
-
-  Shortcode:
-
- 
-```
+```js
 [search_filter]
 ```
 
-  Code Example:
-
+Code Example:
  
-```
+```js
 [search_filter]
 ``` 
 
- 
-
 Tag Filter – Provides users with the ability to filter module entries by tags.
-
- 
 
 Attributes:
 
@@ -292,33 +196,19 @@ Attributes:
 ```[id]```(optional) | Specify an id for CSS styling.
 ```[class]```(optional) | Specify a class for CSS styling.
 
+Shortcode:
  
-
-  Shortcode:
-
- 
-```
+```js
 [tag_filter]
 ```
 
-  Code Example: 
+Code Example: 
 
- 
-
+```js
 [tag_filter id="my-select-id" class="my-select-class]
- 
-
- 
-
- 
-
- 
+```
 
 Entry Tags Repeat – Retrieves the tags to be displayed.
-
- 
-
-  
 
 Attributes: 
 
@@ -327,28 +217,21 @@ Attributes:
 ```[id]```(required) | id of the manager where the data is pulling from.
 ```[type]```(optional) | Specifies what type of manager the data is pulling from (default: calendar).
 
-
 Shortcode: 
-
  
-```
+```js
 [entry_tags_repeat]
 ```
 
-  Code Example:
+Code Example:
 
- 
-```
+```js
 [entry_tags_repeat id="{{calendar_entry_id}}"]
       <a class="text-capitalize" href="/blog/tags/{{{name}}}.stml"><u>  {{{title}}}</u></a>
 [/entry_tags_repeat]
 ```
 
- 
-
 Category Repeat – Retrieves the categories to be displayed.
-
- 
 
 Attributes: 
 
@@ -357,33 +240,18 @@ Attributes:
 ```[parent_id]```(optional) | Allows the user to create subcategories.
 ```[order]```(optional) | Rank the categories.
 
+Shortcode:
  
-
-  Shortcode:
- 
-
- 
-```
+```js
 [cat_repeat]
 ```
+Code Example:
 
-  Code Example:
-
- 
-
+```js
 [cat_repeat parent_id = "###"]
- 
-
- 
-
- 
-
- 
+```
 
 Repeat Entries Exist – Checks to see if blog entries exist.
-
- 
-
 
 Attributes:
 
@@ -404,78 +272,47 @@ Attributes:
 
 Insert the names of your HTML fields inside these curly braces to print out the appropriate variable. You can find the field_name on your Table Schema.
 
+Shortcode:
  
- 
-
- 
-
- 
-
-
-  Shortcode:
-
- 
-```
+```js
 [repeater_entries_exists]
 ```
 
-  Code Example:
-
+Code Example:
  
-
+```js
 [repeater_entries_exists id = '###' type = "calendar" limit="0,4"]
- 
-
- 
+```
 
 Calendar Entry Attachments – Gathers the attachments of a module and prints them, much like a repeater, onto a single web page. This is used in the photo gallery modules and document share. 
 
- 
-
 Note: The photo gallery option must be activated on the module. The steps to do so are outlined below: 
-
- 
 
 Activating Photo Gallery
 
 Open the blog module and click Modify.
 
- 
-
-
 Click the arrow in the Advanced accordion in the modal window to expand it.
-
- 
-
 
 Scroll down and click the checkbox beside Enable Attachments / Gallery.
 
 Click Submit. 
-
-
-
-  
+ 
 Attributes:
-
 
 **Attributes** | **Description** 
 :--- | ---
 ```[id]```(required) | ID of the module from which the data pulling.
 
- 
- 
-
 Shortcode: 
 
- 
-```
+```js
 [calendar_entry_attachments_repeat]
 ```
-  Code Example:
- 
 
+Code Example:
  
-```
+```js
 [calendar_entry_attachments_repeat id={{calendar_entry_id}}]
   <div class="item">
     <a data-gallery="multiimages" data-toggle="lightbox" href="{{{attachment_url}}}">
@@ -485,11 +322,7 @@ Shortcode:
 [/calendar_entry_attachments_repeat]
 ```
 
- 
-
 Calendar Entry Categories – Gathers the categories of a module and prints them onto a single web-page.
-
- 
 
 Attributes: 
 
@@ -497,18 +330,15 @@ Attributes:
 :--- | ---
 ```[id]```(optional) | ID of the module from which the data is coming.
  
+Shortcodes:
 
-  Shortcodes:
-
- 
-```
+```js
 [entry_categories_repeat]
 ```
 
-  Code Example:
-
+Code Example:
  
-```
+```js
 <div class="services">
   <h3>Services Included</h3>
   [entry_categories_repeat id="{{calendar_entry_id}}"]
@@ -517,20 +347,12 @@ Attributes:
 </div>
 ```
 
- 
-
 Full Calendar – This shortcode creates a representation of the full calendar plugin and retrieves calendar entries using the calendar ID of the module in question.
 
- 
 
 Full Calendar Includes – Returns libraries for a full calendar fullcalendar.io/ This is used on the events modules. This shortcode has no attributes. 
 
- 
-
-
-  Note:
-
- 
+Note:
 
 ```[js_full_calendar_includes]``` and ```[js_full_calendar]``` work together. You will need to include both codes in the page in order for it to work.
 
@@ -544,27 +366,20 @@ Attributes ```[js_full_calendar]```:
 :--- | ---
 ```[calendar_id]```(required) | ID of the calendar
  
+Shortcode:
 
-  Shortcode:
-
- 
-```
+```js
 [js_full_calendar_includes]
 [js_full_calendar]
 ```
   
 Code Example:
-
  
-```
+```js
 [js_full_calendar calendar_id="110"]
 ```
 
- 
-
 Event Date – Prints the event end date, typically along with the event’s start date and end time according to PHP’s date function. This is used in the events module.
-
- 
 
 Attributes: 
 
@@ -573,19 +388,15 @@ Attributes:
 ```[format]```(required) | The date format to be returned.
 ```[separator]```(optional) | Separates the month, day, and year.
 
+Shortcode:
 
-
-  Shortcode:
-
- 
-```
+```js
 [print_event_end]
 ```
   
 Code Example:
-
  
-```
+```js
 [entry]
   <h2>{{name}}</h2>
   <div class="media">
@@ -594,11 +405,8 @@ Code Example:
 [/entry]
 ```
 
- 
-
 Solodev Form -- Populates the form from a module by a specified datatable ID. 
 
-  
 Attributes:
 
 **Attributes** | **Description** 
@@ -606,28 +414,19 @@ Attributes:
 ```[id]```(required) | ID of the datatable where to GET and POST entries.
 Title | Name of the folder to display on the frontend.
 
- 
+ShortCode:
 
-  ShortCode:
-
- 
-```
+```js
 [form]
 ```
 
-  Code Example:
+Code Example:
 
- 
-
+```js
 [form id="40"]
-
-
- 
+```
 
 Landing Page Form – place a form in blog entries and landing pages.
-
- 
-
 
 Attributes:
 
@@ -635,42 +434,28 @@ Attributes:
 :--- | ---
 ```[id]```(required) | id of the form.
 
+Shortcode:
 
-  Shortcode:
-
- 
-```
+```js
 [landing_page_form]
 ```
 
-  Code Example:
+Code Example:
 
- 
-```
+```js
 [landing_page_form id="40"]
 ```
-  
- 
-
- 
 
 CAPTCHA – Generates a CAPTCHA code image with input field to be included on a form to limit computer-generated form entries. This shortcode has no attributes. 
 
- 
+Shortcode:
 
-
-  Shortcode:
-
- 
-
+```js
 [captcha]
+```
 
-
-  Code Example:
-
+Code Example:
  
-
+```js
 [captcha]
-
-<input type="submit" class="btn btn-primary" value="Submit">
- 
+```

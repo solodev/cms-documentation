@@ -2,41 +2,25 @@
 
 Learn more about shortcodes pertaining to users and user-related components in Solodev.
 
-
 The previous document provided an overview of shortcodes used for multi-functional, date-based elements called modules. This article discusses shortcodes pertain users and user-related components in Solodev. 
-
- 
 
 Contact Form Login – provides a form wrapper for users to login on the frontend of the website. 
 
- 
-
-
-  Attributes:
+Attributes:
 
 **Attributes** | **Description** 
 :--- | ---
 ```[forward_to](required)``` | URL of the account page that the user is directed to after submitting login credentials.
 
+Shortcode:
  
- 
-
-
-
-  Shortcode:
-
- 
-```
+```js
 [contact_form_login]
 ``` 
 
- 
+Code Example:
 
-
-  Code Example:
-
- 
-```
+```js
 [contact_form_login forward_to="/my-account/" username_field="username" password_field="password"]
           <div class="form-group">
             <label for="username">Email</label>
@@ -55,36 +39,23 @@ Contact Form Login – provides a form wrapper for users to login on the fronten
 [/contact_form_login]
 ```
 
- 
-
 Contact Form Signup – provides a form wrapper that enables users to register for an account. 
 
- 
-
-
-  Attributes:
+Attributes:
 
 **Attributes** | **Description** 
 :--- | ---
 ```[forward_to](required)``` | URL of the account page that the user is directed to after signing up
 
- 
+Shortcode:
 
-
-  Shortcode:
-
- 
-```
+```js
 [contact_form_signup]
 ```
 
- 
+Code Example:
 
-
-  Code Example:
-
- 
-```
+```js
 [contact_form_signup forward_to="/my-account/" username_field="email" password_field="password"]
         <div class="form-group row">
           <label class="col-md-3 control-label" for="email">Email</label>  
@@ -112,27 +83,17 @@ Contact Form Signup – provides a form wrapper that enables users to register f
 [/contact_form_signup]
 ```
 
- 
-
 Contact Form Update – provides a form wrapper that allows users to update their accounts. This shortcode has no attributes.
 
- 
+Shortcode:
 
-
-  Shortcode:
-
- 
-```
+```js
 [contact_form_update]
 ```
 
- 
+Code Example:
 
-
-  Code Example:
-
- 
-```
+```js
 [contact_form_update username_field="accountname" password_field="password" email_field="email"]
 <div class="row">
   <div class="col-sm-12">
@@ -159,38 +120,24 @@ Contact Form Update – provides a form wrapper that allows users to update thei
 [/contact_form_update]
 ```
 
- 
-
 Contact Form Forgot Password – Populates a forgot password utility linked to the Solodev form.
 
- 
-
-
-
-  Attributes:
+Attributes:
 
 **Attributes** | **Description** 
 :--- | ---
 ```[forward](required)``` | URL of the page that the user is directed to after submitting the form. 
 
- 
- 
+Shortcode:
 
-
-  Shortcode:
-
- 
-```
+```js
 [contact_form_forgot]
 ``` 
 
- 
-
-
-  Code Example:
+Code Example:
 
  
-```
+```js
 [contact_form_forgot forward_to="/password-confirm.stml" username_field="username" password_field="password" email_field="mail"]
           <div class="form-group row">
             <label class="col-md-3 control-label" for="email">Email</label>  
@@ -204,38 +151,23 @@ Contact Form Forgot Password – Populates a forgot password utility linked to t
 [/contact_form_forgot]
 ```
 
- 
-
 Contact Form Reset Password – provides a form wrapper that allows users to reset their password.
 
- 
-
-
-  Attributes:
+Attributes:
 
 **Attributes** | **Description** 
 :--- | ---
 ```[forward_to](required)``` | URL of the page that the user is directed to after resetting their password.
 
- 
- 
+Shortcode:
 
-
-  Shortcode:
-
- 
-```
+```js
 [contact_form_reset]
 ``` 
 
- 
+Code Example:
 
-
-  Code Example:
- 
-
- 
-```
+```js
 [contact_form_reset forward_to="/my-account/"]
          <div class="form-group">
           <input class="form-control input-lg rounded-0" id="password" name="password" placeholder="Password" type="password" required >

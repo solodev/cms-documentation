@@ -8,12 +8,12 @@ Admin Only – This shortcode specifies that the content inside of the ```[admin
 
 Shortcode:
 
-```
+```js
 [admin_only]
 ```
   Code Example:
 
-```
+```js
 [admin_only]
  hello backend
 [/admin_only]
@@ -21,16 +21,14 @@ Shortcode:
 
 Non Admin – This shortcode specifies that the content inside of the ```[non_admin_only]``` ```[/non_admin_only]``` should be shown on the frontend. Developers may use this shortcode in conjunction with ```[admin_only]``` ```[/admin_only]``` shortcode to partition front end and backend content and prevent them from interfering with one another. This shortcode has no attributes.
 
+Shortcode:
 
-
-  Shortcode:
-
-``` 
+``` js
 [non_admin_only]
 ```
-  Code Example:
+Code Example:
 
- ```
+ ```js
 [non_admin_only]
   hello frontend
 [/non_admin_only]
@@ -38,25 +36,20 @@ Non Admin – This shortcode specifies that the content inside of the ```[non_ad
 
 Get Asset File URL -- This self-closing shortcode returns the URL path to the specified asset file in the database. Typically, this shortcode is used within an entry or repeater shortcode.
 
- 
-  Attributes:
+Attributes:
 
 **Attributes** | **Description** 
 :--- | ---
 ```[id](required)``` | The file's asset file ID.
 
-  Shortcode:
- 
+Shortcode:
 
- 
-```
+```js
 [get_asset_file_url]
 ```
-  Code Example:
- 
+Code Example:
 
- 
-```
+```js
 [entry]
 <div class="blog-wrapper">
 <h1>{{article_title}}</h1>
@@ -65,34 +58,23 @@ Get Asset File URL -- This self-closing shortcode returns the URL path to the sp
 </div>
 [/entry]
 ```
-
-
-
 Get Asset File Name -- Returns the name of the specified asset file. 
 
- 
-
-
-  Attributes:
- 
-
- 
+Attributes:
 
 **Attributes** | **Description** 
 :--- | ---
 ```[id](required)``` | The file's asset file ID.
 
-
-  Shortcode:
-
+Shortcode:
  
-```
+```js
 [get_asset_file_name]
 ```
-  Code Example:
 
+Code Example:
  
-```
+```js
 <div class="row">
   <div class="col-md-8">
     <img alt="[get_asset_file_name id={{image}}]" src="[get_asset_file_url id={{image}}]">
@@ -102,12 +84,7 @@ Get Asset File Name -- Returns the name of the specified asset file.
 
 Print Date -- Returns the date formatted according to PHP's date function.
 
- 
-
-
-  Attributes:
-
- 
+Attributes:
 
 **Attributes** | **Description** 
 :--- | ---
@@ -115,86 +92,59 @@ Print Date -- Returns the date formatted according to PHP's date function.
 ```[datestring](optional)``` | Preformatted date that needs to be changed into another format. 
 ```[timestamp](optional)``` | Epoch timestamp (default: Today's Date).
 
+Shortcode:
 
-  Shortcode:
- 
-
- 
-```
+```js
 [print_date]
+``` 
+Code Example:
 
- ``` 
- 
- Code Example:
- 
-
- 
-```
+```js
 <div class="col-sm-8">
   <h2>{{event_title}}</h2>
   <span class="news-date">[print_date format="F d, Y g:ia" timestamp="{{start_time}}"]</span>
 </div>
-
 ```
-
 Lower Case -- Returns lowercased version of the string value within the enclosing shortcode. This shortcode has no attributes.
 
- 
+Shortcode:
 
-
-  Shortcode:
- 
-
- ```
+```js
 [lower_case]
 ```
-  Code Example:
 
- 
+Code Example:
 
-```
+```js
 <a class="[lower_case]{{event_title}}[/lower_case]">
   <img alt="[get_asset_file_url id={{clientLogo}}]" src="[get_asset_file_url id={{clientLogo}}]">
 </a>
 ```
-
-
 Report Errors -- Enables PHP error messages and warning for development purposes. This self-closing shortcode contains no attributes. 
 
+Shortcode:
  
-
-
-  Shortcode:
- 
-
- 
-```
+```js
 [report_errors]
 ```
-  Code Example:
 
- 
-```
+Code Example:
+
+```js
 [admin_only] [report_errors] [/admin_only]
 ```
 
 No Spaces -- Removes spaces from the content within the enclosing shortcode to make it database friendly. This shortcode contains no attributes. 
 
+Shortcode:
  
-
-
-  Shortcode:
- 
-
- 
-```
+```js
 [no_spaces]
 ```
 
-  Code Example:
+Code Example:
 
- 
-```
+```js
 <a class="[no_spaces]{{event_title}}[/no_spaces]">
   <img alt="Image" src="/images/logo.png">
 </a>
