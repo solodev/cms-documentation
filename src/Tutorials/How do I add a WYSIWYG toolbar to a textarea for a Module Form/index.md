@@ -1,4 +1,4 @@
-# How to add a WYSIWYG toolbar to a textarea for a Module Form
+# How to add a WYSIWYG toolbar to a text area for a Module Form
 
 The Solodev Visual Editor, also known as a WYSIWYG, editor is an easy-to use browser-based content editor that enables the author to capture and format HTML data without the requirement of coding knowledge. With the WYSIWYG users have access to text editing functions and file enhancements – allowing the user to visualize the end result while the document is being created. 
 
