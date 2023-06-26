@@ -1,4 +1,4 @@
-# How to add a WYSIWYG toolbar to a textarea for a Module Form
+# How to create categories for modules
 
 Categories are used for broad grouping of posts. Consider them as general topics or table of contents for a website. Categories exist to help identify the subject of a blog. Developers can leverage categories to help their audience find the right type of content on their site. Categories are hierarchal which allows developers to use sub-categories. The steps for creating are provided below.
 
