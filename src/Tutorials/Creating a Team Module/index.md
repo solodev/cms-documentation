@@ -1,98 +1,161 @@
 # Creating a Team Module
 
-Category pages allow your organization to optimize SEO and enhance overall user experience. In Solodev developers can attach category pages to modules by attaching them to category collections and attaching their collection of categories to the module itself. This tutorial shows users how to create category pages for their module. 
+Showcasing your staff members on your website adds a human element to your brand. This tutorial covers the basics of creating a team page using Solodev Modules and Shortcodes. 
 
 ## Pre-requisites
 
-Prior to this tutorial users should have: 
+Users must be familiar with the following:
 
-* Installed their module of choice. 
-* Created a detail page.
-* Mapped the detail page and folder to their module.
-* Created a collection.
-* Added categories and subcategories to that collection. 
+* Shortcodes
+* Mapping pages to modules
 
-## Step 1 – Create a repeater template
+## Step 1 - Installing a team module
 
-* Open the **Modules-> FAQs** folder. 
-* In the news folder, click **Add File**. 
-* Enter the Name **(category-repeater.tpl)** and Title of the file. 
+* On the Solodev dashboard click **Modules**.
+* Click **Add Modules** on the next page.
+* On the **Team** card click Install. 
+* In the modal window Enter the Name of the module. 
+* Click **Browse** and select the **web files -> managers** folder. 
+* Click **Choose**. 
+* Click **Submit**. 
+
+## Step 2 - Creating a Repeater Template
+
+* Expand the **web files -> content** folders and open the **about-us** folder. 
+* Click **Add Folder**. 
+* Enter the **Name (team)**, **Title**, and **Description** of the folder. 
+* Click **Submit**. 
+* Open the **team** folder. 
+* Click **Add File**. 
+* Enter the **Name (team-repeater.tpl)** and **Title** of the file. 
 * Set the File Type to **Code**. 
 * Click **Submit**. 
 * The user is directed to the open file. 
-* In the text box, enter the code provided below:
+* In the text box, enter the code provided below: 
 ```js
-<div class="row">
+<div class="row py-5">
+	<div class="text-center col-md-8 mx-auto">
+		<h2 class="text-uppercase">Seeing the World Anew</h2>
+		<p>Meet the team of talented people that are leading our low earth orbit tours.</p>
+	</div>
+</div>
+  
+<div class="row pb-5">
 	[repeater id='##'  pages="22" order="start_time desc" display_type="news"]
-		<div class="col-sm-6 col-lg-4 mt-4">
-			<div class="bg-light-gray bg-hover-light-gray-dark pointer box-sizing h-100" onclick="location.href='{{path}}'">
-				<img alt="{{event_title}}" src="[get_asset_file_url id='{{news_image}}']" class="img-fluid">
-				<div class="p-3 p-lg-4">					
-					[entry_categories_repeat id="{{calendar_entry_id}}"]
-						<a class="btn btn-outline-secondary rounded-0 p-1 px-3" href="/news/{{{name}}}">{{{title}}}</a>
-					[/entry_categories_repeat]
-					
-					<h2 class="h4 mt-4 post-intro">
-						[is_set value="{{heading_title}}"]
-							<a class="text-secondary" href="{{path}}">{{heading_title}}</a>
-						[/is_set]
-						[is_empty value="{{heading_title}}"]
-							<a class="text-secondary" href="{{path}}">{{event_title}}</a>
-						[/is_empty]
-					</h2>
-					
-					<p class="text-muted small">
-						[print_date format="F d, Y" timestamp="{{start_time}}"]
-					</p>
-					<p class="post-intro">{{post_intro}}</p>					
+		<div class="col-md-6 col-lg-3 mt-3">
+			<a href="{{path}}">
+				<div class="position-relative bg-secondary bg-hover-secondary-dark">
+					<img alt="Team Image" src="[get_asset_file_url id='{{team_member_image}}']" class="w-100 img-fluid">
+					<div class="text-white text-center border-top border-white w-100 p-2">
+						<h2 class="mb-0 h6 text-uppercase">
+							[is_set value="{{heading_title}}"]
+								{{heading_title}}
+							[/is_set]
+							[is_empty value="{{heading_title}}"]
+								{{event_title}}
+							[/is_empty]
+						</h2>
+						<p class="mb-0"><small>{{team_member_pos}}</small></p>
+					</div>
 				</div>
-			</div>
+			</a>
 		</div>
 	[/repeater]
 </div>
 ```
-* Click **Publish** 
+* Click **Publish**. 
 
 ***Note: The id value in the repeater should match the id value of the module.***
 
-## Step 2 – Create a category page to house the repeater
+## Step 3 - Creating a detail template
 
-* Open the **www -> news** folder. 
-* Click **Add Page**. 
-* Enter the **Name**, **Title** and **Description** of the page. 
+* Open the team folder located in **web files -> content -> about-us** folder. 
+* Click **Add File**. 
+* Enter the **Name (team-detail.tpl)** and **Title** of the file. 
+* Set the File Type to **Code**. 
+* Click **Submit**. 
+* The user is directed to the open file. 
+* In the text box, enter the code provided below: 
+```js
+[entry]
+	<div class="row align-items-center mb-lg-5">
+		<div class="col-md-3 text-lg-center text-left">
+			<img alt="Image Title" class="w-225p img-fluid rounded-circle" src="[get_asset_file_url id='{{team_member_image}}']">
+		</div>
+		<div class="col-md-9 mt-lg-0 mt-5">
+			[is_set value="{{team_member_pos}}"]
+				<h2 class="text-uppercase">{{team_member_pos}}</h2>
+			[/is_set]
+
+			<hr class="my-4">
+      
+			<div class="row">
+				<div class="col-md-6">
+					<p><i class="w-25p far fa-envelope pr-2"></i> <a href="mailto:{{team_member_email}}">{{team_member_email}}</a></p>
+					<p><i class="w-25p fas fa-mobile-alt pr-2"></i> <a href="tel:{{team_member_phone}}">{{team_member_phone}}</a></p>
+				</div>
+				<div class="col-md-6">
+					<p><i class="w-25p fas fa-map-marker-alt pr-2"></i>{{team_member_location}}</p>
+					<p><i class="w-25p far fa-clock pr-2"></i>{{team_member_hours}}</p>
+				</div>
+			</div>
+		</div>
+  </div>
+  <hr>
+  <div class="row pt-4">
+		<div class="col-sm-12">
+			{{post_content}}
+		</div>
+  </div>
+[/entry]
+``` 
+* Click **Publish**. 
+
+## Step 4 - Creating a page to house the repeater template
+
+* Open the **www** folder. 
+* Click **Add** Folder.
+* Enter the **Name (team)**, **Title**, and **Description** of the folder. 
+* Click **Submit**. 
+* Open the **team** folder. 
+* Click **Add Page**.
+* Enter the **Name (index.stml)**, **Title** and **Description** of the page.
 * Choose a template.
 * Click **Submit**. 
-* The user is directed to the category.stml page. 
+* The user is directed to the **index.stml** page.
 * Select an empty DynamicDiv on the page.
-* Select the **category-repeater.tpl** file located in the **web files -> content -> news** folder to insert it into the DynamicDiv.
+* Select the **team-repeater.tpl** file located in the **web files -> content -> about-us -> team** folder to insert it into the dynamic div.
+* Click **Publish**. 
+
+## Step 5 - Creating a page to house the detail template
+
+* With the **www -> team** folder open, click **Add Page**.
+* Enter the **Name (detail.stml)**, **Title** and **Description** of the page.
+* Choose a template.
+* Click **Submit**. 
+* The user is directed to the **detail.stml** page.
+* Select an empty DynamicDiv on the page.
+* Select the **team-detail.tpl** file located in the **web files -> content -> about-us -> team** folder to insert it into the dynamic div.
 * Click **Publish**.
 
-## Step 3 – Map the category page to the collection of news categories
+##  Step 6 – Mapping the detail.stml page to the team module
 
-* Expand the **www -> managers -> News** folder. 
-* Open the **News Categories** collection
+* Expand the **web files -> managers -> Staff** folders. 
+* Open the **Staff** module. 
 * Click **Modify**. 
-* In the modal window expand the **Settings** accordion.
-* Click **Browse**.
-* Select the **category.stml** page located in the **www -> news** folder.
-* Click **Choose**. 
-* Click **Submit**. 
+* Expand the **Website Properties** accordion.
+* Click Browse next to the Detail Template textbox. 
+* Select the **detail.stml** page located in the **www -> team** folder. 
+* Click Browse next to the Detail Folder Location text box. 
+* Select the folder **(www ->team)** that contains the detail.stml file.
+* Click **Submit**.
 
-## Step 4 – Map the collection to the News module 
+## Step 7 - Add an Entry
 
-* Open the **News Module**.
-* Click **Modify**. 
-* In the Modify modal expand the **Website Properties**.
-* Under the Categories section click **Browse** under the **Datatable Category Group**. 
-* Select the newly created collection. 
-* Click **Choose**. 
-* Click **Submit**. 
-
-## Step 5 – Add categories to each entry
-
-* Open the **News** module 
-* Click the **Add Entry** button. 
-* Populate the fields. 
-* Scroll down to the **Categories** section and select the appropriate categories created. 
-* If the category is not listed, the user can create them in the modal. 
-* Click **Submit**. 
+* Expand the **web files-> managers -> Staff** folders.
+* Open the **Team** module.
+* Click **Add Entry**
+* Set the Status to *Publish**
+* Enter the Content
+* Choose a Featured Image.
+* Click **Submit**.

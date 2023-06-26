@@ -1,6 +1,6 @@
 # How to Customize Solodev Themes and Layouts
 
-While .tpl files allow users ti recycle blocks of HTML code for each section or page of their website, users can leverage .tpl files to customize their website's layout, color scheme and logo. The first example will show the user how to customize the top-navbar. In the screenshot provided below, the navbar has a white background colour. This example shows the user how to change the colour of the top-navbar.
+While .tpl files allow users to recycle blocks of HTML code for each section or page of their website, users can leverage .tpl files to customize their website's layout, color scheme and logo. The first example will show the user how to customize the top-navbar. In the screenshot provided below, the navbar has a white background colour. This example shows the user how to change the colour of the top-navbar.
 
 ## How to customize themes in Solodev
 
