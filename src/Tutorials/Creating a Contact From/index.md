@@ -1,4 +1,4 @@
-# Create a Category Page
+# Creating a Contact From
 
 Category pages allow your organization to optimize SEO and enhance overall user experience. In Solodev developers can attach category pages to modules by attaching them to category collections and attaching their collection of categories to the module itself. This tutorial shows users how to create category pages for their module. 
 
