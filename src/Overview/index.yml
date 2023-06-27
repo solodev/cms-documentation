@@ -1,3 +1,4 @@
 order: 99
 icon: paste
 expanded: false
+visibility: hidden 

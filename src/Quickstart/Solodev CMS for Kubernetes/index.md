@@ -1,0 +1,1 @@
+# Solodev CMS for Kubernetes
