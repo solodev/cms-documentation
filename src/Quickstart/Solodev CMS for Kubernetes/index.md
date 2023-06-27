@@ -1,1 +1,1 @@
-# Solodev CMS for Kubernetes
+# Solodev Kubernetes for EKS
