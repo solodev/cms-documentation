@@ -1,4 +1,4 @@
-# Create a Landing Page Module
+# Create a landing page module
 
 Landing pages allow businesses to create pages that serve different purposes or contain content intended for different audiences. Businesses use a site of origin (display ad, blog post, link tweet) to direct their users to the appropriate landing page. 
 

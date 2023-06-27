@@ -1,4 +1,4 @@
-# Create a News Module
+# Create a news module
 
 Soldev gives users the power to create a module to draft and publish news entries to keep their customers up to date with the most recent company news. This tutorial shows users how to create a news module in Solodev where they can add entries with no coding knowledge. This module requires an index page and a detail page. The index page contains the repeater template and the detail page contains the detail template. 
 
