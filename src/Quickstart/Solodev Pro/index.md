@@ -9,11 +9,19 @@ AWS Diagram
 
 Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be lifting off on AWS.
 
+## Prerequisites
+Before subscribing to a desired stack, Solodev recommends that customers have created an AWS account and sign in. 
+
 ## Step 1: Subscribe on the AWS Marketplace
-Solodev is a professionally managed, enterprise-class Digital Customer Experience Platform and content management system (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started:
+Solodev is a professionally managed, enterprise-class Digital Customer Experience Platform and content management system (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the AWS Marketplace. Click the button below and follow the AWS screens to get started:
 
 [!button variant="warning" target="blank" text="Subscribe Now"](https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X)
-  
+ 
+<img src="../../images/cmsproawssubscribe1.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+
+<img src="../../images/cmsproawssubscribe2.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+
+ 
 Already have a Solodev license? Call 1-800-859-7656 and we’ll activate your subscription for you.
 
 ## Step 2: Configure Your VPC and EC2 Key Pair
