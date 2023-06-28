@@ -5,7 +5,7 @@ Take command of your digital universe! Get the full power of the galaxy's most a
 ## Overview
 Solodev CMS Professional Edition on AWS uses a set of YAML templates including Amazon Virtual Private Cloud (VPC), Amazon Elastic Compute Cloud (EC2), Amazon Relational Database Service (RDS), Amazon Simple Storage Service (S3), Amazon CloudWatch, Amazon CloudFront, Amazon Route 53, Amazon Web Application Firewall (WAF) and deployed by AWS CloudFormation.
 
-AWS Diagram
+<img src="../../images/Solodev-CMS-Pro.png" alt="AWS Diagram" style="width: 100%; display: block"></a>
 
 Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be lifting off on AWS.
 
