@@ -69,6 +69,8 @@ The EC2 instance type you wish to launch
 Number of instances behind load balancer. Minimum 2 required for high availability.
 === KeyName 
 Name of an existing EC2 KeyPair to enable SSH access to the instances
+=== CookbookURL 
+https://s3.amazonaws.com/solodev-cms/chef/cookbooks.tar.gz (**COPY THIS URL.**) | Download and host on your own S3 bucket or 
 ===
 
 <img src="../../images/enterprise-parmeters.png" alt="Parameters " style="width: 100%; display: block"></a>
@@ -128,6 +130,8 @@ If your stack builds successfully, you will see the green "CREATE_COMPLETE" mess
 
 ## Step 7: Login to Solodev
 Visit either the load balancer URL or the backend domain you configured in Step 7. Log-in to Solodev using the username "solodev" and the password you configured in Step 5.
+
+<img src="../../images/cmsproawssubscribe15.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
 ## Support
 Houston, we have no problems… because Solodev Customer Care has your back at every step! From our world-class HelpDesk to our focused training sessions, you’ve got the best team on the ground to get you to the stars.
