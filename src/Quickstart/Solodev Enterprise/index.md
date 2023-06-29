@@ -30,25 +30,33 @@ Once you’ve configured your **VPC** and **EC2 Key Pair**, you can launch your 
 ### Confirm Subscription
 Click on the "Continue to Subscribe" link within the AWS Marketplace listing. Once your subscription is processed, you will see confirmation and the "Continue to Configuration" button.
 
+<img src="../../images/enterprise-configuration.png" alt="Enterprise-Configuration" style="width: 100%; display: block"></a>
+
 ### Configure Solodev CMS Enterprise Edition
 Specify the basic configurables such as the software version and the region you wish to launch the stack. Click on the "Continue to Launch" button to proceed.
 
+<img src="../../images/enterprise-configuration1.png" alt="Enterprise-Configuration" style="width: 100%; display: block"></a>
+
 ### Launch Solodev CMS Enterprise Edition
 Confirm your configurations and choose "Launch CloudFormation" within the "Choose Action" field. Click on the "Launch" button to continue to CloudFormation.
+
+<img src="../../images/launch-enterprise.png" alt="Launch-Enterprise" style="width: 100%; display: block"></a>
 
 ## Step 4: Fill Out the CloudFormation Stack Wizard
 
 ### Continue with the preselected CloudFormation Template
 The Amazon S3 template URL (used for the CloudFormation configuration) should be preselected. Click "Next" to continue.
 
+<img src="../../images/create-enterprise-stack.png" alt="Create-Stack" style="width: 100%; display: block"></a>
+
 ### Specify Details
 The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
-
-<img src="../../images/parameters-solodev-cms-opsworks.jpg" alt="Parameters " style="width: 100%; display: block"></a>
 
 **Parameter Description** | **Description** 
 :--- | ---
 Stack name | The name of your stack (set to "solodev-cms-opsworks" by default). Please note, the name must be all lowercase.
+
+<img src="../../images/enterprise-stack-name.png" alt="Parameters " style="width: 100%; display: block"></a>
 
 ###  Network Setup
 === VPCID 
@@ -63,6 +71,8 @@ Number of instances behind load balancer. Minimum 2 required for high availabili
 Name of an existing EC2 KeyPair to enable SSH access to the instances
 ===
 
+<img src="../../images/enterprise-parmeters.png" alt="Parameters " style="width: 100%; display: block"></a>
+
 ### CMS Settings
 === AdminUser
 The solodev admin username
@@ -74,27 +84,41 @@ The database root password
 Enable encryption for both Database (RDS) and Filesystem (EFS). True or False.
 ===
 
+<img src="../../images/cmsproawssubscribe9.png" alt="CMSEnterpriseSubscribe" style="width: 100%; display: block"></a>
+
 ### Optional: SSL Configuration
-=== FQDN
-URL for app. FQDN must be pointed to CNAME of ALB.
 === CertificateArn
 CertificateArn for SSL cert that matches the FQDN above. Please visit the AWS Certificate Manager.
 ===
 
+<img src="../../images/enterprise-ssl.png" alt="Parameters " style="width: 100%; display: block"></a>
+
 ### Optional: Advanced
+=== WebsiteURL
+Name of initital Solodev website
 === RestoreBucketName
 Name of S3 bucket containing files for restore
-=== CookbookURL
-<a href="https://s3.amazonaws.com/solodev-aws-ha/cookbooks.tar.gz">https://s3.amazonaws.com/solodev-aws-ha/cookbooks.tar.gz</a> | Download and host on your own S3 bucket or copy this URL.
 === DeletionPolicy
 Experimental: Deletion Policy (Retain, Delete, Snapshot)
+=== RedisEnabled
+Enable Redis ElastiCache cluster
+=== AdminEnabled
+Enable Admin Layer
 ===
+
+<img src="../../images/enterprise-advanced.png" alt="Parameters " style="width: 100%; display: block"></a>
 
 ### Specify Options
 Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disable "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
 
+<img src="../../images/specific-options1.png" alt="Parameters " style="width: 100%; display: block"></a>
+<img src="../../images/specific-options2.png" alt="Parameters " style="width: 100%; display: block"></a>
+<img src="../../images/specific-options3.png" alt="Parameters " style="width: 100%; display: block"></a>
+
 ### Review
 Review all CloudFront details and options. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the "Create" button to launch your stack.
+
+<img src="../../images/cmsproawssubscribe12.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
 ## Step 5: Monitor the CloudFormation Stack Creation Process
 Upon launching your CloudFormation stack, you will be able to monitor the installation logs under the "Events" tab. The CloudFormation template will launch several stacks related to your Solodev instance including EFS, EDS, and EC2. If you encounter any failures during this time, please visit the <a href="https://github.com/solodev/aws/wiki/Common-Issues">Common Issues</a> page to begin troubleshooting.
