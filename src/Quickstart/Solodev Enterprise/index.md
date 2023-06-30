@@ -27,24 +27,24 @@ Please note that both a <a href="https://docs.aws.amazon.com/vpc/latest/userguid
 ## Step 3: Launch your CloudFormation Stack
 Once you’ve configured your **VPC** and **EC2 Key Pair**, you can launch your CloudFormation stack. Select the AWS region of your choice below:
 
-### Confirm Subscription
+#### Confirm Subscription
 Click on the "Continue to Subscribe" link within the AWS Marketplace listing. Once your subscription is processed, you will see confirmation and the "Continue to Configuration" button.
 
 <img src="../../images/enterprise-configuration.png" alt="Enterprise-Configuration" style="width: 100%; display: block"></a>
 
-### Configure Solodev CMS Enterprise Edition
+#### Configure Solodev CMS Enterprise Edition
 Specify the basic configurables such as the software version and the region you wish to launch the stack. Click on the "Continue to Launch" button to proceed.
 
 <img src="../../images/enterprise-configuration1.png" alt="Enterprise-Configuration" style="width: 100%; display: block"></a>
 
-### Launch Solodev CMS Enterprise Edition
+#### Launch Solodev CMS Enterprise Edition
 Confirm your configurations and choose "Launch CloudFormation" within the "Choose Action" field. Click on the "Launch" button to continue to CloudFormation.
 
 <img src="../../images/launch-enterprise.png" alt="Launch-Enterprise" style="width: 100%; display: block"></a>
 
 ## Step 4: Fill Out the CloudFormation Stack Wizard
 
-### Continue with the preselected CloudFormation Template
+Continue with the preselected CloudFormation Template
 The Amazon S3 template URL (used for the CloudFormation configuration) should be preselected. Click "Next" to continue.
 
 <img src="../../images/create-enterprise-stack.png" alt="Create-Stack" style="width: 100%; display: block"></a>
@@ -58,7 +58,7 @@ Stack name | The name of your stack (set to "solodev-cms-opsworks" by default). 
 
 <img src="../../images/enterprise-stack-name.png" alt="Parameters " style="width: 100%; display: block"></a>
 
-###  Network Setup
+####  Network Setup
 === VPCID 
 Choose which VPC the application should be deployed to
 === Subnets
@@ -75,7 +75,7 @@ https://s3.amazonaws.com/solodev-cms/chef/cookbooks.tar.gz (**COPY THIS URL.**) 
 
 <img src="../../images/enterprise-parmeters.png" alt="Parameters " style="width: 100%; display: block"></a>
 
-### CMS Settings
+#### CMS Settings
 === AdminUser
 The solodev admin username
 === AdminPassword
@@ -88,14 +88,14 @@ Enable encryption for both Database (RDS) and Filesystem (EFS). True or False.
 
 <img src="../../images/cmsproawssubscribe9.png" alt="CMSEnterpriseSubscribe" style="width: 100%; display: block"></a>
 
-### Optional: SSL Configuration
+#### Optional: SSL Configuration
 === CertificateArn
 CertificateArn for SSL cert that matches the FQDN above. Please visit the AWS Certificate Manager.
 ===
 
 <img src="../../images/enterprise-ssl.png" alt="Parameters " style="width: 100%; display: block"></a>
 
-### Optional: Advanced
+#### Optional: Advanced
 === WebsiteURL
 Name of initital Solodev website
 === RestoreBucketName
@@ -109,6 +109,13 @@ Enable Admin Layer
 ===
 
 <img src="../../images/enterprise-advanced.png" alt="Parameters " style="width: 100%; display: block"></a>
+
+### Confirm your stack details
+
+Click "Next" button on the the bottom of the screen to continue.
+
+<img src="../../images/cmsproawssubscribe11.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+
 
 ### Specify Options
 Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disable "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
@@ -125,8 +132,12 @@ Review all CloudFront details and options. Ensure that the "I acknowledge that A
 ## Step 5: Monitor the CloudFormation Stack Creation Process
 Upon launching your CloudFormation stack, you will be able to monitor the installation logs under the "Events" tab. The CloudFormation template will launch several stacks related to your Solodev instance including EFS, EDS, and EC2. If you encounter any failures during this time, please visit the <a href="https://github.com/solodev/aws/wiki/Common-Issues">Common Issues</a> page to begin troubleshooting.
 
+<img src="../../images/cmsproawssubscribe13.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+
 ## Step 6: View CloudFormation Stack Outputs
 If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the load balancer URL for the Solodev backend. Point both your primary domain (mydomain.com) and a dedicated backend domain/subdomain (solodev.mydomain.com) to this URL.
+
+<img src="../../images/cmsproawssubscribe14.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
 ## Step 7: Login to Solodev
 Visit either the load balancer URL or the backend domain you configured in Step 7. Log-in to Solodev using the username "solodev" and the password you configured in Step 5.
@@ -151,8 +162,16 @@ Are you a Solodev Developer? Launch a development stack in your AWS account usin
 
 * <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?stackName=solodev-enterprise&templateURL=https://s3.amazonaws.com/solodev-cms/cloudformation/solodev-enterprise-opsworks.yaml">Launch Solodev Enterprise OpsWorks</a>
 * <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?stackName=solodev-enterprise-byol&templateURL=https://s3.amazonaws.com/solodev-cms/cloudformation/solodev-enterprise-opsworks-byol.yaml">Launch Solodev Enterprise OpsWorks BYOL</a>
+
 ## Need Help?
 Solodev is a professionally managed, enterprise-class solution, and our team of certified engineers are here to support your success. While our self-serve options are easy to launch, you’ve always got a co-pilot at the helm. If you have any questions – or if you already have a Solodev license and need support with your AWS subscription – call 1-800-859-7656 and we’ll help you get to the launchpad.
+
+## Canceling your subscription
+
+If you would like to cancel your Solodev subscription and you have choosen hourly billing plans just delete the stack connected with you CMS Pro
+
+<img src="../../images/cmsproawssubscribe16.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+
 
 © 2019 Solodev. All rights reserved worldwide. And off planet.
 

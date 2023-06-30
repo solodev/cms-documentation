@@ -23,7 +23,8 @@ Already have a Solodev license? Call 1-800-859-7656 and we’ll activate your su
 Please note that both a VPC and EC2 Key Pair must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.
 
 ## Step 3: Launch your CloudFormation Stack
-Confirm Subscription.
+
+#### Confirm Subscription.
 
 Click on the "Continue to Subscribe" link within the AWS Marketplace listing. Once your subscription is processed, you will see confirmation and the "Continue to Configuration" button.
 
@@ -33,13 +34,13 @@ Click on the "Continue to Subscribe" link within the AWS Marketplace listing. On
 
 <img src="../../images/cmsproawssubscribe3.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
-Configure Solodev CMS Professional Edition.
+#### Configure Solodev CMS Professional Edition.
 
 Specify the basic configurables such as the software version and the region you wish to launch the stack. Click on the "Continue to Launch" button to proceed.
 
 <img src="../../images/cmsproawssubscribe4.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
-Launch Solodev CMS Professional Edition.
+#### Launch Solodev CMS Professional Edition.
 
 Confirm your configurations and choose "Launch CloudFormation" within the "Choose Action" field. Click on the "Launch" button to continue to CloudFormation.
 
@@ -144,13 +145,20 @@ Solodev Customer Care Includes
 - 24 x 7 x 365 U.S. based human support
 - Online HelpDesk ticketing
 - Phone and email support
-- Live training courses
+- Live t raining courses
 - Over 300 pages of searchable documentation and tutorials
 
 To learn more about our add-on support options, call 1-800-859-7656 to speak with one of our Solodev Customer Care Specialists.
 
+## Developers
+Are you a Solodev Developer? Launch a development stack in your AWS account using the below links. Please note, the builds will only be successful for authorized Solodev Developers.
+
+* <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?stackName=solodev-enterprise&templateURL=https://s3.amazonaws.com/solodev-cms/cloudformation/solodev-enterprise-opsworks.yaml">Launch Solodev Enterprise OpsWorks</a>
+* <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?stackName=solodev-enterprise-byol&templateURL=https://s3.amazonaws.com/solodev-cms/cloudformation/solodev-enterprise-opsworks-byol.yaml">Launch Solodev Enterprise OpsWorks BYOL</a>
+
 ## Need Help?
 Solodev is a professionally managed, enterprise-class solution, and our team of certified engineers are here to support your success. While our self-serve options are easy to launch, you’ve always got a co-pilot at the helm. If you have any questions – or if you already have a Solodev license and need support with your AWS subscription – call 1-800-859-7656 and we’ll help you get to the launchpad.
+
 
 ## Canceling your subscription
 
