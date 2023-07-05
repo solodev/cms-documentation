@@ -7,7 +7,15 @@ Solodev allows users to manage certain pieces of information related to their do
 * Click **Websites** under the **Workspace** section of the Solodev Dashboard. 
 * Click on the Website to open it. 
 * Click **Settings** to bring up the modal window. 
+
+<img src="../../../images/delete.png" alt="document-overview" style="width: 100%; display: block"></a>
+
 * Click the arrow to expand the **Advanced** tab. 
+
+<img src="../../../images/delete1.png" alt="document-overview" style="width: 100%; display: block"></a>
+
 * Under the prompt “**Delete “domain.com”?**”, type ‘DELETE’ in the text box. 
 * Click the **Delete** button. 
+
+<img src="../../../images/delete2.jpg" alt="document-overview" style="width: 100%; display: block"></a>
  

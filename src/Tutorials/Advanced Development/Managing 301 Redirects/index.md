@@ -13,7 +13,13 @@ Solodev creates an .htaccess file with the creation of each website. This docume
 
 * Click **Websites** under the **Workspace** section of the Solodev Dashboard. 
 * Click on the Website to open it. 
+
+<img src="../../../images/redirect1.png" alt="document-overview" style="width: 100%; display: block"></a>
+
 * Click **Redirects** located under the Update Website button. 
+
+<img src="../../../images/redirect2.png" alt="document-overview" style="width: 100%; display: block"></a>
+
 * If the administrator has created and customized their error 404 document, enter the following lines of code to direct the browser to the error document:
 ```js
 RewriteEngine On
@@ -30,6 +36,8 @@ Redirect 301 /old-page.stml http://www.mydomain.com/new-page.stml
 The administrator can add additional 301 redirects by placing each redirect on its own line in the .htaccess file. 
 ```
 * Click **Submit**.
+
+<img src="../../../images/redirect3.jpg" alt="document-overview" style="width: 100%; display: block"></a>
 
 !!! Note: 
 In the redirect, the old-page.stml should use a relative path and reference the page that should be redirected. The <a href="http://www.mydomain.com/new-page.stml">http://www.mydomain.com/new-page.stml</a> should use an absolute path and reference the new page. 
