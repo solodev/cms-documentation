@@ -64,42 +64,36 @@ Stack name | The name of your stack (set to "solodev-cms-pro" by default). Pleas
 
 
 ####  Network Setup
-=== VPCID 
-Choose which VPC the application should be deployed to
-=== Subnets
-Choose at least two public subnets for this application
-=== InstanceType 
-The EC2 instance type you wish to launch
-=== KeyName 
-Name of an existing EC2 KeyPair to enable SSH access to the instances
-===
+
+**Name** | **Description** 
+:--- | ---
+VPCID | Choose which VPC the application should be deployed to
+Subnets | Choose at least two public subnets for this application
+InstanceType | The EC2 instance type you wish to launch
+KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances
 
 <img src="../../images/cmsproawssubscribe8.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
 #### CMS Settings
-=== AdminUser
-Name of the admin user
-=== AdminPassword
-Password of the admin user
-=== DatabasePassword
-Password for the database
-=== StorageEncrypted
-Enable encryption for both Database (RDS) and Filesystem (EFS). True or False.
-===
+
+**Name** | **Description** 
+:--- | ---
+AdminUser | Name of the admin user
+AdminPassword | Password of the admin user
+DatabasePassword | Password for the database
+StorageEncrypted | Enable encryption for both Database (RDS) and Filesystem (EFS). True or False.
 
 <img src="../../images/cmsproawssubscribe9.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
 
 #### Optional: Advanced
-=== WebsiteUrl
-Name of your first Solodev website
-=== RestoreBucketName
-Name of S3 bucket containing files for restore
-=== DeletionPolicy
-Experimental: Deletion Policy (Retain, Delete, Snapshot)
-=== CertificateArn
-CertificateArn for SSL cert that matches the FQDN above. Please visit the AWS Certificate Manager.
-===
+
+**Name** | **Description** 
+:--- | ---
+WebsiteUrl | Name of your first Solodev website
+RestoreBucketName | Name of S3 bucket containing files for restore
+DeletionPolicy | Experimental: Deletion Policy (Retain, Delete, Snapshot)
+CertificateArn | CertificateArn for SSL cert that matches the FQDN above. Please visit the AWS Certificate Manager.
 
 <img src="../../images/cmsproawssubscribe10.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
@@ -165,10 +159,3 @@ Solodev is a professionally managed, enterprise-class solution, and our team of 
 If you would like to cancel your Solodev subscription and you have choosen hourly billing plans just delete the stack connected with you CMS Pro
 
 <img src="../../images/cmsproawssubscribe16.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
-
-
-© 2019 Solodev. All rights reserved worldwide. And off planet.
-
-Errors or corrections? Email us at help@solodev.com.
-
-Visit solodev.com to learn more. 

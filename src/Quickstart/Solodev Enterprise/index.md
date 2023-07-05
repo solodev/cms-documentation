@@ -59,32 +59,26 @@ Stack name | The name of your stack (set to "solodev-cms-opsworks" by default). 
 <img src="../../images/enterprise-stack-name.png" alt="Parameters " style="width: 100%; display: block"></a>
 
 ####  Network Setup
-=== VPCID 
-Choose which VPC the application should be deployed to
-=== Subnets
-Choose at least two public subnets for this application
-=== InstanceType 
-The EC2 instance type you wish to launch
-=== InstanceCount 
-Number of instances behind load balancer. Minimum 2 required for high availability.
-=== KeyName 
-Name of an existing EC2 KeyPair to enable SSH access to the instances
-=== CookbookURL 
-https://s3.amazonaws.com/solodev-cms/chef/cookbooks.tar.gz (**COPY THIS URL.**) | Download and host on your own S3 bucket or 
-===
+
+**Name** | **Description** 
+:--- | ---
+VPCID | Choose which VPC the application should be deployed to
+Subnets | Choose at least two public subnets for this application
+InstanceType | The EC2 instance type you wish to launch
+InstanceCount | Number of instances behind load balancer. Minimum 2 required for high availability.
+KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances
+CookbookURL | https://s3.amazonaws.com/solodev-cms/chef/cookbooks.tar.gz (**COPY THIS URL.**) or Download and host on your own S3 bucket
 
 <img src="../../images/enterprise-parmeters.png" alt="Parameters " style="width: 100%; display: block"></a>
 
 #### CMS Settings
-=== AdminUser
-The solodev admin username
-=== AdminPassword
-The solodev admin password
-=== DatabasePassword
-The database root password
-=== StorageEncrypted
-Enable encryption for both Database (RDS) and Filesystem (EFS). True or False.
-===
+
+**Name** | **Description** 
+:--- | ---
+AdminUser | The solodev admin username
+AdminPassword | The solodev admin password
+DatabasePassword | The database root password
+StorageEncrypted | Enable encryption for both Database (RDS) and Filesystem (EFS). True or False.
 
 <img src="../../images/cmsproawssubscribe9.png" alt="CMSEnterpriseSubscribe" style="width: 100%; display: block"></a>
 
@@ -96,17 +90,14 @@ CertificateArn for SSL cert that matches the FQDN above. Please visit the AWS Ce
 <img src="../../images/enterprise-ssl.png" alt="Parameters " style="width: 100%; display: block"></a>
 
 #### Optional: Advanced
-=== WebsiteURL
-Name of initital Solodev website
-=== RestoreBucketName
-Name of S3 bucket containing files for restore
-=== DeletionPolicy
-Experimental: Deletion Policy (Retain, Delete, Snapshot)
-=== RedisEnabled
-Enable Redis ElastiCache cluster
-=== AdminEnabled
-Enable Admin Layer
-===
+
+**Name** | **Description** 
+:--- | ---
+WebsiteURL | Name of initital Solodev website
+RestoreBucketName | Name of S3 bucket containing files for restore
+DeletionPolicy | Experimental: Deletion Policy (Retain, Delete, Snapshot)
+RedisEnabled | Enable Redis ElastiCache cluster
+AdminEnabled | Enable Admin Layer
 
 <img src="../../images/enterprise-advanced.png" alt="Parameters " style="width: 100%; display: block"></a>
 
@@ -171,8 +162,3 @@ Solodev is a professionally managed, enterprise-class solution, and our team of 
 If you would like to cancel your Solodev subscription and you have choosen hourly billing plans just delete the stack connected with you CMS Pro
 
 <img src="../../images/cmsproawssubscribe16.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
-
-
-© 2019 Solodev. All rights reserved worldwide. And off planet.
-
-Errors or corrections? Email us at help@solodev.com.
