@@ -14,7 +14,7 @@ Description | Add or change the folder description.
 
 Control how folders work with websites.
 
-<img src="../../../../images/documents15.jpg" alt="documents15" style="width: 50%; display: block"></a>
+<img src="../../../../images/manage-documents.png" alt="documents15" style="width: 50%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
@@ -27,16 +27,17 @@ Datable Category ID | Add or change datable category ID. This is the ID for a sp
 Upload Image | Add an image to the folder or change it. It allows querying the image associated with the folder.
 Include in Website Navigation | Mark this option to structure the folder to display in navigation menus.
 Restrict Access in Website to Authorized Users | Mark this option to protect content with a password.
+Enable Publish Contents to Filesystem | Mark this option to grant access to publish
 
 ## Advanced
 
 Execute advanced operations.
 
-<img src="../../../../images/documents14.jpg" alt="documents14" style="width: 35%; display: block"></a>
+<img src="../../../../images/documents14.png" alt="documents14" style="width: 40%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
-Delete | Click the red **Delete** button to remove the folder.
+Delete | Type **DELETE** in all caps into the field and click the red Delete button to remove the folder.
 
 ## Confirm
 
