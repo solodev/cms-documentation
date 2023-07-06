@@ -10,23 +10,23 @@ Once you have your domain name, connect your domain to Solodev by following the 
 
 ## Step 1 - Add your Domain to Solodev
 
-* The first thing you will need to do, is to log into Solodev CMS. Enter your username and password and click **Log In**.
-* On the left side, click on **Websites** then click on **Add Website** button.
+The first thing you will need to do, is to log into Solodev CMS. Enter your username and password and click **Log In**.
+
+<img src="../../../images/cmsproawssubscribe15.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+
+On the left side, click on **Websites** then click on **Add Website** button.
+
+<img src="../../../images/addwebsite.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+
 
 ## Step 2 - Fill out the Fields
 
-* In **Your Website Address** section, type in your URL, the domain name of your newly added website. Then select your timezone. Once you're done, click **Next**.
+In **Your Website Address** section, type in your URL, the domain name of your newly added website. Then select your timezone. Once you're done, click **Add**.
 
-## Step 3 - Choose Your Theme
+You can choose the optional packages to be installed during this process. You can also add a description of your page.
 
-You can choose the **LunarXP Theme** or under **Custom Theme**, you can choose to have a Blank Website or import your own theme from the dropdown menu. You can choose different themes for each different website you have. Once the installation is complete, each website will have their own different files and folders. Once you choose your theme, click **Next**.
-
-## Step 4 - Specify Additional Domain Details
-
-This step is for customizing your website's color scheme and logo. There are also advanced settings below. Don't worry if you don't have your design and branding ready. You can always customize your site's branding later by going to settings.
-
-## Step 5 - Finish
-
-Click **Next** and your website will be added
+<img src="../../../images/addwebsite1.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
 After that, log into your account and you'll see that the website is added to your websites folder
+
+<img src="../../../images/addwebsite2.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>

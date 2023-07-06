@@ -5,7 +5,7 @@ Take command of your digital universe! Get the full power of the galaxy's most a
 ## Overview
 Solodev CMS Professional Edition on AWS uses a set of YAML templates including <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html">Amazon Virtual Private Cloud (VPC)</a>, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">Amazon Elastic Compute Cloud (EC2)</a>, <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html">Amazon Relational Database Service (RDS)</a>, <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html">Amazon Simple Storage Service (S3)</a>, <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Amazon CloudWatch</a>, <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html">Amazon CloudFront</a>, <a href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html">Amazon Route 53</a>, <a href="https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html">Amazon Web Application Firewall (WAF)</a> and deployed by <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html">AWS CloudFormation</a>.
 
-<img src="../../images/Solodev-CMS-Pro.png" alt="AWS Diagram" style="width: 100%; display: block"></a>
+<img src="../../images/solodevcmspro.png" alt="AWS Diagram" style="width: 100%; display: block"></a>
 
 Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be lifting off on AWS.
 
@@ -159,3 +159,7 @@ Solodev is a professionally managed, enterprise-class solution, and our team of 
 If you would like to cancel your Solodev subscription and you have choosen hourly billing plans just delete the stack connected with you CMS Pro
 
 <img src="../../images/cmsproawssubscribe16.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+
+
+---
+If you wish to learn how to add your first website, please read our <a href="../../../tutorials/cms/add-website/">tutorial.
