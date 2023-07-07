@@ -6,8 +6,10 @@ Here you can access many settings related to a domain, CDN, and others.
 
 **Name** | **Description** 
 :--- | ---
+Primary URL | Edit primary URL of your website.
 <a href="/workspace/websites/settings/#domain-information">Domain Information</a> | Manage your domain information.
 <a href="/workspace/websites/settings/#sitemap">Sitemap</a> | Generate your sitemap.
+<a href="/workspace/websites/settings/#cdn-information">CDN Information</a> | Manage your CDN information.
 <a href="/workspace/websites/settings/#ssl-information">SSL Information</a> | Manage your SSL information.
 <a href="/workspace/websites/settings/#advanced">Advanced</a> | Manage the advanced settings.
 
@@ -38,7 +40,17 @@ Generate Sitemap | To generate a sitemap of the website click the **Generate Sit
 The output process may take several minutes to complete after clicking the **Generate Sitemap** button. Do not close or quit your browser during this process.
 !!!
 
----
+## CDN Information
+
+<img src="../../../images/settings17.jpg" alt="settings11" style="width: 50%; display: block"></a>
+
+**Name** | **Description** 
+:--- | ---
+Enable CDN | Click to enable CDN.
+CDN website address | Provide CDN website address.
+CDN Provider | Choose your CDN provider.
+AWS CDN (distribution) | Provide AWS CDN.
+
 
 ## SSL Information
 
