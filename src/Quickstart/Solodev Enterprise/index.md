@@ -25,8 +25,6 @@ Solodev CMS Enterprise Edition is available in the AWS Marketplace and can be in
 
 <img src="../../images/solodevcmsenterprise.jpg" alt="AWS Diagram" style="width: 100%; display: block"></a>
 
-Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be lifting off on AWS.
-
 ## Prerequisites
 
 Before subscribing to Solodev CMS Enterprise Edition, you will need to have an AWS account and sign in. If you do not have an account, you can create one at 
@@ -43,7 +41,7 @@ At the top of the AWS Marketplace listing page for the Solodev CMS Enterprise Ed
 <img src="../../images/cmsenterpriseawssubscribe1.png" alt="CMSEnterpriseSubscribe" style="width: 100%; display: block"></a>
 
 !!!NOTE:
-If you already have an existing Solodev license, call 1-800-859-7656 and a member of team will activate your subscription for you.
+If you already have a Solodev license, call 1-800-859-7656 and a member of team will activate your subscription for you.
 !!!
 
 ## Step 2: Configure Your VPC and EC2 Key Pair
@@ -92,7 +90,7 @@ Subnets | Choose at least two public subnets for this application
 InstanceType | The EC2 instance type you wish to launch
 InstanceCount | Number of instances behind load balancer. Minimum 2 required for high availability.
 KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances
-CookbookURL | https://s3.amazonaws.com/solodev-cms/chef/cookbooks.tar.gz (**COPY THIS URL.**) or Download and host on your own S3 bucket
+CookbookURL | https://s3.amazonaws.com/solodev-cms/chef/cookbooks.tar.gz (**COPY AND URL where it says Enter String**) or Download and host on your own S3 bucket
 
 <img src="../../images/enterprise-parmeters.png" alt="Parameters " style="width: 100%; display: block"></a>
 
@@ -131,9 +129,6 @@ AdminEnabled | Enable Admin Layer
 
 Click "Next" button on the the bottom of the screen to continue.
 
-<img src="../../images/cmsproawssubscribe11.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
-
-
 ### Specify Options
 Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disable "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
 
@@ -159,7 +154,17 @@ If your stack builds successfully, you will see the green "CREATE_COMPLETE" mess
 ## Step 7: Login to Solodev
 Visit either the load balancer URL or the backend domain you configured in Step 7. Log-in to Solodev using the username "solodev" and the password you configured in Step 5.
 
-<img src="../../images/cmsproawssubscribe15.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+<img src="../../images/cmsproawssubscribe15.png" alt="CMSProSubscribe" style="width: 75%; display: block"></a>
+
+## Step 8: Add your First Website
+
+Please follow this <a href="/tutorials/cms/add-website/">link</a> and you will learn how to build your first website.
+
+## Canceling your subscription
+
+If you would like to cancel your Solodev subscription and you have choosen hourly billing plans just delete the stack connected with you CMS Pro
+
+<img src="../../images/cmsproawssubscribe16.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
 ## Support
 Houston, we have no problems… because Solodev Customer Care has your back at every step! From our world-class HelpDesk to our focused training sessions, you’ve got the best team on the ground to get you to the stars.
@@ -173,22 +178,3 @@ Solodev Customer Care Includes
 * Over 300 pages of searchable documentation and tutorials
 
 To learn more about our add-on support options, call 1-800-859-7656 to speak with one of our Solodev Customer Care Specialists.
-
-## Developers
-Are you a Solodev Developer? Launch a development stack in your AWS account using the below links. Please note, the builds will only be successful for authorized Solodev Developers.
-
-* <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?stackName=solodev-enterprise&templateURL=https://s3.amazonaws.com/solodev-cms/cloudformation/solodev-enterprise-opsworks.yaml">Launch Solodev Enterprise OpsWorks</a>
-* <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?stackName=solodev-enterprise-byol&templateURL=https://s3.amazonaws.com/solodev-cms/cloudformation/solodev-enterprise-opsworks-byol.yaml">Launch Solodev Enterprise OpsWorks BYOL</a>
-
-## Need Help?
-Solodev is a professionally managed, enterprise-class solution, and our team of certified engineers are here to support your success. While our self-serve options are easy to launch, you’ve always got a co-pilot at the helm. If you have any questions – or if you already have a Solodev license and need support with your AWS subscription – call 1-800-859-7656 and we’ll help you get to the launchpad.
-
-## Canceling your subscription
-
-If you would like to cancel your Solodev subscription and you have choosen hourly billing plans just delete the stack connected with you CMS Pro
-
-<img src="../../images/cmsproawssubscribe16.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
-
-
----
-If you wish to learn how to add your first website, please read our <a href="../../../tutorials/cms/add-website/">tutorial.

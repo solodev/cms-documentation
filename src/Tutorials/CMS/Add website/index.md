@@ -12,7 +12,7 @@ Once you have your domain name, connect your domain to Solodev by following the 
 
 The first thing you will need to do, is to log into Solodev CMS. Enter your username and password and click **Log In**.
 
-<img src="../../../images/cmsproawssubscribe15.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+<img src="../../../images/cmsproawssubscribe15.png" alt="CMSProSubscribe" style="width: 75%; display: block"></a>
 
 On the left side, click on **Websites** then click on **Add Website** button.
 
