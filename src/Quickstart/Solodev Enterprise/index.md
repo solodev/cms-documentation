@@ -1,25 +1,50 @@
 # Solodev CMS Enterprise Edition
 
-Climb aboard the Solodev CMS Enterprise and warp speed ahead with a highly available, full redundant archiecture managed by AWS OpsWorks. With AWS, there's no need to spend time and money maintaining servers and data centers. Quickly and easily deploy Solodev Enterprise to build a website, portal, or applications that can handle virtually any amount of traffic, leveraging multiple geographic data centers for unmatched redundancy, security, and scalability. All available on-demand in the <a href="https://aws.amazon.com/marketplace/pp/prodview-l24c6lisy37ju?qid=1534773581495&sr=0-1&ref_=srh_res_product_title">AWS Marketplace</a>.
+Solodev CMS Enterprise Edition is an enterprise-grade content management system, built from the ground up for Amazon Web Services (AWS). It is designed for high availability websites and apps that require a secure, scalable, and redundant infrastructure powered by the AWS Cloud.
 
 ## Overview
-Solodev CMS Enterprise Edition for AWS OpsWorks on AWS uses a set of YAML templates including <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html">Amazon Virtual Private Cloud (VPC)</a>, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">Amazon Elastic Compute Cloud (EC2)</a>, <a href="https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html">Amazon Elastic Load Balancing (Application Load Balancer)</a>, <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html">Amazon Relational Database Service (RDS)</a>, <a href="https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html">Amazon Elastic File System (EFS)</a>, <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html">Amazon Simple Storage Service (S3)</a>, <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Amazon CloudWatch</a>, <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html">Amazon CloudFront</a>, <a href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html">Amazon Route 53</a>, <a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html">Amazon Certificate Manager (ACM)</a>, <a href="https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html">Amazon Web Application Firewall (WAF)</a> managed by <a href="https://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html">Amazon OpsWorks</a> and deployed by <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html">AWS CloudFormation</a>.
 
-<img src="../../images/solodevcmsenterprise.png" alt="AWS Diagram" style="width: 100%; display: block"></a>
+Solodev CMS Enterprise Edition deploys a cluster of three servers, complete with load balancing and auto scaling services. This architecture allows your websites and apps to meet the most demanding traffic while maintaining the highest levels of uptime.
+
+Solodev CMS Enterprise Edition is available in the AWS Marketplace and can be instantly deployed in your own account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html">AWS CloudFormation</a>. It leverages an advanced stack of AWS cloud stack to deliver a scalable and reliable workload, including:
+
+  * <a href="https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html">Amazon Elastic Load Balancer (ELB)</a>
+  * <a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html">Amazon Certificate Manager (ACM)</a>
+  * <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html">Amazon CloudFront</a>
+  * <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Amazon CloudWatch</a>
+  * <a href="https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html">Amazon DocumentDB (with MongoDB Compatibility)</a>
+  * <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">Amazon Elastic Compute Cloud (EC2)</a>
+  * <a href="https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html">Amazon Elastic File System (EFS)</a>
+  * <a href="https://aws.amazon.com/elasticache/redis/">Amazon Elasticache for Redis</a>
+  * <a href="https://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html">Amazon OpsWorks</a>
+  * <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html">Amazon Relational Database Service (RDS) MySql</a>
+  * <a href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html">Amazon Route 53</a>
+  * <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html">Amazon Simple Storage Service (S3)</a>
+  * <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html">Amazon Virtual Private Cloud (VPC)</a>
+  * <a href="https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html">Amazon Web Application Firewall (WAF)</a>
+
+<img src="../../images/solodevcmsenterprise.jpg" alt="AWS Diagram" style="width: 100%; display: block"></a>
 
 Getting to the Solodev Launchpad is easy. In just a few short steps, you'll be lifting off on AWS.
 
 ## Prerequisites
-Before subscribing to a desired stack, Solodev recommends that customers have created an AWS account and sign in. 
+
+Before subscribing to Solodev CMS Enterprise Edition, you will need to have an AWS account and sign in. If you do not have an account, you can create one at 
+<a href="https://aws.amazon.com/">https://aws.amazon.com/ </a>
 
 ## Step 1: Subscribe on the AWS Marketplace
-Solodev is a professionally managed, enterprise-class Digital Customer Experience Platform and content management system (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started:
+
+Before launching a Solodev CMS Enterprise Edition stack, you'll first need to subscribe on the AWS Marketplace. Click the button below to get started:
 
 [!button variant="warning" target="blank" text="Subscribe Now"](https://aws.amazon.com/marketplace/pp/prodview-gfsp76d4g66te)
 
-Already have a Solodev license? Call 1-800-859-7656 and we’ll activate your subscription for you.
+At the top of the AWS Marketplace listing page for the Solodev CMS Enterprise Edition, click the “Continue to Subscribe” button.
 
 <img src="../../images/cmsenterpriseawssubscribe1.png" alt="CMSEnterpriseSubscribe" style="width: 100%; display: block"></a>
+
+!!!NOTE:
+If you already have an existing Solodev license, call 1-800-859-7656 and a member of team will activate your subscription for you.
+!!!
 
 ## Step 2: Configure Your VPC and EC2 Key Pair
 Please note that both a <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html">VPC</a> and <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch.
