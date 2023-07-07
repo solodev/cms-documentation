@@ -14,7 +14,7 @@ Before subscribing to a desired stack, Solodev recommends that customers have cr
 ## Step 1: Subscribe on the AWS Marketplace
 Solodev is a professionally managed, enterprise-class Digital Customer Experience Platform and content management system (CMS). Before launching one of our products, you'll first need to subscribe to Solodev on the AWS Marketplace. Click the button below and follow the AWS screens to get started:
 
-[!button variant="warning" target="blank" text="Subscribe Now"](https://aws.amazon.com/marketplace/pp/prodview-vloxdsevbey2k)
+[!button variant="warning" target="blank" text="Subscribe Now"](https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa)
 
 !!!NOTE:
 If you already have a Solodev license, call 1-800-859-7656 and a member of team will activate your subscription for you.
