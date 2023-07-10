@@ -1,6 +1,8 @@
 # Solodev Kubernetes for EKS
 
-Launch Amazon Elastic Kubernets Service (EKS) in a new cluster and manage your containers at any scale with Solodev. Launch your applications rapidly and across AWS Regions and Availability Zones, and move from environment to environment regardless of operating system.
+This page is launching soon.
+
+<!-- Launch Amazon Elastic Kubernets Service (EKS) in a new cluster and manage your containers at any scale with Solodev. Launch your applications rapidly and across AWS Regions and Availability Zones, and move from environment to environment regardless of operating system.
 
 ## Overview
 
@@ -57,4 +59,4 @@ Solodev Customer Care Includes
 * Live training courses
 * Over 300 pages of searchable documentation and tutorials
 
-To learn more about our add-on support options, call 1-800-859-7656 to speak with one of our Solodev Customer Care Specialists.
+To learn more about our add-on support options, call 1-800-859-7656 to speak with one of our Solodev Customer Care Specialists. -->

@@ -23,6 +23,8 @@ Solodev CMS Enterprise Edition is available in the AWS Marketplace and can be in
   * <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html">Amazon Virtual Private Cloud (VPC)</a>
   * <a href="https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html">Amazon Web Application Firewall (WAF)</a>
 
+Additional technology frameworks and libraries include <a href="https://www.linux.org/">Linux</a>, <a href="https://www.apache.org/">Apache</a>, <a href="https://www.mysql.com/">MySQL</a>, <a href="https://www.php.net/">PHP</a>, <a href="https://www.python.org/">Python</a>, and more.
+
 <img src="../../images/solodevcmsenterprise.jpg" alt="AWS Diagram" style="width: 70%; display: block"></a>
 
 ## Prerequisites
