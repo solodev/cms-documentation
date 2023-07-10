@@ -6,7 +6,7 @@ Solodev CMS Professional Edition is a business-grade content management system, 
 
 Solodev CMS Professional Edition deploys on a single AWS EC2 instance that is fully managed by AWS OpsWorks and features its own MySQL database. This lightweight architecture allows your websites and apps to meet variable traffic demands while maintaining uptime at a reasonable cost. 
 
-Solodev CMS Professional Edition is available in the AWS Marketplace and can be instantly deployed in your own account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html">AWS CloudFormation</a>. It leverages an advanced stack of AWS cloud services to deliver a scalable and reliable workload, including:
+Solodev CMS Professional Edition is available in the AWS Marketplace and can be instantly deployed in your own account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="blank">AWS CloudFormation</a>. It leverages an advanced stack of AWS cloud services to deliver a scalable and reliable workload, including:
 
  * <a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html">Amazon Certificate Manager (ACM)</a>
  * <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html">Amazon CloudFront</a>
@@ -28,7 +28,7 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 
 ## Prerequisites
 
-Before subscribing to Solodev CMS Professional Edition, you will need to have an AWS account and sign in. If you do not have an account, you can create one at <a href="https://aws.amazon.com/ ">https://aws.amazon.com/</a> 
+Before subscribing to Solodev CMS Professional Edition, you will need to have an AWS account and sign in. If you do not have an account, you can create one at <a href="https://aws.amazon.com/" target="blank">https://aws.amazon.com/</a> 
 
 ## Step 1: Subscribe on the AWS Marketplace
 

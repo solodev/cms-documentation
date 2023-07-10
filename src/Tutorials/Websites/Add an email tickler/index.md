@@ -2,7 +2,7 @@
 
 In Solodev CMS, developers can add email ticklers to send form submissions to designated email addresses. For example, when a potential customer signs up for a free trial of your product, an email can be sent to your sales team to notify them of a possible lead.
 
-## Prerequisites
+## Prerequisites 
 
 Before adding a tickler, users should:
 

@@ -30,7 +30,7 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 ## Prerequisites
 
 Before subscribing to Solodev CMS Enterprise Edition, you will need to have an AWS account and sign in. If you do not have an account, you can create one at 
-<a href="https://aws.amazon.com/">https://aws.amazon.com/ </a>
+<a href="https://aws.amazon.com/" target="blank">https://aws.amazon.com/ </a>
 
 ## Step 1: Subscribe on the AWS Marketplace
 
