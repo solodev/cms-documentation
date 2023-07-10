@@ -108,7 +108,6 @@ StorageEncrypted | Enable encryption for both Database (RDS) and Filesystem (EFS
 
 <img src="../../images/cmsproawssubscribe9.png" alt="CMSProSubscribe" style="width: 80%; display: block"></a>
 
-
 #### Optional: Advanced
 
 **Name** | **Description** 
@@ -143,7 +142,6 @@ Upon launching your CloudFormation stack, you will be able to monitor the instal
 If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the IP address associated with the Solodev backend. Point both your primary domain (mydomain.com) and a dedicated backend domain/subdomain (solodev.mydomain.com) to this URL.
 
 <img src="../../images/cmsproawssubscribe14.png" alt="CMSProSubscribe" style="width: 80%; display: block"></a>
-
 
 ## Step 7: Login to Solodev
 Visit either the IP address or the backend domain you configured in Step 6. Log-in to Solodev using the username "solodev" and the password you configured in Step 5.
