@@ -23,7 +23,7 @@ Solodev CMS Enterprise Edition is available in the AWS Marketplace and can be in
   * <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html">Amazon Virtual Private Cloud (VPC)</a>
   * <a href="https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html">Amazon Web Application Firewall (WAF)</a>
 
-<img src="../../images/solodevcmsenterprise.jpg" alt="AWS Diagram" style="width: 100%; display: block"></a>
+<img src="../../images/solodevcmsenterprise.jpg" alt="AWS Diagram" style="width: 70%; display: block"></a>
 
 ## Prerequisites
 
@@ -63,14 +63,14 @@ Specify the basic configurables such as the software version and the region you 
 #### Launch Solodev CMS Enterprise Edition
 Confirm your configurations and choose "Launch CloudFormation" within the "Choose Action" field. Click on the "Launch" button to continue to CloudFormation.
 
-<img src="../../images/launch-enterprise.png" alt="Launch-Enterprise" style="width: 100%; display: block"></a>
+<img src="../../images/launch-enterprise.png" alt="Launch-Enterprise" style="width: 70%; display: block"></a>
 
 ## Step 4: Fill Out the CloudFormation Stack Wizard
 
 Continue with the preselected CloudFormation Template
 The Amazon S3 template URL (used for the CloudFormation configuration) should be preselected. Click "Next" to continue.
 
-<img src="../../images/create-enterprise-stack.png" alt="Create-Stack" style="width: 100%; display: block"></a>
+<img src="../../images/create-enterprise-stack.png" alt="Create-Stack" style="width: 80%; display: block"></a>
 
 ### Specify Details
 The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
@@ -167,14 +167,5 @@ If you would like to cancel your Solodev subscription and you have choosen hourl
 <img src="../../images/cmsproawssubscribe16.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
 ## Support
-Houston, we have no problems… because Solodev Customer Care has your back at every step! From our world-class HelpDesk to our focused training sessions, you’ve got the best team on the ground to get you to the stars.
-
-Solodev Customer Care Includes
-
-* 24x7x365 U.S. based human support
-* Online HelpDesk ticketing
-* Phone and email support
-* Live training courses
-* Over 300 pages of searchable documentation and tutorials
 
 To learn more about our add-on support options, call 1-800-859-7656 to speak with one of our Solodev Customer Care Specialists.
