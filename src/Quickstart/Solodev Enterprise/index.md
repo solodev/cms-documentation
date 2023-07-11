@@ -25,7 +25,7 @@ Solodev CMS Enterprise Edition is available in the AWS Marketplace and can be in
 
 Additional technology frameworks and libraries include <a href="https://www.linux.org/">Linux</a>, <a href="https://www.apache.org/">Apache</a>, <a href="https://www.mysql.com/">MySQL</a>, <a href="https://www.php.net/">PHP</a>, <a href="https://www.python.org/">Python</a>, and more.
 
-<img src="../../images/solodevcmsenterprise.jpg" alt="AWS Diagram" style="width: 70%; display: block"></a>
+<img src="../../images/solodevcmsenterprise.jpg" alt="AWS Diagram" style="width: 80%; display: block"></a>
 
 ## Prerequisites
 
@@ -113,7 +113,7 @@ StorageEncrypted | Enable encryption for both Database (RDS) and Filesystem (EFS
 :--- | ---
 CertificateArn | CertificateArn for SSL cert that matches the FQDN above. Please visit the AWS Certificate Manager.
 
-<img src="../../images/enterprise-ssl.png" alt="Parameters " style="width: 100%; display: block"></a>
+<img src="../../images/enterprise-ssl.png" alt="Parameters " style="width: 80%; display: block"></a>
 
 #### Optional: Advanced
 
