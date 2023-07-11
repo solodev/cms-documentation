@@ -16,7 +16,7 @@ You can find more detailed information about the templates over here:
 
 <a href="#create-an-interior-template">Create an Interior Template</a>.
 
-<a href="https://help.solodev.com/en/articles/3578713-create-a-sectional-template">Create a Sectional Template </a>.
+<a href="#create-a-sectional-template">Create a Sectional Template </a>.
 
 ## Create a base template
 
