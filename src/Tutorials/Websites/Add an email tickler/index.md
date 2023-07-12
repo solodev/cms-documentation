@@ -12,7 +12,7 @@ Before adding a tickler, users should:
 ## Add a tickler
 
 * In the Solodev Dashboard, click **Modules**.
-* Open the desired module.
+* Open the desired Form module. 
 * Click **Modify** to bring up the modal window for the desired module.
 * Click **Email Options** to expand the accordion.
 * Enter a valid email address in the **Tickler Email Address** textbox.

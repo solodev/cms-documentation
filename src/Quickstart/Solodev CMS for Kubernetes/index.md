@@ -38,8 +38,6 @@ If you already have a Solodev license, call 1-800-859-7656 and a member of team 
 	</tr>
 </table>
 
-[!button variant="warning" target="blank" text="Subscribe Now"](https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa)
-
 ## Launch Apps on your Managed Kubernetes Cluster
 
 With your EKS cluster up and running, you can install apps within the cluster itself. Below are available apps with more to come!

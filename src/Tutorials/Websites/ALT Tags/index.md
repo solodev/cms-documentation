@@ -4,17 +4,16 @@ The term "**ALT tag**" is a common shorthand term used to refer to the ALT attri
 
 ## Adding an ALT Attribute to an Image using the WYSIWYG Editor
 
-### Step 1 - Double click on the image in your WYSIWYG editor.
+Step 1 - Double click on the image in your WYSIWYG editor.
 
-### Step 2 - Add your ALT text to the Alternative Text field. Click Ok.
+Step 2 - Add your ALT text to the Alternative Text field. Click Ok.
 
 ## Adding An ALT Attribute to an Image using the Code Editor
 
-### Step 1 - Open the desired html file and click on the Source button.
+Step 1 - Open the desired html file and click on the Source button.
 
-### Step 2 - Add an ALT attribute to your image with the value containing relevant text describing the image.
+Step 2 - Add an ALT attribute to your image with the value containing relevant text describing the image.
 ```JS
 <img alt="LunarXP Ships" class="img-fluid mb-4" src="/_/images/Ships_Main_Image.jpg"/>
- ```
-
-### Step 3 - Click Publish.
+```
+Step 3 - Click Publish.
