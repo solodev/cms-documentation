@@ -11,7 +11,7 @@ Upload + Save |  Upload and save files without publishing them.
 Upload + Stage | Save the file and publish it to a staging server.
 
 !!!Note:
-Solodev recommends uploading TPL files and HTML files to the **Web Files -> Content Folder**, **Web Files -> Templates Folder**, or **Web Files -> Forms Folder**. Images and script files (e.g. .php, .css, and .js files) should be uploaded to an assets folder located in the **www directory** (e.g. **www -> _ -> CSS or www -> _ -> scripts**).
+Solodev recommends uploading TPL files and HTML files to the **Web Files -> Content Folder**, **Web Files -> Templates Folder**, or **Web Files -> Forms Folder**. Images and script files (e.g., .php, .css, and .js files) should be uploaded to an assets folder located in the **www directory** (e.g., **www -> _ -> CSS or www -> _ -> scripts**).
 !!!
 
 !!!Note:

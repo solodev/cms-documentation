@@ -23,7 +23,7 @@ Click on any of the members next to a website name to add or remove website memb
 **Name** | **Description** 
 :--- | ---
 Name | Enter the name of the member you wish to add to your website.
-Role | Assign a View, Stage, Editor, or Admin role via the dropdown menu to the right of each member name.
+Role | Assign a View, Stage, Editor, or Admin role via the dropdown menu to the right of each member's name.
 Delete | Click the “x” button to remove a member from a website.
 
 !!! Note:
@@ -32,7 +32,7 @@ A website member can be assigned one of four roles:
 - **View:** Allows a member to see items and content.
 - **Stager:** Enables a member to create or modify content but not publish.
 - **Editor:** Gives a member the ability to view, create, edit, and publish.
-- **Admin:** Provides full editor control and management of website members.
+- **Admin:** Provides complete editor control and management of website members.
 !!!
 
 ## Confirm

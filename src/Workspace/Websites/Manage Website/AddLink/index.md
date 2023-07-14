@@ -8,7 +8,7 @@ You can add an URL link to your website.
 :--- | ---
 Name | Add the link name.
 Fully Qualified Link Address | Add the link address.
-Open In New Window | Mark this if link should open in new window.
+Open In New Window | Mark this if the link should open in a new window.
 Rank | Add or change the rank that orders the link when displayed in the menu navigation. **Lowest number listed first.**
 Description | Add the link description.
 
