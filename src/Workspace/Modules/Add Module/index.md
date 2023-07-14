@@ -13,7 +13,7 @@ Package | Upload the package.
 Description | Add the description.
 
 !!!Note:
-The uploaded package should be in **.zip** format. Put the zip file into the managers folder in web files
+The uploaded package should be in **.zip** format. Put the zip file into the manager's folder in web files
 !!!
 
 ## Confirm
