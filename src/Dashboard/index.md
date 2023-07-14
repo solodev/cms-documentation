@@ -21,7 +21,7 @@ No matter where you are in the CMS, you can always return to your Dashboard by c
 
 ## Websites
 
-You can access any of your active websites by using the cards on the main Dashboard. 
+You can access any active websites using the cards on the main Dashboard.
 
 <img src="../../../images/updated_db2.png" alt="websites" style="width: 100%; display: block"></a>
 
@@ -31,7 +31,7 @@ You can access any of your active websites by using the cards on the main Dashbo
 
 
 !!! Tip:
-Click on the thumbnail image or default logo to begin editing your website in the CMS. You can also click on the website URL or arrow icon at the lower right to view the live site. 
+Click on the thumbnail image or default logo to edit your CMS website. You can also click on the website URL or arrow icon at the lower right to view the live site. 
 !!!
 
 ## Recents 
@@ -46,12 +46,12 @@ To access a specific file, click on a row in the **Recents** table.
 
 ## Search
 
-Locate specific files in your CMS by using the Search bar at the top of the Dashboard. Browse for .html files, PDF documents, blog posts, images, and more. 
+Locate specific files in your CMS using the Search bar at the top of the Dashboard. Browse for .html files, PDF documents, blog posts, images, and more.
 
 <img src="../../../images/updated_db4.png" alt="search" style="width: 100%; display: block"></a>
 
 !!! Note:
-You can press the **Enter** button or click the blue button at the right side of the Search field to start searching. 
+Press the **Enter** button or click the blue button at the right side of the Search field to start searching. 
 !!!
 
 ---
@@ -64,6 +64,6 @@ Use the links in the lower left corner of your Dashboard to manage your profile 
 
 **Name** | **Description** 
 :--- | ---
-Manage Profile | Open submenu allowing to access and edit your profile details.
+Manage Profile | Open submenu allowing you to access and edit your profile details.
 <a href="/account/">My Profile</a> | Check and edit your profile details.
 Log Out| Log Out from Solodev CMS. 

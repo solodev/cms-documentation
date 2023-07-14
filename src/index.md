@@ -38,7 +38,7 @@ Solodev CMS is natively multi-site, making it easy to build, launch, access, and
 Create custom shopping carts, inventory systems, and blogs using Solodev’s built-in modules.
 
 :icon-issue-reopened: **Integrate with third-party apps**<br>
-The Solodev API makes it easy to connect with almost any third-party app, from MailChimp to Salesforce. Use the built-in Swagger library to quickly integrate modules like contact or career forms. 
+The Solodev API makes connecting with almost any third-party app, from MailChimp to Salesforce easy. Use the built-in Swagger library to integrate modules like contact or career forms quickly. 
 
 :icon-git-branch: **Hybrid headless**<br>
 Looking to power a front-end React, Vue, Angular, or Next.js website–or publish to the Internet of Things? Use Solodev’s modules to push content almost anywhere using our headless CMS features. 
@@ -47,7 +47,7 @@ Looking to power a front-end React, Vue, Angular, or Next.js website–or publis
 Use Solodev’s A/B testing to create content “experiments” and optimize your website and landing pages to improve conversions. 
 
 :icon-comment-discussion: **Manage and collaborate with your team**<br>
-Set up individual users and groups and manage their roles using the industry’s most granular permissions system. Invite new members to CMS deployments, assign tasks and collaborate on website projects, and manage your team at every level. 
+Set up individual users and groups and manage their roles using the industry’s most granular permissions system. Invite new members to CMS deployments, assign tasks, collaborate on website projects, and manage your team at every level. 
 
 ---
 
@@ -56,5 +56,5 @@ Set up individual users and groups and manage their roles using the industry’s
 **Name** | **Description** 
 :--- | ---
 Solodev Help Desk | Enterprise customers can purchase our world-class Solodev Help Desk service with any CMS deployment. Solodev Help Desk is available Monday through Friday, 8 AM – 6 PM EST. [Click Here](mailto:sales@solodev.com) to speak with a customer service representative. 
-Critical Care Service Level Agreements (SLAs) | Solodev CMS customers can also purchase an optional SLA with 24/7/365 monitoring and 2, 4, or 6-hour response times. [Click Here](mailto:sales@solodev.com) to speak with a customer service representative.
-General Chat Support | To report a bug, submit a feature request, ask a technical question, or provide feedback, please use our <a href="https://www.solodev.com/" target="_blank">website chat</a>. 
+Critical Care Service Level Agreements (SLAs) | Solodev CMS customers can purchase an optional SLA with 24/7/365 monitoring and 2, 4, or 6-hour response times. [Click Here](mailto:sales@solodev.com) to speak with a customer service representative.
+General Chat Support | To report a bug, submit a feature request, ask a technical question, or provide feedback; please use our <a href="https://www.solodev.com/" target="_blank">website chat</a>. 
