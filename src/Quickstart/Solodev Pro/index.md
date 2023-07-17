@@ -118,6 +118,11 @@ CertificateArn | CertificateArn for SSL cert that matches the FQDN above. Please
 
 <img src="../../images/cmsproawssubscribe10.png" alt="CMSProSubscribe" style="width: 80%; display: block"></a>
 
+!!! Note:
+Advanced options are not required in order to start Solodev CMS.
+!!!
+
+
 ### Confirm your stack details
 
 Click the "Next" button on the bottom of the screen to continue.
@@ -136,6 +141,11 @@ Review all CloudFront details and options. Ensure that the "I acknowledge that A
 Upon launching your CloudFormation stack, you can monitor the installation logs under the "Events" tab. The CloudFormation template will launch several stacks related to your Solodev instance, including EFS, EDS, and EC2. If you encounter any failures during this time, please visit the Common Issues page to begin troubleshooting.
 
 <img src="../../images/cmsproawssubscribe13.png" alt="CMSProSubscribe" style="width: 80%; display: block"></a>
+
+!!! Note: 
+Creating a stack may take up to 30 min dependnig on the InstanceType you have choosen. During this time AWS session may expire, however the stack will continue to build. In such case simply re-login to your AWS account.
+!!!
+
 
 ## Step 6: View CloudFormation Stack Outputs
 If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the IP address associated with the Solodev backend. Point your primary domain (mydomain.com) and a dedicated backend domain/subdomain (solodev.mydomain.com) to this URL.
@@ -157,6 +167,10 @@ If you would like to cancel your Solodev subscription and you have chosen hourly
 
 <img src="../../images/cmsproawssubscribe16.png" alt="CMSProSubscribe" style="width: 80%; display: block"></a>
 
+
+!!! Note :
+To simplify the process please disable **View nested** button in you AWS and remove the main stack.
+!!!
 ---
 
 ## Support

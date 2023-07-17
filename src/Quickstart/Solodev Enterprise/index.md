@@ -126,6 +126,12 @@ AdminEnabled | Enable Admin Layer
 
 <img src="../../images/enterprise-advanced.png" alt="Parameters " style="width: 100%; display: block"></a>
 
+!!! Note:
+Advanced options are not required in order to start Solodev CMS.
+!!!
+
+
+
 ### Confirm your stack details
 
 Click the "Next" button on the bottom of the screen to continue.
@@ -147,6 +153,11 @@ Upon launching your CloudFormation stack, you can monitor the installation logs 
 
 <img src="../../images/cmsproawssubscribe13.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
+!!! Note: 
+Creating a stack may take up to 30 min dependnig on the InstanceType you have choosen. During this time AWS session may expire, however the stack will continue to build. In such case simply re-login to your AWS account.
+!!!
+
+
 ## Step 6: View CloudFormation Stack Outputs
 If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the load balancer URL for the Solodev backend. Point your primary domain (mydomain.com) and a dedicated backend domain/subdomain (solodev.mydomain.com) to this URL.
 
@@ -166,6 +177,10 @@ Please follow this <a href="/tutorials/cms/add-website/">link</a> and you will l
 If you would like to cancel your Solodev subscription and you have chosen hourly billing plans, just delete the stack connected with your CMS Pro
 
 <img src="../../images/cmsproawssubscribe16.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+
+!!! Note :
+To simplify the process please disable **View nested** button in you AWS and remove the main stack.
+!!!
 
 ## Support
 
