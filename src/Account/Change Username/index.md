@@ -6,7 +6,7 @@ Once you have entered your current and new password in the appropriate fields, c
 
 **Name** | **Description** 
 :--- | ---
-Enter your new username | Add a new username that will be associated with your account.
+Enter your new username | Add a unique username associated with your account.
 
 !!!Note:
 Usernames must begin with a letter and may only contain alphanumeric characters, hyphens, and underscores.

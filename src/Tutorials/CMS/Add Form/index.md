@@ -1,6 +1,6 @@
 # Add form
 
-Solodev developers can create a new form module that can be edited using Solodev's dynamic drag and drop graphical user interface known as Forms. 
+Solodev developers can create a new form module that can be edited using Solodev's dynamic drag-and-drop graphical user interface, Forms.
 
 ## Step 1 - Adding a form
 
@@ -10,7 +10,10 @@ Click **Forms** from the Solodev dashboard and click **Add Form**.
 
 ## Step 2 - Set up a form and save
 
-The developer is directed into a visual drag-and-drop editor where the form can be set up. After you have finished setting up enter a **Name** of the form module, click **Browse** to choose the form's location in the Solodev filesystem and click **Save**.
+The developer is directed into a visual drag-and-drop editor where the form can be set up. After setting up:
+
+* Enter the **Name** of the form module.
+* Click **Browse** to choose the form's location in the Solodev filesystem.
+* Click **Save**.
 
 <img src="../../../images/addform2.png" alt="base template" style="width: 100%; display: block"></a>
-

@@ -5,7 +5,7 @@ Update your account details, including your name and phone number, as well as yo
 <img src="../../../images/account-manage-profile.png" alt="manage profile" style="width: 60%; display: block"></a>
 
 !!!Note:
-Only your first and last name are required. All other fields are optional. 
+Only your first and last names are required. All other fields are optional. 
 !!!
 
 **Name** | **Description** 
@@ -23,7 +23,7 @@ Add a custom photo, image, or graphic to your account profile.
 <img src="../../../images/account-profile-image.png" alt="profile image" style="width: 30%; display: block"></a>
 
 !!!Tip:
-Keep in mind that this is the image that you and your team members will see when collaborating in your CMS. It is sometimes accompanied by your username, but not always. Consider making it intuitive, like a headshot, or a unique graphic that is easy to identify.
+Remember that this is the image you and your team members will see when collaborating in your CMS. Your username sometimes accompanies it, but not always. Consider making it intuitive, like a headshot or a unique graphic that is easy to identify.
 !!!
 
 **Name** | **Description** 
@@ -40,7 +40,7 @@ Convert your headshot photo into a realistic 3-D avatar with custom attributes.
 **Name** | **Description** 
 :--- | ---
 Create Avatar | Click the blue button to launch the avatar builder, take your photo, and customize your avatar.
-Cancel | End the process at any time by clicking the Cancel link in the lower right corner of the window. 
+Cancel | End the process at any time by clicking the Cancel link in the window's lower right corner. 
 
 !!!Tip:
 Once launched, follow the prompts in the modal window to build your avatar. This will include several steps for customizing your face, hair color, clothing, and more. 

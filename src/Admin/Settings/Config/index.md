@@ -1,6 +1,6 @@
 # Config
 
-The config category of settings applies to all websites in the CMS system. Configure settings for payment options, SSL, email and, more.
+The config category of settings applies to all websites in the CMS system. Configure settings for payment options, SSL, email, and more.
 
 <img src="../../../images/config.jpg" alt="config" style="width: 100%; display: block"></a>
 
@@ -11,7 +11,7 @@ The config category of settings applies to all websites in the CMS system. Confi
 <a href="/admin/settings/config/#ssl">SSL</a> | Manage a secure sockets layer (SSL) establishes an encrypted link between the web server and a browser.
 <a href="/admin/settings/config/#cache">Cache</a> | Determine how long files or pages are stored.
 <a href="/admin/settings/config/#click-tracking">Click Tracking</a> | Create settings for click tracking, which monitors users' click behavior on your sites.
-<a href="/admin/settings/config/#rules">Rules</a> | Create settings for click tracking, which monitors users' click behavior on your sites.
+<a href="/admin/settings/config/#rules">Rules</a> | Create click tracking settings, which monitor users' click behavior on your sites.
 <a href="/admin/settings/config/#aws">AWS</a> | Specify AWS Keys and Secret Keys
 <a href="/admin/settings/config/#google">Google</a> | Manage your Google access.
 <a href="/admin/settings/config/#spam-keyword-list">Spam Keyword List</a> | Filter form entries that contain specific spam keywords.
@@ -89,7 +89,7 @@ Establish rules for a variety of resources within the CMS.
 
 **Name** | **Description** 
 :--- | ---
-Auto Publish Pages | It refers to the automatic display pages on the front end. To do that, choose **True**. If you don't want to display it, choose **False**.
+Auto Publish Pages | Refers to the automatic display pages on the front end. To do that, choose **True**. If you don't want to display it, choose **False**.
 Expire-On Values | Set the default expiration date for all asset files.
 Default Document Folder | Set the default folder for files uploaded to the CMS system. The value is the ID of the folder. 
 Google API Key | Enter this key to use a variety of Google API integrations – namely, integration with Google Maps and the use of latitude and longitude data.
@@ -171,7 +171,7 @@ Wowza Host| Enter the Wowza Host address.
 
 ## Payment
 
-Process and accept payments on your website through settings in Solodev CMS. Test payment processing in sandbox mode, and remove sandbox mode when testing is completed and you are ready to process payments. Choose from mulitple payment gateway options. Also, you can decide whether to accept AMEX or Discover cards and execute the setting that works for you.
+Process and accept payments on your website through settings in Solodev CMS. Test payment processing in sandbox mode, and remove sandbox mode when testing is completed, and you are ready to process payments. Choose from multiple payment gateway options. Also, you can decide whether to accept AMEX or Discover cards and execute the setting that works for you.
 
 <img src="../../../images/payment.jpg" alt="payment" style="width: 100%; display: block"></a>
 
@@ -183,9 +183,9 @@ Vendor | Type the name of your organization’s eCommerce store.
 Authorized Payment Username | Type the username used to login into the merchant service. 
 Authorized Payment Password | Type the password used to login to the merchant service. 
 Authorized Payment Key | Type the transaction key provided by the merchant service. 
-Accept AMEX | You can accept American Express cards. Choose **Yes** to accept, otherwise choose **No**.
-Accept Discover | You can accept Discover cards. Choose **Yes** to accept, otherwise choose **No**.
-Sandbox Mode | Enable this mode to test payment processing. Once the tests are completed, you can disable it to start sales. Choose **Yes** to enable this mode, otherwise choose **No**.
+Accept AMEX |You can accept American Express cards. Choose **Yes** to buy; otherwise, choose **No**.
+Accept Discover | You can accept Discover cards. Choose **Yes** to buy; otherwise, choose **No**.
+Sandbox Mode | EEnable this mode to test payment processing. You can turn the tests off to start sales once the tests are completed. Choose **Yes** to enable this mode; otherwise, choose **No**.
 
 ## Tasks
 
@@ -200,17 +200,17 @@ Approved Status Label | Set the label for approved tasks.
 In Progress Status Label | Set the label for tasks in progress.
 Not Started Status Label | Set the label for tasks that are not assigned. 
 Denied Status Label | Set the label for rejected tasks. 
-Display Overall Task Status | Overall task status can be displayed. To do that, choose **True**. If you don't want to display it, choose **False**.
+Display Overall Task Status | Overall task status can be displayed. To do that, choose **True**. If you don't want to show it, choose **False**.
 
 ## SSO
 
-Manage SSO. It permits a user to use one set of login credentials - for example, a username and password - to access multiple applications.
+Manage SSO. It permits a user to use one login credential - for example, a username and password - to access multiple applications.
 
 <img src="../../../images/sso.jpg" alt="sso" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-Authorize URI | Enter the authorize URI. 
+Authorize URI | Enter the authorized URI. 
 Access Token URI | Enter the access token URI.
 Redirect URI | The redirect URI is the callback entry point of the app. Type it in the field.
 Resource Owner URI | Resource owner is the user who authorizes an application to access its account. Type resource owner URI in the field.

@@ -1,14 +1,13 @@
 # API Tokens
 
-Add, store, and manage API tokens associated with your account, allowing you to authenticate your connection to different apps and services. 
+Add, store, and manage API tokens associated with your account, allowing you to authenticate your connection to different apps and services.
 
-Existing tokens are listed in the table on the API tokens dashboard. Each token is shown with specific details including the token name, the API key, and the status. From the main dashboard, you can manage the status of your API token, reset it, or delete it. 
-
+Existing tokens are listed in the table on the API tokens dashboard. Each token is shown with specific details, including the token name, the API key, and the status. From the main dashboard, you can manage the status of your API token, reset it, or delete it.
 
 <img src="../../../images/account-api-tokens.png" alt="api tokens" style="width: 100%; display: block"></a>
 
 !!!Tip:
-Most software APIs require the use of an API token. To connect and manage apps and services with your API tokens using Solodev, please review the <a href="/admin/api/#api">API section</a>, as well as the more advanced features in the <a href="/admin/api/api-tokens/#api-tokens">Solodev Cloud</a> documentation. 
+Most software APIs require the use of an API token. To connect and manage apps and services with your API tokens using Solodev, please review the <a href="/admin/api/#api">API section</a>, and the more advanced features in the <a href="/admin/api/api-tokens/#api-tokens">Solodev Cloud</a> documentation. 
 !!!
 
 **Name** | **Description** 
@@ -36,7 +35,7 @@ Once you have entered your new username, click **Submit**.
 
 ## Reset Token
 
-Force an API token to reset by clicking the **Reset** link at the far right of each row in the dashboard table. 
+Force an API token to reset by clicking the **Reset** link at the dashboard table's far right of each row. 
 
 <img src="../../../images/account-delete.png" alt="reset token" style="width: 45%; display: block"></a>
 
