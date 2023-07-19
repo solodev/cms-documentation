@@ -19,7 +19,7 @@ Manage your workflow.
 :--- | ---
 Name | Enter the workflow's name.
 Type | Choose the workflow's type.
-Choose Datable | Choose datable by using **Browse** button.
+Choose Datable | Choose datable by using the **Browse** button.
 Variables | Enter the variables.
 If Statement | Enter if statement.
 Then Statement | Enter then statement.
@@ -42,7 +42,7 @@ Delete your workflow.
 Delete | To remove your workflow, type **DELETE** in all caps into the field and click the red Delete button.
 
 !!! Note:
-Deleting a workflow will permanently remove the workflow and all of its content and cannot be undone.
+Deleting a workflow will permanently remove the workflow and its content and cannot be undone.
 !!!
 
 ## Confirm

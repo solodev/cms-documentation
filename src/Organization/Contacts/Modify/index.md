@@ -17,7 +17,7 @@ State/Province | Expand the list and choose a suitable state/province.
 Zip Code | Enter the zip code.
 Country/Region | Expand the list and choose a suitable country/region.
 Contact Type | Enter the contact type.
-Status | Enter the contact status. For example, mark the contact as inactive if it is currently not used.
+Status | Enter the contact status. For example, mark the contact inactive if it is not used.
 
 ## Confirm
 

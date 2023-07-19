@@ -1,26 +1,26 @@
 # Config
 
-The config category of settings applies to all websites in the CMS system. Configure settings for payment options, SSL, email and more.
+The config category of settings applies to all websites in the CMS system. Configure settings for payment options, SSL, email and, more.
 
 <img src="../../../images/config.jpg" alt="config" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-<a href="/admin/settings/config/#organization-settings">Organization Settings</a>| Manage your organization settings such as organization name and address.
-<a href="/admin/settings/config/#email">Email</a>| Manage email details for the official correspondence from the organization.
-<a href="/admin/settings/config/#ssl">SSL</a>| Manage secure sockets layer (SSL) which establishes an encrypted link between the web server and a browser.
-<a href="/admin/settings/config/#cache">Cache</a>| Determine how long files or pages are stored.
-<a href="/admin/settings/config/#click-tracking">Click Tracking</a>| Create settings for click tracking, which monitors click behavior of users on your sites.
-<a href="/admin/settings/config/#rules">Rules</a>| Manage rules for a variety of resources in the CMS system and the CMS system itself. 
-<a href="/admin/settings/config/#aws">AWS</a>| Specify AWS Keys and Secret Keys
-<a href="/admin/settings/config/#google">Google</a>| Manage your Google access.
-<a href="/admin/settings/config/#spam-keyword-list">Spam Keyword List</a>| Filter form entries that contain specific spam keywords.
-<a href="/admin/settings/config/#ip-quality-score">IP Quality Score</a>| Assess IP quality score by analyzing IP addresses, phone numbers, email addresses and more.
-<a href="/admin/settings/config/#salesforce">Salesforce</a>| Manage settings in connecting your Solodev CMS to Salesforce.
-<a href="/admin/settings/config/#wowza">Wowza</a>| Manage settings in connecting your Solodev CMS to Wowza.
-<a href="/admin/settings/config/#payment">Payment</a>| Manage payment settings, process test payments, or connect payment gateways and more.
+<a href="/admin/settings/config/#organization-settings">Organization Settings</a> | Manage your organization settings, such as organization name and address.
+<a href="/admin/settings/config/#email">Email</a> | Manage email details for the official correspondence from the organization.
+<a href="/admin/settings/config/#ssl">SSL</a> | Manage a secure sockets layer (SSL) establishes an encrypted link between the web server and a browser.
+<a href="/admin/settings/config/#cache">Cache</a> | Determine how long files or pages are stored.
+<a href="/admin/settings/config/#click-tracking">Click Tracking</a> | Create settings for click tracking, which monitors users' click behavior on your sites.
+<a href="/admin/settings/config/#rules">Rules</a> | Create settings for click tracking, which monitors users' click behavior on your sites.
+<a href="/admin/settings/config/#aws">AWS</a> | Specify AWS Keys and Secret Keys
+<a href="/admin/settings/config/#google">Google</a> | Manage your Google access.
+<a href="/admin/settings/config/#spam-keyword-list">Spam Keyword List</a> | Filter form entries that contain specific spam keywords.
+<a href="/admin/settings/config/#ip-quality-score">IP Quality Score</a> | Assess the IP quality score by analyzing IP addresses, phone numbers, email addresses, and more.
+<a href="/admin/settings/config/#salesforce">Salesforce</a> | Manage settings in connecting your Solodev CMS to Salesforce.
+<a href="/admin/settings/config/#wowza">Wowza</a> | Manage settings in connecting your Solodev CMS to Wowza.
+<a href="/admin/settings/config/#payment">Payment</a> | Manage payment settings, process test payments, connect payment gateways, and more.
 <a href="/admin/settings/config/#tasks">Tasks</a> | Create and manage task labels and workflows.
-<a href="/admin/settings/config/#sso">SSO</a>| Manage settings for single sign-on (SSO) capabilities in multiple applications.
+<a href="/admin/settings/config/#sso">SSO</a> | Manage settings for single sign-on (SSO) capabilities in multiple applications.
 
 ## Organization Settings
 
@@ -51,7 +51,7 @@ SMTP Password | Enter the password used to login to the mail server.
 
 Manage the SSL connection.
 
-(Secure Sockets Layer) is the standard security technology for establishing an encrypted link between a web server and a browser. This link ensures that all data passed between the web server and browsers remain private and integral.  
+(Secure Sockets Layer) is the standard security technology for establishing an encrypted link between a web server and a browser. This link ensures that all data between the web server and browsers remain private and integral.
 
 <img src="../../../images/ssl.jpg" alt="ssl" style="width: 100%; display: block"></a>
 
@@ -61,7 +61,7 @@ Force SSL | Mark this option to force an HTTPS connection to your website.
 
 ## Cache
 
-Determine how long files or pages are stored so that future requests can be served faster. The default values are 86400s or 1 day.
+Determine how long files or pages are stored so that future requests can be served faster. The default values are 86400s or one day.
 
 <img src="../../../images/cache.jpg" alt="cache" style="width: 100%; display: block"></a>
 
@@ -72,14 +72,14 @@ File Cache | Set the maximum age in seconds that CMS files are stored in the cac
 
 ## Click Tracking
 
-Track when users click on an external link to leave your website, or track engagement when a user clicks on a document or other asset. Both can be used with web analytics to help you follow patterns and trends among users.
+Track when users click on an external link to leave your website or track engagement when a user clicks on a document or other asset. Both can be used with web analytics to help you follow patterns and trends among users.
 
 <img src="../../../images/clicktracking.jpg" alt="clicktracking" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-Outbound Click Tracking | Track when users click on an external link to leave the website. 
-Document Click Tracking | Track when users click on site documents. 
+Outbound Click Tracking | Track when users click an external link to leave the website.
+Document Click Tracking | Track when users click on-site documents.
 
 ## Rules
 
@@ -92,7 +92,7 @@ Establish rules for a variety of resources within the CMS.
 Auto Publish Pages | It refers to the automatic display pages on the front end. To do that, choose **True**. If you don't want to display it, choose **False**.
 Expire-On Values | Set the default expiration date for all asset files.
 Default Document Folder | Set the default folder for files uploaded to the CMS system. The value is the ID of the folder. 
-Google API Key | Enter this key to use a variety of Google API integrations – namely integration with Google Maps and the use of latitude and longitude data.
+Google API Key | Enter this key to use a variety of Google API integrations – namely, integration with Google Maps and the use of latitude and longitude data.
 Timezone | Set the timezone of the CMS system.
 
 ## AWS
@@ -119,7 +119,7 @@ reCAPTCHA Secret Key | Enter the reCAPTCHA secret key.
 
 ## Spam Keyword List
 
-The spam keyword list is a built-in spam filtering feature that will help minimize form entries that contain specific keywords, including profanity. Identify these words and enter them into the field below.
+The spam keyword list is a built-in filtering feature that will help minimize form entries containing specific keywords, including profanity. Identify these words and enter them into the field below.
 
 <img src="../../../images/spamkeywordlist.jpg" alt="spamkeywordlist" style="width: 100%; display: block"></a>
 
@@ -128,12 +128,12 @@ The spam keyword list is a built-in spam filtering feature that will help minimi
 Spam Keyword List | Enter the spam keyword list.
 
 !!!Tip:
-Each individual entry should be included on its own line.
+Each entry should be included on its own line.
 !!!
 
 ## IP Quality Score
 
-An IP quality score is used to analyze IP addresses, phone numbers, email addresses, and URLs/domains to identify sophisticated bad actors or high-risk behaviors from visitors on your website.
+An IP quality score is used to analyze IP addresses, phone numbers, email addresses, and URLs/domains to identify sophisticated bad actors or high-risk behaviors from visitors to your website.
 
 <img src="../../../images/ipqualityscore.jpg" alt="ipqualityscore" style="width: 100%; display: block"></a>
 
@@ -158,7 +158,7 @@ Sandbox | Enable this mode to perform test activities.
 
 ## Wowza
 
-Solodev CMS allows you to use Wowza - streaming engine. Manage its features.
+Solodev CMS allows you to use Wowza - a streaming engine. Manage its features.
 
 <img src="../../../images/wowza.jpg" alt="wowza" style="width: 100%; display: block"></a>
 

@@ -15,7 +15,7 @@ Solodev CMS supports four primary types of files:
 
 - HTML - A file type that has a WYSIWYG editor for manipulating HTML content.
 - Image - The most widely used formats on the Web are PNG, GIF, and JPEG.
-- Text - An ASCII based file type such as .txt, .css, and .tpl.
+- Text - An ASCII-based file type such as .txt, .css, and .tpl.
 - Document - Word processing document, spreadsheet, PDF, etc.
 !!!
 

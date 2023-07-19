@@ -8,6 +8,6 @@ To open the documentation, click the **Help** link under **Support** in the left
 
 
 !!!Tip:
-You can directly access relevant documentation from anywhere in the CMS for specific apps and functionality. Simply browse to a specific screen and click on the **help center icon** in the lower right corner. 
+You can access relevant documentation anywhere in the CMS for specific apps and functionality. Browse to a particular screen and click the **help center icon** in the lower right corner.
 !!!
 

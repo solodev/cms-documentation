@@ -8,7 +8,7 @@ Upload a file to your current file to overwrite it.
 **Name** | **Description**
 :- | ---
 Drop files here | Drag and drop your files to be uploaded
-Browse | Search your local files you want uploaded
+Browse | Search the local files you want to be uploaded
 
 ## Confirm
 

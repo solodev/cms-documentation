@@ -1,6 +1,6 @@
 # Document Overview
 
-Manage your documents by using different options like add file or add folder and others.
+Manage your documents using different options, like adding a file or folder.
 
 Find the document by using the search field at the top.
 

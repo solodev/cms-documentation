@@ -6,4 +6,4 @@ Send an automatic email to a user that allows them to reset their password and d
 
 **Name** | **Description** 
 :--- | ---
-Reset Password | In the text field, type the word **RESET** in all caps and click the **Submit** button.
+Reset Password | In the text field, type **RESET** in all caps and click the **Submit** button.

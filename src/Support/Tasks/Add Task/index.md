@@ -1,6 +1,6 @@
 # Add Task
 
-Create a new task, assign members to the task, and schedule a due date. 
+Create a new task, assign members, and schedule a due date.
 
 <img src="../../../images/add-task.png" alt="add-task" style="width: 75%; display: block"></a>
 --- 
@@ -28,7 +28,7 @@ Assignee(s) | Add members from your CMS deployment to your task.
 Due Date | Use the calendar to schedule a due date for your task. 
 
 !!! Note: 
-If a webpage or file contains a meta description, it will automatically appear in your tasks window.
+A webpage or file containing a meta description will automatically appear in your tasks window.
 !!!
 
 ## Confirm

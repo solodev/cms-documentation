@@ -41,7 +41,7 @@ View and manage group permissions to specific apps in your CMS by clicking the *
 
 **Name** | **Description** 
 :--- | ---
-Manage | Allow access to specific apps and set roles for your group.
+Manage | Allow access to specific apps, and set roles for your group.
 
 
 <img src="../../../images/groupoverview5.png" alt="GroupOverview5" style="width: 40%; display: block"></a>
@@ -53,7 +53,7 @@ Role | Assign a View, Stager, Editor, or Admin role to each app in your CMS.
 
 ## Groups Review
 
-In the Groups Overview, you can easily manage your group and its members, including roles and permissions. As an admin, you can also add and remove members from your group, as well as permanently delete a group from your CMS.
+In the Groups Overview, you can easily manage your group and its members, including roles and permissions. As an admin, you can also add and remove members from your group and permanently delete a group from your CMS.
 
 !!!Tip: 
 If you remove a member from a group, you can always add them again later.

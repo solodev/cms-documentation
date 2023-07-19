@@ -8,7 +8,7 @@ Here you can manage the permissions of the respective users/groups.
 :--- | ---
 Delete | Click the **"x"** button to remove permissions.
 Role | Assign a View, Stager, Editor, or Admin role via the dropdown menus.
-<a href="/admin/settings/permissions/permissions-overview/#edit-view-permissions">Edit View Permissions</a> | Here you can manage view permissions.
+<a href="/admin/settings/permissions/permissions-overview/#edit-view-permissions">Edit View Permissions</a> | Here; you can manage view permissions.
 
 !!! Note:
 A group or group member can be assigned one of four roles in Solodev CMS:
@@ -41,6 +41,3 @@ A group or group member can be assigned one of four roles in Solodev CMS:
 ## Confirm
 
 Once you have completed all the fields, click **Submit** to apply your changes.
-
-
-

@@ -1,6 +1,6 @@
 # Code Files
 
-Here you can edit your code files that you have created.
+Here you can edit the code files that you have created.
 
 <img src="../../../../images/other-files.png" alt="other files" style="width: 100%; display: block"></a>
 
@@ -19,7 +19,7 @@ Publish | Moves file from the staging server and makes it live.
 
 **Name** | **Description**
 :- | ---
-<a href="/workspace/documents/editing-files/show-or-hide-meta-data/">Show/Hide Meta Details</a> | Add/update your page's name, title, and description, and add meta information to boost you SEO
+<a href="/workspace/documents/editing-files/show-or-hide-meta-data/">Show/Hide Meta Details</a> | Add/update your page's name, title, and description, and add meta information to boost your SEO
 <a href="/workspace/documents/editing-files/includes/">Includes</a> | Shows where in the system your file is being included.
 <a href="/workspace/documents/editing-files/overwrite-current-file/">Overwrite Current File</a> |  Upload a file to your current file to overwrite it.
 <a href="/support/tasks/">Tasks</a> | Create tasks and assign them to your team members. Follow their progress and update the flow as needed.
