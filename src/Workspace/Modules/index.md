@@ -1,10 +1,10 @@
 # Modules
 
-Modules enable developers to build no code/low content management features. These features expand the capability of Solodev CMS containers and deployments  -- making it easier for developers, content, managers, and marketing executives to expand website or web application features and manage content with little or no code.
+Modules enable developers to build no code/low content management features. These features expand the capability of Solodev CMS containers and deployments  -- making it easier for developers, content-managers, and marketing executives to expand website or web application features and manage content with little or no code.
 
 There are two types of Modules:
 
-- Calendars – a module that can be modified to create date-based customer-facing applications. Calendars can be used to build 
+- Calendars – a module that can be modified to create date-based customer facing applications. Calendars can be used to build unlimited custom web and mobile applications to manage content.
 - Datatables – database-dependent applications that can be formatted for display in various ways on several devices.
 
 With Datatables, users can build: 
