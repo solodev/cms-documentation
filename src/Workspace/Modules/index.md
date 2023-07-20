@@ -16,12 +16,12 @@ With Datatables, users can build:
 
 Solodev supports the following Calendar Types: 
 
-- Events – A calendar for events where you can specify the start and end date and time of your event.
 - News - A manager suited for press releases and news articles. You can set a start and an end date/time to display the events on your website at your convenience.
-- File Map - It allows all files to be uploaded to one place and later designate which pages their documents should show up.
+- Events – A calendar for events where you can specify the start and end date and time of your event.
 - Blog - The blog module is perfect for article feeds, blog posts, and other data sets where end dates are optional. 
 - Photos – A photo calendar is great for displaying photos or creating a gallery. 
 - Landing Page – Create landing pages for marketing purposes. 
+- File Map - It allows all files to be uploaded to one place and later designate which pages their documents should show up.
 - Custom – A custom calendar allows users to tailor a calendar type to their needs – using some or all the functionality in the calendar as mentioned above types.
 
 ## Modules Dashboard
