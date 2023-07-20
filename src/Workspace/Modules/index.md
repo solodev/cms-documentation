@@ -30,15 +30,13 @@ The modules dashboard gives you an overview of existing modules presented as a l
 
 You can access all tools from the module dashboard to manage module infrastructure effectively.
 
-To enter and modify a specific module, click the module name. 
+To get started click on the <a href="/workspace/modules/add-module/">Add Module</a> button. If you have a module already installed, you can click on the module name to see its options and modify it.
 
 <img src="../../../images/modules.jpg" alt="modules" style="width: 100%; display: block"></a>
 
 !!!TIP:
 Use the search field in the upper right corner to locate a specific module and filter your modules by site.
 !!!
-
-To get started click on the <a href="/workspace/modules/add-module/">Add Module</a> button. If you have a module already installed, you can click on the module name to see its options and modify it.
 
 **Name** | **Description** 
 :--- | ---
@@ -56,6 +54,7 @@ Name | Enter the name of the member you want to add to your module.
 Role | Assign a View, Stager, Editor, or Admin role to an existing member via the dropdown menus.
 Add | Click the orange **"+"** button to add a new member to your module.
 Delete | Click the **"x"** on the right side of the table to remove a member from your module.
+Confirm | Click **Submit** to apply your changes.
 
 !!! Note:
 A group or group member can be assigned one of four roles in Solodev CMS:
@@ -66,6 +65,3 @@ A group or group member can be assigned one of four roles in Solodev CMS:
 - **Admin:** Provides full editorial control and management of group members.
 !!!
 
-## Confirm
-
-Once you have completed all the fields, click **Submit** to apply your changes.
