@@ -1,6 +1,5 @@
 # Export
 
-
 Click the export button to export your entries.
 
 <img src="../../../../images/forms-export.png" alt="Export Form" style="width: 40%; display: block"></a>

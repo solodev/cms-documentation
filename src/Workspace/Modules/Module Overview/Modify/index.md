@@ -5,21 +5,17 @@ Advanced Options, Table Schema and API Info.
 
 <img src="../../../../images/module-overview5.jpg" alt="module-overview5" style="width: 75%; display: block"></a>
 
-
-
 **Name** | **Description** 
 :--- | ---
 Name | Modify the entry name.
 Type | Assign news, events, blog, photos, landing page, file map, or custom entry type using the dropdown menu (you can find more information about module types in <a href="/workspace/modules">Modules</a>.
 Display/Hide Columns | Use this option to display/hide columns. To do so, use arrows in the middle of the fields.
 
-
 ## Website Properties
 
 Here you can manage website properties
 
 <img src="../../../../images/module-overview6.jpg" alt="module-overview6" style="width: 75%; display: block"></a>
-
 
 **Name** | **Description** 
 :--- | ---
@@ -35,7 +31,6 @@ Create Thumbnail for Uploaded Photos | Add a dimension to the thumbnail you want
 In this place, you can manage the advanced options.
 
 <img src="../../../../images/module-overview9.jpg" alt="module-overview9" style="width: 75%; display: block"></a>
-
 
 **Name** | **Description** 
 :--- | ---
@@ -57,7 +52,6 @@ Export Module | Choose this option to export the module.
 Add Template Map | Choose this option to add a template map - you can define custom attributes for future access. To do that click button "Add Template Map" and enter the name and value then. 
 Delete Module | To remove your entry, type DELETE in all caps into the field and click the red Delete button.
 
-
 ## Export Module
 
 Choose this option to export the module.
@@ -75,8 +69,6 @@ Manage your database table schema.
 
 <img src="../../../../images/module-overview7.jpg" alt="module-overview7" style="width: 75%; display: block"></a>
 
-
-
 **Name** | **Description** 
 :--- | ---
 **+/-** | Use these buttons to add/ remove the column.
@@ -85,15 +77,11 @@ Type | Use this option to modify column type.
 Length | Use this option to modify column length.
 Allow Null | Mark this option to allow null in the column.
 Default | Use this option to make the column default.
-
-
 ## API Info
 
 Here you can find API Info that can be used in <a href="/admin/api">API section</a> to connect.
 
 <img src="../../../../images/module-overview8.jpg" alt="module-overview8" style="width: 75%; display: block"></a>
-
-
 
 ## Confirm 
 

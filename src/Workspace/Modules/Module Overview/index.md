@@ -6,7 +6,6 @@ To go into the entry of your choosing, double click the row. If you want to dele
 
 <img src="../../../images/module-overview.jpg" alt="module-overview" style="width: 100%; display: block"></a>
 
-
 !!!Tip:
 Use the search field to filter a specific entry by typing the name and clicking the Find button
 !!!
