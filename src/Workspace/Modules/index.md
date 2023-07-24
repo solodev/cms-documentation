@@ -34,7 +34,7 @@ To get started click on the <a href="/workspace/modules/add-module/">Add Module<
 
 <img src="../../../images/modules.jpg" alt="modules" style="width: 100%; display: block"></a>
 
-!!!TIP:
+!!!Tip:
 Use the search field in the upper right corner to locate a specific module and filter your modules by site.
 !!!
 

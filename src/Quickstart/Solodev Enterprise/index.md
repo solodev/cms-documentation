@@ -42,7 +42,7 @@ At the top of the AWS Marketplace listing page for the Solodev CMS Enterprise Ed
 
 <img src="../../images/cmsenterpriseawssubscribe1.png" alt="CMSEnterpriseSubscribe" style="width: 100%; display: block"></a>
 
-!!!NOTE:
+!!!Note:
 If you already have a Solodev license, call 1-800-859-7656, and a team member will activate your subscription.
 !!!
 
