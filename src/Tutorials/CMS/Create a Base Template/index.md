@@ -37,7 +37,7 @@ Below is the code sample for a base template. It includes where the code for Goo
 </div>
 ```
 !!!Note:
-we recommend having a separate file with additional dynamicDivs. Below is a sample of the insert-divs.tpl file. You can save this file under the templates folder:
+We recommend having a separate file with additional dynamicDivs. Below is a sample of the insert-divs.tpl file. You can save this file under the templates folder:
 
 ```js
 <div class="dynamicDiv"></div>
