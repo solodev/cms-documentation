@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-07-20T21:23:26Z",
+  "created": "2023-07-24T14:41:51Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1084,6 +1084,9 @@
     },
     {
       "path": "images\\modify4.png"
+    },
+    {
+      "path": "images\\module-add-entry.jpg"
     },
     {
       "path": "images\\module-overview.jpg"
