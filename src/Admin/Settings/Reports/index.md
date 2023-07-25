@@ -6,4 +6,4 @@ Check your current activity.
 
 All actions are presented with the details such as activity date, IP, action type, and view.
 
-Search activities by name. To do that use the **Search** field at the top.
+Search activities by name. To do that, use the **Search** field at the top.

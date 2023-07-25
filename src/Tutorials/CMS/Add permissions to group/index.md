@@ -1,24 +1,24 @@
 # Add permissions to group
 
-Solodev features a permissions management system that allows administrators to specify the ‘Actions’ and ‘Resources’ available to specific users and groups. Solodev supports granular permissions so that administrators can create a permission system as broad or as specific as needed. 
+Solodev features a permissions management system that allows administrators to specify the ‘Actions’ and ‘Resources’ available to specific users and groups. Solodev supports granular permissions so that administrators can create a permission system as broad or as detailed as needed.
 
 Here you will learn how to specify permissions available to a given group.
 
 ## Pre-requisites 
-Prior to following this tutorial users should: 
+Prior to following this tutorial, users should:
 
 - Add users to your Solodev CMS. You can learn how to do it <a href="../../../../tutorials/cms/add-users/">here</a>.
 - Create a group. You can learn how to do it <a href="../../../../tutorials/cms/add-groups/">here</a>.
 
 ## Step 1 - Navigate to the Group
 
-Click Groups located under the Organization section of the Solodev Dashboard and choose the group you wish to grant specific permissions to by clicking on the group name.
+Click Groups under the Organization section of the Solodev Dashboard and choose the group you wish to grant specific permissions by clicking on the group name.
 
 <img src="../../../images/addgrouppermissions.png" alt="base template" style="width: 100%; display: block"></a>
 
 ## Step 2 - Assign permissions
 
-Click the **Manage** button located on the bottom of the site, and specify places and levels of access that you wish to grant a group with, by clicking next to the components and choosing the roles from the dropdown menus.
+Click the **Manage** button on the bottom of the site, and specify places and levels of access you wish to grant a group by clicking next to the components and choosing the roles from the dropdown menus.
 
 <img src="../../../images/addgrouppermissions1.png" alt="base template" style="width: 100%; display: block"></a>
 

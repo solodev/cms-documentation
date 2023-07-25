@@ -6,7 +6,7 @@ Delete module entries.
 
 **Name** | **Description** 
 :--- | ---
-Submit | When you get sure that entry/ all entries you want to delete are marked, click the blue **Submit** button to delete entry/entries.
+Submit | When you get sure that entry/ all entries you want to delete are marked, click the blue **Submit** button to delete an entry/entries.
 
 ## Confirm 
 

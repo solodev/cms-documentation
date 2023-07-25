@@ -12,6 +12,6 @@ There are three main sections in your Organization. Each can be accessed using t
 <a href="/organization/groups">Groups</a> | Create groups, add members to your group, and manage their roles and permissions.
 <a href="/organization/contacts">Contacts</a> | View, manage, add, and update contacts in your CMS. 
 
-!!!TIP:
+!!!Tip:
 You can manage individual user and group access across all your websites and apps at multiple levels using permissions.
 !!!

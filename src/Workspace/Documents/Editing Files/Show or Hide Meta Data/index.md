@@ -1,6 +1,6 @@
 # Show/Hide Meta Data
 
-Add/update your page's name and title, structure and rank them, and add meta information to boost you SEO
+Add/update your page's name and title, structure and rank them, and add meta information to boost your SEO
 
 <img src="../../../../images/meta-data.png" alt="html files" style="width: 50%; display: block"></a>
 

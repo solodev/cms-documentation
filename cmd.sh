@@ -16,7 +16,7 @@ init(){
 }
 
 watch(){
-    retype watch
+    retype start
 }
 
 build(){

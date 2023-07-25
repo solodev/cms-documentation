@@ -23,7 +23,7 @@ Invite a new member to your CMS deployment.
 
 **Name** | **Description** 
 :--- | ---
-Name | Search or invite a new member by typing the name of a user. You can also invite multiple users at the same time. 
+Name | Search or invite a new member by typing a user's name. You can also invite multiple users at the same time. 
 
 !!! Note:
 You can only add users from your Solodev Cloud organization as members of your CMS deployment.

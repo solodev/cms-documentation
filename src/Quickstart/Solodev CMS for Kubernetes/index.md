@@ -20,7 +20,7 @@ Solodev is a professionally managed, enterprise-class Digital Customer Experienc
 
 [!button variant="warning" target="blank" text="Subscribe Now"](https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa)
 
-!!!NOTE:
+!!!Note:
 If you already have a Solodev license, call 1-800-859-7656 and a member of team will activate your subscription for you.
 !!!
 

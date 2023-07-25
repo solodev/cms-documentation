@@ -2,9 +2,9 @@
 
 ### v9.8
 
-Solodev CMS 9.8 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. Version 9.8 further optimizes the performance of the platform and modernizes code to reflect current technologies and practices. 
+Solodev CMS 9.8 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. Version 9.8 optimizes the platform's performance and modernizes code to reflect current technologies and practices.
 
-Upgrades include a new serverless AWS document database solution to replace MongoDB, as well as new spam prevention capabilities and more. 
+Upgrades include a new serverless AWS document database solution to replace MongoDB, new spam prevention capabilities, and more.
 
 #### Key Release Highlights
 - Replaced MongoDB document database with with AWS DocumentDB service

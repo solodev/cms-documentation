@@ -5,5 +5,5 @@ Login as another user in your CMS to modify their profile and access apps and fo
 <img src="/../../../images/modify4.png" alt="modify4" style="width: 50%; display: block"></a>
 
 !!! Note:
-Once you have logged in as another user, you will need to log out before logging back in with your profile.
+Once you have logged in as another user, you must log out before logging back in with your profile.
 !!!

@@ -1,13 +1,13 @@
 # Modify 
 
-Modify form entries, including displayed fields, email settings, table schema, relationships and more.
+Modify form entries, including displayed fields, email settings, table schema, relationships, etc.
 
 <img src="../../../../images/form-overview3.jpg" alt="form-overview3" style="width: 70%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
 Name | Make changes to the form name.
-Data table Type | Modify the data table type. Choose from Data Storage, Website Module and Website Form.
+Data Table Type | Modify the data table type. Choose from Data Storage, Website Module, and Website Form.
 Display/Hide Columns | Select the option to display/hide columns on the form. Use the arrows to make your selections in the right column.
 
 ## Email Options
@@ -18,18 +18,18 @@ Browse and select email options for your data table.
 
 **Name** | **Description** 
 :--- | ---
-Upload Return Page | Choose this option if you want to upload the return page from your computer.
-Edit | Choose this option if you want to edit the document sent to users.
+Upload Return Page | Choose this option to upload the return page from your computer.
+Edit | Choose this option to edit the document sent to users.
 Upload Custom Mail | Upload an email template to send users upon form submission. 
 Notification Type | Choose notification type: form submission, submission + custom email, or other.
-Tickler Email Address | Use this option if you want to send form submissions to an email address you designate. Add the email address and click the **Add** button.
+Tickler Email Address | Use this option to send form submissions to an email address you designate. Add the email address and click the **Add** button.
 Email List | Manage email addresses that have been added. To remove an email address, mark it and select the **Delete** button. 
 Tickler URL | Keep users informed of the actions of your Datatable at URL by entering the URL.
 Auto Assign Users | You can use this option to auto-assign users.
 
 ## Advanced
 
-Access and define advanced options, for forms and form entries.
+Access and define advanced options for forms and form entries.
 
 <img src="../../../../images/form-overview8.jpg" alt="form-overview8" style="width: 70%; display: block"></a>
 
@@ -50,7 +50,7 @@ Flat Entries (subtable values appear as main values) | Choose this option if you
 Honeypot Protection | Choose this option to have honeypot protection.
 Enable Captcha | Choose this option to enable the captcha.
 Block Anonymous Submissions | Choose this option to block anonymous submissions.
-Sanitize URLS from submissions | Choose this option to sanitize URLs from submissions
+Sanitize URLS from submissions | Choose this option to sanitize URLs from submissions.
 Resave All Entries (On Submit) | Choose this option to resave all entries.
 Export Module | Choose this option to export forms.
 Delete Module | To remove your entry, type DELETE in all caps into the field and click the red **Delete** button.
@@ -81,13 +81,13 @@ Here you can relate the data table to other modules.
 :--- | ---
 **+/-** | Use these options to add/ remove the relationship.
 Relationship Name | Use this option to modify the relationship name.
-Type | Here you can choose type. There are three options: one-to-one, one-to-many, and many-to-many.
-Module | Here you can choose a module. To do that you need to click the **Browse** button and choose the object.
-Field | Here you can choose a field.
+Type | Here, you can choose type. There are three options: one-to-one, one-to-many, and many-to-many.
+Module | Here, you can select a module. To do that, click the **Browse** button and choose the object.
+Field | Here, you can select a field.
 
 ## API Info
 
-Here you can find API Info, that can be used in <a href="/admin/api">API section</a> to connect.
+Here you can find API Info that can be used in the <a href="/admin/api">API section</a> to connect.
 
 <img src="../../../../images/form-overview6.jpg" alt="form-overview6" style="width: 70%; display: block"></a>
 

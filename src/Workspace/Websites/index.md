@@ -6,7 +6,7 @@ To modify a website, click on a thumbnail image or a website name from the table
 
 <img src="../../../images/websites.jpg" alt="websites" style="width: 100%; display: block"></a>
 
-!!!TIP:
+!!!Tip:
 Use the search field in the upper right corner to locate or filter specific websites in your CMS.
 !!!
 

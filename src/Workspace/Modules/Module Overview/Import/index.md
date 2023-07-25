@@ -4,7 +4,6 @@ Import entries by preparing the file in .CSV format. To leave the database empty
 
 <img src="../../../../images/module-overview3.jpg" alt="module-overview3" style="width: 50%; display: block"></a>
 
-
 **Name** | **Description** 
 :--- | ---
 Browse | Select the file from your computer that you want to import.

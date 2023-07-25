@@ -34,7 +34,7 @@ Update what is first seen when logging into CMS.
 
 **Name** | **Description** 
 :--- | ---
-Enable Custom Dashboard | Mark this option if you want to have a custom dashboard enabled.
+Enable Custom Dashboard | Mark this option if you want a custom dashboard enabled.
 Custom Dashboard Markup | Enter custom dashboard markup.
 
 ## Confirm

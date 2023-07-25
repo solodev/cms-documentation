@@ -28,7 +28,7 @@ Delete | To remove your group, type **DELETE** in all caps into the field and cl
 
 
 !!! Note:
-Deleting a group will permanently remove the group and all of its content and cannot be undone.
+Deleting a group will permanently remove the group and its content and cannot be undone.
 !!!
 
 ## Confirm

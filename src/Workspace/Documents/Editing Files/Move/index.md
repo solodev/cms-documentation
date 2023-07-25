@@ -7,8 +7,7 @@ Move the file/folder to another folder. Make sure the item you want to move is m
 **Name** | **Description**
 :--- | ---
 Name | Mark the File/Folder you want to move.
-To Folder: | Choose the destination folder by clicking on the folder tree.
-
+To Folder | Choose the destination folder by clicking on the folder tree.
 
 ## Confirm
 

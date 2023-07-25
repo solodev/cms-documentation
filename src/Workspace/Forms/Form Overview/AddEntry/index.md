@@ -10,7 +10,7 @@ First Name | Enter the first name.
 Last Name | Enter the last name.
 Phone Number | Enter the phone number.
 Email Address | Enter an email address.
-Comments |  Enter comments, if needed.
+Comments |  Enter comments if needed.
 
 ## Confirm 
 

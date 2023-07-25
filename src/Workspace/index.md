@@ -13,6 +13,6 @@ There are four main sections in your Workspace. Each can be accessed using the l
 <a href="/workspace/forms/">Forms</a> | Create custom website forms using drag-and-drop builder, view form completions, export lead data, and more.
 <a href="/workspace/documents/">Documents</a> | Upload files and images, create folders and groups, and use stored documents in your websites and apps across your CMS deployment. 
 
-!!!TIP:
+!!!Tip:
 By using <a href="/workspace/websites/permissions">Permissions</a>, you can control the specific websites, modules, and apps your team members can access within your Workspace. 
 !!!

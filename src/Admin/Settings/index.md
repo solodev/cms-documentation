@@ -1,6 +1,6 @@
 # Settings
 
-The Settings section contains a wide range of functionality regarding your Solodev environment. Settings is divided into 6 parts.
+The Settings section contains a wide range of functionality regarding your Solodev environment. Settings are divided into six parts.
 
 <img src="../../../images/settings16.jpg" alt="settings16" style="width: 20%; display: block"></a>
 
