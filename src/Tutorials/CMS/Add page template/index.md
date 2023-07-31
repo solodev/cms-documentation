@@ -22,7 +22,7 @@ You can find more detailed information about the templates over here:
 
 The base template is the most crucial because it contains the essential resources that will be included in every web page on your website. A base template typically consists of a header and footer, references to asset files, and dynamic divs to place content. Note that any changes you make to the base template will reflect your entire website. This article will show you how to build a base template and demonstrate its value in a real-world situation.
 
-<img src="../../../images/solodev-base-template.png" alt="base template" style="width: 70%; display: block"></a>
+<img src="../../../images/base-template.jpg" alt="base template" style="width: 100%; display: block"></a>
 
 !!!Note: 
 Your base template contains your core includes (CSS, JavaScript, Fonts, and Images), a header and footer, and dynamic divs (drop zones) in between to insert HTML content.
@@ -250,3 +250,4 @@ If you followed the instructions, your sectional template should appear at the b
 !!!Note: 
 If you would like to insert more templates in a page and can't find enough blue zones to drop them into, you can create more DynamicDivs to increase the number of drop zones. In the "Tutorials" section, we talk about what DynamicDivs are and how to create them.
 !!!
+You al
