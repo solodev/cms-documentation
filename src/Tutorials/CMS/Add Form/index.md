@@ -53,5 +53,44 @@ Spacer | Use the spacer element to insert spaces on the page.
 Click and hold the icon to drag and drop the element in the workspace.
 !!!
 
+# Upload Form
+
+## Step 1 
+
+To begin the template upload process, locate the **Upload TPL File** button and click on it. This button will initiate the template uploading procedure.
+
+<img src="../../../images/upload-form.jpg" alt="base template" style="width: 100%; display: block"></a>
+
+## Step 2
+
+After clicking on the **Upload TPL File** button, a file selection dialog will appear. Browse through your local files and choose the **.tpl** file that you wish to upload. Ensure that the selected file is in the appropriate **.tpl** format, as this is the supported file format for the upload.
+
+## Step 3 
+
+Once you have successfully uploaded the desired **.tpl** file, click on the **Save** button to confirm the upload. This will save the template to the system, making it available for further use.
+
+!!!Note:
+Please make sure that the uploaded package is in the correct **.tpl** format, as any other file format will not be accepted for the template upload.
+!!!
+
+# Add Form to Page
+
+## Step 1
+
+* Open your content management system (CMS).
+* Navigate to the specific page where you want to add the form.
+
+## Step 2
+
+* Locate the area on the web page where you want the form to appear. This could be within a specific section, a sidebar, or anywhere else you'd like the form to be displayed.
+* Edit the dynamicDiv of that section or area.
+* Add the following shortcode to the code at the desired location: [form id="your_form_id"]. Replace `your_form_id` with the actual ID of your form. The ID is a unique identifier used to reference the form.
+
+# Step 3
+
+* After adding the form shortcode, ensure that all other necessary changes or updates to the page are completed.
+* Publish the changes made to the web page.
+* In the Preview section, you can use it to check how the form looks.
+* Once you are satisfied with the changes, publish the updated page to make the form visible to your website visitors.
 
 ## Confirm
