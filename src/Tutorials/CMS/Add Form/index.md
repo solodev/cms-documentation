@@ -48,17 +48,17 @@ Click and hold the icon to drag and drop the element in the workspace.
 
 ## Upload Form
 
-### Step 1 
+### Step 1 - Prepare Form
 
 To begin the template upload process, locate the **Upload TPL File** button and click on it. This button will initiate the template uploading procedure.
 
 <img src="../../../images/upload-form.png" alt="upload tpl button" style="width: 25%; display: block"></a>
 
-### Step 2
+### Step 2 - Select Template File
 
 After clicking on the **Upload TPL File** button, a file selection dialog will appear. Browse through your local files and choose the **.tpl** file that you wish to upload. Ensure that the selected file is in the appropriate **.tpl** format, as this is the supported file format for the upload.
 
-### Step 3 
+### Step 3 - Confirm the Upload
 
 Once you have successfully uploaded the desired **.tpl** file, click on the **Save** button to confirm the upload. This will save the template to the system, making it available for further use.
 
@@ -68,13 +68,13 @@ Please make sure that the uploaded package is in the correct **.tpl** format, as
 
 ## Add HTML Code
  
-## Step 1 
+### Step 1 - Access the Code Editor
 
 To begin the HTML process, locate the **Coding** button in the bottom right and click on it. This button will switch the content area to a code editor view.
 
 <img src="../../../images/html-form.png" alt="coding button" style="width: 20%; display: block"></a>
 
-### Step 2
+### Step 2 - Write Your HTML Code
 
 After clicking on the **Coding** button, your screen will give you the ability to write your code. 
 
@@ -103,47 +103,47 @@ Example code:
 </div>
 ```
 
-### Step 3  
+### Step 3 - Confirm Code
 
 Once you have successfully added your code, click on the **Save** button to confirm. This will save the template to the system, making it available for further use.
 
 ## Drag and Drop
 
-### Step 1 
+### Step 1 - Access Form Studio
 
 To begin the template your drag and drop process, give your form a name and choose your install location
 
-### Step 2
+### Step 2 - Create a New Form
 
 On the form editor interface, you will find a list of available form elements on the sidebar or toolbox. Browse through the available form elements and select the one you want to add to your form.
 
-### Step 3 
+### Step 3 - Drag and Drop
 
 Click and hold the selected form element with your mouse cursor. While holding the element, drag it to the desired location on the form canvas.
 
-### Step 4
+### Step 4 - Adjust Element Position
 Once the form element is placed on the canvas, you can adjust its position by dragging it to a new location if needed. Align the element with other form elements or adjust its spacing as required. 
 
-### Step 5
+### Step 5 - Customize Element Properties
 After placing the form element, you can customize its properties such as label text, input type, validation rules, and more. Look for options or properties panel associated with the selected form element, and make the necessary changes.
 
-### Step 6
+### Step 6 - Save Changes
 Once you have successfully added your code, click on the **Save** button to confirm. This will save the template to the system, making it available for further use.
 
 ## Add Form to Page
 
-### Step 1
+### Step 1 - Access CMS
 
 * Open your content management system (CMS).
 * Navigate to the specific page where you want to add the form.
 
-### Step 2
+### Step 2 - Locate the Form Area and Edit Dynamic Div
 
 * Locate the area on the web page where you want the form to appear. This could be within a specific section, a sidebar, or anywhere else you'd like the form to be displayed.
 * Edit the dynamicDiv of that section or area.
 * Add the following shortcode to the code at the desired location: [form id="your_form_id"]. Replace `your_form_id` with the actual ID of your form. The ID is a unique identifier used to reference the form.
 
-# Step 3
+# Step 3 - Add the Form Shortcode
 
 * After adding the form shortcode, ensure that all other necessary changes or updates to the page are completed.
 * Publish the changes made to the web page.
