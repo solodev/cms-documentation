@@ -46,19 +46,19 @@ Form Button | Insert a button element, which triggers actions like form submissi
 Click and hold the icon to drag and drop the element in the workspace.
 !!!
 
-# Upload Form
+## Upload Form
 
-## Step 1 
+### Step 1 
 
 To begin the template upload process, locate the **Upload TPL File** button and click on it. This button will initiate the template uploading procedure.
 
-<img src="../../../images/upload-form.jpg" alt="base template" style="width: 100%; display: block"></a>
+<img src="../../../images/upload-form.png" alt="base template" style="width: 15%; display: block"></a>
 
-## Step 2
+### Step 2
 
 After clicking on the **Upload TPL File** button, a file selection dialog will appear. Browse through your local files and choose the **.tpl** file that you wish to upload. Ensure that the selected file is in the appropriate **.tpl** format, as this is the supported file format for the upload.
 
-## Step 3 
+### Step 3 
 
 Once you have successfully uploaded the desired **.tpl** file, click on the **Save** button to confirm the upload. This will save the template to the system, making it available for further use.
 
@@ -66,14 +66,14 @@ Once you have successfully uploaded the desired **.tpl** file, click on the **Sa
 Please make sure that the uploaded package is in the correct **.tpl** format, as any other file format will not be accepted for the template upload.
 !!!
 
-# Add Form to Page
+## Add Form to Page
 
-## Step 1
+### Step 1
 
 * Open your content management system (CMS).
 * Navigate to the specific page where you want to add the form.
 
-## Step 2
+### Step 2
 
 * Locate the area on the web page where you want the form to appear. This could be within a specific section, a sidebar, or anywhere else you'd like the form to be displayed.
 * Edit the dynamicDiv of that section or area.
