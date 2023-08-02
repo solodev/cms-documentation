@@ -9,6 +9,8 @@ Adding a form in Solodev CMS is a simple process and can be completed in minutes
 :--- | ---
 Name | Customize the name.
 Choose Install Location | Choose the form location.  
+Template (optional) | If you wish you can upload the form template.  
+Save | Save the current template.
 [Form Studio](#form-studio) | Create the form using Form Studio.
 
 !!!Note:
@@ -17,34 +19,27 @@ Put the file into the forms folder in web files
 
 ## Form Studio
 
-Forms are created based on the Form Studio editor. It has a robust built-in drag-and-drop WYSIWYG editor and the option to toggle to edit sources directly.
+Forms are created based on the Form Studio editor. It has a robust built-in drag-and-drop WYSIWYG editor and the option to toggle to edit sources directly. After selecting any of the dropped components the additional options related with it's settings, styling and heriarchy will be avaliable on right hand side of the Form Studio. 
 
 <img src="../../../images/form-studio.jpg" alt="FormStudio" style="width: 100%; display: block"></a>
 
-**Name** | **Description** 
+**Name** | **Description** | **Avaliable Settings**
 :--- | ---
-**Layout** | Create a page layout by using containers, columns, and divs.
-Container | Place the container to pad the content inside of it.
-Columns | Organize your content with columns.
-Div | Define a division or a section on your page. The <div> tag is easily styled by using the class or id attribute. Any content can be put inside it.
-**Content** | Add the page content.
-Header | Add the header element which, represents a container for introductory content or a set of navigational links.
-Description | Add the description.
-Paragraph |  Add the paragraph which starts on a new line and is usually a block of text. 
-Title | Add the title which capitalizes any class name that will get referenced in the stylesheet without a parent class.
-Image | Place the image.
-List |  Organize the page content with a list.
-Video | Add the video.
-**Components** | Use components such as buttons and navibars.
-Button | Create a styled HTML button and customize it to match their website designs.
-Accordion | Use the accordion element to show (and hide) HTML content. Use the w3-hide class to hide the accordion content.
-Carousel | Create a slideshow for cycling through a series of content. It works with a series of images, text, or custom markups.
-Link | Add the link to any page.
-Navibar | Add a navigation bar to your workspace which, is a user interface element within a webpage that contains links to other sections of the website.
-Table | Organize data with table. 
-**Utilities** | Use different elements such as separators and spacers.
-Separator | Create a thematic break in the page by using the separator. 
-Spacer | Use the spacer element to insert spaces on the page. 
+**Layout** | Create a form layout by using containers and columns. | 
+Container | Place the container to pad the content inside of it. | Fluid or non-fluid (fluid means that container will cover 100% of browser available width). URL link, email container or phone link. Full flexibility of appearance.
+Columns | Organize your form with columns.| Number of columns and paddination. URL link, email or phone link. Full flexibility of appearance.
+**Content** | Add the form content.|
+Header | Add the header element which, represents a container for introductory content or a set of navigational links.| Importance of header from H1 (most important) to H6 (least important). URL link, email container or phone link. Full flexibility of appearance.
+Paragraph |  Add the paragraph which starts on a new line and is usually a block of text. | Full flexibility of appearance.
+Image | Place the image.| Select an image, fluid or non fluid (fluid means that image will cover 100% of browser available width), ALT text, image shape, image width and height. URL link, email or phone link. Full flexibility of appearance.
+**Forms** | Use components such as buttons and checkboxes.|
+Input | Allow to input short data.| Custom label, name, ID and placeholder. Specify type of input data: text, number, password, email, search, url or phone. Full flexibility of appearance.
+File | Allow user to upload a file.| Specify ID and name. Full flexibility of button appearance.
+Text Area | Allow for longer elaborations e.x. comments.| Specify label, name, ID, placeholder and helper texts. 
+Checkbox | Allow users to check predifined option.| Adjust label, name and ID. Flexibility of button appearance.
+Select | Allows to create a drop-down lists.| Adjust the texts on the list, help text, placeholder, label, name and ID. Flexibility of list appearance.
+Radio Button |  Allows the user to choose only one of a predefined set of options.| Adjust label, name and ID.
+Form Button | Allows to create buttons e.x. submit button.| Define url link, email or phone links. Secify the size, text and style of the button.
 
 !!!Note:
 Click and hold the icon to drag and drop the element in the workspace.
