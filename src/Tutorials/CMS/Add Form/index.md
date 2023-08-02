@@ -52,7 +52,7 @@ Click and hold the icon to drag and drop the element in the workspace.
 
 To begin the template upload process, locate the **Upload TPL File** button and click on it. This button will initiate the template uploading procedure.
 
-<img src="../../../images/upload-form.png" alt="base template" style="width: 15%; display: block"></a>
+<img src="../../../images/upload-form.png" alt="upload tpl button" style="width: 25%; display: block"></a>
 
 ### Step 2
 
@@ -65,6 +65,70 @@ Once you have successfully uploaded the desired **.tpl** file, click on the **Sa
 !!!Note:
 Please make sure that the uploaded package is in the correct **.tpl** format, as any other file format will not be accepted for the template upload.
 !!!
+
+## Add HTML Code
+ 
+## Step 1 
+
+To begin the HTML process, locate the **Coding** button in the bottom right and click on it. This button will switch the content area to a code editor view.
+
+<img src="../../../images/html-form.png" alt="coding button" style="width: 20%; display: block"></a>
+
+### Step 2
+
+After clicking on the **Coding** button, your screen will give you the ability to write your code. 
+
+<img src="../../../images/html-form-code.png" alt="form screen" style="width: 100%; display: block"></a>
+
+Example code:
+```js
+<div class="row row-cols-1 row-cols-lg-2">
+  <div class="col mt-4">
+    <label for="first_name">First Name</label>
+    <input type="text" class="form-control" name="first_name" id="first_name" required>
+  </div>
+  <div class="col mt-4">
+    <label for="last_name">Last Name</label>
+    <input type="text" class="form-control" name="last_name" id="last_name" required>
+  </div>
+  <div class="col mt-4">
+    <label for="email">Email</label>
+    <input type="text" class="form-control" name="email" id="email" required>
+  </div>
+  <div class="col mt-4">
+    <label for="phone">Phone Number</label>
+    <input type="tel" class="form-control" name="phone" id="phone" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+```
+
+### Step 3  
+
+Once you have successfully added your code, click on the **Save** button to confirm. This will save the template to the system, making it available for further use.
+
+## Drag and Drop
+
+### Step 1 
+
+To begin the template your drag and drop process, give your form a name and choose your install location
+
+### Step 2
+
+On the form editor interface, you will find a list of available form elements on the sidebar or toolbox. Browse through the available form elements and select the one you want to add to your form.
+
+### Step 3 
+
+Click and hold the selected form element with your mouse cursor. While holding the element, drag it to the desired location on the form canvas.
+
+### Step 4
+Once the form element is placed on the canvas, you can adjust its position by dragging it to a new location if needed. Align the element with other form elements or adjust its spacing as required. 
+
+### Step 5
+After placing the form element, you can customize its properties such as label text, input type, validation rules, and more. Look for options or properties panel associated with the selected form element, and make the necessary changes.
+
+### Step 6
+Once you have successfully added your code, click on the **Save** button to confirm. This will save the template to the system, making it available for further use.
 
 ## Add Form to Page
 
