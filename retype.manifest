@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-03T12:46:29Z",
+  "created": "2023-08-03T18:08:50Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -558,6 +558,9 @@
       "path": "images\\contacts.png"
     },
     {
+      "path": "images\\content-template.png"
+    },
+    {
       "path": "images\\copy.jpg"
     },
     {
@@ -843,6 +846,9 @@
       "path": "images\\forms.jpg"
     },
     {
+      "path": "images\\forms.png"
+    },
+    {
       "path": "images\\google.jpg"
     },
     {
@@ -1110,6 +1116,9 @@
       "path": "images\\managefilesfolders.jpg"
     },
     {
+      "path": "images\\member-permissions.jpg"
+    },
+    {
       "path": "images\\meta-about.png"
     },
     {
@@ -1182,6 +1191,9 @@
       "path": "images\\module-overview9.jpg"
     },
     {
+      "path": "images\\module-permissions.png"
+    },
+    {
       "path": "images\\moduleapi.jpg"
     },
     {
@@ -1195,6 +1207,9 @@
     },
     {
       "path": "images\\modules.jpg"
+    },
+    {
+      "path": "images\\modules.png"
     },
     {
       "path": "images\\modules2.jpg"
@@ -1396,6 +1411,9 @@
     },
     {
       "path": "images\\sso.jpg"
+    },
+    {
+      "path": "images\\stml.jpg"
     },
     {
       "path": "images\\support.jpg"
@@ -1824,10 +1842,17 @@
       "path": "shortcodes\\building-custom-shortcodes\\index.html"
     },
     {
+      "path": "shortcodes\\generic-shortcodes\\index.html"
+    },
+    {
       "path": "shortcodes\\index.html"
     },
     {
-      "path": "shortcodes\\miscellaneous-shortcodes\\index.html"
+      "path": "shortcodes\\miscellaneous-shortcodes\\index.html",
+      "old": true
+    },
+    {
+      "path": "shortcodes\\shortcodes-for-login-forms\\index.html"
     },
     {
       "path": "shortcodes\\shortcodes-for-modules\\index.html"
@@ -1836,7 +1861,8 @@
       "path": "shortcodes\\shortcodes-for-pages--sections\\index.html"
     },
     {
-      "path": "shortcodes\\shortcodes-for-users\\index.html"
+      "path": "shortcodes\\shortcodes-for-users\\index.html",
+      "old": true
     },
     {
       "path": "shortcodes\\shortcodes-overview\\index.html"
@@ -1995,7 +2021,8 @@
       "path": "tutorials\\cms\\add-page-template\\index.html"
     },
     {
-      "path": "tutorials\\cms\\add-page\\index.html"
+      "path": "tutorials\\cms\\add-page\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\add-permissions-to-group\\index.html"
@@ -2291,6 +2318,9 @@
     },
     {
       "path": "workspace\\websites\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\manage-website\\add-page\\index.html"
     },
     {
       "path": "workspace\\websites\\manage-website\\addcollection\\index.html"
