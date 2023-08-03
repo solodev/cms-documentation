@@ -1,8 +1,95 @@
 # Add form
 
-Solodev developers can create a new form module that can be edited using Solodev's dynamic drag-and-drop graphical user interface, Forms.
+In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to collect information for almost any kind of application. This includes contact forms, order forms, newsletter subscriptions, product registrations, and more. In this article, you will learn the different ways to create a form using Solodev and how to add it to your web page.  
 
-## Step 1 - Adding a form
+## Prerequisites
+
+-	You will need to <a href="/workspace/websites/add-website/">add a website</a> to your Solodev CMS
+-	After selecting a website, you will need to <a href="/tutorials/cms/add-page/">add a page</a> for your form
+-	To map a form to a Solodev module, you will need to <a href="/workspace/modules/add-module/">add a module</a> (optional)
+
+## Add Form Options
+
+<img src="../../../images/form-main.png" alt="form main image" style="width: 100%; display: block"></a>
+
+From the main dashboard, there are three ways to add a form to Solodev:
+
+*	**Form Studio**
+Solodev’s drag-and-drop Form Studio lets you build your own custom forms with granular control – without touching a line of code. Instantly add text, images, input fields, radio buttons, and more. Save your form and apply it to your page in minutes.  
+
+* **Upload TPL File**
+If you already have an existing template for your form, you can upload it directly as a .tpl file into Solodev and apply it to your page. 
+
+* **Upload HTML**
+If you prefer working in raw HTML, you can code your own form and upload to Solodev.
+
+## Form Studio
+
+<img src="../../../images/Form-Studio1.jpg" alt="form main image" style="width: 100%; display: block"></a>
+
+Form Studio is a built-in drag-and-drop WYSIWYG editor that allows you to directly compose your own custom form. The visual editor consists of a left toolbar for dragging layout, content, and form components onto the canvas in the center. See table below for details. 
+
+The right toolbar enables you to control the text, styling, and specific details of the components in your form. Under the **Settings** icon, you can adjust your form header, links, and other details. 
+
+<img src="../../../images/form-settings.png" alt="form settings" style="width: 25%; display: block"></a>
+
+Using the **Pencil** icon, you can customize attributes such as layout, position, border radius, size, typography, and background components by entering values or clicking/dragging arrows. The right toolbar also provides **Body** attributes that detail the components in each div. 
+
+<img src="../../../images/form-body.png" alt="form body" style="width: 25%; display: block"></a>
+
+### Building a form with Form Studio
+
+**Step 1:** First, provide a name to your form in the **Name** field.
+
+**Step 2:** Pick an install location in Solodev by clicking **Browse**. Select an object and click **Choose**.
+
+<img src="../../../images/form-choose-object.jpg" alt="form choose object" style="width: 25%; display: block"></a>
+
+**Step 3:** Use the drag-and-drop Form Studio tools to build your form:
+
+**Layout**
+
+Left toolbar | Description | Right toolbar options
+:--- | --- | ---
+Container | Provides a controllable container to <br> position and pad objects like text, images,<br> and input fields | • Fluid: allows container to stretch to full browser width <br> • Non-Fluid: constrains container based on specific width<br> • Link settings: add a URL, email, or phone link.<br> • Set form to open in a new tab<br> • Full control of appearance
+Columns | Allows you to organize your form content <br> into pre-defined columns | • Column settings: set the number of columns and padding <br> • Link settings: add a URL, email, or phone link<br> • Set form to open in a new tab<br> • Full control of appearance
+
+
+**Content**
+
+Left toolbar | Description | Right toolbar options
+:--- | --- | ---
+Header | Provides a text header to your form. | • Header settings: set the H1 or other hierarchal status of your text <br> • Link settings: add a URL, email, or phone link <br> • Set form to open in a new tab <br> • Full control of appearance
+Paragraph | Insert a paragraph block of text in your form. | • Full flexibility of appearance.
+Image |  Add a custom image to your form. | • Fluid: allows image to stretch to the full browser width <br> • Non-Fluid: constrains image based on specific dimensions<br> • Image properties: adjust shape, width, and height. <br> • ALT text: add data for accessibility <br> • Link settings: add a URL, email, or phone link <br> • Full control of appearance
+
+
+**Forms**
+
+Left toolbar | Description | Right toolbar options
+:--- | --- | ---
+Input | Add fields for input data such as name, email, phone number, etc. | • Add custom label, name, ID, and placeholder <br> • Input types: text, number, password, email, search, URL, or phone <br> • Full control of appearance
+File | Enables a user to upload a file such as a document, PDF, etc. | • ID and name <br> • Button properties: adjust text and color
+Text Area | Include a field for long-form text. | • Specify label, name, ID, placeholder, and helper text.
+Checkbox | Create pre-defined options with corresponding checkboxes. | • Adjust label, name, and ID. <br> • Button properties: adjust text and color
+Select | Add a picker with a dropdown menu of options. |• Add custom menu list text <br> • Select settings for helper text, placeholder, label, name, and ID.
+Radio Button | Create pre-defined options with corresponding radio buttons. | • Adjust label, name, and ID.
+Form Button | Add a custom button to submit your form. | • Link settings: add a URL, email, or phone link <br> • Button properties: adjust text, size, style, and color.
+
+**Step 4:** Once complete, click **Save**.
+
+## Upload TPL File 
+
+**Step 1:** First, provide a name to your form in the **Name** field.
+
+**Step 2:** Pick an install location in Solodev by clicking **Browse**. Select an object and click **Choose**.
+
+Next Steps
+
+-	Add Module 
+
+
+<!-- ## Step 1 - Adding a form
 
 Click **Forms** from the Solodev dashboard and click **Add Form**.
 
@@ -148,6 +235,6 @@ Once you have successfully added your code, click on the **Save** button to conf
 * After adding the form shortcode, ensure that all other necessary changes or updates to the page are completed.
 * Publish the changes made to the web page.
 * In the Preview section, you can use it to check how the form looks.
-* Once you are satisfied with the changes, publish the updated page to make the form visible to your website visitors.
+* Once you are satisfied with the changes, publish the updated page to make the form visible to your website visitors. -->
 
 ## Confirm
