@@ -1,4 +1,4 @@
-# Shortcodes for Users
+# Shortcodes for Login Forms
 
 Learn more about shortcodes pertaining to users and user-related components in Solodev.
 

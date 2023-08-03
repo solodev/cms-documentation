@@ -32,7 +32,7 @@ You can access all tools from the module dashboard to manage module infrastructu
 
 To get started click on the <a href="/workspace/modules/add-module/">Add Module</a> button. If you have a module already installed, you can click on the module name to see its options and modify it.
 
-<img src="../../../images/modules.jpg" alt="modules" style="width: 100%; display: block"></a>
+<img src="../../../images/modules.png" alt="modules" style="display: block"></a>
 
 !!!Tip:
 Use the search field in the upper right corner to locate a specific module and filter your modules by site.
@@ -46,7 +46,7 @@ Use the search field in the upper right corner to locate a specific module and f
 
 Click on any of the members next to a module name to assign or remove members and manage their roles.
 
-<img src="../../../images/modalpermissions.jpg" alt="permissions2" style="width: 45%; display: block"></a>
+<img src="../../../images/module-permissions.png" alt="permissions2" style="display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

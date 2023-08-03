@@ -1,4 +1,5 @@
-order: 95
+order: 90
 icon: file-code
 expanded: false
-visibility: hidden
+redirect: /../shortcodes/shortcodes-overview/
+# visibility: hidden

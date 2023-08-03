@@ -7,6 +7,8 @@ In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to 
 -	You will need to <a href="/workspace/websites/add-website/">add a website</a> to your Solodev CMS
 -	After selecting a website, you will need to <a href="/tutorials/cms/add-page/">add a page</a> for your form
 -	To map a form to a Solodev module, you will need to <a href="/workspace/modules/add-module/">add a module</a> (optional)
+- Using shortcodes
+- Mapping pages to modules
 
 ## Add Form Options
 
@@ -84,10 +86,54 @@ Form Button | Add a custom button to submit your form. | • Link settings: add 
 
 **Step 2:** Pick an install location in Solodev by clicking **Browse**. Select an object and click **Choose**.
 
+## Add HTML Code
+
+**Step 1:** Click the **Coding** button in the bottom right to access the code edit
+
+**Step 2:** Write your HTML code in the code editor.
+
+Example code:
+```js
+<div class="row row-cols-1 row-cols-lg-2">
+  <div class="col mt-4">
+    <label for="first_name">First Name</label>
+    <input type="text" class="form-control" name="first_name" id="first_name" required>
+  </div>
+  <div class="col mt-4">
+    <label for="last_name">Last Name</label>
+    <input type="text" class="form-control" name="last_name" id="last_name" required>
+  </div>
+  <div class="col mt-4">
+    <label for="email">Email</label>
+    <input type="text" class="form-control" name="email" id="email" required>
+  </div>
+  <div class="col mt-4">
+    <label for="phone">Phone Number</label>
+    <input type="tel" class="form-control" name="phone" id="phone" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+```
+
+## Drag and Drop Form
+
+**Step 1:** Access **Form Studio** by clicking **Add Form**.
+
+**Step 2:** Give your form a name and select the location in which you want to save your form.
+
+**Step 3:** Browse the sidebar/toolbox to find the desired form element.
+
+**Step 4:** Click and hold the form element, then drag it to the desired location on the form canvas.
+
+**Step 5:** Adjust the element's position and spacing if needed by dragging it to a new location or aligning it with other elements.
+
+**Step 6:** Customize the element properties, such as label text, input type, and validation rules, using the properties panel on the right.
+
+**Step 7:** Save your changes by clicking the **Save** button to store the template.
+
 Next Steps
 
--	Add Module 
-
+-	<a href="/tutorials/cms/add-module/">Add Module</a>
 
 <!-- ## Step 1 - Adding a form
 

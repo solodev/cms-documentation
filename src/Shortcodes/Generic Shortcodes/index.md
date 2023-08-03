@@ -1,4 +1,4 @@
-# Miscellaneous Shortcodes
+# Generic Shortcodes
 
 The following shortcodes can be used periodically in any Solodev website.
 
