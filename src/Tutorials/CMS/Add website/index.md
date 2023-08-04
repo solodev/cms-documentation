@@ -1,4 +1,4 @@
-# Add website
+# Add Website
 
 Solodev is a multi-site platform. You can efficiently run as many websites and apps in one place with a single login and switch between websites. Each website is self-contained, meaning they have separate sources such as files and folders. When adding websites, each website will be installed from scratch with its theme resources, but they can share resources. There is also no FTP, hidden files, or need to log into the server.
 

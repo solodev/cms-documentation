@@ -1,4 +1,4 @@
-# Add groups
+# Add Groups
 
 Developers can use groups to mimic their organizational structure and take advantage of granular permissions. Create your groups by following the steps below: 
 

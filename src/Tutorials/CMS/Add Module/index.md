@@ -1,5 +1,4 @@
-# Add module
-
+# Add Module
 ## Prerequisites 
 
 -	You will need to <a href="/tutorials/cms/add-website/">add a website</a> to your Solodev CMS
@@ -12,7 +11,7 @@
 
 <img src="../../../images/addmodule.png" alt="base template" style="width: 100%; display: block"></a>
 
-2.	Fil up the Add Module form.
+2.	Fill up the Add Module form.
 
 <img src="../../../images/add-module.png" alt="base template" style="width: 50%; display: block"></a>
 
@@ -94,6 +93,4 @@ Provided below is a sample of a detail code. For more information on shortcodes,
 3.	On **Detail Folder Location**, select the folder your detail page is on and click **Submit**.
 
 <img src="../../../images/modify-detail.png" alt="base template" style="width: 100%; display: block"></a>
-
-
 

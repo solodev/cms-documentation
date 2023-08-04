@@ -1,4 +1,4 @@
-# Add users
+# Add Users
 
 Administrators or “super users” in Solodev can add users and assign permissions, providing them access to certain areas of the Solodev dashboard. Administrators can leverage granular permissions by specifying users' actions in Solodev.  
 

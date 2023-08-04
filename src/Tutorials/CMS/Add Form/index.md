@@ -1,4 +1,4 @@
-# Add form
+# Add Form
 
 In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to collect information for almost any kind of application. This includes contact forms, order forms, newsletter subscriptions, product registrations, and more. In this article, you will learn the different ways to create a form using Solodev and how to add it to your web page.  
 
