@@ -1,4 +1,4 @@
-# Add page
+# Add Page
 
 In Solodev CMS, all pages are given a ".stml" extension. STML files are HTML files containing server-side includes (SSI), which are used to generate page-generated content. When you create a page in Solodev, it will automatically have the ".stml" extension. Still, if you're creating a page with a code editor, you need to manually give it an extension of ".stml" before you upload the file on Solodev.
 
