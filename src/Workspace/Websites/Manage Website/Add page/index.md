@@ -20,7 +20,7 @@ if you're creating an HTML page with a code editor, you need to manually give it
 
 **Step 1:** Under Workspace in the left tree menu, select **Websites**.
 
-<img src="/../../../images/add-page-Main-Image.png" alt="add page" style="width: 100%; display: block"></a>
+<img src="/../../../images/add-page-main.png" alt="add page" style="width: 100%; display: block"></a>
 
 **Step 2:** From the table on the main dashboard, choose an active website. If you do not have one, learn how to <a href="/workspace/websites/add-website/">add a website</a>.
 

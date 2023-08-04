@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-04T18:56:09Z",
+  "created": "2023-08-04T20:28:08Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -178,6 +178,24 @@
     },
     {
       "path": "images\\add-module.png"
+    },
+    {
+      "path": "images\\add-page-link-view.png"
+    },
+    {
+      "path": "images\\add-page-main-image.png"
+    },
+    {
+      "path": "images\\add-page-modal-details.png"
+    },
+    {
+      "path": "images\\add-page-templates.png"
+    },
+    {
+      "path": "images\\add-page-tree-menu.png"
+    },
+    {
+      "path": "images\\add-page-update-folder.png"
     },
     {
       "path": "images\\add-site-form-upload-theme.jpg"
