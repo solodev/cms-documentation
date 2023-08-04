@@ -7,7 +7,7 @@ In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to 
 -	You will need to <a href="/workspace/websites/add-website/">add a website</a> to your Solodev CMS
 -	After selecting a website, you will need to <a href="/tutorials/cms/add-page/">add a page</a> for your form
 -	To map a form to a Solodev module, you will need to <a href="/workspace/modules/add-module/">add a module</a> (optional)
-- Using shortcodes
+- Using <a href="/shortcodes/">shortcodes</a>
 - Mapping pages to modules
 
 ## Add Form Options

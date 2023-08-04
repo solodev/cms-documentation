@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-04T14:49:09Z",
+  "created": "2023-08-04T18:56:09Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1275,6 +1275,9 @@
       "path": "images\\permissions4.jpg"
     },
     {
+      "path": "images\\permissions4.png"
+    },
+    {
       "path": "images\\picture1.jpg"
     },
     {
@@ -2033,7 +2036,8 @@
       "path": "tutorials\\cms\\add-page-template\\index.html"
     },
     {
-      "path": "tutorials\\cms\\add-page\\index.html"
+      "path": "tutorials\\cms\\add-page\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\add-permissions-to-group\\index.html"
@@ -2334,8 +2338,7 @@
       "path": "workspace\\websites\\index.html"
     },
     {
-      "path": "workspace\\websites\\manage-website\\add-page\\index.html",
-      "old": true
+      "path": "workspace\\websites\\manage-website\\add-page\\index.html"
     },
     {
       "path": "workspace\\websites\\manage-website\\addcollection\\index.html"
