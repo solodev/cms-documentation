@@ -63,7 +63,7 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 ## Content Template
 
-<img src="../../../images/content-template.jpg" alt="base template" style="width: 100%; display: block"></a>
+<img src="../../../images/content-template.png" alt="base template" style="width: 80%; display: block"></a>
 
 1.	Go to **web files > templates** and <a href="/workspace/websites/manage-website/addfile/">add a file</a>.
 2.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
@@ -86,7 +86,7 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
   <div class="row">
     <div class="col-lg-4">
       <!-- Start of Left Navigation -->
-      <aside class="pr-lg-5">
+      <aside class="pe-lg-5">
         <div class="dynamicDiv"></div>
         <div class="dynamicDiv"></div>
         <div class="dynamicDiv"></div>

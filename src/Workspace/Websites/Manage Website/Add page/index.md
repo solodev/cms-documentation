@@ -40,7 +40,7 @@ If your website already contains multiple folders for various sections (such as 
 
 <img src="/../../../images/add-page-modal-details.png" alt="add page modal details" style="width: 40%; display: block"></a>
 
-**Step 6:** Using the **Template** picker, select an available page template to apply to your page. If you do not have any page templates available, learn how to <a href="/tutorials/cms/add-page-template/">add a page template</a>. 
+**Step 6:** Using the **Template** picker, select an available page template to apply to your page. If you do not have any page templates available, learn how to <a href="/tutorials/cms/add-page-template/">add a page template</a>. (Optional)
 
 <img src="/../../../images/add-page-templates.png" alt="add page templates" style="width: 40%; display: block"></a>
 

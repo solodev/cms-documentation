@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-04T20:28:08Z",
+  "created": "2023-08-04T20:31:42Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -183,7 +183,11 @@
       "path": "images\\add-page-link-view.png"
     },
     {
-      "path": "images\\add-page-main-image.png"
+      "path": "images\\add-page-main-image.png",
+      "old": true
+    },
+    {
+      "path": "images\\add-page-main.png"
     },
     {
       "path": "images\\add-page-modal-details.png"
