@@ -1,21 +1,57 @@
 # Add Page
 
-In Solodev CMS, all pages are given a ".stml" extension. STML files are HTML files containing server-side includes (SSI), which are used to generate page-generated content. When you create a page in Solodev, it will automatically have the ".stml" extension. Still, if you're creating a page with a code editor, you need to manually give it an extension of ".stml" before you upload the file on Solodev.
+A page is the basic building block of a website. It acts as a container for your content while providing a general structure based on your <a href="/tutorials/cms/add-page-template/">page template</a> and styling. In this article, you’ll learn how to add a page to your Solodev CMS website in just a few steps.
 
-This article shows administrators how to add a webpage in Solodev CMS
-## Step 1 - Navigate to the website
+## STML Files 
 
-Click **Websites** located under the Workspace section of the Solodev Dashboard and choose the website you wish to add the page to by clicking on the website name.
+While a page is composed of hypertext markup and served in a browser, all pages in the Solodev CMS are given a “.stml” extension. An STML is an HTML file that contains server-side includes (SSI), which are used to generate page-generated content. STML files are processed by the server when a user accesses the related webpage.
 
-<img src="/../../../images/addpage.png" alt="base template" style="width: 100%; display: block"></a>
+!!!Note:
+if you're creating an HTML page with a code editor, you need to manually give it an extension of ".stml" before you upload the file to your Solodev CMS.
+!!!
 
-Click the **www** folder located on the left side file tree and choose the **Add page** option on your right.
+## Prerequisites 
 
-<img src="/../../../images/addpage1.png" alt="base template" style="width: 100%; display: block"></a>
+*	You need to <a href="/workspace/websites/add-website/">add a website</a> to your Solodev CMS.
 
+*	If you are using an optional theme package with your website such as <a href="https://raw.githubusercontent.com/solodev/marketplace/master/depot/themes/spacejet.zip">Solodev SpaceJet</a>, you should review the theme’s page template options. 
 
-## Step 2 - Name your page and put the title
+## Add Page
 
-Fill up the page name and title. If you'd like to, you can add a description of the page and/or use one of the templates to define the look of the new page. Click Submit.
+**Step 1:** Under Workspace in the left tree menu, select **Websites**.
 
-<img src="/../../../images/addtemplate2.png" alt="base template" style="width: 40%; display: block"></a>
+<img src="/../../../images/add-page-Main-Image.png" alt="add page" style="width: 100%; display: block"></a>
+
+**Step 2:** From the table on the main dashboard, choose an active website. If you do not have one, learn how to <a href="/workspace/websites/add-website/">add a website</a>.
+
+**Step 3:** From the left tree menu, click once on the **www** folder to select it. 
+
+<img src="/../../../images/add-page-tree-menu.png" alt="add page tree menu" style="width: 20%; display: block"></a>
+
+!!!Note:
+If your website already contains multiple folders for various sections (such as **blog**), you can click on any folder to add a page to it.
+!!!
+
+**Step 4:** Select **Add Page** from the right-side menu.
+
+<img src="/../../../images/add-page-update-folder.png" alt="add page update folder" style="width: 20%; display: block"></a>
+
+**Step 5:** Under the Add Page window, add a page name, title, and description (optional). 
+
+<img src="/../../../images/add-page-modal-details.png" alt="add page modal details" style="width: 40%; display: block"></a>
+
+**Step 6:** Using the **Template** picker, select an available page template to apply to your page. If you do not have any page templates available, learn how to <a href="/tutorials/cms/add-page-template/">add a page template</a>. 
+
+<img src="/../../../images/add-page-templates.png" alt="add page templates" style="width: 40%; display: block"></a>
+
+**Step 7:** Once complete, click **Submit**. You will be instantly directed to your new page.
+
+<img src="/../../../images/add-page-link-view.png" alt="add page link view" style="width: 100%; display: block"></a>
+
+!!!Note:
+If you have a template as part of your website, your page will already be formatted with the template elements. If not, you can use <a href="/tutorials/cms/add-page-template/#dynamic-divs">dynamic divs</a> to add content to a blank page or add custom HTML code to style it. 
+!!!
+
+- <a href="/workspace/websites/manage-website/addfile/#add-file">Add file</a>
+- <a href="/tutorials/cms/add-form/">Add form</a>
+- <a href="/workspace/websites/manage-website/">Manage Website</a>
