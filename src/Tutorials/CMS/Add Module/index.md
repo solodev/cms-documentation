@@ -10,11 +10,9 @@
 
 1.	Click **Modules** located under the Workspace section of the Solodev Dashboard and click the **Add Module** in the top right corner.
 
-<img src="../../../images/addmodule.png" alt="base template" style="width: 100%; display: block"></a>
+2.	Fill out the Add Module form.
 
-2.	Fil up the Add Module form.
-
-<img src="../../../images/add-module.png" alt="base template" style="width: 50%; display: block"></a>
+<img src="../../../images/add-module.png" alt="base template" style="width: 40%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
@@ -87,13 +85,13 @@ Provided below is a sample of a detail code. For more information on shortcodes,
 
 1.	Go to the module and click modify.
 
-<img src="../../../images/modify-calendar.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="../../../images/modify-calendar.png" alt="base template" style="width: 80%; display: block"></a>
 
 2.	On the **Website Properties** accordion, under **Detail Page Template**, click **Browse**, select the detail page you want the entries to show on.
 
 3.	On **Detail Folder Location**, select the folder your detail page is on and click **Submit**.
 
-<img src="../../../images/modify-detail.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="../../../images/modify-detail.png" alt="base template" style="width: 80%; display: block"></a>
 
 
 

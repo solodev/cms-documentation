@@ -1,8 +1,7 @@
 # Shortcodes for Modules
 
-Learn more about shortcodes used for multi-functional, date-based elements called modules.
 
-The previous article showed users how to leverage shortcodes for pages and sections. This article provides an overview of shortcodes used for multi-functional, date-based elements called modules. 
+This article provides an overview of shortcodes used for multi-functional, date-based elements called modules. 
 
 Repeater – refers to the user interface template, printing fields in the form of PHP variables through an $item array.
   

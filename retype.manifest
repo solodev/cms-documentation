@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-04T11:56:52Z",
+  "created": "2023-08-04T13:43:13Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2025,6 +2025,9 @@
     },
     {
       "path": "tutorials\\cms\\add-module\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\add-page-template-old\\index.html"
     },
     {
       "path": "tutorials\\cms\\add-page-template\\index.html"
