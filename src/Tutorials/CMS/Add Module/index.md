@@ -11,9 +11,7 @@
 
 2.	Fill out the Add Module form.
 
-2.	Fill up the Add Module form.
-
-<img src="../../../images/add-module.png" alt="base template" style="width: 50%; display: block"></a>
+<img src="../../../images/add-module.png" alt="base template" style="display: block"></a>
 
 **Name** | **Description**
 :--- | ---
@@ -24,8 +22,8 @@ Form Template | Upload the .tpl file to build your module.
 Add | Click **Add** to apply your changes.
 
 !!! **Note:**
-Solodev recommends installing modules into the **web files -> managers folder**.
-Below is a sample code for a basic module.
+Solodev recommends installing modules into the **web files -> managers folder**. Below is a sample code for a basic module.
+
 ```js
 <label class="control-label" for="post_intro">Intro</label>
 <textarea class="form-control" name="post_intro" id="post_intro"></textarea>
@@ -50,7 +48,7 @@ Provided below is a sample of a simple repeater code. For more information on sh
 ```js
 [repeater id="##"]
 
-  <h2>{{event_title}}</h2>
+  <h2>{{{event_title}}}</h2>
 
   <img src="[get_asset_file_url id='{{post_image}}']" alt="{{event_title}}" class="img-fluid">
 
@@ -86,11 +84,11 @@ Provided below is a sample of a detail code. For more information on shortcodes,
 
 1.	Go to the module and click modify.
 
-<img src="../../../images/modify-calendar.png" alt="base template" style="width: 80%; display: block"></a>
+<img src="../../../images/modify-calendar.png" alt="base template" style="display: block"></a>
 
 2.	On the **Website Properties** accordion, under **Detail Page Template**, click **Browse**, select the detail page you want the entries to show on.
 
-3.	On **Detail Folder Location**, select the folder your detail page is on and click **Submit**.
+3.	On **Detail Folder Location**, from the tree select the folder your detail page is on and click **Submit**.
 
-<img src="../../../images/modify-detail.png" alt="base template" style="width: 80%; display: block"></a>
+<img src="../../../images/modify-detail.png" alt="base template" style="display: block"></a>
 

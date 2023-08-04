@@ -31,11 +31,35 @@ You can only add users from your Solodev Cloud organization as members of your C
 
 ---
 
-## Confirm
-
-Once you have entered the name of a new member in the field, click **Submit**. The user(s) will receive an email invitation to join your deployment. 
-
 !!!Tip:
 If a user has not received their email invitation, ask them to check their spam folder.    
 !!!
 
+## Resetting a user's password
+
+Under the **Organization** section located in the Solodev dashboard, click **Users**. Choose the user whose password needs to be reset.
+
+<img src="../../../images/adduser2.png" alt="base template" style="width: 100%; display: block"></a>
+
+Click **Reset Password**, located underneath the user’s profile photo. 
+
+<img src="../../../images/adduser3.png" alt="base template" style="width: 100%; display: block"></a>
+
+Type **'RESET'** in the text box in the Reset Password modal window. Click **Submit**.  
+
+<img src="../../../images/adduser4.png" alt="base template" style="width: 50%; display: block"></a>
+
+## Removing a user from Solodev CMS
+
+Click **Users** located under the Organization section of the Solodev Dashboard. Select the desired User.
+
+<img src="../../../images/adduser2.png" alt="base template" style="width: 100%; display: block"></a>
+
+Click the **Delete** button to bring up the Delete window.
+
+<img src="../../../images/adduser5.png" alt="base template" style="width: 100%; display: block"></a>
+
+Type ‘DELETE’ in the text box below and click the **Delete** button to the right of the text box.
+ 
+<img src="../../../images/adduser6.png" alt="base template" style="width: 50%; display: block"></a>
+ 
