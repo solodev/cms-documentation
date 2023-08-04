@@ -25,7 +25,7 @@ Search | Locate a form in your system by entering its name in the search field a
 
 Click on any of the icons under the member column in the table to add, remove, or manage user roles.
 
-<img src="../../../images/member-permissions.jpg" alt="member permissions" style="width: 35%; display: block"></a>
+<img src="../../../images/member-permissions.jpg" alt="member permissions" style="width: 30%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

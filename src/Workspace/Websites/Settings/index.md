@@ -2,7 +2,7 @@
 
 Here you can access many settings related to a domain, CDN, and others.
 
-<img src="../../../images/settings9.jpg" alt="settings9" style="width: 50%; display: block"></a>
+<img src="../../../images/settings9.jpg" alt="settings9" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -18,7 +18,7 @@ Primary URL | Edit primary URL of your website.
 
 In this section, you can update domain information: website address(es), host settings, and redirects. You can add and remove redirects by clicking the **"+"** and **"-"** buttons.
 
-<img src="../../../images/settings10.jpg" alt="settings10" style="width: 50%; display: block"></a>
+<img src="../../../images/settings10.jpg" alt="settings10" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -30,7 +30,7 @@ Remove Redirects | Remove redirects by using the button **Remove**.
 
 A sitemap is a file where you provide information about your site's pages and other files and the relationships between them.
 
-<img src="../../../images/settings11.jpg" alt="settings11" style="width: 50%; display: block"></a>
+<img src="../../../images/settings11.jpg" alt="settings11" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -42,7 +42,7 @@ After clicking the **Generate Sitemap** button, the output process may take seve
 
 ## CDN Information
 
-<img src="../../../images/settings17.jpg" alt="settings11" style="width: 50%; display: block"></a>
+<img src="../../../images/settings17.jpg" alt="settings11" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -57,7 +57,7 @@ AWS CDN (distribution) | Provide AWS CDN.
 Secure Sockets Layer (SSL) is a technology for establishing an encrypted link between a server and a client.
 Here you can manage your SSL information.
 
-<img src="../../../images/settings15.jpg" alt="settings15" style="width: 50%; display: block"></a>
+<img src="../../../images/settings15.jpg" alt="settings15" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -73,7 +73,7 @@ SSL Chain Certificate | There are two certificate authorities (CAs) types: root 
 
 In this section, you can manage advanced settings.
 
-<img src="../../../images/settings14.jpg" alt="settings14" style="width: 50%; display: block"></a>
+<img src="../../../images/settings14.jpg" alt="settings14" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

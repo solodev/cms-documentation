@@ -18,4 +18,4 @@ Click the **www** folder located on the left side file tree and choose the **Add
 
 Fill up the page name and title. If you'd like to, you can add a description of the page and/or use one of the templates to define the look of the new page. Click Submit.
 
-<img src="/../../../images/addtemplate2.png" alt="base template" style="width: 50%; display: block"></a>
+<img src="/../../../images/addtemplate2.png" alt="base template" style="width: 40%; display: block"></a>

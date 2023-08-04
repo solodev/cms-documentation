@@ -2,7 +2,7 @@
 
 Modify contact details every time by clicking the button **modify**.
 
-<img src="../../../images/modify-contact.png" alt="modify-contact" style="width: 50%; display: block"></a>
+<img src="../../../images/modify-contact.png" alt="modify-contact" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

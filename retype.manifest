@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-03T18:37:49Z",
+  "created": "2023-08-04T11:56:52Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -175,6 +175,9 @@
     },
     {
       "path": "images\\add-contact.png"
+    },
+    {
+      "path": "images\\add-module.png"
     },
     {
       "path": "images\\add-site-form-upload-theme.jpg"
@@ -1134,7 +1137,13 @@
       "path": "images\\modalpermissions.jpg"
     },
     {
+      "path": "images\\modify-calendar.png"
+    },
+    {
       "path": "images\\modify-contact.png"
+    },
+    {
+      "path": "images\\modify-detail.png"
     },
     {
       "path": "images\\modify-user.jpg"

@@ -23,7 +23,7 @@ Delete Token | Remove a token from your account.
 
 Add a custom API token to your account and manage it from your dashboard table. 
 
-<img src="../../../images/account-add-token.png" alt="add token" style="width: 50%; display: block"></a>
+<img src="../../../images/account-add-token.png" alt="add token" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -37,7 +37,7 @@ Once you have entered your new username, click **Submit**.
 
 Force an API token to reset by clicking the **Reset** link at the dashboard table's far right of each row. 
 
-<img src="../../../images/account-delete.png" alt="reset token" style="width: 45%; display: block"></a>
+<img src="../../../images/account-delete.png" alt="reset token" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

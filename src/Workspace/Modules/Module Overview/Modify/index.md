@@ -3,7 +3,7 @@
 In this place, you can modify your entry. There are plenty of options to use. Some of them are nested in sections: Website Properties, 
 Advanced Options, Table Schema and API Info.
 
-<img src="../../../../images/module-overview5.jpg" alt="module-overview5" style="width: 75%; display: block"></a>
+<img src="../../../../images/module-overview5.jpg" alt="module-overview5" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -15,7 +15,7 @@ Display/Hide Columns | Use this option to display/hide columns. To do so, use ar
 
 Here you can manage website properties
 
-<img src="../../../../images/module-overview6.jpg" alt="module-overview6" style="width: 75%; display: block"></a>
+<img src="../../../../images/module-overview6.jpg" alt="module-overview6" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -30,7 +30,7 @@ Create Thumbnail for Uploaded Photos | Add a dimension to the thumbnail you want
 
 In this place, you can manage the advanced options.
 
-<img src="../../../../images/module-overview9.jpg" alt="module-overview9" style="width: 75%; display: block"></a>
+<img src="../../../../images/module-overview9.jpg" alt="module-overview9" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -56,7 +56,7 @@ Delete Module | To remove your entry, type DELETE in all caps into the field and
 
 Choose this option to export the module.
 
-<img src="../../../../images/module-overview10.jpg" alt="module-overview10" style="width: 50%; display: block"></a>
+<img src="../../../../images/module-overview10.jpg" alt="module-overview10" style="width: 30%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -67,7 +67,7 @@ Continue Export | Choose this option to finalize the export process.
 
 Manage your database table schema.
 
-<img src="../../../../images/module-overview7.jpg" alt="module-overview7" style="width: 75%; display: block"></a>
+<img src="../../../../images/module-overview7.jpg" alt="module-overview7" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -81,7 +81,7 @@ Default | Use this option to make the column default.
 
 Here you can find API Info that can be used in <a href="/admin/api">API section</a> to connect.
 
-<img src="../../../../images/module-overview8.jpg" alt="module-overview8" style="width: 75%; display: block"></a>
+<img src="../../../../images/module-overview8.jpg" alt="module-overview8" style="width: 50%; display: block"></a>
 
 ## Confirm 
 

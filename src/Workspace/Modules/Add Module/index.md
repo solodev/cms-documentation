@@ -2,7 +2,7 @@
 
 Adding a module in Solodev CMS is a simple process and can be completed in minutes.
 
-<img src="../../../images/modules-add.jpg" alt="modules-add" style="width: 50%; display: block"></a>
+<img src="../../../images/modules-add.jpg" alt="modules-add" style="width: 40%; display: block"></a>
 
 
 **Name** | **Description** 

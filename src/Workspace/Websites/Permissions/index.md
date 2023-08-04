@@ -4,7 +4,7 @@ Assign roles to users or groups, manage and delete permissions. Click the **"+"*
 
 
 
-<img src="../../../images/permissions2.jpg" alt="permissions2" style="width: 35%; display: block"></a>
+<img src="../../../images/permissions2.jpg" alt="permissions2" style="width: 30%; display: block"></a>
 
 
 

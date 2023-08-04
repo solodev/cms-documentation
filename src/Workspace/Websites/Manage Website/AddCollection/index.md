@@ -2,7 +2,7 @@
 
 Category pages allow to optimize SEO and enhance overall user experience. In Solodev CMS, developers can attach category pages to modules by attaching them to category collections and attaching their collection of categories to the module itself. Before creating a category, create a collection.
 
-<img src="../../../../images/addcollection.jpg" alt="addcollection" style="width: 50%; display: block"></a>
+<img src="../../../../images/addcollection.jpg" alt="addcollection" style="width: 40%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
@@ -15,7 +15,7 @@ Description | Add the collection description.
 
 Manage website properties.
 
-<img src="../../../../images/addcollection2.jpg" alt="addcollection2" style="width: 50%; display: block"></a>
+<img src="../../../../images/addcollection2.jpg" alt="addcollection2" style="width: 40%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---

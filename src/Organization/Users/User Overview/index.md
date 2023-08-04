@@ -42,4 +42,4 @@ View the apps a user has access to and their associated role. You can modify a u
 ## Profile
 View a user’s profile details, including their company and timezone. You can update profile details in <a href="/organization/users/user-overview/modify-user">Modify User</a>.
 
-<img src="../../../images/uoverview4.png" alt="uoverview 4" style="width: 35%; display: block"></a>
+<img src="../../../images/uoverview4.png" alt="uoverview 4" style="width: 30%; display: block"></a>

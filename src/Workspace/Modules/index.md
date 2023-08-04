@@ -46,7 +46,7 @@ Use the search field in the upper right corner to locate a specific module and f
 
 Click on any of the members next to a module name to assign or remove members and manage their roles.
 
-<img src="../../../images/module-permissions.png" alt="permissions2" style="display: block"></a>
+<img src="../../../images/module-permissions.png" alt="permissions2" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

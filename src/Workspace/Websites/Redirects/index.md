@@ -5,7 +5,7 @@ Add custom redirects to automatically forward traffic from one URL on your websi
 In Solodev, you can directly add or modify redirects using <a href="https://loganix.com/what-is-a-htaccess-file/" target="_blank" rel="noopener noreferrer">.htaccess</a> (hypertext access), a powerful yet hidden file for adding extra functionality to your website that can make it more crawlable and indexable to search engines.   
 
 
-<img src="../../../images/redirects_1.jpg" alt="redirects_1" style="width: 50%; display: block"></a>
+<img src="../../../images/redirects_1.jpg" alt="redirects_1" style="width: 60%; display: block"></a>
 
 !!!Tip:
 Several common redirects can be used to forward traffic, including 301 permanent redirects and 307 temporary redirects. Choosing the correct redirect can enhance your SEO, so be careful which one you select.
@@ -30,7 +30,7 @@ Redirect 301 /partners https://www.spacejet.org/customers/
 
 View the history of your .htaccess file, including redirects. See the date each version was created and who updated the version. You can also compare and restore a previous version to your current version.
 
-<img src="../../../images/redirect-history.jpg" alt="redirect-history" style="width: 100%; display: block"></a>
+<img src="../../../images/redirect-history.jpg" alt="redirect-history" style="width: 60%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
