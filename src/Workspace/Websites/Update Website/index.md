@@ -2,7 +2,7 @@
 
 Here, you can update your website by changing the site title and adding Facebook URL, among others.
 
-<img src="../../../images/websites-update3.jpg" alt="websites-update3" style="width: 50%; display: block"></a>
+<img src="../../../images/websites-update3.jpg" alt="websites-update3" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -15,7 +15,7 @@ Site Title | Change the site title.
 
 Manage your social media links.
 
-<img src="../../../images/websites-update3.1.jpg" alt="websites-update3.1" style="width: 50%; display: block"></a>
+<img src="../../../images/websites-update3.1.jpg" alt="websites-update3.1" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -31,7 +31,7 @@ Social Media Image is a default image used when sharing a page via social media.
  
 Manage the meta information. 
  
-<img src="../../../images/websites-update3.2.jpg" alt="websites-update3.2" style="width: 50%; display: block"></a>
+<img src="../../../images/websites-update3.2.jpg" alt="websites-update3.2" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -43,7 +43,7 @@ Global Header Insert | To add a global header, insert enter text in the text box
 
 Manage custom pages.
 
-<img src="../../../images/websites-update3.3.jpg" alt="websites-update3.3" style="width: 50%; display: block"></a>
+<img src="../../../images/websites-update3.3.jpg" alt="websites-update3.3" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

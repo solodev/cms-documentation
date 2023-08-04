@@ -2,7 +2,7 @@
 
 Change the master password for your account. 
 
-<img src="../../../images/account-change-password.png" alt="change password" style="width: 50%; display: block"></a>
+<img src="../../../images/account-change-password.png" alt="change password" style="width: 40%; display: block"></a>
 
 !!!Tip:
 While your individual or business policies may vary, strong passwords are critical to securing your account. It is strongly recommended that you use a password generator to create and store your credentials and periodically change your password.

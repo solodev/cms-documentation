@@ -18,3 +18,4 @@ Any file that is not an HTML file is considered a code file. Code files include 
 <a href="/workspace/documents/editing-files/show-or-hide-meta-data/">Show/Hide Meta Data</a> | Boost your SEO with improved page naming, structure, ranking, and meta information management.
 <a href="/workspace/documents/editing-files/includes/">Includes</a> | View where a file is included.
 <a href="/workspace/documents/editing-files/overwrite-current-file/">Overwrite Current File</a> | Overwrite a file. 
+

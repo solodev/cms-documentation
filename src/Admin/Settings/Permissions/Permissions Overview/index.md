@@ -23,7 +23,7 @@ A group or group member can be assigned one of four roles in Solodev CMS:
 
 Here you can manage view permissions.
 
-<img src="../../../../images/adminpermissions3.jpg" alt="adminpermissions3" style="width: 45%; display: block"></a>
+<img src="../../../../images/adminpermissions3.jpg" alt="adminpermissions3" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

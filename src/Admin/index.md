@@ -2,7 +2,7 @@
 
 Admin consists of three sections:
 
-<img src="../../../images/admin.jpg" alt="admin" style="width: 25%; display: block"></a>
+<img src="../../../images/admin.jpg" alt="admin" style="width: 20%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

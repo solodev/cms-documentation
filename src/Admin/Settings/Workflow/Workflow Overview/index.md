@@ -35,7 +35,7 @@ Users can choose from different workflow types:
 
 Delete your workflow.
 
-<img src="../../../../images/deleteworkflow.jpg" alt="deleteworkflow" style="width: 50%; display: block"></a>
+<img src="../../../../images/deleteworkflow.jpg" alt="deleteworkflow" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

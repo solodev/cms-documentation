@@ -4,7 +4,7 @@ In your Organization, you can manage the individual users in your CMS, create gr
 
 There are three main sections in your Organization. Each can be accessed using the left navigation:
 
-<img src="../../../images/organization.jpg" alt="organization" style="width: 25%; display: block"></a>
+<img src="../../../images/organization.jpg" alt="organization" style="width: 20%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

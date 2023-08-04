@@ -17,7 +17,7 @@ Create groups in your CMS, add members to your group, and manage roles and permi
 Click on any Member icons in the table to add or remove members and manage their roles. 
 
 
-<img src="../../../images/permissions2.png" alt="permissions2" style="width: 45%; display: block"></a>
+<img src="../../../images/permissions2.png" alt="permissions2" style="width: 40%; display: block"></a>
 
 
 

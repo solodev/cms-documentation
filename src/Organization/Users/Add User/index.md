@@ -19,7 +19,7 @@ Adding a new user requires a transfer from Solodev CMS to Solodev Cloud. To retu
 
 Invite a new member to your CMS deployment.
 
-<img src="../../../images/add-user2.png" alt="add-user" style="width: 50%; display: block"></a>
+<img src="../../../images/add-user2.png" alt="add-user" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

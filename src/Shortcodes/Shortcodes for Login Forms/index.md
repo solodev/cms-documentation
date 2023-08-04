@@ -1,8 +1,7 @@
 # Shortcodes for Login Forms
 
-Learn more about shortcodes pertaining to users and user-related components in Solodev.
 
-The previous document provided an overview of shortcodes used for multi-functional, date-based elements called modules. This article discusses shortcodes pertain users and user-related components in Solodev. 
+This article discusses shortcodes pertain users and user-related components in Solodev. 
 
 Contact Form Login – provides a form wrapper for users to login on the frontend of the website. 
 

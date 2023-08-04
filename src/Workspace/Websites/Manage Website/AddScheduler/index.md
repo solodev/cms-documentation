@@ -7,7 +7,7 @@ Schedulers can be used for two primary purposes:
 - Set specific dates and times for the publication of content. 
 - Display a series of announcements on a web page at a given time.
 
-<img src="../../../../images/documents6.jpg" alt="documents6" style="width: 50%; display: block"></a>
+<img src="../../../../images/documents6.jpg" alt="documents6" style="width: 40%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---

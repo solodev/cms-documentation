@@ -2,7 +2,7 @@
 
 Permanently remove a file
 
-<img src="../../../../images/delete-file.png" alt="html files" style="width: 50%; display: block"></a>
+<img src="../../../../images/delete-file.png" alt="html files" style="width: 40%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---

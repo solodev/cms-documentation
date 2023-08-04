@@ -1,7 +1,7 @@
 # Copy
 Copy the file to another folder. Make sure the item you want to copy is selected.
 
-<img src="../../../../images/copy.png" alt="html files" style="width: 50%; display: block"></a> 
+<img src="../../../../images/copy.png" alt="html files" style="width: 40%; display: block"></a> 
 
 **Name** | **Description**
 :--- | ---

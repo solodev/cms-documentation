@@ -2,7 +2,7 @@
 
 Copy the file/folder to another folder. Make sure the item you want to copy is marked.
 
-<img src="../../../../images/copy.jpg" alt="move" style="width: 50%; display: block"></a>
+<img src="../../../../images/copy.jpg" alt="move" style="width: 40%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---

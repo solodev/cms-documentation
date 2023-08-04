@@ -1,8 +1,6 @@
 # Shortcodes for Pages & Sections
 
-Learn more about the shortcodes used for pages and sectionals.
-
-The previous article provided an overview of basic shortcodes and their use cases. This article provides an overview of the shortcodes that make it easy to add complex functionality to webpages. The shortcodes, use cases, and attributes are provided below.
+This article provides an overview of the shortcodes that make it easy to add complex functionality to webpages. The shortcodes, use cases, and attributes are provided below.
 
 Page Title – Retrieves the current title of a page. 
 
