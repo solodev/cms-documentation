@@ -1,9 +1,10 @@
 # Basic Shortcodes
 
-
 This document will discuss the basic shortcodes, their attributes, and use case scenarios.
 
-Admin Only – This shortcode specifies that the content inside of the ```[admin_only]``` ```[/admin_only]``` code should be shown on the backend. Developers may use this shortcode in conjunction with ```[non_admin_only]``` ```[/non_admin_only]``` shortcode to partition frontend and backend content and prevent them from interfering with one another. This shortcode has no attributes. 
+## Admin Only
+
+This shortcode specifies that the content inside of the ```[admin_only]``` ```[/admin_only]``` code should be shown on the backend. Developers may use this shortcode in conjunction with ```[non_admin_only]``` ```[/non_admin_only]``` shortcode to partition frontend and backend content and prevent them from interfering with one another. This shortcode has no attributes. 
 
 Shortcode:
 
@@ -18,7 +19,9 @@ Shortcode:
 [/admin_only]
 ``` 
 
-Non Admin – This shortcode specifies that the content inside of the ```[non_admin_only]``` ```[/non_admin_only]``` should be shown on the frontend. Developers may use this shortcode in conjunction with ```[admin_only]``` ```[/admin_only]``` shortcode to partition front end and backend content and prevent them from interfering with one another. This shortcode has no attributes.
+## Non Admin
+
+This shortcode specifies that the content inside of the ```[non_admin_only]``` ```[/non_admin_only]``` should be shown on the frontend. Developers may use this shortcode in conjunction with ```[admin_only]``` ```[/admin_only]``` shortcode to partition front end and backend content and prevent them from interfering with one another. This shortcode has no attributes.
 
 Shortcode:
 
@@ -33,7 +36,9 @@ Code Example:
 [/non_admin_only]
 ```
 
-Get Asset File URL -- This self-closing shortcode returns the URL path to the specified asset file in the database. Typically, this shortcode is used within an entry or repeater shortcode.
+## Get Asset File URL
+
+This self-closing shortcode returns the URL path to the specified asset file in the database. Typically, this shortcode is used within an entry or repeater shortcode.
 
 Attributes:
 
@@ -57,7 +62,9 @@ Code Example:
 </div>
 [/entry]
 ```
-Get Asset File Name -- Returns the name of the specified asset file. 
+## Get Asset File Name
+
+Returns the name of the specified asset file. 
 
 Attributes:
 
@@ -81,7 +88,9 @@ Code Example:
 </div>
 ```
 
-Print Date -- Returns the date formatted according to PHP's date function.
+## Print Date 
+
+Returns the date formatted according to PHP's date function.
 
 Attributes:
 
@@ -104,7 +113,9 @@ Code Example:
   <span class="news-date">[print_date format="F d, Y g:ia" timestamp="{{start_time}}"]</span>
 </div>
 ```
-Lower Case -- Returns lowercased version of the string value within the enclosing shortcode. This shortcode has no attributes.
+## Lower Case
+
+Returns lowercased version of the string value within the enclosing shortcode. This shortcode has no attributes.
 
 Shortcode:
 
@@ -119,7 +130,9 @@ Code Example:
   <img alt="[get_asset_file_url id={{clientLogo}}]" src="[get_asset_file_url id={{clientLogo}}]">
 </a>
 ```
-Report Errors -- Enables PHP error messages and warning for development purposes. This self-closing shortcode contains no attributes. 
+## Report Errors 
+
+Enables PHP error messages and warning for development purposes. This self-closing shortcode contains no attributes. 
 
 Shortcode:
  
@@ -133,7 +146,9 @@ Code Example:
 [admin_only] [report_errors] [/admin_only]
 ```
 
-No Spaces -- Removes spaces from the content within the enclosing shortcode to make it database friendly. This shortcode contains no attributes. 
+## No Spaces
+
+Removes spaces from the content within the enclosing shortcode to make it database friendly. This shortcode contains no attributes. 
 
 Shortcode:
  

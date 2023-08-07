@@ -1,9 +1,12 @@
 # Add Module
+
+Welcome to the Solodev CMS module installation guide. This tutorial will walk you through the process of adding a new module to your Solodev-powered website, enhancing its functionality and user experience. Whether you're a developer or a beginner, you'll learn how to seamlessly integrate custom content, such as calendars and datatables, into your site. Let's begin by covering the prerequisites and then proceed with the module installation process.
+
 ## Prerequisites 
 
--	You will need to <a href="/tutorials/cms/add-website/">add a website</a> to your Solodev CMS
+-	You will need to <a href="/tutorials/cms/add-website/">add a website</a> to your Solodev CMS.
 -	You will need to <a href="/workspace/websites/manage-website/add-page//">add a page</a>.
--	Using Using <a href="/shortcodes/">shortcodes</a>
+-	You will need to be familiary with using <a href="/shortcodes/">shortcodes</a>.
 
 ## Install Module
 
@@ -91,4 +94,3 @@ Provided below is a sample of a detail code. For more information on shortcodes,
 3.	On **Detail Folder Location**, from the tree select the folder your detail page is on and click **Submit**.
 
 <img src="../../../images/modify-detail.png" alt="base template" style="display: block"></a>
-

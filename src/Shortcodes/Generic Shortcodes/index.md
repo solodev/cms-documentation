@@ -2,7 +2,9 @@
 
 The following shortcodes can be used periodically in any Solodev website.
 
-Google Search with Ads – Embed Google Custom Search with ads on the website. 
+## Google Search with Ads
+
+Embed Google Custom Search with ads on the website. 
 
 Attributes: 
 
@@ -22,7 +24,9 @@ Code Example:
 ```
 -----------------------------------------------------------------------------------------------------------------------------
  
-Google Search No Ads – Embeds Google Custom Search without ads on the website.
+## Google Search No Ads
+
+Embeds Google Custom Search without ads on the website.
 
 Attributes:
 
@@ -42,7 +46,9 @@ Code Example:
 [google_website_search google_cse_id="XXXXXXXXXXXXXXXXXX" google_api_key="XXXXXXXXXXXXXXXXXX"]
 ```
 
-YouTube – Embed YouTube videos to your website. The YouTube video shortcode has two attributes, one required and one optional, listed below.   
+## YouTube
+
+Embed YouTube videos to your website. The YouTube video shortcode has two attributes, one required and one optional, listed below.   
 
 Attributes: 
 
@@ -63,7 +69,7 @@ Browse to the YouTube page where your video is hosted.
 
 Click the Share button on the right just below the vldeo. 
 
-Select the Embed Link and copy the video's YouTube ID.  For example, if the link reads https://www.youtube.com/embed/fg_O2cdOQxA?controls=0, you only need to copy the **fg_O2cdOQxA** after the forward slash. 
+Select the Embed Link and copy the video's YouTube ID.  For example, if the link reads `https://www.youtube.com/embed/fg_O2cdOQxA?controls=0`, you only need to copy the **fg_O2cdOQxA** after the forward slash. 
 
 Insert the shortcode at the appropriate place in the tpl or html file associated with your page. 
 ```js
@@ -72,9 +78,13 @@ Insert the shortcode at the appropriate place in the tpl or html file associated
 
 Review and click Publish to save your changes. 
 
-Note: In terms of the best practices, we don't recommend uploading any videos to the CMS due to file size and playback performance. For alternate streaming options such as Wowza, Vimeo, or Wistia, please contact us. 
+!!!Note: 
+In terms of the best practices, we don't recommend uploading any videos to the CMS due to file size and playback performance. For alternate streaming options such as Wowza, Vimeo, or Wistia, please contact us. 
+!!!
 
-Conditionals – Provides functionality to add a conditional statement to the template. Much like standard if/else statements, the ```[cond]``` shortcodes allows the user to create conditional statements with little coding knowledge.
+## Conditionals
+
+Provides functionality to add a conditional statement to the template. Much like standard if/else statements, the ```[cond]``` shortcodes allows the user to create conditional statements with little coding knowledge.
 
 Attributes:
 
@@ -97,7 +107,9 @@ Code Example:
 
 ----------------------------------------------------------------------------------------------------------------------------- 
 
-Sub Conditional – Operates much like an if/else or else statement. It is the child of the parent conditional statement. 
+## Sub Conditional
+
+Operates much like an if/else or else statement. It is the child of the parent conditional statement. 
 
 Attributes:
 
@@ -124,8 +136,9 @@ Code Example:
 ```
 -----------------------------------------------------------------------------------------------------------------------------
 
-Set & Empty 
-Is Set – Verifies that a given variable is set. For example, is_set can be used to verify if a user variable is set, such as active, and execute functions accordingly. 
+## Is Set
+
+Verifies that a given variable is set. For example, is_set can be used to verify if a user variable is set, such as active, and execute functions accordingly. 
 
 Shortcode:
  
@@ -141,7 +154,9 @@ Code Example:
 ```
 -----------------------------------------------------------------------------------------------------------------------------
 
-Is Empty – Verifies that a given variable is empty. For example, is_empty can be used to verify is a user variable empty and execute functions accordingly. 
+## Is Empty 
+
+Verifies that a given variable is empty. For example, is_empty can be used to verify is a user variable empty and execute functions accordingly. 
 
 Attributes:
 
@@ -164,7 +179,9 @@ Code Example:
 ```
 ----------------------------------------------------------------------------------------------------------------------------- 
 
-Value Set – Verifies that a specified value set. 
+## Value Set
+
+Verifies that a specified value set. 
 
 Attributes:
 
@@ -187,7 +204,9 @@ Code Example:
 ```
 -----------------------------------------------------------------------------------------------------------------------------
 
-Random – Returns a random number.
+## Random
+
+Returns a random number.
 
 Attributes:
 
@@ -207,7 +226,9 @@ Code Example:
 
 ----------------------------------------------------------------------------------------------------------------------------- 
 
-Month Filter – Month filter from January to December. 
+## Month Filter
+
+Month filter from January to December. 
 
 Attributes:
 
@@ -233,7 +254,9 @@ Example Code:
 ```
 -----------------------------------------------------------------------------------------------------------------------------
 
-Login/Logout – Creates a link to log in or log out of a given session.
+## Login/Logout
+
+Creates a link to log in or log out of a given session.
 
 Attributes:
 

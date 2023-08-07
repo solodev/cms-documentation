@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-04T21:01:17Z",
+  "created": "2023-08-04T21:11:40Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1309,6 +1309,12 @@
       "path": "images\\picture3.jpg"
     },
     {
+      "path": "images\\publish-dashboard.png"
+    },
+    {
+      "path": "images\\publish-window.png"
+    },
+    {
       "path": "images\\redirect-history.jpg"
     },
     {
@@ -1445,6 +1451,12 @@
     },
     {
       "path": "images\\sso.jpg"
+    },
+    {
+      "path": "images\\stage-dashboard.png"
+    },
+    {
+      "path": "images\\stage-window.png"
     },
     {
       "path": "images\\stml.jpg"

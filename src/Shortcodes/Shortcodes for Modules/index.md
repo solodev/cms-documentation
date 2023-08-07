@@ -1,9 +1,11 @@
 # Shortcodes for Modules
 
 
-This article provides an overview of shortcodes used for multi-functional, date-based elements called modules. 
+This article provides an overview of shortcodes used for multi-functional, date-based elements called <a href="/workspace/modules/">modules</a>. 
 
-Repeater – refers to the user interface template, printing fields in the form of PHP variables through an $item array.
+## Repeater
+
+Refers to the user interface template, printing fields in the form of PHP variables through an $item array.
   
 Attributes:
 
@@ -38,7 +40,9 @@ Code Example:
 [/repeater]
 ```
 
-Detail – shows the specifics of an individual entry from a repeater template. 
+## Detail
+
+Shows the specifics of an individual entry from a repeater template. 
 
 Attributes:
 
@@ -61,7 +65,9 @@ Code Example:
 [/entry]
 ```
 
-Sub Entry – Queries a specific entry within a detail page.
+## Sub Entry
+
+Queries a specific entry within a detail page.
 
 Attributes: 
 
@@ -86,7 +92,9 @@ Code Examples:
 [/entry]
 ```
 
-Category Filter – Provides users with the ability to filter module entries by category.
+## Category Filter
+
+Provides users with the ability to filter module entries by category.
 
 Attributes: 
 
@@ -110,7 +118,9 @@ Code Example:
 
 [category_filter category_group_id="32" all_value=" "]
 
-Date Filter – Provides users with the ability to filter module entries by date.
+## Date Filter
+
+Provides users with the ability to filter module entries by date.
 
 Attributes:
  
@@ -140,7 +150,9 @@ Code Example:
 </div>
 ```
 
-Month List – Loops through the months of the year starting with current month. 
+## Month List
+
+Loops through the months of the year starting with current month. 
 
 Attributes:
 
@@ -162,7 +174,9 @@ Code Example:
 [month_list class="month_list"]
 ```
 
-Search Filter -- Allows the user to search module entries using strings or integers.
+## Search Filter 
+
+Allows the user to search module entries using strings or integers.
  
 Attributes:
 
@@ -186,7 +200,9 @@ Code Example:
 [search_filter]
 ``` 
 
-Tag Filter – Provides users with the ability to filter module entries by tags.
+## Tag Filter 
+
+Provides users with the ability to filter module entries by tags.
 
 Attributes:
 
@@ -207,7 +223,9 @@ Code Example:
 [tag_filter id="my-select-id" class="my-select-class]
 ```
 
-Entry Tags Repeat – Retrieves the tags to be displayed.
+## Entry Tags Repeat 
+
+Retrieves the tags to be displayed.
 
 Attributes: 
 
@@ -230,7 +248,9 @@ Code Example:
 [/entry_tags_repeat]
 ```
 
-Category Repeat – Retrieves the categories to be displayed.
+## Category Repeat 
+
+Retrieves the categories to be displayed.
 
 Attributes: 
 
@@ -250,7 +270,9 @@ Code Example:
 [cat_repeat parent_id = "###"]
 ```
 
-Repeat Entries Exist – Checks to see if blog entries exist.
+## Repeat Entries Exist
+
+Checks to see if blog entries exist.
 
 Attributes:
 
@@ -283,9 +305,13 @@ Code Example:
 [repeater_entries_exists id = '###' type = "calendar" limit="0,4"]
 ```
 
-Calendar Entry Attachments – Gathers the attachments of a module and prints them, much like a repeater, onto a single web page. This is used in the photo gallery modules and document share. 
+## Calendar Entry Attachments
 
-Note: The photo gallery option must be activated on the module. The steps to do so are outlined below: 
+Gathers the attachments of a module and prints them, much like a repeater, onto a single web page. This is used in the photo gallery modules and document share. 
+
+!!!Note: 
+The photo gallery option must be activated on the module. The steps to do so are outlined below: 
+!!!
 
 Activating Photo Gallery
 
@@ -321,7 +347,9 @@ Code Example:
 [/calendar_entry_attachments_repeat]
 ```
 
-Calendar Entry Categories – Gathers the categories of a module and prints them onto a single web-page.
+## Calendar Entry Categories
+
+Gathers the categories of a module and prints them onto a single web-page.
 
 Attributes: 
 
@@ -346,14 +374,18 @@ Code Example:
 </div>
 ```
 
-Full Calendar – This shortcode creates a representation of the full calendar plugin and retrieves calendar entries using the calendar ID of the module in question.
+## Full Calendar
 
+This shortcode creates a representation of the full calendar plugin and retrieves calendar entries using the calendar ID of the module in question.
 
-Full Calendar Includes – Returns libraries for a full calendar fullcalendar.io/ This is used on the events modules. This shortcode has no attributes. 
+## Full Calendar Includes
 
-Note:
+Returns libraries for a full calendar fullcalendar.io/ This is used on the events modules. This shortcode has no attributes. 
+
+!!! Note:
 
 ```[js_full_calendar_includes]``` and ```[js_full_calendar]``` work together. You will need to include both codes in the page in order for it to work.
+!!!
 
 Add ```[js_full_calendar_includes]``` at the top of the page.
 
@@ -378,7 +410,9 @@ Code Example:
 [js_full_calendar calendar_id="110"]
 ```
 
-Event Date – Prints the event end date, typically along with the event’s start date and end time according to PHP’s date function. This is used in the events module.
+## Event Date
+
+Prints the event end date, typically along with the event’s start date and end time according to PHP’s date function. This is used in the events module.
 
 Attributes: 
 
@@ -404,7 +438,9 @@ Code Example:
 [/entry]
 ```
 
-Solodev Form -- Populates the form from a module by a specified datatable ID. 
+## Solodev Form 
+
+Populates the form from a module by a specified datatable ID. 
 
 Attributes:
 
@@ -425,7 +461,9 @@ Code Example:
 [form id="40"]
 ```
 
-Landing Page Form – place a form in blog entries and landing pages.
+## Landing Page Form 
+
+Place a form in blog entries and landing pages.
 
 Attributes:
 
@@ -445,7 +483,9 @@ Code Example:
 [landing_page_form id="40"]
 ```
 
-CAPTCHA – Generates a CAPTCHA code image with input field to be included on a form to limit computer-generated form entries. This shortcode has no attributes. 
+## CAPTCHA 
+
+Generates a CAPTCHA code image with input field to be included on a form to limit computer-generated form entries. This shortcode has no attributes. 
 
 Shortcode:
 

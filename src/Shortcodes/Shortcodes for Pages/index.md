@@ -1,8 +1,10 @@
-# Shortcodes for Pages & Sections
+# Shortcodes for Pages
 
 This article provides an overview of the shortcodes that make it easy to add complex functionality to webpages. The shortcodes, use cases, and attributes are provided below.
 
-Page Title – Retrieves the current title of a page. 
+## Page Title
+
+Retrieves the current title of a page. 
 
 Attributes:
 
@@ -22,7 +24,9 @@ Code Example:
 <h1>[page_title]</h1>
 ```
 
-Page Description – Retrieves the description of the page from the fields in the Meta tab of the corresponding page. This self-enclosing shortcode contains no attributes.
+## Page Description
+
+Retrieves the description of the page from the fields in the Meta tab of the corresponding page. This self-enclosing shortcode contains no attributes.
 
 Shortcode:
 
@@ -36,7 +40,9 @@ Code Example:
 <p>[page_description]</p> --> The Best Services on the Web!
 ```
 
-Parent Folder Title – Retrieves the current title of the parent folder. This self-enclosing short code contains no attributes. 
+## Parent Folder Title
+
+Retrieves the current title of the parent folder. This self-enclosing short code contains no attributes. 
 
 Shortcode:
 
@@ -53,7 +59,9 @@ Code Example:
 </a>
 ```
 
-Parent Description – Retrieves the current description of the parent folder. This self-enclosing short code contains no attributes. 
+## Parent Description
+
+Retrieves the current description of the parent folder. This self-enclosing short code contains no attributes. 
 
 Shortcode:
 
@@ -67,7 +75,9 @@ Code Example:
 <p>[parent_description]</p>
 ```
 
-Section Title – Retrieves the folder title that contains a page but reverts to the page title if the parent folder of the page is the site root. This self-enclosing shortcode has no attributes.
+## Section Title
+
+Retrieves the folder title that contains a page but reverts to the page title if the parent folder of the page is the site root. This self-enclosing shortcode has no attributes.
 
 Shortcode:
 
@@ -83,7 +93,9 @@ Code Example:
 </section>
 ```
 
-Section Description – This retrieves the folder description that contains a page but refers to the page description if parent folder of the page is the site root. This self-enclosing shortcode has no attributes. 
+## Section Description
+
+This retrieves the folder description that contains a page but refers to the page description if parent folder of the page is the site root. This self-enclosing shortcode has no attributes. 
 
 Shortcode: 
 
@@ -100,7 +112,9 @@ Code Example:
 </div>
 ```
 
-Solodev Nav – Displays the structured folders in the navigation (left or main). 
+## Solodev Nav
+
+Displays the structured folders in the navigation (left or main). 
 
 Attributes:
 
@@ -124,7 +138,9 @@ Code Example:
 </div>
 ```
 
-Breadcrumb – Returns the formatted breadcrumb tail for the current page. This shortcode creates dynamic breadcrumbs on every web page to which it is added. Breadcrumb refers to a navigation element that displays the path in which the current page resides. The breadcrumb displays all parent folders up to the www folder. 
+## Breadcrumb
+
+Returns the formatted breadcrumb tail for the current page. This shortcode creates dynamic breadcrumbs on every web page to which it is added. Breadcrumb refers to a navigation element that displays the path in which the current page resides. The breadcrumb displays all parent folders up to the www folder. 
 
 Attributes: 
 
@@ -149,7 +165,9 @@ Code Example:
 </div>
 ```
 
-Social Share -- Adds social share buttons that link to social media accounts using images or Font Awesome icons.
+## Social Share
+
+Adds social share buttons that link to social media accounts using images or Font Awesome icons.
 
 Attributes ```[social_share_img]```: 
 
@@ -196,7 +214,9 @@ Code Example using Images:
 </div>
 ```
 
-Page Path – Retrieves the URL path to a page. This self-enclosed attribute has no attributes. 
+## Page Path
+
+Retrieves the URL path to a page. This self-enclosed attribute has no attributes. 
 
 Shortcode:
 
@@ -211,7 +231,9 @@ Code Example:
 <ul>
 ```
 
-URL var – returns the name of the $_REQUEST variable that is set. Developers can use this to dynamically populate confirmation or thank you form submission pages. 
+## URL var
+
+Returns the name of the $_REQUEST variable that is set. Developers can use this to dynamically populate confirmation or thank you form submission pages. 
 
 Attributes:
  

@@ -1,6 +1,6 @@
 # Solodev Kubernetes for EKS
 
-Page Launching Soon
+Coming Soon for Questions [Contact Us](mailto:sales@solodev.com)
 
 <!-- Launch Amazon Elastic Kubernets Service (EKS) in a new cluster and manage your containers at any scale with Solodev. Launch your applications rapidly and across AWS Regions and Availability Zones, and move from environment to environment regardless of operating system.
 

@@ -52,6 +52,8 @@ If your website already contains multiple folders for various sections (such as 
 If you have a template as part of your website, your page will already be formatted with the template elements. If not, you can use <a href="/tutorials/cms/add-page-template/#dynamic-divs">dynamic divs</a> to add content to a blank page or add custom HTML code to style it. 
 !!!
 
+## Next Steps
+
 - <a href="/workspace/websites/manage-website/addfile/#add-file">Add file</a>
 - <a href="/tutorials/cms/add-form/">Add form</a>
 - <a href="/workspace/websites/manage-website/">Manage Website</a>

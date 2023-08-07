@@ -57,4 +57,4 @@ Set up individual users and groups and manage their roles using the industry’s
 :--- | ---
 Solodev Help Desk | Enterprise customers can purchase our world-class Solodev Help Desk service with any CMS deployment. Solodev Help Desk is available Monday through Friday, 8 AM – 6 PM EST. [Click Here](mailto:sales@solodev.com) to speak with a customer service representative. 
 Critical Care Service Level Agreements (SLAs) | Solodev CMS customers can purchase an optional SLA with 24/7/365 monitoring and 2, 4, or 6-hour response times. [Click Here](mailto:sales@solodev.com) to speak with a customer service representative.
-General Chat Support | To report a bug, submit a feature request, ask a technical question, or provide feedback; please use our <a href="https://www.solodev.com/" target="_blank">website chat</a>. 
+General Support | To report a bug, submit a feature request, ask a technical question, or provide feedback; please use our <a href="https://www.solodev.com/contact/" target="_blank">website chat</a>. 

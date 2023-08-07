@@ -1,6 +1,5 @@
 # Add Website
 
-
 In Solodev, you can add a new website to your CMS with just a few basic details. You also have the option of uploading a ready-made theme package with your new site. 
 
 !!! **Note:**
@@ -22,8 +21,6 @@ Solodev is a native multi-site platform, allowing you to run multiple websites a
 **Step 2**: Click **Add**. 
 
 <img src="../../../images/add-site-form.jpg" alt="add-website" style="width: 40%; display: block"></a>
-
-
 
 ## Add Site with Theme (Optional)
 

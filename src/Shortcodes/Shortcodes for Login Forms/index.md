@@ -1,7 +1,6 @@
-# Shortcodes for Login Forms
+# Shortcodes for Secured Account Logins
 
-
-This article discusses shortcodes pertain users and user-related components in Solodev. 
+This article discusses shortcodes for creating frontend access forms to secured areas in your website or app. This can include private portals, member intranets, and other use cases where user credentials need to be provided for access.
 
 Contact Form Login – provides a form wrapper for users to login on the frontend of the website. 
 
