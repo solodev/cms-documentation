@@ -4,8 +4,8 @@ In Solodev, a page template is a reusable component that allows you to build web
 
 ## Prerequisites 
 
--	You will need to <a href="/tutorials/cms/add-website/">add a website</a> to your Solodev CMS
--	You will need to <a href="/tutorials/cms/add-page/">add a page</a>
+-	You will need to <a href="/tutorials/add-website/">add a website</a> to your Solodev CMS
+-	You will need to <a href="/tutorials/add-page/">add a page</a>
 
 ## Page Templates
 

@@ -7,8 +7,8 @@ Here you will learn how to specify permissions available to a given group.
 ## Prerequisites
 Prior to following this tutorial, users should:
 
-- Add users to your Solodev CMS. You can learn how to do it <a href="../../../../tutorials/cms/add-users/">here</a>.
-- Create a group. You can learn how to do it <a href="../../../../tutorials/cms/add-groups/">here</a>.
+- Add users to your Solodev CMS. You can learn how to do it <a href="../../../../tutorials/add-users/">here</a>.
+- Create a group. You can learn how to do it <a href="../../../../tutorials/add-groups/">here</a>.
 
 ## Step 1 - Navigate to the Group
 

@@ -4,7 +4,7 @@ Welcome to the Solodev CMS module installation guide. This tutorial will walk yo
 
 ## Prerequisites 
 
--	You will need to <a href="/tutorials/cms/add-website/">add a website</a> to your Solodev CMS.
+-	You will need to <a href="/tutorials/add-website/">add a website</a> to your Solodev CMS.
 -	You will need to <a href="/workspace/websites/manage-website/add-page//">add a page</a>.
 -	You will need to be familiary with using <a href="/shortcodes/">shortcodes</a>.
 

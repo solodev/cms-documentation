@@ -49,6 +49,6 @@ Package (optional)| Upload a theme package with your website. Must be in .zip fo
 
 ## Next Steps
 
-- <a href="/tutorials/cms/add-page/">Add page</a>
+- <a href="/tutorials/add-page/">Add page</a>
 
-- <a href="/tutorials/cms/add-page-template/">Add page template</a>
+- <a href="/tutorials/add-page-template/">Add page template</a>
