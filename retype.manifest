@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-04T21:11:40Z",
+  "created": "2023-08-07T20:49:58Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1904,7 +1904,11 @@
       "path": "shortcodes\\shortcodes-for-modules\\index.html"
     },
     {
-      "path": "shortcodes\\shortcodes-for-pages--sections\\index.html"
+      "path": "shortcodes\\shortcodes-for-pages--sections\\index.html",
+      "old": true
+    },
+    {
+      "path": "shortcodes\\shortcodes-for-pages\\index.html"
     },
     {
       "path": "shortcodes\\shortcodes-for-users\\index.html",
@@ -1930,6 +1934,30 @@
     },
     {
       "path": "support\\tasks\\update-task\\index.html"
+    },
+    {
+      "path": "tutorials\\add-form\\index.html"
+    },
+    {
+      "path": "tutorials\\add-groups\\index.html"
+    },
+    {
+      "path": "tutorials\\add-module\\index.html"
+    },
+    {
+      "path": "tutorials\\add-page-template-old\\index.html"
+    },
+    {
+      "path": "tutorials\\add-page-template\\index.html"
+    },
+    {
+      "path": "tutorials\\add-permissions-to-group\\index.html"
+    },
+    {
+      "path": "tutorials\\add-users\\index.html"
+    },
+    {
+      "path": "tutorials\\add-website\\index.html"
     },
     {
       "path": "tutorials\\advanced-development\\cms\\add-form\\index.html"
@@ -2055,41 +2083,57 @@
       "path": "tutorials\\apps\\index.html"
     },
     {
-      "path": "tutorials\\cms\\add-form\\index.html"
+      "path": "tutorials\\cms\\add-form\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-groups\\index.html"
+      "path": "tutorials\\cms\\add-groups\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-module\\index.html"
+      "path": "tutorials\\cms\\add-module\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-page-template-old\\index.html"
+      "path": "tutorials\\cms\\add-page-template-old\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-page-template\\index.html"
+      "path": "tutorials\\cms\\add-page-template\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\add-page\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\add-permissions-to-group\\index.html"
+      "path": "tutorials\\cms\\add-permissions-to-group\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-users\\index.html"
+      "path": "tutorials\\cms\\add-users\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-website\\index.html"
+      "path": "tutorials\\cms\\add-website\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\create-a-base-template\\index.html"
+      "path": "tutorials\\cms\\create-a-base-template\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\create-an-interior-template\\index.html"
+      "path": "tutorials\\cms\\create-an-interior-template\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\index.html"
+    },
+    {
+      "path": "tutorials\\create-a-base-template\\index.html"
+    },
+    {
+      "path": "tutorials\\create-an-interior-template\\index.html"
     },
     {
       "path": "tutorials\\index.html"
