@@ -1,28 +1,14 @@
 # Modules
 
-Modules enable developers to build no code/low content management features. These features expand the capability of Solodev CMS containers and deployments  -- making it easier for developers, content-managers, and marketing executives to expand website or web application features and manage content with little or no code.
+In Solodev, modules – sometimes called managers – are tools that simplify the content management process for editors. Modules empower a user to manage various types of content and data without updating code, and can range from very simple to highly complex.
 
-There are two types of Modules:
+Modules incorporate a set of HTML-based form fields and WYSIWYG editors, powered by backend mapping to specific pages or sections of your website. Some common examples of Solodev modules include web forms, event calendars, photo galleries, hero sliders, landing pages, and more.
 
-- Calendars – a module that can be modified to create date-based customer facing applications. Calendars can be used to build unlimited custom web and mobile applications to manage content.
-- Datatables – database-dependent applications that can be formatted for display in various ways on several devices.
+## Types of Modules
 
-With Datatables, users can build: 
-
-- User Interface - Build custom user interfaces to interact with your data.
-- Database Schemas - Define fields, and Solodev CMS builds tables to store data.
-- Categorization - Create a system of relationships and categorization for your data.
-- RESTful APIs - Utilize a built-in API to expose datatable information to external publishing channels such as websites, mobile apps, intranets, and other API-enabled technologies.
-
-Solodev supports the following Calendar Types: 
-
-- News - A manager suited for press releases and news articles. You can set a start and an end date/time to display the events on your website at your convenience.
-- Events – A calendar for events where you can specify the start and end date and time of your event.
-- Blog - The blog module is perfect for article feeds, blog posts, and other data sets where end dates are optional. 
-- Photos – A photo calendar is great for displaying photos or creating a gallery. 
-- Landing Page – Create landing pages for marketing purposes. 
-- File Map - It allows all files to be uploaded to one place and later designate which pages their documents should show up.
-- Custom – A custom calendar allows users to tailor a calendar type to their needs – using some or all the functionality in the calendar as mentioned above types.
+The Solodev module system offers two types of modules:
+ * **Calendar**: Create date-based applications such as events, blogs, landing pages, and other custom experiences.
+ * **Data table**: Build database-dependent applications such as schemas, publish data table information to external channels, expose data to channels via RESTful API, and more.
 
 ## Modules Dashboard
 

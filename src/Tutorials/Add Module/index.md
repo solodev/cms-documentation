@@ -1,10 +1,6 @@
 # Add Module
 
-In Solodev, modules – sometimes called managers – are tools that simplify the content management process for editors. Modules empower a user to manage various types of content and data without updating code, and can range from very simple to highly complex. 
-
-Modules incorporate a set of HTML-based form fields and WYSIWYG editors, powered by a backend mapping to specific pages or sections of your website. Some common examples of Solodev modules include web forms, event calendars, photo galleries, hero sliders, landing pages, and more. 
-
-In this article, you will learn about the types of modules and how to add one to your Solodev website. 
+A <a href="/workspace/modules/">module</a> can be added to any website in Solodev. In this article, you will learn how to install a module, how to add both a repeater and detail template, and how to map a detail page to your module.
 
 ## Types of Modules
 
