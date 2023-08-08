@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-08T06:27:40Z",
+  "created": "2023-08-08T09:10:47Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1425,6 +1425,9 @@
     },
     {
       "path": "images\\solodevbanner2.jpg"
+    },
+    {
+      "path": "images\\solodevbanner2.png"
     },
     {
       "path": "images\\solodevcmsenterprise.jpg"
