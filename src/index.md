@@ -1,6 +1,6 @@
 # Welcome
 
-<img src="../../../images/Solodev-Banner-2.jpg" alt="solo_welcome.png" style="width: 100%; display: block"></a>
+<img src="../../../images/SolodevBanner2.jpg" alt="solo_welcome.png" style="width: 100%; display: block"></a>
 
 Solodev is an enterprise content management system (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud – powered by Amazon Web Services (AWS).
 
