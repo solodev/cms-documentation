@@ -4,7 +4,7 @@
 
 Solodev is an enterprise content management system (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud.
 
-Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b" target="_blank">AWS Marketplace</a> Subscription licensing is available in a Professional Edition, Enterprise Edition, or container option for Kubernetes. Click on a product in the table below to view a Quickstart guide:
+Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b" target="_blank">AWS Marketplace</a>. Subscription licensing is available in a Professional Edition, Enterprise Edition, or container option for Kubernetes. Click on a product in the table below to view a Quickstart guide:
 
 **Name** | **Description** 
 :--- | ---
