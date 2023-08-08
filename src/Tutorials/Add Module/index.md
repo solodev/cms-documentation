@@ -1,12 +1,24 @@
 # Add Module
 
-Welcome to the Solodev CMS module installation guide. This tutorial will walk you through the process of adding a new module to your Solodev-powered website, enhancing its functionality and user experience. Whether you're a developer or a beginner, you'll learn how to seamlessly integrate custom content, such as calendars and datatables, into your site. Let's begin by covering the prerequisites and then proceed with the module installation process.
+In Solodev, modules – sometimes called managers – are tools that simplify the content management process for editors. Modules empower a user to manage various types of content and data without updating code, and can range from very simple to highly complex. 
+
+Modules incorporate a set of HTML-based form fields and WYSIWYG editors, powered by a backend mapping to specific pages or sections of your website. Some common examples of Solodev modules include web forms, event calendars, photo galleries, hero sliders, landing pages, and more. 
+
+In this article, you will learn about the types of modules and how to add one to your Solodev website. 
+
+## Types of Modules
+
+The Solodev module system offers two types of modules:
+
+- **Calendar**: Create date-based applications such as events, blogs, landing pages, and other custom experiences. 
+
+- **Data table**: Build database-dependent applications such as schemas, publish data table information to external channels, expose data to channels via RESTful API, and more.
 
 ## Prerequisites 
 
 -	You will need to <a href="/tutorials/add-website/">add a website</a> to your Solodev CMS.
 -	You will need to <a href="/workspace/websites/manage-website/add-page//">add a page</a>.
--	You will need to be familiary with using <a href="/shortcodes/">shortcodes</a>.
+-	You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
 
 ## Install Module
 
