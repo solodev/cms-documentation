@@ -1,6 +1,6 @@
 # Welcome
 
-<img src="images/Solodev-Banner.png" alt="solo_welcome" style="width: 100%; display: block"></a>
+<img src="../images/Solodev-Banner.png" alt="solo_welcome" style="width: 100%; display: block"></a>
 
 Solodev is an enterprise content management system (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud.
 
