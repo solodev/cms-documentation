@@ -1,18 +1,16 @@
 # Welcome
 
-Solodev CMS can be deployed in minutes from the AWS Marketplace. Choose from our Professional Edition, Enterprise Edition, or container option for Kubernetes.
+<img src="images/solodevbanner2.jpg" alt="solo_welcome" style="width: 100%; display: block"></a>
 
-<img src="../../../images/solo_welcome.png" alt="solo_welcome.png" style="width: 100%; display: block"></a>
+Solodev is an enterprise content management system (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud – powered by Amazon Web Services (AWS).
 
-Solodev is an enterprise content management system (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud – powered by Amazon Web Services (AWS). 
-
-Solodev CMS can be deployed... in minutes through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b" target="_blank" rel="noopener noreferrer">AWS Marketplace</a>. Subscription licensing is available in a Professional Edition, Enterprise Edition, or container option for Kubernetes. Click on a product in the table below to view a Quickstart guide:
+Solodev CMS can be deployed in minutes through the AWS Marketplace. Subscription licensing is available in a Professional Edition, Enterprise Edition, or container option for Kubernetes. Click on a product in the table below to view a Quickstart guide:
 
 **Name** | **Description** 
 :--- | ---
-Professional | A single-server deployment designed for business-level projects that require moderate scalability.
-Enterprise | A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps. 
-Kubernetes | A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. Only available in the AWS Marketplace.
+[Professional](../../../quickstart/solodev-pro/) | A single-server deployment designed for business-level projects that require moderate scalability.
+[Enterprise](../../../quickstart/solodev-enterprise/)| A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps. 
+[Kubernetes](../../../quickstart/solodev-cms-for-kubernetes/)| A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. Only available in the AWS Marketplace.
 
 !!!Tip:
 Need help with a custom enterprise deployment with unique requirements? [Contact our professional services team](mailto:sales@solodev.com).
@@ -57,4 +55,4 @@ Set up individual users and groups and manage their roles using the industry’s
 :--- | ---
 Solodev Help Desk | Enterprise customers can purchase our world-class Solodev Help Desk service with any CMS deployment. Solodev Help Desk is available Monday through Friday, 8 AM – 6 PM EST. [Click Here](mailto:sales@solodev.com) to speak with a customer service representative. 
 Critical Care Service Level Agreements (SLAs) | Solodev CMS customers can purchase an optional SLA with 24/7/365 monitoring and 2, 4, or 6-hour response times. [Click Here](mailto:sales@solodev.com) to speak with a customer service representative.
-General Support | To report a bug, submit a feature request, ask a technical question, or provide feedback; please <a href="https://www.solodev.com/contact/" target="_blank">contact us</a>. 
+General Support | To report a bug, submit a feature request, ask a technical question, or provide feedback, please <a href="https://www.solodev.com/contact/" target="_blank">contact us</a>. 
