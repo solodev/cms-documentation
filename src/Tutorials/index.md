@@ -6,5 +6,6 @@ Choose a Tutorial from the links below:
 
 -	<a href="/tutorials/add-page-template/">Add Page Template</a>
 -	<a href="/tutorials/add-form/">Add Form</a>
--	<a href="/tutorials/add-module/">Add Module</a>
 -	<a href="/tutorials/add-permissions-to-group/">Add Permissions</a>
+
+<!-- -	<a href="/tutorials/add-module/">Add Module</a> -->
