@@ -25,7 +25,7 @@ If you prefer working in raw HTML, you can code your own form and upload to Solo
 
 ## Form Studio
 
-<img src="../../../images/Form-Studio1.jpg" alt="form main image" style="width: 100%; display: block"></a>
+<img src="../../../images/form-studio1.jpg" alt="form main image" style="width: 100%; display: block"></a>
 
 Form Studio is a built-in drag-and-drop WYSIWYG editor that allows you to directly compose your own custom form. The visual editor consists of a left toolbar for dragging layout, content, and form components onto the canvas in the center. See table below for details. 
 
@@ -129,8 +129,7 @@ Example code:
 
 **Step 7:** Save your changes by clicking the **Save** button to store the template.
 
-Next Steps
+## Next Steps
 
 -	<a href="/tutorials/add-module/">Add Module</a>
 
-## Confirm

@@ -33,9 +33,11 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 <img src="../../../images/base-template.jpg" alt="base template" style="width: 100%; display: block"></a>
 
-1.	To get started go to **web files > templates** and <a href="/workspace/websites/manage-website/addfile/">add a file</a>.
-2.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
-3.	Add Dynamic Divs to your file. Below is the code of a sample base template. It includes a dynamicDiv class for the top navigation, content, footer. You can always add more Dynamic Divs as needed.
+**Step 1**.	To get started go to **web files > templates** and <a href="/workspace/websites/manage-website/addfile/">add a file</a>.
+
+**Step 2**.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
+
+**Step 3**.	Add Dynamic Divs to your file. Below is the code of a sample base template. It includes a dynamicDiv class for the top navigation, content, footer. You can always add more Dynamic Divs as needed.
 
 ```js
 <div role="main">
@@ -55,20 +57,23 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 </div>
 ```
 
-4.	Add the base template to your page. Go to your page and click on the content area where the 3 dots are. This area will change color and it will show the file currently associated with it. We want to replace it with base template file. To do this, with the area selected, click on the base template file from the left navigation. You will see the area change. Click publish on the right side.
+**Step 4**.	Add the base template to your page. Go to your page and click on the content area where the 3 dots are. This area will change color and it will show the file currently associated with it. We want to replace it with base template file. To do this, with the area selected, click on the base template file from the left navigation. You will see the area change. Click publish on the right side.
 
 <img src="../../../images/stml.jpg" alt="base template" style="width: 100%; display: block"></a>
 
-5.	You can repeat this process to add the content to your page.
+**Step 5**.	You can repeat this process to add the content to your page.
 
 ## Content Template
 
 <img src="../../../images/content-template.png" alt="base template" style="width: 80%; display: block"></a>
 
-1.	Go to **web files > templates** and <a href="/workspace/websites/manage-website/addfile/">add a file</a>.
-2.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
-3.	Follow the above steps to add a base template to the page. Even though it is not required to have a base template, it is highly recommended because it should contain your navigation, footer, and other elements used in your site.
-4.	Add Dynamic Divs to your file. Below is the code of a sample content template. It includes a dynamicDiv class for the breadcrumb, content and a left navigation. It also includes the Page title shortcode (Link to shortcodes). You can always add more DynamicDivs as needed.
+**Step 1**.	Go to **web files > templates** and <a href="/workspace/websites/manage-website/addfile/">add a file</a>.
+
+**Step 2**.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
+
+**Step 3**.	Follow the above steps to add a base template to the page. Even though it is not required to have a base template, it is highly recommended because it should contain your navigation, footer, and other elements used in your site.
+
+**Step 4**.	Add Dynamic Divs to your file. Below is the code of a sample content template. It includes a dynamicDiv class for the breadcrumb, content and a left navigation. It also includes the Page title shortcode (Link to shortcodes). You can always add more DynamicDivs as needed.
 
 ```js
 <!-- Start of Header -->
@@ -106,8 +111,9 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 <!-- End of Main Content -->
 ```
 
-5.	Add the content template to your page. Go to your page and click on the content area below your top navigation within the base template. This area will change color when selected. Click on the content template file from the left navigation. You will see the area change. Click publish on the right side.
-6.	Repeat this process to add the content to your page.
+**Step 5**.	Add the content template to your page. Go to your page and click on the content area below your top navigation within the base template. This area will change color when selected. Click on the content template file from the left navigation. You will see the area change. Click publish on the right side.
+
+**Step 6**.	Repeat this process to add the content to your page.
 
 ## Next Steps
 
