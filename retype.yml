@@ -5,7 +5,7 @@ favicon: images/favicon.png
 
 branding:
   logo: images/logo.png
-  label: v 9.8
+  label: v 10.0.1
 
 meta:
   title: " - Generate, publish, and share documentation"
