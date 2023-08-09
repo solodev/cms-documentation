@@ -13,7 +13,7 @@ The Solodev module system offers two types of modules:
 ## Prerequisites 
 
 -	You will need to <a href="/tutorials/add-website/">add a website</a> to your Solodev CMS.
--	You will need to <a href="/workspace/websites/manage-website/add-page//">add a page</a>.
+-	You will need to <a href="/workspace/websites/manage-website/add-page/">add a page</a>.
 -	You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
 
 ## Install Module
