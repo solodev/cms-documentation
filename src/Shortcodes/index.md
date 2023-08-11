@@ -20,6 +20,6 @@ There are several categories of shortcodes in Solodev:
 :--- | ---
 <a href="/shortcodes/basic-shortcodes/">Basic shortcodes</a> | Includes fundamentals like admin, asset files, print data, lower casing text, error reporting, and more.
 <a href="/shortcodes/generic-shortcodes/">Generic shortcodes</a> | Covers common examples such as embedding Google Search, YouTube video, conditionals, and more.
-<a href="/shortcodes/shortcodes-for-login-forms/">Shortcodes for Login Forms</a> | Pertains to contact and login forms for a variety of use cases.
-<a href="/shortcodes/shortcodes-for-pages--sections/">Shortcodes for Pages & Sections</a> | Features more complex functionality that can be added to web page structure such as titles, descriptions, navigation, breadcrumbs, and more.
+<a href="/shortcodes/shortcodes-for-login-forms/">Shortcodes for Secured Account Logins</a> | Pertains to contact and login forms for a variety of use cases.
+<a href="/shortcodes/shortcodes-for-pages--sections/">Shortcodes for Pages</a> | Features more complex functionality that can be added to web page structure such as titles, descriptions, navigation, breadcrumbs, and more.
 <a href="/shortcodes/shortcodes-for-modules/">Shortcodes for Modules</a> | Provides features for modules including repeaters, entries, date and tag filtering, and more.
