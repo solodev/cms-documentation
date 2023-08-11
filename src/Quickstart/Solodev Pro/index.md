@@ -8,19 +8,19 @@ Solodev CMS Professional Edition deploys on a single AWS EC2 instance fully mana
 
 Solodev CMS Professional Edition is available in the AWS Marketplace and can be instantly deployed in your account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="blank">AWS CloudFormation</a>. It leverages an advanced stack of AWS cloud services to deliver a scalable and reliable workload, including:
 
- * <a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html">Amazon Certificate Manager (ACM)</a>
- * <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html">Amazon CloudFront</a>
- * <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html">Amazon CloudWatch</a>
- * <a href="https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html">Amazon DocumentDB (with MongoDB Compatibility)</a>
- * <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">Amazon Elastic Compute Cloud (EC2)</a>
- * <a href="https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html">Amazon Elastic File System (EFS)</a>
- * <a href="https://aws.amazon.com/elasticache/redis/">Amazon Elasticache for Redis</a>
- * <a href="https://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html">Amazon OpsWorks</a>
- * <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html">Amazon Relational Database Service (RDS) MySql</a>
- * <a href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html">Amazon Route 53</a>
- * <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html">Amazon Simple Storage Service (S3)</a>
- * <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html">Amazon Virtual Private Cloud (VPC)</a>
- * <a href="https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html">Amazon Web Application Firewall (WAF)</a>
+* <a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html" target="_blank">Amazon Certificate Manager (ACM)</a>
+* <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html" target="_blank">Amazon CloudFront</a>
+* <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html" target="_blank">Amazon CloudWatch</a>
+* <a href="https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html" target="_blank">Amazon DocumentDB (with MongoDB Compatibility)</a>
+* <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target="_blank">Amazon Elastic Compute Cloud (EC2)</a>
+* <a href="https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html" target="_blank">Amazon Elastic File System (EFS)</a>
+* <a href="https://aws.amazon.com/elasticache/redis/" target="_blank">Amazon Elasticache for Redis</a>
+* <a href="https://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html" target="_blank">Amazon OpsWorks</a>
+* <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html" target="_blank">Amazon Relational Database Service (RDS) MySql</a>
+* <a href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html" target="_blank">Amazon Route 53</a>
+* <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html" target="_blank">Amazon Simple Storage Service (S3)</a>
+* <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html" target="_blank">Amazon Virtual Private Cloud (VPC)</a>
+* <a href="https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html" target="_blank">Amazon Web Application Firewall (WAF)</a>
 
 Additional technology frameworks and libraries include <a href="https://www.linux.org/">Linux</a>, <a href="https://www.apache.org/">Apache</a>, <a href="https://www.mysql.com/">MySQL</a>, <a href="https://www.php.net/">PHP</a>, <a href="https://www.python.org/">Python</a>, and more.
 
