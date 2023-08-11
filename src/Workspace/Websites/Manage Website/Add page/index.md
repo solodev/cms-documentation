@@ -13,7 +13,6 @@ if you're creating an HTML page with a code editor, you need to manually give it
 ## Prerequisites 
 
 *	You need to <a href="/workspace/websites/add-website/">add a website</a> to your Solodev CMS.
-
 *	If you are using an optional theme package with your website such as <a href="https://raw.githubusercontent.com/solodev/marketplace/master/depot/themes/spacejet.zip">Solodev SpaceJet</a>, you should review the theme’s page template options. 
 
 ## Add Page

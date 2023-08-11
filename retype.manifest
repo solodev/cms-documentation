@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-09T20:14:34Z",
+  "created": "2023-08-11T18:21:50Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2110,6 +2110,9 @@
       "path": "tutorials\\apps\\index.html"
     },
     {
+      "path": "tutorials\\cdn-information\\index.html"
+    },
+    {
       "path": "tutorials\\cms\\add-form\\index.html",
       "old": true
     },
@@ -2157,6 +2160,9 @@
       "path": "tutorials\\cms\\index.html"
     },
     {
+      "path": "tutorials\\connect-your-dns\\index.html"
+    },
+    {
       "path": "tutorials\\create-a-base-template\\index.html"
     },
     {
@@ -2164,6 +2170,9 @@
     },
     {
       "path": "tutorials\\index.html"
+    },
+    {
+      "path": "tutorials\\ssl-information\\index.html"
     },
     {
       "path": "tutorials\\website\\add-an-email-tickler\\index.html"
