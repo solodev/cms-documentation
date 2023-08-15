@@ -30,7 +30,7 @@ If you're using AWS Route 53 to manage your DNS, follow these steps:
 
 **Step 4**.	Provide the domain name for your website.
 
-**Step 5**.	In the "Value" field, enter the IP address you obtained from CloudFormation.
+**Step 5**.	In the **Value** field, enter the IP address you obtained from CloudFormation.
 
 **Step 6**.	Save the record.
 
@@ -39,9 +39,9 @@ If the CloudFormation output provides an AdminUrl in the format `... elb.amazona
 
 **Step 1**.	Create a DNS entry of type 'A' (address) that is an Alias in your DNS management system.
 
-**Step 2**.	Set the domain name as your desired subdomain (e.g., "admin.yourdomain.com").
+**Step 2**.	Set the domain name as your desired subdomain (e.g., `admin.yourdomain.com`).
 
-**Step 3**.	In the "Value" field, enter the ELB's URL (e.g., "your-elb-name.elb.amazonaws.com").
+**Step 3**.	In the **Value** field, enter the ELB's URL (e.g., `your-elb-name.elb.amazonaws.com`).
 
 !!!Note:
 Remember that DNS changes might take some time to propagate across the internet, so be patient. Also, the exact steps and interface might differ slightly based on the DNS and hosting provider you are using. Always refer to the documentation provided by your provider for precise instructions.
