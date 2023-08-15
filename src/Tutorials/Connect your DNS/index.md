@@ -1,6 +1,6 @@
 # Connect your DNS
 
-After creating a website, developers can use the origin URLs provided to update their DNS tables and launch their website.  The steps to access the origin URL and update your DNS tables are provided below: 
+After creating a website, developers can use the URLs provided to update their DNS tables and launch their website. The steps to access these URLs and update your DNS tables are provided below:
 
 ## Get IP Address from CloudFormation Outputs:
 **Step 1**. Start by navigating to the following URL: <a href="https://cms.solodev.net/quickstart/solodev-pro/#step-6-view-cloudformation-stack-outputs">https://cms.solodev.net/quickstart/solodev-pro/#step-6-view-cloudformation-stack-outputs</a>. On this page, you will find the CloudFormation stack outputs.
