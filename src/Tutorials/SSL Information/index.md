@@ -12,17 +12,10 @@
 ## Adding SSL information
 
 **Step 1:** Click the desired Website from the list of websites from the dashboard.
-
 **Step 2:** Click **Settings**.
-
 **Step 3:** Enter the **SSL domain** name for your website.
-
 **Step 4:** Check the **Sitewide SSL** checkbox to establish an HTTPS connection across all pages.
-
 **Step 5:** Enter the **SSL Certificate**.
-
 **Step 6:** Enter the **SSL Key**.
-
 **Step 7:** Enter the **SSL Chain Certificate**.
-
 **Step 8:** Click **Submit**.
