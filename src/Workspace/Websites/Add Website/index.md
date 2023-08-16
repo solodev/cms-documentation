@@ -22,20 +22,6 @@ Solodev is a native multi-site platform, allowing you to run multiple websites a
 
 <img src="../../../images/add-site-form.jpg" alt="add-website" style="width: 40%; display: block"></a>
 
-## Add Site with Theme (Optional)
-
-**Step 1**: In the form fields, enter your website address and select your timezone. 
-
-**Step 2**: Click **Upload .zip** and browse for your theme package. 
-
-**Step 3**: Click **Add**. 
-
-<img src="../../../images/add-site-form-upload-theme.jpg" alt="add-website" style="width: 40%; display: block"></a>
-
-!!! **Note**:
-Uploading a theme package may take a few minutes to complete. During this period, you will see a listing of the files from the package in the large field at the bottom of the form. When the button reads ***Processing***, do not leave or refresh the page. 
-!!!
-
 Once your website is created, you will be automatically directed to the **Websites** dashboard in your CMS. Your new site will appear at the top of the table. 
 
 <img src="../../../images/websites-dashboard.jpg" alt="add-website" style="width: 70%; display: block"></a>
