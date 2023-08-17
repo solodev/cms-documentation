@@ -48,7 +48,7 @@ To access a specific file, click on a row in the **Recents** table.
 
 Locate specific files in your CMS using the Search bar at the top of the Dashboard. Browse for .html files, PDF documents, blog posts, images, and more.
 
-<img src="../../../images/updated_db4.png" alt="search" style="width: 100%; display: block"></a>
+<img src="../../../images/updated_db4.png" alt="search" style="width: 60%; display: block"></a>
 
 !!! Note:
 Press the **Enter** button or click the blue button at the right side of the Search field to start searching. 
@@ -60,7 +60,7 @@ Press the **Enter** button or click the blue button at the right side of the Sea
 
 Use the links in the lower left corner of your Dashboard to manage your profile or log out from Solodev CMS.  
 
-<img src="../../../images/dashboard-profile.png" alt="dashboard-profile" style="width: 25%; display: block"></a>
+<img src="../../../images/dashboard-profile.png" alt="dashboard-profile" style="width: 20%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

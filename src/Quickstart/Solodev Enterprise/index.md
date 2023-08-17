@@ -104,7 +104,7 @@ AdminPassword | The solodev admin password
 DatabasePassword | The database root password
 StorageEncrypted | Enable encryption for Database (RDS) and Filesystem (EFS). True or False.
 
-<img src="../../images/cmsproawssubscribe9.png" alt="CMSEnterpriseSubscribe" style="width: 100%; display: block"></a>
+<img src="../../images/cmsproawssubscribe9.png" alt="CMSEnterpriseSubscribe" style="width: 70%; display: block"></a>
 
 #### Optional: SSL Configuration
 
