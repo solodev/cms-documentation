@@ -1,16 +1,14 @@
 # SSL Information
 
-(Secure Sockets Layer) is the standard security technology for establishing an encrypted link between a web server and a browser. This link ensures that all data passed between the web server and browsers remain private and integral.
+SSL (Secure Sockets Layer) is the standard security technology for establishing an encrypted link between a web server and a browser. This link ensures that all data passed between the web server and browsers remain private and integral.
 
-**SSL Website address** – The SSL domain name that establishes an HTTPS connection to your website.
-
-**Sitewide SSL (Canonical)** – Mark this checkbox to force an  HTTPS connection to all pages.
-
-**SSL Certificate** – the certificate for your domain obtained from a Certificate Authority.
-
-**SSL Key** – the information from the SSL key file goes here.
-
-**SSL Chain certificate** – the ordered list of certificates containing an SSL Certificate and Certificate Authority Certificates goes here.
+**Name** | **Description**
+:--- | ---
+**SSL Website address** | The SSL domain name that establishes an HTTPS connection to your website.
+**Sitewide SSL (Canonical)** | Mark this checkbox to force an  HTTPS connection to all pages.
+**SSL Certificate** | The certificate for your domain obtained from a Certificate Authority.
+**SSL Key** | The information from the SSL key file goes here.
+**SSL Chain certificate** | The ordered list of certificates containing an SSL Certificate and Certificate Authority Certificates goes here.
 
 ## Adding SSL information
 
@@ -80,7 +78,7 @@ By following these steps, you'll be able to successfully request a public certif
 **Step 6**. When choosing your key algorithm choose the default RSA 2048 key algorithm. This is a secure choice for generating cryptographic keys.
 
 !!!Note 
-Tagging is optional and you can choose whether to add tags for better organization and management, but it's not mandatory.
+Tagging is optional and you can choose whether to add tags for better organization and management.
 !!!
 
 **Step 7**. Request the Certificate after entering the necessary details, click the "Next" button and then click "Review." Ensure that all the information is accurate, and then click "Confirm and request" to submit your certificate request.

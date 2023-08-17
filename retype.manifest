@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-16T12:40:39Z",
+  "created": "2023-08-17T19:45:45Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2453,6 +2453,9 @@
     },
     {
       "path": "workspace\\websites\\manage-website\\add-page\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\manage-website\\add-theme\\index.html"
     },
     {
       "path": "workspace\\websites\\manage-website\\addcollection\\index.html"
