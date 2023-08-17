@@ -65,32 +65,48 @@ If you're working with AWS CloudFormation stacks, you can also use the Amazon Re
 
 By following these steps, you'll be able to successfully request a public certificate from AWS Certificate Manager, validate your domain ownership, and use the certificate for securing your services or resources.
 
-## How to Request and Use an AWS Certificate for EC2 Instances with Load Balancing
+## How to Request and Use an AWS Certificate Manager (ACM) Public Certificate:
 
-**Step 1**. Login to Your AWS Account and access the AWS Management Console using your account credentials.
+**Step 1**. Login to Your AWS Account and access the AWS Management Console using your AWS account credentials.
 
-**Step 2**. To access the EC2, there are several navigation options available.. One way is to use the search function. Type **EC2** in the search bar, and it will bring up the EC2 service under the **Services** dropdown. Alternatively, you can directly click on **Services** in the upper-left corner, choose **Compute**, and then select **EC2**.
+**Step 3**. Access AWS Certificate Manager in the AWS Management Console, use the search bar to look for "Certificate Manager" and select the corresponding result to open the AWS Certificate Manager dashboard.
 
-**Step 3**. Access Load Balancers within the EC2 Dashboard. You'll find various categories in the navigation pane on the left. Scroll down and locate the **Load Balancing** category. Click on **Load Balancers** under this category.
+**Step 4**. Request a Certificate in the AWS Certificate Manager dashboard, click on the "Request a certificate" button to initiate the certificate request process.
 
-**Step 4**. Click the **Create Load Balancer** button to initiate the process of creating a load balancer.
+**Step 4**. Specify Domain Name, enter your fully qualified domain name (FQDN) for which you want to request the certificate. Additionally, if you want the certificate to cover subdomains, enter the same domain name with a wildcard (*) in front of it. This ensures that the certificate covers both your main domain and any subdomains.
 
-**Step 5**. Configure Load Balancer and choose the type of load balancer you want to create. For this scenario, choose the **Application Load Balancer**.
+**Step 5**. Select the default DNS validation method that is recommended. This involves proving your ownership of the domain through DNS records.
 
-**Step 6**. As part of load balancer setup, you'll need to configure listeners to handle incoming traffic. Add a listener for HTTPS (port 443), which is typically used for secure connections.
+**Step 6**. When choosing your key algorithm choose the default RSA 2048 key algorithm. This is a secure choice for generating cryptographic keys.
 
-**Step 7**. Configure SSL Settings in the listener configuration, choose the HTTPS protocol (port 443). Then, in the **SSL certificate** section, choose the **Add certificate** button.
+!!!Note 
+Tagging is optional and you can choose whether to add tags for better organization and management, but it's not mandatory.
+!!!
 
-**Step 8**. A dialog box will appear where you can select a certificate to associate with the listener. Choose the certificate you previously requested from AWS Certificate Manager.
+**Step 7**. Request the Certificate after entering the necessary details, click the "Next" button and then click "Review." Ensure that all the information is accurate, and then click "Confirm and request" to submit your certificate request.
 
-**Step 9**. After selecting the certificate, you'll be given the option to include it as "Pending." This means that the certificate will be associated with the listener but won't be marked as "In use" until it's verified.
+**Step 8**. View Requested Certificates, after submitting the request. Navigate to the "List Certificates" section within the ACM dashboard. You might need to refresh the page to see your newly requested certificate in the list.
 
-**Step 10**. Complete any additional load balancer configuration settings as needed. This might involve defining target groups, security groups, and routing rules.
+**Step 9**. Locate the certificate you've requested and click on the certificate ID link. This will take you to the detailed information page for the certificate.
 
-**Step 11**. Review your load balancer configuration and settings. Once you're satisfied, click the "Create" button to create the load balancer.
+**Step 10**. View CNAME Information on the certificate details page. You will find information such as your CNAME (Canonical Name) name and CNAME value. These values are required for the DNS validation process.
 
-**Step 12**. The certificate you added will now be in a "Pending" state. You'll need to wait for the certificate's verification process to complete. AWS will automatically validate the certificate's ownership by checking the DNS records you added during the certificate request.
+**Step 11**. Set Up DNS Validation by logging into the DNS management console of your domain registrar or DNS service provider. Create a DNS record using the CNAME name and value provided by AWS. This is necessary to validate your ownership of the domain.
 
-**Step 13**. Once the certificate's verification is successful, it will be marked as "In use" for the listener. This means your load balancer is now ready to securely handle incoming HTTPS traffic.
+**Step 11**. Once the DNS entry is in place, AWS will automatically detect this new entry and the Certificate status will update from Pending to Issued.  The certificate is now ready to be associated with other AWS services such as Aplication Load Balancers or even CloudFront distributions.
 
-By following these steps, you'll have successfully requested an AWS certificate using AWS Certificate Manager and associated it with an EC2 load balancer, enabling secure HTTPS communication for your applications.
+## Once the certificate is Issued
+
+There are two options.
+
+A. The user already has a Solodev stack in place because they followed the following Quickstarts:
+https://cms.solodev.net/quickstart/solodev-pro/
+https://cms.solodev.net/quickstart/solodev-enterprise/
+
+B. The user is about to create a Solodev stack using one of those quick starts.
+
+------
+
+If B then they can take the certificate that was just created and put its ARN into the field labeled CertificateArn when creating the stack.
+
+If A then there is already a load balancer in their account and they just need to make the association. They do not need to make a new Load Balancer
