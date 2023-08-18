@@ -16,22 +16,34 @@ Solodev is a native multi-site platform, allowing you to run multiple websites a
 
 ## Add Site 
 
+**Step 1**: On the main dashboard in Solodev, click Add Website.
+
+<img src="../../../images/add-website1.png" alt="add-website" style="width: 70%; display: block"></a>
+
+**Step 2**: In the form fields, enter your website address and select your timezone.
+
+**Step 3**: Click **Add**.
+
+
+<!--
 **Step 1**: In the form fields, enter your website address and select your timezone. If you have a theme prepared, click **Upload.zip** to install your package.  
 
 **Step 2**: Click **Add**. 
+-->
 
 <img src="../../../images/add-site-form.jpg" alt="add-website" style="width: 40%; display: block"></a>
-
-Once your website is created, you will be automatically directed to the **Websites** dashboard in your CMS. Your new site will appear at the top of the table. 
-
-<img src="../../../images/websites-dashboard.jpg" alt="add-website" style="width: 70%; display: block"></a>
-
 
 **Name** | **Description** 
 :--- | ---
 Website Address | Add a valid URL such as *www.yourdomain<span>.<span>com*. See prerequisites for details. 
 Website Timezone | Set your timezone based on where your website or business location.
 Package (optional)| Upload a theme package with your website. Must be in .zip format.
+
+Once your website is created, you will be automatically directed to the **Websites** dashboard in your CMS. Your new site will appear at the top of the table. 
+
+<img src="../../../images/websites-dashboard.jpg" alt="add-website" style="width: 70%; display: block"></a>
+
+
 
 ## Next Steps
 
