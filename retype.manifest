@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-18T19:06:45Z",
+  "created": "2023-08-18T19:26:40Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1540,10 +1540,14 @@
       "path": "images\\updated_db4.png"
     },
     {
-      "path": "images\\upload-files.png"
+      "path": "images\\upload-files.png",
+      "old": true
     },
     {
       "path": "images\\upload-form.png"
+    },
+    {
+      "path": "images\\uploadfiles.png"
     },
     {
       "path": "images\\user_overview.png"
