@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-17T20:15:39Z",
+  "created": "2023-08-18T08:36:56Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -233,6 +233,9 @@
     },
     {
       "path": "images\\add-website.png"
+    },
+    {
+      "path": "images\\add-website1.png"
     },
     {
       "path": "images\\addapp.jpg"
@@ -1457,6 +1460,9 @@
     },
     {
       "path": "images\\solodeveks.jpg"
+    },
+    {
+      "path": "images\\spacejet-mockup.jpg"
     },
     {
       "path": "images\\spamkeywordlist.jpg"
