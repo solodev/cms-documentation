@@ -1,4 +1,4 @@
-# Add Permissions to Group
+# How to Add Permissions to Group
 
 Solodev features a permissions management system that allows administrators to specify the ‘Actions’ and ‘Resources’ available to specific users and groups. Solodev supports granular permissions so that administrators can create a permission system as broad or as detailed as needed. In this article, you will learn how to specify permissions available to a given group.
 
