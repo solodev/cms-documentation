@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-18T19:26:40Z",
+  "created": "2023-08-18T20:21:22Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1153,13 +1153,25 @@
       "path": "images\\meta-about.png"
     },
     {
+      "path": "images\\meta-about2.png"
+    },
+    {
       "path": "images\\meta-advanced.png"
+    },
+    {
+      "path": "images\\meta-advanced2.png"
     },
     {
       "path": "images\\meta-data.png"
     },
     {
       "path": "images\\meta-meta.png"
+    },
+    {
+      "path": "images\\meta-meta2.png"
+    },
+    {
+      "path": "images\\meta-web-files.png"
     },
     {
       "path": "images\\modalpermissions.jpg"
@@ -1277,6 +1289,9 @@
     },
     {
       "path": "images\\overwrite.png"
+    },
+    {
+      "path": "images\\package-json.png"
     },
     {
       "path": "images\\parameters-solodev-cms-opsworks.jpg"
