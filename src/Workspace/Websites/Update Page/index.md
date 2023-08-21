@@ -105,7 +105,7 @@ In addition to Draft, Stage, and Publish, the editing pane offers additional fea
 
 **Name** | **Description**
 :--- | ---
- Draft |Create a draft version of your code or content.
+Draft |Create a draft version of your code or content.
 <a href="/workspace/websites/manage-folder/stage/">Stage</a>  |Set up a staged version of your code or content for review as part of your workflow. 
 <a href="/workspace/websites/manage-folder/publish/">Publish</a> |Push your code or content to live production. 
 <a href="/workspace/documents/editing-files/add-to-group/">Add to Group</a> |  Assign a specific group to your file or asset. 
@@ -145,11 +145,21 @@ The Metadata panel also previews how the page will unfurl in search results and 
 
 <img src="../../../images/spacejet-unfurl.jpg" alt="manage-website" style="width: 40%; display: block"></a> 
 
-
-
 ### Advanced
 
+<!-- You'll discover settings that let you finely control various aspects of your webpage. These options are perfect for users with deeper web development knowledge who want to customize their pages further. From optimizing for search engines to adding custom code, these settings allow you to tailor your page's behavior, appearance, and functionality. Let's explore the available options:
 
-
-
-
+**Name** | **Description**
+:--- | ---
+H1 Title | The main heading of the page. 
+Page Description | Provides a brief overview of the page's content. 
+Menu Name | Specifies how the page is displayed in navigation menus. It can be different from the page's actual title. 
+Rank | Determines the order in which pages are displayed in navigation menus or other listing views. 
+Social Media Image | Image that is displayed when the page is shared on social media platforms.  
+Tags | Keywords or labels associated with the page. 
+Body ID | An HTML attribute that provides a unique identifier for the page's main content area. 
+Body Role | Specifies the role of the main content area in the page's structure, following web accessibility guidelines. 
+Body Class | HTML attribute that assigns one or more classes to the page's main content area. 
+Header Code | allows you to add custom code to the page's header section. 
+Is Template | If enabled, this indicates that the page is a template for other pages. 
+Is Cached | If enabled, the page content may be cached to improve performance.  -->
