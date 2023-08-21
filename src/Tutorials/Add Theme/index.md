@@ -1,4 +1,4 @@
-# How to add Theme to your website
+# How to Add Theme to Your Website
 
 In Solodev, you have the option of installing a theme to any new website that you deploy. In this article, you will learn what a theme is, how to get started  with the Solodev SpaceJet theme, and how to upload a theme package to your website.
 

@@ -1,4 +1,4 @@
-# How to add Page Template
+# How to Add Page Template
 
 In Solodev, a page template is a reusable component that allows you to build website pages faster and easier. They provide control over your website structure while giving you the freedom to customize where needed. In this article, you will learn the key concepts behind page templates, the importance of dynamic divs, and how to create a base and content template for your website. 
 

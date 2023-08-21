@@ -1,4 +1,4 @@
-# Adding a CDN information
+# Adding a CDN Information
 
 Configure your website to use a Content Delivery Network.
 

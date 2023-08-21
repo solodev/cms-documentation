@@ -1,4 +1,4 @@
-# How to connect your DNS
+# How to Connect Your DNS
 
 After creating a website, developers can use the URLs provided to update their DNS tables and launch their website. The steps to access these URLs and update your DNS tables are provided below.
 
