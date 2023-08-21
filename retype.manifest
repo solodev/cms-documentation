@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-18T19:26:40Z",
+  "created": "2023-08-21T12:18:45Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1102,6 +1102,9 @@
       "path": "images\\launch-enterprise.png"
     },
     {
+      "path": "images\\left-side-menu.jpg"
+    },
+    {
       "path": "images\\logo.png"
     },
     {
@@ -1153,13 +1156,25 @@
       "path": "images\\meta-about.png"
     },
     {
+      "path": "images\\meta-about2.png"
+    },
+    {
       "path": "images\\meta-advanced.png"
+    },
+    {
+      "path": "images\\meta-advanced2.png"
     },
     {
       "path": "images\\meta-data.png"
     },
     {
       "path": "images\\meta-meta.png"
+    },
+    {
+      "path": "images\\meta-meta2.png"
+    },
+    {
+      "path": "images\\meta-web-files.png"
     },
     {
       "path": "images\\modalpermissions.jpg"
@@ -1277,6 +1292,9 @@
     },
     {
       "path": "images\\overwrite.png"
+    },
+    {
+      "path": "images\\package-json.png"
     },
     {
       "path": "images\\parameters-solodev-cms-opsworks.jpg"
@@ -1468,7 +1486,34 @@
       "path": "images\\solodeveks.jpg"
     },
     {
+      "path": "images\\spacejet-div-access-2.jpg"
+    },
+    {
+      "path": "images\\spacejet-div-access.jpg"
+    },
+    {
+      "path": "images\\spacejet-div-inline-editor.jpg"
+    },
+    {
+      "path": "images\\spacejet-edit-code-tools.png"
+    },
+    {
+      "path": "images\\spacejet-main-page.jpg"
+    },
+    {
+      "path": "images\\spacejet-metadata-panel.jpg"
+    },
+    {
       "path": "images\\spacejet-mockup.jpg"
+    },
+    {
+      "path": "images\\spacejet-top-toolbar.jpg"
+    },
+    {
+      "path": "images\\spacejet-tpl-code.png"
+    },
+    {
+      "path": "images\\spacejet-unfurl.jpg"
     },
     {
       "path": "images\\spamkeywordlist.jpg"
