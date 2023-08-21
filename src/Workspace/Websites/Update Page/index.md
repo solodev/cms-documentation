@@ -147,7 +147,9 @@ The Metadata panel also previews how the page will unfurl in search results and 
 
 ### Advanced
 
-<!-- You'll discover settings that let you finely control various aspects of your webpage. These options are perfect for users with deeper web development knowledge who want to customize their pages further. From optimizing for search engines to adding custom code, these settings allow you to tailor your page's behavior, appearance, and functionality. Let's explore the available options:
+Customize your page's behavior, appearance, and functionality with granular settings to add social media images, control rank, manage header code, and more.
+
+<img src="../../../images/meta-advan.png" alt="manage-website" style="width: 40%; display: block"></a> 
 
 **Name** | **Description**
 :--- | ---
@@ -162,4 +164,4 @@ Body Role | Specifies the role of the main content area in the page's structure,
 Body Class | HTML attribute that assigns one or more classes to the page's main content area. 
 Header Code | allows you to add custom code to the page's header section. 
 Is Template | If enabled, this indicates that the page is a template for other pages. 
-Is Cached | If enabled, the page content may be cached to improve performance.  -->
+Is Cached | If enabled, the page content may be cached to improve performance. 
