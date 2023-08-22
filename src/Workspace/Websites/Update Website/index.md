@@ -35,7 +35,7 @@ Manage the meta information.
 
 **Name** | **Description** 
 :--- | ---
-Body Class | The body class is a class or series of classes applied to the HTML body element. This is useful for applying unique styles to different areas of a WordPress site, as body classes can be added conditionally. The body class is usually included in a theme using the following code: ```<body <?php body_class(); ?>>```. To add your class to this, you can pass an argument into the function, like so: ```<body <?php body_class( 'my-class' ); ?>>```. This would add a body class of ```my-class``` on each page of your site. To add a body class, enter text in the text box.
+Body Class | The body class is a class or series of classes applied to the HTML body element. This is useful for applying unique styles to different areas of a WordPress site, as body classes can be added conditionally. The body class is usually included in a theme using the following code: `<body <?php body_class(); ?>>`. To add your class to this, you can pass an argument into the function, like so: `<body <?php body_class( 'my-class' ); ?>>`. This would add a body class of `my-class` on each page of your site. To add a body class, enter text in the text box.
 Global HTML Tag | All HTML documents must start with a <!DOCTYPE> declaration. To declare your DOCTYPE, enter text in the text box.
 Global Header Insert | To add a global header, insert enter text in the text box.
 
