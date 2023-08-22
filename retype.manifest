@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-22T13:10:06Z",
+  "created": "2023-08-22T14:18:01Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2033,7 +2033,8 @@
       "path": "support\\tasks\\update-task\\index.html"
     },
     {
-      "path": "tutorials\\add-form\\index.html"
+      "path": "tutorials\\add-form\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\add-groups\\index.html"
@@ -2045,13 +2046,16 @@
       "path": "tutorials\\add-page-template-old\\index.html"
     },
     {
-      "path": "tutorials\\add-page-template\\index.html"
+      "path": "tutorials\\add-page-template\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\add-permissions-to-group\\index.html"
+      "path": "tutorials\\add-permissions-to-group\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\add-theme\\index.html"
+      "path": "tutorials\\add-theme\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\add-users\\index.html"
@@ -2183,7 +2187,8 @@
       "path": "tutorials\\apps\\index.html"
     },
     {
-      "path": "tutorials\\cdn-information\\index.html"
+      "path": "tutorials\\cdn-information\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\add-form\\index.html",
@@ -2210,8 +2215,10 @@
       "old": true
     },
     {
-      "path": "tutorials\\cms\\add-permissions-to-group\\index.html",
-      "old": true
+      "path": "tutorials\\cms\\add-permissions-to-group\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\add-theme\\index.html"
     },
     {
       "path": "tutorials\\cms\\add-users\\index.html",
@@ -2220,6 +2227,12 @@
     {
       "path": "tutorials\\cms\\add-website\\index.html",
       "old": true
+    },
+    {
+      "path": "tutorials\\cms\\cdn-information\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\connect-your-dns\\index.html"
     },
     {
       "path": "tutorials\\cms\\create-a-base-template\\index.html",
@@ -2233,7 +2246,14 @@
       "path": "tutorials\\cms\\index.html"
     },
     {
-      "path": "tutorials\\connect-your-dns\\index.html"
+      "path": "tutorials\\cms\\registering-domain\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\ssl-information\\index.html"
+    },
+    {
+      "path": "tutorials\\connect-your-dns\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\create-a-base-template\\index.html"
@@ -2245,13 +2265,21 @@
       "path": "tutorials\\index.html"
     },
     {
-      "path": "tutorials\\registering-domain\\index.html"
+      "path": "tutorials\\registering-domain\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\ssl-information\\index.html"
+      "path": "tutorials\\ssl-information\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\website\\add-an-email-tickler\\index.html"
+    },
+    {
+      "path": "tutorials\\website\\add-form\\index.html"
+    },
+    {
+      "path": "tutorials\\website\\add-page-template\\index.html"
     },
     {
       "path": "tutorials\\website\\alt-tags\\index.html"
