@@ -11,13 +11,13 @@ In Solodev, a page template is a reusable component that allows you to build web
 
 There is no limit to the kinds of page templates you can create in Solodev, but most websites use these common types as a best practice:
 
-*	**<a href="/tutorials/add-page-template/#base-template">Base Template:</a>**
+*	**<a href="/tutorials/website/add-page-template/#base-template">Base Template:</a>**
 The base template is the foundation for every page of your website. It typically consists of a header, footer, and dynamic divs for adding content. Because they are universal, any changes made to a base template will be reflected across all pages of your site.  
 
-*	**<a href="/tutorials/add-page-template/#content-template">Content template:</a>**
+*	**<a href="/tutorials/website/add-page-template/#content-template">Content template:</a>**
 A content template is usually placed within the base template. Sometimes referred to as an “interior template,” content templates power the bulk of your website, and can be reused for various sections that require multiple pages.
 
-* **<a href="/tutorials/add-page-template/#create-a-sectional-template">Sectional Template:</a>** 
+* **<a href="/tutorials/website/add-page-template/#create-a-sectional-template">Sectional Template:</a>** 
 A sectional template is a high-level overview of a "section" of your website's content. Think of it as a jumping-off point to areas that fall under a specific content theme or topic. Sectional templates can be used in a variety of ways, but most provide a collection of snippets and links to relevant areas. For example, if a website has a section called "Departments," a sectional template might include an overview along with a list of links to all the departments. Because they are used sparingly, sectional templates generally have a distinct design from your content templates, helping them stand out.
 
 ## Dynamic Divs

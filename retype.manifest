@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-22T19:48:23Z",
+  "created": "2023-08-23T17:59:44Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1141,7 +1141,11 @@
       "path": "images\\manage-documents.png"
     },
     {
-      "path": "images\\manage-folder.jpg"
+      "path": "images\\manage-folder.jpg",
+      "old": true
+    },
+    {
+      "path": "images\\manage-website.jpg"
     },
     {
       "path": "images\\manage.png"
@@ -2561,6 +2565,10 @@
       "path": "workspace\\websites\\manage-folder\\add-page\\index.html"
     },
     {
+      "path": "workspace\\websites\\manage-folder\\add-theme\\index.html",
+      "old": true
+    },
+    {
       "path": "workspace\\websites\\manage-folder\\addcollection\\index.html"
     },
     {
@@ -2598,66 +2606,6 @@
     },
     {
       "path": "workspace\\websites\\manage-folder\\upload\\index.html"
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\add-page\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\add-theme\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\addcollection\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\addexperiment\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\addfile\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\addfolder\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\addgroup\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\addlink\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\addscheduler\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\permissions\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\publish\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\stage\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\updatefolder\\index.html",
-      "old": true
-    },
-    {
-      "path": "workspace\\websites\\manage-folder\\upload\\index.html",
-      "old": true
     },
     {
       "path": "workspace\\websites\\permissions\\index.html"
