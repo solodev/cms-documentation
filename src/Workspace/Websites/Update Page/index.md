@@ -5,7 +5,7 @@ In Solodev, you can update any page on your website under the www folder. You ca
 
 In this article, you will learn how to access a specific page in your www folder, modify it using the editing options available in your CMS, and update your page’s meta information and details. 
 
-<img src="../../../images/spacejet-main-page.jpg" alt="manage-website" style="width: 100%; display: block"></a> 
+<img src="../../../images/spacejet-main-page.jpg" alt="manage-folder" style="width: 100%; display: block"></a> 
 
 ## Prerequisites 
 - You will need to <a href="/workspace/websites/add-website/">add a website</a> to your CMS.
@@ -14,14 +14,14 @@ In this article, you will learn how to access a specific page in your www folder
 
 ## Using STML files
 
-The most important assets in your www folder are STML files (.stml), the individual website files that are served in a browser when a user visits your website. STML files are built with templates using <a href="/tutorials/add-page-template/#dynamic-divs">dynamic divs</a>. A template imports common elements to a page such as the header and footer, while dynamic divs allow you to include unique page content, such as text, images, and more. 
+The most important assets in your www folder are STML files (.stml), the individual website files that are served in a browser when a user visits your website. STML files are built with templates using <a href="/tutorials/website/add-page-template/#dynamic-divs">dynamic divs</a>. A template imports common elements to a page such as the header and footer, while dynamic divs allow you to include unique page content, such as text, images, and more. 
 
 ## Viewing your page
 The Solodev editing experience is highly visual and provides a fully rendered preview of your page’s template elements, graphics, and text. 
 
 Using the toolbar at the top of the screen, you can instantly view your page in a desktop, tablet, and smartphone format to test responsiveness and make in-line edits. You can also highlight divs, open a tab to your live page, and expand the window to maximize your viewable area.
 
-<img src="../../../images/spacejet-top-toolbar.jpg" alt="manage-website" style="width: 100%; display: block"></a> 
+<img src="../../../images/spacejet-top-toolbar.jpg" alt="manage-folder" style="width: 100%; display: block"></a> 
 
 
 **Name** | **Description**
@@ -42,15 +42,15 @@ This low-code method is ideal for making quick changes to your content like upda
 
 **Step 1**: Open the **www folder** in the left-hand menu and select a page to edit. Remember to click on the triangle graphic to the left of each folder to access its contents.
 
-<img src="../../../images/left-side-menu.jpg" alt="manage-website" style="width: 20%; display: block"></a> 
+<img src="../../../images/left-side-menu.jpg" alt="manage-folder" style="width: 20%; display: block"></a> 
 
 **Step 2**: On your selected page, click on the section you wish to edit to access the dynamic div. A small flag with a pencil icon and text will appear inthe upper left corner. Click on the icon to directly edit the page.
 
-<img src="../../../images/spacejet-div-access.jpg" alt="manage-website" style="width: 100%; display: block"></a> 
+<img src="../../../images/spacejet-div-access.jpg" alt="manage-folder" style="width: 100%; display: block"></a> 
 
 **Step 3**: Once activated, an editing toolbar will appear in your div, allowing you to select text and update your page directly. You can apply styles for bold, italic, and underlined text and change the heading styles. You can also apply numbering, bullets, and links to your content. 
 
-<img src="../../../images/spacejet-div-inline-editor.jpg" alt="manage-website" style="width: 100%; display: block"></a> 
+<img src="../../../images/spacejet-div-inline-editor.jpg" alt="manage-folder" style="width: 100%; display: block"></a> 
 
 !!! **Note**: 
 
@@ -83,20 +83,20 @@ In addition to in-line editing, you can access the code to update a div or .tpl 
 
 **Step 1**: Open the **www folder** in the left-hand menu and select a page to edit. Remember to click on the triangle graphic to the left of each folder to access its contents.
 
-<img src="../../../images/left-side-menu.jpg" alt="manage-website" style="width: 20%; display: block"></a> 
+<img src="../../../images/left-side-menu.jpg" alt="manage-folder" style="width: 20%; display: block"></a> 
 
 **Step 2**: On your selected page, click on the section you wish to edit to access the dynamic div. A small flag with a pencil icon and text will appear inthe upper left corner. Click on the text to access the code for the div. 
 
-<img src="../../../images/spacejet-div-access-2.jpg" alt="manage-website" style="width: 100%; display: block"></a> 
+<img src="../../../images/spacejet-div-access-2.jpg" alt="manage-folder" style="width: 100%; display: block"></a> 
 
 
 **Step 3**: Once the code appears, you can make any desired modifications.
 
-<img src="../../../images/spacejet-tpl-code.png" alt="manage-website" style="width: 100%; display: block"></a> 
+<img src="../../../images/spacejet-tpl-code.png" alt="manage-folder" style="width: 100%; display: block"></a> 
 
 **Step 4**: After updating your content, use the **Draft**, **Stage**, or **Publish** buttons in the editing pane to save your changes for review or to push live directly.  
 
-<img src="../../../images/spacejet-edit-code-tools.png" alt="manage-website" style="width: 100%; display: block"></a> 
+<img src="../../../images/spacejet-edit-code-tools.png" alt="manage-folder" style="width: 100%; display: block"></a> 
 
 
 !!! **Note**: 
@@ -115,7 +115,7 @@ Draft |Create a draft version of your code or content.
 <a href="/workspace/documents/editing-files/delete/">Delete</a>  |Removed a file or folder from your website.
 <a href="/workspace/documents/editing-files/show-or-hide-meta-data/">Meta</a> | Add meta information and details.
 <a href="/workspace/documents/editing-files/includes/">Includes</a> | Add files as includes featuring a name and location.
-<a href="/workspace/websites/manage-folder/upload//">Upload Files </a> | Add files using a drag-and-drop uploader. 
+<a href="/workspace/websites/manage-folder/upload/">Upload Files </a> | Add files using a drag-and-drop uploader. 
 
 
 ## Manage meta information with the Metadata panel
@@ -124,7 +124,7 @@ When updating a page using in-line editing, you can view and manage your meta in
 
 The Metadata panel provides quick access to details such as the page ID, which team member made the last update, and the page's location in your website structure. It also provides editable components for page name, description, keywords, and more. 
 
-<img src="../../../images/spacejet-metadata-panel.jpg" alt="manage-website" style="width: 100%; display: block"></a> 
+<img src="../../../images/spacejet-metadata-panel.jpg" alt="manage-folder" style="width: 100%; display: block"></a> 
 
 
 !!! **Note**:
@@ -143,13 +143,13 @@ Structured | Apply structured status to your page within your folder hierarchy.
 ### Unfurling Preview 
 The Metadata panel also previews how the page will unfurl in search results and other applications like Slack.
 
-<img src="../../../images/spacejet-unfurl.jpg" alt="manage-website" style="width: 40%; display: block"></a> 
+<img src="../../../images/spacejet-unfurl.jpg" alt="manage-folder" style="width: 40%; display: block"></a> 
 
 ### Advanced
 
 Customize your page's behavior, appearance, and functionality with granular settings to add social media images, control rank, manage header code, and more.
 
-<img src="../../../images/meta-advan.png" alt="manage-website" style="width: 40%; display: block"></a> 
+<img src="../../../images/meta-advan.png" alt="manage-folder" style="width: 40%; display: block"></a> 
 
 **Name** | **Description**
 :--- | ---

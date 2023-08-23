@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-22T15:37:09Z",
+  "created": "2023-08-22T19:48:23Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1141,7 +1141,7 @@
       "path": "images\\manage-documents.png"
     },
     {
-      "path": "images\\manage-website.jpg"
+      "path": "images\\manage-folder.jpg"
     },
     {
       "path": "images\\manage.png"
@@ -2343,7 +2343,8 @@
       "old": true
     },
     {
-      "path": "tutorials\\websites\\add-page-template\\index.html"
+      "path": "tutorials\\websites\\add-page-template\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\alt-tags\\index.html",
@@ -2398,7 +2399,8 @@
       "old": true
     },
     {
-      "path": "tutorials\\websites\\index.html"
+      "path": "tutorials\\websites\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\installing-and-configuring-a-theme\\index.html",
@@ -2598,63 +2600,63 @@
       "path": "workspace\\websites\\manage-folder\\upload\\index.html"
     },
     {
-      "path": "workspace\\websites\\manage-website\\add-page\\index.html",
+      "path": "workspace\\websites\\manage-folder\\add-page\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\add-theme\\index.html",
+      "path": "workspace\\websites\\manage-folder\\add-theme\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\addcollection\\index.html",
+      "path": "workspace\\websites\\manage-folder\\addcollection\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\addexperiment\\index.html",
+      "path": "workspace\\websites\\manage-folder\\addexperiment\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\addfile\\index.html",
+      "path": "workspace\\websites\\manage-folder\\addfile\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\addfolder\\index.html",
+      "path": "workspace\\websites\\manage-folder\\addfolder\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\addgroup\\index.html",
+      "path": "workspace\\websites\\manage-folder\\addgroup\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\addlink\\index.html",
+      "path": "workspace\\websites\\manage-folder\\addlink\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\addscheduler\\index.html",
+      "path": "workspace\\websites\\manage-folder\\addscheduler\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\index.html",
+      "path": "workspace\\websites\\manage-folder\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\permissions\\index.html",
+      "path": "workspace\\websites\\manage-folder\\permissions\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\publish\\index.html",
+      "path": "workspace\\websites\\manage-folder\\publish\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\stage\\index.html",
+      "path": "workspace\\websites\\manage-folder\\stage\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\updatefolder\\index.html",
+      "path": "workspace\\websites\\manage-folder\\updatefolder\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-website\\upload\\index.html",
+      "path": "workspace\\websites\\manage-folder\\upload\\index.html",
       "old": true
     },
     {

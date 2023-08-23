@@ -5,7 +5,7 @@ In Solodev, a page template is a reusable component that allows you to build web
 ## Prerequisites 
 
 -	You will need to <a href="/workspace/websites/add-website/">add a website</a> to your Solodev CMS
--	You will need to <a href="/workspace/websites/manage-website/add-page/">add a page</a>
+-	You will need to <a href="/workspace/websites/manage-folder/add-page/">add a page</a>
 
 ## Page Templates
 
@@ -35,7 +35,7 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 <img src="../../../images/base-template.jpg" alt="base template" style="width: 100%; display: block"></a>
 
-**Step 1**.	To get started go to **web files > templates** and <a href="/workspace/websites/manage-website/addfile/">add a file</a>.
+**Step 1**.	To get started go to **web files > templates** and <a href="/workspace/websites/manage-folder/addfile/">add a file</a>.
 
 **Step 2**.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
 
@@ -69,7 +69,7 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 <img src="../../../images/content-template.png" alt="base template" style="width: 80%; display: block"></a>
 
-**Step 1**.	Go to **web files > templates** and <a href="/workspace/websites/manage-website/addfile/">add a file</a>.
+**Step 1**.	Go to **web files > templates** and <a href="/workspace/websites/manage-folder/addfile/">add a file</a>.
 
 **Step 2**.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
 
@@ -119,7 +119,7 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 ## Create a sectional template
 
-**Step 1**. Go to the **www folder** and <a href="/workspace/websites/manage-website/add-page/">add page</a>.
+**Step 1**. Go to the **www folder** and <a href="/workspace/websites/manage-folder/add-page/">add page</a>.
 
 **Step 2**.  Name the page and click **Submit**.
 

@@ -6,25 +6,25 @@ By clicking on the <a href="/workspace/websites/website-overview/#web-files">web
 While all the functions for the web files and www folder are the same, the www folder also includes <a href="/workspace/websites/manage-folder/add-page/">adding a page</a>, which can be done in the main folder (where the index.stml file exists) or any sub-folders for your website sections. 
 !!!
 
-<img src="../../../images/manage-website.jpg" alt="manage-website" style="width: 100%; display: block"></a> 
+<img src="../../../images/manage-folder.jpg" alt="manage-folder" style="width: 100%; display: block"></a> 
 
 ---
 
 **Name** | **Description**
 :--- | ---
-<a href="/workspace/websites/manage-website/updatefolder/">Update Folder</a> | Change folder details like name or title and perform advanced functions like deleting a folder.
-<a href="/workspace/websites/manage-website/upload/">Upload</a> | Drag and drop documents into your folder. 
-<a href="/workspace/websites/manage-website/addfolder/">Add Folder</a> | Create a new folder in your website and add specific details like name and title.
-<a href="/workspace/websites/manage-website/addfile/">Add File</a> | Add an HTML or code file type into a folder on your website. 
-<a href="/workspace/websites/manage-website/addlink/">Add Link</a> | Add and rank a link and control properties such as opening in a new window.
+<a href="/workspace/websites/manage-folder/updatefolder/">Update Folder</a> | Change folder details like name or title and perform advanced functions like deleting a folder.
+<a href="/workspace/websites/manage-folder/upload/">Upload</a> | Drag and drop documents into your folder. 
+<a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> | Create a new folder in your website and add specific details like name and title.
+<a href="/workspace/websites/manage-folder/addfile/">Add File</a> | Add an HTML or code file type into a folder on your website. 
+<a href="/workspace/websites/manage-folder/addlink/">Add Link</a> | Add and rank a link and control properties such as opening in a new window.
 <a href="/workspace/websites/manage-folder/add-page/">Add a Page</a>| Add a new page to the master www folder or any sub-folder. 
-<a href="/workspace/websites/manage-website/addgroup/">Add Group</a> | Create a new group within your website folder.
-<a href="/workspace/websites/manage-website/addexperiment/">Add Experiment</a> | Set up an A/B test for page content using a Google Optimize experiment ID.
-<a href="/workspace/websites/manage-website/addscheduler/">Add Scheduler</a> | Schedule a start date for a specific file in your Workspace.
-<a href="/workspace/websites/manage-website/addcollection/">Add Collection</a> | Create custom categories for organizing collections of modules.
-<a href="/workspace/websites/manage-website/stage/">Stage</a> | Assign files or folders to be reviewed and published.
-<a href="/workspace/websites/manage-website/publish/">Publish</a> | Push files or folders live on your website. 
-<a href="/workspace/websites/manage-website/permissions/">Permissions</a> | Manage user access to files and folders with specific roles.  
+<a href="/workspace/websites/manage-folder/addgroup/">Add Group</a> | Create a new group within your website folder.
+<a href="/workspace/websites/manage-folder/addexperiment/">Add Experiment</a> | Set up an A/B test for page content using a Google Optimize experiment ID.
+<a href="/workspace/websites/manage-folder/addscheduler/">Add Scheduler</a> | Schedule a start date for a specific file in your Workspace.
+<a href="/workspace/websites/manage-folder/addcollection/">Add Collection</a> | Create custom categories for organizing collections of modules.
+<a href="/workspace/websites/manage-folder/stage/">Stage</a> | Assign files or folders to be reviewed and published.
+<a href="/workspace/websites/manage-folder/publish/">Publish</a> | Push files or folders live on your website. 
+<a href="/workspace/websites/manage-folder/permissions/">Permissions</a> | Manage user access to files and folders with specific roles.  
 
 ## Members
 

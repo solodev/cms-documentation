@@ -1,6 +1,6 @@
 # Add Page
 
-A page is the basic building block of a website. It acts as a container for your content while providing a general structure based on your <a href="/tutorials/add-page-template/">page template</a> and styling. In this article, you’ll learn how to add a page to your Solodev CMS website in just a few steps.
+A page is the basic building block of a website. It acts as a container for your content while providing a general structure based on your <a href="/tutorials/website/add-page-template/">page template</a> and styling. In this article, you’ll learn how to add a page to your Solodev CMS website in just a few steps.
 
 ## STML Files 
 
@@ -39,7 +39,7 @@ If your website already contains multiple folders for various sections (such as 
 
 <img src="/../../../images/add-page-modal-details.png" alt="add page modal details" style="width: 40%; display: block"></a>
 
-**Step 6:** Using the **Template** picker, select an available page template to apply to your page. If you do not have any page templates available, learn how to <a href="/tutorials/add-page-template/">add a page template</a>. (Optional)
+**Step 6:** Using the **Template** picker, select an available page template to apply to your page. If you do not have any page templates available, learn how to <a href="/tutorials/website/add-page-template/">add a page template</a>. (Optional)
 
 <img src="/../../../images/add-page-templates.png" alt="add page templates" style="width: 40%; display: block"></a>
 
@@ -48,11 +48,11 @@ If your website already contains multiple folders for various sections (such as 
 <img src="/../../../images/add-page-link-view.png" alt="add page link view" style="width: 100%; display: block"></a>
 
 !!!Note:
-If you have a template as part of your website, your page will already be formatted with the template elements. If not, you can use <a href="/tutorials/add-page-template/#dynamic-divs">dynamic divs</a> to add content to a blank page or add custom HTML code to style it. 
+If you have a template as part of your website, your page will already be formatted with the template elements. If not, you can use <a href="/tutorials/website/add-page-template/#dynamic-divs">dynamic divs</a> to add content to a blank page or add custom HTML code to style it. 
 !!!
 
 ## Next Steps
 
-- <a href="/workspace/websites/manage-website/addfile/#add-file">Add file</a>
-- <a href="/tutorials/add-form/">Add form</a>
-- <a href="/workspace/websites/manage-website/">Manage Website</a>
+- <a href="/workspace/websites/manage-folder/addfile/#add-file">Add file</a>
+- <a href="/tutorials/website/add-form/">Add form</a>
+- <a href="/workspace/websites/manage-folder/">Manage Website</a>
