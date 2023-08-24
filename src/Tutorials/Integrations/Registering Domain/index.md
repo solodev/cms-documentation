@@ -1,4 +1,4 @@
-# Domain Registration and Website Setup Guide
+# How to connect your domain in GoDaddy
 
 ## Register Your Domain with GoDaddy
 
