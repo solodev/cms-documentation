@@ -49,4 +49,3 @@ Once launched, follow the prompts in the modal window to build your avatar. This
 ## Confirm
 
 Once you have completed any changes to your profile details or image, click **Update**. 
-

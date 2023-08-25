@@ -72,7 +72,6 @@ Upgrades include a new serverless AWS document database solution to replace Mong
 
 ---
 
-
 ### v9.7 
 
 Solodev CMS 9.7 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. Version 9.7 further optimizes the performance of the platform and modernizes code to reflect current technologies and practices. 
