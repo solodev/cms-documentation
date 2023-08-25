@@ -14,7 +14,7 @@ In this article, you will learn how to access a specific page in your www folder
 
 ## Using STML files
 
-The most important assets in your www folder are STML files (.stml), the individual website files that are served in a browser when a user visits your website. STML files are built with templates using <a href="/tutorials/website/add-page-template/#dynamic-divs">dynamic divs</a>. A template imports common elements to a page such as the header and footer, while dynamic divs allow you to include unique page content, such as text, images, and more. 
+The most important assets in your www folder are STML files (.stml), the individual website files that are served in a browser when a user visits your website. STML files are built with templates using <a href="/tutorials/websites/add-page-template/#dynamic-divs">dynamic divs</a>. A template imports common elements to a page such as the header and footer, while dynamic divs allow you to include unique page content, such as text, images, and more. 
 
 ## Viewing your page
 The Solodev editing experience is highly visual and provides a fully rendered preview of your page’s template elements, graphics, and text. 

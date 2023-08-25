@@ -11,7 +11,7 @@ Solodev is a native multi-site platform, allowing you to run multiple websites a
 - You need a valid URL such as *www.yourdomain<span>.<span>com*. If you do not currently own a URL, you can purchase one through a domain registrar such as [GoDaddy.com](https://www.godaddy.com). 
 - Once you have a URL, you need to point your domain’s DNS records to the server where your Solodev CMS is hosted on AWS. Visit your registrar’s website for instructions. 
 - To locate your server’s IP address in AWS, review step 6 of the Quickstart for [Solodev CMS Professional Edition](../../../quickstart/solodev-pro/) or [Solodev CMS Enterprise Edition](../../../quickstart/solodev-enterprise/).
-- If you want to install an optional theme to your website, learn how to <a href="/tutorials/integrations/add-theme/">add a theme</a>.
+- If you want to install an optional theme to your website, learn how to <a href="/tutorials/websites/add-theme/">add a theme</a>.
 
 
 ## Add Site 
@@ -48,4 +48,6 @@ Once your website is created, you will be automatically directed to the **Websit
 ## Next Steps
 
 - <a href="/workspace/websites/manage-folder/add-page/">Add page</a>
-- <a href="/tutorials/website/add-page-template/">Add page template</a>
+- <a href="/tutorials/websites/add-page-template/">Add page template</a>
+
+

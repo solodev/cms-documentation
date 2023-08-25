@@ -53,7 +53,8 @@ Uploading a theme package may take a few minutes to complete. During thisperiod,
 ## Next Steps
 
 - <a href="../../../workspace/websites/manage-folder/add-page/">Add page</a>
-- <a href="/tutorials/website/add-page-template/">Add page template</a>
+- <a href="/tutorials/websites/add-page-template/">Add page template</a>
+
 
 
 
