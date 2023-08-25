@@ -24,7 +24,6 @@ Solodev is a native multi-site platform, allowing you to run multiple websites a
 
 **Step 3**: Click **Add**.
 
-
 <!--
 **Step 1**: In the form fields, enter your website address and select your timezone. If you have a theme prepared, click **Upload.zip** to install your package.  
 
