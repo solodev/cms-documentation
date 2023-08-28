@@ -1,6 +1,4 @@
-# How to add keywords to the Spam Keyword List in Solodev CMS 
-
-
+# How to update a form spam keyword list
 
 Solodev CMS offers a built-in spam filtering feature that helps minimize form entries that contain specific keywords, such as profanity. 
 
