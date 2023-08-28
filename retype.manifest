@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-25T18:13:54Z",
+  "created": "2023-08-25T21:28:58Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1653,6 +1653,9 @@
       "path": "images\\websites-add7.jpg"
     },
     {
+      "path": "images\\websites-dashboard-blank.jpg"
+    },
+    {
       "path": "images\\websites-dashboard.jpg"
     },
     {
@@ -2456,6 +2459,9 @@
     },
     {
       "path": "tutorials\\websites\\designing-your-websites-layout\\index.html"
+    },
+    {
+      "path": "tutorials\\websites\\how-to-make-a-theme\\index.html"
     },
     {
       "path": "tutorials\\websites\\index.html"
