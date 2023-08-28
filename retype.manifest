@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-25T21:28:58Z",
+  "created": "2023-08-28T17:49:53Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1100,6 +1100,15 @@
     },
     {
       "path": "images\\ipqualityscore.jpg"
+    },
+    {
+      "path": "images\\keywords1.jpg"
+    },
+    {
+      "path": "images\\keywords2.jpg"
+    },
+    {
+      "path": "images\\keywords3.jpg"
     },
     {
       "path": "images\\launch-enterprise.png"
@@ -2258,6 +2267,9 @@
     {
       "path": "tutorials\\cms\\create-an-interior-template\\index.html",
       "old": true
+    },
+    {
+      "path": "tutorials\\cms\\howtoaddkeywordstothespamkeywordslist\\index.html"
     },
     {
       "path": "tutorials\\cms\\index.html"
