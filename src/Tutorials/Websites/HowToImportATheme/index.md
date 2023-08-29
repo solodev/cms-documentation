@@ -1,3 +1,3 @@
-# How to connect a module to a website
+# How to import a theme
 
 Coming soon. For question, please [Contact Us](mailto:sales@solodev.com).
