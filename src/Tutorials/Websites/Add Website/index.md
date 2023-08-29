@@ -1,4 +1,4 @@
-# How to add a website
+# How to add a website to your CMS
 
 In Solodev, you can add a new website to your CMS with just a few basic details. You also have the option of uploading a ready-made theme package with your new site. 
 

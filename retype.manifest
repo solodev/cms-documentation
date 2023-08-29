@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-28T21:25:34Z",
+  "created": "2023-08-29T08:53:48Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2474,6 +2474,9 @@
     },
     {
       "path": "tutorials\\websites\\how-to-make-a-theme\\index.html"
+    },
+    {
+      "path": "tutorials\\websites\\howtoimportatheme\\index.html"
     },
     {
       "path": "tutorials\\websites\\index.html"

@@ -1,4 +1,4 @@
-# How to create a module
+# How to create a module in your CMS
 
 A <a href="/workspace/modules/">module</a> can be added to any website in Solodev. In this article, you will learn how to install a module, how to add both a repeater and detail template, and how to map a detail page to your module.
 
