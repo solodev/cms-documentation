@@ -5,7 +5,7 @@ Solodev Tutorials provide concise, step-by-step instructions for adding key feat
 Choose a Tutorial Section from the links below:
 
 -	<a href="/tutorials/cms/">CMS</a>
--	<a href="/tutorials/websites/add-page-template/">Website</a>
+-	<a href="/tutorials/websites/">Website</a>
 -	<a href="/tutorials/integrations/">Integrations</a>
 -	<a href="/tutorials/apps/">Apps</a>
 
