@@ -25,7 +25,7 @@ You can quickly link to the most recent pages, template files, documents, or ima
 
 To access a specific file, click on a row in the **Recent Files** table.
 
-<img src="../../../images/Recent-Files-2.jpg" alt="recent files" style="width: 70%; display: block"></a>
+<img src="../../../images/recentfiles2.jpg" alt="recent files" style="width: 70%; display: block"></a>
 
 ## web files and www 
 
