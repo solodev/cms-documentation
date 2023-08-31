@@ -6,7 +6,7 @@ By clicking on the <a href="/workspace/websites/website-overview/#web-files">web
 While all the functions for the web files and www folder are the same, the www folder also includes <a href="/workspace/websites/manage-folder/add-page/">adding a page</a>, which can be done in the main folder (where the index.stml file exists) or any sub-folders for your website sections. 
 !!!
 
-<img src="../../../images/manage-folder.jpg" alt="manage-folder" style="width: 100%; display: block"></a> 
+<img src="../../../images/manage-folder.png" alt="manage-folder" style="width: 100%; display: block"></a> 
 
 ---
 
