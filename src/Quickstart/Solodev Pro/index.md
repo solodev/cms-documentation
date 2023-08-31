@@ -101,9 +101,10 @@ KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances
 **Name** | **Description** 
 :--- | ---
 AdminUser | Name of the admin user
-AdminPassword | Password of the admin user
-DatabasePassword | Password for the database. **Note: *Only alphanumeric characters are allowed***
+AdminPassword | ***Password must be between 1-41 characters. All characters are allowed***
+DatabasePassword | ***Password must be between 8-41 characters. Only alphanumeric characters are allowed***
 StorageEncrypted | Enable encryption both Database (RDS) and Filesystem (EFS). True or False.
+
 
 <img src="../../images/cmsproawssubscribe9.png" alt="CMSProSubscribe" style="width: 80%; display: block"></a>
 

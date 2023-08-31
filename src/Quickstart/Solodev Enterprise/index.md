@@ -100,8 +100,8 @@ CookbookURL | https://s3.amazonaws.com/solodev-cms/chef/cookbooks.tar.gz (**COPY
 **Name** | **Description** 
 :--- | ---
 AdminUser | The solodev admin username
-AdminPassword | The solodev admin password
-DatabasePassword | The database root password.  **Note: *Only alphanumeric characters are allowed***
+AdminPassword | ***Password must be between 1-41 characters. All characters are allowed***
+DatabasePassword | ***Password must be between 8-41 characters. Only alphanumeric characters are allowed***
 StorageEncrypted | Enable encryption for Database (RDS) and Filesystem (EFS). True or False.
 
 <img src="../../images/cmsproawssubscribe9.png" alt="CMSEnterpriseSubscribe" style="width: 70%; display: block"></a>

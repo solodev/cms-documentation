@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-31T07:57:34Z",
+  "created": "2023-08-31T19:19:00Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1157,6 +1157,9 @@
       "old": true
     },
     {
+      "path": "images\\manage-folder.png"
+    },
+    {
       "path": "images\\manage-website.jpg"
     },
     {
@@ -1358,7 +1361,11 @@
       "path": "images\\publish-window.png"
     },
     {
-      "path": "images\\recent-files-2.jpg"
+      "path": "images\\recent-files-2.jpg",
+      "old": true
+    },
+    {
+      "path": "images\\recentfiles2.jpg"
     },
     {
       "path": "images\\redirect-history.jpg"
@@ -2299,22 +2306,51 @@
       "path": "tutorials\\integrations\\add-permissions-to-group\\index.html"
     },
     {
-      "path": "tutorials\\integrations\\cdn-information\\index.html"
+      "path": "tutorials\\integrations\\aws\\cdn-information\\index.html"
     },
     {
-      "path": "tutorials\\integrations\\configure-ipquailty\\index.html"
+      "path": "tutorials\\integrations\\aws\\index.html"
     },
     {
-      "path": "tutorials\\integrations\\connect-your-dns\\index.html"
+      "path": "tutorials\\integrations\\aws\\ssl-information\\index.html"
+    },
+    {
+      "path": "tutorials\\integrations\\cdn-information\\index.html",
+      "old": true
+    },
+    {
+      "path": "tutorials\\integrations\\configure-ipquailty\\index.html",
+      "old": true
+    },
+    {
+      "path": "tutorials\\integrations\\connect-your-dns\\index.html",
+      "old": true
+    },
+    {
+      "path": "tutorials\\integrations\\google\\index.html"
     },
     {
       "path": "tutorials\\integrations\\index.html"
     },
     {
-      "path": "tutorials\\integrations\\registering-domain\\index.html"
+      "path": "tutorials\\integrations\\registering-domain\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\integrations\\ssl-information\\index.html"
+      "path": "tutorials\\integrations\\solodev\\configure-ipquailty\\index.html"
+    },
+    {
+      "path": "tutorials\\integrations\\solodev\\connect-your-dns\\index.html"
+    },
+    {
+      "path": "tutorials\\integrations\\solodev\\index.html"
+    },
+    {
+      "path": "tutorials\\integrations\\solodev\\registering-domain\\index.html"
+    },
+    {
+      "path": "tutorials\\integrations\\ssl-information\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\registering-domain\\index.html",
