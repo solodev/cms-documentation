@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-01T12:17:45Z",
+  "created": "2023-09-01T12:44:51Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2507,6 +2507,9 @@
     },
     {
       "path": "tutorials\\websites\\add-website\\index.html"
+    },
+    {
+      "path": "tutorials\\websites\\add-website\\package-lock.json"
     },
     {
       "path": "tutorials\\websites\\alt-tags\\index.html"

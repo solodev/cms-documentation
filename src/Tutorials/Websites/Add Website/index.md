@@ -72,7 +72,7 @@ For more details on how to add a file or folder to your CMS, read the <a href="/
 A package.json file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="../../../workspace/websites/update-website/">Update Website</a> form. 
 !!!
 
-**Step 3**: Once your package.json file is created, click on it to open the code editor.
+**Step 3**: Once your package.json file is created, it will automatically open for you in the code editor.
 
 <img src="../../../images/package-json.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
@@ -152,6 +152,8 @@ Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files
 
 **Step 10**: Once your webpack.css.config.js and webpack.js.config.js are created, follow steps 3 and 4. In the editor, add the code samples below, then click **Publish**.
 
+For webpack.css.config.js please copy:
+
 ```js
 'use strict';
 ​
@@ -214,6 +216,8 @@ module.exports = {
 	],
 };
 ```
+
+For webpack.js.config.js please copy:
 
 ```js
 'use strict';
@@ -307,7 +311,7 @@ For more details on the Website Dashboard and the web files and www folders, rea
 **Step 3**: Following steps 1 and 2, create four additional folders under the _ folder: 
 
 - **css**
-- **fonts** 
+- **fonts**, you can dowload the needed fonts <a href="fonts.zip" download="fonts.zip">here</a>.
 - **images**
 - **js**
 
