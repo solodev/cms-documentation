@@ -318,7 +318,7 @@ For more details on the Website Dashboard and the web files and www folders, rea
 !!!**Note**:
 The _ folder is a general repository for your website’s resources:
 - CSS is the compiled version of the cascading style sheets that govern your website. 
-- Fonts will contain your web-safe font libraries, such as FontAwesome. Upload this  <a href="fonts.zip" download="fonts.zip">FontAwesome</a> fonts into your fonts folder  which you can download.
+- Fonts will contain your web-safe font libraries. To get started, upload the <a href="fonts.zip" download="fonts.zip">FontAwesome</a> set into your folder.
 - Images will host all the graphics, photos, and visual assets.
 - js will contain the compiled JavaScript used on your website. 
 !!!
@@ -391,17 +391,7 @@ src=“https://oss.maxcdn.com/respond/1.4.2/respond.min.js”></script>
 <script defer src=“/_/js/app.js”></script>
 ```
 
-**Step 7**: In the **Custom Pages** tab, you can add a customized 404 error page or a unique login page for secured areas of your site. To select a page, browse your available Data Center and Website folders.
-
-<img src="../../../images/update-website-custom-pages.png" alt="add-website" style="width: 40%; display: block"></a>
-
-
-!!!**Note**:
-While login pages are optional, 404 error pages are highly recommended as a best practice.
-!!!
-
-
-**Step 8**: Once you have completed updating your website information, click **Submit**.
+**Step 7**: Once you have completed updating your website information, click **Submit**.
 
 
 
