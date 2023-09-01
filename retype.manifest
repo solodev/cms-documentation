@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-08-31T19:19:00Z",
+  "created": "2023-09-01T12:17:45Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -175,6 +175,15 @@
     },
     {
       "path": "images\\add-contact.png"
+    },
+    {
+      "path": "images\\add-file-menu.png"
+    },
+    {
+      "path": "images\\add-folder-menu.png"
+    },
+    {
+      "path": "images\\add-folder-www.png"
     },
     {
       "path": "images\\add-module.png"
@@ -1316,6 +1325,9 @@
       "path": "images\\overwrite.png"
     },
     {
+      "path": "images\\package-json.jpg"
+    },
+    {
       "path": "images\\package-json.png"
     },
     {
@@ -1464,6 +1476,9 @@
       "path": "images\\solo_welcome.png"
     },
     {
+      "path": "images\\solodev-add-site-main-dashboard.png"
+    },
+    {
       "path": "images\\solodev-banner-2.jpg",
       "old": true
     },
@@ -1486,6 +1501,9 @@
     },
     {
       "path": "images\\solodev-cms-enterprise.jpg"
+    },
+    {
+      "path": "images\\solodev-update-website.png"
     },
     {
       "path": "images\\solodevbanner.png"
@@ -1599,6 +1617,21 @@
       "path": "images\\update_task.png"
     },
     {
+      "path": "images\\update-folder-menu.png"
+    },
+    {
+      "path": "images\\update-website-custom-pages.png"
+    },
+    {
+      "path": "images\\update-website-meta-information.png"
+    },
+    {
+      "path": "images\\update-website-site-title.png"
+    },
+    {
+      "path": "images\\update-website-social-media.png"
+    },
+    {
       "path": "images\\updated_db.png"
     },
     {
@@ -1631,6 +1664,12 @@
     },
     {
       "path": "images\\users-overview.png"
+    },
+    {
+      "path": "images\\web-files-list.png"
+    },
+    {
+      "path": "images\\web-files-www-final-view.png"
     },
     {
       "path": "images\\website_overview_1.jpg"
@@ -1877,6 +1916,9 @@
     },
     {
       "path": "images\\wowza.jpg"
+    },
+    {
+      "path": "images\\www-folder-list.png"
     },
     {
       "path": "index.html"
