@@ -100,25 +100,35 @@ Form Button | Add a custom button to submit your form. | • Link settings: add 
 
 Example code:
 ```js
-<div class="row row-cols-1 row-cols-lg-2">
-  <div class="col mt-4">
-    <label for="first_name">First Name</label>
-    <input type="text" class="form-control" name="first_name" id="first_name" required>
+<div class="my-5">
+    <div class="row align-items-center">
+      <div class="col-sm-6">
+        <div class="mb-3">
+          <label class="sr-only" for="firstname">Your first name </label>
+          <input class="form-control bg-light" placeholder="First Name" required="" id="first_name" name="first_name" type="text">
+        </div>
+        <div class="mb-3">
+          <label class="sr-only" for="last_name">Your last name </label>
+          <input class="form-control bg-light" placeholder="Last Name" required="" id="last_name" name="last_name" type="text">
+        </div>
+        <div class="mb-3">
+          <label class="sr-only" for="email">Your email address</label>
+          <input class="form-control bg-light" placeholder="Email" required="" id="email" name="email" type="email">
+        </div>
+        <div class="mb-3">
+          <label class="sr-only" for="company">Your company name</label>
+          <input class="form-control bg-light" placeholder="Company" required="" id="company" name="company" type="text">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="mb-3">
+          <label class="sr-only" for="message">Message</label>
+          <textarea class="form-control bg-light" placeholder="Message" required="" id="message" name="message" rows="8"></textarea>
+        </div>
+      </div>
+    </div>
+    <input class="btn fs-5 btn-danger text-white px-sm-5 py-1 pb-2 mx-auto d-block mt-4 fw-bold" type="submit" value="Submit">
   </div>
-  <div class="col mt-4">
-    <label for="last_name">Last Name</label>
-    <input type="text" class="form-control" name="last_name" id="last_name" required>
-  </div>
-  <div class="col mt-4">
-    <label for="email">Email</label>
-    <input type="text" class="form-control" name="email" id="email" required>
-  </div>
-  <div class="col mt-4">
-    <label for="phone">Phone Number</label>
-    <input type="tel" class="form-control" name="phone" id="phone" required>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</div>
 ```
 
 ## Add your form to a page
