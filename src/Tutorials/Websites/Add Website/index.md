@@ -76,7 +76,7 @@ A package.json file is used to identify and understand how to handle your websit
 
 <img src="../../../images/package-json.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-**Step 4**: Add the sample json code below and click Publish.  
+**Step 4**: Add the sample json code below and click **Publish**.  
 
 ```js
 {
@@ -150,9 +150,9 @@ A package-lock.json is used to store the exact versions of the dependencies that
 Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.  
 !!!
 
-**Step 10**: Once your webpack.css.config.js and webpack.js.config.js are created, follow steps 3 and 4. In the editor, add the code samples below, then click **Publish**.
+**Step 10**: Once your **webpack.css.config.js** and **webpack.js.config.js** are created, follow steps 3 and 4. In the editor, add the code samples below, then click **Publish**.
 
-For webpack.css.config.js please copy:
+For **webpack.css.config.js** please copy:
 
 ```js
 'use strict';
@@ -217,7 +217,7 @@ module.exports = {
 };
 ```
 
-For webpack.js.config.js please copy:
+For **webpack.js.config.js** please copy:
 
 ```js
 'use strict';
@@ -311,14 +311,14 @@ For more details on the Website Dashboard and the web files and www folders, rea
 **Step 3**: Following steps 1 and 2, create four additional folders under the _ folder: 
 
 - **css**
-- **fonts**, you can dowload the needed fonts <a href="fonts.zip" download="fonts.zip">here</a>.
+- **fonts**
 - **images**
 - **js**
 
 !!!**Note**:
 The _ folder is a general repository for your website’s resources:
 - CSS is the compiled version of the cascading style sheets that govern your website. 
-- Fonts will contain your web-safe font libraries, such as FontAwesome. 
+- Fonts will contain your web-safe font libraries, such as FontAwesome which you can download <a href="fonts.zip" download="fonts.zip">here</a>.
 - Images will host all the graphics, photos, and visual assets.
 - js will contain the compiled JavaScript used on your website. 
 !!!

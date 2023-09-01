@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-01T12:44:51Z",
+  "created": "2023-09-01T14:13:08Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2504,6 +2504,9 @@
     },
     {
       "path": "tutorials\\websites\\add-theme\\index.html"
+    },
+    {
+      "path": "tutorials\\websites\\add-website\\fonts.zip"
     },
     {
       "path": "tutorials\\websites\\add-website\\index.html"
