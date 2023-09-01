@@ -54,7 +54,6 @@ Left toolbar | Description | Right toolbar options
 Container | Provides a controllable container to <br> position and pad objects like text, images,<br> and input fields | • Fluid: allows container to stretch to full browser width <br> • Non-Fluid: constrains container based on specific width<br> • Link settings: add a URL, email, or phone link.<br> • Set form to open in a new tab<br> • Full control of appearance
 Columns | Allows you to organize your form content <br> into pre-defined columns | • Column settings: set the number of columns and padding <br> • Link settings: add a URL, email, or phone link<br> • Set form to open in a new tab<br> • Full control of appearance
 
-
 **Content**
 
 Left toolbar | Description | Right toolbar options
@@ -62,7 +61,6 @@ Left toolbar | Description | Right toolbar options
 Header | Provides a text header to your form. | • Header settings: set the H1 or other hierarchal status of your text <br> • Link settings: add a URL, email, or phone link <br> • Set form to open in a new tab <br> • Full control of appearance
 Paragraph | Insert a paragraph block of text in your form. | • Full flexibility of appearance.
 Image |  Add a custom image to your form. | • Fluid: allows image to stretch to the full browser width <br> • Non-Fluid: constrains image based on specific dimensions<br> • Image properties: adjust shape, width, and height. <br> • ALT text: add data for accessibility <br> • Link settings: add a URL, email, or phone link <br> • Full control of appearance
-
 
 **Forms**
 
@@ -88,7 +86,7 @@ Form Button | Add a custom button to submit your form. | • Link settings: add 
 
 **Step 1:** First, provide a name to your form in the **Name** field.
 
-**Step 2:** Pick an install location in Solodev by clicking **Browse**. Select an object and click **Choose**.
+**Step 2:** Pick an install location in Solodev by clicking **Browse**. Select an object click **Choose** and select the folder.
 
 **Step 3:** Once complete, click **Save**.
 
@@ -128,7 +126,7 @@ Example code:
 **Step 1:** <a href="/workspace/websites/manage-folder/addfile/">Create a file</a> and add the following shortcode – add the id of your form in the quotes.
 
 ```js
-[form id=’’]
+[form id= " "]
 ```
 
 ```js
@@ -138,7 +136,7 @@ Example code:
     <p> Talk to one of our crew members to plan your trip </p>
   </div>
   
-  [form id=’70’]
+  [form id="70"]
 </div>
 ```
 
@@ -170,7 +168,7 @@ The **id** refers to the id of your form. You can find this id by going to the f
 
 **Step 4:** Click **Submit**.
 
-## Add an email ticker
+## Add an email tickler
 
 You can use this option to send form submissions to an email address you designate. For example, when a potential customer signs up for a free trial of your product, an email can be sent to your sales team to notify them of a possible lead.
 
