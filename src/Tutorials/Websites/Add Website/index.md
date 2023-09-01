@@ -1,6 +1,6 @@
 # How to add a website to your CMS
 
-The most basic yet important function in Solodev is adding a website to your CMS. In this article, you will learn how to create a fresh site from scratch, addthe essential files and folders, and prepare your site for building pages.
+The most basic yet important function in Solodev is adding a website to your CMS. In this tutorial, you will learn how to create a fresh site from scratch, add the essential files and folders, and prepare your site for building pages.
 
 !!!**Note**:
 Solodev is a native multi-site platform, allowing you to run multiple websites and apps with one license and manage it all from a single login. Each site is self-contained, but resources like files and images can be shared across sites.
