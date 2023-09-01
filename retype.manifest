@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-01T21:11:13Z",
+  "created": "2023-09-01T21:18:48Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -518,6 +518,9 @@
     },
     {
       "path": "images\\base-template.jpg"
+    },
+    {
+      "path": "images\\blog-spacejet.jpg"
     },
     {
       "path": "images\\branding.jpg"

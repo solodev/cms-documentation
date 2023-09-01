@@ -58,7 +58,7 @@ Solodev recommends installing modules into the **web files -> managers folder**.
 
 The repeater template, although optional, displays all entries in the module used. The repeater is written in Solodev shortcodes and refers to the user interface template, printing fields in the form of PHP variables through an $item array.
 
-**Step 1:** Add a folder called blog under **web files > content**.
+**Step 1:** Add a folder called **blog** under **web files > content**.
 
 **Step 2:**  On that folder, add a file for the module repeater called **index.tpl**.
 
@@ -98,11 +98,11 @@ The repeater template, although optional, displays all entries in the module use
 The repeater id is the id of the module located on the module table view.
 !!!
 
-**Step 4:** Under www add a folder called **blog** and add a page called **index.stml**.
+**Step 4:** Under **www** add a folder called **blog** and add a page called **index.stml**.
 
 **Step 5:** Add the **index.tpl** to the **index.stml**.
 
-**Step 6:** Publish your page.
+**Step 6:** **Publish** your page.
 
 <img src="../../../images/blog-spacejet.jpg" alt="base template" style="display: block"></a>
 
@@ -110,7 +110,7 @@ The repeater id is the id of the module located on the module table view.
 
 The detail template shows the specifics of an individual entry from a repeater template. An example would be clicking on an individual blog entry from a list of entries to see the entire blog post. The detail page is a subpage of its parent page on the repeater template.
 
-**Step 1:** Under the blog folder in web files > content add a file for the module detail called **detail.tpl**.
+**Step 1:** Under the **blog** folder in **web files > content** add a file for the module detail called **detail.tpl**.
 
 **Step 2:** Add the code below for the blog detail. For more information on shortcodes, please <a href="/shortcodes/shortcodes-for-modules/">click here</a>.
 
@@ -146,11 +146,11 @@ The detail template shows the specifics of an individual entry from a repeater t
 [/entry]
 ```
 
-**Step 3:** Under www > blog add a page called **detail.stml**.
+**Step 3:** Under **www > blog** add a page called **detail.stml**.
 
 **Step 4:** Add the **detail.tpl** to the **detail.stml**.
 
-**Step 5:** Publish your page.
+**Step 5:** **Publish** your page.
 
 <img src="../../../images/detail-spacejet.jpg" alt="detail space jet" style="display: block"></a>
 
