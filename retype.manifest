@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-01T14:43:34Z",
+  "created": "2023-09-01T16:41:35Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2506,13 +2506,15 @@
       "path": "tutorials\\websites\\add-theme\\index.html"
     },
     {
-      "path": "tutorials\\websites\\add-website\\fonts.zip"
+      "path": "tutorials\\websites\\add-website\\fonts.zip",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\add-website\\index.html"
     },
     {
-      "path": "tutorials\\websites\\add-website\\package-lock.json"
+      "path": "tutorials\\websites\\add-website\\package-lock.json",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\alt-tags\\index.html"

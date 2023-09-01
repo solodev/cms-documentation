@@ -19,7 +19,7 @@ If you're more comfortable with raw HTML, you have the option to create your own
 
 ## Form Studio
 
-Form Studio is a built-in drag-and-drop WYSIWYG editor that allows you to create custom forms without any coding knowledge. It provides variety of features to help you create a professional-looking form, including:
+Use the built-in drag-and-drop WYSIWYG editor that allows you to create custom forms without any coding knowledge. It provides variety of features to help you create a professional-looking form, including:
 
 **Layout**
 
