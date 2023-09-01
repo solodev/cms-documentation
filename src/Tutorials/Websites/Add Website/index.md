@@ -318,7 +318,7 @@ For more details on the Website Dashboard and the web files and www folders, rea
 !!!**Note**:
 The _ folder is a general repository for your website’s resources:
 - CSS is the compiled version of the cascading style sheets that govern your website. 
-- Fonts will contain your web-safe font libraries, such as FontAwesome which you can download <a href="fonts.zip" download="fonts.zip">here</a>.
+- Fonts will contain your web-safe font libraries, such as FontAwesome. Upload this  <a href="fonts.zip" download="fonts.zip">FontAwesome</a> fonts into your fonts folder  which you can download.
 - Images will host all the graphics, photos, and visual assets.
 - js will contain the compiled JavaScript used on your website. 
 !!!
