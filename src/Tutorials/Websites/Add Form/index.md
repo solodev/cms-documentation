@@ -76,7 +76,13 @@ Select | Add a picker with a dropdown menu of options. |• Add custom menu list
 Radio Button | Create pre-defined options with corresponding radio buttons. | • Adjust label, name, and ID.
 Form Button | Add a custom button to submit your form. | • Link settings: add a URL, email, or phone link <br> • Button properties: adjust text, size, style, and color.
 
-**Step 4:** Once complete, click **Save**.
+**Step 4:** Click and hold the form element, then drag it to the desired location on the form canvas.
+
+**Step 5:** Adjust the element's position and spacing if needed by dragging it to a new location or aligning it with other elements.
+
+**Step 6:** Customize the element properties, such as label text, input type, and validation rules, using the properties panel on the right.
+
+**Step 7:** Save your changes by clicking the **Save** button to store the template.
 
 ## Upload TPL File 
 
@@ -84,11 +90,15 @@ Form Button | Add a custom button to submit your form. | • Link settings: add 
 
 **Step 2:** Pick an install location in Solodev by clicking **Browse**. Select an object and click **Choose**.
 
+**Step 3:** Once complete, click **Save**.
+
 ## Add HTML Code
 
 **Step 1:** Click the **Coding** button in the bottom right to access the code edit
 
 **Step 2:** Write your HTML code in the code editor.
+
+**Step 3:** Once complete, click **Save**.
 
 Example code:
 ```js
@@ -112,22 +122,6 @@ Example code:
   <button type="submit" class="btn btn-primary">Submit</button>
 </div>
 ```
-
-## Drag and Drop Form
-
-**Step 1:** Access **Form Studio** by clicking **Add Form**.
-
-**Step 2:** Give your form a name and select the location in which you want to save your form.
-
-**Step 3:** Browse the sidebar/toolbox to find the desired form element.
-
-**Step 4:** Click and hold the form element, then drag it to the desired location on the form canvas.
-
-**Step 5:** Adjust the element's position and spacing if needed by dragging it to a new location or aligning it with other elements.
-
-**Step 6:** Customize the element properties, such as label text, input type, and validation rules, using the properties panel on the right.
-
-**Step 7:** Save your changes by clicking the **Save** button to store the template.
 
 ## Next Steps
 

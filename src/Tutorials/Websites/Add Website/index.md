@@ -1,6 +1,6 @@
 # How to add a website to your CMS
 
-The most basic yet important function in Solodev is adding a website to your CMS. In this tutorial, you will learn how to create a fresh site from scratch, add the essential files and folders, and prepare your site for building pages.
+The most basic yet important function in Solodev is adding a website to your CMS. In this article, you will learn how to create a fresh site from scratch, add the essential files and folders, and prepare your site for building pages.
 
 !!!**Note**:
 Solodev is a native multi-site platform, allowing you to run multiple websites and apps with one license and manage it all from a single login. Each site is self-contained, but resources like files and images can be shared across sites.
@@ -72,11 +72,11 @@ For more details on how to add a file or folder to your CMS, read the <a href="/
 A package.json file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="../../../workspace/websites/update-website/">Update Website</a> form. 
 !!!
 
-**Step 3**: Once your package.json file is created, it will automatically open for you in the code editor.
+**Step 3**: Once your package.json file is created, click on it to open the code editor.
 
 <img src="../../../images/package-json.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-**Step 4**: Add the sample json code below and click **Publish**.  
+**Step 4**: Add the sample json code below and click Publish.  
 
 ```js
 {
@@ -150,9 +150,7 @@ A package-lock.json is used to store the exact versions of the dependencies that
 Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.  
 !!!
 
-**Step 10**: Once your **webpack.css.config.js** and **webpack.js.config.js** are created, follow steps 3 and 4. In the editor, add the code samples below, then click **Publish**.
-
-For **webpack.css.config.js** please copy:
+**Step 10**: Once your webpack.css.config.js and webpack.js.config.js are created, follow steps 3 and 4. In the editor, add the code samples below, then click **Publish**.
 
 ```js
 'use strict';
@@ -216,8 +214,6 @@ module.exports = {
 	],
 };
 ```
-
-For **webpack.js.config.js** please copy:
 
 ```js
 'use strict';
@@ -311,14 +307,14 @@ For more details on the Website Dashboard and the web files and www folders, rea
 **Step 3**: Following steps 1 and 2, create four additional folders under the _ folder: 
 
 - **css**
-- **fonts**
+- **fonts** 
 - **images**
 - **js**
 
 !!!**Note**:
 The _ folder is a general repository for your website’s resources:
 - CSS is the compiled version of the cascading style sheets that govern your website. 
-- Fonts will contain your web-safe font libraries. To get started, upload the <a href="fonts.zip" download="fonts.zip">FontAwesome</a> set into your folder.
+- Fonts will contain your web-safe font libraries, such as FontAwesome. 
 - Images will host all the graphics, photos, and visual assets.
 - js will contain the compiled JavaScript used on your website. 
 !!!
@@ -391,7 +387,17 @@ src=“https://oss.maxcdn.com/respond/1.4.2/respond.min.js”></script>
 <script defer src=“/_/js/app.js”></script>
 ```
 
-**Step 7**: Once you have completed updating your website information, click **Submit**.
+**Step 7**: In the **Custom Pages** tab, you can add a customized 404 error page or a unique login page for secured areas of your site. To select a page, browse your available Data Center and Website folders.
+
+<img src="../../../images/update-website-custom-pages.png" alt="add-website" style="width: 40%; display: block"></a>
+
+
+!!!**Note**:
+While login pages are optional, 404 error pages are highly recommended as a best practice.
+!!!
+
+
+**Step 8**: Once you have completed updating your website information, click **Submit**.
 
 
 
