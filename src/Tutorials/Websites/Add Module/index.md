@@ -26,6 +26,7 @@ Add | Click **Add** to apply your changes.
 
 !!! **Note:**
 Solodev recommends installing modules into the **web files -> managers folder**. Below is a sample code for a basic blog module.
+!!!
 
 ```js
 <div class="mb-3">
@@ -51,15 +52,15 @@ Solodev recommends installing modules into the **web files -> managers folder**.
   <textarea class="wysiwyg form-control" name="post_content" id="post_content"></textarea>
 </div>
 ```
-!!!
+
 
 ## Repeater Template
 
 The repeater template, although optional, displays all entries in the module used. The repeater is written in Solodev shortcodes and refers to the user interface template, printing fields in the form of PHP variables through an $item array.
 
-**Step 1**.	<a href="/workspace/websites/manage-folder/addfile/">Add a file</a> for the module repeater.
+**Step 1:**.	<a href="/workspace/websites/manage-folder/addfile/">Add a file</a> for the module repeater.
 
-**Step 2**.	Link the repeater to the page you would like your module to be.
+**Step 2:**.	Link the repeater to the page you would like your module to be.
 
 Provided below is a sample of a blog repeater code. For more information on shortcodes, please <a href="/shortcodes/shortcodes-for-modules/">click here</a>.
 
@@ -97,6 +98,10 @@ Provided below is a sample of a blog repeater code. For more information on shor
 The repeater id is the id of the module located on the module table view.
 !!!
 
+**Step 3:** Check your page on the frontend
+
+<img src="../../../images/detail-spacejet.jpg" alt="base template" style="display: block"></a>
+
 ## Detail Template
 
 The detail template shows the specifics of an individual entry from a repeater template. An example would be clicking on an individual blog entry from a list of entries to see the entire blog post. The detail page is a subpage of its parent page on the repeater template.
@@ -109,7 +114,7 @@ Provided below is a sample of a detail code. For more information on shortcodes,
 
 ```js
 [entry]
-  <h1><strong>{{event_title}}</strong></h1>
+  <h1><strong>{{{event_title}}}</strong></h1>
 
   <div class="d-flex align-items-center justify-content-between">
     <p class="mb-0 mt-3">
