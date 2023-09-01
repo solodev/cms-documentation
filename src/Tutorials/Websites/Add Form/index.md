@@ -123,7 +123,71 @@ Example code:
 </div>
 ```
 
+## Add your form to a page
+
+**Step 1:** <a href="/workspace/websites/manage-folder/addfile/">Create a file</a> and add the following shortcode – add the id of your form in the quotes.
+
+```js
+[form id=’’]
+```
+
+```js
+<div class="container my-5">
+  <div class="test-center">
+    <h1><strong>Get Started</strong></h1>
+    <p> Talk to one of our crew members to plan your trip </p>
+  </div>
+  
+  [form id=’70’]
+</div>
+```
+
+!!!Note: 
+The **id** refers to the id of your form. You can find this id by going to the form table and locate it on the top left side.
+!!!
+
+<img src="../../../images/form-id.jpg" alt="form id" style="display: block"></a>
+
+**Step 2:** Add the <a href="/workspace/websites/manage-folder/addfile/">file to the page</a> you want to display the form on. 
+
+<img src="../../../images/form-page.jpg" alt="form page" style="display: block"></a>
+
+## Add a submission message
+
+**Step 1:** Create a file on your computer with the message you want to show after someone has submitted your form.  You can use the sample code provided above:
+
+```js
+<h3 class="text-center mt-5">Thank you for contacting us. Someone will be in touch soon.</h3>
+```
+
+**Step 2:** Click modify and go to the **Email Options** accordion.
+
+<img src="../../../images/email-modify.jpg" alt="email modify" style="display: block"></a>
+
+**Step 3:** Click **Upload Return Page** and select the file you previously created. 
+
+<img src="../../../images/email-options.jpg" alt="email options" style="display: block"></a>
+
+**Step 4:** Click **Submit**.
+
+## Add an email ticker
+
+You can use this option to send form submissions to an email address you designate. For example, when a potential customer signs up for a free trial of your product, an email can be sent to your sales team to notify them of a possible lead.
+
+**Step 1:** Follow the previous step 2 to navigate to the **Email Options** section. 
+
+**Step 2:** Under tickler information, add a valid email address on the Tickler Email Address field and click the **Add** button. You will see the email address added to the textarea below.
+
+<img src="../../../images/tickler.jpg" alt="tickler" style="display: block"></a>
+
+**Step 3:** You can add as many email addresses as you want. When you are done, click **Submit**.
+
+<img src="../../../images/tickler-list.jpg" alt="tickler-list" style="display: block"></a>
+
+!!!Note: 
+If you need to add more options to your form submissions, like having each department on your company receive the form submission based on what the user selects on the forms, please visit <a href="/workspace/forms/form-overview/workflow/">workflows</a>.
+!!!
+
 ## Next Steps
 
 -	<a href="/tutorials/add-module/">Add Module</a>
-
