@@ -2,7 +2,7 @@
 
 In Solodev, you can add a <a href="/workspace/modules/">module</a> that allows users to manage any type of data. There are two two types of modules we use in Solodev:
 
-## Calendar Types: 
+## Calendar Types
 
 Can be modified to create date-based customer facing applications. Calendars can be used to build an unlimited number of custom web and mobile applications to manage content.
 
