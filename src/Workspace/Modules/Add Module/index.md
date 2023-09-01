@@ -1,6 +1,6 @@
 # Add Module
 
-In Solodev, you can add a <a href="/workspace/modules/">module</a> that allows users to manage any type of data. There are two two types of Modules we use in Solodev:
+In Solodev, you can add a <a href="/workspace/modules/">module</a> that allows users to manage any type of data. There are two two types of modules we use in Solodev:
 
 ## Calendar Types: 
 
