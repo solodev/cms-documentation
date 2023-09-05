@@ -2,7 +2,6 @@
 
 Once you have set up a new website in your Solodev CMS, you can begin creating pages to build out your experience. In this tutorial, you will learn how to add a page to your site, create reusable page templates with custom elements, and start adding content.  
 
-
 ## Prerequisites
 
 - You will need to complete the <a href="/tutorials/websites/add-website/">How to add a website</a> tutorial.
@@ -11,7 +10,6 @@ Once you have set up a new website in your Solodev CMS, you can begin creating p
 - When building your own project, it is highly recommended that you have an approved design prototype and sitemap to guide your development.
 
 <img src="../../../images/spacejet-homepage-builder.jpg" alt="base template" style="width: 100%; display: block"></a>
-
 
 
 ## Understanding page templates
@@ -30,9 +28,6 @@ There is no limit to the kinds of page templates you can create in Solodev, but 
 - <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-sectional-template">Sectional Template</a>: A sectional template is a high-level overview of a "section" of your website's content. Think of it as a jumping-off point to areas that fall under a specific content theme or topic. Sectional templates can be used in a variety of ways, but most provide a collection of snippets and links to relevant areas. For example, if a website has a section called "Departments," a sectional template might include an overview along with a list of links to all the departments. Because they are used sparingly, sectional templates generally have a distinct design from your content templates, helping them stand out.
 
 - <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-content-template">Content Template</a>: A content template is usually placed within the base template. Sometimes referred to as an “interior template,” content templates power the bulk of your website, and can be reused for various sections that require multiple pages.
-
-
-
 
 ## Using dynamic divs
 Another important concept is the use of dynamic divs. Page templates are composed of dynamic divs – or “dropzones” – where HTML and content can be inserted and arranged in various places on a website page. Dynamic divs work fluidly with the Bootstrap grid system, allowing you to easily insert content once the layout of your page has been created. Here is the simple HTML code to create a dynamic div in Solodev:
@@ -82,7 +77,7 @@ A .tpl file should be designated as “Code” in the File Type to ensure that i
 
 **Step 6**: On your new file paste the sample code below into the editor. The sample includes dynamicDiv classes for the top navigation, hero, content, and footer. Once complete, click **Publish**.
 
-<img src="../../../images/base-template-code.jpg" alt="base template" style="width: 100%; display: block"></a>
+<img src="../../../images/base-template-file.jpg" alt="base template" style="width: 100%; display: block"></a>
 
 ```js
 <div role="main">
@@ -110,16 +105,14 @@ You can always add more dynamic divs as needed.
 
 **Step 7**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
 
-<img src="../../../images/base-template-dots.png" alt="base template" style="width: 50%; display: block"></a>
+<img src="../../../images/base-template-dots.jpg" alt="base template" style="width: 50%; display: block"></a>
 
 !!!**Note**:
 The two dots are a default indicator on all blank pages and can be removed 
 during editing. 
 !!!
 
-**Step 8**: After clicking on the two dots, the areas will become active, 
-displaying the dynamic divs as a stack of rectangular boxes set in a light blue
-color. The name of your base template file will also appear in the upper left. 
+**Step 8**: After clicking on the two dots, the areas will become active, displaying the dynamic divs as a stack of rectangular boxes set in a light blue color. The name of your base template file will also appear in the upper left. 
 
 <img src="../../../images/base-template-add-base-template.png" alt="base template" style="width: 100%; display: block"></a>
 
@@ -155,7 +148,7 @@ When complete, click **Submit**.
 
 <img src="../../../images/homepage-folders.png" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file named div-insert.tpl and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
+**Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
 
 <img src="../../../images/homepage-base-folder-div.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -187,7 +180,7 @@ Next, you will learn how to apply your .tpl files to your dynamic divs. For the 
 
 <img src="../../../images/homepage-images-folder.png" alt="base template" style="width: 100%; display: block"></a>
 
-**Step 3**: Using the right-hand menu, click Upload. Drag both images from your local computer into the window and click **Upload**.
+**Step 3**: Using the right-hand menu, click **Upload**. Drag both images from your local computer into the window and click **Upload**.
 
 <img src="../../../images/homepage-upload-images.png" alt="base template" style="width: 40%; display: block"></a>
 
@@ -225,14 +218,13 @@ Started"><strong>Get Started</strong></a>
 
 **Step 6**: In the top dynamic div, click anywhere in the **base-template.tpl** div. Once activated, it will turn blue, indicating that it is ready to have a template applied to it. 
 
-Next, under **web files**, open the **templates** folder and browse to the **navigation** folder. Click on the **top-nav.tpl** file. The tag will change from base-template.tpl to top-nav.tpl, as shown: 
+Next, under **web files**, open the **templates** folder and browse to the **navigation** folder. Click on the **top-nav.tpl** file. The tag will change from **base-template.tpl** to **top-nav.tpl**, as shown: 
 
 <img src="../../../images/homepage-top-nav-tpl.png" alt="base template" style="width: 100%; display: block"></a>
 
 Once complete, click **Publish**. After your page reloads, you will see the top navigation appear in your index.stml file. 
 
 <img src="../../../images/homepage-top-nav-complete.png" alt="base template" style="width: 100%; display: block"></a>
-
 
 !!!**Note**:
 Solodev provides a rich visual editing experience. The editor renders a preview of your frontend website, but minor differences may occur due to the software’s features and functionality. This can affect the appearance of fonts and images within the editor. You can compare your progress to the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">SpaceJet sample site</a>.
@@ -320,7 +312,7 @@ Started</strong></a>
 </footer>
 ```
 
-**Step 8**: To add more space to the page for the main content areas, repeat steps 4 and 5 and these additional code samples: 
+**Step 8**: To add more space to the page for the main content areas, repeat steps 4 and 5 and add these additional code samples: 
 
 **main.html**
 ```js
