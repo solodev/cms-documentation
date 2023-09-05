@@ -363,7 +363,7 @@ Once complete, your final homepage should appear in the editor, featuring the to
 
 ## How to create a Content page template 
 
-Using the base template with your page, you can now build out your content page template. The content page template will be most likely repeated in many places on your website providing various informations.
+The content template is typically placed in the base template and serves as the interior of a "Section" of your website. The benefit in a content template is it can be re-used for sections of your website that require multiple pages, allowing you to re-use your content template to build out your web pages. 
 
 For this tutorial, we will use the assets from the SpaceJet template to create a content page (privacy statement) with a header, CTA (call-to-action) banner, footer, and content areas. You can view the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/privacy.html">SpaceJet sample site</a> to view the final privacy page.  
 
@@ -428,7 +428,7 @@ Next, you will apply your .tpl files to your dynamic divs just like you did in t
 
 **Step 3**: Just like in the case of homepage, click in the top dynamic div. Once activated, it will turn blue, indicating that it is ready to have a template applied to it. 
 
-Next, under **web files**, open the **templates** folder and browse to the **content** folder. Click on the **left-nav-content-template.tpl** file. 
+Next, under **web files**, open the **templates** folder and browse to the **base** folder. Click on the **base-template.tpl** file. 
 
 Once complete, click **Publish**. After your page reloads, you will see the new layout of your privacy.stml file. 
 
@@ -437,20 +437,24 @@ Once complete, click **Publish**. After your page reloads, you will see the new 
 Solodev provides a rich visual editing experience. The editor renders a preview of your frontend website, but minor differences may occur due to the software’s features and functionality. This can affect the appearance of fonts and images within the editor. You can compare your progress to the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">SpaceJet sample site</a>.
 !!!
 
-**Step 5**: Repeat steps 2 and 3, and add the **left-nav.tpl** with the following code:
+**Step 4**: Repeat step 3, and add **top-nav.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
+
+**Step 5**: Repeat step 3, and add **left-nav-content-template.tpl**, **cta.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
+
+**Step 5**: Repeat step 3, and add the **left-nav.tpl** with the following code:
 
 ```js 
  [non_admin_only]
       [solodev_nav nav_type="side" nav_class="list-unstyled" include_categories="1"]
    [/non_admin_only]
 ```
-**Step 6**: Repeat step 3, and add privacy.html containing your privacy statement, for example:
+**Step 6**: Repeat step 3, and add **privacy.html** containing your privacy statement, for example:
 
 ```js 
 Here is my privacy policy.
 ```
 
-**Step 7**: Repeat step 3, and add top-nav.tpl, and the footer.tpl. Once done, click **Publish**.
+
 
 
 
