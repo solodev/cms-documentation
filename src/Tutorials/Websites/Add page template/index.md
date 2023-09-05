@@ -80,7 +80,7 @@ The nested base folder will house your base template and other components.
 A .tpl file should be designated as “Code” in the File Type to ensure that it can include your HTML, JavaScript, and PHP components. 
 !!!
 
-**Step 6**: Click on your new file under the **templates** folder and paste the sample code below into the editor. The sample includes a dynamicDiv class for the top navigation, content, and footer. Once complete, click **Publish**. 
+**Step 6**: On your new file paste the sample code below into the editor. The sample includes dynamicDiv classes for the top navigation, hero, content, and footer. Once complete, click **Publish**.
 
 <img src="../../../images/base-template-code.jpg" alt="base template" style="width: 100%; display: block"></a>
 
@@ -108,7 +108,7 @@ A .tpl file should be designated as “Code” in the File Type to ensure that i
 You can always add more dynamic divs as needed.
 !!!
 
-**Step 7**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage</a> . Then, click in the main content area where the two dots are located. 
+**Step 7**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
 
 <img src="../../../images/base-template-dots.png" alt="base template" style="width: 50%; display: block"></a>
 
@@ -138,7 +138,7 @@ You can repeat this process for all additional page templates in your website.
 
 Using the base template with your index.stml page, you can now build out your homepage template. As noted, the homepage is typically a unique template in your website template system; in most cases, it will not be repeated elsewhere on your website. 
 
-For this tutorial, we will use the assets from the SpaceJet template to create a homepage with a header, hero, CTA (call-to-action) banner, footer, and content areas. You can view the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">SpaceJet sample site</a> to view the final homepage.  
+For this tutorial, we will use the assets from the SpaceJet theme to create a homepage with a header, hero, CTA (call-to-action) banner, footer, and content areas. You can view the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">SpaceJet sample site</a> to view the final homepage.  
 
 ### Setting up your folders and .tpl files
 
