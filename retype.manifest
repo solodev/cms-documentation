@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-05T18:26:46Z",
+  "created": "2023-09-05T19:00:30Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -544,10 +544,16 @@
       "path": "images\\base-template-code.jpg"
     },
     {
+      "path": "images\\base-template-dots.jpg"
+    },
+    {
       "path": "images\\base-template-dots.png"
     },
     {
       "path": "images\\base-template-dynamic-divs.png"
+    },
+    {
+      "path": "images\\base-template-file.jpg"
     },
     {
       "path": "images\\base-template-nav.jpg"

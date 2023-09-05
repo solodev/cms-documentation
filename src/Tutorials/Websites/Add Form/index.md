@@ -1,6 +1,6 @@
 # How to add a form to a page
 
-In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to collect information for almost any kind of application. This includes contact forms, order forms, newsletter subscriptions, product registrations, and more. In this article, you will learn the different ways to create a form using Solodev and how to add it to your web page.  
+In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to collect information for almost any kind of application. This includes contact forms, order forms, newsletter subscriptions, product registrations, and more. In this tutorial, you will learn the different ways to create a form using Solodev and how to add it to your web page.  
 
 ## Prerequisites
 
@@ -10,24 +10,24 @@ In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to 
 
 ## Add Form Options
 
-<img src="../../../images/form-main.png" alt="form main image" style="width: 100%; display: block"></a>
+<img src="../../../images/form-main-image1.png" alt="form main image" style="width: 100%; display: block"></a>
 
 From the main dashboard, there are three ways to add a form to Solodev:
 
-*	**Form Studio**
+*	**Form Studio:**
 Solodev’s drag-and-drop Form Studio lets you build your own custom forms with granular control – without touching a line of code. Instantly add text, images, input fields, radio buttons, and more. Save your form and apply it to your page in minutes.  
 
-* **Upload TPL File**
+* **Upload TPL File:**
 If you already have an existing template for your form, you can upload it directly as a .tpl file into Solodev and apply it to your page. 
 
-* **Upload HTML**
+* **Upload HTML:**
 If you prefer working in raw HTML, you can code your own form and upload to Solodev.
 
 ## Form Studio
 
 <img src="../../../images/form-studio1.jpg" alt="form main image" style="width: 100%; display: block"></a>
 
-Form Studio is a built-in drag-and-drop WYSIWYG editor that allows you to directly compose your own custom form. The visual editor consists of a left toolbar for dragging layout, content, and form components onto the canvas in the center. See table below for details. 
+Form Studio is a built-in drag-and-drop WYSIWYG editor that allows you to directly compose your own custom form. The visual editor consists of a left toolbar for dragging layout, content, and form components onto the canvas in the center. <a href="/tutorials/websites/add-form/#building-a-form-with-form-studio">See table below for details</a>. 
 
 The right toolbar enables you to control the text, styling, and specific details of the components in your form. Under the **Settings** icon, you can adjust your form header, links, and other details. 
 
@@ -45,7 +45,9 @@ Using the **Pencil** icon, you can customize attributes such as layout, position
 
 <img src="../../../images/form-choose-object.jpg" alt="form choose object" style="width: 25%; display: block"></a>
 
-**Step 3:** Use the drag-and-drop Form Studio tools to build your form:
+**Step 3:** Use the drag-and-drop Form Studio tools to build your form. As with previous lessons, you can use the SpaceJet theme sample as a guide for creating the fields as shown:
+
+<img src="../../../images/spacejet-form-sample.png" alt="form choose object" style="width: 100%; display: block"></a>
 
 **Layout**
 

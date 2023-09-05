@@ -118,7 +118,7 @@ during editing.
 
 **Step 9**: Next, click on your base template file under the **templates** folder in the left menu. This will apply your base template to the dynamic div. Then, click **Publish** in the upper right corner.
 
-**Step 10**: Once published, your index.stml page will refresh, displaying your dynamic divs in white.  You are now ready to build your page templates. 
+**Step 10**: Once published, your **index.stml** page will refresh, displaying your dynamic divs in white.  You are now ready to build your page templates. 
 
 <img src="../../../images/base-template-base-template-final.png" alt="base template" style="width: 100%; display: block"></a>
 
@@ -222,7 +222,7 @@ Next, under **web files**, open the **templates** folder and browse to the **nav
 
 <img src="../../../images/homepage-top-nav-tpl.png" alt="base template" style="width: 100%; display: block"></a>
 
-Once complete, click **Publish**. After your page reloads, you will see the top navigation appear in your index.stml file. 
+Once complete, click **Publish**. After your page reloads, you will see the top navigation appear in your **index.stml** file. 
 
 <img src="../../../images/homepage-top-nav-complete.png" alt="base template" style="width: 100%; display: block"></a>
 
@@ -388,6 +388,12 @@ Once complete, your final homepage should appear in the editor, featuring the to
 
 ## How to create a Sectional template 
 
+As previously noted, a sectional template is a high-level overview of a "section" of your website's content. They are typically reserved for larger sites with more pages to organize and are completely optional. In this lesson, you will learn how to add a sample sectional template from the SpaceJet theme package.
+
+!!!Note:
+Many of the instructions in this lesson will repeat steps from the previous <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage template</a>. Make sure to complete that first and refer back as needed. 
+!!!
+
 ### Setting up your folders and .tpl files
 
 **Step 1**: Under **web files**, click on the **content** folder.
@@ -444,13 +450,19 @@ Here is my about page.
 
 ## How to create a Content page template 
 
-The content template is typically placed in the base template and serves as the interior of a "Section" of your website. The benefit in a content template is it can be re-used for sections of your website that require multiple pages, allowing you to re-use your content template to build out your web pages. 
+As previously noted, a content template – sometimes referred to as an "interior template" – powers the bulk of your website and can be reused for various sections that require multiple pages. In this lesson, you will learn how to add a sample content template from the SpaceJet theme package.
+
+!!!Note:
+Many of the instructions in this lesson will repeat steps from the previous <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage template</a>. Make sure to complete that first and refer back as needed. 
+!!!
+
+<!-- The content template is typically placed in the base template and serves as the interior of a "Section" of your website. The benefit in a content template is it can be re-used for sections of your website that require multiple pages, allowing you to re-use your content template to build out your web pages. 
 
 For this tutorial, we will use the assets from the SpaceJet template to create a content page (privacy statement) with a header, CTA (call-to-action) banner, footer, and content areas. You can view the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/privacy.html">SpaceJet sample site</a> to view the final privacy page.  
 
 !!!**Note**:
 This tutorial assumes that you had finished **How to create a homepage template** therefore you have some files and folders in place. In case you didn't follow the <a href="/tutorials/websites/add-page-template/#how-to-create-a-homepage-template">How to create a homepage template</a>, please finish it first. 
-!!!
+!!! -->
 
 ### Setting up your folders and .tpl files
 
@@ -512,7 +524,7 @@ Next, you will apply your .tpl files to your dynamic divs just like you did in t
 
 Click on the **base-template.tpl** file. 
 
-Once complete, click **Publish**. After your page reloads, you will see the new layout of your privacy.stml file. 
+Once complete, click **Publish**. After your page reloads, you will see the new layout of your **privacy.stml** file. 
 
 
 !!!**Note**:

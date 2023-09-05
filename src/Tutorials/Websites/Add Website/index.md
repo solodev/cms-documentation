@@ -28,7 +28,7 @@ When adding a new site, you also have the option to upload a ready-made theme pa
 
 <img src="../../../images/add-site-form.jpg" alt="add-website" style="width: 40%; display: block"></a>
 
-**Step 4**: Once your website is created, you will be automatically directed to the **Websites** dashboard in your CMS, where your new site will appear at thetop of the table. Click on your site’s domain to access its dashboard. 
+**Step 4**: Once your website is created, you will be automatically directed to the **Websites** dashboard in your CMS, where your new site will appear at the top of the table. Click on your site’s domain to access its dashboard. 
 
 <img src="../../../images/websites-dashboard-blank.jpg" alt="add-website" style="width: 70%; display: block"></a>
 
@@ -134,8 +134,6 @@ A package-lock.json is used to store the exact versions of the dependencies that
 
 **Step 6**: Once your package-lock.json file is created, follow steps 3 and 4. In the editor, add the code sample that you can download <a href="package-lock.json" download="package-lock.json">here</a>, then click **Publish**.
 
-
-
 **Step 7**: Click on the **web files** folder in your menu. Using the menu on the right, click **Add Folder**. 
 
 **Step 8**: In the menu, create a file called **webpack**. You can add an optional title and description, but it is not required. Once complete, click **Submit**.
@@ -150,7 +148,9 @@ A package-lock.json is used to store the exact versions of the dependencies that
 Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.  
 !!!
 
-**Step 10**: Once your webpack.css.config.js and webpack.js.config.js are created, follow steps 3 and 4. In the editor, add the code samples below, then click **Publish**.
+**Step 10**: Once your **webpack.css.config.js** and **webpack.js.config.js** are created, follow steps 3 and 4. In the editor, add the code samples below, then click **Publish**.
+
+**webpack.css.config.js**
 
 ```js
 'use strict';
@@ -214,6 +214,8 @@ module.exports = {
 	],
 };
 ```
+
+**webpack.js.config.js**
 
 ```js
 'use strict';
@@ -282,6 +284,81 @@ module.exports = {
 };
 ```
 
+**Step 11**: Click on **web files** and **Add Folder** called **scss**.
+
+**Step 12**: Click on the new **scss folder** in your left menu. Following steps 1 and 2, create the file under the folder:
+
+`app.scss`
+
+**Step 13**: Paste the following code:
+
+```js
+$fa-font-path: "../../www/_/fonts";
+
+@import 'animate.css';
+
+@import '~bootstrap/scss/bootstrap';
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+```
+
+**Step 14**: Click on **web files** and **Add Folder** called **js**.
+
+**Step 15**: Click on the new **js folder** in your left menu. Following steps 1 and 2, create a file under the folder:
+
+`app.js`
+
+**Step 16**: Paste the following code:
+
+```js
+'use strict';
+
+// Packages
+import 'jquery';
+import '@popperjs/core';
+import 'bootstrap';
+import 'slick-carousel';
+import 'jquery-validation';
+
+// Components
+import Utils from './utils/utils';
+
+$(function() {
+  new Utils();
+});
+```
+
+**Step 17**: Click on the **js folder** in your left menu. Create the folder:
+
+`utils`
+
+**Step 18**: Click on the new **utilities folder** in your left menu. Create the file:
+
+`utils.js`
+
+**Step 19**: Paste the following code:
+
+```js
+export default class Utils {
+  constructor() {
+    this.setDataBackgrounds();
+  }
+  setDataBackgrounds() {
+    if ($('[data-background]')) {
+      $('[data-background]').each(function() {
+        var attr, that;
+        that = $(this);
+        attr = that.attr('data-background');
+        that.css('background-image', 'url(' + attr + ')');
+      });
+    }
+  }
+}
+```
+
 ## Setting up your www folder
 
 When creating a new website, a **www** folder is automatically generated. The 
@@ -339,12 +416,9 @@ To learn more about updating your website information, read the  <a href="../../
 
 <img src="../../../images/update-website-site-title.png" alt="add-website" style="width: 40%; display: block"></a>
 
-
 **Step 3**: Under the **Social Media** tab, add your Twitter (X) handle and Facebook URL. You can also add a default image that is used when sharing a page on a social media platform.
 
 <img src="../../../images/update-website-social-media.png" alt="add-website" style="width: 40%; display: block"></a>
-
-
 
 **Step 4**: Under **Meta Information**, find the two fields called **Global HTML Tag** and **Global Header Insert**. These HTML tags are used to provide additional information about a page to search engines and other crawlers.
 
@@ -387,18 +461,7 @@ src=“https://oss.maxcdn.com/respond/1.4.2/respond.min.js”></script>
 <script defer src=“/_/js/app.js”></script>
 ```
 
-**Step 7**: In the **Custom Pages** tab, you can add a customized 404 error page or a unique login page for secured areas of your site. To select a page, browse your available Data Center and Website folders.
-
-<img src="../../../images/update-website-custom-pages.png" alt="add-website" style="width: 40%; display: block"></a>
-
-
-!!!**Note**:
-While login pages are optional, 404 error pages are highly recommended as a best practice.
-!!!
-
-
-**Step 8**: Once you have completed updating your website information, click **Submit**.
-
+**Step 7**: Once you have completed updating your website information, click **Submit**.
 
 
 ## Next Steps
