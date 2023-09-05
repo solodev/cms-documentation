@@ -531,18 +531,18 @@ Once complete, click **Publish**. After your page reloads, you will see the new 
 Solodev provides a rich visual editing experience. The editor renders a preview of your frontend website, but minor differences may occur due to the software’s features and functionality. This can affect the appearance of fonts and images within the editor. You can compare your progress to the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">SpaceJet sample site</a>.
 !!!
 
-**Step 5**: Repeat step 3, and add **top-nav.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
+**Step 5**: Repeat step 4, and add **top-nav.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
 
-**Step 6**: Repeat step 3, and add **left-nav-content-template.tpl**, **cta.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
+**Step 6**: Repeat step 4, and add **left-nav-content-template.tpl**, **cta.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
 
-**Step 7**: Repeat step 3, and add the **left-nav.tpl** with the following code:
+**Step 7**: Repeat step 4, and add the **left-nav.tpl** with the following code:
 
 ```js 
  [non_admin_only]
       [solodev_nav nav_type="side" nav_class="list-unstyled" include_categories="1"]
    [/non_admin_only]
 ```
-**Step 8**: Repeat step 3, and add **privacy.html** containing your privacy statement, for example:
+**Step 8**: Repeat step 4, and add **privacy.html** containing your privacy statement, for example:
 
 ```js 
 Here is my privacy policy.
