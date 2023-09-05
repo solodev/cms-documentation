@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-05T11:21:44Z",
+  "created": "2023-09-05T15:59:45Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -136,6 +136,18 @@
     },
     {
       "path": "images\\about_lunarxp.jpg"
+    },
+    {
+      "path": "images\\about-file-web-files.png"
+    },
+    {
+      "path": "images\\about-file-www.png"
+    },
+    {
+      "path": "images\\about-folder-web-files.png"
+    },
+    {
+      "path": "images\\about-folder-www.png"
     },
     {
       "path": "images\\account-add-token.png"
@@ -947,6 +959,12 @@
     },
     {
       "path": "images\\forms.png"
+    },
+    {
+      "path": "images\\full-width-code.png"
+    },
+    {
+      "path": "images\\full-width.png"
     },
     {
       "path": "images\\google.jpg"
@@ -2606,7 +2624,8 @@
       "path": "tutorials\\websites\\add-website\\index.html"
     },
     {
-      "path": "tutorials\\websites\\add-website\\package-lock.json"
+      "path": "tutorials\\websites\\add-website\\package-lock.json",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\alt-tags\\index.html"
@@ -2809,6 +2828,9 @@
     },
     {
       "path": "workspace\\websites\\add-website\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\delete-website\\index.html"
     },
     {
       "path": "workspace\\websites\\index.html"

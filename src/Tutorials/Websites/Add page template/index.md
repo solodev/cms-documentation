@@ -85,23 +85,25 @@ A .tpl file should be designated as “Code” in the File Type to ensure that i
 <img src="../../../images/base-template-code.jpg" alt="base template" style="width: 100%; display: block"></a>
 
 ```js
-
 <div role="main">
   <!-- Top Nav -->
   <div class="dynamicDiv"></div>
   <!-- End of Top Nav -->
+
   <!-- Hero -->
   <div class="dynamicDiv"></div>
   <!-- End of Hero -->
+
   <!-- Content -->
   <div class="dynamicDiv"></div>
   <!-- End of Content -->
+
   <!-- Footer -->
   <div class="dynamicDiv"></div>
   <!-- End of Footer -->
 </div>
-
 ```
+
 !!!**Note**:
 You can always add more dynamic divs as needed.
 !!!
@@ -290,23 +292,16 @@ Started</strong></a>
       </div>
       <div class="col">
         <div class="d-flex align-items-center justify-content-center">
-          <p class="mb-0"><a href="/blog/" class="text-dark text-decoration-none me-md-5 
-me-3"><strong>Blog</strong></a></p>
-          <p class="mb-0"><a href="/contact/" class="text-dark text-decoration-none"><strong>Get 
-Started</strong></a></p>
+          <p class="mb-0"><a href="/about/" class="text-dark text-decoration-none me-md-5 me-3"><strong>About</strong></a></p>
+          <p class="mb-0"><a href="/blog/" class="text-dark text-decoration-none me-md-5 me-3"><strong>Blog</strong></a></p>
+          <p class="mb-0"><a href="/contact/" class="text-dark text-decoration-none"><strong>Get Started</strong></a></p>
         </div>
       </div>
       <div class="col">
         <ul class="list-unstyled d-flex justify-content-end mb-0">
-          <li><a href="https://www.twitter.com" class="text-dark text-decoration-none" target="_blank" 
-rel="noopener noreferrer"><span class="fa-fw fa-brands me-2 fa-lg fa-twitter"></span><span class="sr-
-only">Twitter</span></a></li>
-          <li><a href="https://www.facebook.com" class="text-dark text-decoration-none" target="_blank" 
-rel="noopener noreferrer"><span class="fa-fw fa-brands me-2 fa-lg fa-facebook-f"></span><span class="sr-
-only">Facebook</span></a></li>
-          <li><a href="https://www.linkedin.com" class="text-dark text-decoration-none" target="_blank" 
-rel="noopener noreferrer"><span class="fa-fw fa-brands me-2 fa-lg fa-linkedin-in"></span><span class="sr-
-only">Linkedin</span></a></li>
+          <li><a href="https://www.twitter.com" class="text-dark text-decoration-none" target="_blank" rel="noopener noreferrer"><span class="fa-fw fa-brands me-2 fa-lg fa-twitter"></span><span class="sr-only">Twitter</span></a></li>
+          <li><a href="https://www.facebook.com" class="text-dark text-decoration-none" target="_blank" rel="noopener noreferrer"><span class="fa-fw fa-brands me-2 fa-lg fa-facebook-f"></span><span class="sr-only">Facebook</span></a></li>
+          <li><a href="https://www.linkedin.com" class="text-dark text-decoration-none" target="_blank" rel="noopener noreferrer"><span class="fa-fw fa-brands me-2 fa-lg fa-linkedin-in"></span><span class="sr-only">Linkedin</span></a></li>
         </ul>
       </div>
     </div>
@@ -314,9 +309,7 @@ only">Linkedin</span></a></li>
   <div class="bg-light py-2">
     <div class="container">
       <div class="d-flex justify-content-between align-items-center flex-md-row flex-column">
-        <p class="small mb-0 mt-3 mt-md-0">&copy;2023 SpaceJet. Built on <a href="" class="text-dark">SpaceJet 
-Theme</a> and powered by <a href="https://www.solodev.com" target="_blank" rel="noopener noreferrer" 
-class="text-dark">Solodev</a>.</p>
+        <p class="small mb-0 mt-3 mt-md-0">&copy;2023 SpaceJet. Built on <a href="https://github.com/solodev/marketplace/raw/master/depot/themes/solodev-spacejet-2023.zip" class="text-dark">SpaceJet Theme</a> and powered by <a href="https://www.solodev.com" target="_blank" rel="noopener noreferrer" class="text-dark">Solodev</a>.</p>
         <ul class="list-unstyled d-inline-flex mb-0 mt-3 mt-md-0 small">
           <li><a href="/privacy.stml" class="text-dark me-3">Privacy</a></li>
           <li><a href="/legal.stml" class="text-dark">Legal</a></li>
@@ -331,28 +324,73 @@ class="text-dark">Solodev</a>.</p>
 
 **main.html**
 ```js
-<div role="main">
-  <!-- Top Nav -->
-  <div class="dynamicDiv"></div>
-  <!-- End of Top Nav -->
-  <!-- Hero -->
-  <div class="dynamicDiv"></div>
-  <!-- End of Hero -->
-  <!-- Content -->
-  <div class="dynamicDiv"></div>
-  <!-- End of Content -->
-  <!-- Footer -->
-  <div class="dynamicDiv"></div>
-  <!-- End of Footer -->
+<div class="container">
+  <div class="row justify-content-between align-items-center mt-5 pt-5">
+    <div class="col-md-8 col-lg-5 mx-auto ms-lg-0">
+      <img src="/_/images/SpaceJet-2023-Jet-Image-1.jpg" alt="SpaceJet 2023 Jet" class="img-fluid rounded-4">
+    </div>
+    <div class="col-lg-6 mt-lg-0 mt-5">
+      <div class="text-center text-lg-start">
+        <p><strong>HOW IT WORKS</strong></p>
+        <h2 class="display-5 fw-bolder"><strong>Plan Your Itinerary and Choose a Spaceport</strong></h2>
+        <p class="mt-3">Now you can travel beyond your expectations – from earth's orbit to the moon and beyond – all with the ease and comfort of booking terrestrial travel. Choose from a wide range of destinations, then select one of our convenient SpacePorts from around the globe, with more coming soon.</p>
+        <ul class="fw-bolder ps-3 d-inline d-sm-table d-lg-inline-block mx-auto text-sm-start text-center">
+          <li>SkyDrift Hotel – Low Earth Orbit (LEO)</li>
+          <li>Armstrong Spacewalk Experience Platform</li>
+          <li>Four Seasons at the Sea of Tranquility</li>
+          <li>LunarXP Connector to Lovell Mines</li>
+          <li>Mars Colony Connector</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 ```
 
 **home-blog.tpl**
 
-!!!warning 
-TO COME SOON
-!!!
-
+```js
+<div class="mt-5 py-lg-5">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="display-5 fw-bolder"><strong>Blog</strong></h2>
+      <p>Learn what's happening on the final frontier</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 mt-4">
+      <div class="col mt-4">
+        <div class="card rounded-4 shadow border-0">
+          <img src="/_/images/SpaceJet-2023-Astronaut-Image.jpg" alt="Astronaut" class="img-fluid rounded-top-4">
+          <div class="card-body text-center text-sm-start p-4">
+            <p class="pt-1">August 28, 2023</p>
+            <h3 class="mt-3 fw-bolder"><strong>Experience amazing views of Earth on a guided SpaceWalk</strong></h3>
+            <a href="/" class="btn fs-6 btn-danger text-white my-3"><strong>Learn More</strong></a>
+          </div>
+        </div>
+      </div>
+      <div class="col mt-4">
+        <div class="card rounded-4 shadow border-0">
+          <img src="/_/images/SpaceJet-2023-Cabin-Image.jpg" alt="Space Class cabins" class="img-fluid rounded-top-4">
+          <div class="card-body text-center text-sm-start p-4">
+            <p class="pt-1">August 25, 2023</p>
+            <h3 class="mt-3 fw-bolder"><strong>Space Class seats offer a whole new galaxy of luxury</strong></h3>
+            <a href="/" class="btn fs-6 btn-danger text-white my-3"><strong>Learn More</strong></a>
+          </div>
+        </div>
+      </div>
+      <div class="col mt-4">
+        <div class="card rounded-4 shadow border-0">
+          <img src="/_/images/SpaceJet-2023-Jet-Image-2.jpg" alt="SpaceJet" class="img-fluid rounded-top-4">
+          <div class="card-body text-center text-sm-start p-4">
+            <p class="pt-1">August 23, 2023</p>
+            <h3 class="mt-3 fw-bolder"><strong>SpaceJet expands ports to include Sea of Tranquility Resort</strong></h3>
+            <a href="/" class="btn fs-6 btn-danger text-white my-3"><strong>Learn More</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+```
 
 Once complete, your final homepage should appear in the editor, featuring the top navigation, hero, CTA, and footer. The blog section will be covered in the <a href="/tutorials/websites/add-module/">Modules</a> tutorial. 
 
