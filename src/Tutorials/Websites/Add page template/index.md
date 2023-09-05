@@ -444,7 +444,7 @@ Solodev provides a rich visual editing experience. The editor renders a preview 
       [solodev_nav nav_type="side" nav_class="list-unstyled" include_categories="1"]
    [/non_admin_only]
 ```
-**Step 6**: Repeat step 3, and add privacy.html containing your privacy statement:
+**Step 6**: Repeat step 3, and add privacy.html containing your privacy statement, for example:
 
 ```js 
 Here is my privacy policy.
@@ -453,10 +453,10 @@ Here is my privacy policy.
 **Step 6**: Repeat step 3, and add top-nav.tpl, the left-nav-content-template.tpl, the footer.tpl. Once done, click **Publish**.
 
 
-!!!warning 
-TO COME SOON
-!!!
 
 
 ## How to create a Sectional template 
 
+!!!warning
+Comming soon
+!!!

@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-04T14:37:11Z",
+  "created": "2023-09-05T10:36:47Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -623,6 +623,21 @@
     },
     {
       "path": "images\\contacts.png"
+    },
+    {
+      "path": "images\\content-template-add-file.png"
+    },
+    {
+      "path": "images\\content-template-add-file1.png"
+    },
+    {
+      "path": "images\\content-template-add-file2.png"
+    },
+    {
+      "path": "images\\content-template-add-folder.png"
+    },
+    {
+      "path": "images\\content-template-left-nav.png"
     },
     {
       "path": "images\\content-template.png"
