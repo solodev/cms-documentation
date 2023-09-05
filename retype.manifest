@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-05T16:11:05Z",
+  "created": "2023-09-05T18:19:08Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1524,6 +1524,18 @@
       "path": "images\\salesforce.jpg"
     },
     {
+      "path": "images\\scss-folder.png"
+    },
+    {
+      "path": "images\\scss-import.png"
+    },
+    {
+      "path": "images\\scss-utilities-vars.png"
+    },
+    {
+      "path": "images\\scss-utilities.png"
+    },
+    {
       "path": "images\\settings.jpg"
     },
     {
@@ -2494,6 +2506,9 @@
     },
     {
       "path": "tutorials\\integrations\\solodev\\connect-your-dns\\index.html"
+    },
+    {
+      "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\index.html"
     },
     {
       "path": "tutorials\\integrations\\solodev\\index.html"
