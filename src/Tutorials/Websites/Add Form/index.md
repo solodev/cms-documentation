@@ -43,7 +43,7 @@ Using the **Pencil** icon, you can customize attributes such as layout, position
 
 **Step 2:** On the main forms dashboard, click **Add Form**. 
 
-<img src="../../../images/add-form-upload-tpl.png" alt="form upload" style="width: 100%; display: block"></a>
+<img src="../../../images/forms-dashboard1.png" alt="form upload" style="width: 100%; display: block"></a>
 
 **Step 3:** First, provide a name to your form in the **Name** field.
 
