@@ -288,7 +288,7 @@ module.exports = {
 
 **Step 12**: Click on the new **scss folder** in your left menu. Following steps 1 and 2, create the file under the folder:
 
-`app.scss`
+ * app.scss
 
 **Step 13**: Paste the following code:
 
@@ -305,11 +305,11 @@ $fa-font-path: "../../www/_/fonts";
 @import '~@fortawesome/fontawesome-free/scss/regular';
 ```
 
-**Step 14**: Click on **web files** and **Add Folder** called **js**.
+**Step 14**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
 
-**Step 15**: Click on the new **js folder** in your left menu. Following steps 1 and 2, create a file under the folder:
+**Step 15**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
 
-`app.js`
+ * app.js
 
 **Step 16**: Paste the following code:
 
@@ -331,13 +331,13 @@ $(function() {
 });
 ```
 
-**Step 17**: Click on the **js folder** in your left menu. Create the folder:
+**Step 17**: Click on the **js folder** in your left menu. <a href="/workspace/websites/manage-folder/addfolder/">Create the folder</a>:
 
-`utils`
+ * utils
 
-**Step 18**: Click on the new **utilities folder** in your left menu. Create the file:
+**Step 18**: Click on the new **utilities folder** in your left menu. <a href="/workspace/websites/manage-folder/addfile/">Create the file</a>: 
 
-`utils.js`
+  * utils.js
 
 **Step 19**: Paste the following code:
 
