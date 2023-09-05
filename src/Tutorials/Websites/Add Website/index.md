@@ -401,8 +401,6 @@ While login pages are optional, 404 error pages are highly recommended as a best
 
 
 
-
-
 ## Next Steps
 
 - In the next tutorial, you will learn how to <a href="/workspace/websites/manage-folder/add-page/">Add a page</a>, create templates, and create content on your new website. 
