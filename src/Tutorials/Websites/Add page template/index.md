@@ -236,8 +236,7 @@ Once complete, click **Publish**. After your page reloads, you will see the top 
 Solodev provides a rich visual editing experience. The editor renders a preview of your frontend website, but minor differences may occur due to the software’s features and functionality. This can affect the appearance of fonts and images within the editor. You can compare your progress to the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">SpaceJet sample site</a>.
 !!!
 
-**Step 7**: Repeating steps 4 and 5, add the code samples below for the other 
-divs of the SpaceJet homepage:
+**Step 7**: Repeating steps 4 and 5, add the code samples below for the other divs of the SpaceJet homepage:
 
 **home-hero.tpl**
 
@@ -359,18 +358,105 @@ Once complete, your final homepage should appear in the editor, featuring the to
 
 
 
+
+
+
+## How to create a Content page template 
+
+Using the base template with your page, you can now build out your content page template. The content page template will be most likely repeated in many places on your website providing various informations.
+
+For this tutorial, we will use the assets from the SpaceJet template to create a content page (privacy statement) with a header, CTA (call-to-action) banner, footer, and content areas. You can view the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/privacy.html">SpaceJet sample site</a> to view the final privacy page.  
+
+!!!**Note**:
+This tutorial assumes that you had finished **How to create a homepage template** therefore you have some files and folders in place. In case you didn't follow the <a href="/tutorials/websites/add-page-template/#how-to-create-a-homepage-template">How to create a homepage template</a>, please finish it first. 
+!!!
+
+### Setting up your folders and .tpl files
+
+
+**Step 1**: Under **web files**, click on the **content** folder.
+
+**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a>. Under **content**, add folder called **privacy**. Click **Submit**, when complete.
+
+<img src="../../../images/content-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
+
+**Step 3**: Now you will need to add a new .html file into the folder you have just created. Under **content**, click on the **privacy** folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file called **privacy.html**,and select **HTML** for the **File Type**. Once complete, click **Submit**:
+
+<img src="../../../images/content-template-add-file1.png" alt="base template" style="width: 20%; display: block"></a>
+
+**Step 4**: You will also need to add a new .tpl files into a folders listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file under each folder, and select **Code** for the **File Type**. Once complete, click **Submit**:
+
+- content: **left-nav-content-template.tpl**
+- navigation: **left-nav.tpl**
+
+<img src="../../../images/content-template-add-file.png" alt="base template" style="width: 25%; display: block"></a>
+
+**Step 5**: Finally click on the **www** folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/add-page/">Add Pgae</a>. Create a new file called **privacy.stml**, and select **HTML** for the **File Type**. Once complete, click **Submit**:
+
+<img src="../../../images/content-template-add-file2.png" alt="base template" style="width: 20%; display: block"></a>
+
+Now you have a complete set of folders and .tpl files to build out your content page.
+
+### Adding templates to your dynamic divs
+
+Next, you will apply your .tpl files to your dynamic divs just like you did in the case of **homepage**. For the purposes of this lesson, will continue using sample code from the SpaceJet theme.
+
+
+**Step 1**: Under **web files**, browse to the **templates/content** folder and click on the **left-nav-content-template.tpl** file. Copy the code sample below into the editor. When complete, click **Publish**.
+
+<img src="../../../images/content-template-left-nav.png" alt="base template" style="width: 100%; display: block"></a>
+
+```js
+<div class="container my-5 pb-5" id="maincontent">
+  <div class="row">
+    <aside class="col-md-4 col-lg-3 col-xl-2">
+      <div class="dynamicDiv"></div>
+      <div class="dynamicDiv"></div>
+      <div class="dynamicDiv"></div>
+      <div class="dynamicDiv"></div>
+    </aside>
+    <div class="col-md-8 col-lg-9 col-xl-10 ps-4">
+      <div class="dynamicDiv"></div>
+      <div class="dynamicDiv"></div>
+      <div class="dynamicDiv"></div>
+    </div>
+  </div>
+</div>
+```
+
+**Step 2**: Under the **www** folder, click on the **privacy.stml** file.
+
+**Step 3**: Just like in the case of homepage, in the top dynamic div, click anywhere in the **base-template.tpl** div. Once activated, it will turn blue, indicating that it is ready to have a template applied to it. 
+
+Next, under **web files**, open the **templates** folder and browse to the **navigation** folder. Click on the **top-nav.tpl** file. The tag will change from base-template.tpl to top-nav.tpl, as shown: 
+
+Once complete, click **Publish**. After your page reloads, you will see the top navigation appear in your index.stml file. 
+
+
+!!!**Note**:
+Solodev provides a rich visual editing experience. The editor renders a preview of your frontend website, but minor differences may occur due to the software’s features and functionality. This can affect the appearance of fonts and images within the editor. You can compare your progress to the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">SpaceJet sample site</a>.
+!!!
+
+**Step 5**: Repeat step 3, and add the left navigation with the following code:
+
+```js 
+ [non_admin_only]
+      [solodev_nav nav_type="side" nav_class="list-unstyled" include_categories="1"]
+   [/non_admin_only]
+```
+**Step 6**: Repeat step 3, and add privacy.html containing your privacy statement:
+
+```js 
+Here is my privacy policy.
+```
+
+**Step 6**: Repeat step 3, and add top-nav.tpl, the left-nav-content-template.tpl, the footer.tpl. Once done, click **Publish**.
+
+
+!!!warning 
+TO COME SOON
+!!!
+
+
 ## How to create a Sectional template 
-
-
-
-
-
-
-## How to create a Content template 
-
-
-
-
-
-
 

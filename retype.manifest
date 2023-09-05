@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-01T21:18:48Z",
+  "created": "2023-09-04T14:37:11Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -514,7 +514,31 @@
       "path": "images\\base-1.jpg"
     },
     {
+      "path": "images\\base-template-add-base-template.png"
+    },
+    {
+      "path": "images\\base-template-add-file.png"
+    },
+    {
+      "path": "images\\base-template-add-folder-2.png"
+    },
+    {
+      "path": "images\\base-template-add-folder.png"
+    },
+    {
+      "path": "images\\base-template-base-template-final.png"
+    },
+    {
+      "path": "images\\base-template-code.jpg"
+    },
+    {
+      "path": "images\\base-template-dots.png"
+    },
+    {
       "path": "images\\base-template-dynamic-divs.png"
+    },
+    {
+      "path": "images\\base-template-nav.jpg"
     },
     {
       "path": "images\\base-template.jpg"
@@ -965,6 +989,33 @@
     },
     {
       "path": "images\\history.png"
+    },
+    {
+      "path": "images\\homepage-base-folder-div.png"
+    },
+    {
+      "path": "images\\homepage-folders.png"
+    },
+    {
+      "path": "images\\homepage-images-folder.png"
+    },
+    {
+      "path": "images\\homepage-images-menu.png"
+    },
+    {
+      "path": "images\\homepage-sub-folder-files.png"
+    },
+    {
+      "path": "images\\homepage-top-nav-code.png"
+    },
+    {
+      "path": "images\\homepage-top-nav-complete.png"
+    },
+    {
+      "path": "images\\homepage-top-nav-tpl.png"
+    },
+    {
+      "path": "images\\homepage-upload-images.png"
     },
     {
       "path": "images\\html-files.png"
@@ -1558,6 +1609,9 @@
     },
     {
       "path": "images\\spacejet-edit-code-tools.png"
+    },
+    {
+      "path": "images\\spacejet-homepage-builder.jpg"
     },
     {
       "path": "images\\spacejet-main-page.jpg"
@@ -2537,8 +2591,7 @@
       "path": "tutorials\\websites\\add-website\\index.html"
     },
     {
-      "path": "tutorials\\websites\\add-website\\package-lock.json",
-      "old": true
+      "path": "tutorials\\websites\\add-website\\package-lock.json"
     },
     {
       "path": "tutorials\\websites\\alt-tags\\index.html"
