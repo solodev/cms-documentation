@@ -88,7 +88,7 @@ The repeater template, although optional, displays all entries in the module use
             </div>
           </div>
         </div>
-      [/repeater]
+      [/repeater] 
     </div>
   </div>
 </div>

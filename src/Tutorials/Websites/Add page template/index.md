@@ -356,10 +356,61 @@ TO COME SOON
 
 Once complete, your final homepage should appear in the editor, featuring the top navigation, hero, CTA, and footer. The blog section will be covered in the <a href="/tutorials/websites/add-module/">Modules</a> tutorial. 
 
+## How to create a Sectional template 
 
+### Setting up your folders and .tpl files
 
+**Step 1**: Under **web files**, click on the **content** folder.
 
+**Step 2**: Using the right-hand menu, click <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a>. Under **content**, add folder called **about**. Click **Submit**, when complete.
 
+<img src="../../../images/about-folder-web-files.png" alt="about folder web files" style=" display: block"></a>
+
+**Step 3**: Now you will need to add a new .tpl file into the folder you have just created. Under **content**, click on the **about** folder and on the right menu, click <a href="/workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file called **about.tpl** and select **Code** for the **File Type**. Once complete, click **Submit**.
+
+<img src="../../../images/about-file-web-files.png" alt="about file web files" style=" display: block"></a>
+
+**Step 4**: You will also need to add a new .tpl file into the folder listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="/workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file under the folder and select **Code** for the **File Type**. Once complete, click **Submit**:
+
+  *	content: **full-width-template.tpl**
+
+<img src="../../../images/full-width.png" alt="full-width" style=" display: block"></a>
+
+**Step 5**: Click on the **www** folder and on the right menu, click <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a>, and add folder called **about**. Click **Submit**, when complete.
+
+<img src="../../../images/about-folder-www.png" alt="about-folder-www" style=" display: block"></a>
+
+### Adding templates to your dynamic divs
+
+**Step 1**: Click on the **about** folder and on the right menu, click <a href="/workspace/websites/manage-folder/add-page/">Add Page</a>. Create a new page called **index.stml**. Once complete, click **Submit**.
+
+<img src="../../../images/full-width-code.png" alt="full-width-code" style=" display: block"></a>
+
+**Step 2**: Just like in the case of homepage, with the **base** folder opened, click in the top dynamic div. Once activated, click on the **base-template.tpl** file. Once complete, click **Publish**.
+
+**Step 3**: Repeat step 3, and add **top-nav.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
+
+!!!**Note**:
+This tutorial assumes that you had finished **How to create a homepage template** therefore you have some files and folders in place. In case you didn't follow the <a href="/tutorials/websites/add-page-template/#how-to-create-a-homepage-template">How to create a homepage template</a>, please finish it first. 
+!!!
+
+**Step 4**: Repeat step 3, and add the **full-width-template.tpl** with the following code:
+
+```js
+<div>
+  <div class="dynamicDiv"></div>
+  <div class="dynamicDiv"></div>
+  <div class="dynamicDiv"></div>
+  <div class="dynamicDiv"></div>
+  <div class="dynamicDiv"></div>
+</div>
+```
+
+**Step 5**: Repeat step 3, and add **about.tpl** containing your about page content, for example:
+
+```js 
+Here is my about page.
+```
 
 ## How to create a Content page template 
 
@@ -373,14 +424,13 @@ This tutorial assumes that you had finished **How to create a homepage template*
 
 ### Setting up your folders and .tpl files
 
-
 **Step 1**: Under **web files**, click on the **content** folder.
 
 **Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a>. Under **content**, add folder called **privacy**. Click **Submit**, when complete.
 
 <img src="../../../images/content-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 3**: Now you will need to add a new .html file into the folder you have just created. Under **content**, click on the **privacy** folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file called **privacy.html**,and select **HTML** for the **File Type**. Once complete, click **Submit**:
+**Step 3**: Now you will need to add a new .html file into the folder you have just created. Under **content**, click on the **privacy** folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file called **privacy.html**, and select **HTML** for the **File Type**. Once complete, click **Submit**.
 
 <img src="../../../images/content-template-add-file1.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -391,7 +441,7 @@ This tutorial assumes that you had finished **How to create a homepage template*
 
 <img src="../../../images/content-template-add-file.png" alt="base template" style="width: 25%; display: block"></a>
 
-**Step 5**: Finally click on the **www** folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/add-page/">Add Pgae</a>. Create a new file called **privacy.stml**, and select **HTML** for the **File Type**. Once complete, click **Submit**:
+**Step 5**: Finally click on the **www** folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/add-page/">Add Page</a>. Create a new file called **privacy.stml**, and select **HTML** for the **File Type**. Once complete, click **Submit**:
 
 <img src="../../../images/content-template-add-file2.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -426,9 +476,11 @@ Next, you will apply your .tpl files to your dynamic divs just like you did in t
 
 **Step 2**: Under the **www** folder, click on the **privacy.stml** file.
 
-**Step 3**: Just like in the case of homepage, click in the top dynamic div. Once activated, it will turn blue, indicating that it is ready to have a template applied to it. 
+**Step 3**: Next, under **web files**, open the **templates folder** and browse to the **base folder**.
 
-Next, under **web files**, open the **templates** folder and browse to the **base** folder. Click on the **base-template.tpl** file. 
+**Step 4**: Just like in the case of homepage, click in the top dynamic div. Once activated, it will turn blue, indicating that it is ready to have a template applied to it. 
+
+Click on the **base-template.tpl** file. 
 
 Once complete, click **Publish**. After your page reloads, you will see the new layout of your privacy.stml file. 
 
@@ -437,30 +489,19 @@ Once complete, click **Publish**. After your page reloads, you will see the new 
 Solodev provides a rich visual editing experience. The editor renders a preview of your frontend website, but minor differences may occur due to the software’s features and functionality. This can affect the appearance of fonts and images within the editor. You can compare your progress to the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">SpaceJet sample site</a>.
 !!!
 
-**Step 4**: Repeat step 3, and add **top-nav.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
+**Step 5**: Repeat step 3, and add **top-nav.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
 
-**Step 5**: Repeat step 3, and add **left-nav-content-template.tpl**, **cta.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
+**Step 6**: Repeat step 3, and add **left-nav-content-template.tpl**, **cta.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
 
-**Step 5**: Repeat step 3, and add the **left-nav.tpl** with the following code:
+**Step 7**: Repeat step 3, and add the **left-nav.tpl** with the following code:
 
 ```js 
  [non_admin_only]
       [solodev_nav nav_type="side" nav_class="list-unstyled" include_categories="1"]
    [/non_admin_only]
 ```
-**Step 6**: Repeat step 3, and add **privacy.html** containing your privacy statement, for example:
+**Step 8**: Repeat step 3, and add **privacy.html** containing your privacy statement, for example:
 
 ```js 
 Here is my privacy policy.
 ```
-
-
-
-
-
-
-## How to create a Sectional template 
-
-!!!warning
-Comming soon
-!!!
