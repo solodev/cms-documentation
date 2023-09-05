@@ -39,13 +39,19 @@ Using the **Pencil** icon, you can customize attributes such as layout, position
 
 ### Building a form with Form Studio
 
-**Step 1:** First, provide a name to your form in the **Name** field.
+**Step 1:** From your main CMS dashboard, click **Forms** in the left-hand menu.
 
-**Step 2:** Pick an install location in Solodev by clicking **Browse**. Select an object and click **Choose**.
+**Step 2:** On the main forms dashboard, click **Add Form**. 
 
-<img src="../../../images/form-choose-object.jpg" alt="form choose object" style="width: 25%; display: block"></a>
+<img src="../../../images/add-form-upload-tpl.png" alt="form upload" style="width: 100%; display: block"></a>
 
-**Step 3:** Use the drag-and-drop Form Studio tools to build your form. As with previous lessons, you can use the SpaceJet theme sample as a guide for creating the fields as shown:
+**Step 3:** First, provide a name to your form in the **Name** field.
+
+**Step 4:** Pick an install location in Solodev by clicking **Browse**. Select an object and click **Choose**.
+
+<img src="../../../images/form-choose-object.jpg" alt="form choose object" style="width: 30%; display: block"></a>
+
+**Step 5:** Use the drag-and-drop Form Studio tools to build your form. As with previous lessons, you can use the SpaceJet theme sample as a guide for creating the fields as shown:
 
 <img src="../../../images/spacejet-form-sample.png" alt="form choose object" style="width: 100%; display: block"></a>
 
@@ -92,13 +98,9 @@ If you have a pre-built form template available – perhaps from a previous webs
 To use the upload template option, your form file must be in a .tpl file format. 
 !!!
 
-### Upload TPL File 
-
 **Step 1:** From your main CMS dashboard, click **Forms** in the left-hand menu.
 
 **Step 2:** On the main forms dashboard, click **Add Form**. 
-
-<img src="../../../images/forms-dashboard.png" alt="form dashboard" style="width: 100%; display: block"></a>
 
 **Step 3:** In the header at the top of the Form Builder screen, provide a name to your form in the Name field.
 

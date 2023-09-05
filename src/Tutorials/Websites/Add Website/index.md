@@ -290,7 +290,7 @@ module.exports = {
 
 **Step 12**: Click on the new **scss folder** in your left menu. Following steps 1 and 2, create the file under the folder:
 
- - app.scss
+ - **app.scss**
 
 <img src="../../../images/scss-file.jpg" alt="scss-file" style="display: block"></a>
 
@@ -315,7 +315,7 @@ $fa-font-path: "../../www/_/fonts";
 
 **Step 15**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
 
- - app.js
+ - **app.js**
 
 <img src="../../../images/js-file.jpg" alt="js-file" style="display: block"></a>
 
@@ -341,13 +341,13 @@ $(function() {
 
 **Step 17**: Click on the **js folder** in your left menu. <a href="/workspace/websites/manage-folder/addfolder/">Create the folder</a>:
 
- - utils
+ - **utils**
 
 <img src="../../../images/js-utils-folder.jpg" alt="js-utils-folder" style="display: block"></a>
 
 **Step 18**: Click on the new **utilities folder** in your left menu. <a href="/workspace/websites/manage-folder/addfile/">Create the file</a>: 
 
-  - utils.js
+  - **utils.js**
 
 <img src="../../../images/js-utils-file.jpg" alt="js-utils-file" style="display: block"></a>
 
