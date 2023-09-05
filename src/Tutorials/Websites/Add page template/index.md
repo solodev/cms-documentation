@@ -426,18 +426,18 @@ Next, you will apply your .tpl files to your dynamic divs just like you did in t
 
 **Step 2**: Under the **www** folder, click on the **privacy.stml** file.
 
-**Step 3**: Just like in the case of homepage, in the top dynamic div, click anywhere in the **base-template.tpl** div. Once activated, it will turn blue, indicating that it is ready to have a template applied to it. 
+**Step 3**: Just like in the case of homepage, click in the top dynamic div. Once activated, it will turn blue, indicating that it is ready to have a template applied to it. 
 
-Next, under **web files**, open the **templates** folder and browse to the **navigation** folder. Click on the **top-nav.tpl** file. The tag will change from base-template.tpl to top-nav.tpl, as shown: 
+Next, under **web files**, open the **templates** folder and browse to the **content** folder. Click on the **left-nav-content-template.tpl** file. 
 
-Once complete, click **Publish**. After your page reloads, you will see the top navigation appear in your index.stml file. 
+Once complete, click **Publish**. After your page reloads, you will see the new layout of your privacy.stml file. 
 
 
 !!!**Note**:
 Solodev provides a rich visual editing experience. The editor renders a preview of your frontend website, but minor differences may occur due to the software’s features and functionality. This can affect the appearance of fonts and images within the editor. You can compare your progress to the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">SpaceJet sample site</a>.
 !!!
 
-**Step 5**: Repeat step 3, and add the left navigation with the following code:
+**Step 5**: Repeat steps 2 and 3, and add the **left-nav.tpl** with the following code:
 
 ```js 
  [non_admin_only]
@@ -450,7 +450,7 @@ Solodev provides a rich visual editing experience. The editor renders a preview 
 Here is my privacy policy.
 ```
 
-**Step 6**: Repeat step 3, and add top-nav.tpl, the left-nav-content-template.tpl, the footer.tpl. Once done, click **Publish**.
+**Step 7**: Repeat step 3, and add top-nav.tpl, and the footer.tpl. Once done, click **Publish**.
 
 
 
