@@ -424,13 +424,13 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 
 **Step 2**: Just like in the case of homepage, with the **base** folder opened, click in the top dynamic div. Once activated, click on the **base-template.tpl** file. Once complete, click **Publish**.
 
-**Step 3**: Repeat step 3, and add **top-nav.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
+**Step 3**: Repeat step 3 from the <a href="/tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add **top-nav.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
 
 !!!**Note**:
 This tutorial assumes that you had finished **How to create a homepage template** therefore you have some files and folders in place. In case you didn't follow the <a href="/tutorials/websites/add-page-template/#how-to-create-a-homepage-template">How to create a homepage template</a>, please finish it first. 
 !!!
 
-**Step 4**: Repeat step 3, and add the **full-width-template.tpl** with the following code:
+**Step 4**: Repeat step 3 from the <a href="/tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add the **full-width-template.tpl** with the following code:
 
 ```js
 <div>
@@ -442,7 +442,7 @@ This tutorial assumes that you had finished **How to create a homepage template*
 </div>
 ```
 
-**Step 5**: Repeat step 3, and add **about.tpl** containing your about page content, for example:
+**Step 5**: Repeat step 3 from the <a href="/tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add **about.tpl** containing your about page content, for example:
 
 ```js 
 Here is my about page.
