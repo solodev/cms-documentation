@@ -286,9 +286,13 @@ module.exports = {
 
 **Step 11**: Click on **web files** and **Add Folder** called **scss**.
 
+<img src="../../../images/scss-folder.jpg" alt="scss-folder" style="display: block"></a>
+
 **Step 12**: Click on the new **scss folder** in your left menu. Following steps 1 and 2, create the file under the folder:
 
- * app.scss
+ - app.scss
+
+<img src="../../../images/scss-file.jpg" alt="scss-file" style="display: block"></a>
 
 **Step 13**: Paste the following code:
 
@@ -307,9 +311,13 @@ $fa-font-path: "../../www/_/fonts";
 
 **Step 14**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
 
+<img src="../../../images/js-folder.jpg" alt="js-folder" style="display: block"></a>
+
 **Step 15**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
 
- * app.js
+ - app.js
+
+<img src="../../../images/js-file.jpg" alt="js-file" style="display: block"></a>
 
 **Step 16**: Paste the following code:
 
@@ -333,11 +341,15 @@ $(function() {
 
 **Step 17**: Click on the **js folder** in your left menu. <a href="/workspace/websites/manage-folder/addfolder/">Create the folder</a>:
 
- * utils
+ - utils
+
+<img src="../../../images/js-utils-folder.jpg" alt="js-utils-folder" style="display: block"></a>
 
 **Step 18**: Click on the new **utilities folder** in your left menu. <a href="/workspace/websites/manage-folder/addfile/">Create the file</a>: 
 
-  * utils.js
+  - utils.js
+
+<img src="../../../images/js-utils-file.jpg" alt="js-utils-file" style="display: block"></a>
 
 **Step 19**: Paste the following code:
 
@@ -377,11 +389,11 @@ For more details on the Website Dashboard and the web files and www folders, rea
 
 **Step 1**: Click on the **www** folder in your menu. Using the menu on the right, click **Add Folder**. 
 
-**Step 2**: In the menu, create a folder called _ (the underscore character). You can add an optional title and description, but it is not required. Once complete, click **Submit**.
+**Step 2**: In the menu, create a folder called "_" (the underscore character). You can add an optional title and description, but it is not required. Once complete, click **Submit**.
 
 <img src="../../../images/add-folder-www.png" alt="add-website" style="width: 40%; display: block"></a>
 
-**Step 3**: Following steps 1 and 2, create four additional folders under the _ folder: 
+**Step 3**: Following steps 1 and 2, create four additional folders under the "_" folder: 
 
 - **css**
 - **fonts** 
@@ -395,6 +407,10 @@ The _ folder is a general repository for your website’s resources:
 - Images will host all the graphics, photos, and visual assets.
 - js will contain the compiled JavaScript used on your website. 
 !!!
+
+**Step 4**: Click on the **css** folder and Add a File called **app.css**.
+
+**Step 5**:  Click on the **js** folder and Add a File called **app.js**.
 
 Once your web files and www have been set up, it should contain the following files and folders:
 

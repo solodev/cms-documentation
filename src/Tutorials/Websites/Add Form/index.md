@@ -17,7 +17,7 @@ From the main dashboard, there are three ways to add a form to Solodev:
 *	**Form Studio:**
 Solodev’s drag-and-drop Form Studio lets you build your own custom forms with granular control – without touching a line of code. Instantly add text, images, input fields, radio buttons, and more. Save your form and apply it to your page in minutes.  
 
-* **Upload TPL File:**
+* **Upload Template:**
 If you already have an existing template for your form, you can upload it directly as a .tpl file into Solodev and apply it to your page. 
 
 * **Upload HTML:**
@@ -84,13 +84,33 @@ Form Button | Add a custom button to submit your form. | • Link settings: add 
 
 **Step 7:** Save your changes by clicking the **Save** button to store the template.
 
-## Upload TPL File 
+## How to upload a template (.tpl) file
 
-**Step 1:** First, provide a name to your form in the **Name** field.
+If you have a pre-built form template available – perhaps from a previous website project – you also have the option to upload it directly to Solodev and add it to a page.
 
-**Step 2:** Pick an install location in Solodev by clicking **Browse**. Select an object click **Choose** and select the folder.
+!!!Note:
+To use the upload template option, your form file must be in a .tpl file format. 
+!!!
 
-**Step 3:** Once complete, click **Save**.
+### Upload TPL File 
+
+**Step 1:** From your main CMS dashboard, click **Forms** in the left-hand menu.
+
+**Step 2:** On the main forms dashboard, click **Add Form**. 
+
+<img src="../../../images/forms-dashboard.png" alt="form dashboard" style="width: 100%; display: block"></a>
+
+**Step 3:** In the header at the top of the Form Builder screen, provide a name to your form in the Name field.
+
+**Step 4:** To the right of the Name field, locate where it says Template (Optional). Click the button that reads **Upload TPL file**.
+
+<img src="../../../images/add-form-upload-tpl.png" alt="form upload" style="width: 100%; display: block"></a>
+
+**Step 5:** Pick an install location in Solodev by clicking **Browse**. Then, select a specific destination (labeled object) and click **Choose** to select the folder.
+
+<img src="../../../images/choose-object-form.jpg" alt="form browse" style="display: block"></a>
+
+**Step 6:** Once complete, click **Save**.
 
 ## Add HTML Code
 
