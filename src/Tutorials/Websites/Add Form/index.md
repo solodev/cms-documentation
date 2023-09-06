@@ -102,7 +102,9 @@ To use the upload template option, your form file must be in a .tpl file format.
 
 **Step 2:** On the main forms dashboard, click **Add Form**. 
 
-**Step 3:** In the header at the top of the Form Builder screen, provide a name to your form in the Name field.
+<img src="../../../images/forms-dashboard.png" alt="form upload" style="width: 100%; display: block"></a>
+
+**Step 3:** In the header at the top of the **Form Builder** screen, provide a name to your form in the **Name** field.
 
 **Step 4:** To the right of the Name field, locate where it says Template (Optional). Click the button that reads **Upload TPL file**.
 
@@ -110,19 +112,31 @@ To use the upload template option, your form file must be in a .tpl file format.
 
 **Step 5:** Pick an install location in Solodev by clicking **Browse**. Then, select a specific destination (labeled object) and click **Choose** to select the folder.
 
-<img src="../../../images/choose-object-form.jpg" alt="form browse" style="display: block"></a>
+<img src="../../../images/choose-object-form.jpg" alt="form browse" style="width: 30%; display: block"></a>
 
 **Step 6:** Once complete, click **Save**.
 
-## Add HTML Code
+## How to add a form using HTML
 
-**Step 1:** Click the **Coding** button in the bottom right to access the code edit
+In Solodev, you also have the option of adding your own custom form code using HTML.
 
-**Step 2:** Write your HTML code in the code editor.
+**Step 1**: From your main CMS dashboard, click **Forms** in the left-hand menu.
 
-**Step 3:** Once complete, click **Save**.
+**Step 2**: On the main forms dashboard, click **Add Form**. 
 
-Example code:
+**Step 3**: In the Form Studio dashboard, locate and click the **Code** button in the lower right corner. 
+
+<img src="../../../images/add-form-html.jpg" alt="form browse" style="width: 100%; display: block"></a>
+
+**Step 4**: Add your HTML code to the code editor. 
+
+<img src="../../../images/add-form-html2.jpg" alt="form browse" style="width: 100%; display: block"></a>
+
+**Step 5**: Once complete, click Save (bold).
+
+!!!**Note**:
+You can use the sample code below to match the SpaceJet theme.
+
 ```js
 <div class="my-5">
     <div class="row align-items-center">
@@ -154,6 +168,8 @@ Example code:
     <input class="btn fs-5 btn-danger text-white px-sm-5 py-1 pb-2 mx-auto d-block mt-4 fw-bold" type="submit" value="Submit">
   </div>
 ```
+
+!!!
 
 ## Add your form to a page
 

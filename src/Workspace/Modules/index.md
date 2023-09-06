@@ -1,17 +1,5 @@
 # Modules
 
-In Solodev, modules – sometimes called managers – are tools that simplify the content management process for editors. Modules empower a user to manage various types of content and data without updating code, and can range from very simple to highly complex.
-
-Modules incorporate a set of HTML-based form fields and WYSIWYG editors, powered by backend mapping to specific pages or sections of your website. Some common examples of Solodev modules include web forms, event calendars, photo galleries, hero sliders, landing pages, and more.
-
-## Types of Modules
-
-The Solodev module system offers two types of modules:
- * **Calendar**: Create date-based applications such as events, blogs, landing pages, and other custom experiences.
- * **Data table**: Build database-dependent applications such as schemas, publish data table information to external channels, expose data to channels via RESTful API, and more.
-
-## Modules Dashboard
-
 The modules dashboard gives you an overview of existing modules presented as a list. Each module has details such as name, location, and members assigned to each one.
 
 You can access all tools from the module dashboard to manage module infrastructure effectively.

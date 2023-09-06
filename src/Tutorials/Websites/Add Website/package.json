@@ -1,0 +1,45 @@
+{
+  "name": "solodev_spacejet_2023",
+  "version": "1.0.0",
+  "description": "Solodev SpaceJet 2023",
+  "scripts": {
+    "start": "webpack serve --config webpack/webpack.config.dev.js --mode=development",
+    "compile": "npm run css && npm run js",
+    "css": "webpack --config webpack/webpack.css.config.js",
+    "js": "webpack --config webpack/webpack.js.config.js",
+    "build": "webpack --config webpack/webpack.config.prod.js"
+  },
+  "author": "Solodev",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "@popperjs/core": "^2.11.4",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0",
+    "jquery-validation": "^1.19.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.22.10",
+    "@webpack-cli/serve": "^1.7.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.4.0",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "ejs-compiled-loader": "^3.1.0",
+    "expose-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "ignore-emit-webpack-plugin": "^2.0.6",
+    "mini-css-extract-plugin": "^2.4.3",
+    "node-sass": "^6.0.1",
+    "raw-loader": "^4.0.2",
+    "sass-loader": "^12.2.0",
+    "slick-carousel": "github:kenwheeler/slick",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1",
+    "webpack-merge": "^5.8.0"
+  }
+}

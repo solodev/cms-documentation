@@ -76,55 +76,9 @@ A package.json file is used to identify and understand how to handle your websit
 
 <img src="../../../images/package-json.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-**Step 4**: Add the sample json code below and click Publish.  
+**Step 4**: Download the sample json code below, add it to your file, and click Publish.  
 
-```js
-{
-  "name": "solodev_spacejet_2023",
-  "version": "1.0.0",
-  "description": "Solodev SpaceJet 2023",
-  "scripts": {
-    "start": "webpack serve --config webpack/webpack.config.dev.js --mode=development",
-    "compile": "npm run css && npm run js",
-    "css": "webpack --config webpack/webpack.css.config.js",
-    "js": "webpack --config webpack/webpack.js.config.js",
-    "build": "webpack --config webpack/webpack.config.prod.js"
-  },
-  "author": "Solodev",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.2.0",
-    "@popperjs/core": "^2.11.4",
-    "animate.css": "^4.1.1",
-    "bootstrap": "^5.2.0",
-    "jquery": "^3.6.0",
-    "jquery-validation": "^1.19.5"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.22.10",
-    "@webpack-cli/serve": "^1.7.0",
-    "babel-loader": "^8.2.3",
-    "clean-webpack-plugin": "^4.0.0",
-    "copy-webpack-plugin": "^9.0.1",
-    "css-loader": "^6.4.0",
-    "css-minimizer-webpack-plugin": "^3.1.1",
-    "ejs-compiled-loader": "^3.1.0",
-    "expose-loader": "^3.1.0",
-    "html-webpack-plugin": "^5.5.0",
-    "ignore-emit-webpack-plugin": "^2.0.6",
-    "mini-css-extract-plugin": "^2.4.3",
-    "node-sass": "^6.0.1",
-    "raw-loader": "^4.0.2",
-    "sass-loader": "^12.2.0",
-    "slick-carousel": "github:kenwheeler/slick",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.88.2",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.3.1",
-    "webpack-merge": "^5.8.0"
-  }
-}
-``` 
+<a href="package.json" download>**package.json**</a>
 
 **Step 5**: Using the same process in steps 1 and 2, create another file called **package-lock.json**
 
@@ -148,141 +102,11 @@ A package-lock.json is used to store the exact versions of the dependencies that
 Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.  
 !!!
 
-**Step 10**: Once your **webpack.css.config.js** and **webpack.js.config.js** are created, follow steps 3 and 4. In the editor, add the code samples below, then click **Publish**.
+**Step 10**: Once your **webpack.css.config.js** and **webpack.js.config.js** are created, follow steps 3 and 4. In the editor, download the code samples below and add them to your files in file editor , then click **Publish**.
 
-**webpack.css.config.js**
+<a href="webpack.css.config.js" download>**webpack.css.config.js**</a>
 
-```js
-'use strict';
-​
-const path = require('path');
-​
-// Plugins
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const IgnoreEmitPlugin = require('ignore-emit-webpack-plugin');
-​
-module.exports = {
-  mode: 'production',
-  optimization: {
-    minimize: true,
-    minimizer: [
-      new CssMinimizerPlugin(),
-    ],
-  },
-  context: __dirname,
-  entry: {
-    app: '../scss/app.scss'
-  },
-  output: {
-    path: path.resolve(__dirname, '../../www/_/css'),
-    clean: true,
-  },
-  resolve: {
-    extensions: ['.scss'],
-  },
-  module: {
-    rules: [
-      {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        type: 'asset/resource',
-        generator: {
-          filename: 'fonts/[name][ext]'
-        },
-      },
-      {
-        test: /\.(jpg|jpeg|gif|png|svg)$/,
-        type: 'asset/resource',
-      },
-      {
-        test: /\.s[ac]ss$/i,
-        use: [
-          MiniCssExtractPlugin.loader,
-          // Translates CSS into CommonJS
-          'css-loader',
-          // Compiles Sass to CSS
-          'sass-loader',
-        ],
-      },
-    ]
-  },
-	plugins: [
-    new MiniCssExtractPlugin(),
-    new IgnoreEmitPlugin(['app.js']),
-    new CleanWebpackPlugin(),
-	],
-};
-```
-
-**webpack.js.config.js**
-
-```js
-'use strict';
-​
-const path = require('path');
-const webpack = require('webpack');
-​
-// Plugins
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const TerserPlugin = require('terser-webpack-plugin');
-​
-module.exports = {
-  mode: 'production',
-  optimization: {
-    minimize: true,
-    minimizer: [
-      new TerserPlugin(),
-    ],
-  },
-  context: __dirname,
-  entry: {
-    app: '../js/app.js'
-  },
-  output: {
-    path: path.resolve(__dirname, '../../www/_/js'),
-    filename: '[name].js',
-    clean: true,
-  },
-  resolve: {
-    extensions: ['.js'],
-  },
-  devtool: 'source-map',
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env']
-          }
-        }
-      },
-      {
-        test: require.resolve('jquery'),
-        use: [
-          {
-            loader: 'expose-loader',
-            options: {
-              exposes: ['$', 'jQuery']
-            }
-          }
-        ]
-      },
-    ]
-  },
-	plugins: [
-    new webpack.ProvidePlugin({
-      jQuery: 'jquery',
-      $: 'jquery',
-      jquery: 'jquery'
-    }),
-    new CleanWebpackPlugin()
-	],
-};
-```
+<a href="webpack.js.config.js" download>**webpack.js.config.js**</a>
 
 **Step 11**: Click on **web files** and **Add Folder** called **scss**.
 
@@ -294,20 +118,9 @@ module.exports = {
 
 <img src="../../../images/scss-file.jpg" alt="scss-file" style="display: block"></a>
 
-**Step 13**: Paste the following code:
+**Step 13**: Download the code below and paste it into the file:
 
-```js
-$fa-font-path: "../../www/_/fonts";
-
-@import 'animate.css';
-
-@import '~bootstrap/scss/bootstrap';
-
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-@import '~@fortawesome/fontawesome-free/scss/solid';
-@import '~@fortawesome/fontawesome-free/scss/brands';
-@import '~@fortawesome/fontawesome-free/scss/regular';
-```
+<a href="app.scss" download>**app.scss**</a>
 
 **Step 14**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
 
@@ -319,25 +132,9 @@ $fa-font-path: "../../www/_/fonts";
 
 <img src="../../../images/js-file.jpg" alt="js-file" style="display: block"></a>
 
-**Step 16**: Paste the following code:
+**Step 16**: Download the code below and paste it into the file:
 
-```js
-'use strict';
-
-// Packages
-import 'jquery';
-import '@popperjs/core';
-import 'bootstrap';
-import 'slick-carousel';
-import 'jquery-validation';
-
-// Components
-import Utils from './utils/utils';
-
-$(function() {
-  new Utils();
-});
-```
+<a href="app.js" download>**app.js**</a>
 
 **Step 17**: Click on the **js folder** in your left menu. <a href="/workspace/websites/manage-folder/addfolder/">Create the folder</a>:
 
@@ -351,25 +148,9 @@ $(function() {
 
 <img src="../../../images/js-utils-file.jpg" alt="js-utils-file" style="display: block"></a>
 
-**Step 19**: Paste the following code:
+**Step 19**: Download the code below and paste it into the file:
 
-```js
-export default class Utils {
-  constructor() {
-    this.setDataBackgrounds();
-  }
-  setDataBackgrounds() {
-    if ($('[data-background]')) {
-      $('[data-background]').each(function() {
-        var attr, that;
-        that = $(this);
-        attr = that.attr('data-background');
-        that.css('background-image', 'url(' + attr + ')');
-      });
-    }
-  }
-}
-```
+<a href="utils.js" download>**utils.js**</a>
 
 ## Setting up your www folder
 

@@ -1,32 +1,59 @@
 # How to create a module in your CMS
 
-A <a href="/workspace/modules/">module</a> can be added to any website in Solodev. In this article, you will learn how to install a module, how to add both a repeater and detail template, and how to map a detail page to your module.
+In Solodev, modules – sometimes called managers – are tools that simplify the content management process for editors. Modules empower a user to manage various types of content and data without updating code, and can range from very simple to highly complex.
+
+Modules incorporate a set of HTML-based form fields and WYSIWYG editors, powered by backend mapping to specific pages or sections of your website. Some common examples of Solodev modules include web forms, event calendars, photo galleries, hero sliders, landing pages, and more.
+
+In this tutorial, you will learn about the different types of modules in Solodev and how to install a blog module based on the SpaceJet theme. You will also learn how to add both a repeater and detail template to your blog, and how to map a detail page to your blog module. 
 
 ## Prerequisites 
 
--	You will need to <a href="/tutorials/add-website/">add a website</a> to your Solodev CMS.
--	You will need to <a href="/workspace/websites/manage-folder/add-page/">add a page</a>.
--	You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
+- You will need to complete the <a href="/tutorials/add-website/">How to add a website</a> tutorial.
+- You will need to complete the <a href="/tutorials/websites/add-page-template/">How to add a page to a website</a> tutorial. 
+- You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
+- For the examples in this tutorial, we will continue using the <a href="solodev-spacejet-2023.zip" download>Solodev SpaceJet</a> theme package for images and assets.
+- As you are building with this tutorial, you can refer to the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet website</a>  to compare your progress.
 
-## Install Module
+## Types of Solodev modules
 
-**Step 1**.	Click **Modules** located under the Workspace section of the Solodev Dashboard and click the **Add Module** in the top right corner.
+While there are a wide range of experiences you can power with a module, there are two basic types in the Solodev system:
 
-**Step 2**.	Fill out the Add Module form.
+- **Calendar**: Ideal for date-based applications such as events, blogs, landing pages, and other custom experiences.
+
+- **Data table**: Perfect for database-dependent applications such as schemas. Data table modules can also be used to publishing information to external channels, expose data via RESTful API, and more. 
+
+## How to install a module in Solodev
+
+As previously mentioned, you will be creating a blog module using the SpaceJet theme, which you can experience via the sample site by clicking Blog in the top navigation. 
+
+The tutorial will cover the main blog page, the blog detail page, and the repeater – which will display your entries on the main Blog page, as well as the homepage. 
+
+!!!**Note**:
+Before getting started, locate these images in the theme package that you previously downloaded:
+
+- **SpaceJet-2023-Jet-Image-2.jpg**
+- **SpaceJet-2023-Cabin-Image.jpg**
+- **SpaceJet-2023-Astronaut-Image.jpg**
+!!!
+
+**Step 1**: From your main CMS dashboard, click **Modules** in the left-hand menu.
+
+**Step 2**: On the Modules dashboard, click **Add Module** in the upper right corner. 
+
+<img src="../../../images/module-install.png" alt="base template" style="display: block"></a>
+
+**Step 3**: In the Add Module form, give your module a **Name**, then select the module **Type** from the dropdown menu. Finally, choose a **Location** for your module in the CMS, such as the data center. 
 
 <img src="../../../images/add-module.png" alt="base template" style="display: block"></a>
 
-**Name** | **Description**
-:--- | ---
-Name | Enter the name of your module.
-Type | Choose between Calendar, Datatable (form), or upload a Package (.zip).
-Location | Select location you wish to save your form.
-Form Template | Upload the .tpl file to build your module.
-Add | Click **Add** to apply your changes.
+Once complete, click **Add**.
+
+!!!**Note**:
+If you have a pre-built form template prepared, you can upload it using by using the **Upload .tpl** button. 
+!!!
 
 !!! **Note:**
 Solodev recommends installing modules into the **web files -> managers folder**. Below is a sample code for a basic blog module.
-!!!
 
 ```js
 <div class="mb-3">
@@ -52,7 +79,7 @@ Solodev recommends installing modules into the **web files -> managers folder**.
   <textarea class="wysiwyg form-control" name="post_content" id="post_content"></textarea>
 </div>
 ```
-
+!!!
 
 ## Repeater Template
 
