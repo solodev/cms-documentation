@@ -90,7 +90,7 @@ Form Button | Add a custom button to submit your form. | • Link settings: add 
 
 **Step 7:** Save your changes by clicking the **Save** button to store the template.
 
-## How to upload a template (.tpl) file
+## How to upload a form template (.tpl)
 
 If you have a pre-built form template available – perhaps from a previous website project – you also have the option to upload it directly to Solodev and add it to a page.
 
@@ -171,7 +171,7 @@ You can use the sample code below to match the SpaceJet theme.
 
 !!!
 
-## Add your form to a page
+## How to add a form to a page
 
 **Step 1:** <a href="/workspace/websites/manage-folder/addfile/">Create a file</a> and add the following shortcode – add the id of your form in the quotes.
 
@@ -200,7 +200,7 @@ The **id** refers to the id of your form. You can find this id by going to the f
 
 <img src="../../../images/form-page.jpg" alt="form page" style="display: block"></a>
 
-## Add a submission message
+## How to add a submission message
 
 **Step 1:** Create a file on your computer with the message you want to show after someone has submitted your form.  You can use the sample code provided above:
 
@@ -218,7 +218,7 @@ The **id** refers to the id of your form. You can find this id by going to the f
 
 **Step 4:** Click **Submit**.
 
-## Add an email tickler
+## How to add an email tickler
 
 You can use this option to send form submissions to an email address you designate. For example, when a potential customer signs up for a free trial of your product, an email can be sent to your sales team to notify them of a possible lead.
 
