@@ -547,3 +547,115 @@ Solodev provides a rich visual editing experience. The editor renders a preview 
 ```js 
 Here is my privacy policy.
 ```
+
+## How to save a page as a reusable template
+
+Once you have completed your sectional and content pages, you can save them as reusable templates for use across your website. For the purposes of this lesson, you will use the SpaceJet sectional page that you completed in the previous section.
+
+!!!Note:
+Saving your pages as templates allows for easier updates at a global level. 
+!!!
+
+### How to save a sectional page as a template
+
+**Step 1**: Identify the elements that your pages have in common. For example, in the SpaceJet theme, the reusable elements would be the <a href="/tutorials/websites/add-page-template/#how-to-create-a-base-template">base template</a>, the header, and the footer.
+
+**Step 2**: Click on **www** folder and select **Add Page** from the right-hand menu. Name the page **sectional-template.stml**. Once complete, click **Submit**.
+
+<img src="../../../images/add-page-templates.jpg" alt="add-page-templates" style="display: block"></a>
+
+**Step 3**: Keeping the **sectional-template.stml** file open, browse to **web files** and open the **templates** folder, which includes the base, content, footer, and navigation folders.
+
+Click on the dynamic div in the main canvas of your newly created **sectional-template.stml** page. 
+
+<img src="../../../images/dynamic-div-template.jpg" alt="dynamic-div-template" style="display: block"></a>
+
+**Step 4**: The dynamic div will turn light blue, indicating that you can apply files to it. From the left-hand menu, click on the **base-template.tpl** file, so the dynamic div replaced by the base template. Once complete, click **Publish** in the top right corner.
+
+<img src="../../../images/base-template-template.jpg" alt="base-template-templatee" style="display: block"></a>
+
+**Step 5**: On the page, select the top dynamic div, and click on the **top-nav.tpl** file from the left-hand menu.
+
+<img src="../../../images/topnav-template.jpg" alt="topnav-template" style="display: block"></a>
+
+**Step 6**: Following the previous step, select the second dynamic div, and click on the **full-width-template.tpl** file from the left navigation. Once complete, click **Publish**.
+
+<img src="../../../images/full-width-template.jpg" alt="full-width-template" style="display: block"></a>
+
+**Step 7**: Finally, select the bottom dynamic div, and click on the **footer.tpl** file from the left-hand menu.
+
+<img src="../../../images/footer-template.jpg" alt="footer-template" style="display: block"></a>
+
+**Step 8**: Once you have all your elements assembled in your template page, you can save the page as a template. 
+
+To do this, use the page manager menu at the right and open the **Advanced** accordion.
+
+<img src="../../../images/advance-accordion.jpg" alt="advance-accordion" style="display: block"></a>
+
+**Step 9**: At the bottom of the Advanced menu, click the **“is Template”** checkbox. Once complete, click **Publish** at the top of the page.
+
+<img src="../../../images/is-template.jpg" alt="is-template" style="display: block"></a>
+
+!!!Note:
+If you need to make any adjustments to the sectional template you just created, you can locate it under the **www** folder. Bear in mind that any new changes will not be applied to the pages you previously created using this template.
+!!!
+
+**Step 10**: To use your template, go to the location under **www** where you want to create your sectional page, and click **Add Page** on the right-hand menu.
+
+<img src="/../../../images/add-page-update-folder.png" alt="add page update folder" style="width: 20%; display: block"></a>
+
+**Step 11**: On the Add Page modal, give your page a **name** and a **title**. You will also see a dropdown called **Templates**. To use an available template, click on the dropdown and select the **sectional-template.stml** you just created. Click **Submit**.
+
+<img src="../../../images/add-page-template.jpg" alt="add-page-template" style="display: block"></a>
+
+**Step 12**: Go to your new page and you will see it already contains the elements you added to the **sectional-template.stml**.
+
+<img src="../../../images/departments.jpg" alt="departments" style="display: block"></a>
+
+### How to save a content page as a template
+
+**Step 1**: Identify the elements that all pages have in common. Using SpaceJet theme as an example, the reusable elements would be the base template, the header, the footer, the content template, and the left navigation.
+
+**Step 2**: Click on **www** and select Add Page from the right-side menu. Name the page **interior-template.stml**. Click **Submit**.
+
+<img src="../../../images/add-page-interior-templates.jpg" alt="add-page-interior-templates" style="display: block"></a>
+
+**Step 3**: Follow steps 3 to 5 from the "<a href="/tutorials/websites/add-page-template/#how-to-save-a-sectional-page-as-a-template">How to save a sectional page as a template</a>" tutorial.
+
+<img src="../../../images/topnav-content-template.jpg" alt="topnav-content-template" style="display: block"></a>
+
+**Step 4**: Click on the second dynamic div and click on the **left-nav-content-template.tpl** file from the left navigation.
+
+<img src="../../../images/add-left-content-templates.jpg" alt="add-left-content-templates" style="display: block"></a>
+
+**Step 5**: Follow step 7 from the "<a href="/tutorials/websites/add-page-template/#how-to-save-a-sectional-page-as-a-template">How to save a sectional page as a template</a>" tutorial to add a footer. Click **Publish**.
+
+<img src="../../../images/add-footer-left-templates.jpg" alt="add-footer-left-templates" style="display: block"></a>
+
+**Step 6**: Select the dynamic div corresponding to the left navigation section and click on the **left-nav.tpl** file from the left navigation. Click **Publish**.
+
+<img src="../../../images/leftnav-content-template.jpg" alt="leftnav-content-template" style="display: block"></a>
+
+**Step 7**: Once you have all the elements you want to have in the template page, we can add the page as a template. To do this, go to the bottom of the right-hand section of your page and click on the **Advanced** accordion.
+
+<img src="../../../images/advance-accordion-content.jpg" alt="advance-accordion-content" style="display: block"></a>
+
+**Step 8**: At the bottom of the Advanced section, click on the **“is Template”** checkbox, then click Publish at the top of the page.
+
+<img src="../../../images/is-template.jpg" alt="is-template" style="display: block"></a>
+
+!!!Note:
+If you need to make any adjustments to the interior template you just created, you can locate it under the **www** folder. Just bear in mind that any new changes will not be applied to the pages you previously created using this template.
+!!!
+
+**Step 9**: To use your template, go to the location under www where you want to create your interior page, and click Add Page on the right-side navigation.
+
+<img src="/../../../images/add-page-update-folder.png" alt="add-page-update-folder" style="width: 20%; display: block"></a>
+
+**Step 10**: On the Add Page modal, give your page a **Name** and a **Title**. You will also see a menu called **Templates**. To use an available template, click on the dropdown and select the **interior-template.stml** you just created. Once complete, click **Submit**.
+
+<img src="../../../images/add-page-content-templates.jpg" alt="add-page-content-templates" style="display: block"></a>
+
+**Step 11**: Go to your new page and you will see it already contains the elements you added to the **sectional-template.stml**.
+
+<img src="../../../images/interior-template-template.jpg" alt="interior-template-template" style="display: block"></a>
