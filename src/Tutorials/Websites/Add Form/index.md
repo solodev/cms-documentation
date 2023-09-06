@@ -8,7 +8,7 @@ In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to 
 -	After selecting a website, you will need to <a href="../../../workspace/websites/manage-folder/add-page/">add a page</a> for your form.
 - You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
 
-## Add Form Options
+## Form options in Solodev
 
 <img src="../../../images/form-main-image1.png" alt="form main image" style="width: 100%; display: block"></a>
 
@@ -23,7 +23,7 @@ If you already have an existing template for your form, you can upload it direct
 * **Upload HTML:**
 If you prefer working in raw HTML, you can code your own form and upload to Solodev.
 
-## Form Studio
+## How to use Form Studio
 
 <img src="../../../images/form-studio1.jpg" alt="form main image" style="width: 100%; display: block"></a>
 
@@ -90,7 +90,7 @@ Form Button | Add a custom button to submit your form. | • Link settings: add 
 
 **Step 7:** Save your changes by clicking the **Save** button to store the template.
 
-## How to upload a template (.tpl) file
+## How to upload a form template (.tpl)
 
 If you have a pre-built form template available – perhaps from a previous website project – you also have the option to upload it directly to Solodev and add it to a page.
 
@@ -132,7 +132,7 @@ In Solodev, you also have the option of adding your own custom form code using H
 
 <img src="../../../images/add-form-html2.jpg" alt="form browse" style="width: 100%; display: block"></a>
 
-**Step 5**: Once complete, click Save (bold).
+**Step 5**: Once complete, click **Save**.
 
 !!!**Note**:
 You can use the sample code below to match the SpaceJet theme.
@@ -171,7 +171,7 @@ You can use the sample code below to match the SpaceJet theme.
 
 !!!
 
-## Add your form to a page
+## How to add a form to a page
 
 **Step 1:** <a href="/workspace/websites/manage-folder/addfile/">Create a file</a> and add the following shortcode – add the id of your form in the quotes.
 
@@ -200,7 +200,7 @@ The **id** refers to the id of your form. You can find this id by going to the f
 
 <img src="../../../images/form-page.jpg" alt="form page" style="display: block"></a>
 
-## Add a submission message
+## How to add a submission message
 
 **Step 1:** Create a file on your computer with the message you want to show after someone has submitted your form.  You can use the sample code provided above:
 
@@ -218,7 +218,7 @@ The **id** refers to the id of your form. You can find this id by going to the f
 
 **Step 4:** Click **Submit**.
 
-## Add an email tickler
+## How to add an email tickler
 
 You can use this option to send form submissions to an email address you designate. For example, when a potential customer signs up for a free trial of your product, an email can be sent to your sales team to notify them of a possible lead.
 
