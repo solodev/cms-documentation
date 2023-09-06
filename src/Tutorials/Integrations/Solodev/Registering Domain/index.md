@@ -1,8 +1,8 @@
 # Domain Registration and Website Setup Guide
 
-## Set Up DNS Records
-
 DNS records are crucial for directing traffic to the correct servers associated with your domain. Here are two types of DNS records you might need to configure:
+
+## DNS Records
 
 **'A' Record (Address Record):** This record links your domain name to the IP address of the server hosting your website's files. It's necessary for visitors to access your website by entering your domain name in a web browser.
 
