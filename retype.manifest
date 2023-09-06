@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-06T12:49:18Z",
+  "created": "2023-09-06T15:54:11Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -189,6 +189,9 @@
       "path": "images\\add-contact.png"
     },
     {
+      "path": "images\\add-file-contact-tpl.png"
+    },
+    {
       "path": "images\\add-file-menu.png"
     },
     {
@@ -198,10 +201,22 @@
       "path": "images\\add-folder-www.png"
     },
     {
+      "path": "images\\add-form-contact-folder.png"
+    },
+    {
+      "path": "images\\add-form-div.png"
+    },
+    {
       "path": "images\\add-form-html.jpg"
     },
     {
       "path": "images\\add-form-html2.jpg"
+    },
+    {
+      "path": "images\\add-form-id.png"
+    },
+    {
+      "path": "images\\add-form-page-code.png"
     },
     {
       "path": "images\\add-form-upload-tpl.png"
@@ -230,6 +245,9 @@
     },
     {
       "path": "images\\add-page-update-folder.png"
+    },
+    {
+      "path": "images\\add-page1.png"
     },
     {
       "path": "images\\add-site-form-upload-theme.jpg"
@@ -971,6 +989,9 @@
     },
     {
       "path": "images\\form-studio1.jpg"
+    },
+    {
+      "path": "images\\forms-dashboard-get-id.png"
     },
     {
       "path": "images\\forms-dashboard-workspace.png"
@@ -2674,6 +2695,9 @@
       "path": "tutorials\\websites\\add-an-email-tickler\\index.html"
     },
     {
+      "path": "tutorials\\websites\\add-form-1\\index.html"
+    },
+    {
       "path": "tutorials\\websites\\add-form\\index.html"
     },
     {
@@ -2697,6 +2721,12 @@
     {
       "path": "tutorials\\websites\\add-website\\fonts.zip",
       "old": true
+    },
+    {
+      "path": "tutorials\\websites\\add-website\\globalheader.txt"
+    },
+    {
+      "path": "tutorials\\websites\\add-website\\globaltag.txt"
     },
     {
       "path": "tutorials\\websites\\add-website\\index.html"
