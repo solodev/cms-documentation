@@ -76,7 +76,7 @@ A package.json file is used to identify and understand how to handle your websit
 
 <img src="../../../images/package-json.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-**Step 4**: Download the sample json code below, add it to your file, and click Publish.  
+**Step 4**: Download the sample json code below, add it to your file and click Publish.  
 
 <a href="package.json" download>**package.json**</a>
 
