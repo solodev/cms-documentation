@@ -189,9 +189,9 @@ The _ folder is a general repository for your website’s resources:
 - js will contain the compiled JavaScript used on your website. 
 !!!
 
-**Step 4**: Click on the **css** folder and Add a File called **app.css**.
+**Step 4**: Click on the **css** folder and Add a File called **app.css** select **Code** from the dropdown. Once complete, click **Submit**.
 
-**Step 5**:  Click on the **js** folder and Add a File called **app.js**.
+**Step 5**:  Click on the **js** folder and Add a File called **app.js** select **Code** from the dropdown. Once complete, click **Submit**.
 
 Once your web files and www have been set up, it should contain the following files and folders:
 

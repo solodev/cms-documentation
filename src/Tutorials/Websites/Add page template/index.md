@@ -171,10 +171,10 @@ Now you have a complete set of folders and .tpl files to build out your homepage
 
 Next, you will learn how to apply your .tpl files to your dynamic divs. For the purposes of this lesson, will continue using sample code from the SpaceJet theme. To ensure that the images referenced in the theme appear in your editor, you will need to upload several files to your website’s image folder. 
 
-**Step 1**: Locate the following assets in the <a href="https://raw.githubusercontent.com/solodev/marketplace/master/depot/themes/spacejet.zip">SpaceJet package</a> you previously downloaded:
+**Step 1**: Locate the following assets in the <a href="https://github.com/solodev/marketplace/raw/master/depot/themes/solodev-spacejet-2023.zip">SpaceJet package</a> you previously downloaded:
 
-- **SpaceJet-Logo.png**
-- **paceJet-2023-Hero-Image.png**
+- **SpaceJet-Logo.png** (located in _ > images)
+- **SpaceJet-2023-Hero-Image.png** (located in _ > images)
 
 **Step 2**: Under the **www** folder, click on the **images** folder under the “_” folder. 
 
@@ -314,7 +314,11 @@ Started</strong></a>
 
 **Step 8**: To add more space to the page for the main content areas, repeat steps 4 and 5 and add these additional code samples: 
 
-**main.html**
+!!!Note:
+For HTML file click on source in the bar and then paste the code.
+!!!
+
+**main.html** 
 ```js
 <div class="container">
   <div class="row justify-content-between align-items-center mt-5 pt-5">
@@ -410,7 +414,7 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 
   *	content: **full-width-template.tpl**
 
-<img src="../../../images/full-width.png" alt="full-width" style=" display: block"></a>
+<img src="../../../images/full-width-code.png" alt="full-width-code" style=" display: block"></a>
 
 **Step 5**: Click on the **www** folder and on the right menu, click <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a>, and add folder called **about**. Click **Submit**, when complete.
 
@@ -419,8 +423,6 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 ### Adding templates to your dynamic divs
 
 **Step 1**: Click on the **about** folder and on the right menu, click <a href="/workspace/websites/manage-folder/add-page/">Add Page</a>. Create a new page called **index.stml**. Once complete, click **Submit**.
-
-<img src="../../../images/full-width-code.png" alt="full-width-code" style=" display: block"></a>
 
 **Step 2**: Just like in the case of homepage, with the **base** folder opened, click in the top dynamic div. Once activated, click on the **base-template.tpl** file. Once complete, click **Publish**.
 
