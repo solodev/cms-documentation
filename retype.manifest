@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-05T21:33:36Z",
+  "created": "2023-09-06T12:49:18Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -196,6 +196,12 @@
     },
     {
       "path": "images\\add-folder-www.png"
+    },
+    {
+      "path": "images\\add-form-html.jpg"
+    },
+    {
+      "path": "images\\add-form-html2.jpg"
     },
     {
       "path": "images\\add-form-upload-tpl.png"
@@ -967,6 +973,9 @@
       "path": "images\\form-studio1.jpg"
     },
     {
+      "path": "images\\forms-dashboard-workspace.png"
+    },
+    {
       "path": "images\\forms-dashboard.png"
     },
     {
@@ -1377,6 +1386,9 @@
     },
     {
       "path": "images\\module-add-entry.jpg"
+    },
+    {
+      "path": "images\\module-install.png"
     },
     {
       "path": "images\\module-overview.jpg"
@@ -2668,10 +2680,19 @@
       "path": "tutorials\\websites\\add-module\\index.html"
     },
     {
+      "path": "tutorials\\websites\\add-module\\solodev-spacejet-2023.zip"
+    },
+    {
       "path": "tutorials\\websites\\add-page-template\\index.html"
     },
     {
       "path": "tutorials\\websites\\add-theme\\index.html"
+    },
+    {
+      "path": "tutorials\\websites\\add-website\\app.js"
+    },
+    {
+      "path": "tutorials\\websites\\add-website\\app.scss"
     },
     {
       "path": "tutorials\\websites\\add-website\\fonts.zip",
@@ -2682,6 +2703,18 @@
     },
     {
       "path": "tutorials\\websites\\add-website\\package-lock.json"
+    },
+    {
+      "path": "tutorials\\websites\\add-website\\package.json"
+    },
+    {
+      "path": "tutorials\\websites\\add-website\\utils.js"
+    },
+    {
+      "path": "tutorials\\websites\\add-website\\webpack.css.config.js"
+    },
+    {
+      "path": "tutorials\\websites\\add-website\\webpack.js.config.js"
     },
     {
       "path": "tutorials\\websites\\alt-tags\\index.html"
