@@ -201,6 +201,9 @@
       "path": "images\\add-folder-www.png"
     },
     {
+      "path": "images\\add-footer-left-templates.jpg"
+    },
+    {
       "path": "images\\add-form-contact-folder.png"
     },
     {
@@ -222,7 +225,16 @@
       "path": "images\\add-form-upload-tpl.png"
     },
     {
+      "path": "images\\add-left-content-templates.jpg"
+    },
+    {
       "path": "images\\add-module.png"
+    },
+    {
+      "path": "images\\add-page-content-templates.jpg"
+    },
+    {
+      "path": "images\\add-page-interior-templates.jpg"
     },
     {
       "path": "images\\add-page-link-view.png"
@@ -238,6 +250,12 @@
       "path": "images\\add-page-modal-details.png"
     },
     {
+      "path": "images\\add-page-template.jpg"
+    },
+    {
+      "path": "images\\add-page-templates.jpg"
+    },
+    {
       "path": "images\\add-page-templates.png"
     },
     {
@@ -248,6 +266,9 @@
     },
     {
       "path": "images\\add-page1.png"
+    },
+    {
+      "path": "images\\add-scss.png"
     },
     {
       "path": "images\\add-site-form-upload-theme.jpg"
@@ -460,6 +481,12 @@
       "path": "images\\adminpermissions3.jpg"
     },
     {
+      "path": "images\\advance-accordion-content.jpg"
+    },
+    {
+      "path": "images\\advance-accordion.jpg"
+    },
+    {
       "path": "images\\api_tokens.png"
     },
     {
@@ -584,6 +611,9 @@
     },
     {
       "path": "images\\base-template-nav.jpg"
+    },
+    {
+      "path": "images\\base-template-template.jpg"
     },
     {
       "path": "images\\base-template.jpg"
@@ -793,6 +823,9 @@
       "path": "images\\deleteworkflow.jpg"
     },
     {
+      "path": "images\\departments.jpg"
+    },
+    {
       "path": "images\\detail-spacejet.jpg"
     },
     {
@@ -865,6 +898,9 @@
       "path": "images\\documents9.jpg"
     },
     {
+      "path": "images\\dynamic-div-template.jpg"
+    },
+    {
       "path": "images\\edit-document.png"
     },
     {
@@ -929,6 +965,9 @@
     },
     {
       "path": "images\\folder-permissions.png"
+    },
+    {
+      "path": "images\\footer-template.jpg"
     },
     {
       "path": "images\\form-body.png"
@@ -1013,6 +1052,9 @@
     },
     {
       "path": "images\\full-width-code.png"
+    },
+    {
+      "path": "images\\full-width-template.jpg"
     },
     {
       "path": "images\\full-width.png"
@@ -1121,6 +1163,9 @@
     },
     {
       "path": "images\\install2.png"
+    },
+    {
+      "path": "images\\interior-template-template.jpg"
     },
     {
       "path": "images\\interior.jpg"
@@ -1264,6 +1309,9 @@
       "path": "images\\ipqualityscore.jpg"
     },
     {
+      "path": "images\\is-template.jpg"
+    },
+    {
       "path": "images\\js-file.jpg"
     },
     {
@@ -1289,6 +1337,9 @@
     },
     {
       "path": "images\\left-side-menu.jpg"
+    },
+    {
+      "path": "images\\leftnav-content-template.jpg"
     },
     {
       "path": "images\\logo.png"
@@ -1795,6 +1846,12 @@
     },
     {
       "path": "images\\tickler.jpg"
+    },
+    {
+      "path": "images\\topnav-content-template.jpg"
+    },
+    {
+      "path": "images\\topnav-template.jpg"
     },
     {
       "path": "images\\two-column-template.png"
