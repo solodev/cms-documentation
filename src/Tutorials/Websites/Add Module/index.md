@@ -20,7 +20,7 @@ While there are a wide range of experiences you can power with a module, there a
 
 - **Calendar**: Ideal for date-based applications such as events, blogs, landing pages, and other custom experiences.
 
-- **Data table**: Perfect for database-dependent applications such as schemas. Data table modules can also be used to publishing information to external channels, expose data via RESTful API, and more. 
+- **Data table**: Perfect for database-dependent applications such as schemas. Data table modules can also be used for publishing information to external channels, expose data via RESTful API, and more. 
 
 ## How to install a module in Solodev
 
