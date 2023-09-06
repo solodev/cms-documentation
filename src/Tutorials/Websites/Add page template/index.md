@@ -5,7 +5,7 @@ Once you have set up a new website in your Solodev CMS, you can begin creating p
 ## Prerequisites
 
 - You will need to complete the <a href="/tutorials/websites/add-website/">How to add a website</a> tutorial.
-- For the examples in this tutorial, we will be using the Solodev SpaceJet theme package. <a href="https://raw.githubusercontent.com/solodev/marketplace/master/depot/themes/spacejet.zip">Download the zip file</a> to access the images and assets.
+- For the examples in this tutorial, we will be using the Solodev SpaceJet theme package. <a href="https://github.com/solodev/marketplace/raw/master/depot/themes/solodev-spacejet-2023.zip">Download the zip file</a> to access the images and assets.
 - As you are building with this tutorial, you can refer to the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet</a>  website to compare your progress.
 - When building your own project, it is highly recommended that you have an approved design prototype and sitemap to guide your development.
 
@@ -27,7 +27,7 @@ There is no limit to the kinds of page templates you can create in Solodev, but 
 
 - <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-sectional-template">Sectional Template</a>: A sectional template is a high-level overview of a "section" of your website's content. Think of it as a jumping-off point to areas that fall under a specific content theme or topic. Sectional templates can be used in a variety of ways, but most provide a collection of snippets and links to relevant areas. For example, if a website has a section called "Departments," a sectional template might include an overview along with a list of links to all the departments. Because they are used sparingly, sectional templates generally have a distinct design from your content templates, helping them stand out.
 
-- <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-content-template">Content Template</a>: A content template is usually placed within the base template. Sometimes referred to as an “interior template,” content templates power the bulk of your website, and can be reused for various sections that require multiple pages.
+- <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-content-page-template">Content Template</a>: A content template is usually placed within the base template. Sometimes referred to as an “interior template,” content templates power the bulk of your website, and can be reused for various sections that require multiple pages.
 
 ## Using dynamic divs
 Another important concept is the use of dynamic divs. Page templates are composed of dynamic divs – or “dropzones” – where HTML and content can be inserted and arranged in various places on a website page. Dynamic divs work fluidly with the Bootstrap grid system, allowing you to easily insert content once the layout of your page has been created. Here is the simple HTML code to create a dynamic div in Solodev:
@@ -485,7 +485,7 @@ This tutorial assumes that you had finished **How to create a homepage template*
 
 <img src="../../../images/content-template-add-file.png" alt="base template" style="width: 25%; display: block"></a>
 
-**Step 5**: Finally click on the **www** folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/add-page/">Add Page</a>. Create a new file called **privacy.stml**, and select **HTML** for the **File Type**. Once complete, click **Submit**:
+**Step 5**: Finally click on the **www** folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/add-page/">Add Page</a>. Create a new page called **privacy.stml**. Once complete, click **Submit**:
 
 <img src="../../../images/content-template-add-file2.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -494,7 +494,6 @@ Now you have a complete set of folders and .tpl files to build out your content 
 ### Adding templates to your dynamic divs
 
 Next, you will apply your .tpl files to your dynamic divs just like you did in the case of **homepage**. For the purposes of this lesson, will continue using sample code from the SpaceJet theme.
-
 
 **Step 1**: Under **web files**, browse to the **templates/content** folder and click on the **left-nav-content-template.tpl** file. Copy the code sample below into the editor. When complete, click **Publish**.
 
@@ -527,7 +526,6 @@ Next, you will apply your .tpl files to your dynamic divs just like you did in t
 Click on the **base-template.tpl** file. 
 
 Once complete, click **Publish**. After your page reloads, you will see the new layout of your **privacy.stml** file. 
-
 
 !!!**Note**:
 Solodev provides a rich visual editing experience. The editor renders a preview of your frontend website, but minor differences may occur due to the software’s features and functionality. This can affect the appearance of fonts and images within the editor. You can compare your progress to the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">SpaceJet sample site</a>.
