@@ -16,7 +16,7 @@ Solodev is a native multi-site platform, allowing you to run multiple websites a
 
 **Step 1**: Log into your Solodev CMS. On the main dashboard, click **Add Website**.
 
-<img src="../../../images/add-website1.png" alt="add-website" style="width: 70%; display: block"></a>
+<img src="../../../images/add-website1.png" alt="add-website" style="width: 80%; display: block"></a>
 
 !!!**Note**:
 When adding a new site, you also have the option to upload a ready-made theme package, complete with all the necessary templates, folders, and files. To learn more, read <a href="/tutorials/websites/howtoimportatheme/">how to import a theme</a>.
