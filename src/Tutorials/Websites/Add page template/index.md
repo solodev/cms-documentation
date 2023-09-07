@@ -556,6 +556,7 @@ Once you have completed your sectional and content pages, you can save them as r
 Saving your pages as templates allows for easier updates at a global level. 
 !!!
 
+## How to save a sectional page as a template
 
 **Step 1**: Identify the elements that your pages have in common. For example, in the SpaceJet theme, the reusable elements would be the <a href="/tutorials/websites/add-page-template/#how-to-create-a-base-template">base template</a>, the header, and the footer.
 
