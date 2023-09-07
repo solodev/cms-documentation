@@ -10,8 +10,6 @@ In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to 
 
 ## Form options in Solodev
 
-<img src="../../../images/form-main-image1.png" alt="form main image" style="width: 100%; display: block"></a>
-
 From the main dashboard, there are three ways to add a form to Solodev:
 
 *	**Form Studio:**
