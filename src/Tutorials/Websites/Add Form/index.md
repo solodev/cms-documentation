@@ -21,9 +21,7 @@ If you already have an existing template for your form, you can upload it direct
 * **Upload HTML:**
 If you prefer working in raw HTML, you can code your own form and upload to Solodev.
 
-## How to use Form Studio
-
-<img src="../../../images/form-studio1.jpg" alt="form main image" style="width: 100%; display: block"></a>
+## Building a form with Form Studio
 
 Form Studio is a built-in drag-and-drop WYSIWYG editor that allows you to directly compose your own custom form. The visual editor consists of a left toolbar for dragging layout, content, and form components onto the canvas in the center. <a href="/tutorials/websites/add-form/#building-a-form-with-form-studio">See table below for details</a>. 
 
@@ -34,8 +32,6 @@ The right toolbar enables you to control the text, styling, and specific details
 Using the **Pencil** icon, you can customize attributes such as layout, position, border radius, size, typography, and background components by entering values or clicking/dragging arrows. The right toolbar also provides **Body** attributes that detail the components in each div. 
 
 <img src="../../../images/form-body.png" alt="form body" style="width: 25%; display: block"></a>
-
-### Building a form with Form Studio
 
 **Step 1:** From your main CMS dashboard, click **Forms** in the left-hand menu.
 
@@ -55,7 +51,7 @@ It is recommended that you save your form in the forms folder under web files, s
 
 **Step 5:** Use the drag-and-drop Form Studio tools to build your form. As with previous lessons, you can use the SpaceJet theme sample as a guide for creating the fields as shown:
 
-<img src="../../../images/spacejet-form-sample.png" alt="form choose object" style="width: 100%; display: block"></a>
+<img src="../../../images/form-studio2.jpg" alt="form choose object" style="width: 100%; display: block"></a>
 
 **Layout**
 

@@ -36,167 +36,6 @@ When adding a new site, you also have the option to upload a ready-made theme pa
 
 <img src="../../../images/solodev-add-site-main-dashboard.png" alt="add-website" style="width: 70%; display: block"></a>
 
-## Setting up your web files
-
-When creating a new website, a **web files** folder is automatically generated. 
-
-The folder contains four sub-folders: 
-- **content**
-- **forms**
-- **managers**
-- **templates**
-
-<img src="../../../images/web-files-list.png" alt="add-website" style="width: 20%; display: block"></a>
-
-The content folder also includes a single file called **index.html**, which corresponds to the **index.stml** file in the **www** folder. An index file is what a browser reads first under your website domain, which is why it is referred to as your website’s <u>**homepage**</u>. 
-
-In the next lesson, you will learn about the additional files and folders that are required in your web files and how to create them. 
-
-!!!**Note**: 
-For more details on the Website Dashboard and the web files and www folders, read the <a href="/workspace/websites/website-overview/">Website Overview</a> article. 
-!!!
-
-**Step 1**: Click on the **web files** folder in your menu. Using the menu on the right, click **Add File**.
-
-<img src="../../../images/update-folder-menu.png" alt="add-website" style="width: 20%; display: block"></a>
-
-!!!**Note**: 
-For more details on how to add a file or folder to your CMS, read the <a href="/workspace/websites/manage-folder/addfile/">Add File</a> article. 
-!!!
-
-**Step 2**: In the menu, create a file called **package.json** and select **Code** from the dropdown. You can add an optional title, but it is not required. Once complete, click **Submit**. 
-
-<img src="../../../images/add-file-menu.png" alt="add-website" style="width: 40%; display: block"></a>
-
-!!!**Note**:
-A package.json file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="../../../workspace/websites/update-website/">Update Website</a> form. 
-!!!
-
-**Step 3**: Once your package.json file is created, click on it to open the code editor.
-
-<img src="../../../images/package-json.jpg" alt="add-website" style="width: 100%; display: block"></a>
-
-**Step 4**: Download the sample json code below, add it to your file and click Publish.  
-
-<a href="package.json" download>**package.json**</a>
-
-**Step 5**: Using the same process in steps 1 and 2, create another file called **package-lock.json**
-
-!!! **Note**:
-A package-lock.json is used to store the exact versions of the dependencies that you have installed.
-!!!
-
-**Step 6**: Once your package-lock.json file is created, follow steps 3 and 4. In the editor, add the code sample that you can download <a href="package-lock.json" download="package-lock.json">here</a>, then click **Publish**.
-
-**Step 7**: Click on the **web files** folder in your menu. Using the menu on the right, click **Add Folder**. 
-
-**Step 8**: In the menu, create a file called **webpack**. You can add an optional title and description, but it is not required. Once complete, click **Submit**.
-
-<img src="../../../images/add-folder-menu.png" alt="add-website" style="width: 40%; display: block"></a>
-
-**Step 9**: Click on the new **webpack** folder in your left menu. Following steps 1 and 2, create two additional files under the folder:
-- **webpack.css.config.js**
-- **webpack.js.config.js**
-
-!!!**Note**:
-Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.  
-!!!
-
-**Step 10**: Once your **webpack.css.config.js** and **webpack.js.config.js** are created, follow steps 3 and 4. In the editor, download the code samples below and add them to your files in file editor , then click **Publish**.
-
-<a href="webpack.css.config.js" download>**webpack.css.config.js**</a>
-
-<a href="webpack.js.config.js" download>**webpack.js.config.js**</a>
-
-**Step 11**: Click on **web files** and **Add Folder** called **scss**.
-
-<img src="../../../images/scss-folder.jpg" alt="scss-folder" style="display: block"></a>
-
-**Step 12**: Click on the new **scss folder** in your left menu. Following steps 1 and 2, create the file under the folder:
-
- - **app.scss**
-
-<img src="../../../images/scss-file.jpg" alt="scss-file" style="display: block"></a>
-
-**Step 13**: Download the code below and paste it into the file:
-
-<a href="app.scss" download>**app.scss**</a>
-
-**Step 14**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
-
-<img src="../../../images/js-folder.jpg" alt="js-folder" style="display: block"></a>
-
-**Step 15**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
-
- - **app.js**
-
-<img src="../../../images/js-file.jpg" alt="js-file" style="display: block"></a>
-
-**Step 16**: Download the code below and paste it into the file:
-
-<a href="app.js" download>**app.js**</a>
-
-**Step 17**: Click on the **js folder** in your left menu. <a href="/workspace/websites/manage-folder/addfolder/">Create the folder</a>:
-
- - **utils**
-
-<img src="../../../images/js-utils-folder.jpg" alt="js-utils-folder" style="display: block"></a>
-
-**Step 18**: Click on the new **utilities folder** in your left menu. <a href="/workspace/websites/manage-folder/addfile/">Create the file</a>: 
-
-  - **utils.js**
-
-<img src="../../../images/js-utils-file.jpg" alt="js-utils-file" style="display: block"></a>
-
-**Step 19**: Download the code below and paste it into the file:
-
-<a href="utils.js" download>**utils.js**</a>
-
-## Setting up your www folder
-
-When creating a new website, a **www** folder is automatically generated. The 
-folder contains only one file called **index.stml**, which corresponds to the 
-**index.html** file under the **content** folder of your **web files**. 
-
-<img src="../../../images/www-folder-list.png" alt="add-website" style="width: 20%; display: block"></a>
-
-An index file is what a browser reads first under your website domain, which is why it is referred to as your website’s <u>**homepage**</u>. 
-
-In the next lesson, you will learn about the additional files and folders that are required for your www folder and how to create them. 
-
-!!!**Note**: 
-For more details on the Website Dashboard and the web files and www folders, read the <a href="/workspace/websites/website-overview/">Website Overview</a> article. 
-!!!
-
-**Step 1**: Click on the **www** folder in your menu. Using the menu on the right, click **Add Folder**. 
-
-**Step 2**: In the menu, create a folder called "_" (the underscore character). You can add an optional title and description, but it is not required. Once complete, click **Submit**.
-
-<img src="../../../images/add-folder-www.png" alt="add-website" style="width: 40%; display: block"></a>
-
-**Step 3**: Following steps 1 and 2, create four additional folders under the "_" folder: 
-
-- **css**
-- **fonts** 
-- **images**
-- **js**
-
-!!!**Note**:
-The _ folder is a general repository for your website’s resources:
-- CSS is the compiled version of the cascading style sheets that govern your website. 
-- Fonts will contain your web-safe font libraries, such as FontAwesome. 
-- Images will host all the graphics, photos, and visual assets.
-- js will contain the compiled JavaScript used on your website. 
-!!!
-
-**Step 4**: Click on the **css** folder and Add a File called **app.css** select **Code** from the dropdown. Once complete, click **Submit**.
-
-**Step 5**:  Click on the **js** folder and Add a File called **app.js** select **Code** from the dropdown. Once complete, click **Submit**.
-
-Once your web files and www have been set up, it should contain the following files and folders:
-
-<img src="../../../images/web-files-www-final-view.png" alt="add-website" style="width: 15%; display: block"></a>
-
 ## Updating your website information
 
 After setting up the web files and www folders, you can add specific details about your social media and meta information to your website. You can also create custom pages such as a 404 or login page. 
@@ -260,6 +99,148 @@ src=“https://oss.maxcdn.com/respond/1.4.2/respond.min.js”></script>
 
 **Step 7**: Once you have completed updating your website information, click **Submit**.
 
+## Setting up your web files
+
+When creating a new website, a **web files** folder is automatically generated. 
+
+The folder contains four sub-folders: 
+- **content**
+- **forms**
+- **managers**
+- **templates**
+
+<img src="../../../images/web-files-list.png" alt="add-website" style="width: 20%; display: block"></a>
+
+The content folder also includes a single file called **index.html**, which corresponds to the **index.stml** file in the **www** folder. An index file is what a browser reads first under your website domain, which is why it is referred to as your website’s <u>**homepage**</u>. 
+
+In the next lesson, you will learn about the additional files and folders that are required in your web files and how to create them. 
+
+!!!**Note**: 
+For more details on the Website Dashboard and the web files and www folders, read the <a href="/workspace/websites/website-overview/">Website Overview</a> article. 
+!!!
+
+**Step 1**: Click on the **web files** folder in your menu. Using the menu on the right, click **Add File**.
+
+<img src="../../../images/update-folder-menu.png" alt="add-website" style="width: 20%; display: block"></a>
+
+!!!**Note**: 
+For more details on how to add a file or folder to your CMS, read the <a href="/workspace/websites/manage-folder/addfile/">Add File</a> article. 
+!!!
+
+**Step 2**: In the menu, create a file called **package.json** and select **Code** from the dropdown. You can add an optional title, but it is not required. Once complete, click **Submit**. 
+
+<img src="../../../images/add-file-menu.png" alt="add-website" style="width: 40%; display: block"></a>
+
+!!!**Note**:
+A package.json file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="../../../workspace/websites/update-website/">Update Website</a> form. 
+!!!
+
+**Step 3**: Once your package.json file is created, click on it to open the code editor.
+
+<img src="../../../images/package-json.jpg" alt="add-website" style="width: 100%; display: block"></a>
+
+**Step 4**: Download the sample json code below, add it to your file and click Publish.  
+
+<a href="package.json" download>**package.json**</a>
+
+**Step 5**: Using the same process in steps 1 and 2, create another file called **package-lock.json**
+
+!!! **Note**:
+A package-lock.json is used to store the exact versions of the dependencies that you have installed.
+!!!
+
+**Step 6**: Once your package-lock.json file is created, follow steps 3 and 4. In the editor, add the code sample that you can download <a href="package-lock.json" download="package-lock.json">here</a>, then click **Publish**.
+
+**Step 7**: Click on the **web files** folder in your menu. Using the menu on the right, click **Add Folder**. 
+
+**Step 8**: Click on **web files** and **Add Folder** called **scss**.
+
+<img src="../../../images/scss-folder.jpg" alt="scss-folder" style="display: block"></a>
+
+**Step 9**: Click on the new **scss folder** in your left menu. Following steps 1 and 2, create the file under the folder:
+
+ - **app.scss**
+
+<img src="../../../images/scss-file.jpg" alt="scss-file" style="display: block"></a>
+
+**Step 10**: Download the code below and paste it into the file:
+
+<a href="app.scss" download>**app.scss**</a>
+
+**Step 11**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
+
+<img src="../../../images/js-folder.jpg" alt="js-folder" style="display: block"></a>
+
+**Step 12**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
+
+ - **app.js**
+
+<img src="../../../images/js-file.jpg" alt="js-file" style="display: block"></a>
+
+**Step 13**: Download the code below and paste it into the file:
+
+<a href="app.js" download>**app.js**</a>
+
+**Step 14**: Click on the **js folder** in your left menu. <a href="/workspace/websites/manage-folder/addfolder/">Create the folder</a>:
+
+ - **utils**
+
+<img src="../../../images/js-utils-folder.jpg" alt="js-utils-folder" style="display: block"></a>
+
+**Step 15**: Click on the new **utilities folder** in your left menu. <a href="/workspace/websites/manage-folder/addfile/">Create the file</a>: 
+
+  - **utils.js**
+
+<img src="../../../images/js-utils-file.jpg" alt="js-utils-file" style="display: block"></a>
+
+**Step 16**: Download the code below and paste it into the file:
+
+<a href="utils.js" download>**utils.js**</a>
+
+## Setting up your www folder
+
+When creating a new website, a **www** folder is automatically generated. The 
+folder contains only one file called **index.stml**, which corresponds to the 
+**index.html** file under the **content** folder of your **web files**. 
+
+<img src="../../../images/www-folder-list.png" alt="add-website" style="width: 20%; display: block"></a>
+
+An index file is what a browser reads first under your website domain, which is why it is referred to as your website’s <u>**homepage**</u>. 
+
+In the next lesson, you will learn about the additional files and folders that are required for your www folder and how to create them. 
+
+!!!**Note**: 
+For more details on the Website Dashboard and the web files and www folders, read the <a href="/workspace/websites/website-overview/">Website Overview</a> article. 
+!!!
+
+**Step 1**: Click on the **www** folder in your menu. Using the menu on the right, click **Add Folder**. 
+
+**Step 2**: In the menu, create a folder called "_" (the underscore character). You can add an optional title and description, but it is not required. Once complete, click **Submit**.
+
+<img src="../../../images/add-folder-www.png" alt="add-website" style="width: 40%; display: block"></a>
+
+**Step 3**: Following steps 1 and 2, create four additional folders under the "_" folder: 
+
+- **css**
+- **fonts** 
+- **images**
+- **js**
+
+!!!**Note**:
+The _ folder is a general repository for your website’s resources:
+- CSS is the compiled version of the cascading style sheets that govern your website. 
+- Fonts will contain your web-safe font libraries, such as FontAwesome. 
+- Images will host all the graphics, photos, and visual assets.
+- js will contain the compiled JavaScript used on your website. 
+!!!
+
+**Step 4**: Click on the **css** folder and Add a File called **app.css** select **Code** from the dropdown. Once complete, click **Submit**.
+
+**Step 5**:  Click on the **js** folder and Add a File called **app.js** select **Code** from the dropdown. Once complete, click **Submit**.
+
+Once your web files and www have been set up, it should contain the following files and folders:
+
+<img src="../../../images/web-files-www-final-view.png" alt="add-website" style="width: 15%; display: block"></a>
 
 ## Next Steps
 
