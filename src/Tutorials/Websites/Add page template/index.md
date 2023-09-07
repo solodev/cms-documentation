@@ -9,9 +9,6 @@ Once you have set up a new website in your Solodev CMS, you can begin creating p
 - As you are building with this tutorial, you can refer to the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet</a>  website to compare your progress.
 - When building your own project, it is highly recommended that you have an approved design prototype and sitemap to guide your development.
 
-<img src="../../../images/spacejet-homepage-builder.jpg" alt="base template" style="width: 100%; display: block"></a>
-
-
 ## Understanding page templates
 
 Before adding pages to your site, it is important to understand the concept of page templates in Solodev. 

@@ -8,7 +8,7 @@ In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to 
 -	After selecting a website, you will need to <a href="../../../workspace/websites/manage-folder/add-page/">add a page</a> for your form.
 - You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
 
-## Form options in Solodev
+## Form options
 
 From the main dashboard, there are three ways to add a form to Solodev:
 
