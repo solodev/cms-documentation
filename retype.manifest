@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-06T21:25:10Z",
+  "created": "2023-09-07T09:25:07Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2836,6 +2836,12 @@
     },
     {
       "path": "tutorials\\websites\\create-and-manage-your-folder-structure-in-solodev\\index.html"
+    },
+    {
+      "path": "tutorials\\websites\\createmodule\\index.html"
+    },
+    {
+      "path": "tutorials\\websites\\createmodule\\solodev-spacejet-2023.zip"
     },
     {
       "path": "tutorials\\websites\\creating-a-sitemap-for-your-website\\index.html"
