@@ -151,49 +151,33 @@ A package-lock.json is used to store the exact versions of the dependencies that
 
 **Step 6**: Once your package-lock.json file is created, follow steps 3 and 4. In the editor, add the code sample that you can download <a href="package-lock.json" download="package-lock.json">here</a>, then click **Publish**.
 
-**Step 7**: Click on the **web files** folder in your menu. Using the menu on the right, click **Add Folder**. 
-
-**Step 8**: Click on **web files** and **Add Folder** called **scss**.
-
-<img src="../../../images/scss-folder.jpg" alt="scss-folder" style="display: block"></a>
-
-**Step 9**: Click on the new **scss folder** in your left menu. Following steps 1 and 2, create the file under the folder:
-
- - **app.scss**
-
-<img src="../../../images/scss-file.jpg" alt="scss-file" style="display: block"></a>
-
-**Step 10**: Download the code below and paste it into the file:
-
-<a href="app.scss" download>**app.scss**</a>
-
-**Step 11**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
+**Step 7**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
 
 <img src="../../../images/js-folder.jpg" alt="js-folder" style="display: block"></a>
 
-**Step 12**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
+**Step 8**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
 
  - **app.js**
 
 <img src="../../../images/js-file.jpg" alt="js-file" style="display: block"></a>
 
-**Step 13**: Download the code below and paste it into the file:
+**Step 9**: Download the code below and paste it into the file:
 
 <a href="app.js" download>**app.js**</a>
 
-**Step 14**: Click on the **js folder** in your left menu. <a href="/workspace/websites/manage-folder/addfolder/">Create the folder</a>:
+**Step 10**: Click on the **js folder** in your left menu. <a href="/workspace/websites/manage-folder/addfolder/">Create the folder</a>:
 
  - **utils**
 
 <img src="../../../images/js-utils-folder.jpg" alt="js-utils-folder" style="display: block"></a>
 
-**Step 15**: Click on the new **utilities folder** in your left menu. <a href="/workspace/websites/manage-folder/addfile/">Create the file</a>: 
+**Step 11**: Click on the new **utilities folder** in your left menu. <a href="/workspace/websites/manage-folder/addfile/">Create the file</a>: 
 
   - **utils.js**
 
 <img src="../../../images/js-utils-file.jpg" alt="js-utils-file" style="display: block"></a>
 
-**Step 16**: Download the code below and paste it into the file:
+**Step 12**: Download the code below and paste it into the file:
 
 <a href="utils.js" download>**utils.js**</a>
 
