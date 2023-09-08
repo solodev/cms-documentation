@@ -60,14 +60,6 @@ To add reusable page templates to your website, read the<a href="/tutorials/webs
 
 
 
-
-
-
-
-
-
-
-
 <!--
 
 Once you have set up a new website in your Solodev CMS, you can begin creating pages to build out your experience. In this tutorial, you will learn how to add a page to your site, create reusable page templates with custom elements, and start adding content.  

@@ -60,7 +60,7 @@ To learn more about updating your website information, read the  <a href="../../
 
 <img src="../../../images/update-website-meta-information.png" alt="add-website" style="width: 40%; display: block"></a>
 
-**Step 5**: In the Global HTML Tag field, add the HTML doctype declaration below:
+**Step 5**: In the **Global HTML** Tag field, add the HTML doctype declaration below:
 
 ```js
 <!DOCTYPE html>
@@ -73,28 +73,28 @@ To learn more about updating your website information, read the  <a href="../../
 <!--<![endif]-->
 ```
 
-**Step 6**: In the Global Header field, add the sample code below, which includes your meta tags, tracking codes, and the link to your compiled css and js files.
+**Step 6**: In the **Global Header** field, add the sample code below, which includes your meta tags, tracking codes, and the link to your compiled css and js files.
+
 ```js
-<meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
-<meta name=“viewport” content=“width=device-width, initial-scale=1, 
-maximum-scale=2.0">
-<meta name=“format-detection” content=“telephone=no”>
-<meta content=“” property=“og:image”>
-<meta property=“og:image:type” content=“image/jpg”>
-<meta property=“og:image:width” content=“500">
-<meta property=“og:image:height” content=“auto”>
-<meta name=“twitter:image” content=“”>
-<link rel=“shortcut icon” href=“/favicon.ico”>
-<link rel=“stylesheet” href=“/_/css/app.css”>
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and 
-media queries -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
+<meta name="format-detection" content="telephone=no">
+<meta content="" property="og:image">
+<meta property="og:image:type" content="image/jpg">
+<meta property="og:image:width" content="500">
+<meta property="og:image:height" content="auto">
+<meta name="twitter:image" content="">
+<link rel="shortcut icon" href="/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 supp
+ort of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
-<script 
-src=“https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js”></script>
-<script 
-src=“https://oss.maxcdn.com/respond/1.4.2/respond.min.js”></script>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
-<script defer src=“/_/js/app.js”></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
 ```
 
 **Step 7**: Once you have completed updating your website information, click **Submit**.
@@ -151,6 +151,7 @@ A package-lock.json is used to store the exact versions of the dependencies that
 
 **Step 6**: Once your package-lock.json file is created, follow steps 3 and 4. In the editor, add the code sample that you can download <a href="package-lock.json" download="package-lock.json">here</a>, then click **Publish**.
 
+<!--
 **Step 7**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
 
 <img src="../../../images/js-folder.jpg" alt="js-folder" style="display: block"></a>
@@ -180,6 +181,7 @@ A package-lock.json is used to store the exact versions of the dependencies that
 **Step 12**: Download the code below and paste it into the file:
 
 <a href="utils.js" download>**utils.js**</a>
+-->
 
 ## Setting up your www folder
 
