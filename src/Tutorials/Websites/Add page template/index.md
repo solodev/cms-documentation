@@ -130,7 +130,6 @@ The additional div-insert.tpl file will provide extra dynamicDivs to your page t
 **Step 4**: In each of the new folders, you will need to add a new .tpl file. Follow the previous steps to click on each folder and <a href="/workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file under each folder as follows, and select **Code** for the **File Type**. Once complete, click **Submit**:
 
 - footer: **footer.tpl** 
-- hero: **home-hero.tpl** 
 - navigation: **top-nav.tpl** 
 
 <img src="../../../images/homepage-sub-folder-files.png" alt="base template" style="width: 20%; display: block"></a>
