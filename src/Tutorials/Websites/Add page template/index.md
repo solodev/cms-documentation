@@ -143,7 +143,6 @@ Next, you will learn how to apply your .tpl files to your dynamic divs. For the 
 **Step 1**: Locate the following assets in the <a href="https://github.com/solodev/marketplace/raw/master/depot/themes/solodev-spacejet-2023.zip">SpaceJet package</a> you previously downloaded:
 
 - **SpaceJet-Logo.png** (located in _ > images)
-- **SpaceJet-2023-Hero-Image.png** (located in _ > images)
 
 **Step 2**: Under the **www** folder, click on the **images** folder under the “_” folder. 
 
