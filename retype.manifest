@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-07T13:19:54Z",
+  "created": "2023-09-08T09:18:01Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -247,7 +247,19 @@
       "path": "images\\add-page-main.png"
     },
     {
+      "path": "images\\add-page-menu.png"
+    },
+    {
       "path": "images\\add-page-modal-details.png"
+    },
+    {
+      "path": "images\\add-page-privacy-1.jpg"
+    },
+    {
+      "path": "images\\add-page-privacy-2.jpg"
+    },
+    {
+      "path": "images\\add-page-privacy-added.png"
     },
     {
       "path": "images\\add-page-template.jpg"
@@ -263,6 +275,12 @@
     },
     {
       "path": "images\\add-page-update-folder.png"
+    },
+    {
+      "path": "images\\add-page-www.png"
+    },
+    {
+      "path": "images\\add-page.png"
     },
     {
       "path": "images\\add-page1.png"
@@ -1028,6 +1046,9 @@
     },
     {
       "path": "images\\form-studio1.jpg"
+    },
+    {
+      "path": "images\\form-studio2.jpg"
     },
     {
       "path": "images\\forms-dashboard-get-id.png"
@@ -2480,6 +2501,18 @@
       "path": "tutorials\\advanced-development\\website-settings\\index.html"
     },
     {
+      "path": "tutorials\\appendix\\create-a-content-template\\index.html"
+    },
+    {
+      "path": "tutorials\\appendix\\create-a-homepage-template\\index.html"
+    },
+    {
+      "path": "tutorials\\appendix\\create-a-sectional-template\\index.html"
+    },
+    {
+      "path": "tutorials\\appendix\\index.html"
+    },
+    {
       "path": "tutorials\\apps\\add-a-wysiwyg-toolbar-to-a-text-area-for-a-module-form\\index.html"
     },
     {
@@ -2768,17 +2801,23 @@
       "path": "tutorials\\websites\\add-page-template\\index.html"
     },
     {
+      "path": "tutorials\\websites\\add-page\\index.html"
+    },
+    {
       "path": "tutorials\\websites\\add-theme\\index.html"
+    },
+    {
+      "path": "tutorials\\websites\\add-website-backup\\index.html"
     },
     {
       "path": "tutorials\\websites\\add-website\\app.js"
     },
     {
-      "path": "tutorials\\websites\\add-website\\app.scss"
+      "path": "tutorials\\websites\\add-website\\app.scss",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\add-website\\fonts.zip",
-      "old": true
+      "path": "tutorials\\websites\\add-website\\fonts.zip"
     },
     {
       "path": "tutorials\\websites\\add-website\\globalheader.txt"
@@ -2799,10 +2838,12 @@
       "path": "tutorials\\websites\\add-website\\utils.js"
     },
     {
-      "path": "tutorials\\websites\\add-website\\webpack.css.config.js"
+      "path": "tutorials\\websites\\add-website\\webpack.css.config.js",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\add-website\\webpack.js.config.js"
+      "path": "tutorials\\websites\\add-website\\webpack.js.config.js",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\alt-tags\\index.html"
