@@ -242,6 +242,8 @@ Solodev provides a rich visual editing experience. The editor renders a preview 
 
 Once complete, your final homepage should appear in the editor, featuring the top navigation, and footer. 
 
+<img src="../../../images/index-template.jpg" alt="base template" style="display: block"></a>
+
 !!!Note:
 Once you have your page template complete, you can return to the <a href="/tutorials/websites/add-page/">How to add a page to a website</a> tutorial. In Step 7, you will see that your template is now available.
 !!!
