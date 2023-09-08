@@ -1,5 +1,76 @@
 # How to add a page to a website
 
+Once you have set up a new website in your Solodev CMS, you can begin creating pages to build out your experience. In this tutorial, you will learn how to add a page to your site. 
+
+## Prerequisites
+
+- You will need to complete the <a href="/tutorials/websites/add-website/">How to add a website</a> tutorial.
+- As you are building with this tutorial, you can refer to the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet</a>  website to compare your progress.
+
+## How to add a page to a website
+
+**Step 1**: From your main dashboard, click **Websites**. 
+
+**Step 2**: On the Websites dashboard, select the site where you want to add a page.
+
+<img src="../../../images/add-page.png" alt="base-template-templatee" style="width=100%; display: block"></a>
+
+**Step 3**: From the left-hand menu, click on the **www** folder. It should contain 
+your index.stml and the “_” folder your created in the previous tutorial. 
+
+<img src="../../../images/add-page-www.png" alt="base-template-templatee" style="width:20%; display: block"></a>
+
+**Step 4**: From the right-hand menu, click **Add Page**. 
+
+<img src="../../../images/add-page-menu.png" alt="base-template-templatee" style="width:20%; display: block"></a>
+
+**Step 5**: In the Add Page window at the right, provide a **Name** for your page. In this example, we are adding a Privacy page from the SpaceJet theme that will feature the site’s privacy statement and disclaimer details. 
+
+!!!**Note**:
+Page names should be in all lower-cased letters and numerals, and multiple words should be separated by a hyphen (for example: **my-page.stml**). Also, remember to use the .stml extension. 
+!!!
+
+<img src="../../../images/add-page-privacy-1.jpg" alt="base-template-templatee" style="width:40%; display: block"></a>
+
+**Step 6**: Next, add a **Title**, which will appear in your page meta, as well as a **Description** to improve the searchability of your page in the file system. Both are optional, but highly recommended.
+
+**Step 7**: At the bottom of the Add Page window, select an available **Template** for your page from the dropdown menu.
+
+<img src="../../../images/add-page-privacy-2.jpg" alt="base-template-templatee" style="width:40%; display: block"></a>
+
+
+!!!**Note**:
+To add reusable page templates to your website, read the How to create a 
+page template tutorial.
+!!!
+
+**Step 8**: Once complete, click **Submit**.
+ 
+**Congratulations!** You have just added your first page to your website. From your site’s dashboard, you should now see the page appear under the www folder.
+
+<img src="../../../images/add-page-privacy-added.png" alt="base-template-templatee" style="width:20%; display: block"></a>
+
+## Next steps
+
+- In the following tutorial, you will learn <a href="/tutorials/websites/add-page-template/">how to create a page template</a> that can be reused on new pages across your website.
+- If you are ready to add more advanced styling to your pages, you can read <a href="/tutorials/integrations/solodev/how-to-add-scss/">how to add SCSS to your website</a> .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
 Once you have set up a new website in your Solodev CMS, you can begin creating pages to build out your experience. In this tutorial, you will learn how to add a page to your site, create reusable page templates with custom elements, and start adding content.  
 
 ## Prerequisites
@@ -28,7 +99,7 @@ One of the key benefits of .tpl files is that they allow you to include multiple
 
 In each of the page templates in this tutorial, you will utilize .tpl files to add fixtures such as a header, footer, navigation, and hero.    
 
-## How to save a page as a reusable template
+## How to save a page as a reusable template, Creating .tpl files
 
 Once you have completed your sectional and content pages, you can save them as reusable templates for use across your website. For the purposes of this lesson, you will use the SpaceJet sectional page that you completed in the previous section.
 
@@ -86,3 +157,4 @@ If you need to make any adjustments to the sectional template you just created, 
 
 <img src="../../../images/departments.jpg" alt="departments" style="display: block"></a>
 
+-->

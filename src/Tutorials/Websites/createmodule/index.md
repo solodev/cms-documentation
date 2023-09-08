@@ -81,6 +81,10 @@ Solodev recommends installing modules into the **web files -> managers folder**.
 ```
 !!!
 
+!!!**Note**:
+You can also add users to your form module. To learn more, read the Add Form article. 
+!!!
+
 ## Repeater Template
 
 The repeater template, although optional, displays all entries in the module used. The repeater is written in Solodev shortcodes and refers to the user interface template, printing fields in the form of PHP variables through an $item array.
