@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-08T12:14:24Z",
+  "created": "2023-09-08T14:32:23Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2810,14 +2810,16 @@
       "path": "tutorials\\websites\\add-website-backup\\index.html"
     },
     {
-      "path": "tutorials\\websites\\add-website\\app.js"
+      "path": "tutorials\\websites\\add-website\\app.js",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\add-website\\app.scss",
       "old": true
     },
     {
-      "path": "tutorials\\websites\\add-website\\fonts.zip"
+      "path": "tutorials\\websites\\add-website\\fonts.zip",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\add-website\\globalheader.txt"
@@ -2835,7 +2837,8 @@
       "path": "tutorials\\websites\\add-website\\package.json"
     },
     {
-      "path": "tutorials\\websites\\add-website\\utils.js"
+      "path": "tutorials\\websites\\add-website\\utils.js",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\add-website\\webpack.css.config.js",

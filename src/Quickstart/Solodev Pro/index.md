@@ -160,7 +160,7 @@ Visit the IP address or the backend domain you configured in Step 6. Log-in to S
 
 ## Step 8: Add your First Website
 
-Please follow this <a href="/tutorials/add-website/">link</a>, and you will learn how to build your first website.
+Please follow this <a href="/tutorials/websites/add-website/">link</a>, and you will learn how to build your first website.
 
 ## Canceling your subscription
 
