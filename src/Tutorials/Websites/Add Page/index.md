@@ -27,7 +27,7 @@ your index.stml and the “_” folder your created in the previous tutorial.
 **Step 5**: In the Add Page window at the right, provide a **Name** for your page. In this example, we are adding a Privacy page from the SpaceJet theme that will feature the site’s privacy statement and disclaimer details. 
 
 !!!**Note**:
-Page names should be in all lower-cased letters and numerals, and multiple words should be separated by a hyphen (for example: **my-page.stml**). Also, remember to use the .stml extension. 
+Page names should be in all lower-cased letters and numerals, and multiple words should be separated by a hyphen (for example: **my-page.stml**). Also, remember you can leave .stml out and the system will add it for you, so it is not required
 !!!
 
 <img src="../../../images/add-page-privacy-1.jpg" alt="base-template-templatee" style="width:40%; display: block"></a>
