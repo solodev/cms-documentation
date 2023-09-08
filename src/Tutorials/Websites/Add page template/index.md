@@ -214,7 +214,7 @@ Solodev provides a rich visual editing experience. The editor renders a preview 
         <div class="d-flex align-items-center justify-content-center">
           <p class="mb-0"><a href="/about/" class="text-dark text-decoration-none me-md-5 me-3"><strong>About</strong></a></p>
           <p class="mb-0"><a href="/blog/" class="text-dark text-decoration-none me-md-5 me-3"><strong>Blog</strong></a></p>
-          <p class="mb-0"><a href="/contact/" class="text-dark text-decoration-none"><strong>Get Started</strong></a></p>
+          <p class="mb-0"><a href="/contact/" class="text-dark text-decoration-none"><strong>Contact</strong></a></p>
         </div>
       </div>
       <div class="col">
@@ -229,7 +229,7 @@ Solodev provides a rich visual editing experience. The editor renders a preview 
   <div class="bg-light py-2">
     <div class="container">
       <div class="d-flex justify-content-between align-items-center flex-md-row flex-column">
-        <p class="small mb-0 mt-3 mt-md-0">&copy;2023 SpaceJet. Built on <a href="https://github.com/solodev/marketplace/raw/master/depot/themes/solodev-spacejet-2023.zip" class="text-dark">SpaceJet Theme</a> and powered by <a href="https://www.solodev.com" target="_blank" rel="noopener noreferrer" class="text-dark">Solodev</a>.</p>
+        <p class="small mb-0 mt-3 mt-md-0">&copy;2023 SpaceJet. Built on <a href="" class="text-dark">SpaceJet Theme</a> and powered by <a href="https://www.solodev.com" target="_blank" rel="noopener noreferrer" class="text-dark">Solodev</a>.</p>
         <ul class="list-unstyled d-inline-flex mb-0 mt-3 mt-md-0 small">
           <li><a href="/privacy.stml" class="text-dark me-3">Privacy</a></li>
           <li><a href="/legal.stml" class="text-dark">Legal</a></li>
