@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-08T21:16:49Z",
+  "created": "2023-09-08T21:19:44Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1184,6 +1184,9 @@
     },
     {
       "path": "images\\includes.png"
+    },
+    {
+      "path": "images\\index-images.jpg"
     },
     {
       "path": "images\\install1.png"

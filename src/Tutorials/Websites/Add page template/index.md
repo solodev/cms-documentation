@@ -240,10 +240,9 @@ Solodev provides a rich visual editing experience. The editor renders a preview 
 </footer>
 ```
 
-**Step 8**: To add more space to the page for the main content areas, repeat steps 4 and 5 and add these additional code samples: 
-
 Once complete, your final homepage should appear in the editor, featuring the top navigation, and footer. 
 
 !!!Note:
-Once you have your page template complete, you can return to the How to add a page to a website tutorial. In Step __, you will see that your template is now available.
+Once you have your page template complete, you can return to the <a href="/tutorials/websites/add-page/">How to add a page to a website</a> tutorial. In Step 7, you will see that your template is now available.
 !!!
+
