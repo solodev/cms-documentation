@@ -208,16 +208,16 @@ For more details on the Website Dashboard and the web files and www folders, rea
 **Step 3**: Following steps 1 and 2, create four additional folders under the "_" folder: 
 
 - **css**
-- **fonts**, you can download the fonts <a href="fonts.zip" download>**here**</a> 
 - **images**
 - **js**
+<!-- - **fonts**, you can download the fonts <a href="fonts.zip" download>**here**</a>  -->
 
 !!!**Note**:
 The _ folder is a general repository for your website’s resources:
 - CSS is the compiled version of the cascading style sheets that govern your website. 
-- Fonts will contain your web-safe font libraries, such as FontAwesome. 
 - Images will host all the graphics, photos, and visual assets.
 - js will contain the compiled JavaScript used on your website. 
+<!-- - Fonts will contain your web-safe font libraries, such as FontAwesome.  -->
 !!!
 
 **Step 4**: Click on the **css** folder and Add a File called **app.css** select **Code** from the dropdown. Once complete, click **Submit**.
