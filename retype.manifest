@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-08T21:09:23Z",
+  "created": "2023-09-08T21:14:29Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1550,6 +1550,9 @@
       "path": "images\\move.png"
     },
     {
+      "path": "images\\nav-footer-folders.jpg"
+    },
+    {
       "path": "images\\organization.jpg"
     },
     {
@@ -1864,6 +1867,9 @@
     },
     {
       "path": "images\\tasks.jpg"
+    },
+    {
+      "path": "images\\template-folders.jpg"
     },
     {
       "path": "images\\tickler-list.jpg"

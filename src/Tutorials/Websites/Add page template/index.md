@@ -147,7 +147,7 @@ Next, you will learn how to apply your .tpl files to your dynamic divs. For the 
 
 **Step 2**: Under the **www** folder, click on the **images** folder under the “_” folder. 
 
-<img src="../../../images/homepage-images-folder.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="../../../images/images-folder.jpg" alt="base template" style="display: block"></a>
 
 **Step 3**: Using the right-hand menu, click **Upload**. Drag both images from your local computer into the window and click **Upload**.
 
