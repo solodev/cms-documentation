@@ -40,8 +40,7 @@ Page names should be in all lower-cased letters and numerals, and multiple words
 
 
 !!!**Note**:
-To add reusable page templates to your website, read the How to create a 
-page template tutorial.
+To add reusable page templates to your website, read the<a href="/tutorials/websites/add-page-template/">How to create a page template</a> tutorial.
 !!!
 
 **Step 8**: Once complete, click **Submit**.
@@ -99,7 +98,7 @@ One of the key benefits of .tpl files is that they allow you to include multiple
 
 In each of the page templates in this tutorial, you will utilize .tpl files to add fixtures such as a header, footer, navigation, and hero.    
 
-## How to save a page as a reusable template, Creating .tpl files
+## How to save a page as a reusable template
 
 Once you have completed your sectional and content pages, you can save them as reusable templates for use across your website. For the purposes of this lesson, you will use the SpaceJet sectional page that you completed in the previous section.
 
