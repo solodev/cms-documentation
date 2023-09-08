@@ -171,10 +171,8 @@ the <a href="/workspace/websites/manage-folder/upload/">Upload</a> article under
         <img src="/_/images/SpaceJet-Logo.png" alt="SpaceJet 2023 Theme Logo" class="w-50">
       </a>
       <div class="d-flex align-items-center justify-content-end">
-        <a href="/blog/" class="fs-5 me-xl-5 me-4 text-dark text-decoration-none" aria-
-label="Blog"><strong>Blog</strong></a>
-        <a href="/contact/" class="fs-5 text-dark text-decoration-none" aria-label="Get 
-Started"><strong>Get Started</strong></a>
+        <a href="/blog/" class="fs-5 me-xl-5 me-4 text-dark text-decoration-none" aria-label="Blog"><strong>Blog</strong></a>
+        <a href="/contact/" class="fs-5 text-dark text-decoration-none" aria-label="Contact"><strong>Contact</strong></a>
       </div>
     </nav>
   </div>
@@ -183,7 +181,7 @@ Started"><strong>Get Started</strong></a>
 
 **Step 5**: Under the **www** folder, click on the **index.stml** file.
 
-<img src="../../../images/homepage-images-menu.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="../../../images/index-images.jpg" alt="base template" style="display: block"></a>
 
 **Step 6**: In the top dynamic div, click anywhere in the **base-template.tpl** div. Once activated, it will turn blue, indicating that it is ready to have a template applied to it. 
 
