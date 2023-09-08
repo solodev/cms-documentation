@@ -41,7 +41,7 @@ When adding a new site, you also have the option to upload a ready-made theme pa
 After setting up the web files and www folders, you can add specific details about your social media and meta information to your website. You can also create custom pages such as a 404 or login page. 
 
 !!!**Note**:
-To learn more about updating your website information, read the  <a href="../../../workspace/websites/update-website/">Update Website</a> article. 
+To learn more about updating your website information, read the <a href="../../../workspace/websites/update-website/">Update Website</a> article. 
 !!!
 
 **Step 1**: From your website dashboard, click **Update Website** from the right-hand meu.
@@ -132,7 +132,7 @@ For more details on how to add a file or folder to your CMS, read the <a href="/
 <img src="../../../images/add-file-menu.png" alt="add-website" style="width: 40%; display: block"></a>
 
 !!!**Note**:
-A package.json file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="../../../workspace/websites/update-website/">Update Website</a> form. 
+A package.json file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. 
 !!!
 
 **Step 3**: Once your package.json file is created, click on it to open the code editor.

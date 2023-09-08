@@ -1,4 +1,4 @@
-# How to create a Content page template  
+# How to create a content page template  
 
 A content template is usually placed within the base template. Sometimes referred to as an “interior template,” content templates power the bulk of your website, and can be reused for various sections that require multiple pages.
 

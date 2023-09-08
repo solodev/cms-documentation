@@ -40,7 +40,7 @@ Page names should be in all lower-cased letters and numerals, and multiple words
 
 
 !!!**Note**:
-To add reusable page templates to your website, read the<a href="/tutorials/websites/add-page-template/">How to create a page template</a> tutorial.
+To add reusable page templates to your website, read the <a href="/tutorials/websites/add-page-template/">How to create a page template</a> tutorial.
 !!!
 
 **Step 8**: Once complete, click **Submit**.
