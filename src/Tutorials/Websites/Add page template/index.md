@@ -120,7 +120,7 @@ You can repeat this process for all additional page templates in your website.
 
 When complete, click **Submit**.
 
-<img src="../../../images/homepage-folders.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="../../../images/template-folders.jpg" alt="base template" style="display: block"></a>
 
 **Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
 
@@ -135,9 +135,7 @@ The additional div-insert.tpl file will provide extra dynamicDivs to your page t
 - footer: **footer.tpl** 
 - navigation: **top-nav.tpl** 
 
-<img src="../../../images/homepage-sub-folder-files.png" alt="base template" style="width: 20%; display: block"></a>
-
-Now you have a complete set of folders and .tpl files to build out your homepage.
+<img src="../../../images/nav-footer-folders.jpg" alt="base template" style="display: block"></a>
 
 ### Adding templates to your dynamic divs
 
