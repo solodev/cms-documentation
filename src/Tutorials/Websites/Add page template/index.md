@@ -81,7 +81,11 @@ A .tpl file should be designated as “Code” in the File Type to ensure that i
 You can always add more dynamic divs as needed.
 !!!
 
-**Step 7**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
+## Adding your base template to your page template
+
+Next, you can apply your base template to your page template.
+
+**Step 1**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
 
 <img src="../../../images/base-template-dots.jpg" alt="base template" style="width: 50%; display: block"></a>
 
@@ -90,15 +94,14 @@ The two dots are a default indicator on all blank pages and can be removed
 during editing. 
 !!!
 
-## Adding your base template to your page template
 
-**Step 1**: After clicking on the two dots, the areas will become active, displaying the dynamic divs as a stack of rectangular boxes set in a light blue color. The name of your base template file will also appear in the upper left. 
+**Step 2**: After clicking on the two dots, the areas will become active, displaying the dynamic divs as a stack of rectangular boxes set in a light blue color. The name of your base template file will also appear in the upper left. 
 
 <img src="../../../images/base-template-add-base-template.png" alt="base template" style="width: 100%; display: block"></a>
 
-**Step 2**: Next, click on your base template file under the **templates** folder in the left menu. This will apply your base template to the dynamic div. Then, click **Publish** in the upper right corner.
+**Step 3**: Next, click on your base template file under the **templates** folder in the left menu. This will apply your base template to the dynamic div. Then, click **Publish** in the upper right corner.
 
-**Step 3**: Once published, your **index.stml** page will refresh, displaying your dynamic divs in white.  You are now ready to build your page templates. 
+**Step 4**: Once published, your **index.stml** page will refresh, displaying your dynamic divs in white.  You are now ready to build your page templates. 
 
 <img src="../../../images/base-template-base-template-final.png" alt="base template" style="width: 100%; display: block"></a>
 
@@ -150,7 +153,7 @@ Next, you will learn how to apply your .tpl files to your dynamic divs. For the 
 
 **Step 3**: Using the right-hand menu, click **Upload**. Drag both images from your local computer into the window and click **Upload**.
 
-<img src="../../../images/homepage-upload-images.png" alt="base template" style="width: 40%; display: block"></a>
+<img src="../../../images/homepage-upload-images1.png" alt="base template" style="width: 40%; display: block"></a>
 
 !!!**Note**: 
 For more details on how to upload images to your website in Solodev, read 
