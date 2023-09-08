@@ -53,14 +53,14 @@ It is recommended that you save your form in the forms folder under web files, s
 
 <img src="../../../images/form-studio2.jpg" alt="form choose object" style="width: 100%; display: block"></a>
 
-**Layout**
+### **Layout**
 
 Left toolbar | Description | Right toolbar options
 :--- | --- | ---
 Container | Provides a controllable container to <br> position and pad objects like text, images,<br> and input fields | • Fluid: allows container to stretch to full browser width <br> • Non-Fluid: constrains container based on specific width<br> • Link settings: add a URL, email, or phone link.<br> • Set form to open in a new tab<br> • Full control of appearance
 Columns | Allows you to organize your form content <br> into pre-defined columns | • Column settings: set the number of columns and padding <br> • Link settings: add a URL, email, or phone link<br> • Set form to open in a new tab<br> • Full control of appearance
 
-**Content**
+### **Content**
 
 Left toolbar | Description | Right toolbar options
 :--- | --- | ---
@@ -68,7 +68,7 @@ Header | Provides a text header to your form. | • Header settings: set the H1 
 Paragraph | Insert a paragraph block of text in your form. | • Full flexibility of appearance.
 Image |  Add a custom image to your form. | • Fluid: allows image to stretch to the full browser width <br> • Non-Fluid: constrains image based on specific dimensions<br> • Image properties: adjust shape, width, and height. <br> • ALT text: add data for accessibility <br> • Link settings: add a URL, email, or phone link <br> • Full control of appearance
 
-**Forms**
+### **Forms**
 
 Left toolbar | Description | Right toolbar options
 :--- | --- | ---
