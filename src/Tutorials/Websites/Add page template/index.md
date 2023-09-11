@@ -94,7 +94,6 @@ The two dots are a default indicator on all blank pages and can be removed
 during editing. 
 !!!
 
-
 **Step 2**: After clicking on the two dots, the areas will become active, displaying the dynamic divs as a stack of rectangular boxes set in a light blue color. The name of your base template file will also appear in the upper left. 
 
 <img src="../../../images/base-template-add-base-template.png" alt="base template" style="width: 100%; display: block"></a>
@@ -248,3 +247,30 @@ Once complete, your final homepage should appear in the editor, featuring the to
 Once you have your page template complete, you can return to the <a href="/tutorials/websites/add-page/">How to add a page to a website</a> tutorial. In Step 7, you will see that your template is now available.
 !!!
 
+## How to save a page as a template
+
+**Step 1**: Click on the '_' folder under **www** and <a href="/workspace/websites/manage-folder/addfolder/">create a new folder</a> called **templates**.
+
+<img src="../../../images/www-templates.jpg" alt="www template" style="display: block"></a>
+
+**Step 2**: Open your new **index.stml** and click <a href="/workspace/documents/editing-files/copy/">copy</a> from the right-hand side action dropdown.
+
+<img src="../../../images/copy-stml.jpg" alt="copy stml" style="display: block"></a>
+
+**Step 3**: On the copy modal, rename the page's name to **page-template.stml** and select the templates folder you just created from the list. Click **Submit**.
+
+<img src="../../../images/copy-stml-modal.jpg" alt="copy stml modal" style="display: block"></a>
+
+**Step 4**: Go to the bottom of the right-hand section of your page and click on the **Advanced** accordion.
+
+<img src="../../../images/advance-accordion-content.jpg" alt="advanced accordion content" style="display: block"></a>
+
+**Step 5**: At the bottom of the Advanced section, click on the “**is Template**” checkbox, then click **Publish** at the top of the page.
+
+<img src="../../../images/is-template.jpg" alt="is-template" style="display: block"></a>
+
+!!!Note:
+If you need to make any adjustments to the page template you just created, you can locate it under the **www >** _ folder. Just bear in mind that any new changes will not be applied to the pages you previously created using this template.
+!!!
+
+**Step 6**: To use your template, follow the <a href="/tutorials/websites/add-page/">following steps</a>.
