@@ -112,7 +112,7 @@ Please leave this file empty. This file will dynamically include the compiled CS
 
 <img src="../../../../images/js-file1.jpg" alt="js file" style="display: block"></a>
 
-**Step 6**: Download the code below and paste it into the file:
+**Step 6**: Download the sample file below, click **Upload** on the right-side menu and add the file you previously downloaded on step 5.
 
 <a href="app.js" download>**app.js**</a>
 
