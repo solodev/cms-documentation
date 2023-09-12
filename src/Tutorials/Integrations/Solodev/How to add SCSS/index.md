@@ -10,7 +10,7 @@ SCSS can be used to style more complex visual elements on a web page, including 
 - You will need to complete the <a href="/tutorials/websites/add-page-template/">How to add a page</a> to a website tutorial.
 - Familiarity with Bootstrap is highly recommended. 
 
-## Setting up your webfiles 
+## Setting up your web files 
 
 **Step 1**: Click on the **web files** folder in your menu. Using the menu on the right, click **Add File**. 
 
