@@ -12,46 +12,39 @@ SCSS can be used to style more complex visual elements on a web page, including 
 
 ## Setting up your web files 
 
-**Step 1**: Click on the **web files** folder in your menu. Using the menu on the right, click **Add File**. 
+**Step 1**: Download the sample json code below. 
 
-<img src="../../../../images/base-template-add-file1.png" alt="add-website" style="width: 20%; display: block"></a>
-
-!!!**Note**: 
-For more details on how to add a file or folder to your CMS, read the  <a href="/workspace/websites/manage-folder/addfile/">Add File</a> article. 
-!!!
-
-**Step 2**: In the menu, create a file called **package.json** and select **Code** from the dropdown. You can add an optional title, but it is not required. Once complete, click **Submit**. 
-
-<img src="../../../../images/base-template-add-file2.png" alt="add-website" style="width: 30%; display: block"></a>
+<a href="package.json" download>**package.json**</a>
 
 !!!**Note**:
 A package.json file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="/workspace/websites/update-website/">Update Website</a> form. 
 !!!
 
-**Step 3**: Once your **package.json** file is created, click on it to open the code editor.
+**Step 2**: Click on the **web files** folder in your menu. Using the menu on the right, click **<a href="https://cms.solodev.net/workspace/websites/manage-folder/upload/">Upload</a>**.
 
-**Step 4**: Download the sample json code below, add it to your file and click **Publish**. 
+<img src="../../../../images/upload-webfiles.jpg" alt="add-website" style="width: 20%; display: block"></a>
 
-<a href="package.json" download>**package.json**</a>
+**Step 3**: Browse or drag the **package.json** file into the uploader and click **Submit**. 
 
-**Step 5**: In the menu, create a file called **webpack**. You can add an optional title and description, but it is not required. Once complete, click **Submit**. 
+**Step 4**: Create a new folder called **webpack**.
 
-<img src="../../../../images/base-template-add-folder2.png" alt="add-website" style="width: 30%; display: block"></a>
+<img src="../../../../images/base-template-add-folder2.png" alt="add-website" style="display: block;">
 
-**Step 6**: Download the two webpack files below.
+**Step 5**: Download the two webpack files below.
 
 <a href="webpack.css.config.js" download>**webpack.css.config.js**</a>
 
 <a href="webpack.js.config.js" download>**webpack.js.config.js**</a>
 
-**Step 7**: Click on the new **webpack** folder in your left menu. Click **Upload** on the right-side menu and add the two webpack files you previously downloaded on step 6. 
-
-- **webpack.css.config.js**
-- **webpack.js.config.js**
-
 !!!**Note**:
 Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.  
 !!!
+
+
+**Step 6**: Click on the new **webpack** folder in your left menu. Click **Upload** on the right-side menu and add the two webpack files you previously downloaded on step 5. 
+
+- **webpack.css.config.js**
+- **webpack.js.config.js**
 
 ## Add SCSS to your site
 
