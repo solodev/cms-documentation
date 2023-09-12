@@ -1,4 +1,4 @@
-# How to add SCSS to your website with Webpack
+# How to add Webpack to your website
 
 SCSS stands for "Sassy Cascading Style Sheets." As the name implies, these are a more advanced variant of standard web CSS (Cascading Style Sheets), and a syntax for the popular CSS preprocessor called SASS, or "Syntactically Awesome Style Sheets." 
 
@@ -38,16 +38,16 @@ A package.json file is used to identify and understand how to handle your websit
 
 <img src="../../../../images/base-template-add-folder2.png" alt="add-website" style="width: 30%; display: block"></a>
 
-**Step 6**: Click on the new **webpack** folder in your left menu. Following steps 1 and 2, create two additional files under the folder:
-
-- **webpack.css.config.js**
-- **webpack.js.config.js**
-
-**Step 7**: Download the two webpack files below, add it to the files you just created and click **Publish**.
+**Step 6**: Download the two webpack files below.
 
 <a href="webpack.css.config.js" download>**webpack.css.config.js**</a>
 
 <a href="webpack.js.config.js" download>**webpack.js.config.js**</a>
+
+**Step 7**: Click on the new **webpack** folder in your left menu. Click **Upload** on the right-side menu and add the two webpack files you previously downloaded on step 6. 
+
+- **webpack.css.config.js**
+- **webpack.js.config.js**
 
 !!!**Note**:
 Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.  
