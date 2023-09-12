@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-08T21:28:01Z",
+  "created": "2023-09-11T16:35:44Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -737,6 +737,12 @@
     },
     {
       "path": "images\\content-template.png"
+    },
+    {
+      "path": "images\\copy-stml-modal.jpg"
+    },
+    {
+      "path": "images\\copy-stml.jpg"
     },
     {
       "path": "images\\copy.jpg"
@@ -2213,6 +2219,9 @@
     },
     {
       "path": "images\\www-folder-list.png"
+    },
+    {
+      "path": "images\\www-templates.jpg"
     },
     {
       "path": "index.html"

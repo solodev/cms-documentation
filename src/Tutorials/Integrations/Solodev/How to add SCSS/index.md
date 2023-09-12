@@ -10,10 +10,11 @@ SCSS can be used to style more complex visual elements on a web page, including 
 - You will need to complete the <a href="/tutorials/websites/add-page-template/">How to add a page</a> to a website tutorial.
 - Familiarity with Bootstrap is highly recommended. 
 
+## Setting up your webfiles 
+
 **Step 1**: Click on the **web files** folder in your menu. Using the menu on the right, click **Add File**. 
 
 <img src="../../../../images/base-template-add-file1.png" alt="add-website" style="width: 20%; display: block"></a>
-
 
 !!!**Note**: 
 For more details on how to add a file or folder to your CMS, read the  <a href="/workspace/websites/manage-folder/addfile/">Add File</a> article. 
@@ -27,14 +28,11 @@ For more details on how to add a file or folder to your CMS, read the  <a href="
 A package.json file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="/workspace/websites/update-website/">Update Website</a> form. 
 !!!
 
-**Step 3**: Using the same process in steps 1 and 2, create another file called 
-**package-lock.json** 
+**Step 3**: Once your **package.json** file is created, click on it to open the code editor.
 
-!!!**Note**:
-A package-lock.json is used to store the exact versions of the dependencies that you have installed.
-!!!
+**Step 4**: Download the sample json code below, add it to your file and click **Publish**. 
 
-**Step 4**: Click on the **web files** folder in your menu. Using the menu on the right, click **Add Folder**. 
+<a href="package.json" download>**package.json**</a>
 
 **Step 5**: In the menu, create a file called **webpack**. You can add an optional title and description, but it is not required. Once complete, click **Submit**. 
 
@@ -45,9 +43,34 @@ A package-lock.json is used to store the exact versions of the dependencies that
 - **webpack.css.config.js**
 - **webpack.js.config.js**
 
+**Step 7**: Download the two webpack files below, add it to the files you just created and click **Publish**.
+
+<a href="webpack.css.config.js" download>**webpack.css.config.js**</a>
+
+<a href="webpack.js.config.js" download>**webpack.js.config.js**</a>
+
 !!!**Note**:
 Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.  
 !!!
+
+**Step 8**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
+
+**Step 9**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
+- **app.js**
+
+**Step 10**: Download the code below and paste it into the file:
+
+<a href="app.js" download>**app.js**</a>
+
+**Step 11**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **scss**.
+
+**Step 12**: Click on the new **scss folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
+
+- **app.scss**
+
+**Step 13**: Download the code below and paste it into the file:
+
+<a href="app.scss" download>**app.scss**</a>
 
 ## Setting up your www folder
 
@@ -89,10 +112,6 @@ Once your web files and www have been set up, it should contain the
 following files and folders:
 
 <img src="../../../../images/2.png" alt="add-website" style="width: 20%; display: block"></a>
-
-
-
-
 
 
 **Step 1:** In the left-hand menu of your main dashboard, click **Websites**. From the table, select the site you want to add **SCSS** to (such as *www.testsite<span>.<span>com*)
