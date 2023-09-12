@@ -125,8 +125,6 @@ following files and folders:
 
 ## Adding additional SCSS to your site
 
-<img src="../../../../images/add-scss.png" alt="scss folder" style="display: block"></a>
-
 **Step 1:** Under web files, click on the **SCSS** folder. 
 
 <img src="../../../../images/scss-folder.png" alt="scss folder" style="display: block"></a>
@@ -140,18 +138,6 @@ following files and folders:
 <img src="../../../../images/scss-utilities-vars.png" alt="scss utilities vars" style="display: block"></a>
 
 **Step 4:** In the file code editor, add the following code sample. 
-
-```js
-@import 'utilities/variables';
-```
-
-<img src="../../../../images/scss-vars.jpg" alt="scss import" style="display: block"></a>
-
-!!!Note:
-This sample code contains a few color variables you can use to style your template.
-!!!
-
-**Step 5:** To link your newly created file, click on the top of the **app.scss** file under the **scss** folder. Add the following import before Bootstrap code. Click **Publish**.
 
 ```js
 @import 'utilities/variables';
@@ -171,10 +157,22 @@ $theme-colors: (
 }
 ```
 
+!!!Note:
+This sample code contains a few color variables you can use to style your template.
+!!!
+
+**Step 5:** To link your newly created file, click on the **app.scss** file under the **scss** folder. Add the following import before Bootstrap code. Click **Publish**.
+
+```js
+@import 'utilities/variables';
+```
+
+<img src="../../../../images/scss-vars.jpg" alt="scss import" style="display: block"></a>
+
 Once complete, click **Publish**.
 
-!!!Note:
-Your variables.scss file needs to be before the bootstrap import. All other scss files you add need to go after the fontawesome imports. Solodev highly recommends creating a **components** folder for all your other styles and to keep some level of organization within your CMS.
+!!!warning Note:
+Your variables.scss file needs to be added before the bootstrap import. All other scss files you add need to go after the bootstrap imports. Solodev highly recommends creating a components folder for all your other styles and to keep some level of organization within your CMS.
 !!!!
 
 **Step 6:** Go to your front end and see the new colors.

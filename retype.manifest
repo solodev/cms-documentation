@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-12T15:09:41Z",
+  "created": "2023-09-12T15:43:27Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -590,6 +590,12 @@
     },
     {
       "path": "images\\apitokens2.jpg"
+    },
+    {
+      "path": "images\\app-css.jpg"
+    },
+    {
+      "path": "images\\app-js.jpg"
     },
     {
       "path": "images\\apps.jpg"
@@ -1372,7 +1378,13 @@
       "path": "images\\js-file.jpg"
     },
     {
+      "path": "images\\js-file1.jpg"
+    },
+    {
       "path": "images\\js-folder.jpg"
+    },
+    {
+      "path": "images\\js-folder1.jpg"
     },
     {
       "path": "images\\js-utils-file.jpg"
@@ -1704,10 +1716,16 @@
       "path": "images\\scss-file.jpg"
     },
     {
+      "path": "images\\scss-file1.jpg"
+    },
+    {
       "path": "images\\scss-folder.jpg"
     },
     {
       "path": "images\\scss-folder.png"
+    },
+    {
+      "path": "images\\scss-folder1.jpg"
     },
     {
       "path": "images\\scss-import.png"
@@ -1717,6 +1735,9 @@
     },
     {
       "path": "images\\scss-utilities.png"
+    },
+    {
+      "path": "images\\scss-vars.jpg"
     },
     {
       "path": "images\\settings.jpg"
@@ -2236,7 +2257,13 @@
       "path": "images\\wowza.jpg"
     },
     {
+      "path": "images\\www-css.jpg"
+    },
+    {
       "path": "images\\www-folder-list.png"
+    },
+    {
+      "path": "images\\www-js.jpg"
     },
     {
       "path": "images\\www-templates.jpg"
