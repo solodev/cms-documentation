@@ -11,7 +11,6 @@
   },
   "author": "Solodev",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.2.0",
     "@popperjs/core": "^2.11.4",
     "bootstrap": "^5.2.0",
     "jquery": "^3.6.0",
