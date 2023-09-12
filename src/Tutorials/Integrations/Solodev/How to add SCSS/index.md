@@ -85,7 +85,7 @@ Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files
 
 **Step 1**: Click on the **"_"** under the **www** folder in your menu. Using the menu on the right, click **Add Folder**.
 
-<img src="../../../../images/_folder.jpg" alt="_ folder" style="display: block"></a>
+<img src="../../../../images/under-folder.jpg" alt="_ folder" style="display: block"></a>
 
 **Step 2**: In the menu, create a folder called **"css"**. You can add an optional title and description, but it is not required. Once complete, click **Submit**.
 
