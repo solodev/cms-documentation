@@ -107,10 +107,11 @@ The "**_**" folder is a general repository for your website’s resources:
 
 **Step 5**: Click on the **js** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.js**.
 
-Once your web files and www have been set up, it should contain the 
-following files and folders:
-
 <img src="../../../../images/app-js.jpg" alt="add-website" style="display: block"></a>
+
+Once your web files and www have been set up, it should contain the following files and folders:
+
+<img src="../../../../images/web-files-www-final-view.png" alt="add-website" style="display: block"></a>
 
 **Step 6**: Go to your website dashboard and click on **Update Website** and navigate to the Meta Information accordion.
 
