@@ -10,6 +10,91 @@ SCSS can be used to style more complex visual elements on a web page, including 
 - You will need to complete the <a href="/tutorials/websites/add-page-template/">How to add a page</a> to a website tutorial.
 - Familiarity with Bootstrap is highly recommended. 
 
+**Step 1**: Click on the **web files** folder in your menu. Using the menu on the right, click **Add File**. 
+
+<img src="../../../../images/base-template-add-file1.png" alt="add-website" style="width: 20%; display: block"></a>
+
+
+!!!**Note**: 
+For more details on how to add a file or folder to your CMS, read the  <a href="/workspace/websites/manage-folder/addfile/">Add File</a> article. 
+!!!
+
+**Step 2**: In the menu, create a file called **package.json** and select **Code** from the dropdown. You can add an optional title, but it is not required. Once complete, click **Submit**. 
+
+<img src="../../../../images/base-template-add-file2.png" alt="add-website" style="width: 30%; display: block"></a>
+
+!!!**Note**:
+A package.json file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="/workspace/websites/update-website/">Update Website</a> form. 
+!!!
+
+**Step 3**: Using the same process in steps 1 and 2, create another file called 
+**package-lock.json** 
+
+!!!**Note**:
+A package-lock.json is used to store the exact versions of the dependencies that you have installed.
+!!!
+
+**Step 4**: Click on the **web files** folder in your menu. Using the menu on the right, click **Add Folder**. 
+
+**Step 5**: In the menu, create a file called **webpack**. You can add an optional title and description, but it is not required. Once complete, click **Submit**. 
+
+<img src="../../../../images/base-template-add-folder2.png" alt="add-website" style="width: 30%; display: block"></a>
+
+**Step 6**: Click on the new **webpack** folder in your left menu. Following steps 1 and 2, create two additional files under the folder:
+
+- **webpack.css.config.js**
+- **webpack.js.config.js**
+
+!!!**Note**:
+Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.  
+!!!
+
+## Setting up your www folder
+
+When creating a new website, a **www** folder is automatically generated. The folder contains only one file called **index.stml**, which corresponds to the **index.html** file under the **content** folder of your **web files**. 
+
+
+<img src="../../../../images/1.png" alt="add-website" style="width: 20%; display: block"></a>
+
+
+An index file is what a browser reads first under your website domain, which is why it is referred to as your website’s **homepage**. 
+
+In the next lesson, you will learn about the additional files and folders that are required for your www folder and how to create them. 
+
+!!!**Note**: 
+For more details on the Website Dashboard and the web files and www folders, read the <a href="/workspace/websites/website-overview/">Website Overview</a> article. 
+!!!
+
+**Step 1**: Click on the **www** folder in your menu. Using the menu on the right, click **Add Folder**. 
+
+**Step 2**: In the menu, create a folder called "**_**" (the underscore character). You can add an optional title and description, but it is not required. Once complete, click **Submit**. 
+
+<img src="../../../../images/base-template-add-file3.png" alt="add-website" style="width: 30%; display: block"></a>
+
+**Step 3**: Following steps 1 and 2, create four additional folders under the "**_**" folder: 
+- **css**
+- **fonts** 
+- **images**
+- **js**
+ 
+!!!**Note**:
+The "**_**" folder is a general repository for your website’s resources:
+- CSS will compile the cascading style sheets that govern your website. 
+- Fonts will contain your web-safe font libraries, such as FontAwesome. 
+- Images will host all the graphics, photos, and visual assets.
+- js will contain the compiled JavaScript used on your website. 
+!!!
+
+Once your web files and www have been set up, it should contain the 
+following files and folders:
+
+<img src="../../../../images/2.png" alt="add-website" style="width: 20%; display: block"></a>
+
+
+
+
+
+
 **Step 1:** In the left-hand menu of your main dashboard, click **Websites**. From the table, select the site you want to add **SCSS** to (such as *www.testsite<span>.<span>com*)
 
 <img src="../../../../images/add-scss.png" alt="scss folder" style="display: block"></a>
