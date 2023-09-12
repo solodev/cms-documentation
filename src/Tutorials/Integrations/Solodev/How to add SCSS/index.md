@@ -69,17 +69,25 @@ Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files
 
 <a href="app.scss" download>**app.scss**</a>
 
-**Step 4**: Click on the **"_"** under the **www** folder in your menu. Using the menu on the right, click **Add Folder**.
+**Step 1**: Click on the **"_"** under the **www** folder in your menu. Using the menu on the right, click **Add Folder**.
 
 <img src="../../../../images/under-folder.jpg" alt="_ folder" style="display: block"></a>
 
-**Step 5**: In the menu, create a folder called **"css"**. You can add an optional title and description, but it is not required. Once complete, click **Submit**.
+**Step 2**: In the menu, create a folder called **"css"**. You can add an optional title and description, but it is not required. Once complete, click **Submit**.
 
 <img src="../../../../images/www-css.jpg" alt="www css" style="display: block"></a>
 
-**Step 6**: Click on the **css** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.css**.
+**Step 3**: Click on the **css** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.css**.
 
 <img src="../../../../images/app-css.jpg" alt="add-website" style="display: block"></a>
+
+**Step 4**: Go to your website dashboard and click on **Update Website** and navigate to the Meta Information accordion.
+
+**Step 5**: Under "Global Header Insert" replace the CDN reference for bootstrap with the following:
+
+```js
+<link rel="stylesheet" href="/_/css/app.css">
+```
 
 ## Add JS to your site
 
@@ -97,19 +105,13 @@ Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files
 
 <a href="app.js" download>**app.js**</a>
 
-**Step 4**: Click on the **"_"** under the **www** folder in your menu. Using the menu on the right, click **Add Folder**.
+**Step 1**: Click on the **"_"** under the **www** folder in your menu. Using the menu on the right, click **Add Folder**.
 
-**Step 5**: Following steps 1 and 2, create an additional folder under the **"_"** folder, called **js**.
+**Step 2**: Following steps 1 and 2, create an additional folder under the **"_"** folder, called **js**.
 
 <img src="../../../../images/www-js.jpg" alt="www js" style="display: block"></a>
  
-!!!**Note**:
-The "**_**" folder is a general repository for your website’s resources:
-- CSS will compile the cascading style sheets that govern your website. 
-- js will contain the compiled JavaScript used on your website. 
-!!!
-
-**Step 6**: Click on the **js** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.js**.
+**Step 3**: Click on the **js** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.js**.
 
 <img src="../../../../images/app-js.jpg" alt="add-website" style="display: block"></a>
 
@@ -117,18 +119,13 @@ Once your web files and www have been set up, it should contain the following fi
 
 <img src="../../../../images/web-files-www-final-view.png" alt="add-website" style="display: block"></a>
 
-## Setting up your www folder
+**Step 4**: Go to your website dashboard and click on **Update Website** and navigate to the Meta Information accordion.
 
-**Step 6**: Go to your website dashboard and click on **Update Website** and navigate to the Meta Information accordion.
-
-**Step 7**: Under "Global Header Insert" replace the CDN reference for bootstrap with the following:
+**Step 5**: Under "Global Header Insert" replace the CDN reference for bootstrap with the following:
 
 ```js
-<link rel="stylesheet" href="/_/css/app.css">
 <script defer src="/_/js/app.js"></script>
 ```
-
-**Step 8**: Click **Submit**.
 
 ## Adding additional SCSS to your site
 
