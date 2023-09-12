@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-12T19:16:35Z",
+  "created": "2023-09-12T19:48:51Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2754,7 +2754,8 @@
       "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\app.js"
     },
     {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\app.scss"
+      "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\app.scss",
+      "old": true
     },
     {
       "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\index.html"

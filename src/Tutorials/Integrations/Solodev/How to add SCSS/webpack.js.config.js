@@ -1,12 +1,12 @@
 'use strict';
-​
+
 const path = require('path');
 const webpack = require('webpack');
-​
+
 // Plugins
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
-​
+
 module.exports = {
   mode: 'production',
   optimization: {
