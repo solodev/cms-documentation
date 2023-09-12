@@ -28,7 +28,7 @@ A package.json file is used to identify and understand how to handle your websit
 
 **Step 4**: Create a new folder called **webpack**.
 
-<img src="../../../../images/base-template-add-folder2.png" alt="add-website" style="display: block;">
+<img src="../../../../images/base-template-add-folder2.png" alt="add-website" style="width: 20%; display: block;">
 
 **Step 5**: Download the two webpack files below.
 
@@ -52,31 +52,39 @@ Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files
 
 <img src="../../../../images/under-folder.jpg" alt="_ folder" style="display: block"></a>
 
-**Step 2**: In the menu, create a folder called **"css"**. You can add an optional title and description, but it is not required. Once complete, click **Submit**.
+**Step 2**: In the modal, create a folder called **"css"**. You can add an optional title and description, but it is not required. Once complete, click **Submit**.
 
 <img src="../../../../images/www-css.jpg" alt="www css" style="display: block"></a>
 
-**Step 3**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **scss**.
+**Step 3**: Click on the **css** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.css**.
+
+<img src="../../../../images/app-css.jpg" alt="add-website" style="display: block"></a>
+
+!!!Note
+Please leave this file empty. This file will dynamically include the compiled CSS for your site.
+!!!
+
+**Step 4**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **scss**.
 
 <img src="../../../../images/scss-folder1.jpg" alt="scss folder" style="display: block"></a>
 
-**Step 4**: Click on the new **scss folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
+**Step 5**: On the new scss folder, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> **called app.scss**:
 
 - **app.scss**
 
 <img src="../../../../images/scss-file1.jpg" alt="scss file" style="display: block"></a>
 
-**Step 5**: Download the code below and paste it into the file:
+**Step 6**: Paste the following sample code into the file:
 
-<a href="app.scss" download>**app.scss**</a>
+```js
+@import '~bootstrap/scss/bootstrap';
+```
 
-**Step 6**: Click on the **css** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.css**.
+<!-- <a href="app.scss" download>**app.scss**</a> -->
 
-<img src="../../../../images/app-css.jpg" alt="add-website" style="display: block"></a>
+**Step 7**: Go to your website dashboard and click on **Update Website** and navigate to the **Meta Information** accordion.
 
-**Step 7**: Go to your website dashboard and click on **Update Website** and navigate to the Meta Information accordion.
-
-**Step 8**: Under "Global Header Insert" replace the CDN reference for bootstrap with the following:
+**Step 8**: Under **"Global Header Insert"** replace the CDN reference for bootstrap with the following:
 
 ```js
 <link rel="stylesheet" href="/_/css/app.css">
@@ -90,23 +98,23 @@ Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files
 
 <img src="../../../../images/www-js.jpg" alt="www js" style="display: block"></a>
 
-**Step 3**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
+**Step 3**: Click on the **js** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.js**.
+
+<img src="../../../../images/app-js.jpg" alt="add-website" style="display: block"></a>
+
+**Step 4**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
 
 <img src="../../../../images/js-folder1.jpg" alt="js folder" style="display: block"></a>
 
-**Step 4**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
+**Step 5**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
 
 - **app.js**
 
 <img src="../../../../images/js-file1.jpg" alt="js file" style="display: block"></a>
 
-**Step 5**: Download the code below and paste it into the file:
+**Step 6**: Download the code below and paste it into the file:
 
 <a href="app.js" download>**app.js**</a>
-
-**Step 6**: Click on the **js** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.js**.
-
-<img src="../../../../images/app-js.jpg" alt="add-website" style="display: block"></a>
 
 **Step 7**: Go to your website dashboard and click on **Update Website** and navigate to the Meta Information accordion.
 
