@@ -140,8 +140,6 @@ following files and folders:
 **Step 4:** In the file code editor, add the following code sample. 
 
 ```js
-@import 'utilities/variables';
-
 /* =======================
   # Theme Color pallette
 ======================= */
