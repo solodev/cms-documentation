@@ -53,31 +53,35 @@ A package.json file is used to identify and understand how to handle your websit
 Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.  
 !!!
 
-**Step 8**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
+## Add JS to your site
+
+**Step 1**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
 
 <img src="../../../../images/js-folder1.jpg" alt="js folder" style="display: block"></a>
 
-**Step 9**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
+**Step 2**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
 
 - **app.js**
 
 <img src="../../../../images/js-file1.jpg" alt="js file" style="display: block"></a>
 
-**Step 10**: Download the code below and paste it into the file:
+**Step 3**: Download the code below and paste it into the file:
 
 <a href="app.js" download>**app.js**</a>
 
-**Step 11**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **scss**.
+## Add SCSS to your site
+
+**Step 1**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **scss**.
 
 <img src="../../../../images/scss-folder1.jpg" alt="scss folder" style="display: block"></a>
 
-**Step 12**: Click on the new **scss folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
+**Step 2**: Click on the new **scss folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
 
 - **app.scss**
 
 <img src="../../../../images/scss-file1.jpg" alt="scss file" style="display: block"></a>
 
-**Step 13**: Download the code below and paste it into the file:
+**Step 3**: Download the code below and paste it into the file:
 
 <a href="app.scss" download>**app.scss**</a>
 
