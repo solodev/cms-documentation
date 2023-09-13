@@ -20,22 +20,13 @@ A **package.json** file is used to identify and understand how to handle your we
 
 <img src="../../../../images/upload-webfiles.jpg" alt="add-website" style="width: 20%; display: block"></a>
 
-**Step 3**: Browse or drag the **package.json** file into the uploader and click **Submit**. 
+**Step 3**: Browse or drag the **package.json** file into the uploader and click **Submit**.
+
+<img src="../../../../images/uploader.jpg" alt="add-website" style="display: block"></a>
 
 **Step 4**: Create a new folder called **webpack**.
 
 <img src="../../../../images/base-template-add-folder2.png" alt="add-website" style="width: 20%; display: block;">
-
-**Step 5**: Download the two webpack files below.
-
-<a href="webpack.css.config.js" download>**webpack.css.config.js**</a>
-
-<a href="webpack.js.config.js" download>**webpack.js.config.js**</a>
-
-**Step 6**: Click on the new **webpack** folder in your left menu. Click **Upload** on the right-side menu and add the two webpack files you previously downloaded on step 5. 
-
-- **webpack.css.config.js**
-- **webpack.js.config.js**
 
 ## Add SCSS to your site
 
@@ -91,7 +82,7 @@ Please leave this file empty. This file will dynamically include the compiled CS
 <link rel="stylesheet" href="/_/css/app.css">
 ```
 
-## Add JS to your site
+## Add JavaScript to your site
 
 **Step 1**: Download the webpack file below
 
@@ -113,19 +104,19 @@ Please leave this file empty. This file will dynamically include the compiled CS
 
 <img src="../../../../images/js-folder1.jpg" alt="js folder" style="display: block"></a>
 
-**Step **: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
+**Step 7**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
 
 - **app.js**
 
 <img src="../../../../images/js-file1.jpg" alt="js file" style="display: block"></a>
 
-**Step 7**: Download the sample file below, click **Upload** on the right-side menu and add the file you previously downloaded on step 5.
+**Step 8**: Download the sample file below, click **Upload** on the right-side menu and add the file you previously downloaded on step 5.
 
 <a href="app.js" download>**app.js**</a>
 
-**Step 8**: Go to your website dashboard and click on **Update Website** and navigate to the Meta Information accordion.
+**Step 9**: Go to your website dashboard and click on **Update Website** and navigate to the **Meta Information** accordion.
 
-**Step 9**: Under "Global Header Insert" replace the CDN reference for bootstrap with the following:
+**Step 10**: Under **"Global Header Insert"** replace the CDN reference for bootstrap with the following:
 
 ```js
 <script defer src="/_/js/app.js"></script>
