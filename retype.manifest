@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-13T19:12:33Z",
+  "created": "2023-09-13T20:04:07Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -193,6 +193,12 @@
     },
     {
       "path": "images\\add-contact.png"
+    },
+    {
+      "path": "images\\add-entries.png"
+    },
+    {
+      "path": "images\\add-entry.jpg"
     },
     {
       "path": "images\\add-file-contact-tpl.png"
@@ -986,6 +992,9 @@
     },
     {
       "path": "images\\enterprise-stack-name.png"
+    },
+    {
+      "path": "images\\entry-modal-blog.jpg"
     },
     {
       "path": "images\\favicon.png"

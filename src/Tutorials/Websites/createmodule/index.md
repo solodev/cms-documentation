@@ -28,14 +28,6 @@ As previously mentioned, you will be creating a blog module using the SpaceJet t
 
 The tutorial will cover the main blog page, the blog detail page, and the repeater – which will display your entries on the main Blog page, as well as the homepage. 
 
-!!!**Note**:
-Before getting started, locate these images in the theme package that you previously downloaded:
-
-- **SpaceJet-2023-Jet-Image-2.jpg**
-- **SpaceJet-2023-Cabin-Image.jpg**
-- **SpaceJet-2023-Astronaut-Image.jpg**
-!!!
-
 **Step 1**: From your main CMS dashboard, click **Modules** in the left-hand menu.
 
 **Step 2**: On the Modules dashboard, click **Add Module** in the upper right corner. 
@@ -70,35 +62,7 @@ The repeater template, although optional, displays all entries in the module use
 
 **Step 3:** Add the code below for the blog repeater. For more information on shortcodes, please <a href="/shortcodes/shortcodes-for-modules/">click here</a>.
 
-```js
-<div class="my-5">
-  <div class="container">
-    <div class="text-center">
-      <h2 class="display-5 fw-bolder"><strong>Blog</strong></h2>
-      <p>Learn what's happening on the final frontier</p>
-    </div>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 mt-4">
-      [repeater id='1' display_type="news"]
-        <div class="col mt-4">
-          <div class="card rounded-5 shadow">
-            [is_set value={{post_image_alt}} ]
-              <img alt="{{post_image_alt}}" src="[get_asset_file_url id='{{post_image}}']" class="img-fluid rounded-top-5">
-            [/is_set]
-            [is_empty value={{post_image_alt}}]
-              <img alt="{{event_title}}" src="[get_asset_file_url id='{{post_image}}']" class="img-fluid rounded-top-5">
-            [/is_empty]
-            <div class="card-body p-4">
-              <p class="pt-1">[print_date format="F d, Y" timestamp="{{start_time}}"]</p>
-              <h3 class="mt-3 fw-bolder"><strong>{{event_title}}</strong></h3>
-              <a href="{{path}}" class="btn fs-6 btn-danger text-white my-3"><strong>Learn More</strong></a>
-            </div>
-          </div>
-        </div>
-      [/repeater] 
-    </div>
-  </div>
-</div>
-```
+:::code source="index.tpl" :::
 
 **Step 4:** In the module, locate the repeater ID in the upper left corner. In this example, the repeater ID is “1”.
 
@@ -116,6 +80,14 @@ The repeater template, although optional, displays all entries in the module use
 
 ## Add entries to your module
 
+!!!**Note**:
+Before getting started, locate these images in the theme package that you previously downloaded:
+
+- **SpaceJet-2023-Jet-Image-2.jpg**
+- **SpaceJet-2023-Cabin-Image.jpg**
+- **SpaceJet-2023-Astronaut-Image.jpg**
+!!!
+
 **Step 1:** Go back to your module and click on **Add Entry**.
 
 <img src="../../../images/add-entry.jpg" alt="base template" style="display: block"></a>
@@ -124,7 +96,7 @@ The repeater template, although optional, displays all entries in the module use
 To learn more about Add Entry please <a href="/workspace/modules/module-overview/addentry/">click here</a>.
 !!!
 
-**Step 2:** On the **Add Entry** modal, add the name of your blog post and select **Draft** from the status dropdown. Click **Submit**.
+**Step 2:** On the **Add Entry** modal, add the name of your blog post and select **<a href="/workspace/modules/module-overview/addentry/">draft</a>** from the status dropdown. Click **Submit**.
 
 <img src="../../../images/entry-modal-blog.jpg" alt="base template" style="display: block"></a>
 
@@ -132,7 +104,7 @@ To learn more about Add Entry please <a href="/workspace/modules/module-overview
 You can fill out the other input fields in this step if you prefer.
 !!! 
 
-**Step 3:** After you have filled all the information required on the Entry screen, click **Save**.
+**Step 3:** After you have filled all the information required on the Entry screen, change the status of your entry to **Publish** and click **Save**.
 
 <img src="../../../images/blog-spacejet.jpg" alt="base template" style="width: 100%; display: block"></a>
 
