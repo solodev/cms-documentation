@@ -11,8 +11,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.4",
     "bootstrap": "^5.2.0",
-    "jquery": "^3.6.0",
-    "slick-carousel": "github:kenwheeler/slick"
+    "jquery": "^3.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
