@@ -1,13 +1,11 @@
 {
-  "name": "solodev_spacejet_2023",
+  "name": "solodev_webpack",
   "version": "1.0.0",
-  "description": "Solodev SpaceJet 2023",
+  "description": "Solodev Webpack",
   "scripts": {
-    "start": "webpack serve --config webpack/webpack.config.dev.js --mode=development",
     "compile": "npm run css && npm run js",
     "css": "webpack --config webpack/webpack.css.config.js",
-    "js": "webpack --config webpack/webpack.js.config.js",
-    "build": "webpack --config webpack/webpack.config.prod.js"
+    "js": "webpack --config webpack/webpack.config.js"
   },
   "author": "Solodev",
   "dependencies": {

@@ -10,8 +10,8 @@ Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files
 
 ## Setting up your web files 
 
-A package.json file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the  <a href="/workspace/websites/update-website/">Update Website</a> form. 
-!
+A **package.json** file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the  <a href="/workspace/websites/update-website/">Update Website</a> form. 
+
 **Step 1**: Download the sample json code below. 
 
 <a href="package.json" download>**package.json**</a>
