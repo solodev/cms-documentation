@@ -26,7 +26,7 @@ A **package.json** file is used to identify and understand how to handle your we
 
 **Step 4**: Create a new folder called **webpack**.
 
-<img src="../../../../images/base-template-add-folder2.png" alt="add-website" style="width: 20%; display: block;">
+<img src="../../../../images/base-template-add-folder2.png" alt="add-website" style="width: 40%; display: block;"></br>
 
 ## Add SCSS to your site
 

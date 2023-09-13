@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-13T18:55:53Z",
+  "created": "2023-09-13T19:12:33Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2002,6 +2002,9 @@
       "path": "images\\upload-webfiles.jpg"
     },
     {
+      "path": "images\\uploader.jpg"
+    },
+    {
       "path": "images\\uploadfiles.png"
     },
     {
@@ -2776,7 +2779,8 @@
       "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\webpack.css.config.js"
     },
     {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\webpack.js.config.js"
+      "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\webpack.js.config.js",
+      "old": true
     },
     {
       "path": "tutorials\\integrations\\solodev\\index.html"
