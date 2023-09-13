@@ -1,8 +1,6 @@
 # How to add Webpack to your website
 
-SCSS stands for "Sassy Cascading Style Sheets." As the name implies, these are a more advanced variant of standard web CSS (Cascading Style Sheets), and a syntax for the popular CSS preprocessor called SASS, or "Syntactically Awesome Style Sheets." 
-
-SCSS can be used to style more complex visual elements on a web page, including hero sliders, galleries, buttons, images, color palettes, fonts, and even themes and layouts. In this article, you will learn how to add SCSS to your website to add more of these advanced features. 
+Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.
 
 ## Prerequisites
 
@@ -12,13 +10,11 @@ SCSS can be used to style more complex visual elements on a web page, including 
 
 ## Setting up your web files 
 
+A package.json file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the  <a href="/workspace/websites/update-website/">Update Website</a> form. 
+!
 **Step 1**: Download the sample json code below. 
 
 <a href="package.json" download>**package.json**</a>
-
-!!!**Note**:
-A package.json file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="/workspace/websites/update-website/">Update Website</a> form. 
-!!!
 
 **Step 2**: Click on the **web files** folder in your menu. Using the menu on the right, click **<a href="https://cms.solodev.net/workspace/websites/manage-folder/upload/">Upload</a>**.
 
@@ -36,11 +32,6 @@ A package.json file is used to identify and understand how to handle your websit
 
 <a href="webpack.js.config.js" download>**webpack.js.config.js**</a>
 
-!!!**Note**:
-Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.  
-!!!
-
-
 **Step 6**: Click on the new **webpack** folder in your left menu. Click **Upload** on the right-side menu and add the two webpack files you previously downloaded on step 5. 
 
 - **webpack.css.config.js**
@@ -48,15 +39,25 @@ Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files
 
 ## Add SCSS to your site
 
-**Step 1**: Click on the **"_"** under the **www** folder in your menu. Using the menu on the right, click **Add Folder**.
+SCSS stands for "Sassy Cascading Style Sheets." As the name implies, these are a more advanced variant of standard web CSS (Cascading Style Sheets), and a syntax for the popular CSS preprocessor called SASS, or "Syntactically Awesome Style Sheets." 
+
+SCSS can be used to style more complex visual elements on a web page, including hero sliders, galleries, buttons, images, color palettes, fonts, and even themes and layouts. In this article, you will learn how to add SCSS to your website to add more of these advanced features. 
+
+**Step 1**: Download the webpack file below
+
+<a href="webpack.css.config.js" download>**webpack.css.config.js**</a>
+
+**Step 2**: On the new webpack folder click **Upload** on the right-side menu and add the webpack file you previously downloaded on step 1.
+
+**Step 3**: Click on the **"_"** under the **www** folder in your menu. Using the menu on the right, click **Add Folder**.
 
 <img src="../../../../images/under-folder.jpg" alt="_ folder" style="display: block"></a>
 
-**Step 2**: In the modal, create a folder called **"css"**. You can add an optional title and description, but it is not required. Once complete, click **Submit**.
+**Step 4**: In the modal, create a folder called **"css"**. You can add an optional title and description, but it is not required. Once complete, click **Submit**.
 
 <img src="../../../../images/www-css.jpg" alt="www css" style="display: block"></a>
 
-**Step 3**: Click on the **css** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.css**.
+**Step 5**: Click on the **css** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.css**.
 
 <img src="../../../../images/app-css.jpg" alt="add-website" style="display: block"></a>
 
@@ -64,17 +65,17 @@ Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files
 Please leave this file empty. This file will dynamically include the compiled CSS for your site.
 !!!
 
-**Step 4**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **scss**.
+**Step 6**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **scss**.
 
 <img src="../../../../images/scss-folder1.jpg" alt="scss folder" style="display: block"></a>
 
-**Step 5**: On the new scss folder, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> **called app.scss**:
+**Step 7**: On the new scss folder, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> **called app.scss**:
 
 - **app.scss**
 
 <img src="../../../../images/scss-file1.jpg" alt="scss file" style="display: block"></a>
 
-**Step 6**: Paste the following sample code into the file:
+**Step 8**: Paste the following sample code into the file:
 
 ```js
 @import '~bootstrap/scss/bootstrap';
@@ -82,9 +83,9 @@ Please leave this file empty. This file will dynamically include the compiled CS
 
 <!-- <a href="app.scss" download>**app.scss**</a> -->
 
-**Step 7**: Go to your website dashboard and click on **Update Website** and navigate to the **Meta Information** accordion.
+**Step 9**: Go to your website dashboard and click on **Update Website** and navigate to the **Meta Information** accordion.
 
-**Step 8**: Under **"Global Header Insert"** replace the CDN reference for bootstrap with the following:
+**Step 10**: Under **"Global Header Insert"** replace the CDN reference for bootstrap with the following:
 
 ```js
 <link rel="stylesheet" href="/_/css/app.css">
@@ -92,33 +93,39 @@ Please leave this file empty. This file will dynamically include the compiled CS
 
 ## Add JS to your site
 
-**Step 1**: Click on the **"_"** under the **www** folder in your menu. Using the menu on the right, click **Add Folder**.
+**Step 1**: Download the webpack file below
 
-**Step 2**: Following step 1, create an additional folder under the **"_"** folder, called **js**.
+<a href="webpack.config.js" download>**webpack.config.js**</a>
+
+**Step 2**: On the webpack folder under **web files**, click **Upload** on the right-side menu and add the webpack file you previously downloaded on step 1.
+
+**Step 3**: Click on the **"_"** under the **www** folder in your menu. Using the menu on the right, click **Add Folder**.
+
+**Step 4**: Following step 1, create an additional folder under the **"_"** folder, called **js**.
 
 <img src="../../../../images/www-js.jpg" alt="www js" style="display: block"></a>
 
-**Step 3**: Click on the **js** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.js**.
+**Step 5**: Click on the **js** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.js**.
 
 <img src="../../../../images/app-js.jpg" alt="add-website" style="display: block"></a>
 
-**Step 4**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
+**Step 6**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
 
 <img src="../../../../images/js-folder1.jpg" alt="js folder" style="display: block"></a>
 
-**Step 5**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
+**Step **: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
 
 - **app.js**
 
 <img src="../../../../images/js-file1.jpg" alt="js file" style="display: block"></a>
 
-**Step 6**: Download the sample file below, click **Upload** on the right-side menu and add the file you previously downloaded on step 5.
+**Step 7**: Download the sample file below, click **Upload** on the right-side menu and add the file you previously downloaded on step 5.
 
 <a href="app.js" download>**app.js**</a>
 
-**Step 7**: Go to your website dashboard and click on **Update Website** and navigate to the Meta Information accordion.
+**Step 8**: Go to your website dashboard and click on **Update Website** and navigate to the Meta Information accordion.
 
-**Step 8**: Under "Global Header Insert" replace the CDN reference for bootstrap with the following:
+**Step 9**: Under "Global Header Insert" replace the CDN reference for bootstrap with the following:
 
 ```js
 <script defer src="/_/js/app.js"></script>

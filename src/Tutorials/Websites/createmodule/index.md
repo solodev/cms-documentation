@@ -46,40 +46,15 @@ Before getting started, locate these images in the theme package that you previo
 
 <img src="../../../images/add-module.png" alt="base template" style="width: 40%; display: block"></a>
 
-Once complete, click **Add**.
+**Step 4**: Upload your module's **.tpl** file. If you don't have one yet, you can use this sample code for a basic blog module:
 
-!!!**Note**:
-If you have a pre-built form template prepared, you can upload it using by using the **Upload .tpl** button. 
-!!!
+<a href="module.tpl" download>module.tpl</a>
 
 !!! **Note:**
-Solodev recommends installing modules into the **web files -> managers folder**. Below is a sample code for a basic blog module.
-
-```js
-<div class="mb-3">
-  <label class="control-label mt-2" for="post_author">Blog Author</label>
-  <p class="card-subtitle">(Optional) The author of the blog.</p>
-  <input type="text" class="form-control" name="post_author" id="post_author">
-</div>
-<div class="row mb-3">
-  <div class="col-md-6">
-    <label class="control-label" for="post_image">Listing Image</label>
-    <p class="card-subtitle mt-0">(Required) The image that appears in the post and normal blogroll feed. Dimensions: 951px by 561px.</p>
-    <input type="file" class="file_upload" name="post_image" id="post_image">
-  </div>
-  <div class="col-md-6">
-    <label class="control-label" for="post_image_alt">Listing Image Alt Tag</label>
-    <p class="card-subtitle mt-0">(Optional) The image's alt tag used for ADA compliance.</p>
-    <input type="text" class="form-control" name="post_image_alt" id="post_image_alt">
-  </div>
-</div>
-<div class="mb-3">
-  <label class="control-label" for="post_content">Content</label>
-  <p class="card-subtitle">(Required) The main content section for an article.</p>
-  <textarea class="wysiwyg form-control" name="post_content" id="post_content"></textarea>
-</div>
-```
+Solodev recommends installing modules into the **web files -> managers folder**.
 !!!
+
+Once complete, click **Add**.
 
 !!!**Note**:
 You can also add users to your form module. To learn more, read the Add Form article. 
@@ -89,9 +64,9 @@ You can also add users to your form module. To learn more, read the Add Form art
 
 The repeater template, although optional, displays all entries in the module used. The repeater is written in Solodev shortcodes and refers to the user interface template, printing fields in the form of PHP variables through an $item array.
 
-**Step 1:** Add a folder called **blog** under **web files > content**.
+**Step 1:** From the Dashboard, go into your site and under **web files > content** add a folder called **blog** .
 
-**Step 2:**  On that folder, add a file for the module repeater called **index.tpl**.
+**Step 2:**  In that folder, add a file for the module repeater called **index.tpl**.
 
 **Step 3:** Add the code below for the blog repeater. For more information on shortcodes, please <a href="/shortcodes/shortcodes-for-modules/">click here</a>.
 
@@ -125,17 +100,37 @@ The repeater template, although optional, displays all entries in the module use
 </div>
 ```
 
-!!! **Note:**
-The repeater id is the id of the module located on the module table view.
-!!!
+**Step 4:** In the module, locate the repeater ID in the upper left corner. In this example, the repeater ID is “1”.
 
-**Step 4:** Under **www** add a folder called **blog** and add a page called **index.stml**.
+<img src="../../../images/module-id.jpg" alt="base template" style="display: block"></a>
 
-**Step 5:** Add the **index.tpl** to the **index.stml**.
+**Step 5:** Go back to **web files > content**, and under the **blog** folder, click on the **index.tpl** file to access the code. In line 8, replace the repeater ID with the actual ID from your for module. As previously noted, “1” is a placeholder. Once complete, click **Publish**.
 
-**Step 6:** **Publish** your page.
+<img src="../../../images/module-id-repeater.jpg" alt="base template" style="display: block"></a>
+
+**Step 6:** Under **www** add a folder called **blog** and add a page called **index.stml**.
+
+**Step 7:** Add the **index.tpl** to the **index.stml**.
+
+**Step 8:** **Publish** your page.
 
 <img src="../../../images/blog-spacejet.jpg" alt="base template" style="width: 100%; display: block"></a>
+
+## Add entries to your module
+
+**Step 1:** Go back to your module and click on **Add Entry**.
+
+**Step 2:** On the **Add Entry** modal, add the name of your blog post and select **Draft** from the status dropdown. Click **Submit**.
+
+!!!Note:
+You can fill out the other input fields in this step if you preferred.
+!!! 
+
+**Step 3:** After you have filled all the information required on the Entry screen, click **Save**.
+
+!!!Note:
+To learn more about Add Entry please <a href="/workspace/modules/module-overview/addentry/">click here</a>.
+!!!
 
 ## Detail Template
 
@@ -147,7 +142,7 @@ The detail template shows the specifics of an individual entry from a repeater t
 
 ```js
 [entry]
-  <h1><strong>{{{event_title}}}</strong></h1>
+  <h1><strong>{{event_title}}</strong></h1>
 
   <div class="d-flex align-items-center justify-content-between">
     <p class="mb-0 mt-3">
