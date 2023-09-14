@@ -80,8 +80,6 @@ You can fill out the other input fields in this step if you prefer.
 
 **Step 3:** After you have filled all the information required on the Entry screen, change the status of your entry to **Publish** and click **Save**.
 
-<img src="../../../images/blog-spacejet.jpg" alt="base template" style="width: 100%; display: block"></a>
-
 !!!Note
 You can use the blog example on the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet website</a> for your entries.
 !!!
@@ -112,3 +110,4 @@ The repeater template, although optional, displays all entries in the module use
 
 **Step 8:** **Publish** your page.
 
+<img src="../../../images/blog-spacejet.jpg" alt="base template" style="width: 100%; display: block"></a>
