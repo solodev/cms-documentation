@@ -1,16 +1,15 @@
 # Delete Website
 
-In Solodev, you can add a new website to your CMS by completing a form with a few basic details. You can also import a theme package and apply it to a new site.
+In Solodev, you have the flexibility to delete a website when necessary. Deleting a website can help you manage your CMS effectively and declutter your workspace. Here's how you can delete a website in Solodev:
 
-!!!Note:
-A theme can only be installed when creating a site, and cannot be added to an existing site.
-!!!
+**Step 1:** From your website dashboard, click **Settings** from the right-hand meu.
 
-<img src="../../../images/add-site-form1.jpg" alt="add-site-form" style="width: 50%; display: block"></a> 
+**Step 2:** Scroll down and click on the **Advanced** accordion.
 
-**Name** | **Description**
-:--- | ---
-Website Address | Add a valid URL such as `www.yourdomain.com`. See prerequisites for details.
-Website Timezone | Set your timezone based on where your website or business location.
-Package (optional) | Upload a <a href="/workspace/websites/manage-folder/updatefolder/">theme package</a> with your website. Must be in .zip format.
-Add | Click the blue Add button to create your website. 
+<img src="../../../images/settings9.jpg" alt="settings9" style="width: 40%; display: block"></a>
+
+**Step 3:** Under your websites URL enter **DELETE** into the text area.
+
+<img src="../../../images/delete-site.png" alt="settings9" style="width: 40%; display: block"></a>
+
+**Step 4:** Confirm your choice by clicking the **Delete** button. Your changes will be applied, and the website will be removed.
