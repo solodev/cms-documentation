@@ -126,6 +126,10 @@ Please leave this file empty. This file will dynamically include the compiled CS
 
 ## Adding additional SCSS to your site
 
+SCSS stands for "Sassy Cascading Style Sheets". As the name implies, these are a more advanced variant of standard web CSS (Cascading Style Sheets), and a syntax for the popular CSS preprocessor called SASS, or "Syntactically Awesome Style Sheets".
+
+SCSS can be used to style more complex visual elements on a web page, including hero sliders, galleries, buttons, images, color pallette, fonts, and even themes and layouts.
+
 **Step 1:** Under web files, click on the **SCSS** folder. 
 
 <img src="../../../../images/scss-folder.png" alt="scss folder" style="display: block"></a>
