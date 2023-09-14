@@ -91,6 +91,8 @@ Please leave this file empty. This file will dynamically include the compiled CS
 SCSS can be used to style more complex visual elements on a web page, including hero sliders, galleries, buttons, images, color pallette, fonts, and even themes and layouts.
 -->
 
+In this section, we will show you how you can add your own SCSS to you site.
+
 **Step 1**: Download the webpack file below
 
 <a href="webpack.config.js" download>**webpack.config.js**</a>
