@@ -2,7 +2,7 @@
 
 Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level. You will need these assets installed with your website to add more advanced styling features. In this tutorial, you will learn how to add Webpack and set up both JavaScript and SCSS. 
 
-First, you will need to install a **package.json** file file to identify and understand how to handle your website's dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="/workspace/websites/update-website/">Update Website</a>  form.
+<!--First, you will need to install a **package.json** file to identify and understand how to handle your website's dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="/workspace/websites/update-website/">Update Website</a>  form.-->
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ First, you will need to install a **package.json** file file to identify and und
 
 ## Setting up your web files 
 
-A **package.json** file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the  <a href="/workspace/websites/update-website/">Update Website</a> form. 
+A **package.json** file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. <!--You will add these details later using the  <a href="/workspace/websites/update-website/">Update Website</a> form. -->
 
 **Step 1**: Download the sample json code below. 
 
@@ -91,7 +91,6 @@ Please leave this file empty. This file will dynamically include the compiled CS
 SCSS can be used to style more complex visual elements on a web page, including hero sliders, galleries, buttons, images, color pallette, fonts, and even themes and layouts.
 -->
 
-In this section, we will show you how you can add your own SCSS to you site.
 
 **Step 1**: Download the webpack file below
 
@@ -133,6 +132,7 @@ In this section, we will show you how you can add your own SCSS to you site.
 
 ## Adding additional SCSS to your site
 
+In this section, we will show you how you can add your own SCSS to you site.
 
 **Step 1:** Under web files, click on the **SCSS** folder. 
 
