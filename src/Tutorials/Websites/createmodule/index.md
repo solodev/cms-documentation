@@ -52,32 +52,6 @@ Once complete, click **Add**.
 You can also add users to your form module. To learn more, read the <a href="/workspace/websites/manage-folder/addfolder/">Add Form</a> article. 
 !!!
 
-## Repeater Template
-
-The repeater template, although optional, displays all entries in the module used. The repeater is written in Solodev shortcodes and refers to the user interface template, printing fields in the form of PHP variables through an $item array.
-
-**Step 1:** From the Dashboard, go into your site and under **web files > content** <a href="/tutorials/websites/add-form/">add a folder</a> called **blog** .
-
-**Step 2:**  In that folder, <a href="/workspace/websites/manage-folder/addfile/">add a file</a> for the module repeater called **index.tpl**. 
-
-**Step 3:** Add the code below for the blog repeater. For more information on shortcodes, please <a href="/shortcodes/shortcodes-for-modules/">click here</a>.
-
-:::code source="index.tpl" :::
-
-**Step 4:** In the module, locate the repeater ID in the upper left corner. In this example, the repeater ID is “1”.
-
-<img src="../../../images/module-id.jpg" alt="base template" style="display: block"></a>
-
-**Step 5:** Go back to **web files > content**, and under the **blog** folder, click on the **index.tpl** file to access the code. In line 8, replace the repeater ID with the actual ID from your module. As previously noted, “1” is a placeholder. Once complete, click **Publish**.
-
-<img src="../../../images/module-id-repeater.jpg" alt="base template" style="display: block"></a>
-
-**Step 6:** Under **www** add a folder called **blog** and <a href="/tutorials/websites/add-page/">add a page</a> called **index.stml**.
-
-**Step 7:** Add the **index.tpl** to the **index.stml**.
-
-**Step 8:** **Publish** your page.
-
 ## Add entries to your module
 
 !!!**Note**:
@@ -112,5 +86,29 @@ You can fill out the other input fields in this step if you prefer.
 You can use the blog example on the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet website</a> for your entries.
 !!!
 
+## How to add a repeater template
 
+The repeater template, although optional, displays all entries in the module used. The repeater is written in Solodev shortcodes and refers to the user interface template, printing fields in the form of PHP variables through an $item array.
+
+**Step 1:** From the Dashboard, go into your site and under **web files > content** <a href="/tutorials/websites/add-form/">add a folder</a> called **blog** .
+
+**Step 2:**  In that folder, <a href="/workspace/websites/manage-folder/addfile/">add a file</a> for the module repeater called **index.tpl**. 
+
+**Step 3:** Add the code below for the blog repeater. For more information on shortcodes, please <a href="/shortcodes/shortcodes-for-modules/">click here</a>.
+
+:::code source="index.tpl" :::
+
+**Step 4:** In the module, locate the repeater ID in the upper left corner. In this example, the repeater ID is “1”.
+
+<img src="../../../images/module-id.jpg" alt="base template" style="display: block"></a>
+
+**Step 5:** Go back to **web files > content**, and under the **blog** folder, click on the **index.tpl** file to access the code. In line 8, replace the repeater ID with the actual ID from your module. As previously noted, “1” is a placeholder. Once complete, click **Publish**.
+
+<img src="../../../images/module-id-repeater.jpg" alt="base template" style="display: block"></a>
+
+**Step 6:** Under **www** add a folder called **blog** and <a href="/tutorials/websites/add-page/">add a page</a> called **index.stml**.
+
+**Step 7:** Add the **index.tpl** to the **index.stml**.
+
+**Step 8:** **Publish** your page.
 

@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-14T16:02:13Z",
+  "created": "2023-09-14T21:00:40Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -860,6 +860,9 @@
     },
     {
       "path": "images\\delete-file.png"
+    },
+    {
+      "path": "images\\delete-site.png"
     },
     {
       "path": "images\\delete.jpg"
