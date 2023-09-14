@@ -84,13 +84,12 @@ Please leave this file empty. This file will dynamically include the compiled CS
 <link rel="stylesheet" href="/_/css/app.css">
 ```
 
-## Add JavaScript to your site
+## How to add JavaScript to your site
 
 <!--SCSS stands for "Sassy Cascading Style Sheets". As the name implies, these are a more advanced variant of standard web CSS (Cascading Style Sheets), and a syntax for the popular CSS preprocessor called SASS, or "Syntactically Awesome Style Sheets".
 
 SCSS can be used to style more complex visual elements on a web page, including hero sliders, galleries, buttons, images, color pallette, fonts, and even themes and layouts.
 -->
-
 
 **Step 1**: Download the webpack file below
 
