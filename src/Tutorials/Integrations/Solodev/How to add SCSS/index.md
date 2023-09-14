@@ -1,6 +1,8 @@
 # How to add Webpack to your website
 
-Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level.
+Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level. You will need these assets installed with your website to add more advanced styling features. In this tutorial, you will learn how to add Webpack and set up both JavaScript and SCSS. 
+
+First, you will need to install a **package.json** file file to identify and understand how to handle your website's dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="/workspace/websites/update-website/">Update Website</a>  form.
 
 ## Prerequisites
 
@@ -28,11 +30,11 @@ A **package.json** file is used to identify and understand how to handle your we
 
 <img src="../../../../images/base-template-add-folder2.png" alt="add-website" style="width: 40%; display: block;"></br>
 
-## Add SCSS to your site
+## How to add SCSS to your site
 
-SCSS stands for "Sassy Cascading Style Sheets." As the name implies, these are a more advanced variant of standard web CSS (Cascading Style Sheets), and a syntax for the popular CSS preprocessor called SASS, or "Syntactically Awesome Style Sheets." 
+After downloading your package.json file, you will need to install SCSS, which stands for "Sassy Cascading Style Sheets." As the name implies, these are a more advanced variant of standard web CSS (Cascading Style Sheets), and a syntax for the popular CSS preprocessor called SASS, or "Syntactically Awesome Style Sheets."
 
-SCSS can be used to style more complex visual elements on a web page, including hero sliders, galleries, buttons, images, color palettes, fonts, and even themes and layouts. In this article, you will learn how to add SCSS to your website to add more of these advanced features. 
+SCSS can be used to style more complex visual elements on a web page, including hero sliders, galleries, buttons, images, color palettes, fonts, and even themes and layouts. 
 
 **Step 1**: Download the webpack file below
 
