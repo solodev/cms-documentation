@@ -115,4 +115,3 @@ The repeater template, although optional, displays all entries in the module use
 <img src="../../../images/blog-spacejet.jpg" alt="base template" style="width: 100%; display: block"></a>
 
 
-**Congratulations!** You have created your first blog module. Have fun creating posts.

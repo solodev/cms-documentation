@@ -38,4 +38,9 @@ The detail template shows the specifics of an individual entry from a repeater t
 
 **Step 4**.	Under **Detail Folder Location**, click **Browse**, select the **www** folder your detail page in and click **Submit**.
 
+**Step 5**: After mapping your detail page, you need to republish your entry for it to know where to go. For this, go back to your module and click on the entry you created and click **Save**.
+
 <img src="../../../images/detail-spacejet.jpg" alt="detail space jet" style="width: 100%; display: block"></a>
+
+
+**Congratulations!** You have created your first blog module. Have fun creating posts.
