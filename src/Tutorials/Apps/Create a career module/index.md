@@ -6,8 +6,8 @@ Solodev provides a Career Portal module that allows organizations to attract the
 
 Users should be familiar with: 
 
-* Using shortcodes. 
-* Mapping pages to modules. 
+- Using shortcodes. 
+- Mapping pages to modules. 
 
 ## Step 1 -- Installing a career portal module
 

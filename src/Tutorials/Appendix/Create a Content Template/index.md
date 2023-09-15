@@ -7,7 +7,7 @@ A content template is usually placed within the base template. Sometimes referre
 As previously noted, a content template – sometimes referred to as an "interior template" – powers the bulk of your website and can be reused for various sections that require multiple pages. In this lesson, you will learn how to add a sample content template from the SpaceJet theme package.
 
 !!!Note:
-Many of the instructions in this lesson will repeat steps from the previous <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage template</a>. Make sure to complete that first and refer back as needed. 
+Many of the instructions in this lesson will repeat steps from the previous <a href="/tutorials/appendix/create-a-homepage-template/">homepage template</a>. Make sure to complete that first and refer back as needed. 
 !!!
 
 ### Setting up your folders and .tpl files

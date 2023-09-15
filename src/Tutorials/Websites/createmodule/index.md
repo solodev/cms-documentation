@@ -8,7 +8,7 @@ In this tutorial, you will learn about the different types of modules in Solodev
 
 ## Prerequisites 
 
-- You will need to complete the <a href="/tutorials/add-website/">How to add a website</a> tutorial.
+- You will need to complete the <a href="/tutorials/websites/add-website/">How to add a website</a> tutorial.
 - You will need to complete the <a href="/tutorials/websites/add-page-template/">How to add a page to a website</a> tutorial. 
 - You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
 - For the examples in this tutorial, we will continue using the <a href="solodev-spacejet-2023.zip" download>Solodev SpaceJet</a> theme package for images and assets.
