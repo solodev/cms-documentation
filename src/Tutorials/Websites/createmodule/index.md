@@ -38,13 +38,13 @@ The tutorial will cover the main blog page, the blog detail page, and the repeat
 
 <img src="../../../images/add-module.png" alt="base template" style="width: 40%; display: block"></a>
 
-**Step 4**: Upload your module's **.tpl** file. If you don't have one yet, you can use this sample code for a basic blog module:
-
-<a href="module.tpl" download>**module.tpl**</a>
-
 !!! **Note:**
 Solodev recommends installing modules into the **web files -> managers folder**.
 !!!
+
+**Step 4**: Upload your module's **.tpl** file. If you don't have one yet, you can use this sample code for a basic blog module:
+
+<a href="module.tpl" download>**module.tpl**</a>
 
 Once complete, click **Add**.
 
@@ -52,7 +52,9 @@ Once complete, click **Add**.
 You can also add users to your form module. To learn more, read the <a href="/workspace/websites/manage-folder/addfolder/">Add Form</a> article. 
 !!!
 
-## Add entries to your module
+## How to add entries to your module
+
+In Solodev, a module consists of entries. For example, in the case of a blog module, an entry would reflect a blog post. In this section, you will learn how to add entries to a module's data table. 
 
 !!!**Note**:
 Before getting started, locate these images in the theme package that you previously downloaded:
@@ -70,7 +72,7 @@ Before getting started, locate these images in the theme package that you previo
 To learn more about Add Entry please <a href="/workspace/modules/module-overview/addentry/">click here</a>.
 !!!
 
-**Step 2:** On the **Add Entry** modal, add the name of your blog post and select **<a href="/workspace/modules/module-overview/addentry/">draft</a>** from the status dropdown. Click **Submit**.
+**Step 2:** On the **Add Entry** modal, add the name of your blog post and select **<a href="/workspace/modules/module-overview/addentry/">publish</a>** from the status dropdown. Click **Submit**.
 
 <img src="../../../images/entry-modal-blog.jpg" alt="base template" style="display: block"></a>
 
@@ -78,7 +80,7 @@ To learn more about Add Entry please <a href="/workspace/modules/module-overview
 You can fill out the other input fields in this step if you prefer.
 !!! 
 
-**Step 3:** After you have filled all the information required on the Entry screen, change the status of your entry to **Publish** and click **Save**.
+**Step 3:** After you have filled all the information required on the Entry screen, click **Save**.
 
 !!!Note
 You can use the blog example on the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet website</a> for your entries.
@@ -88,11 +90,11 @@ You can use the blog example on the <a href="http://solodev-spacejet-2023.s3-web
 
 The repeater template, although optional, displays all entries in the module used. The repeater is written in Solodev shortcodes and refers to the user interface template, printing fields in the form of PHP variables through an $item array.
 
-**Step 1:** From the Dashboard, go into your site and under **web files > content** <a href="/tutorials/websites/add-form/">add a folder</a> called **blog** .
+**Step 1:** From the Dashboard, or from the left navigation, go to your site and under **web files > content** <a href="/tutorials/websites/add-form/">add a folder</a> called **blog**.
 
 **Step 2:**  In that folder, <a href="/workspace/websites/manage-folder/addfile/">add a file</a> for the module repeater called **index.tpl**. 
 
-**Step 3:** Add the code below for the blog repeater. For more information on shortcodes, please <a href="/shortcodes/shortcodes-for-modules/">click here</a>.
+**Step 3:** Add the code below for the blog repeater and click **Publish**. This code contains shortcodes to show your blog content, for more information on shortcodes, please <a href="/shortcodes/shortcodes-for-modules/">click here</a>.
 
 :::code source="index.tpl" :::
 
