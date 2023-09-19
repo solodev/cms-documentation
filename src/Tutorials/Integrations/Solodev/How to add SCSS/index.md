@@ -2,19 +2,24 @@
 
 Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files into packages that are used to manage frontend assets at the browser level. You will need these assets installed with your website to add more advanced styling features. In this tutorial, you will learn how to add Webpack and set up both JavaScript and SCSS. 
 
-<!--First, you will need to install a **package.json** file to identify and understand how to handle your website's dependencies. It is composed of functional metadata about your project, such as its name and version. You will add these details later using the <a href="/workspace/websites/update-website/">Update Website</a>  form.-->
-
 ## Prerequisites
 
 - You will need to complete the <a href="/tutorials/websites/add-website/#adding-a-site">How to add a website</a> tutorial.
 - You will need to complete the <a href="/tutorials/websites/add-page/">How to add a page</a> to a website tutorial.
 - Familiarity with Bootstrap is highly recommended. 
 
-## Setting up your web files 
+## Setting up your web files
 
-A **package.json** file is used to identify and understand how to handle your website’s dependencies. It is composed of functional metadata about your project, such as its name and version. <!--You will add these details later using the  <a href="/workspace/websites/update-website/">Update Website</a> form. -->
+First, you will need to install a **package.json** file to identify and understand how to handle your website's dependencies. It is composed of functional metadata about your project, such as its name and version.
 
-**Step 1**: Download the sample json code below. 
+**Step 1**: Under the **web files** folder, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> called **package.json**. 
+
+<img src="../../../../images/add-package-json.jpg" alt="Add package.json modal">
+
+<br>
+<br>
+
+**Step 2**: Paste the sample json code below into the newly created file.
 
 ```js
 {
@@ -57,19 +62,9 @@ A **package.json** file is used to identify and understand how to handle your we
 }
 ```
 
-<!--<a href="package.json" download>**package.json**</a> -->
+**Step 3**: Under web files, create a new folder called **webpack**.
 
-**Step 2**: Click on the **web files** folder in your menu. Using the menu on the right, click **<a href="https://cms.solodev.net/workspace/websites/manage-folder/upload/">Upload</a>**.
-
-<img src="../../../../images/upload-webfiles.jpg" alt="add-website" style="width: 20%; display: block"></a>
-
-**Step 3**: Browse or drag the **package.json** file into the uploader and click **Submit**.
-
-<img src="../../../../images/uploader.jpg" alt="add-website" style="display: block"></a>
-
-**Step 4**: Create a new folder called **webpack**.
-
-<img src="../../../../images/base-template-add-folder2.png" alt="add-website" style="width: 40%; display: block;"></br>
+<img src="../../../../images/add-webpack-folder.jpg" alt="Add webpack folder"></br>
 
 ## How to add SCSS to your site
 
@@ -149,15 +144,15 @@ module.exports = {
 
 **Step 3**: Click on the **"_"** under the **www** folder in your menu. Using the menu on the right, click **Add Folder**.
 
-<img src="../../../../images/under-folder.jpg" alt="_ folder" style="display: block"></a>
+<img src="../../../../images/under-folder.jpg" alt="_ folder" style="display: block"></br>
 
 **Step 4**: In the modal, create a folder called **"css"**. You can add an optional title and description, but it is not required. Once complete, click **Submit**.
 
-<img src="../../../../images/www-css.jpg" alt="www css" style="display: block"></a>
+<img src="../../../../images/www-css.jpg" alt="www css" style="display: block"></br>
 
 **Step 5**: Click on the **css** folder and <a href="/workspace/websites/manage-folder/addfile/">Add a File</a> called **app.css**.
 
-<img src="../../../../images/app-css.jpg" alt="add-website" style="display: block"></a>
+<img src="../../../../images/app-css.jpg" alt="add-website" style="display: block"></br>
 
 !!!Note
 Please leave this file empty. This file will dynamically include the compiled CSS for your site.
