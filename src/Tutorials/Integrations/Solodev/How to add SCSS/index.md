@@ -7,7 +7,7 @@ Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files
 ## Prerequisites
 
 - You will need to complete the <a href="/tutorials/websites/add-website/#adding-a-site">How to add a website</a> tutorial.
-- You will need to complete the <a href="/tutorials/websites/add-page-template/">How to add a page</a> to a website tutorial.
+- You will need to complete the <a href="/tutorials/websites/add-page/">How to add a page</a> to a website tutorial.
 - Familiarity with Bootstrap is highly recommended. 
 
 ## Setting up your web files 
@@ -16,7 +16,48 @@ A **package.json** file is used to identify and understand how to handle your we
 
 **Step 1**: Download the sample json code below. 
 
-<a href="package.json" download>**package.json**</a>
+```js
+{
+  "name": "solodev_webpack",
+  "version": "1.0.0",
+  "description": "Solodev Webpack",
+  "scripts": {
+    "compile": "npm run css && npm run js",
+    "css": "webpack --config webpack/webpack.css.config.js",
+    "js": "webpack --config webpack/webpack.config.js"
+  },
+  "author": "Solodev",
+  "dependencies": {
+    "@popperjs/core": "^2.11.4",
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.22.10",
+    "@webpack-cli/serve": "^1.7.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.4.0",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "expose-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "ignore-emit-webpack-plugin": "^2.0.6",
+    "mini-css-extract-plugin": "^2.4.3",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.66.1",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
+```
+
+<!--<a href="package.json" download>**package.json**</a> -->
 
 **Step 2**: Click on the **web files** folder in your menu. Using the menu on the right, click **<a href="https://cms.solodev.net/workspace/websites/manage-folder/upload/">Upload</a>**.
 
@@ -38,7 +79,71 @@ SCSS can be used to style more complex visual elements on a web page, including 
 
 **Step 1**: Download the webpack file below
 
-<a href="webpack.css.config.js" download>**webpack.css.config.js**</a>
+```js
+'use strict';
+
+const path = require('path');
+
+// Plugins
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const IgnoreEmitPlugin = require('ignore-emit-webpack-plugin');
+
+module.exports = {
+  mode: 'production',
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new CssMinimizerPlugin(),
+    ],
+  },
+  context: __dirname,
+  entry: {
+    app: '../scss/app.scss'
+  },
+  output: {
+    path: path.resolve(__dirname, '../../www/_/css'),
+    clean: true,
+  },
+  resolve: {
+    extensions: ['.scss'],
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name][ext]'
+        },
+      },
+      {
+        test: /\.(jpg|jpeg|gif|png|svg)$/,
+        type: 'asset/resource',
+      },
+      {
+        test: /\.s[ac]ss$/i,
+        use: [
+          MiniCssExtractPlugin.loader,
+          // Translates CSS into CommonJS
+          'css-loader',
+          // Compiles Sass to CSS
+          'sass-loader',
+        ],
+      },
+    ]
+  },
+	plugins: [
+    new MiniCssExtractPlugin(),
+    new IgnoreEmitPlugin(['app.js']),
+    new CleanWebpackPlugin(),
+	],
+};
+
+```
+
+<!-- <a href="webpack.css.config.js" download>**webpack.css.config.js**</a> -->
 
 **Step 2**: On the new webpack folder click **Upload** on the right-side menu and add the webpack file you previously downloaded on step 1.
 
@@ -93,7 +198,74 @@ SCSS can be used to style more complex visual elements on a web page, including 
 
 **Step 1**: Download the webpack file below
 
-<a href="webpack.config.js" download>**webpack.config.js**</a>
+```js
+'use strict';
+
+const path = require('path');
+const webpack = require('webpack');
+
+// Plugins
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
+
+module.exports = {
+  mode: 'production',
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new TerserPlugin(),
+    ],
+  },
+  context: __dirname,
+  entry: {
+    app: '../js/app.js'
+  },
+  output: {
+    path: path.resolve(__dirname, '../../www/_/js'),
+    filename: '[name].js',
+    clean: true,
+  },
+  resolve: {
+    extensions: ['.js'],
+  },
+  devtool: 'source-map',
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
+      },
+      {
+        test: require.resolve('jquery'),
+        use: [
+          {
+            loader: 'expose-loader',
+            options: {
+              exposes: ['$', 'jQuery']
+            }
+          }
+        ]
+      },
+    ]
+  },
+	plugins: [
+    new webpack.ProvidePlugin({
+      jQuery: 'jquery',
+      $: 'jquery',
+      jquery: 'jquery'
+    }),
+    new CleanWebpackPlugin()
+	],
+};
+```
+
+<!-- <a href="webpack.config.js" download>**webpack.config.js**</a> -->
 
 **Step 2**: On the webpack folder under **web files**, click **Upload** on the right-side menu and add the webpack file you previously downloaded on step 1.
 
@@ -119,7 +291,17 @@ SCSS can be used to style more complex visual elements on a web page, including 
 
 **Step 8**: Download the sample file below, click **Upload** on the right-side menu and add the file you previously downloaded on step 5.
 
-<a href="app.js" download>**app.js**</a>
+```js
+'use strict';
+
+// Packages
+import 'jquery';
+import '@popperjs/core';
+import 'bootstrap';
+```
+
+
+<!-- <a href="app.js" download>**app.js**</a> -->
 
 **Step 9**: Go to your website dashboard and click on **Update Website** and navigate to the **Meta Information** accordion.
 
