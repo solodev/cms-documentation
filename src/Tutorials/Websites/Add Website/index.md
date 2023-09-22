@@ -231,5 +231,5 @@ Once your web files and www have been set up, it should contain the following fi
 ## Next Steps
 
 - In the next tutorial, you will learn how to <a href="/workspace/websites/manage-folder/add-page/">Add a page</a>, save page as a templates, and create content on your new website. 
-- For more advanced sites with custom styling, read the <a href="/tutorials/integrations/solodev/how-to-add-scss/">How to add SCSS to your website</a> tutorial.
+- For more advanced sites with custom styling, read the <a href="/tutorials/integrations/solodev/how-to-add-webpack-to-your-website/">How to add SCSS to your website</a> tutorial.
 

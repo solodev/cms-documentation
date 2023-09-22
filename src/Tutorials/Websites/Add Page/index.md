@@ -52,7 +52,7 @@ To add reusable page templates to your website, read the <a href="/tutorials/web
 ## Next steps
 
 - In the following tutorial, you will learn <a href="/tutorials/websites/add-page-template/">how to create a page template</a> that can be reused on new pages across your website.
-- If you are ready to add more advanced styling to your pages, you can read <a href="/tutorials/integrations/solodev/how-to-add-scss/">how to add SCSS to your website</a> .
+- If you are ready to add more advanced styling to your pages, you can read <a href="/tutorials/integrations/solodev/how-to-add-webpack-to-your-website/">how to add SCSS to your website</a> .
 
 
 

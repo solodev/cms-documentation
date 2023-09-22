@@ -2772,29 +2772,6 @@
       "path": "tutorials\\integrations\\solodev\\connect-your-dns\\index.html"
     },
     {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\app.js"
-    },
-    {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\app.scss",
-      "old": true
-    },
-    {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\index.html"
-    },
-    {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\package.json"
-    },
-    {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\webpack.config.js"
-    },
-    {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\webpack.css.config.js"
-    },
-    {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-scss\\webpack.js.config.js",
-      "old": true
-    },
-    {
       "path": "tutorials\\integrations\\solodev\\index.html"
     },
     {
