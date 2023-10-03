@@ -1,6 +1,6 @@
 # Website Overview
 
-You can manage any website in your Solodev CMS to update details, adjust settings, apply redirects, and modify permissions for your team. You will also have access to the <a href="/workspace/websites/website-overview/#web-files">web files</a> and <a href="/workspace/websites/website-overview/#www">www folder</a> for managing your website's pages, templates, and other assets. 
+You can manage any website in your Solodev CMS to update details, adjust settings, apply redirects, and modify permissions for your team. You will also have access to the <a href="/workspace/websites/website-overview/#web-files">web files</a> and <a href="/workspace/websites/website-overview/#www">www</a> folders for managing your website's pages, templates, and other assets. 
 
 ## Website Dashboard
 
@@ -34,7 +34,7 @@ Solodev has a unique, folder-based site structure for managing and building webs
 After <a href="/workspace/websites/add-website/">adding a website</a> to your Solodev CMS, you can access the web files and www folder from the left-hand menu on your main website dashboard. 
 
 ### web files 
-The web files folder houses the backend elements that power the structure of your website. This includes navigational and layout templates, HTML, imagery and content, <a href="/workspace/modules/">modules</a>, <a href="/workspace/forms/">forms</a>, and other components. From .tpl code to css, you can <a href="/workspace/websites/update-web-files/">update web files</a> from this folder. 
+The web files folder houses the backend elements that power the structure of your website. This includes navigational and layout templates, HTML, imagery and content, <a href="/workspace/modules/">modules</a>, <a href="/workspace/forms/">forms</a>, and other components. From .tpl code to SCSS, you can <a href="/workspace/websites/update-web-files/">update web files</a> from this folder.
 
 ### www
 The www folder includes all the frontend pages and files that are publicly accessible when a visitor navigates your website. The www folder is where you can <a href="/workspace/websites/update-page/">update the pages</a> on your website.
@@ -43,14 +43,8 @@ The www folder includes all the frontend pages and files that are publicly acces
 
 There are several functions you can perform in web files and www at the folder and the file level:
 
-*	<a href="/workspace/websites/manage-folder/updatefolder/">Update the folder</a> properties by clicking on the folder icon or text.
+*	<a href="/workspace/websites/manage-folder/update-folder/">Update the folder</a> properties by clicking on the folder icon or text.
 
 *	Access the contents of either folder by clicking on the triangle drop-down icon to the left of each folder icon. 
 
-*	Under the www folder, you can use all the same functions as web files, but also <a href="/workspace/websites/manage-folder/add-page/">add a page</a> or <a href="/workspace/websites/update-page/">update a page</a>. 
-
-
-## Next Steps
-
-- <a href="/workspace/websites/manage-folder/updatefolder/">Update Folder</a>
--	<a href="/workspace/websites/update-page/">Update Page</a>
+*	Under the www folder, you can use all the same functions as web files, but also <a href="/workspace/websites/manage-folder/add-page/">add a page</a> or <a href="/workspace/websites/update-page/">update a page</a>.

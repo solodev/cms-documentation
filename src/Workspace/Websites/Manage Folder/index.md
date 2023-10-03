@@ -12,7 +12,7 @@ While all the functions for the web files and www folder are the same, the www f
 
 **Name** | **Description**
 :--- | ---
-<a href="/workspace/websites/manage-folder/updatefolder/">Update Folder</a> | Change folder details like name or title and perform advanced functions like deleting a folder.
+<a href="/workspace/websites/manage-folder/update-folder/">Update Folder</a> | Change folder details like name or title and perform advanced functions like deleting a folder.
 <a href="/workspace/websites/manage-folder/upload/">Upload</a> | Drag and drop documents into your folder. 
 <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> | Create a new folder in your website and add specific details like name and title.
 <a href="/workspace/websites/manage-folder/addfile/">Add File</a> | Add an HTML or code file type into a folder on your website. 

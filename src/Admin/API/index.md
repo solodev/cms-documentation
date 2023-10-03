@@ -10,6 +10,6 @@ In practice, Swagger allows you to display interactive REST API documentation in
 
 **Name** | **Description** 
 :--- | ---
-<a href="/admin/api/module-api/">Module API</a> | Module API unlocks data from particular modules within an organization. To go there, use the link from the tree on the left or click the Launched button in the screenshot above.
 <a href="/admin/api/system-api/">System API</a> | System APIs unlock data from core systems of record within an organization. To go there, use the link from the tree on the left or click the Launched button in the screenshot above.
+<a href="/admin/api/module-api/">Module API</a> | Module API unlocks data from particular modules within an organization. To go there, use the link from the tree on the left or click the Launched button in the screenshot above.
 <a href="/admin/api/api-tokens/">API Tokens</a> | An API token is similar to a password and allows you to authenticate to Dataverse Software APIs to perform actions as you. Here you can manage API tokens. You need to use the link from the tree on the left to go there.

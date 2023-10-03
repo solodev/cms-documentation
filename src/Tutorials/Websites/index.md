@@ -4,5 +4,5 @@ Website tutorials provide step-by-step instructions, notes, and tips for perform
 - <a href="/tutorials/websites/add-page-template/">How to add a page to a website</a> 
 - <a href="/tutorials/websites/add-form/">How to add a form to a page</a> 
 - <a href="/tutorials/websites/add-module/">How to create a module in your CMS</a> 
-- <a href="/tutorials/websites/howtoimportatheme/">How to import a theme</a> 
+- <a href="/tutorials/websites/how-to-import-a-theme/">How to import a theme</a> 
 

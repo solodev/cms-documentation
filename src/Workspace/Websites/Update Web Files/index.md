@@ -1,6 +1,6 @@
 # Update Web Files
 
-Under web files, you can <a href="/workspace/websites/manage-folder/updatefolder/">update folders</a> or access specific files to edit code using the WYSIWYG editor. This includes template files (.tpl), CSS config files, SCSS, package .json, form assets, and other essential components for powering your website. 
+Under web files, you can <a href="/workspace/websites/manage-folder/update-folder/">update folders</a> or access specific files to edit code using the WYSIWYG editor. This includes template files (.tpl), CSS config files, SCSS, package .json, form assets, and other essential components for powering your website. 
 
 To edit a specific file, click on it to access the code editor. 
 
@@ -8,7 +8,7 @@ To edit a specific file, click on it to access the code editor.
 
 **Name** | **Description**
 :--- | ---
-<a href="/workspace/websites/manage-folder/updatefolder/">Draft</a> | Create a draft version of your code or content.
+<a href="/workspace/websites/manage-folder/update-folder/">Draft</a> | Create a draft version of your code or content.
 <a href="/workspace/websites/manage-folder/stage/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
 <a href="/workspace/websites/manage-folder/publish/">Publish</a> | Push your code or content to live production. 
 <a href="/workspace/websites/manage-folder/addgroup/">Add to Group</a> | Assign a specific group to your file or asset. 

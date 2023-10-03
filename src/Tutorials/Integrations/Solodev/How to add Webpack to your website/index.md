@@ -347,7 +347,7 @@ $theme-colors: (
 ```
 
 !!!Note:
-This sample code contains a few color variables you can use to style your template.
+This sample code contains a few color variables you can use to style your template. These variables will overwrite Bootstrap's colors used on our SpaceJet theme.
 !!!
 
 **Step 5:** To link your newly created file, click on the **app.scss** file under the **scss** folder. Add the following import before Bootstrap code. Click **Publish**.
@@ -356,7 +356,7 @@ This sample code contains a few color variables you can use to style your templa
 @import 'utilities/variables';
 ```
 
-<img src="../../../../images/scss-vars.jpg" alt="scss import"></a>
+<img src="../../../../images/scss-vars.jpg" alt="SCSS app.scss file with list of imports"></a>
 
 Once complete, click **Publish**.
 

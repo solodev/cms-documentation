@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-18T21:19:29Z",
+  "created": "2023-09-25T13:38:40Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -192,7 +192,16 @@
       "path": "images\\add_api.png"
     },
     {
+      "path": "images\\add-app-css.jpg"
+    },
+    {
+      "path": "images\\add-app-scss.jpg"
+    },
+    {
       "path": "images\\add-contact.png"
+    },
+    {
+      "path": "images\\add-css-folder.jpg"
     },
     {
       "path": "images\\add-entries.png"
@@ -207,7 +216,8 @@
       "path": "images\\add-file-menu.png"
     },
     {
-      "path": "images\\add-folder-menu.png"
+      "path": "images\\add-folder-menu.png",
+      "old": true
     },
     {
       "path": "images\\add-folder-www.png"
@@ -296,6 +306,9 @@
     },
     {
       "path": "images\\add-page1.png"
+    },
+    {
+      "path": "images\\add-scss-folder.jpg"
     },
     {
       "path": "images\\add-scss.png"
@@ -598,7 +611,8 @@
       "path": "images\\apitokens2.jpg"
     },
     {
-      "path": "images\\app-css.jpg"
+      "path": "images\\app-css.jpg",
+      "old": true
     },
     {
       "path": "images\\app-js.jpg"
@@ -1734,7 +1748,8 @@
       "path": "images\\scss-file.jpg"
     },
     {
-      "path": "images\\scss-file1.jpg"
+      "path": "images\\scss-file1.jpg",
+      "old": true
     },
     {
       "path": "images\\scss-folder.jpg"
@@ -1959,7 +1974,11 @@
       "path": "images\\two-column-template.png"
     },
     {
-      "path": "images\\under-folder.jpg"
+      "path": "images\\under-folder.jpg",
+      "old": true
+    },
+    {
+      "path": "images\\underscore-folder.jpg"
     },
     {
       "path": "images\\uoverview03.png"
@@ -2036,6 +2055,30 @@
     },
     {
       "path": "images\\web-files-www-final-view.png"
+    },
+    {
+      "path": "images\\webpack\\add-app-js.jpg"
+    },
+    {
+      "path": "images\\webpack\\add-app-scss.jpg"
+    },
+    {
+      "path": "images\\webpack\\add-js-folder.jpg"
+    },
+    {
+      "path": "images\\webpack\\add-package-json.jpg"
+    },
+    {
+      "path": "images\\webpack\\add-webpack-css.jpg"
+    },
+    {
+      "path": "images\\webpack\\add-webpack-folder.jpg"
+    },
+    {
+      "path": "images\\webpack\\add-webpack-js-file.jpg"
+    },
+    {
+      "path": "images\\webpack\\js-folder-web-files.jpg"
     },
     {
       "path": "images\\website_overview_1.jpg"
@@ -2772,6 +2815,9 @@
       "path": "tutorials\\integrations\\solodev\\connect-your-dns\\index.html"
     },
     {
+      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\index.html"
+    },
+    {
       "path": "tutorials\\integrations\\solodev\\index.html"
     },
     {
@@ -2930,7 +2976,8 @@
       "path": "tutorials\\websites\\add-website\\index.html"
     },
     {
-      "path": "tutorials\\websites\\add-website\\package-lock.json"
+      "path": "tutorials\\websites\\add-website\\package-lock.json",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\add-website\\package.json"
@@ -3002,7 +3049,7 @@
       "path": "tutorials\\websites\\how-to-make-a-theme\\index.html"
     },
     {
-      "path": "tutorials\\websites\\howtoimportatheme\\index.html"
+      "path": "tutorials\\websites\\how-to-import-a-theme\\index.html"
     },
     {
       "path": "tutorials\\websites\\index.html"

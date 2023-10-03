@@ -18,13 +18,14 @@ Use the search field in the upper right corner to locate or filter specific webs
 
 Click on any of the members next to a website name to add or remove website members and manage their roles. 
 
-<img src="../../../images/permissions2.jpg" alt="permissions2" style="width: 40%; display: block"></a>
+<img src="../../../images/permissions/general-permissions.jpg" alt="Permissions modal view" style="width: 420px;"></a>
 
 **Name** | **Description** 
 :--- | ---
-Name | Enter the name of the member you wish to add to your website.
+Name | Enter the name of the member or group you wish to add to your website. Then, click on the **Plus** button to add it.
 Role | Assign a View, Stage, Editor, or Admin role via the dropdown menu to the right of each member's name.
 Delete | Click the “x” button to remove a member from a website.
+Confirm | Once you have completed all the fields, click **Submit** to apply your changes.
 
 !!! Note:
 A website member can be assigned one of four roles:
@@ -34,9 +35,3 @@ A website member can be assigned one of four roles:
 - **Editor:** Gives a member the ability to view, create, edit, and publish.
 - **Admin:** Provides complete editor control and management of website members.
 !!!
-
-## Confirm
-
-Once you have completed all the fields, click **Submit** to apply your changes.
-
-

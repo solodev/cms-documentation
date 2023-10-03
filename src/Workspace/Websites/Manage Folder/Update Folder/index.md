@@ -9,8 +9,8 @@ Folders are built in a nested tree hierarchy and serve as containers for all Sol
 Name | Add or change the folder name.
 Title | Add or change the folder title.
 Description | Add or change the folder description. 
-<a href="/workspace/websites/manage-folder/updatefolder/#website-properties">Website Properties</a> | Manage website properties.
-<a href="/workspace/websites/manage-folder/updatefolder/#advanced">Advanced</a> | Execute advanced operations.
+<a href="/workspace/websites/manage-folder/update-folder/#website-properties">Website Properties</a> | Manage website properties.
+<a href="/workspace/websites/manage-folder/update-folder/#advanced">Advanced</a> | Execute advanced operations.
 
 ## Website Properties
 
