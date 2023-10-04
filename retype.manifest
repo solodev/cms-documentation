@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-09-25T13:38:40Z",
+  "created": "2023-10-04T15:16:29Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1666,6 +1666,9 @@
       "path": "images\\permissions.png"
     },
     {
+      "path": "images\\permissions\\general-permissions.jpg"
+    },
+    {
       "path": "images\\permissions2.jpg"
     },
     {
@@ -3046,10 +3049,14 @@
       "path": "tutorials\\websites\\designing-your-websites-layout\\index.html"
     },
     {
+      "path": "tutorials\\websites\\how-to-import-a-theme\\index.html",
+      "old": true
+    },
+    {
       "path": "tutorials\\websites\\how-to-make-a-theme\\index.html"
     },
     {
-      "path": "tutorials\\websites\\how-to-import-a-theme\\index.html"
+      "path": "tutorials\\websites\\howtoimportatheme\\index.html"
     },
     {
       "path": "tutorials\\websites\\index.html"
@@ -3203,7 +3210,8 @@
       "path": "workspace\\modules\\module-overview\\modify\\index.html"
     },
     {
-      "path": "workspace\\websites\\add-website\\index.html"
+      "path": "workspace\\websites\\add-website\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\websites\\delete-website\\index.html"
@@ -3252,19 +3260,26 @@
       "path": "workspace\\websites\\manage-folder\\stage\\index.html"
     },
     {
-      "path": "workspace\\websites\\manage-folder\\updatefolder\\index.html"
+      "path": "workspace\\websites\\manage-folder\\update-folder\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\manage-folder\\updatefolder\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\websites\\manage-folder\\upload\\index.html"
     },
     {
-      "path": "workspace\\websites\\permissions\\index.html"
+      "path": "workspace\\websites\\permissions\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\redirects\\index.html"
+      "path": "workspace\\websites\\redirects\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\settings\\index.html"
+      "path": "workspace\\websites\\settings\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\websites\\update-page\\index.html"
@@ -3273,10 +3288,26 @@
       "path": "workspace\\websites\\update-web-files\\index.html"
     },
     {
-      "path": "workspace\\websites\\update-website\\index.html"
+      "path": "workspace\\websites\\update-website\\index.html",
+      "old": true
+    },
+    {
+      "path": "workspace\\websites\\website-overview\\add-website\\index.html"
     },
     {
       "path": "workspace\\websites\\website-overview\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\website-overview\\permissions\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\website-overview\\redirects\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\website-overview\\settings\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\website-overview\\update-website\\index.html"
     }
   ]
 }

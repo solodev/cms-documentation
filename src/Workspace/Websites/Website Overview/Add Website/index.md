@@ -11,6 +11,6 @@ A theme can only be installed when creating a site, and cannot be added to an ex
 **Name** | **Description**
 :--- | ---
 Website Address | Add a valid URL such as `www.yourdomain.com`. See prerequisites for details.
-Website Timezone | Set your timezone based on where your website or business location is.
+Website Timezone | This field comes preselected based on your location. You can change your timezone based on where your website or business location is.
 Package (optional) | Upload a <a href="/tutorials/websites/how-to-import-a-theme/">theme package</a> with your website. Must be in .zip format.
 Add | Click the blue Add button to create your website. 
