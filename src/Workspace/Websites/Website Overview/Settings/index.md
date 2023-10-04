@@ -2,7 +2,7 @@
 
 Here you can access many settings related to a domain, CDN, and others.
 
-<img src="../../../images/settings9.jpg" alt="settings9" style="width: 40%; display: block"></a>
+<img src="../../../../images/settings9.jpg" alt="Settings modal" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -13,12 +13,11 @@ Primary URL | Edit primary URL of your website.
 <a href="/workspace/websites/settings/#ssl-information">SSL Information</a> | Manage your SSL information.
 <a href="/workspace/websites/settings/#advanced">Advanced</a> | Manage the advanced settings.
 
-
 ## Domain Information
 
 In this section, you can update domain information: website address(es), host settings, and redirects. You can add and remove redirects by clicking the **"+"** and **"-"** buttons.
 
-<img src="../../../images/settings10.jpg" alt="settings10" style="width: 40%; display: block"></a>
+<img src="../../../../images/settings10.jpg" alt="Domain Information Accordion" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -30,7 +29,7 @@ Remove Redirects | Remove redirects by using the button **Remove**.
 
 A sitemap is a file where you provide information about your site's pages and other files and the relationships between them.
 
-<img src="../../../images/settings11.jpg" alt="settings11" style="width: 40%; display: block"></a>
+<img src="../../../../images/settings11.jpg" alt="Sitemap Accordion" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -42,7 +41,7 @@ After clicking the **Generate Sitemap** button, the output process may take seve
 
 ## CDN Information
 
-<img src="../../../images/settings17.jpg" alt="settings11" style="width: 40%; display: block"></a>
+<img src="../../../../images/settings17.jpg" alt="CDN Accordion" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -51,13 +50,12 @@ CDN website address | Provide the CDN website address.
 CDN Provider | Choose your CDN provider.
 AWS CDN (distribution) | Provide AWS CDN.
 
-
 ## SSL Information
 
 Secure Sockets Layer (SSL) is a technology for establishing an encrypted link between a server and a client.
 Here you can manage your SSL information.
 
-<img src="../../../images/settings15.jpg" alt="settings15" style="width: 40%; display: block"></a>
+<img src="../../../../images/settings15.jpg" alt="SSL Accordion" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -73,7 +71,7 @@ SSL Chain Certificate | There are two certificate authorities (CAs) types: root 
 
 In this section, you can manage advanced settings.
 
-<img src="../../../images/settings14.jpg" alt="settings14" style="width: 40%; display: block"></a>
+<img src="../../../../images/settings14.jpg" alt="Advances Accordion" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -82,11 +80,4 @@ Document Repository ID | To add the ID of the document repository, enter the ID 
 Calendar ID to connect to STMLs | To connect your calendar to STMLs, you need to enter your calendar ID.
 Custom Shortcodes File | Shortcodes act as shortcuts allowing you to quickly embed elements into a post or page. Add shortcodes file by using the **Add Custom Shortcodes File** option.
 Export | Click the **Export** button to export the website package.
-
----
-
-## Confirm
-
-Once you have completed all the fields, click **Submit** to apply your changes.
-
-
+Confirm | Once you have completed all the fields, click **Submit** to apply your changes.

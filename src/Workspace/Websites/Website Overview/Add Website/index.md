@@ -6,7 +6,7 @@ In Solodev, you can add a new website to your CMS by completing a form with a fe
 A theme can only be installed when creating a site, and cannot be added to an existing site.
 !!!
 
-<img src="../../../images/add-site-form1.jpg" alt="add-site-form" style="width: 50%;"></a> 
+<img src="../../../../images/add-site-form1.jpg" alt="Add site form" style="width: 45%;"></a> 
 
 **Name** | **Description**
 :--- | ---
