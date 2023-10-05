@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-10-04T21:29:22Z",
+  "created": "2023-10-05T15:04:11Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2203,10 +2203,12 @@
       "path": "images\\websites-update3.1.jpg"
     },
     {
-      "path": "images\\websites-update3.2.jpg"
+      "path": "images\\websites-update3.2.jpg",
+      "old": true
     },
     {
-      "path": "images\\websites-update3.3.jpg"
+      "path": "images\\websites-update3.3.jpg",
+      "old": true
     },
     {
       "path": "images\\websites-update3.jpg"
@@ -2293,10 +2295,19 @@
       "path": "images\\websites\\advanced-settings.jpg"
     },
     {
+      "path": "images\\websites\\canonical.jpg"
+    },
+    {
       "path": "images\\websites\\cdn-info.jpg"
     },
     {
+      "path": "images\\websites\\custom-pages.jpg"
+    },
+    {
       "path": "images\\websites\\domain-information.jpg"
+    },
+    {
+      "path": "images\\websites\\meta-information.jpg"
     },
     {
       "path": "images\\websites\\redirect-history.jpg"
