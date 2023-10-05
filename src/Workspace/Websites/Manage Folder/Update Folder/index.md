@@ -17,11 +17,11 @@ Submit | Once you have completed all the fields, click **Submit** to apply your 
 
 Control how folders work with websites.
 
-<img src="../../../../images/folders/website-properties.jpg" alt="Website Properties Accordion" style="width: 41%;"></a>
+<img src="../../../../images/folders/website-properties.jpg" alt="Website Properties Accordion" style="width: 43%;"></a>
 
 **Name** | **Description**
 :--- | ---
-Menu Name | If you'd like a different title to appear on the menu navigation than the folder title.
+Menu Title | If you'd like a different title to appear on the menu navigation than the folder title.
 Rank | Modify the rank to determine the folder's display order in the menu navigation. **Lowest number listed first.**
 Layout | The way the contents of a folder will be displayed in the navigation based on predefined templates. 
 Levels | How deep the elements in the folder will be displayed in the navigation.
