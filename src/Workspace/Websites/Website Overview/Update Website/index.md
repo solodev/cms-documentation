@@ -1,27 +1,27 @@
 # Update Website
 
-Here, you can update your website by changing the site title and adding Facebook URL, among others.
+Within this section, you have the flexibility to configure your site title, input your social media URLs and images, as well as include header inserts, and more.
 
 <img src="../../../../images/websites-update3.jpg" alt="Update Website Section" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
-Site Title | Change the site title.
-<a href="/workspace/websites/update-website/#social-media">Social Media</a> | Manage your social media.
-<a href="/workspace/websites/update-website/#meta-information">Meta Information</a> | Manage your meta information.
-<a href="/workspace/websites/update-website/#custom-pages">Custom Pages</a> | Manage custom pages.
+Site Title | Add or update the site title.
+<a href="/workspace/websites/update-website/#social-media">Social Media</a> | Manage your social media URLs and unfurl image.
+<a href="/workspace/websites/update-website/#meta-information">Meta Information</a> | Manage your Global HTML and Head Tags.
+<a href="/workspace/websites/update-website/#custom-pages">Custom Pages</a> | Manage custom 404 and login pages.
 
 ## Social Media
 
-Manage your social media links.
+Manage your Facebook and Twitter handles, as well as setting the image for sharing your site on social media platforms.
 
 <img src="../../../../images/websites-update3.1.jpg" alt="Social Media Accordion" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
-Twitter Handle | A handle on Twitter is a username and begins with the "@", and at the end of your account URL. To add a Twitter handle, enter the handle in the text box.
-Facebook URL | To add a Facebook URL, enter the URL in the text box.
-Social Media Image | Add your social media image by using the button **Upload**. You can also delete it by clicking the button **Delete**.
+Twitter Handle | A handle on Twitter is your company's unique username on Twitter, starting with the "@" symbol. To add a Twitter handle, enter the handle in the text box.
+Facebook URL | Enter the Facebook username into the text box, starting with the "/" symbol.
+Social Media Image | To upload your social media image, click the **Upload Image** button. You can also remove it by clicking **Delete**.
 
 !!!Note:
 Social Media Image is a default image used when sharing a page via social media.
@@ -29,24 +29,41 @@ Social Media Image is a default image used when sharing a page via social media.
 
 ## Meta Information
  
-Manage the meta information. 
+In this section, you can assign a class to the `<body>` element, as well as add or modify Global HTML tags and Global Header Inserts.
  
-<img src="../../../../images/websites-update3.2.jpg" alt="Meta Information Accordion" style="width: 40%;"></a>
+<img src="../../../../images/websites/meta-information.jpg" alt="Meta Information Accordion" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
-Body Class | The body class is a class or series of classes applied to the HTML body element. This is useful for applying unique styles to different areas of a WordPress site, as body classes can be added conditionally. The body class is usually included in a theme using the following code: `<body <?php body_class(); ?>>`. To add your class to this, you can pass an argument into the function, like so: `<body <?php body_class( 'my-class' ); ?>>`. This would add a body class of `my-class` on each page of your site. To add a body class, enter text in the text box.
-Global HTML Tag | All HTML documents must start with a <!DOCTYPE> declaration. To declare your DOCTYPE, enter text in the text box.
-Global Header Insert | To add a global header, insert enter text in the text box.
+Body Class | The body class consists of one or more HTML classes that are applied to the `<body>` element. To add a body class, simply enter one or more classes, separated by spaces.
+Global HTML Tag | A Global HTML Tag refers to HTML tags or code that are applied universally across all the pages of a website.
+Global Header Insert | The <head> section of a website contains important information and instructions for web browsers and search engines. It helps define how the web page should be displayed, provides metadata, and enables functionality and integration with various web technologies.
 
+## Canonical
+
+The `<link rel="canonical">` tag is used to indicate the preferred version of a web page when multiple URLs with similar content exist. It's crucial for SEO to avoid duplicate content issues.
+
+!!!Note:
+Only available on versions 10.0.1 and up.
+!!!
+
+<img src="../../../../images/websites/canonical.jpg" alt="Canonical Accordion" style="width: 40%;"></a>
+
+**Name** | **Description** 
+:--- | ---
+Preferred Canonical Domain | Select you preferred origin, staging, or CDN site from the dropdown.
+Canonical SSL | To set the canonical tag to **https** instead of **http,** please check the checkbox.
 ## Custom Pages
 
-Manage custom pages.
+Manage custom 404 and login pages.
 
-<img src="../../../../images/websites-update3.3.jpg" alt="Custom Pages Accordion" style="width: 40%;"></a>
+<img src="../../../../images/websites/custom-pages.jpg" alt="Custom Pages Accordion" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
-404 Page | Use the **Browse** button to configure a 404 page.
-Login Page | Use the **Browse** button to configure a Login page.
-Confirm | Once you have completed all the fields, click **Submit** to apply your changes.
+404 Page | To designate your 404 page, click the **Browse** button to select the desired page.
+Login Page | To configure your Login page, simply click the **Browse** button.
+
+!!!Note:
+Only available on versions 10.0.1 and up.
+!!!

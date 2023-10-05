@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-10-04T15:16:29Z",
+  "created": "2023-10-04T21:29:22Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1706,7 +1706,8 @@
       "path": "images\\recentfiles2.jpg"
     },
     {
-      "path": "images\\redirect-history.jpg"
+      "path": "images\\redirect-history.jpg",
+      "old": true
     },
     {
       "path": "images\\redirect1.png"
@@ -1782,22 +1783,26 @@
       "path": "images\\settings10.jpg"
     },
     {
-      "path": "images\\settings11.jpg"
+      "path": "images\\settings11.jpg",
+      "old": true
     },
     {
       "path": "images\\settings13.jpg"
     },
     {
-      "path": "images\\settings14.jpg"
+      "path": "images\\settings14.jpg",
+      "old": true
     },
     {
-      "path": "images\\settings15.jpg"
+      "path": "images\\settings15.jpg",
+      "old": true
     },
     {
       "path": "images\\settings16.jpg"
     },
     {
-      "path": "images\\settings17.jpg"
+      "path": "images\\settings17.jpg",
+      "old": true
     },
     {
       "path": "images\\settings2.jpg"
@@ -2283,6 +2288,30 @@
     },
     {
       "path": "images\\websites.jpg"
+    },
+    {
+      "path": "images\\websites\\advanced-settings.jpg"
+    },
+    {
+      "path": "images\\websites\\cdn-info.jpg"
+    },
+    {
+      "path": "images\\websites\\domain-information.jpg"
+    },
+    {
+      "path": "images\\websites\\redirect-history.jpg"
+    },
+    {
+      "path": "images\\websites\\redirects.jpg"
+    },
+    {
+      "path": "images\\websites\\sitemap.jpg"
+    },
+    {
+      "path": "images\\websites\\ssl-info.jpg"
+    },
+    {
+      "path": "images\\websites\\website-settings.jpg"
     },
     {
       "path": "images\\websites2.jpg"
