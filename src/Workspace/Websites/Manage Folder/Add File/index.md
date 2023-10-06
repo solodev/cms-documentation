@@ -1,14 +1,15 @@
 # Add File 
 
-In the Solodev CMS, a file serves many purposes. Examples of a file include simple text documents, spreadsheets, PDFs, images, or HTML files. Files are stored in folders with a different Resource View depending on their file type.
+In the Solodev CMS, a file serves many purposes. Examples of a file include HTML or code files, like .tpl. Files are stored in folders with a different Resource View depending on their file type.
 
-<img src="../../../../images/documents10.jpg" alt="documents10" style="width: 40%; display: block"></a>
+<img src="../../../../images/folders/add-file.jpg" alt="Add File" style="width: 40%;"></a>
 
 **Name** | **Description**
 :--- | ---
-Name | Add the file name.
-Title | Add the file title.
-File Type | Choose the file type.
+Name | Add the file name. The name of the file should be lowercase and separated with dashes.
+Title | Add the file title. This will be the Title displayed on your site. 
+File Type | Choose between HTML or Code.
+Confirm | After filling out all the required fields, please click the **Submit** button to save your changes.
 
 !!! Note:
 You can add the following file types:<p>
@@ -17,13 +18,9 @@ You can add the following file types:<p>
 
 **File Extension** | **Description**
 :--- | ---
-.js | JavaScript. To use javascript files across all pages, reference the file path of the script in the Global Header Insert found in the Update Website Window. 
+.js | JavaScript. To use JavaScript files across all pages, reference the file path of the script in the Global Header Insert found in the Update Website Window. 
 .css | Cascading Style Sheets. To use CSS files across all pages, reference the file path in the Global Header Insert found in the Update Website window.
 .php | Hypertext Preprocessor.
 .xml files | Extensible Markup Language. Users can leverage XML files to create sitemaps.
 .json | JavaScript Object Notation.
 !!!
-
-## Confirm
-
-Once you have completed all the fields, click **Submit** to apply your changes.

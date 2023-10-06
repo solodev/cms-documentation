@@ -49,7 +49,7 @@ Solodev recommends installing modules into the **web files -> managers folder**.
 Once complete, click **Add**.
 
 !!!**Note**:
-You can also add users to your form module. To learn more, read the <a href="/workspace/websites/manage-folder/addfolder/">Add Form</a> article. 
+You can also add users to your form module. To learn more, read the <a href="/workspace/websites/manage-folder/add-folder/">Add Form</a> article. 
 !!!
 
 ## How to add entries to your module
@@ -92,7 +92,7 @@ The repeater template, although optional, displays all entries in the module use
 
 **Step 1:** From the Dashboard, or from the left navigation, go to your site and under **web files > content** <a href="/tutorials/websites/add-form/">add a folder</a> called **blog**.
 
-**Step 2:**  In that folder, <a href="/workspace/websites/manage-folder/addfile/">add a file</a> for the module repeater called **index.tpl**. 
+**Step 2:**  In that folder, <a href="/workspace/websites/manage-folder/add-file/">add a file</a> for the module repeater called **index.tpl**. 
 
 **Step 3:** Add the code below for the blog repeater and click **Publish**. This code contains shortcodes to show your blog content, for more information on shortcodes, please <a href="/shortcodes/shortcodes-for-modules/">click here</a>.
 

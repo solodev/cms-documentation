@@ -14,15 +14,15 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 
 **Step 1**: Under **web files**, click on the **content** folder.
 
-**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a>. Under **content**, add folder called **privacy**. Click **Submit**, when complete.
+**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/manage-folder/add-folder/">Add Folder</a>. Under **content**, add folder called **privacy**. Click **Submit**, when complete.
 
 <img src="../../../images/content-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 3**: Now you will need to add a new .html file into the folder you have just created. Under **content**, click on the **privacy** folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file called **privacy.html**, and select **HTML** for the **File Type**. Once complete, click **Submit**.
+**Step 3**: Now you will need to add a new .html file into the folder you have just created. Under **content**, click on the **privacy** folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/add-file/">Add File</a>. Create a new file called **privacy.html**, and select **HTML** for the **File Type**. Once complete, click **Submit**.
 
 <img src="../../../images/content-template-add-file1.png" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 4**: You will also need to add a new .tpl files into a folders listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file under each folder, and select **Code** for the **File Type**. Once complete, click **Submit**:
+**Step 4**: You will also need to add a new .tpl files into a folders listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/add-file/">Add File</a>. Create a new file under each folder, and select **Code** for the **File Type**. Once complete, click **Submit**:
 
 - content: **left-nav-content-template.tpl**
 - navigation: **left-nav.tpl**

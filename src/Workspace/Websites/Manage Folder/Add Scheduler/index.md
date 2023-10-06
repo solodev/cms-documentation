@@ -7,14 +7,13 @@ Schedulers can be used for two primary purposes:
 - Set specific dates and times for the publication of content. 
 - Display a series of announcements on a web page at a given time.
 
-<img src="../../../../images/documents6.jpg" alt="documents6" style="width: 40%; display: block"></a>
+<img src="../../../../images/folders/add-scheduler.jpg" alt="Add Scheduler" style="width: 40%;">
+
+<br><br>
 
 **Name** | **Description**
 :--- | ---
-Name | Add the scheduler name.
-Title | Add the scheduler title.
-Description | Add scheduler description.
-
-## Confirm
-
-Once you have completed all the fields, click **Submit** to apply your changes.
+Name | Add the scheduler name. The name of the scheduler should be lowercase and separated with dashes.
+Title | Add the scheduler title. This will be the Title displayed on your site. 
+Description | Add the scheduler description. This description can be utilized on your website's frontend or<br> for organizational purposes.
+Confirm | After filling out all the required fields, please click the **Submit** button to save your changes.

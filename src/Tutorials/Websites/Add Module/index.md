@@ -12,7 +12,7 @@ In the previous tutorial, you learned how to install a blog module in your CMS a
 
 The detail template shows the specifics of an individual entry from a repeater template. An example would be clicking on an individual blog entry from a list of entries to see the entire blog post. The detail page is a subpage of its parent page on the repeater template.
 
-**Step 1:** Under the **blog** folder in **web files > content** <a href="/workspace/websites/manage-folder/addfile/">add a file</a> for the module detail called **detail.tpl**.
+**Step 1:** Under the **blog** folder in **web files > content** <a href="/workspace/websites/manage-folder/add-file/">add a file</a> for the module detail called **detail.tpl**.
 
 **Step 2:** Add the code below for the blog detail, and click **Publish**. This code contains shortcodes to show your blog content, for more information on shortcodes, please <a href="/shortcodes/shortcodes-for-modules/">click here</a>.
 

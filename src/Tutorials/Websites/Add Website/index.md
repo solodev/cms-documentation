@@ -124,7 +124,7 @@ For more details on the Website Dashboard and the web files and www folders, rea
 <img src="../../../images/update-folder-menu.png" alt="add-website" style="width: 20%; display: block"></a>
 
 !!!**Note**: 
-For more details on how to add a file or folder to your CMS, read the <a href="/workspace/websites/manage-folder/addfile/">Add File</a> article. 
+For more details on how to add a file or folder to your CMS, read the <a href="/workspace/websites/manage-folder/add-file/">Add File</a> article. 
 !!!
 
 **Step 2**: In the menu, create a file called **package.json** and select **Code** from the dropdown. You can add an optional title, but it is not required. Once complete, click **Submit**. 
@@ -152,11 +152,11 @@ A package-lock.json is used to store the exact versions of the dependencies that
 **Step 6**: Once your package-lock.json file is created, follow steps 3 and 4. In the editor, add the code sample that you can download <a href="package-lock.json" download="package-lock.json">here</a>, then click **Publish**.
 
 <!--
-**Step 7**: Click on **web files** and <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a> called **js**.
+**Step 7**: Click on **web files** and <a href="/workspace/websites/manage-folder/add-folder/">Add Folder</a> called **js**.
 
 <img src="../../../images/js-folder.jpg" alt="js-folder" style="display: block"></a>
 
-**Step 8**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/addfile/">create a file</a> under the folder:
+**Step 8**: Click on the new **js folder** in your left menu. Following steps 1 and 2, <a href="/workspace/websites/manage-folder/add-file/">create a file</a> under the folder:
 
  - **app.js**
 
@@ -166,13 +166,13 @@ A package-lock.json is used to store the exact versions of the dependencies that
 
 <a href="app.js" download>**app.js**</a>
 
-**Step 10**: Click on the **js folder** in your left menu. <a href="/workspace/websites/manage-folder/addfolder/">Create the folder</a>:
+**Step 10**: Click on the **js folder** in your left menu. <a href="/workspace/websites/manage-folder/add-folder/">Create the folder</a>:
 
  - **utils**
 
 <img src="../../../images/js-utils-folder.jpg" alt="js-utils-folder" style="display: block"></a>
 
-**Step 11**: Click on the new **utilities folder** in your left menu. <a href="/workspace/websites/manage-folder/addfile/">Create the file</a>: 
+**Step 11**: Click on the new **utilities folder** in your left menu. <a href="/workspace/websites/manage-folder/add-file/">Create the file</a>: 
 
   - **utils.js**
 

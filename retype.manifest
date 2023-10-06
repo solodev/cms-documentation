@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-10-05T15:04:11Z",
+  "created": "2023-10-05T18:37:23Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -927,7 +927,8 @@
       "path": "images\\documents14.png"
     },
     {
-      "path": "images\\documents15.jpg"
+      "path": "images\\documents15.jpg",
+      "old": true
     },
     {
       "path": "images\\documents16.jpg"
@@ -1039,6 +1040,18 @@
     },
     {
       "path": "images\\folder-permissions.png"
+    },
+    {
+      "path": "images\\folders\\advanced.jpg"
+    },
+    {
+      "path": "images\\folders\\update-folder.jpg"
+    },
+    {
+      "path": "images\\folders\\upload-files.png"
+    },
+    {
+      "path": "images\\folders\\website-properties.jpg"
     },
     {
       "path": "images\\footer-template.jpg"
@@ -2044,7 +2057,8 @@
       "path": "images\\uploader.jpg"
     },
     {
-      "path": "images\\uploadfiles.png"
+      "path": "images\\uploadfiles.png",
+      "old": true
     },
     {
       "path": "images\\user_overview.png"

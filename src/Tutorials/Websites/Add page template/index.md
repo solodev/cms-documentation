@@ -31,7 +31,7 @@ The first step in creating a page template is to build your base template, which
 
 <img src="../../../images/base-template-nav.jpg" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 2**: Using the right-hand menu, click <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a>. 
+**Step 2**: Using the right-hand menu, click <a href="/workspace/websites/manage-folder/add-folder/">Add Folder</a>. 
 
 <img src="../../../images/base-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -43,7 +43,7 @@ The first step in creating a page template is to build your base template, which
 The nested base folder will house your base template and other components. 
 !!!
 
-**Step 4**: Click back on the templates folder. Using the same right-hand menu, click <a href="/workspace/websites/manage-folder/addfile/">Add File</a>. 
+**Step 4**: Click back on the templates folder. Using the same right-hand menu, click <a href="/workspace/websites/manage-folder/add-file/">Add File</a>. 
 
 **Step 5**: In the fields provided, give your file a **Name** (such as “base-template”) and remember to use the .tpl extension. From the **File Type** dropdown, select **Code**, and click **Submit**.
 
@@ -112,7 +112,7 @@ You can repeat this process for all additional page templates in your website.
 
 **Step 1**: Under **web files**, click on the **templates** folder.
 
-**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/manage-folder/addfolder/">Add Folder</a>. Under **templates**, add four folders with the following names:
+**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/manage-folder/add-folder/">Add Folder</a>. Under **templates**, add four folders with the following names:
 
 - **footer**
 - **navigation**
@@ -121,7 +121,7 @@ When complete, click **Submit**.
 
 <img src="../../../images/template-folders.jpg" alt="base template" style="display: block"></a>
 
-**Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
+**Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../workspace/websites/manage-folder/add-file/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
 
 <img src="../../../images/homepage-base-folder-div.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -129,7 +129,7 @@ When complete, click **Submit**.
 The additional div-insert.tpl file will provide extra dynamicDivs to your page template. 
 !!!
 
-**Step 4**: In each of the new folders, you will need to add a new .tpl file. Follow the previous steps to click on each folder and <a href="/workspace/websites/manage-folder/addfile/">Add File</a>. Create a new file under each folder as follows, and select **Code** for the **File Type**. Once complete, click **Submit**:
+**Step 4**: In each of the new folders, you will need to add a new .tpl file. Follow the previous steps to click on each folder and <a href="/workspace/websites/manage-folder/add-file/">Add File</a>. Create a new file under each folder as follows, and select **Code** for the **File Type**. Once complete, click **Submit**:
 
 - footer: **footer.tpl** 
 - navigation: **top-nav.tpl** 
@@ -249,7 +249,7 @@ Once you have your page template complete, you can return to the <a href="/tutor
 
 ## How to save a page as a template
 
-**Step 1**: Click on the '_' folder under **www** and <a href="/workspace/websites/manage-folder/addfolder/">create a new folder</a> called **templates**.
+**Step 1**: Click on the '_' folder under **www** and <a href="/workspace/websites/manage-folder/add-folder/">create a new folder</a> called **templates**.
 
 <img src="../../../images/www-templates.jpg" alt="www template" style="display: block"></a>
 

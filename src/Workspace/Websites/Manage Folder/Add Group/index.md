@@ -7,14 +7,11 @@ A file group can be used to:
 - Display a list of files of a file group and their content on the front end of a website.
 - Create an internal document repository where users can upload and share an array of file types grouped by type, category, relevance, date, etc.
 
-<img src="../../../../images/documents8.jpg" alt="documents8" style="width: 40%; display: block"></a>
+<img src="../../../../images/folders/add-file-group.jpg" alt="Add File Group" style="width: 40%;"></a>
 
 **Name** | **Description**
 :--- | ---
-Name | Add the group name.
-Title | Add the group title.
-Description | Add the group description.
-
-## Confirm
-
-Once you have completed all the fields, click **Submit** to apply your changes.
+Name | Add the file group name. The name of the folder should be lowercase and separated with dashes.
+Title | Add the file group title. This will be the Title displayed on your site. 
+Description | Add the file group description. This description can be utilized for organizational purposes.
+Confirm | After filling out all the required fields, please click the **Submit** button to save your changes.

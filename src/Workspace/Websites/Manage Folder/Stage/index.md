@@ -8,7 +8,7 @@ Staging will apply to all pages and files within a selected folder. Make sure yo
 
 **Step 1:** From the left tree menu, select a folder you wish to stage the contents of. 
 
-<img src="../../../../images/stage-dashboard.png" alt="stage dashboard" style="width: 100%; display: block"></a>
+<p><img src="../../../../images/folders/stage-dashboard.png" alt="Stage dashboard"></p>
 
 **Step 2:** In the right menu, click **Stage**. You do not need to click the Submit button.
 
@@ -16,4 +16,4 @@ Staging will apply to all pages and files within a selected folder. Make sure yo
 The window will remain open until publishing is complete, which can take a few moments. During this period, do not click outside the window, refresh the page, or leave the site. 
 !!!
 
-<img src="../../../../images/stage-window.png" alt="stage window" style="width: 40%; display: block"></a>
+<p><img src="../../../../images/folders/stage-window.png" alt="Stage window" style="width: 40%;"></p>

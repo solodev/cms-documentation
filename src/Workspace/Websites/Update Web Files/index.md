@@ -11,7 +11,7 @@ To edit a specific file, click on it to access the code editor.
 <a href="/workspace/websites/manage-folder/update-folder/">Draft</a> | Create a draft version of your code or content.
 <a href="/workspace/websites/manage-folder/stage/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
 <a href="/workspace/websites/manage-folder/publish/">Publish</a> | Push your code or content to live production. 
-<a href="/workspace/websites/manage-folder/addgroup/">Add to Group</a> | Assign a specific group to your file or asset. 
+<a href="/workspace/websites/manage-folder/add-group/">Add to Group</a> | Assign a specific group to your file or asset. 
 <a href="/workspace/documents/editing-files/history/">History</a> | Review previous versions of your content or code and restore a saved version.
 <a href="/workspace/documents/editing-files/copy/">Copy</a> | Copy a file or asset for editing or additional use elsewhere in your website. 
 <a href="/workspace/documents/editing-files/move/">Move</a> | Relocate a file or folder based on your taxonomy.
