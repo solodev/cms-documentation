@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-10-05T18:37:23Z",
+  "created": "2023-10-09T16:29:47Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -359,10 +359,12 @@
       "path": "images\\addapp.png"
     },
     {
-      "path": "images\\addcollection.jpg"
+      "path": "images\\addcollection.jpg",
+      "old": true
     },
     {
-      "path": "images\\addcollection2.jpg"
+      "path": "images\\addcollection2.jpg",
+      "old": true
     },
     {
       "path": "images\\addfile.jpg"
@@ -909,10 +911,12 @@
       "path": "images\\documents.jpg"
     },
     {
-      "path": "images\\documents10.jpg"
+      "path": "images\\documents10.jpg",
+      "old": true
     },
     {
-      "path": "images\\documents11.jpg"
+      "path": "images\\documents11.jpg",
+      "old": true
     },
     {
       "path": "images\\documents12.jpg"
@@ -958,16 +962,20 @@
       "path": "images\\documents5.jpg"
     },
     {
-      "path": "images\\documents6.jpg"
+      "path": "images\\documents6.jpg",
+      "old": true
     },
     {
-      "path": "images\\documents7.jpg"
+      "path": "images\\documents7.jpg",
+      "old": true
     },
     {
-      "path": "images\\documents8.jpg"
+      "path": "images\\documents8.jpg",
+      "old": true
     },
     {
-      "path": "images\\documents9.jpg"
+      "path": "images\\documents9.jpg",
+      "old": true
     },
     {
       "path": "images\\dynamic-div-template.jpg"
@@ -1042,7 +1050,49 @@
       "path": "images\\folder-permissions.png"
     },
     {
+      "path": "images\\folders\\add-collection.jpg"
+    },
+    {
+      "path": "images\\folders\\add-experiment.jpg"
+    },
+    {
+      "path": "images\\folders\\add-file-group.jpg"
+    },
+    {
+      "path": "images\\folders\\add-file.jpg"
+    },
+    {
+      "path": "images\\folders\\add-folder.jpg"
+    },
+    {
+      "path": "images\\folders\\add-link.jpg"
+    },
+    {
+      "path": "images\\folders\\add-page.jpg"
+    },
+    {
+      "path": "images\\folders\\add-scheduler.jpg"
+    },
+    {
+      "path": "images\\folders\\addcollection2.jpg"
+    },
+    {
       "path": "images\\folders\\advanced.jpg"
+    },
+    {
+      "path": "images\\folders\\permissions.png"
+    },
+    {
+      "path": "images\\folders\\publish-dashboard.png"
+    },
+    {
+      "path": "images\\folders\\publish-window.png"
+    },
+    {
+      "path": "images\\folders\\stage-dashboard.png"
+    },
+    {
+      "path": "images\\folders\\stage-window.png"
     },
     {
       "path": "images\\folders\\update-folder.jpg"
@@ -1685,7 +1735,8 @@
       "path": "images\\permissions2.jpg"
     },
     {
-      "path": "images\\permissions2.png"
+      "path": "images\\permissions2.png",
+      "old": true
     },
     {
       "path": "images\\permissions3.jpg"
@@ -1706,10 +1757,12 @@
       "path": "images\\picture3.jpg"
     },
     {
-      "path": "images\\publish-dashboard.png"
+      "path": "images\\publish-dashboard.png",
+      "old": true
     },
     {
-      "path": "images\\publish-window.png"
+      "path": "images\\publish-window.png",
+      "old": true
     },
     {
       "path": "images\\recent-files-2.jpg",
@@ -1956,10 +2009,12 @@
       "path": "images\\sso.jpg"
     },
     {
-      "path": "images\\stage-dashboard.png"
+      "path": "images\\stage-dashboard.png",
+      "old": true
     },
     {
-      "path": "images\\stage-window.png"
+      "path": "images\\stage-window.png",
+      "old": true
     },
     {
       "path": "images\\stml.jpg"
@@ -3274,32 +3329,60 @@
       "path": "workspace\\websites\\index.html"
     },
     {
+      "path": "workspace\\websites\\manage-folder\\add-collection\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\manage-folder\\add-experiment\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\manage-folder\\add-file\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\manage-folder\\add-folder\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\manage-folder\\add-group\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\manage-folder\\add-link\\index.html"
+    },
+    {
       "path": "workspace\\websites\\manage-folder\\add-page\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\manage-folder\\add-scheduler\\index.html"
     },
     {
       "path": "workspace\\websites\\manage-folder\\add-theme\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\addcollection\\index.html"
+      "path": "workspace\\websites\\manage-folder\\addcollection\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\addexperiment\\index.html"
+      "path": "workspace\\websites\\manage-folder\\addexperiment\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\addfile\\index.html"
+      "path": "workspace\\websites\\manage-folder\\addfile\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\addfolder\\index.html"
+      "path": "workspace\\websites\\manage-folder\\addfolder\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\addgroup\\index.html"
+      "path": "workspace\\websites\\manage-folder\\addgroup\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\addlink\\index.html"
+      "path": "workspace\\websites\\manage-folder\\addlink\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\addscheduler\\index.html"
+      "path": "workspace\\websites\\manage-folder\\addscheduler\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\websites\\manage-folder\\index.html"
