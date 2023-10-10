@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-10-09T16:29:47Z",
+  "created": "2023-10-10T13:11:31Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -919,7 +919,8 @@
       "old": true
     },
     {
-      "path": "images\\documents12.jpg"
+      "path": "images\\documents12.jpg",
+      "old": true
     },
     {
       "path": "images\\documents13.jpg"
@@ -1714,7 +1715,8 @@
       "path": "images\\package-json.jpg"
     },
     {
-      "path": "images\\package-json.png"
+      "path": "images\\package-json.png",
+      "old": true
     },
     {
       "path": "images\\parameters-solodev-cms-opsworks.jpg"
@@ -2370,13 +2372,28 @@
       "path": "images\\websites\\cdn-info.jpg"
     },
     {
+      "path": "images\\websites\\code-file-actions.jpg"
+    },
+    {
+      "path": "images\\websites\\code-file.jpg"
+    },
+    {
       "path": "images\\websites\\custom-pages.jpg"
     },
     {
       "path": "images\\websites\\domain-information.jpg"
     },
     {
+      "path": "images\\websites\\file-task.jpg"
+    },
+    {
+      "path": "images\\websites\\includes.jpg"
+    },
+    {
       "path": "images\\websites\\meta-information.jpg"
+    },
+    {
+      "path": "images\\websites\\overwrite-file.jpg"
     },
     {
       "path": "images\\websites\\redirect-history.jpg"

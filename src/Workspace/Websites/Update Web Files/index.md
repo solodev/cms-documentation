@@ -49,15 +49,17 @@ By clicking the folder icon in the upper right corner, you can overwrite your cu
 Upload + Stage | Send your file into a pre-staged status. 
 Upload + Save | Send your file and automatically save your code or content, but it will not publish it live.
 
-## Tasks
+### Tasks
 
 Collaborate with team members by creating, assigning and viewing tasks, sending messages, and managing your task status and details. 
 
 <p><img src="../../../../images/websites/file-task.jpg" alt="File task" style="width: 43%;"></p>
 
-## Meta
+## Advanced
 
-Manage the meta for your file via the **i** icon in the upper right corner to update meta details to enhance SEO and access advanced functions.
+Schedule your publish date and expire date. 
+
+<!-- Manage the meta for your file via the **i** icon in the upper right corner to update meta details to enhance SEO and access advanced functions.
 
 <p><img src="../../../images/meta-web-files.png" alt="manage-folder" style="width: 50%;"></p> 
 
@@ -79,11 +81,10 @@ Description | Provide an optional overview of your file.
 :--- | ---
 Rank | Include an optional ranking or order for your file. 
 Meta Description | Provide an optional meta description of your file.
-Meta Keywords | List relevant keywords to help enhance SEO.
+Meta Keywords | List relevant keywords to help enhance SEO. -->
 
-<p><img src="../../../images/meta-advanced2.png" alt="manage-folder" style="width: 50%;"></p> 
+<p><img src="../../../images/websites/file-advanced.png" alt="Advanced Accordion" style="width: 43%;"></p> 
 
 **Name** | **Description**
 :--- | ---
-Publish Date | Set an optional scheduled date for automatically publishing your file meta.e meta. Menu includes: never, 1 day, 10 days, 30 days, 90 days, or 1 year. 
-
+Publish Date | Set an optional scheduled date for automatically publishing your file. Expire date menu includes: never, 1 day, 10 days, 30 days, 90 days, or 1 year. 
