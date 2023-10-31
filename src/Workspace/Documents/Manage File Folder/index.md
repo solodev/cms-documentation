@@ -6,5 +6,5 @@ Manage files and folders by marking the item you want to manage.
 
 **Name** | **Description** 
 :--- | ---
-<a href="/workspace/documents/manage-filefolder/copy/">Copy</a> | Copy the file or folder.
-<a href="/workspace/documents/manage-filefolder/delete/">Delete</a> | Delete the file or folder.
+<a href="/workspace/documents/manage-file-folder/copy/">Copy</a> | Copy the file or folder.
+<a href="/workspace/documents/manage-file-folder/delete/">Delete</a> | Delete the file or folder.

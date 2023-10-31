@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-10-10T13:11:31Z",
+  "created": "2023-10-10T13:26:34Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1568,7 +1568,8 @@
       "path": "images\\meta-advanced.png"
     },
     {
-      "path": "images\\meta-advanced2.png"
+      "path": "images\\meta-advanced2.png",
+      "old": true
     },
     {
       "path": "images\\meta-data.png"
@@ -2382,6 +2383,9 @@
     },
     {
       "path": "images\\websites\\domain-information.jpg"
+    },
+    {
+      "path": "images\\websites\\file-advanced.png"
     },
     {
       "path": "images\\websites\\file-task.jpg"
