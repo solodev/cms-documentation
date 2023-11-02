@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-10-10T13:26:34Z",
+  "created": "2023-10-31T15:31:46Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -909,6 +909,12 @@
     },
     {
       "path": "images\\documents.jpg"
+    },
+    {
+      "path": "images\\documents\\documents-actions.jpg"
+    },
+    {
+      "path": "images\\documents\\documents-overview.jpg"
     },
     {
       "path": "images\\documents10.jpg",
@@ -3210,16 +3216,32 @@
       "path": "tutorials\\websites\\use-of-dynamicdivs\\index.html"
     },
     {
-      "path": "workspace\\documents\\document-overview\\addcollection\\index.html"
+      "path": "workspace\\documents\\document-overview\\add-category\\index.html"
     },
     {
-      "path": "workspace\\documents\\document-overview\\addfile\\index.html"
+      "path": "workspace\\documents\\document-overview\\add-file-group\\index.html"
     },
     {
-      "path": "workspace\\documents\\document-overview\\addfolder\\index.html"
+      "path": "workspace\\documents\\document-overview\\add-file\\index.html"
     },
     {
-      "path": "workspace\\documents\\document-overview\\addgroup\\index.html"
+      "path": "workspace\\documents\\document-overview\\add-folder\\index.html"
+    },
+    {
+      "path": "workspace\\documents\\document-overview\\addcollection\\index.html",
+      "old": true
+    },
+    {
+      "path": "workspace\\documents\\document-overview\\addfile\\index.html",
+      "old": true
+    },
+    {
+      "path": "workspace\\documents\\document-overview\\addfolder\\index.html",
+      "old": true
+    },
+    {
+      "path": "workspace\\documents\\document-overview\\addgroup\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\documents\\document-overview\\index.html"
@@ -3228,7 +3250,11 @@
       "path": "workspace\\documents\\document-overview\\permissions\\index.html"
     },
     {
-      "path": "workspace\\documents\\document-overview\\updatefolder\\index.html"
+      "path": "workspace\\documents\\document-overview\\update-folder\\index.html"
+    },
+    {
+      "path": "workspace\\documents\\document-overview\\updatefolder\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\documents\\document-overview\\upload\\index.html"
@@ -3270,16 +3296,32 @@
       "path": "workspace\\documents\\index.html"
     },
     {
-      "path": "workspace\\documents\\manage-filefolder\\copy\\index.html"
+      "path": "workspace\\documents\\manage-file-folder\\copy\\index.html"
     },
     {
-      "path": "workspace\\documents\\manage-filefolder\\delete\\index.html"
+      "path": "workspace\\documents\\manage-file-folder\\delete\\index.html"
     },
     {
-      "path": "workspace\\documents\\manage-filefolder\\index.html"
+      "path": "workspace\\documents\\manage-file-folder\\index.html"
     },
     {
-      "path": "workspace\\documents\\manage-filefolder\\move\\index.html"
+      "path": "workspace\\documents\\manage-file-folder\\move\\index.html"
+    },
+    {
+      "path": "workspace\\documents\\manage-filefolder\\copy\\index.html",
+      "old": true
+    },
+    {
+      "path": "workspace\\documents\\manage-filefolder\\delete\\index.html",
+      "old": true
+    },
+    {
+      "path": "workspace\\documents\\manage-filefolder\\index.html",
+      "old": true
+    },
+    {
+      "path": "workspace\\documents\\manage-filefolder\\move\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\forms\\add-form\\index.html"
