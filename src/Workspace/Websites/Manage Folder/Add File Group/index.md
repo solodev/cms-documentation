@@ -1,4 +1,4 @@
-# Add Group 
+# Add File Group 
 
 File Groups are a resource for managing and displaying groups of related files (images, documents, etc.) on a web page. Users can leverage file groups to categorize and display files based on specific criteria or similarities. Administrators commonly leverage file groups to display a document list with set permissions that grant users access to files in the file group. Authorized users can add or edit files in the file group without accessing the web page directly. 
 

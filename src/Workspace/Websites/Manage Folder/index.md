@@ -18,10 +18,10 @@ While all the functions for the web files and www folder are the same, the www f
 <a href="/workspace/websites/manage-folder/add-file/">Add File</a> | Add an HTML or code file type into a folder on your website. 
 <a href="/workspace/websites/manage-folder/add-page/">Add a Page</a>| Add a new page to the master www folder or any sub-folder. 
 <a href="/workspace/websites/manage-folder/add-link/">Add Link</a> | Add and rank a link and control properties such as opening in a new window.
-<a href="/workspace/websites/manage-folder/add-group/">Add File Group</a> | Create a new file group within your website folder.
+<a href="/workspace/websites/manage-folder/add-file-group/">Add File Group</a> | Create a new file group within your website folder.
 <a href="/workspace/websites/manage-folder/add-experiment/">Add Experiment</a> | Set up an A/B test for page content using a Google Optimize experiment ID.
 <a href="/workspace/websites/manage-folder/add-scheduler/">Add Scheduler</a> | Schedule a start or end date for a specific file in your Workspace.
-<a href="/workspace/websites/manage-folder/add-collection/">Add Category</a> | Group and organize content items in categories.
+<a href="/workspace/websites/manage-folder/add-category/">Add Category</a> | Group and organize content items in categories.
 <a href="/workspace/websites/manage-folder/stage/">Stage</a> | Assign files or folders to be reviewed and published.
 <a href="/workspace/websites/manage-folder/publish/">Publish</a> | Push files or folders live on your website. 
 <a href="/workspace/websites/manage-folder/permissions/">Permissions</a> | Manage user access to files and folders with specific roles.  
