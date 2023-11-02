@@ -14,18 +14,20 @@ Use the search field in the upper right corner to locate or filter specific webs
 :--- | ---
 <a href="/workspace/websites/add-website/">Add Website</a> | Create a new website in your CMS deployment.
 
+You can access a website by clicking either the image or its name listed in the table.
+
 ## Permissions
 
 Click on any of the members next to a website name to add or remove website members and manage their roles. 
 
-<img src="../../../images/permissions/general-permissions.jpg" alt="Permissions modal view" style="width: 420px;"></a>
+<p><img src="../../../images/permissions/general-permissions.jpg" alt="Permissions modal view" style="width: 420px;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Name | Enter the name of the member or group you wish to add to your website. Then, click on the **Plus** button to add it.
-Role | Assign a View, Stage, Editor, or Admin role via the dropdown menu to the right of each member's name.
-Delete | Click the “x” button to remove a member from a website.
-Confirm | Once you have completed all the fields, click **Submit** to apply your changes.
+Name | Enter the name of an existing member or group you wish to add to your website. Then, click on the <br>**Plus** button to add it to the permissions table.
+Role | Assign a View, Stage, Editor, or Admin role via the dropdown menu.
+Remove | Click the “x” button to remove a member from a website.
+Submit | Once you have completed all the fields, click **Submit** to apply your changes.
 
 !!! Note:
 A website member can be assigned one of four roles:

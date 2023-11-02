@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-10-31T15:31:46Z",
+  "created": "2023-11-02T15:00:03Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2403,6 +2403,9 @@
       "path": "images\\websites\\meta-information.jpg"
     },
     {
+      "path": "images\\websites\\metadata-panel-advanced.jpg"
+    },
+    {
       "path": "images\\websites\\overwrite-file.jpg"
     },
     {
@@ -2415,7 +2418,16 @@
       "path": "images\\websites\\sitemap.jpg"
     },
     {
+      "path": "images\\websites\\spacejet-main-page.jpg"
+    },
+    {
+      "path": "images\\websites\\spacejet-metadata-panel.jpg"
+    },
+    {
       "path": "images\\websites\\ssl-info.jpg"
+    },
+    {
+      "path": "images\\websites\\update-file.jpg"
     },
     {
       "path": "images\\websites\\website-settings.jpg"
@@ -3392,10 +3404,17 @@
       "path": "workspace\\websites\\index.html"
     },
     {
-      "path": "workspace\\websites\\manage-folder\\add-collection\\index.html"
+      "path": "workspace\\websites\\manage-folder\\add-category\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\manage-folder\\add-collection\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\websites\\manage-folder\\add-experiment\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\manage-folder\\add-file-group\\index.html"
     },
     {
       "path": "workspace\\websites\\manage-folder\\add-file\\index.html"
@@ -3404,7 +3423,8 @@
       "path": "workspace\\websites\\manage-folder\\add-folder\\index.html"
     },
     {
-      "path": "workspace\\websites\\manage-folder\\add-group\\index.html"
+      "path": "workspace\\websites\\manage-folder\\add-group\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\websites\\manage-folder\\add-link\\index.html"
