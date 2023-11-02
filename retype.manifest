@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-11-02T15:00:03Z",
+  "created": "2023-11-02T16:34:24Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1683,7 +1683,11 @@
       "path": "images\\modules.jpg"
     },
     {
-      "path": "images\\modules.png"
+      "path": "images\\modules.png",
+      "old": true
+    },
+    {
+      "path": "images\\modules\\modules.jpg"
     },
     {
       "path": "images\\modules2.jpg"
@@ -1739,6 +1743,9 @@
     },
     {
       "path": "images\\permissions\\general-permissions.jpg"
+    },
+    {
+      "path": "images\\permissions\\module-permissions.jpg"
     },
     {
       "path": "images\\permissions2.jpg"

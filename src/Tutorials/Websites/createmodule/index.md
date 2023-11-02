@@ -69,10 +69,10 @@ Before getting started, locate these images in the theme package that you previo
 <img src="../../../images/add-entry.jpg" alt="base template" style="display: block"></a>
 
 !!!Note:
-To learn more about Add Entry please <a href="/workspace/modules/module-overview/addentry/">click here</a>.
+To learn more about Add Entry please <a href="/workspace/modules/module-overview/add-entry/">click here</a>.
 !!!
 
-**Step 2:** On the **Add Entry** modal, add the name of your blog post and select **<a href="/workspace/modules/module-overview/addentry/">publish</a>** from the status dropdown. Click **Submit**.
+**Step 2:** On the **Add Entry** modal, add the name of your blog post and select **<a href="/workspace/modules/module-overview/add-entry/">publish</a>** from the status dropdown. Click **Submit**.
 
 <img src="../../../images/entry-modal-blog.jpg" alt="base template" style="display: block"></a>
 
