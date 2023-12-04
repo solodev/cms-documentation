@@ -1,36 +1,58 @@
 # Modify 
 
-In this place, you can modify your entry. There are plenty of options to use. Some of them are nested in sections: Website Properties, 
-Advanced Options, Table Schema and API Info.
+Here, you have the ability to customize your module, offering a wide array of options at your disposal. These options are conveniently categorized into various sections, including "Website Properties" for fine-tuning the module's appearance and behavior, "Advanced Options" for advanced settings, "Table Schema" for managing the data structure, and "API Info" for integration purposes. Feel free to explore these sections and tailor your module to meet your specific needs.
 
-<img src="../../../../images/module-overview5.jpg" alt="module-overview5" style="width: 50%; display: block"></a>
+<p><img src="../../../../images/modules/modify-module.jpg" alt="Modify Module" style="width: 60%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Name | Modify the entry name.
-Type | Assign news, events, blog, photos, landing page, file map, or custom entry type using the dropdown menu (you can find more information about module types in <a href="/workspace/modules">Modules</a>.
-Display/Hide Columns | Use this option to display/hide columns. To do so, use arrows in the middle of the fields.
+Name | Modify the module name.
+Type | Assign news, events, blog, photos, landing page, file map, or custom module type using the dropdown menu. <br>You can find more information about module types in <a href="/workspace/modules">Modules</a>.
+Display/Hide Columns | Use this option to display/hide columns from the module's table. To do so, use arrows in the middle of the fields.
+Confirm | Once you have completed all the fields, click **Submit** to apply your changes.
 
 ## Website Properties
 
-Here you can manage website properties
+Map your module to the front end and to categories, and manage your images settings.
 
-<img src="../../../../images/module-overview6.jpg" alt="module-overview6" style="width: 50%; display: block"></a>
+<p><img src="../../../../images/modules/module-website-properties.jpg" alt="Website Properties" style="width: 50%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Detail Page Template | Select the page template you'd like to use to show the details of your calendar.
-Detail Folder Location | Select the base folder (under www) where your detail pages will be generated.
+Detail Page Template | Select the page template (stml) you'd like to use to show the details of your entry.
+Detail Folder Location | Select the base folder (under www) where your detail page is.
 Datatable Category Group | Select the category group you'd like to associate with your calendar.
-Tag Template | Select the page template you wish to use as a template for tags.
-Force Dimension for Uploaded Photos | Use this option to force dimension for uploaded photos. Image height will be proportional to its width then. Type chosen dimension.
-Create Thumbnail for Uploaded Photos | Add a dimension to the thumbnail you want to generate.
+Tag Template | Select the page template (stml) you wish to use as a template for tags.
+Social Media Image | Select the field name of the image you would like to use for social media sharing.
+Force Dimension for Uploaded Photos | Ensure precise image dimensions for your website by specifying the width in pixels.
+Create Thumbnail for Uploaded Photos | Create thumbnails for the images utilized in your module by specifying the desired width in pixels.
+
+## Table Schema
+
+Manage your database table schema, by adding or removing fields.
+
+<p><img src="../../../../images/modules/module-table-schema.jpg" alt="Table Schema" style="width: 55%;"></p>
+
+**Name** | **Description** 
+:--- | ---
+Name | Refers to the name of a database field or column.
+Type | Select a field type to define how data is stored and how it can be manipulated or processed.
+Length | Designates the maximum number of characters or digits that can be stored in a particular field.
+Allow Null | Specifies whether a particular database field can contain null values.
+Default | Defines a default value that is automatically assigned to a field when a new record is created.
+**+/-** | Use these buttons to add / remove the column.
+
+## API Info
+
+Here you can find API Info that can be used in <a href="/admin/api">API section</a> to connect.
+
+<p><img src="../../../../images/module-overview8.jpg" alt="module-overview8" style="width: 50%;"></p>
 
 ## Advanced Options
 
-In this place, you can manage the advanced options.
+Manage your module, add custom code, and export or delete your module.
 
-<img src="../../../../images/module-overview9.jpg" alt="module-overview9" style="width: 50%; display: block"></a>
+<p><img src="../../../../images/module-overview9.jpg" alt="module-overview9" style="width: 50%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -56,33 +78,9 @@ Delete Module | To remove your entry, type DELETE in all caps into the field and
 
 Choose this option to export the module.
 
-<img src="../../../../images/module-overview10.jpg" alt="module-overview10" style="width: 30%; display: block"></a>
+<p><img src="../../../../images/module-overview10.jpg" alt="module-overview10" style="width: 30%;"></p>
 
 **Name** | **Description** 
 :--- | ---
 Include manager entries in export | You can mark this option to include manager entries in export.
 Continue Export | Choose this option to finalize the export process.
-
-## Table Schema
-
-Manage your database table schema.
-
-<img src="../../../../images/module-overview7.jpg" alt="module-overview7" style="width: 50%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-**+/-** | Use these buttons to add/ remove the column.
-Name | Use this option to modify the column name.
-Type | Use this option to modify column type.
-Length | Use this option to modify column length.
-Allow Null | Mark this option to allow null in the column.
-Default | Use this option to make the column default.
-## API Info
-
-Here you can find API Info that can be used in <a href="/admin/api">API section</a> to connect.
-
-<img src="../../../../images/module-overview8.jpg" alt="module-overview8" style="width: 50%; display: block"></a>
-
-## Confirm 
-
-Once you have completed all the fields, click **Submit** to apply your changes.
