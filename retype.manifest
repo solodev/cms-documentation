@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-11-02T16:34:24Z",
+  "created": "2023-12-04T22:14:17Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -737,10 +737,12 @@
       "path": "images\\cmsproawssubscribe2.png"
     },
     {
-      "path": "images\\cmsproawssubscribe3.png"
+      "path": "images\\cmsproawssubscribe3.png",
+      "old": true
     },
     {
-      "path": "images\\cmsproawssubscribe4.png"
+      "path": "images\\cmsproawssubscribe4.png",
+      "old": true
     },
     {
       "path": "images\\cmsproawssubscribe5.png"
@@ -749,7 +751,8 @@
       "path": "images\\cmsproawssubscribe6.png"
     },
     {
-      "path": "images\\cmsproawssubscribe7.png"
+      "path": "images\\cmsproawssubscribe7.png",
+      "old": true
     },
     {
       "path": "images\\cmsproawssubscribe8.png"
@@ -1687,6 +1690,21 @@
       "old": true
     },
     {
+      "path": "images\\modules\\modify-module.jpg"
+    },
+    {
+      "path": "images\\modules\\module-add-entry.jpg"
+    },
+    {
+      "path": "images\\modules\\module-overview.jpg"
+    },
+    {
+      "path": "images\\modules\\module-table-schema.jpg"
+    },
+    {
+      "path": "images\\modules\\module-website-properties.jpg"
+    },
+    {
       "path": "images\\modules\\modules.jpg"
     },
     {
@@ -1717,7 +1735,11 @@
       "path": "images\\other-files.png"
     },
     {
-      "path": "images\\overviewmain.png"
+      "path": "images\\overview-main.png"
+    },
+    {
+      "path": "images\\overviewmain.png",
+      "old": true
     },
     {
       "path": "images\\overwrite.png"
@@ -1779,6 +1801,30 @@
     {
       "path": "images\\publish-window.png",
       "old": true
+    },
+    {
+      "path": "images\\quickstart\\aws-pro-subscribe-header.jpg"
+    },
+    {
+      "path": "images\\quickstart\\aws-pro-subscribe.jpg"
+    },
+    {
+      "path": "images\\quickstart\\cms-pro-configure-software.jpg"
+    },
+    {
+      "path": "images\\quickstart\\cms-pro-configure.png"
+    },
+    {
+      "path": "images\\quickstart\\cms-pro-launch-cloudformation.jpg"
+    },
+    {
+      "path": "images\\quickstart\\create-stack.jpg"
+    },
+    {
+      "path": "images\\quickstart\\solodev-cms-pro.jpg"
+    },
+    {
+      "path": "images\\quickstart\\stack-name.png"
     },
     {
       "path": "images\\recent-files-2.jpg",
@@ -1931,8 +1977,7 @@
       "old": true
     },
     {
-      "path": "images\\solodev-banner.png",
-      "old": true
+      "path": "images\\solodev-banner.png"
     },
     {
       "path": "images\\solodev-base-template-code.png"
@@ -1947,7 +1992,8 @@
       "path": "images\\solodev-update-website.png"
     },
     {
-      "path": "images\\solodevbanner.png"
+      "path": "images\\solodevbanner.png",
+      "old": true
     },
     {
       "path": "images\\solodevbanner2.jpg"
@@ -1962,7 +2008,8 @@
       "path": "images\\solodevcmsenterprise.png"
     },
     {
-      "path": "images\\solodevcmspro.jpg"
+      "path": "images\\solodevcmspro.jpg",
+      "old": true
     },
     {
       "path": "images\\solodevcmspro.png"
@@ -3383,7 +3430,11 @@
       "path": "workspace\\modules\\index.html"
     },
     {
-      "path": "workspace\\modules\\module-overview\\addentry\\index.html"
+      "path": "workspace\\modules\\module-overview\\add-entry\\index.html"
+    },
+    {
+      "path": "workspace\\modules\\module-overview\\addentry\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\modules\\module-overview\\delete\\index.html"
