@@ -2,7 +2,7 @@
 
 Assign roles to users or groups, manage and remove permissions. Click the **"+"** button to assign permissions to a new user/group.
 
-<img src="../../../../images/permissions/general-permissions.jpg" alt="Permissions modal" style="width: 30%;"></a>
+<p><img src="../../../../images/permissions/general-permissions.jpg" alt="Permissions modal" style="width: 35%;"></p>
 
 **Name** | **Description** 
 :--- | ---

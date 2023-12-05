@@ -2,24 +2,22 @@
 
 Website Settings applies to specific websites in the CMS system. Administrators can configure/change their primary URL here, set a domain for staging, add aliases, generate sitemaps and much more. This article provides an overview of Website Settings and their configurable fields.
 
-<img src="../../../../images/websites/website-settings.jpg" alt="Website Settings Modal"></a>
-
-<br>
+<p><img src="../../../../images/websites/website-settings.jpg" alt="Website Settings Modal"></p>
 
 **Name** | **Description** 
 :--- | ---
 Primary URL | Edit primary URL of your website.
-<a href="/workspace/websites/settings/#domain-information">Domain Information</a> | Enter staging address, alias, and custom rules to the domain host file in this section.
-<a href="/workspace/websites/settings/#sitemap">Sitemap</a> | Generate your website's sitemap.
-<a href="/workspace/websites/settings/#cdn-information">CDN Information</a> | Configure your CDN information.
-<a href="/workspace/websites/settings/#ssl-information">SSL Information</a> | Manage your SSL information.
-<a href="/workspace/websites/settings/#advanced">Advanced</a> | Configure more advanced settings.
+[Domain Information](/workspace/websites/settings/#domain-information) | Enter staging address, alias, and custom rules to the domain host file in this section.
+[Sitemap](/workspace/websites/settings/#sitemap) | Generate your website's sitemap.
+[CDN Information](/workspace/websites/settings/#cdn-information) | Configure your CDN information.
+[SSL Information](/workspace/websites/settings/#ssl-information) | Manage your SSL information.
+[Advanced](/workspace/websites/settings/#advanced) | Configure more advanced settings.
 
 ## Domain Information
 
 In this section, you can update domain information: website address(es), host settings, and redirects. You can add and remove redirects by clicking the **"Add +"** and **"Remove -"** buttons.
 
-<img src="../../../../images/websites/domain-information.jpg" alt="Domain Information Accordion" style="width: 45%;"></a>
+<p><img src="../../../../images/websites/domain-information.jpg" alt="Domain Information Accordion" style="width: 45%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -33,7 +31,7 @@ Remove Redirects | Remove redirects by using the button **Remove -**.
 
  A sitemap is an .xml file that lists and organizes all the web pages within that site. It's like a map or index for the website, designed to help search engines understand the structure of the site and how its pages are connected.
 
-<img src="../../../../images/websites/sitemap.jpg" alt="Sitemap Accordion" style="width: 43%;"></a>
+<p><img src="../../../../images/websites/sitemap.jpg" alt="Sitemap Accordion" style="width: 43%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -47,7 +45,7 @@ After clicking the **Generate Sitemap** button, the output process may take seve
 
 A Content Delivery Network (CDN) is a network of servers strategically distributed around the world to help deliver web content, such as web pages, images, videos, and other resources, to users more efficiently and quickly.
 
-<img src="../../../../images/websites/cdn-info.jpg" alt="CDN Accordion" style="width: 43%;"></a>
+<p><img src="../../../../images/websites/cdn-info.jpg" alt="CDN Accordion" style="width: 43%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -55,14 +53,14 @@ Enable CDN | Click to enable CDN and to display the rest of the options.
 CDN website address | Provide the CDN website address or origin URL.
 CDN Provider | Choose your CDN provider from the dropdown.
 AWS CDN (distribution) | Provide the AWS CDN.
-AWS Account Config | This link will redirect you the config section to configure your <a href="/admin/settings/config/#aws">AWS Account</a>.
+AWS Account Config | This link will redirect you the config section to configure your [AWS Account](/admin/settings/config/#aws).
 
 ## SSL Information
 
 Secure Sockets Layer (SSL) is a technology for establishing a secure and encrypted connection between a server and a client.
 Here you can manage your SSL information.
 
-<img src="../../../../images/websites/ssl-info.jpg" alt="SSL Accordion" style="width: 45%;"></a>
+<p><img src="../../../../images/websites/ssl-info.jpg" alt="SSL Accordion" style="width: 45%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -76,7 +74,7 @@ SSL Chain Certificate | There are two certificate authorities (CAs) types: root 
 
 In this section, you can upload a shortcodes file, export packages, and adjust the timezone.
 
-<img src="../../../../images/websites/advanced-settings.jpg" alt="Advanced Accordion" style="width: 40%;"></a>
+<p><img src="../../../../images/websites/advanced-settings.jpg" alt="Advanced Accordion" style="width: 40%;"></p>
 
 **Name** | **Description** 
 :--- | ---

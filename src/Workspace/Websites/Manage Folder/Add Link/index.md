@@ -2,7 +2,7 @@
 
 You can add an URL link to your website. On Solodev, links are used on navigation elements.
 
-<img src="../../../../images/folders/add-link.jpg" alt="Add Link" style="width: 40%;"></a>
+<p><img src="../../../../images/folders/add-link.jpg" alt="Add Link" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---

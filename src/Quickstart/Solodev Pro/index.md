@@ -92,12 +92,12 @@ Stack name | The name of your stack (set to "solodev-cms-pro" by default). Pleas
 
 **Name** | **Description** 
 :--- | ---
-VPCID | Choose which VPC the application should be deployed to
-PublicSubnet1ID | The ID of the public subnet in Availability Zone 1 in your existing VPC (e.g., subnet-a0246dcd)
-PublicSubnet2ID | The ID of the public subnet in Availability Zone 2 in your existing VPC (e.g., subnet-b1236eea)
-InstanceType | The EC2 instance type you wish to launch
-KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances
-CookbookURL | Host on your own S3 bucket (preselected)
+VPCID | Choose which VPC the application should be deployed to.
+PublicSubnet1ID | The ID of the public subnet in Availability Zone 1 in your existing VPC (e.g., subnet-a0246dcd).
+PublicSubnet2ID | The ID of the public subnet in Availability Zone 2 in your existing VPC (e.g., subnet-b1236eea).
+InstanceType | The EC2 instance type you wish to launch.
+KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances.
+CookbookURL | Host on your own S3 bucket (preselected).
 
 <p><img src="../../images/quickstart/network-setup.png" alt="CMS Pro Network Setup" style="width: 80%;"></p>
 
@@ -105,9 +105,9 @@ CookbookURL | Host on your own S3 bucket (preselected)
 
 **Name** | **Description** 
 :--- | ---
-AdminUser | Name of the admin user
-AdminPassword | ***Password must be between 1-41 characters. All characters are allowed***
-DatabasePassword | ***Password must be between 8-41 characters. Only alphanumeric characters are allowed***
+AdminUser | Name of the admin user.
+AdminPassword | ***Password must be between 1-41 characters. All characters are allowed***.
+DatabasePassword | ***Password must be between 8-41 characters. Only alphanumeric characters are allowed***.
 StorageEncrypted | Enable encryption both Database (RDS) and Filesystem (EFS). True or False.
 
 <p><img src="../../images/quickstart/cms-settings.png" alt="CMS Pro Settings" style="width: 80%;"></p>
@@ -116,9 +116,9 @@ StorageEncrypted | Enable encryption both Database (RDS) and Filesystem (EFS). T
 
 **Name** | **Description** 
 :--- | ---
-WebsiteUrl | Name of your first Solodev website
-RestoreBucketName | Name of the S3 bucket containing files for restore
-DeletionPolicy | Experimental: Deletion Policy (Retain, Delete, Snapshot)
+WebsiteUrl | Name of your first Solodev website.
+RestoreBucketName | Name of the S3 bucket containing files for restore.
+DeletionPolicy | Experimental: Deletion Policy (Retain, Delete, Snapshot).
 CertificateArn | CertificateArn for SSL cert that matches the FQDN above.
 
 <p><img src="../../images/quickstart/optional-settings.png" alt="CMS Pro Optional Settings" style="width: 80%;"></p>
@@ -160,7 +160,7 @@ Visit the IP address or the backend domain you previously configured. Log in to 
 
 ## Add your First Website
 
-Please follow this [link](/tutorials/websites/add-website/), and you will learn how to build your first website.
+Please [follow this link](/dashboard/) to learn more about Solodev and to learn how to build your first website.
 
 ## Canceling your subscription
 

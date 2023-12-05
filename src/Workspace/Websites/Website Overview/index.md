@@ -1,6 +1,6 @@
 # Website Overview
 
-You can manage any website in your Solodev CMS to update details, adjust settings, apply redirects, and modify permissions for your team. You will also have access to the <a href="/workspace/websites/website-overview/#web-files">web files</a> and <a href="/workspace/websites/website-overview/#www">www</a> folders for managing your website's pages, templates, and other assets. 
+You can manage any website in your Solodev CMS to update details, adjust settings, apply redirects, and modify permissions for your team. You will also have access to the [web files](/workspace/websites/website-overview/#web-files) and [www](/workspace/websites/website-overview/#www) folders for managing your website's pages, templates, and other assets. 
 
 ## Website Dashboard
 
@@ -9,42 +9,42 @@ After selecting an active website in your Solodev CMS, you will be directed to y
 Using the left-hand menu, you can access the **web files** and **www folder** that power your website. You can also toggle between different website projects using the dropdown menu.
 
 !!!Note:
-Click the **Main** button or your **organization’s logo** in the upper left corner to return to the main <a href="/workspace/websites/">Websites</a> dashboard. 
+Click the **Main** button or your **organization’s logo** in the upper left corner to return to the main [Websites](/workspace/websites) dashboard. 
 !!!
 
-<img src="../../../images/website_overview_3.jpg" alt="website-overview-image" style="width: 100%; display: block"></a>
+<p><img src="../../../images/websites/overview/website_overview.jpg" alt="Website Dashboard"></p>
 
 **Name** | **Description** 
 :--- | ---
-<a href="/workspace/websites/settings">Settings</a> | Manage your URL, domain information, Sitemap, CDN, SSL information, and advanced functions.
-<a href="/workspace/websites/redirects">Redirects</a> | Review and manage the website pages with 301 redirects and review the **.htaccess history**.
-<a href="/workspace/websites/update-website">Update Website</a> | Add details like site title, social media links, meta information, and custom pages like 404 or logins. 
-<a href="/workspace/websites/permissions">Permissions</a> | Manage roles for users and groups on your team.
+[Settings](/workspace/websites/settings) | Manage your URL, domain information, Sitemap, CDN, SSL information, and advanced functions.
+[Redirects](/workspace/websites/redirects) | Review and manage the website pages with 301 redirects and review the **.htaccess history**.
+[Update Website](/workspace/websites/update-website) | Add details like site title, social media links, meta information, and custom pages like 404 or logins. 
+[Permissions](/workspace/websites/permissions) | Manage roles for users and groups on your team.
 
 You can quickly link to the most recent pages, template files, documents, or images you have worked on from the website overview.
 
 To access a specific file, click on a row in the **Recent Files** table.
 
-<img src="../../../images/recentfiles2.jpg" alt="recent files" style="width: 70%; display: block"></a>
+<p><img src="../../../images/websites/overview/recent-files.jpg" alt="Recent files table" style="width: 70%;"></p>
 
 ## web files and www 
 
 Solodev has a unique, folder-based site structure for managing and building websites. This consists of two core folders: web files and www. These folders mutually reinforce one another and help power your website's content, code, and pages.
 
-After <a href="/workspace/websites/add-website/">adding a website</a> to your Solodev CMS, you can access the web files and www folder from the left-hand menu on your main website dashboard. 
+After [adding a website](/workspace/websites/add-website) to your Solodev CMS, you can access the web files and www folder from the left-hand menu on your main website dashboard. 
 
 ### web files 
-The web files folder houses the backend elements that power the structure of your website. This includes navigational and layout templates, HTML, imagery and content, <a href="/workspace/modules/">modules</a>, <a href="/workspace/forms/">forms</a>, and other components. From .tpl code to SCSS, you can <a href="/workspace/websites/update-web-files/">update web files</a> from this folder.
+The web files folder houses the backend elements that power the structure of your website. This includes navigational and layout templates, HTML, imagery and content, [modules](/workspace/modules), [forms](/workspace/forms), and other components. From .tpl code to SCSS, you can [update web files](/workspace/websites/update-web-files) from this folder.
 
 ### www
-The www folder includes all the frontend pages and files that are publicly accessible when a visitor navigates your website. The www folder is where you can <a href="/workspace/websites/update-page/">update the pages</a> on your website.
+The www folder includes all the frontend pages and files that are publicly accessible when a visitor navigates your website. The www folder is where you can [update the pages](/workspace/websites/update-page) on your website.
 
 ### Using web files and www 
 
 There are several functions you can perform in web files and www at the folder and the file level:
 
-*	<a href="/workspace/websites/manage-folder/update-folder/">Update the folder</a> properties by clicking on the folder icon or text.
+*	[Update the folder](/workspace/websites/manage-folder/update-folder) properties by clicking on the folder icon or text.
 
 *	Access the contents of either folder by clicking on the triangle drop-down icon to the left of each folder icon. 
 
-*	Under the www folder, you can use all the same functions as web files, but also <a href="/workspace/websites/manage-folder/add-page/">add a page</a> or <a href="/workspace/websites/update-page/">update a page</a>.
+*	Under the www folder, you can use all the same functions as web files, but also [add a page](/workspace/websites/manage-folder/add-page) or [update a page](/workspace/websites/update-page).

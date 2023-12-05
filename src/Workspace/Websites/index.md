@@ -4,7 +4,7 @@ From the main Websites dashboard, you can view and access the existing websites 
 
 To modify a website, click on a thumbnail image or a website name from the table. This will link you to the website’s main CMS dashboard. 
 
-<img src="../../../images/websites.jpg" alt="websites" style="width: 100%; display: block"></a>
+<p><img src="../../../images/websites/websites.jpg" alt="Websites table"></p>
 
 !!!Tip:
 Use the search field in the upper right corner to locate or filter specific websites in your CMS.
@@ -12,7 +12,7 @@ Use the search field in the upper right corner to locate or filter specific webs
 
 **Name** | **Description** 
 :--- | ---
-<a href="/workspace/websites/add-website/">Add Website</a> | Create a new website in your CMS deployment.
+[Add Website](/workspace/websites/add-website/) | Create a new website in your CMS deployment.
 
 You can access a website by clicking either the image or its name listed in the table.
 

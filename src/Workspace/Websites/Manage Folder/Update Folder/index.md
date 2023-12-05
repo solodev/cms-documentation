@@ -2,22 +2,22 @@
 
 Folders are built in a nested tree hierarchy and serve as containers for all Solodev resources, including files and folders for the website(s). Modify and customize folders to suit your needs. A folder can be used as a company intranet document repository or to store HTML, TPL, and STML files destined for the web.
 
-<img src="../../../../images/folders/update-folder.jpg" alt="Update Folder Modal" style="width: 45%;"></a>
+<p><img src="../../../../images/folders/update-folder.jpg" alt="Update Folder Modal" style="width: 45%;"></p>
 
 **Name** | **Description**
 :--- | ---
 Name | Update the folder name. The name of the folder should be lowercase and separated with dashes.
 Title | Add or update the folder title. This will be the Title displayed on your site. 
 Description | You can add or modify the folder description. This description can be utilized on your website's frontend or<br> for organizational purposes.
-<a href="/workspace/websites/manage-folder/update-folder/#website-properties">Website Properties</a> | Manage website properties.
-<a href="/workspace/websites/manage-folder/update-folder/#advanced">Advanced</a> | Execute advanced operations.
+[Website Properties](/workspace/websites/manage-folder/update-folder/#website-properties) | Manage website properties.
+[Advanced](/workspace/websites/manage-folder/update-folder/#advanced) | Execute advanced operations.
 Submit | Once you have completed all the fields, click **Submit** to apply your changes.
 
 ## Website Properties
 
 Control how folders work with websites.
 
-<img src="../../../../images/folders/website-properties.jpg" alt="Website Properties Accordion" style="width: 43%;"></a>
+<p><img src="../../../../images/folders/website-properties.jpg" alt="Website Properties Accordion" style="width: 43%;"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -35,7 +35,7 @@ Restrict Access in Website to Authorized Users | Allows access to the folder and
 
 Execute advanced operations.
 
-<img src="../../../../images/folders/advanced.jpg" alt="Advanced Accordion" style="width: 43%;"></a>
+<p><img src="../../../../images/folders/advanced.jpg" alt="Advanced Accordion" style="width: 43%;"></p>
 
 **Name** | **Description**
 :--- | ---

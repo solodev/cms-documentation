@@ -1,6 +1,6 @@
 # Add Page
 
-A page is the basic building block of a website. It acts as a container for your content while providing a general structure based on your <a href="/tutorials/websites/add-page-template/">page template</a> and styling.
+A page is the basic building block of a website. It acts as a container for your content while providing a general structure based on your [page template](/tutorials/websites/add-page-template/) and styling.
 
 ## STML Files 
 
@@ -10,10 +10,7 @@ While a page is composed of hypertext markup and served in a browser, all pages 
 if you're creating an HTML page with a code editor, you need to manually give it an extension of ".stml" before you upload the file to your Solodev CMS.
 !!!
 
-<img src="../../../../images/folders/add-page.jpg" alt="Add Page" style="width: 40%;">
-
-<br>
-<br>
+<p><img src="../../../../images/folders/add-page.jpg" alt="Add Page" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---

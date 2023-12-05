@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-12-04T22:14:17Z",
+  "created": "2023-12-05T14:56:01Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -713,25 +713,31 @@
       "path": "images\\cmsproawssubscribe1.png"
     },
     {
-      "path": "images\\cmsproawssubscribe10.png"
+      "path": "images\\cmsproawssubscribe10.png",
+      "old": true
     },
     {
       "path": "images\\cmsproawssubscribe11.png"
     },
     {
-      "path": "images\\cmsproawssubscribe12.png"
+      "path": "images\\cmsproawssubscribe12.png",
+      "old": true
     },
     {
-      "path": "images\\cmsproawssubscribe13.png"
+      "path": "images\\cmsproawssubscribe13.png",
+      "old": true
     },
     {
-      "path": "images\\cmsproawssubscribe14.png"
+      "path": "images\\cmsproawssubscribe14.png",
+      "old": true
     },
     {
-      "path": "images\\cmsproawssubscribe15.png"
+      "path": "images\\cmsproawssubscribe15.png",
+      "old": true
     },
     {
-      "path": "images\\cmsproawssubscribe16.png"
+      "path": "images\\cmsproawssubscribe16.png",
+      "old": true
     },
     {
       "path": "images\\cmsproawssubscribe2.png"
@@ -755,10 +761,12 @@
       "old": true
     },
     {
-      "path": "images\\cmsproawssubscribe8.png"
+      "path": "images\\cmsproawssubscribe8.png",
+      "old": true
     },
     {
-      "path": "images\\cmsproawssubscribe9.png"
+      "path": "images\\cmsproawssubscribe9.png",
+      "old": true
     },
     {
       "path": "images\\config.jpg"
@@ -1803,7 +1811,13 @@
       "old": true
     },
     {
+      "path": "images\\quickstart\\acknowledge.png"
+    },
+    {
       "path": "images\\quickstart\\aws-pro-subscribe-header.jpg"
+    },
+    {
+      "path": "images\\quickstart\\aws-pro-subscribe-terms.jpg"
     },
     {
       "path": "images\\quickstart\\aws-pro-subscribe.jpg"
@@ -1818,10 +1832,31 @@
       "path": "images\\quickstart\\cms-pro-launch-cloudformation.jpg"
     },
     {
+      "path": "images\\quickstart\\cms-settings.png"
+    },
+    {
       "path": "images\\quickstart\\create-stack.jpg"
     },
     {
+      "path": "images\\quickstart\\login-screen.png"
+    },
+    {
+      "path": "images\\quickstart\\network-setup.png"
+    },
+    {
+      "path": "images\\quickstart\\optional-settings.png"
+    },
+    {
       "path": "images\\quickstart\\solodev-cms-pro.jpg"
+    },
+    {
+      "path": "images\\quickstart\\stack-complete.png"
+    },
+    {
+      "path": "images\\quickstart\\stack-creation.png"
+    },
+    {
+      "path": "images\\quickstart\\stack-delete.png"
     },
     {
       "path": "images\\quickstart\\stack-name.png"
