@@ -23,7 +23,7 @@ In Solodev, you can control user access to your front-end website by implementin
 
 ## Create a login page
 
-**Step 1**. Follow [these steps](../../../../../workspace/websites/manage-folder/add-page/) to create a page.
+**Step 1**. Follow [these steps](../../../../../workspace/websites/manage-folder/add-page/) to create a page. Shortcodes for creating a login page [can be found here](/shortcodes/shortcodes-for-login-forms).
 
 **Step 2**. Go back to the dashboard and on the right-side menu, click on **Update Website**.
 

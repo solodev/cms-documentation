@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-12-05T14:56:01Z",
+  "created": "2023-12-20T22:25:39Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -320,7 +320,8 @@
       "path": "images\\add-site-form.jpg"
     },
     {
-      "path": "images\\add-site-form1.jpg"
+      "path": "images\\add-site-form1.jpg",
+      "old": true
     },
     {
       "path": "images\\add-task.png"
@@ -844,13 +845,30 @@
       "path": "images\\customize-theme.jpg"
     },
     {
-      "path": "images\\dashboard-profile.png"
+      "path": "images\\dashboard-profile.png",
+      "old": true
     },
     {
       "path": "images\\dashboard.jpg"
     },
     {
-      "path": "images\\dashboard10.png"
+      "path": "images\\dashboard\\dashboard-profile.png"
+    },
+    {
+      "path": "images\\dashboard\\dashboard.png"
+    },
+    {
+      "path": "images\\dashboard\\recent-files.png"
+    },
+    {
+      "path": "images\\dashboard\\search.png"
+    },
+    {
+      "path": "images\\dashboard\\websites.png"
+    },
+    {
+      "path": "images\\dashboard10.png",
+      "old": true
     },
     {
       "path": "images\\dashboard2.jpg"
@@ -1065,7 +1083,8 @@
       "path": "images\\filesystem2.jpg"
     },
     {
-      "path": "images\\folder-permissions.png"
+      "path": "images\\folder-permissions.png",
+      "old": true
     },
     {
       "path": "images\\folders\\add-collection.jpg"
@@ -1561,7 +1580,8 @@
       "path": "images\\manage-folder.png"
     },
     {
-      "path": "images\\manage-website.jpg"
+      "path": "images\\manage-website.jpg",
+      "old": true
     },
     {
       "path": "images\\manage.png"
@@ -1772,6 +1792,9 @@
       "path": "images\\permissions.png"
     },
     {
+      "path": "images\\permissions\\folder-permissions.png"
+    },
+    {
       "path": "images\\permissions\\general-permissions.jpg"
     },
     {
@@ -1866,7 +1889,8 @@
       "old": true
     },
     {
-      "path": "images\\recentfiles2.jpg"
+      "path": "images\\recentfiles2.jpg",
+      "old": true
     },
     {
       "path": "images\\redirect-history.jpg",
@@ -2145,6 +2169,30 @@
       "path": "images\\topnav-template.jpg"
     },
     {
+      "path": "images\\tutorials\\restrict-users\\tutorials-checkbox.jpg"
+    },
+    {
+      "path": "images\\tutorials\\restrict-users\\tutorials-custom-pages.jpg"
+    },
+    {
+      "path": "images\\tutorials\\restrict-users\\tutorials-folder.jpg"
+    },
+    {
+      "path": "images\\tutorials\\restrict-users\\tutorials-login-page.jpg"
+    },
+    {
+      "path": "images\\tutorials\\restrict-users\\tutorials-login.jpg"
+    },
+    {
+      "path": "images\\tutorials\\restrict-users\\tutorials-shortcode.jpg"
+    },
+    {
+      "path": "images\\tutorials\\restrict-users\\tutorials-update-folder.jpg"
+    },
+    {
+      "path": "images\\tutorials\\restrict-users\\tutorials-update-website.jpg"
+    },
+    {
       "path": "images\\two-column-template.png"
     },
     {
@@ -2188,13 +2236,16 @@
       "path": "images\\updated_db.png"
     },
     {
-      "path": "images\\updated_db2.png"
+      "path": "images\\updated_db2.png",
+      "old": true
     },
     {
-      "path": "images\\updated_db3.png"
+      "path": "images\\updated_db3.png",
+      "old": true
     },
     {
-      "path": "images\\updated_db4.png"
+      "path": "images\\updated_db4.png",
+      "old": true
     },
     {
       "path": "images\\upload-files.png",
@@ -2259,7 +2310,8 @@
       "path": "images\\website_overview_1.jpg"
     },
     {
-      "path": "images\\website_overview_3.jpg"
+      "path": "images\\website_overview_3.jpg",
+      "old": true
     },
     {
       "path": "images\\website_overview.jpg"
@@ -2456,7 +2508,11 @@
       "path": "images\\websites-update9.jpg"
     },
     {
-      "path": "images\\websites.jpg"
+      "path": "images\\websites.jpg",
+      "old": true
+    },
+    {
+      "path": "images\\websites\\add-site-form.jpg"
     },
     {
       "path": "images\\websites\\advanced-settings.jpg"
@@ -2486,6 +2542,9 @@
       "path": "images\\websites\\file-task.jpg"
     },
     {
+      "path": "images\\websites\\folder\\folder.jpg"
+    },
+    {
       "path": "images\\websites\\includes.jpg"
     },
     {
@@ -2493,6 +2552,12 @@
     },
     {
       "path": "images\\websites\\metadata-panel-advanced.jpg"
+    },
+    {
+      "path": "images\\websites\\overview\\recent-files.jpg"
+    },
+    {
+      "path": "images\\websites\\overview\\website_overview.jpg"
     },
     {
       "path": "images\\websites\\overwrite-file.jpg"
@@ -2520,6 +2585,9 @@
     },
     {
       "path": "images\\websites\\website-settings.jpg"
+    },
+    {
+      "path": "images\\websites\\websites.jpg"
     },
     {
       "path": "images\\websites2.jpg"
@@ -2555,13 +2623,17 @@
       "path": "images\\workflowoverview2.jpg"
     },
     {
+      "path": "images\\workspace-menu.jpg"
+    },
+    {
       "path": "images\\workspace.jpg"
     },
     {
       "path": "images\\workspace.png"
     },
     {
-      "path": "images\\workspace11.jpg"
+      "path": "images\\workspace11.jpg",
+      "old": true
     },
     {
       "path": "images\\wowza.jpg"
@@ -3056,6 +3128,9 @@
     },
     {
       "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\index.html"
+    },
+    {
+      "path": "tutorials\\integrations\\solodev\\how-to-restrict-access-in-website-to-authorized-users\\index.html"
     },
     {
       "path": "tutorials\\integrations\\solodev\\index.html"
