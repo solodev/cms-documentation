@@ -54,4 +54,4 @@ If you go to the front-end of your site before having a login page set and after
 
 **Step 2**. Go to the front-end to check you see the login page when you try to go to the desired restricted page. 
 
-<p><img src="../../../../images/tutorials/restrict-users/tutorials-login.jpg" alt="Login Front-end Page"></p>
+<p><img src="../../../../images/tutorials/restrict-users/tutorials-customer-login.jpg" alt="Login Front-end Page"></p>
