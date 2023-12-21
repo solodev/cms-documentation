@@ -45,7 +45,7 @@ In Solodev, you can control user access to your front-end website by implementin
 [contact_form_session]
 ```
 
-<p><img src="../../../../images/tutorials/restrict-users/tutorials-shortcode.jpg" alt="Shortcode on file" style="width: 50%;"></p>
+<p><img src="../../../../images/tutorials/restrict-users/tutorials-shortcode.png" alt="Shortcode on file" style="width: 50%;"></p>
 
 !!! Note:
 If you go to the front-end of your site before having a login page set and after adding the shortcode, the page is going to show a 404 page.
