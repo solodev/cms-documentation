@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2023-12-21T19:37:12Z",
+  "created": "2023-12-21T20:05:20Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2187,7 +2187,11 @@
       "path": "images\\tutorials\\restrict-users\\tutorials-login.jpg"
     },
     {
-      "path": "images\\tutorials\\restrict-users\\tutorials-shortcode.jpg"
+      "path": "images\\tutorials\\restrict-users\\tutorials-shortcode.jpg",
+      "old": true
+    },
+    {
+      "path": "images\\tutorials\\restrict-users\\tutorials-shortcode.png"
     },
     {
       "path": "images\\tutorials\\restrict-users\\tutorials-update-folder.jpg"

@@ -173,23 +173,23 @@ Attributes ```[social_share_img]```:
 
 **Attributes** | **Description** 
 :--- | ---
-```[domain]```(required) | "www.yourdomain.com".
-```[protocol]```(required) | HTTP or HTTPS.
-```[facebook]```(required) | Boolean (true or false).
-```[twitter]```(required) | Boolean (true or false).
-```[linkedin]```(required) | Boolean (true or false).
-```[image_location]```(optional) | Path to the image folder. If not set, the default is /assets/portal/images/solodev.
-```[image_extension]```(optional) | Extension of the social media image. If not set the default is .jpg.  
+```[domain]``` (required) | "www.yourdomain.com".
+```[protocol]``` (required) | HTTP or HTTPS.
+```[facebook]``` (required) | Boolean (true or false).
+```[twitter]``` (required) | Boolean (true or false).
+```[linkedin]``` (required) | Boolean (true or false).
+```[image_location]``` (required) | Path to the image folder. If not set, the default is /assets/portal/images/solodev.
+```[image_extension]``` (required) | Extension of the social media image. If not set the default is .jpg.
 
 Attributes ```[social_share_fa]```: 
 
 **Attributes** | **Description** 
 :--- | ---
-```[domain]```(required) | "www.yourdomain.com".
-```[protocol]```(required) | HTTP or HTTPS.
-```[facebook]```(required) | Boolean (true or false).
-```[twitter]```(required) | Boolean (true or false).
-```[linkedin]```(required) | Boolean (true or false).
+```[domain]``` (required) | "www.yourdomain.com".
+```[protocol]``` (required) | HTTP or HTTPS.
+```[facebook]``` (required) | Boolean (true or false).
+```[twitter]``` (required) | Boolean (true or false).
+```[linkedin]``` (required) | Boolean (true or false).
 
 Shortcode:
 
