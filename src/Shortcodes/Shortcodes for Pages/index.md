@@ -178,8 +178,10 @@ Attributes ```[social_share_img]```:
 ```[facebook]``` (required) | Boolean (true or false).
 ```[twitter]``` (required) | Boolean (true or false).
 ```[linkedin]``` (required) | Boolean (true or false).
-```[image_location]``` (required) | Path to the image folder. If not set, the default is /assets/portal/images/solodev.
-```[image_extension]``` (required) | Extension of the social media image. If not set the default is .jpg.
+```[image_location]``` (required) | Path to the image folder.
+```[image_extension]``` (required) | Extension of the social media image.
+<!-- ```[image_location]``` (required) | Path to the image folder. If not set, the default is /assets/portal/images/solodev.
+```[image_extension]``` (required) | Extension of the social media image. If not set the default is .jpg. -->
 
 Attributes ```[social_share_fa]```: 
 
