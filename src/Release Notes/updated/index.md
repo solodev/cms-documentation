@@ -1,7 +1,32 @@
 # Release Notes
 
+### v10.2
+Solodev CMS 10.2 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system.
+Version 10.2 introduces new features meticulously crafted to enhance your platform experience by streamlining workflows.
+
+#### Key Release Highlights
+ - Eliminated the requirement for the stml extension
+
+#### New Features
+ - Developed new cloud formation templates for Slim4 builds
+ - Introduced a new Website dashboard on CMS
+ - Implemented the ability to build a CMS instance without OpsWorks using CloudFormation
+ - Added error handling for users creating modules in the backend
+
+#### Improvements
+ - Implemented a custom PHP error handler for the frontend
+ - Updated chef scripts to be compatible with both old and new versions of the CMS	
+ - Enhanced modernizer to operate on CMS versions equal to or above v10
+ - Improved handling of non-assets being inserted into dynamic divs
+
+#### Bug Fixes
+ - Addressed and resolved Mobile Nav Issues
+ - Updated the method of displaying frontend forms
+
+---
+
 ### v10.1
-Solodev CMS 10 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system.
+Solodev CMS 10.1 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system.
 Version 10.1 marks a significant advancement in our core technology, focusing on enhancing performance, optimization, and security of our system by adopting Slim4 as the primary core, thereby strengthening our platform and improving all its capabilities. This version introduces significant changes in the user interface, designed to make it more comfortable and intuitive.
 
 #### Key Release Highlights

@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2024-02-12T15:36:35Z",
+  "created": "2024-03-21T21:08:06Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -708,8 +708,7 @@
       "path": "images\\clicktracking.jpg"
     },
     {
-      "path": "images\\cmsenterpriseawssubscribe1.png",
-      "old": true
+      "path": "images\\cmsenterpriseawssubscribe1.png"
     },
     {
       "path": "images\\cmsproawssubscribe1.png"
@@ -1862,13 +1861,16 @@
       "path": "images\\quickstart\\create-stack.jpg"
     },
     {
-      "path": "images\\quickstart\\enterprise\\cms-enterprise-aws-subscribe.png"
+      "path": "images\\quickstart\\enterprise\\cms-enterprise-aws-subscribe.png",
+      "old": true
     },
     {
-      "path": "images\\quickstart\\enterprise\\solodev_enterprise_architecture.jpg"
+      "path": "images\\quickstart\\enterprise\\solodev_enterprise_architecture.jpg",
+      "old": true
     },
     {
-      "path": "images\\quickstart\\kubernetes\\solodev_eks_architecture.jpg"
+      "path": "images\\quickstart\\kubernetes\\solodev_eks_architecture.jpg",
+      "old": true
     },
     {
       "path": "images\\quickstart\\login-screen.png"
@@ -2071,8 +2073,7 @@
       "path": "images\\solodevbanner2.png"
     },
     {
-      "path": "images\\solodevcmsenterprise.jpg",
-      "old": true
+      "path": "images\\solodevcmsenterprise.jpg"
     },
     {
       "path": "images\\solodevcmsenterprise.png"
@@ -2751,6 +2752,9 @@
     },
     {
       "path": "release-notes\\index.html"
+    },
+    {
+      "path": "release-notes\\updated\\index.html"
     },
     {
       "path": "resources\\css\\retype.css"
