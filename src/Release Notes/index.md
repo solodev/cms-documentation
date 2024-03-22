@@ -1,5 +1,110 @@
 # Release Notes
 
+### v10.4
+Solodev CMS 10.4 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. 
+Version 10.4 optimizes the platform’s performance and modernizes code to reflect current technologies and practices, including greater control over picking website types and an update to webpack.
+
+#### Key Release Highlights
+ - New capability to select website entity type as CMS or Standard
+ - Major update to webpack (JS and CSS) in the CMS
+
+#### New Features
+ - Support for setting module entry category and status via CSV import
+ - Enhanced filtering capabilities for future events
+ - New permission checks to improve security of websites
+
+#### Improvements
+ - Added filter preservation when making edits to modules
+ - Updated universal search by entering folder ID
+ - Improved uploading of social images and copy/move functions
+ - Updated tab names in the entry details
+ - Enhanced Generate Sitemap functionality
+ - Updated Experiment action
+
+#### Bug Fixes
+ - Fixed the Modified By field in the datatable entry
+ - Fixed issue with maintaining form value if captcha is incorrect
+ - Fixed duplicate breadcrumb
+
+---
+
+### v10.3
+Solodev CMS 10.3 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. 
+Version 10.3 optimizes the platform’s performance and modernizes code to reflect current technologies and practices, including an improved experience for handling ZIP packages. 
+
+#### Key Release Highlights
+ - Streamlined and more lenient process for creating and importing ZIP packages 
+ - New Delete and Unlink functionality 
+
+#### New Features
+ - Created generic “Not Found” page for objects
+ - Added name of file in the Confirm box to delete or unlink from event entries
+
+#### Improvements
+ - Improved module import package, making it less restrictive
+ - Restored ability to open a new datatable or Calendar entry when copied
+ - Added File Map feature in the Calendar entry
+
+#### Bug Fixes
+ - Fixed checkbox for saving in Categories
+ - Fixed inputs with wrong /> markup
+ - Fixed tickler email notification showing HTML input markup
+
+---
+
+### v10.2
+Solodev CMS 10.2 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. 
+Version 10.2 optimizes the platform’s performance and modernizes code to reflect current technologies and practices, including a new Website Dashboard.
+
+#### Key Release Highlights
+ - New streamlined Website Dashboard in the CMS
+ - STML (.stml) file name extensions are no longer required 
+
+#### New Features
+ - AWS CloudFormation templates for Slim 4 builds
+ - Ability to launch a CMS instance without AWS OpsWorks using CloudFormation
+ - Error handling when users create modules in the backend 
+
+#### Improvements
+ - Created custom PHP error handler for the frontend
+ - Updated modernizer to run on CMS versions v10 and higher
+ - Prevented non-assets from being inserted into dynamic divs
+ - Added ability for module search to filter by user name
+
+#### Bug Fixes
+ - Updated and fixed mobile navigation issues
+ - Fixed issue with the method for displaying frontend forms
+
+---
+
+### v10.1
+Solodev CMS 10.1 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system.
+Version 10.1 optimizes the platform’s performance and modernizes code to reflect current technologies and practices, including a major Slim 4 upgrade.
+
+#### Key Release Highlights
+ - Slim 4 PHP framework upgrade for dispatching HTTP requests and responses
+ - New module search feature that enables filtering by user name
+
+#### New Features
+ - Meta information incorporated into default CMS view
+ - Version parameter added to JavaScript includes to prevent caching after CMS updates
+ - Chef scripts now compatible with Slim 4 in old and new versions of CMS
+
+#### Improvements
+ - Improved STML page view includes more file information on initial view
+ - Enhanced Dynamic Div feedback		
+ - Removed missing elements notification from frontend		
+ - Simplified Add Module process while giving end user option to upload zip file		
+ - Added CSV extension for the exported files from managers		
+ - Updated add operations and views of Experiments, Scheduler, Collection, and Group
+
+#### Bug Fixes
+ - Fixed export function to add CSV extension
+ - Removed erroneous code from Form Email		
+ - Fixed deleting and unlinking image uploads from managers		
+
+---
+
 ### v10.0
 
 Solodev CMS 10 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. Version 10 optimizes the platform's performance and modernizes code to reflect current technologies and practices, including a major PHP code update that addresses security concerns. 
