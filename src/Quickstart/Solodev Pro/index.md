@@ -4,7 +4,7 @@ Solodev CMS Professional Edition is a business-grade content management system b
 
 ## Overview
 
-Solodev CMS Professional Edition deploys on a single AWS EC2 instance fully managed by AWS OpsWorks and features its own MySQL database. This lightweight architecture allows your websites and apps to meet variable traffic demands while maintaining uptime at a reasonable cost. 
+Solodev CMS Professional Edition deploys on a single AWS EC2 instance and features its own MySQL database. This lightweight architecture allows your websites and apps to meet variable traffic demands while maintaining uptime at a reasonable cost. 
 
 Solodev CMS Professional Edition is available in the AWS Marketplace and can be instantly deployed in your account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="_blank" rel="noopener noreferrer">AWS CloudFormation</a>. It leverages an advanced stack of AWS cloud services to deliver a scalable and reliable workload, including:
 
@@ -15,6 +15,7 @@ Solodev CMS Professional Edition is available in the AWS Marketplace and can be 
 * <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target="_blank" rel="noopener noreferrer">Amazon Elastic Compute Cloud (EC2)</a>
 * <a href="https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html" target="_blank" rel="noopener noreferrer">Amazon Elastic File System (EFS)</a>
 * <a href="https://aws.amazon.com/elasticache/redis/" target="_blank" rel="noopener noreferrer">Amazon Elasticache for Redis</a>
+* <a href="https://aws.amazon.com/systems-manager/" target="_blank">AWS Systems Manager</a>
 * <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html" target="_blank" rel="noopener noreferrer">Amazon Relational Database Service (RDS) MySql</a>
 * <a href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html" target="_blank" rel="noopener noreferrer">Amazon Route 53</a>
 * <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html" target="_blank" rel="noopener noreferrer">Amazon Simple Storage Service (S3)</a>
@@ -23,7 +24,7 @@ Solodev CMS Professional Edition is available in the AWS Marketplace and can be 
 
 Additional technology frameworks and libraries include <a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer">Linux</a>, <a href="https://www.apache.org/" target="_blank" rel="noopener noreferrer">Apache</a>, <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">MySQL</a>, <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">PHP</a>, <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python</a>, and more.
 
-<p><img src="../../images/quickstart/solodev-cms-pro.jpg" alt="AWS Cloud Diagram" style="width: 75%;"></p>
+<p><img src="../../images/quickstart/Solodev-CMS-Pro-Architecture-2024.jpg" alt="Solodev CMS Pro Architecture" style="width: 75%;"></p>
 
 ## Prerequisites
 
@@ -84,7 +85,7 @@ The following parameters must be configured to launch your Solodev DCX CloudForm
 
 **Parameter Description** | **Description** 
 :--- | ---
-Stack name | The name of your stack (set to "solodev-cms-pro" by default). Please note, the name can include letters (A-Z and a-z), numbers (0-9), and dashes (-).
+Stack name | The name of your stack (set to "solodev-pro" by default). Please note, the name can include letters (A-Z and a-z), numbers (0-9), and dashes (-).
 
 <p><img src="../../images/quickstart/stack-name.png" alt="CMS Pro Stack Name" style="width: 80%;"></p>
 

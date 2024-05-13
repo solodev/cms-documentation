@@ -16,7 +16,7 @@ Solodev CMS Enterprise Edition is available in the AWS Marketplace and can be in
 * <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target="_blank">Amazon Elastic Compute Cloud (EC2)</a>
 * <a href="https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html" target="_blank">Amazon Elastic File System (EFS)</a>
 * <a href="https://aws.amazon.com/elasticache/redis/" target="_blank">Amazon Elasticache for Redis</a>
-* <a href="https://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html" target="_blank">Amazon OpsWorks</a>
+* <a href="https://aws.amazon.com/systems-manager/" target="_blank">AWS Systems Manager</a>
 * <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html" target="_blank">Amazon Relational Database Service (RDS) MySql</a>
 * <a href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html" target="_blank">Amazon Route 53</a>
 * <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html" target="_blank">Amazon Simple Storage Service (S3)</a>
@@ -25,7 +25,7 @@ Solodev CMS Enterprise Edition is available in the AWS Marketplace and can be in
 
 Additional technology frameworks and libraries include <a href="https://www.linux.org/">Linux</a>, <a href="https://www.apache.org/">Apache</a>, <a href="https://www.mysql.com/">MySQL</a>, <a href="https://www.php.net/">PHP</a>, <a href="https://www.python.org/">Python</a>, and more.
 
-<img src="../../images/solodevcmsenterprise.jpg" alt="AWS Diagram" style="width: 80%; display: block"></a>
+<p><img src="../../images/quickstart/Solodev-CMS-Enterprise-Architecture-2024.jpg" alt="Solodev CMS Enterprise Architecture" style="width: 75%;"></p>
 
 ## Prerequisites
 
@@ -78,9 +78,9 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 
 **Parameter Description** | **Description** 
 :--- | ---
-Stack name | The name of your stack (set to "solodev-cms-opsworks" by default). Please note the name must be all lowercase.
+Stack name | The name of your stack (set to "solodev-enterprise" by default). Please note the name must be all lowercase.
 
-<img src="../../images/enterprise-stack-name.png" alt="Parameters " style="width: 100%; display: block"></a>
+<img src="../../images/enterprise-stack-name.png" alt="Parameters" style="width: 100%; display: block"></a>
 
 ####  Network Setup
 
