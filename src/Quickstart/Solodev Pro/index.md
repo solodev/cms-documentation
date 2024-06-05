@@ -98,9 +98,9 @@ PublicSubnet1ID | The ID of the public subnet in Availability Zone 1 in your exi
 PublicSubnet2ID | The ID of the public subnet in Availability Zone 2 in your existing VPC (e.g., subnet-b1236eea).
 InstanceType | The EC2 instance type you wish to launch.
 KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances.
-CookbookURL | Host on your own S3 bucket (preselected).
+CidrIpAccess | Please set CIDR to 0.0.0.0/0 to allow all IP addresses to access the web server on port 80 and 443
 
-<p><img src="../../images/quickstart/network-setup.png" alt="CMS Pro Network Setup" style="width: 80%;"></p>
+<p><img src="../../images/quickstart/pro/network-setup-pro.jpg" alt="CMS Pro Network Setup"></p>
 
 **CMS Settings**
 
@@ -111,18 +111,19 @@ AdminPassword | ***Password must be between 1-41 characters. All characters are 
 DatabasePassword | ***Password must be between 8-41 characters. Only alphanumeric characters are allowed***.
 StorageEncrypted | Enable encryption both Database (RDS) and Filesystem (EFS). True or False.
 
-<p><img src="../../images/quickstart/cms-settings.png" alt="CMS Pro Settings" style="width: 80%;"></p>
+<p><img src="../../images/quickstart/pro/cms-settings-pro.jpg" alt="CMS Pro Settings"></p>
 
 **Optional: Advanced**
 
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
+CookbookURL | https://s3.amazonaws.com/solodev-cms/chef/1.2/cookbooks.tar.gz | Download and host on your own S3 bucket or copy this URL.
 WebsiteUrl | Name of your first Solodev website.
-RestoreBucketName | Name of the S3 bucket containing files for restore.
 DeletionPolicy | Experimental: Deletion Policy (Retain, Delete, Snapshot).
-CertificateArn | CertificateArn for SSL cert that matches the FQDN above.
+CertificateArn | CertificateArn for SSL cert that matches the FQDN above. Please visit the AWS Certificate Manager.
+RestoreBucketName | Name of the S3 bucket containing files for restore.
 
-<p><img src="../../images/quickstart/optional-settings.png" alt="CMS Pro Optional Settings" style="width: 80%;"></p>
+<p><img src="../../images/quickstart/pro/pro-advanced.jpg" alt="CMS Pro Optional Settings"></p>
 
 !!! Note:
 Advanced options are not required in order to start Solodev CMS.
