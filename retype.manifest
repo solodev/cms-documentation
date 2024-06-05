@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2024-06-05T12:49:28Z",
+  "created": "2024-06-05T14:39:45Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1865,6 +1865,15 @@
       "path": "images\\quickstart\\enterprise\\cms-enterprise-aws-subscribe.png"
     },
     {
+      "path": "images\\quickstart\\enterprise\\cms-settings.jpg"
+    },
+    {
+      "path": "images\\quickstart\\enterprise\\enterprise-advanced.jpg"
+    },
+    {
+      "path": "images\\quickstart\\enterprise\\network-setup.jpg"
+    },
+    {
       "path": "images\\quickstart\\enterprise\\solodev_enterprise_architecture.jpg"
     },
     {
@@ -1878,6 +1887,15 @@
     },
     {
       "path": "images\\quickstart\\optional-settings.png"
+    },
+    {
+      "path": "images\\quickstart\\pro\\cms-settings-pro.jpg"
+    },
+    {
+      "path": "images\\quickstart\\pro\\network-setup-pro.jpg"
+    },
+    {
+      "path": "images\\quickstart\\pro\\pro-advanced.jpg"
     },
     {
       "path": "images\\quickstart\\solodev-cms-enterprise-architecture-2024.jpg"

@@ -25,7 +25,7 @@ Solodev CMS Enterprise Edition is available in the AWS Marketplace and can be in
 
 Additional technology frameworks and libraries include <a href="https://www.linux.org/" target="_blank">Linux</a>, <a href="https://www.apache.org/" target="_blank">Apache</a>, <a href="https://www.mysql.com/" target="_blank">MySQL</a>, <a href="https://www.php.net/" target="_blank">PHP</a>, <a href="https://www.python.org/" target="_blank">Python</a>, and more.
 
-<p><img src="../../images/quickstart/Solodev-CMS-Enterprise-Architecture-2024.jpg" alt="Solodev CMS Enterprise Architecture" style="width: 75%;"></p>
+<p><img src="../../images/quickstart/enterprise/Solodev-CMS-Enterprise-Architecture-2024.jpg" alt="Solodev CMS Enterprise Architecture" style="width: 75%;"></p>
 
 ## Prerequisites
 
