@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2024-06-05T14:39:45Z",
+  "created": "2024-06-05T15:07:47Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1877,6 +1877,9 @@
       "path": "images\\quickstart\\enterprise\\solodev_enterprise_architecture.jpg"
     },
     {
+      "path": "images\\quickstart\\enterprise\\solodev-cms-enterprise-architecture-2024.jpg"
+    },
+    {
       "path": "images\\quickstart\\kubernetes\\solodev_eks_architecture.jpg"
     },
     {
@@ -1898,7 +1901,8 @@
       "path": "images\\quickstart\\pro\\pro-advanced.jpg"
     },
     {
-      "path": "images\\quickstart\\solodev-cms-enterprise-architecture-2024.jpg"
+      "path": "images\\quickstart\\solodev-cms-enterprise-architecture-2024.jpg",
+      "old": true
     },
     {
       "path": "images\\quickstart\\solodev-cms-pro-architecture-2024.jpg"
