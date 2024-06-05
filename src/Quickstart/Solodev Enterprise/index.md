@@ -73,7 +73,7 @@ Confirm your configurations and choose "Launch CloudFormation" within the "Choos
 
 Continue with the preselected CloudFormation Template. The Amazon S3 template URL (used for the CloudFormation configuration) should be pre-selected. Click "Next" to continue.
 
-<p><img src="../../images/create-enterprise-stack.png" alt="Create-Stack" style="width: 80%;"></p>
+<p><img src="../../images/create-enterprise-stack.png" alt="Create Stack" style="width: 80%;"></p>
 
 **Step 1:** Specify Details
 The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
@@ -82,7 +82,7 @@ The following parameters must be configured to launch your Solodev CMS CloudForm
 :--- | ---
 Stack name | The name of your stack (set to "solodev-enterprise" by default). Please note the name must be all lowercase.
 
-<p><img src="../../images/enterprise-stack-name.png" alt="Parameters"></p>
+<p><img src="../../images/enterprise-stack-name.png" alt="Enterprise stack name"></p>
 
 **Step 2:**  Network Setup
 
@@ -93,9 +93,8 @@ Subnets | Choose at least two public subnets for this application
 InstanceType | The EC2 instance type you wish to launch
 InstanceCount | Number of instances behind the load balancer. Minimum 2 required for high availability.
 KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances
-CookbookURL | https://s3.amazonaws.com/solodev-cms/chef/cookbooks.tar.gz (**COPY AND URL where it says Enter String**) or Download and host on your own S3 bucket
 
-<p><img src="../../images/enterprise-parmeters.png" alt="Parameters "></p>
+<p><img src="../../images/quickstart/enterprise/network-setup.jpg" alt="Network Setup Parameters"></p>
 
 **Step 3:** CMS Settings
 
@@ -105,28 +104,22 @@ AdminUser | The solodev admin username
 AdminPassword | ***Password must be between 1-41 characters. All characters are allowed***
 DatabasePassword | ***Password must be between 8-41 characters. Only alphanumeric characters are allowed***
 StorageEncrypted | Enable encryption for Database (RDS) and Filesystem (EFS). True or False.
-
-<!-- <p><img src="../../images/cmsproawssubscribe9.png" alt="CMSEnterpriseSubscribe" style="width: 70%;"></p> -->
-
-**Step 4:** Optional: SSL Configuration
-
-**Name** | **Description** 
-:--- | ---
 CertificateArn | CertificateArn for SSL cert that matches the FQDN above. Please visit the AWS Certificate Manager.
 
-<p><img src="../../images/enterprise-ssl.png" alt="Optional: SSL Configuration Parameters"></p>
+<p><img src="../../images/quickstart/enterprise/cms-settings.jpg" alt="CMS Settings Parameters"></p>
 
 **Step 5:** Optional: Advanced
 
 **Name** | **Description** 
 :--- | ---
+CookbookURL | https://s3.amazonaws.com/solodev-cms/chef/1.2/cookbooks.tar.gz (**COPY AND URL where it says Enter String**) or Download and host on your own S3 bucket
 WebsiteURL | Name of initial Solodev website
-RestoreBucketName | Name of the S3 bucket containing files for restore
 DeletionPolicy | Experimental: Deletion Policy (Retain, Delete, Snapshot)
 RedisEnabled | Enable Redis ElastiCache cluster
-AdminEnabled | Enable Admin Layer
+CidrIpAccess | Please set CIDR to x.x.x.x/32 to allow one specific IP address access, 0.0.0.0/0 to allow all IP addresses access, or another CIDR range
+DatabaseUsername | The database admin account username
 
-<p><img src="../../images/enterprise-advanced.png" alt="Optional: Advanced Parameters"></p>
+<p><img src="../../images/quickstart/enterprise/enterprise-advanced.jpg" alt="Optional - Advanced Parameters"></p>
 
 !!! Note:
 Advanced options are not required in order to start Solodev CMS.
