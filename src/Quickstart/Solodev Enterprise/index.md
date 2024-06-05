@@ -54,28 +54,28 @@ Please note that a <a href="https://docs.aws.amazon.com/vpc/latest/userguide/wha
 
 Once you’ve configured your **VPC** and **EC2 Key Pair**, you can launch your CloudFormation stack.
 
-#### Confirm Subscription
+**Step 4:** Confirm Subscription
 Click on the "Continue to Subscribe" link within the AWS Marketplace listing. Once your subscription is processed, you will see a confirmation and the "Continue to Configuration" button.
 
 <p><img src="../../images/enterprise-configuration.png" alt="Enterprise-Configuration"></p>
 
-#### Configure Solodev CMS Enterprise Edition
+**Step 5:** Configure Solodev CMS Enterprise Edition
 Specify the basic configurable such as the software version and the region you wish to launch the stack. Click on the "Continue to Launch" button to proceed.
 
 <p><img src="../../images/enterprise-configuration1.png" alt="Enterprise-Configuration"></p>
 
-#### Launch Solodev CMS Enterprise Edition
+**Step 6:** Launch Solodev CMS Enterprise Edition
 Confirm your configurations and choose "Launch CloudFormation" within the "Choose Action" field. Click on the "Launch" button to continue to CloudFormation.
 
 <p><img src="../../images/launch-enterprise.png" alt="Launch-Enterprise" style="width: 70%;"></p>
 
-## Step 4: Fill Out the CloudFormation Stack Wizard
+## Fill Out the CloudFormation Stack Wizard
 
 Continue with the preselected CloudFormation Template. The Amazon S3 template URL (used for the CloudFormation configuration) should be pre-selected. Click "Next" to continue.
 
 <p><img src="../../images/create-enterprise-stack.png" alt="Create-Stack" style="width: 80%;"></p>
 
-### Specify Details
+**Step 1:** Specify Details
 The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
 
 **Parameter Description** | **Description** 
@@ -84,7 +84,7 @@ Stack name | The name of your stack (set to "solodev-enterprise" by default). Pl
 
 <p><img src="../../images/enterprise-stack-name.png" alt="Parameters"></p>
 
-####  Network Setup
+**Step 2:**  Network Setup
 
 **Name** | **Description** 
 :--- | ---
@@ -97,7 +97,7 @@ CookbookURL | https://s3.amazonaws.com/solodev-cms/chef/cookbooks.tar.gz (**COPY
 
 <p><img src="../../images/enterprise-parmeters.png" alt="Parameters "></p>
 
-#### CMS Settings
+**Step 3:** CMS Settings
 
 **Name** | **Description** 
 :--- | ---
@@ -108,7 +108,7 @@ StorageEncrypted | Enable encryption for Database (RDS) and Filesystem (EFS). Tr
 
 <!-- <p><img src="../../images/cmsproawssubscribe9.png" alt="CMSEnterpriseSubscribe" style="width: 70%;"></p> -->
 
-#### Optional: SSL Configuration
+**Step 4:** Optional: SSL Configuration
 
 **Name** | **Description** 
 :--- | ---
@@ -116,7 +116,7 @@ CertificateArn | CertificateArn for SSL cert that matches the FQDN above. Please
 
 <p><img src="../../images/enterprise-ssl.png" alt="Optional: SSL Configuration Parameters"></p>
 
-#### Optional: Advanced
+**Step 5:** Optional: Advanced
 
 **Name** | **Description** 
 :--- | ---
@@ -132,23 +132,23 @@ AdminEnabled | Enable Admin Layer
 Advanced options are not required in order to start Solodev CMS.
 !!!
 
-### Confirm your stack details
+**Step 6:** Confirm your stack details
 
 Click the "Next" button on the bottom of the screen to continue.
 
-### Specify Options
+**Step 7:** Specify Options
 Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disable "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
 
 <p><img src="../../images/specific-options1.png" alt="Parameters "></p>
 <p><img src="../../images/specific-options2.png" alt="Parameters "></p>
 <p><img src="../../images/specific-options3.png" alt="Parameters "></p>
 
-### Review
+**Step 8:** Review
 Review all CloudFront details and options. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the "Create" button to launch your stack.
 
 <p><img src="../../images/quickstart/acknowledge.png" alt="CMS Pro Acknowledge Terms" style="width: 80%;"></p>
 
-## Step 5: Monitor the CloudFormation Stack Creation Process
+## Monitor the CloudFormation Stack Creation Process
 Upon launching your CloudFormation stack, you can monitor the installation logs under the "Events" tab. The CloudFormation template will launch several stacks related to your Solodev instance, including EFS, EDS, and EC2. If you encounter any failures during this time, please visit the <a href="https://github.com/solodev/aws/wiki/Common-Issues">Common Issues</a> page to begin troubleshooting.
 
 <p><img src="../../images/quickstart/stack-creation.png" alt="CMS Stack Creation Process" style="width: 80%;"></p>
@@ -157,19 +157,18 @@ Upon launching your CloudFormation stack, you can monitor the installation logs 
 Creating a stack may take up to 30 min dependnig on the InstanceType you have choosen. During this time AWS session may expire, however the stack will continue to build. In such case simply re-login to your AWS account.
 !!!
 
-
-## Step 6: View CloudFormation Stack Outputs
+## View CloudFormation Stack Outputs
 If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the load balancer URL for the Solodev backend. Point your primary domain (mydomain.com) and a dedicated backend domain/subdomain (solodev.mydomain.com) to this URL.
 
 <p><img src="../../images/quickstart/stack-complete.png" alt="CMS Stack Create Complete" style="width: 80%;"></p>
 
-## Step 7: Login to Solodev
+## Login to Solodev
 
 Visit the IP address or the backend domain you previously configured. Log in to Solodev using the username "solodev" and the password you configured on your stack.
 
 <p><img src="../../images/quickstart/login-screen.png" alt="Solodev CMS Login Screen" style="width: 60%;"></p>
 
-## Step 8: Add your First Website
+## Add your First Website
 
 Please follow this <a href="/tutorials/websites/add-website/">link</a> and you will learn how to build your first website.
 
