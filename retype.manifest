@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2024-06-05T15:07:47Z",
+  "created": "2024-06-05T15:12:45Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1875,6 +1875,9 @@
     },
     {
       "path": "images\\quickstart\\enterprise\\solodev_enterprise_architecture.jpg"
+    },
+    {
+      "path": "images\\quickstart\\enterprise\\solodev-cms-enterprise-architecture-2024-2.jpg"
     },
     {
       "path": "images\\quickstart\\enterprise\\solodev-cms-enterprise-architecture-2024.jpg"
