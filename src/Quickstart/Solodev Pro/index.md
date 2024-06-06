@@ -24,52 +24,47 @@ Solodev CMS Professional Edition is available in the AWS Marketplace and can be 
 
 Additional technology frameworks and libraries include <a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer">Linux</a>, <a href="https://www.apache.org/" target="_blank" rel="noopener noreferrer">Apache</a>, <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">MySQL</a>, <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">PHP</a>, <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python</a>, and more.
 
-<p><img src="../../images/quickstart/Solodev-CMS-Pro-Architecture-2024.jpg" alt="Solodev CMS Pro Architecture" style="width: 75%;"></p>
+<p><img src="../../images/quickstart/pro/solodev-cms-pro-architecture-2024-2.jpg" alt="Solodev CMS Pro Architecture" style="width: 75%;"></p>
 
 ## Prerequisites
 
 * Before subscribing to Solodev CMS Professional Edition, you must have an AWS account and sign in. 
 * If you do not have an account, you can create one at <a href="https://aws.amazon.com/" target="blank" rel="noopener noreferrer">https://aws.amazon.com/</a>.
+* Configure your VPC and EC2 Key Pair.
 
 ## AWS Setup
 
 **Step 1:** Subscribe on the AWS Marketplace.
 
-Before launching a Solodev CMS Professional Edition stack, <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X" target="_blank" rel="noopener noreferrer">subscribe to the AWS Marketplace</a>.
+* Subscribe to **Solodev CMS Professional Edition** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X" target="_blank" rel="noopener noreferrer">clicking here</a>.
 
 !!!NOTE:
 If you already have a existing Solodev license, call [1-800-859-7656](tel:1-800-859-7656), and a team member will activate your subscription.
 !!!
 
-**Step 2:** Configure Your VPC and EC2 Key Pair.
+<!-- **Step 2:** Configure Your VPC and EC2 Key Pair.
 
-Please note that a VPC and EC2 Key Pair must be configured within the region you intend to launch your stack.
+Please note that a VPC and EC2 Key Pair must be configured within the region you intend to launch your stack. -->
 
-**Step 3:** Subscribe to Solodev CMS Professional Edition.
+* At the top of the AWS Marketplace listing page for the Solodev CMS Professional Edition, click the **“Continue to Subscribe”** button.
 
-At the top of the AWS Marketplace listing page for the Solodev CMS Professional Edition, click the **“Continue to Subscribe”** button.
+<p><img src="../../images/quickstart/pro/cms-pro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p>
 
-<p><img src="../../images/quickstart/aws-pro-subscribe-header.jpg" alt="Continue to Subscribe button" style="width: 80%;"></p>
+* You will be directed to the **"Terms and Conditions"** page. Review and accept these terms.
 
-**Step 4:** You will be directed to the **"Terms and Conditions"** page. Review and accept these terms.
+<p><img src="../../images/quickstart/pro/cms-pro-terms.jpg" alt="CMS Pro Configure Software Contract" style="width: 80%;"></p>
 
-<p><img src="../../images/quickstart/aws-pro-subscribe-terms.jpg" alt="CMS Pro Configure Software Contract" style="width: 80%;"></p>
+* You will receive a thank you message and you will be asked to configure your software. Click the **"Continue to Configuration"** button on the top-right corner of the AWS listing.
 
-**Step 5:** You will receive a thank you message and you will be asked to configure your software. Click the **"Continue to Configuration"** button on the top-right corner of the AWS listing.
+<p><img src="../../images/quickstart/pro/aws-pro-subscribe.jpg" alt="CMS Pro Configure Software Contract" style="width: 80%;"></p>
 
-<p><img src="../../images/quickstart/aws-pro-subscribe.jpg" alt="CMS Pro Configure Software Contract" style="width: 80%;"></p>
+* Specify the basic configurable such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
 
-**Step 6:** Configure Solodev CMS Professional Edition.
+<p><img src="../../images/quickstart/pro/cms-pro-configure.jpg" alt="CMS Pro Configure" style="width: 80%;"></p>
 
-Specify the basic configurable such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
+* Confirm your configurations and choose **"Launch CloudFormation"** within the "Choose Action" field. Click on the **"Launch"** button to continue to CloudFormation.
 
-<p><img src="../../images/quickstart/cms-pro-configure-software.jpg" alt="CMS Pro Configure Screen" style="width: 80%;"></p>
-
-**Step 7:** Launch your CloudFormation Stack.
-
-Confirm your configurations and choose **"Launch CloudFormation"** within the "Choose Action" field. Click on the **"Launch"** button to continue to CloudFormation.
-
-<p><img src="../../images/quickstart/cms-pro-launch-cloudformation.jpg" alt="CMS Pro Launch CloudFormation" style="width: 70%; margin-bottom: 20px;"></p>
+<p><img src="../../images/quickstart/pro/cms-pro-launch.jpg" alt="CMS Pro Launch CloudFormation" style="width: 70%; margin-bottom: 20px;"></p>
 
 ## CloudFormation Stack Wizard
 
