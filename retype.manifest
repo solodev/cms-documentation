@@ -1,6 +1,6 @@
 {
   "version": "3.0.3",
-  "created": "2024-06-05T15:15:47Z",
+  "created": "2024-06-06T20:54:12Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1844,7 +1844,8 @@
       "path": "images\\quickstart\\aws-pro-subscribe-terms.jpg"
     },
     {
-      "path": "images\\quickstart\\aws-pro-subscribe.jpg"
+      "path": "images\\quickstart\\aws-pro-subscribe.jpg",
+      "old": true
     },
     {
       "path": "images\\quickstart\\cms-pro-configure-software.jpg"
@@ -1895,6 +1896,21 @@
       "path": "images\\quickstart\\optional-settings.png"
     },
     {
+      "path": "images\\quickstart\\pro\\aws-pro-subscribe.jpg"
+    },
+    {
+      "path": "images\\quickstart\\pro\\cms-pro-configure.jpg"
+    },
+    {
+      "path": "images\\quickstart\\pro\\cms-pro-launch.jpg"
+    },
+    {
+      "path": "images\\quickstart\\pro\\cms-pro-marketplace-listing.jpg"
+    },
+    {
+      "path": "images\\quickstart\\pro\\cms-pro-terms.jpg"
+    },
+    {
       "path": "images\\quickstart\\pro\\cms-settings-pro.jpg"
     },
     {
@@ -1902,6 +1918,9 @@
     },
     {
       "path": "images\\quickstart\\pro\\pro-advanced.jpg"
+    },
+    {
+      "path": "images\\quickstart\\pro\\solodev-cms-pro-architecture-2024-2.jpg"
     },
     {
       "path": "images\\quickstart\\solodev-cms-enterprise-architecture-2024.jpg",
@@ -1924,6 +1943,12 @@
     },
     {
       "path": "images\\quickstart\\stack-name.png"
+    },
+    {
+      "path": "images\\quickstart\\vpc\\create-vpc.jpg"
+    },
+    {
+      "path": "images\\quickstart\\vpc\\vpc-settings.jpg"
     },
     {
       "path": "images\\recent-files-2.jpg",

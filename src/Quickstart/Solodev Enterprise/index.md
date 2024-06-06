@@ -76,6 +76,7 @@ Continue with the preselected CloudFormation Template. The Amazon S3 template UR
 <p><img src="../../images/create-enterprise-stack.png" alt="Create Stack" style="width: 80%;"></p>
 
 **Step 1:** Specify Details
+
 The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
 
 **Parameter Description** | **Description** 
@@ -86,7 +87,7 @@ Stack name | The name of your stack (set to "solodev-enterprise" by default). Pl
 
 **Step 2:**  Network Setup
 
-**Name** | **Description** 
+**Parameter Name** | **Description** 
 :--- | ---
 VPCID | Choose which VPC the application should be deployed to
 Subnets | Choose at least two public subnets for this application
