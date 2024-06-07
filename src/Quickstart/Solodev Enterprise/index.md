@@ -59,7 +59,7 @@ Please note that a <a href="https://docs.aws.amazon.com/vpc/latest/userguide/wha
 
 <p><img src="../../images/quickstart/enterprise/enterprise-configure.jpg" alt="Enterprise Configuration"></p>
 
-* Confirm your configurations and choose **"Launch CloudFormation"** within the "Choose Action" field. Click on the "Launch" button to continue to CloudFormation.
+* Confirm your configurations and choose **"Launch CloudFormation"** within the **"Choose Action"** field. Click on the **"Launch"** button to continue to CloudFormation.
 
 <p><img src="../../images/quickstart/enterprise/launch-enterprise.jpg" alt="Launch CMS Enterprise" style="width: 70%;"></p>
 
@@ -130,19 +130,22 @@ StorageEncrypted | Enable encryption for both Database (RDS) and Filesystem (EFS
 Click the **"Next"** button on the bottom of the screen to continue.
 
 **Step 7:** Specify Options
-Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disable "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the **"Next"** button to continue.
+
+Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disable **"Rollback on failure"** under the **"Advanced"** options. This will allow for further troubleshooting if necessary. Click on the **"Next"** button to continue.
 
 <p><img src="../../images/specific-options1.png" alt="Parameters "></p>
 <p><img src="../../images/specific-options2.png" alt="Parameters "></p>
 <p><img src="../../images/specific-options3.png" alt="Parameters "></p>
 
 **Step 8:** Review
-Review all CloudFront details and options. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the "Create" button to launch your stack.
+
+Review all CloudFront details and options. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the **"Create"** button to launch your stack.
 
 <p><img src="../../images/quickstart/acknowledge.png" alt="CMS Pro Acknowledge Terms" style="width: 80%;"></p>
 
 ## Monitor the CloudFormation Stack Creation Process
-Upon launching your CloudFormation stack, you can monitor the installation logs under the "Events" tab. The CloudFormation template will launch several stacks related to your Solodev instance, including EFS, EDS, and EC2. If you encounter any failures during this time, please visit the <a href="https://github.com/solodev/aws/wiki/Common-Issues">Common Issues</a> page to begin troubleshooting.
+
+Upon launching your CloudFormation stack, you can monitor the installation logs under the **"Events"** tab. The CloudFormation template will launch several stacks related to your Solodev instance, including EFS, EDS, and EC2. If you encounter any failures during this time, please visit the <a href="https://github.com/solodev/aws/wiki/Common-Issues">Common Issues</a> page to begin troubleshooting.
 
 <p><img src="../../images/quickstart/stack-creation.png" alt="CMS Stack Creation Process" style="width: 80%;"></p>
 
@@ -151,7 +154,7 @@ Creating a stack may take up to 30 min depending on the InstanceType you have ch
 !!!
 
 ## View CloudFormation Stack Outputs
-If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the "Outputs" tab. You will find the load balancer URL for the Solodev backend. Point your primary domain (mydomain.com) and a dedicated backend domain/subdomain (solodev.mydomain.com) to this URL.
+If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the **"Outputs"** tab. You will find the load balancer URL for the Solodev backend. Point your primary domain (mydomain.com) and a dedicated backend domain/subdomain (solodev.mydomain.com) to this URL.
 
 <p><img src="../../images/quickstart/stack-complete.png" alt="CMS Stack Create Complete" style="width: 80%;"></p>
 
