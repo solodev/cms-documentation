@@ -1,6 +1,6 @@
 {
-  "version": "3.0.3",
-  "created": "2024-06-06T20:59:28Z",
+  "version": "3.5.0",
+  "created": "2024-06-07T21:06:29Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1042,7 +1042,8 @@
       "path": "images\\enterprise-advanced.png"
     },
     {
-      "path": "images\\enterprise-configuration.png"
+      "path": "images\\enterprise-configuration.png",
+      "old": true
     },
     {
       "path": "images\\enterprise-configuration1.png"
@@ -1866,10 +1867,37 @@
       "path": "images\\quickstart\\enterprise\\cms-enterprise-aws-subscribe.png"
     },
     {
+      "path": "images\\quickstart\\enterprise\\cms-enterprise-marketplace-listing.jpg"
+    },
+    {
       "path": "images\\quickstart\\enterprise\\cms-settings.jpg"
     },
     {
       "path": "images\\quickstart\\enterprise\\enterprise-advanced.jpg"
+    },
+    {
+      "path": "images\\quickstart\\enterprise\\enterprise-cms-settings.jpg"
+    },
+    {
+      "path": "images\\quickstart\\enterprise\\enterprise-configuration.png"
+    },
+    {
+      "path": "images\\quickstart\\enterprise\\enterprise-configure.jpg"
+    },
+    {
+      "path": "images\\quickstart\\enterprise\\enterprise-network-settings-optional.jpg"
+    },
+    {
+      "path": "images\\quickstart\\enterprise\\enterprise-network-settings.jpg"
+    },
+    {
+      "path": "images\\quickstart\\enterprise\\enterprise-stack-name.jpg"
+    },
+    {
+      "path": "images\\quickstart\\enterprise\\enterprise-website-settings.jpg"
+    },
+    {
+      "path": "images\\quickstart\\enterprise\\launch-enterprise.jpg"
     },
     {
       "path": "images\\quickstart\\enterprise\\network-setup.jpg"
@@ -2789,6 +2817,9 @@
     },
     {
       "path": "overview\\index.html"
+    },
+    {
+      "path": "quickstart\\concepts\\virtual-private-cloud\\index.html"
     },
     {
       "path": "quickstart\\index.html"

@@ -147,7 +147,7 @@ Upon launching your CloudFormation stack, you can monitor the installation logs 
 <p><img src="../../images/quickstart/stack-creation.png" alt="CMS Stack Creation Process" style="width: 80%;"></p>
 
 !!! Note: 
-Creating a stack may take up to 30 min dependnig on the InstanceType you have choosen. During this time AWS session may expire, however the stack will continue to build. In such case simply re-login to your AWS account.
+Creating a stack may take up to 30 min depending on the InstanceType you have chosen. During this time, your AWS session may expire, however the stack will continue to build. In such case simply re-login to your AWS account.
 !!!
 
 ## View CloudFormation Stack Outputs
