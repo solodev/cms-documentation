@@ -1,20 +1,20 @@
 # WorkFlow
 
-Here you can manage workflow.
+A workflow is a sequence of steps or processes that are triggered when someone interacts with or submits the form. These steps outline what happens from the moment the form is filled out until the final action is completed.
 
-<img src="../../../../images/form-overview9.jpg" alt="form-overview9" style="width: 50%; display: block"></a>
+By setting up a workflow on a form, you ensure that each submission is handled systematically, efficiently, and consistently, reducing the need for manual intervention and minimizing the chances of errors or omissions
+
+<p><img src="../../../../images/form-overview9.jpg" alt="form-overview9" style="width: 50%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Add WorkFlow | Choose this option to add a workflow.
+Add Workflow | Choose this option to add a workflow.
 Save | Choose this option to save the workflow.
 Delete | Choose this option to delete the workflow.
 
 ## Add WorkFlow
 
-Here you can add WorkFlow.
-
-<img src="../../../../images/form-overview10.jpg" alt="form-overview10" style="width: 50%; display: block"></a>
+<p><img src="../../../../images/form-overview10.jpg" alt="form-overview10" style="width: 50%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -23,7 +23,4 @@ Type | Choose type. You can select from File (Saved, Staged, Published), Task (C
 Select user | Select user by using the **Browse** button.
 Assign to | Select assignee by using the **Browse** button.
 Tickler Information | Enter the email address.
-
-## Confirm 
-
-Once you have completed all the fields, click **Submit** to apply your changes.
+Submit | Once you have completed all the fields, click **Submit** to apply your changes.

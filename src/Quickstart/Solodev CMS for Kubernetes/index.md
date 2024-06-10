@@ -8,7 +8,7 @@ Supported services also include Amazon EKS Anywhere and Self-Managed Kubernetes.
 
 <p><img src="../../images/quickstart/kubernetes/solodev-eks-architecture.jpg" alt="Solodev EKS Architecture Diagram" style="width: 80%;"></p>
 
-<!-- Launch Amazon Elastic Kubernets Service (EKS) in a new cluster and manage your containers at any scale with Solodev. Launch your applications rapidly and across AWS Regions and Availability Zones, and move from environment to environment regardless of operating system.
+<!-- Launch Amazon Elastic Kubernetes Service (EKS) in a new cluster and manage your containers at any scale with Solodev. Launch your applications rapidly and across AWS Regions and Availability Zones, and move from environment to environment regardless of operating system.
 
 ## Overview
 
