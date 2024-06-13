@@ -2,7 +2,7 @@
 
 Upload a file from your computer. Solodev CMS allows users to upload four primary file types (HTML, Text, Image, and Document). 
 
-<img src="../../../../images/uploadfiles.png" alt="documents12" style="width: 50%; display: block"></a>
+<p><img src="../../../../images/folders/upload-files.png" alt="Files Uploader" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---

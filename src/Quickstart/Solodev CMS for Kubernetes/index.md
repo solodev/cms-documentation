@@ -1,4 +1,4 @@
-# Solodev Kubernetes for EKS
+# Solodev CMS Kubernetes for EKS
 
 Solodev also offers a fully containerized version of the Solodev CMS for Kubernetes with orchestration via AWS EKS (Elastic Kubernetes Service) or Amazon ECS (Elastic Container Service). Ideal for high-availability enterprise applications, Solodev CMS for Kubernetes provides a flexible, modern, scalable solution for delivering websites and applications to meet the most demanding production requirements. 
 
@@ -6,7 +6,7 @@ Supported services also include Amazon EKS Anywhere and Self-Managed Kubernetes.
 
 [Contact us](mailto:sales@solodev.com) for setup and details. 
 
-<p><img src="../../images/quickstart/kubernetes/solodev-eks-architecture.jpg" alt="Solodev EKS Architecture Diagram" style="width: 80%;"></p>
+<p><img src="../../images/quickstart/kubernetes/solodev-kubernetes-template.jpg" alt="Solodev EKS Architecture Diagram" style="width: 80%;"></p>
 
 <!-- Launch Amazon Elastic Kubernetes Service (EKS) in a new cluster and manage your containers at any scale with Solodev. Launch your applications rapidly and across AWS Regions and Availability Zones, and move from environment to environment regardless of operating system.
 
