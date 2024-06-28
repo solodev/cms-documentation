@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-06-13T17:24:38Z",
+  "created": "2024-06-27T15:28:02Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1912,6 +1912,15 @@
       "path": "images\\quickstart\\enterprise\\solodev-cms-enterprise-architecture-2024.jpg"
     },
     {
+      "path": "images\\quickstart\\kubernetes\\cms-eks-configure.jpg"
+    },
+    {
+      "path": "images\\quickstart\\kubernetes\\cms-eks-marketplace-listing.jpg"
+    },
+    {
+      "path": "images\\quickstart\\kubernetes\\cms-eks-terms.jpg"
+    },
+    {
       "path": "images\\quickstart\\kubernetes\\solodev_eks_architecture.jpg",
       "old": true
     },
@@ -1920,6 +1929,21 @@
     },
     {
       "path": "images\\quickstart\\kubernetes\\solodev-kubernetes-template.jpg"
+    },
+    {
+      "path": "images\\quickstart\\lite\\aws-lite-subscribe.jpg"
+    },
+    {
+      "path": "images\\quickstart\\lite\\cms-lite-configure.jpg"
+    },
+    {
+      "path": "images\\quickstart\\lite\\cms-lite-launch.jpg"
+    },
+    {
+      "path": "images\\quickstart\\lite\\cms-lite-marketplace-listing.jpg"
+    },
+    {
+      "path": "images\\quickstart\\lite\\cms-lite-terms.jpg"
     },
     {
       "path": "images\\quickstart\\login-screen.png"
@@ -2257,6 +2281,15 @@
     },
     {
       "path": "images\\template-folders.jpg"
+    },
+    {
+      "path": "images\\themes\\lunarxp-theme.png"
+    },
+    {
+      "path": "images\\themes\\micro-theme.jpg"
+    },
+    {
+      "path": "images\\themes\\spacejet-theme.jpg"
     },
     {
       "path": "images\\tickler-list.jpg"
@@ -2841,6 +2874,9 @@
       "path": "quickstart\\solodev-enterprise\\index.html"
     },
     {
+      "path": "quickstart\\solodev-lite\\index.html"
+    },
+    {
       "path": "quickstart\\solodev-pro\\index.html"
     },
     {
@@ -2944,6 +2980,9 @@
     },
     {
       "path": "support\\tasks\\update-task\\index.html"
+    },
+    {
+      "path": "themes\\index.html"
     },
     {
       "path": "tutorials\\add-form\\index.html",
