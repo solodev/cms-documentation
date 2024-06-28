@@ -16,10 +16,8 @@ Create a lightweight, one-page website in seconds that's beautiful on every scre
 
 <p></p>
 
-## SpaceJet
+<!-- ## SpaceJet
 
 Launch a website in minutes with an easy-to-use, mobile responsive theme. SpaceJet is the perfect runway for launching a mobile responsive website! In minutes, you can customize this easy-to-use theme with your own logo, imagery, and content.
 
-<a href="https://github.com/solodev/marketplace/raw/master/depot/themes/spacejet.zip" target="_blank">Download SpaceJet.</a>
-
-<p><img src="../../images/themes/spacejet-theme.jpg" alt="SpaceJet Theme" style="width: 50%;"></p>
+<p><img src="../../images/themes/spacejet-theme.jpg" alt="SpaceJet Theme" style="width: 50%;"></p> -->
