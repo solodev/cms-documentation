@@ -6,7 +6,7 @@ Themes provide a professional design framework that enhances user experience and
 
 If you need more information on how to add a website, [click here](/tutorials/cms/add-website/).
 
-## Micro
+## <a href="/themes/micro/">Micro</a>
 
 Create a lightweight, one-page website in seconds that's beautiful on every screen. Think big with a one-page template with everything you need! Micro Theme makes building and customizing your website easier than ever with a beautiful, mobile-responsive framework for Solodev.
 

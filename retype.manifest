@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-06-27T15:28:02Z",
+  "created": "2024-06-28T16:20:50Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -351,7 +351,8 @@
       "path": "images\\add-website.png"
     },
     {
-      "path": "images\\add-website1.png"
+      "path": "images\\add-website1.png",
+      "old": true
     },
     {
       "path": "images\\addapp.jpg"
@@ -2304,6 +2305,15 @@
       "path": "images\\topnav-template.jpg"
     },
     {
+      "path": "images\\tutorials\\add-website\\add-website-form.jpg"
+    },
+    {
+      "path": "images\\tutorials\\add-website\\add-website.jpg"
+    },
+    {
+      "path": "images\\tutorials\\add-website\\website-dashboard.jpg"
+    },
+    {
       "path": "images\\tutorials\\restrict-users\\tutorials-checkbox.jpg"
     },
     {
@@ -3158,74 +3168,161 @@
       "old": true
     },
     {
-      "path": "tutorials\\cms\\add-form\\index.html",
-      "old": true
+      "path": "tutorials\\cms\\add-an-email-tickler\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\add-form\\index.html"
     },
     {
       "path": "tutorials\\cms\\add-groups\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\add-module\\index.html",
-      "old": true
+      "path": "tutorials\\cms\\add-module\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\add-module\\solodev-spacejet-2023.zip"
+    },
+    {
+      "path": "tutorials\\cms\\add-page-template-copy\\index.html"
     },
     {
       "path": "tutorials\\cms\\add-page-template-old\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\add-page-template\\index.html",
-      "old": true
+      "path": "tutorials\\cms\\add-page-template\\index.html"
     },
     {
-      "path": "tutorials\\cms\\add-page\\index.html",
-      "old": true
+      "path": "tutorials\\cms\\add-page\\index.html"
     },
     {
       "path": "tutorials\\cms\\add-permissions-to-group\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\add-theme\\index.html",
-      "old": true
+      "path": "tutorials\\cms\\add-theme\\index.html"
     },
     {
       "path": "tutorials\\cms\\add-users\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\add-website\\index.html",
-      "old": true
+      "path": "tutorials\\cms\\add-website-backup\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\add-website\\globalheader.txt"
+    },
+    {
+      "path": "tutorials\\cms\\add-website\\globaltag.txt"
+    },
+    {
+      "path": "tutorials\\cms\\add-website\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\alt-tags\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\build-your-page\\index.html"
     },
     {
       "path": "tutorials\\cms\\cdn-information\\index.html",
       "old": true
     },
     {
+      "path": "tutorials\\cms\\connect-module\\index.html"
+    },
+    {
       "path": "tutorials\\cms\\connect-your-dns\\index.html",
       "old": true
+    },
+    {
+      "path": "tutorials\\cms\\convert-your-design-to-basic-html-css-and-javascript\\index.html"
     },
     {
       "path": "tutorials\\cms\\create-a-base-template\\index.html",
       "old": true
     },
     {
+      "path": "tutorials\\cms\\create-a-category-page\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\create-a-contact-form\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\create-a-page-template\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\create-an-image-gallery\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\create-an-image-slider\\index.html"
+    },
+    {
       "path": "tutorials\\cms\\create-an-interior-template\\index.html",
       "old": true
+    },
+    {
+      "path": "tutorials\\cms\\create-an-intranet\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\create-and-manage-your-folder-structure-in-solodev\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\createmodule\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\createmodule\\module.tpl"
+    },
+    {
+      "path": "tutorials\\cms\\createmodule\\solodev-spacejet-2023.zip"
+    },
+    {
+      "path": "tutorials\\cms\\creating-a-sitemap-for-your-website\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\customizing-your-theme\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\designing-your-websites-layout\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\how-to-make-a-theme\\index.html"
     },
     {
       "path": "tutorials\\cms\\howtoaddkeywordstothespamkeywordslist\\index.html"
     },
     {
+      "path": "tutorials\\cms\\howtoimportatheme\\index.html"
+    },
+    {
       "path": "tutorials\\cms\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\installing-and-configuring-a-theme\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\manage-slider-entries\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\page-meta-data\\index.html"
     },
     {
       "path": "tutorials\\cms\\registering-domain\\index.html",
       "old": true
     },
     {
+      "path": "tutorials\\cms\\spam-keyword-list\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\split-page-content-out-into-multiple-dynamicdivs\\index.html"
+    },
+    {
       "path": "tutorials\\cms\\ssl-information\\index.html",
       "old": true
+    },
+    {
+      "path": "tutorials\\cms\\use-of-dynamicdivs\\index.html"
     },
     {
       "path": "tutorials\\connect-your-dns\\index.html",
@@ -3393,35 +3490,44 @@
       "old": true
     },
     {
-      "path": "tutorials\\websites\\add-an-email-tickler\\index.html"
+      "path": "tutorials\\websites\\add-an-email-tickler\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\add-form-1\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\websites\\add-form\\index.html"
+      "path": "tutorials\\websites\\add-form\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\add-module\\index.html"
+      "path": "tutorials\\websites\\add-module\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\add-module\\solodev-spacejet-2023.zip"
+      "path": "tutorials\\websites\\add-module\\solodev-spacejet-2023.zip",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\add-page-template-copy\\index.html"
+      "path": "tutorials\\websites\\add-page-template-copy\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\add-page-template\\index.html"
+      "path": "tutorials\\websites\\add-page-template\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\add-page\\index.html"
+      "path": "tutorials\\websites\\add-page\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\add-theme\\index.html"
+      "path": "tutorials\\websites\\add-theme\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\add-website-backup\\index.html"
+      "path": "tutorials\\websites\\add-website-backup\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\add-website\\app.js",
@@ -3436,20 +3542,24 @@
       "old": true
     },
     {
-      "path": "tutorials\\websites\\add-website\\globalheader.txt"
+      "path": "tutorials\\websites\\add-website\\globalheader.txt",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\add-website\\globaltag.txt"
+      "path": "tutorials\\websites\\add-website\\globaltag.txt",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\add-website\\index.html"
+      "path": "tutorials\\websites\\add-website\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\add-website\\package-lock.json",
       "old": true
     },
     {
-      "path": "tutorials\\websites\\add-website\\package.json"
+      "path": "tutorials\\websites\\add-website\\package.json",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\add-website\\utils.js",
@@ -3464,86 +3574,112 @@
       "old": true
     },
     {
-      "path": "tutorials\\websites\\alt-tags\\index.html"
+      "path": "tutorials\\websites\\alt-tags\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\build-your-page\\index.html"
+      "path": "tutorials\\websites\\build-your-page\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\connect-module\\index.html"
+      "path": "tutorials\\websites\\connect-module\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\convert-your-design-to-basic-html-css-and-javascript\\index.html"
+      "path": "tutorials\\websites\\convert-your-design-to-basic-html-css-and-javascript\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\create-a-category-page\\index.html"
+      "path": "tutorials\\websites\\create-a-category-page\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\create-a-contact-form\\index.html"
+      "path": "tutorials\\websites\\create-a-contact-form\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\create-a-page-template\\index.html"
+      "path": "tutorials\\websites\\create-a-page-template\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\create-an-image-gallery\\index.html"
+      "path": "tutorials\\websites\\create-an-image-gallery\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\create-an-image-slider\\index.html"
+      "path": "tutorials\\websites\\create-an-image-slider\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\create-an-intranet\\index.html"
+      "path": "tutorials\\websites\\create-an-intranet\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\create-and-manage-your-folder-structure-in-solodev\\index.html"
+      "path": "tutorials\\websites\\create-and-manage-your-folder-structure-in-solodev\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\createmodule\\index.html"
+      "path": "tutorials\\websites\\createmodule\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\createmodule\\module.tpl"
+      "path": "tutorials\\websites\\createmodule\\module.tpl",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\createmodule\\solodev-spacejet-2023.zip"
+      "path": "tutorials\\websites\\createmodule\\solodev-spacejet-2023.zip",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\creating-a-sitemap-for-your-website\\index.html"
+      "path": "tutorials\\websites\\creating-a-sitemap-for-your-website\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\customizing-your-theme\\index.html"
+      "path": "tutorials\\websites\\customizing-your-theme\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\designing-your-websites-layout\\index.html"
+      "path": "tutorials\\websites\\designing-your-websites-layout\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\websites\\how-to-import-a-theme\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\websites\\how-to-make-a-theme\\index.html"
+      "path": "tutorials\\websites\\how-to-make-a-theme\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\howtoimportatheme\\index.html"
+      "path": "tutorials\\websites\\howtoimportatheme\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\index.html"
+      "path": "tutorials\\websites\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\installing-and-configuring-a-theme\\index.html"
+      "path": "tutorials\\websites\\installing-and-configuring-a-theme\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\manage-slider-entries\\index.html"
+      "path": "tutorials\\websites\\manage-slider-entries\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\page-meta-data\\index.html"
+      "path": "tutorials\\websites\\page-meta-data\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\spam-keyword-list\\index.html"
+      "path": "tutorials\\websites\\spam-keyword-list\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\split-page-content-out-into-multiple-dynamicdivs\\index.html"
+      "path": "tutorials\\websites\\split-page-content-out-into-multiple-dynamicdivs\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\websites\\use-of-dynamicdivs\\index.html"
+      "path": "tutorials\\websites\\use-of-dynamicdivs\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\documents\\document-overview\\add-category\\index.html"
