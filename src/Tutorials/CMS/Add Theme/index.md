@@ -37,8 +37,7 @@ A theme can only be installed when creating a new website. Themes cannot be appl
 
 **Step 1**: On the main dashboard in Solodev, click **Add Website**.
 
-<img src="../../../../images/tutorials/add-website/add-website.jpg" alt="add-website" style="width: 70%; display: block"></a>
-
+<p><img src="../../../images/tutorials/add-website/add-website.jpg" alt="Add website" style="width: 22%;"></p>
 
 **Step 2**: In the form fields, enter your website address and select your timezone.
 

@@ -1,10 +1,10 @@
-# Solodev CMS Kubernetes for EKS
+# Solodev CMS for Kubernetes
 
 Solodev also offers a fully containerized version of the Solodev CMS for Kubernetes with orchestration via AWS EKS (Elastic Kubernetes Service) or Amazon ECS (Elastic Container Service). Ideal for high-availability enterprise applications, Solodev CMS for Kubernetes provides a flexible, modern, scalable solution for delivering websites and applications to meet the most demanding production requirements. 
 
 Supported services also include Amazon EKS Anywhere and Self-Managed Kubernetes. Deploy from AWS Marketplace via Helm chart or container, with nodes available in multiple pricing tiers. 
 
-[Contact us](mailto:sales@solodev.com) for setup and details. 
+[Contact us](mailto:sales@solodev.com) for setup and details.
 
 ## Overview
 
@@ -16,7 +16,7 @@ Solodev Kubernetes for EKS uses a set of YAML templates to create a new EKS clus
 
 ## Prerequisites
 
-* Before subscribing to Solodev CMS Kubernetes for EKS, you must have an AWS account and sign in. 
+* Before subscribing to Solodev CMS for Kubernetes, you must have an AWS account and sign in. 
 * If you do not have an account, you can create one at <a href="https://aws.amazon.com/" target="blank" rel="noopener noreferrer">https://aws.amazon.com/</a>.
 * Configure your VPC and EC2 Key Pair.
 
@@ -24,13 +24,13 @@ Solodev Kubernetes for EKS uses a set of YAML templates to create a new EKS clus
 
 **Step 1:** Subscribe on the AWS Marketplace.
 
-* Subscribe to **Solodev CMS Kubernetes for EKS** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa" target="_blank" rel="noopener noreferrer">clicking here</a>.
+* Subscribe to **Solodev CMS for Kubernetes** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa" target="_blank" rel="noopener noreferrer">clicking here</a>.
 
 !!!NOTE:
 If you already have a existing Solodev license, call [1-800-859-7656](tel:1-800-859-7656), and a team member will activate your subscription.
 !!!
 
-* At the top of the AWS Marketplace listing page for the Solodev CMS Kubernetes for EKS, click the **“Continue to Subscribe”** button.
+* At the top of the AWS Marketplace listing page for the Solodev CMS for Kubernetes, click the **“Continue to Subscribe”** button.
 
 <p><img src="../../images/quickstart/kubernetes/cms-eks-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p>
 
