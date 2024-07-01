@@ -2,7 +2,7 @@
 
 The config category of settings applies to all websites in the CMS system. Configure settings for payment options, SSL, email, and more.
 
-<img src="../../../images/config.jpg" alt="config" style="width: 80%; display: block"></a>
+<p><img src="../../../images/admin/settings/config/config.jpg" alt="Config list" style="width: 80%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -121,15 +121,15 @@ reCAPTCHA Secret Key | Enter the reCAPTCHA secret key.
 
 The spam keyword list is a built-in filtering feature that will help minimize form entries containing specific keywords, including profanity. Identify these words and enter them into the field below.
 
-<img src="../../../images/spamkeywordlist.jpg" alt="spamkeywordlist" style="width: 80%; display: block"></a>
+!!!**Note**:
+Only Solodev admins will be able to access the Spam Keyword List feature.
+!!!
+
+<p><img src="../../../images/admin/settings/config/spam-keyword-list.jpg" alt="Spam Keyword List" style="width: 60%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Spam Keyword List | Enter the spam keyword list.
-
-!!!Tip:
-Each entry should be included on its own line.
-!!!
+Spam Keyword List | Enter the spam keyword list. Each entry should be included on its own line.
 
 ## IP Quality Score
 

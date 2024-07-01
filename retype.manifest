@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-06-28T17:41:52Z",
+  "created": "2024-07-01T15:08:18Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -517,6 +517,9 @@
     },
     {
       "path": "images\\admin.jpg"
+    },
+    {
+      "path": "images\\admin\\settings\\settings.jpg"
     },
     {
       "path": "images\\adminpermissions.jpg"
@@ -1947,6 +1950,9 @@
       "path": "images\\quickstart\\lite\\cms-lite-terms.jpg"
     },
     {
+      "path": "images\\quickstart\\lite\\solodev-cms-lite-reference-architecture.png"
+    },
+    {
       "path": "images\\quickstart\\login-screen.png"
     },
     {
@@ -2111,7 +2117,8 @@
       "old": true
     },
     {
-      "path": "images\\settings16.jpg"
+      "path": "images\\settings16.jpg",
+      "old": true
     },
     {
       "path": "images\\settings17.jpg",
@@ -3214,13 +3221,16 @@
       "path": "tutorials\\cms\\add-website-backup\\index.html"
     },
     {
-      "path": "tutorials\\cms\\add-website\\globalheader.txt"
+      "path": "tutorials\\cms\\add-website\\globalheader.txt",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-website\\globaltag.txt"
+      "path": "tutorials\\cms\\add-website\\globaltag.txt",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-website\\index.html"
+      "path": "tutorials\\cms\\add-website\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\alt-tags\\index.html"
@@ -3288,6 +3298,15 @@
     },
     {
       "path": "tutorials\\cms\\designing-your-websites-layout\\index.html"
+    },
+    {
+      "path": "tutorials\\cms\\how-to-add-website\\globalheader.txt"
+    },
+    {
+      "path": "tutorials\\cms\\how-to-add-website\\globaltag.txt"
+    },
+    {
+      "path": "tutorials\\cms\\how-to-add-website\\index.html"
     },
     {
       "path": "tutorials\\cms\\how-to-make-a-theme\\index.html"
