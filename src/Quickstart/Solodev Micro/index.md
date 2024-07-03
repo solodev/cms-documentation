@@ -46,44 +46,44 @@ The latest version of Solodev CMS Micro is always recommended. When selecting an
 
 <p><img src="../../images/quickstart/micro/cms-micro-configure.jpg" alt="CMS Micro Configure" style="width: 80%;"></p>
 
-6. Confirm the following configurations:
+6. Configure your software:
 
 **Choose Actions**
 
-Choose between **Launch from Website** or **Launch through EC2**.
-  - If you select **Launch through EC2** click the **Launch** button.
-  - If you choose **Launch from Website**, please follow these steps:
+There are two options for configuring your Solodev CMS Micro: Launch from Website or Launch through EC2. Select one from the menu.
+
+!!!NOTE:
+The following steps cover the configuration when selecting Launch from Website, which is recommended for first-time subscribers. If you already have your VPC and other variables configured, you can choose Launch through EC2 for more rapid deployment.
+!!!
 
 **EC2 Instance Type**
 
-Select an EC2 Instance Type. To learn more about  <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">EC2 instances click here</a>.
+Select an Amazon EC2 instance from the available options in the menu. To learn more about which instance to select based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here</a>.
 
 **VPC Settings**
 
-Select a previously created VPC from the dropdown.
-
-!!!NOTE:
-If you don’t have a VPC, you will need to create one in your VPC Console. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">Click here for instructions</a>.
-!!!
+Choose a Virtual Private Cloud (VPC) from the menu to create a dedicated environment on AWS. If you do not have a VPC, you will need to create one in your VPC Console. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">For instructions</a>.
 
 **Subnet Settings**
 
-Select a previously created Subnet from the dropdown.
-
-!!!NOTE:
-If you don’t have a Subnet, you will need to create one in your Subnet Console. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">Click here for instructions</a>.
-!!!
+Select a subnet from the menu to group network resources more efficiently. If you do not have any existing subnets, you will need to create one in your Subnet Console. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">For instructions</a>
 
 **Security Group Settings**
 
-A security group acts as a firewall that controls the traffic allowed to reach one or more instances. You can create a new security group based on seller-recommended settings or choose one of your existing groups. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">Learn more</a>.
+Select an existing security group from the menu or configure a new security group using the form provided.
+
+!!!NOTE:
+A security group acts as a firewall that controls the traffic allowed to reach one or more instances. You can create a new security group or choose one of your existing groups. To learn more, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here</a>.
+!!!
+
+<p><img src="../../images/quickstart/micro/security-groups.jpg" alt="CMS Micro Security Groups" style="width: 80%;"></p>
 
 **Key Pair Settings**
 
-To ensure that no other person has access to your software, the software installs on an EC2 instance with an EC2 key pair that you created.
+Enter an EC2 key pair in the field.
 
 !!!NOTE:
-If you don’t have a Key Pair, you will need to create one in your Key Pair Console. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">Click here for instructions</a>.
+An Amazon EC2 key pair is a set of security credentials consisting of a public and private key that verifies a user's identity when connecting or communicating with an EC2 instance. If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here</a>.
 !!!
 
 7. Choose **"Launch"**.
