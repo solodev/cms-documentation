@@ -17,7 +17,6 @@ Solodev CMS Micro Edition uses a set of AWS cloud services including:
 
 * Before subscribing to Solodev CMS Micro Edition, you must have an AWS account and sign in. 
 * If you do not have an account, you can create one at <a href="https://aws.amazon.com/" target="blank" rel="noopener noreferrer">https://aws.amazon.com/</a>.
-* Configure your VPC and EC2 Key Pair.
 
 ## AWS Setup
 
@@ -33,13 +32,17 @@ If you already have an existing Solodev license, call [1-800-859-7656](tel:1-800
 
 3. You will be directed to the **"Terms and Conditions"** page. Review and accept these terms.
 
-4. You will receive a thank you message and you will be asked to configure your software. Click the **"Continue to Configuration"** button on the top-right corner of the AWS listing.
+4. Once accepted, you will receive a thank-you message asking you to configure your software. Click the **"Continue to Configuration"** button in the top right corner.
 
 !!!NOTE:
-This process may take a while. Please don't exit the screen or refresh the page.
+This process can take a few moments. Please do not exit the screen or refresh the page.
 !!!
 
-5. Specify the basic configuration such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
+5. Select the software version and the AWS Region where you wish to launch your stack. When finished, click **"Continue to Launch."**
+
+!!!NOTE:
+The latest version of Solodev CMS Micro is always recommended. When selecting an available AWS Region for hosting, you may want to consider a region that is closer to your users to help reduce your network latency.
+!!!
 
 <p><img src="../../images/quickstart/micro/cms-micro-configure.jpg" alt="CMS Micro Configure" style="width: 80%;"></p>
 
