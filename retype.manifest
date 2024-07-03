@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-01T15:35:20Z",
+  "created": "2024-07-03T12:40:34Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1963,6 +1963,9 @@
       "path": "images\\quickstart\\login-screen.png"
     },
     {
+      "path": "images\\quickstart\\micro\\cms-micro-marketplace-listing.jpg"
+    },
+    {
       "path": "images\\quickstart\\network-setup.png"
     },
     {
@@ -2899,7 +2902,11 @@
       "path": "quickstart\\solodev-enterprise\\index.html"
     },
     {
-      "path": "quickstart\\solodev-lite\\index.html"
+      "path": "quickstart\\solodev-lite\\index.html",
+      "old": true
+    },
+    {
+      "path": "quickstart\\solodev-micro\\index.html"
     },
     {
       "path": "quickstart\\solodev-pro\\index.html"
