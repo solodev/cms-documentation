@@ -8,9 +8,10 @@ Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.c
 
 **Name** | **Description** 
 :--- | ---
-[Professional](../../../quickstart/solodev-pro/) | A single-server deployment designed for business-level projects that require moderate scalability.
-[Enterprise](../../../quickstart/solodev-enterprise/) | A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps. 
 [Kubernetes](../../../quickstart/solodev-cms-for-kubernetes/) | A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. Only available in the AWS Marketplace.
+[Enterprise](../../../quickstart/solodev-enterprise/) | A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps. 
+[Professional](../../../quickstart/solodev-pro/) | A single-server deployment designed for business-level projects that require moderate scalability.
+[Micro](../../../quickstart/solodev-micro/) | The perfect launch pad for small development or proof of concept (PoC) projects.
 
 !!!Tip:
 Need help with a custom enterprise deployment with unique requirements? [Contact our professional services team](mailto:sales@solodev.com).

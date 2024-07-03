@@ -35,8 +35,62 @@ If you already have an existing Solodev license, call [1-800-859-7656](tel:1-800
 
 4. You will receive a thank you message and you will be asked to configure your software. Click the **"Continue to Configuration"** button on the top-right corner of the AWS listing.
 
+!!!NOTE:
+This process may take a while. Please don't exit the screen or refresh the page.
+!!!
+
 5. Specify the basic configuration such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
 
-<p><img src="../../images/quickstart/lite/cms-lite-configure.jpg" alt="CMS Lite Configure" style="width: 80%;"></p>
+<p><img src="../../images/quickstart/micro/cms-micro-configure.jpg" alt="CMS Micro Configure" style="width: 80%;"></p>
 
-6. Confirm your configurations and choose **"Launch"**.
+6. Confirm the following configurations:
+
+**Choose Actions**
+
+Choose between **Launch from Website** or **Launch through EC2**.
+  - If you select **Launch through EC2** click the **Launch** button.
+  - If you choose **Launch from Website**, please follow these steps:
+
+**EC2 Instance Type**
+
+Select an EC2 Instance Type. To learn more about  <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">EC2 instances click here</a>.
+
+**VPC Settings**
+
+Select a previously created VPC from the dropdown.
+
+!!!NOTE:
+If you don’t have a VPC, you will need to create one in your VPC Console. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">Click here for instructions</a>.
+!!!
+
+**Subnet Settings**
+
+Select a previously created Subnet from the dropdown.
+
+!!!NOTE:
+If you don’t have a Subnet, you will need to create one in your Subnet Console. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">Click here for instructions</a>.
+!!!
+
+**Security Group Settings**
+
+A security group acts as a firewall that controls the traffic allowed to reach one or more instances. You can create a new security group based on seller-recommended settings or choose one of your existing groups. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">Learn more</a>.
+
+**Key Pair Settings**
+
+To ensure that no other person has access to your software, the software installs on an EC2 instance with an EC2 key pair that you created.
+
+!!!NOTE:
+If you don’t have a Key Pair, you will need to create one in your Key Pair Console. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">Click here for instructions</a>.
+!!!
+
+7. Choose **"Launch"**.
+
+## Troubleshooting
+
+**When I open a the link nothing comes up?**
+
+Check your security group on the ec2 and if you did not create the recommended security group click here, then make sure ports 443 and 80 are open to 0.0.0.0/0.
+
+**I cant login with SSH.**
+
+Make sure to add your IP as a inbound rule on the web security group for port 22.
