@@ -39,7 +39,7 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 * Subscribe to **Solodev CMS Professional Edition** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X" target="_blank" rel="noopener noreferrer">clicking here</a>.
 
 !!!NOTE:
-If you already have a existing Solodev license, call [1-800-859-7656](tel:1-800-859-7656), and a team member will activate your subscription.
+If you already have an existing Solodev license, call [1-800-859-7656](tel:1-800-859-7656), and a team member will activate your subscription.
 !!!
 
 <!-- **Step 2:** Configure Your VPC and EC2 Key Pair.
@@ -58,7 +58,7 @@ Please note that a VPC and EC2 Key Pair must be configured within the region you
 
 <p><img src="../../images/quickstart/pro/aws-pro-subscribe.jpg" alt="CMS Pro Configure Software Contract" style="width: 80%;"></p>
 
-* Specify the basic configurable such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
+* Specify the basic configuration such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
 
 <p><img src="../../images/quickstart/pro/cms-pro-configure.jpg" alt="CMS Pro Configure" style="width: 80%;"></p>
 

@@ -27,7 +27,7 @@ Solodev Kubernetes for EKS uses a set of YAML templates to create a new EKS clus
 * Subscribe to **Solodev CMS for Kubernetes** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa" target="_blank" rel="noopener noreferrer">clicking here</a>.
 
 !!!NOTE:
-If you already have a existing Solodev license, call [1-800-859-7656](tel:1-800-859-7656), and a team member will activate your subscription.
+If you already have an existing Solodev license, call [1-800-859-7656](tel:1-800-859-7656), and a team member will activate your subscription.
 !!!
 
 * At the top of the AWS Marketplace listing page for the Solodev CMS for Kubernetes, click the **“Continue to Subscribe”** button.
@@ -46,7 +46,7 @@ If you already have a existing Solodev license, call [1-800-859-7656](tel:1-800-
 <p><img src="../../images/quickstart/kubernetes/cms-eks-configure.jpg" alt="CMS EKS Configure" style="width: 80%;"></p>
 
 
-* Specify the basic configurable such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
+* Specify the basic configuration such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
 
 <p><img src="../../images/quickstart/pro/aws-pro-subscribe.jpg" alt="CMS EKS Configure Software Contract" style="width: 80%;"></p>
 
