@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-01T15:08:18Z",
+  "created": "2024-07-01T15:35:20Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -519,6 +519,12 @@
       "path": "images\\admin.jpg"
     },
     {
+      "path": "images\\admin\\settings\\config\\config.jpg"
+    },
+    {
+      "path": "images\\admin\\settings\\config\\spam-keyword-list.jpg"
+    },
+    {
       "path": "images\\admin\\settings\\settings.jpg"
     },
     {
@@ -775,7 +781,8 @@
       "old": true
     },
     {
-      "path": "images\\config.jpg"
+      "path": "images\\config.jpg",
+      "old": true
     },
     {
       "path": "images\\contact.jpg"
@@ -2247,7 +2254,8 @@
       "path": "images\\spacejet-unfurl.jpg"
     },
     {
-      "path": "images\\spamkeywordlist.jpg"
+      "path": "images\\spamkeywordlist.jpg",
+      "old": true
     },
     {
       "path": "images\\specific-options1.png"
@@ -3312,7 +3320,8 @@
       "path": "tutorials\\cms\\how-to-make-a-theme\\index.html"
     },
     {
-      "path": "tutorials\\cms\\howtoaddkeywordstothespamkeywordslist\\index.html"
+      "path": "tutorials\\cms\\howtoaddkeywordstothespamkeywordslist\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\howtoimportatheme\\index.html"

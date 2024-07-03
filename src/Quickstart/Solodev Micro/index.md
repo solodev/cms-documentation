@@ -1,35 +1,35 @@
-# Solodev CMS Lite Edition
+# CMS Micro AWS
 
-The perfect launch pad for small development or proof of concept (PoC) projects, Solodev CMS Lite Edition offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.
+The perfect launch pad for small development or proof of concept (PoC) projects, CMS Micro AWS offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.
 
 ## Overview
 
-Solodev CMS Lite Edition on AWS uses a set of YAML templates including:
+CMS Micro AWS uses a set of YAML templates including:
 
 * <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html" target="_blank" rel="noopener noreferrer">Amazon Virtual Private Cloud (VPC)</a>
 * <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target="_blank" rel="noopener noreferrer">Amazon Elastic Compute Cloud (EC2)</a>
 * <a href="https://docs.aws.amazon.com/ebs/" target="_blank" rel="noopener noreferrer">Amazon Elastic Block Storage (EBS)</a>
 * <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html" target="_blank" rel="noopener noreferrer">Amazon CloudWatch</a>
 
-<p><img src="../../images/quickstart/lite/solodev-cms-lite-reference-architecture.png" alt="Solodev CMS Lite Architecture" style="width: 75%;"></p>
+<p><img src="../../images/quickstart/lite/solodev-cms-lite-reference-architecture.png" alt="Solodev CMS Micro Architecture" style="width: 75%;"></p>
 
 ## Prerequisites
 
-* Before subscribing to Solodev CMS Professional Edition, you must have an AWS account and sign in. 
+* Before subscribing to CMS Micro AWS, you must have an AWS account and sign in. 
 * If you do not have an account, you can create one at <a href="https://aws.amazon.com/" target="blank" rel="noopener noreferrer">https://aws.amazon.com/</a>.
 * Configure your VPC and EC2 Key Pair.
 
 ## AWS Setup
 
-* Subscribe to **Solodev CMS Lite Edition** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-wle3gqjnyxnuc?sr=0-2&ref_=beagle&applicationId=AWSMPContessa" target="_blank" rel="noopener noreferrer">clicking here</a>.
+* Subscribe to **CMS Micro AWS** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" target="_blank" rel="noopener noreferrer">clicking here</a>.
 
 !!!NOTE:
 If you already have a existing Solodev license, call [1-800-859-7656](tel:1-800-859-7656), and a team member will activate your subscription.
 !!!
 
-* At the top of the AWS Marketplace listing page for the Solodev CMS Lite Edition, click the **“Continue to Subscribe”** button.
+* At the top of the AWS Marketplace listing page for the CMS Micro AWS, click the **“Continue to Subscribe”** button.
 
-<p><img src="../../images/quickstart/lite/cms-lite-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p>
+<p><img src="../../images/quickstart/micro/cms-micro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p>
 
 * You will be directed to the **"Terms and Conditions"** page. Review and accept these terms.
 
