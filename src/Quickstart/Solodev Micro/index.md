@@ -1,10 +1,10 @@
-# CMS Micro AWS
+# Solodev CMS Micro Edition
 
-The perfect launch pad for small development or proof of concept (PoC) projects, CMS Micro AWS offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.
+The perfect launch pad for small development or proof of concept (PoC) projects, Solodev CMS Micro Edition offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.
 
 ## Overview
 
-CMS Micro AWS uses a set of AWS cloud services including:
+Solodev CMS Micro Edition uses a set of AWS cloud services including:
 
 * <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html" target="_blank" rel="noopener noreferrer">Amazon Virtual Private Cloud (VPC)</a>
 * <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target="_blank" rel="noopener noreferrer">Amazon Elastic Compute Cloud (EC2)</a>
@@ -15,19 +15,19 @@ CMS Micro AWS uses a set of AWS cloud services including:
 
 ## Prerequisites
 
-* Before subscribing to CMS Micro AWS, you must have an AWS account and sign in. 
+* Before subscribing to Solodev CMS Micro Edition, you must have an AWS account and sign in. 
 * If you do not have an account, you can create one at <a href="https://aws.amazon.com/" target="blank" rel="noopener noreferrer">https://aws.amazon.com/</a>.
 * Configure your VPC and EC2 Key Pair.
 
 ## AWS Setup
 
-* Subscribe to **CMS Micro AWS** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" target="_blank" rel="noopener noreferrer">clicking here</a>.
+* Subscribe to **Solodev CMS Micro Edition** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" target="_blank" rel="noopener noreferrer">clicking here</a>.
 
 !!!NOTE:
 If you already have an existing Solodev license, call [1-800-859-7656](tel:1-800-859-7656), and a team member will activate your subscription.
 !!!
 
-1. At the top of the AWS Marketplace listing page for the CMS Micro AWS, click the **“Continue to Subscribe”** button.
+1. At the top of the AWS Marketplace listing page for the Solodev CMS Micro Edition, click the **“Continue to Subscribe”** button.
 
 <p><img src="../../images/quickstart/micro/cms-micro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p>
 
