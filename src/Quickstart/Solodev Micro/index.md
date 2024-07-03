@@ -90,10 +90,10 @@ An Amazon EC2 key pair is a set of security credentials consisting of a public a
 
 ## Troubleshooting
 
-**When I open a the link nothing comes up?**
+**When I open the link after launching, nothing comes up.**
 
-Check your security group on the ec2 and if you did not create the recommended security group click here, then make sure ports 443 and 80 are open to 0.0.0.0/0.
+Under your Security Group settings, make sure ports 443 and 80 are open to 0.0.0.0/0. If you selected Launch through EC2 and did not create a new Security Group, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here</a>.
 
-**I cant login with SSH.**
+**I am unable to log in using SSH.**
 
-Make sure to add your IP as a inbound rule on the web security group for port 22.
+Make sure to add your IP address as an inbound rule on the Web Security Group for port 22. For more information, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here</a>

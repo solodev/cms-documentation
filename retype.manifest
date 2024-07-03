@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-03T20:41:13Z",
+  "created": "2024-07-03T20:54:29Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1967,6 +1967,9 @@
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-marketplace-listing.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\security-groups.jpg"
     },
     {
       "path": "images\\quickstart\\network-setup.png"
