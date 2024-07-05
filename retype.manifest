@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-03T21:07:59Z",
+  "created": "2024-07-05T19:48:25Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1966,7 +1966,31 @@
       "path": "images\\quickstart\\micro\\cms-micro-configure.jpg"
     },
     {
+      "path": "images\\quickstart\\micro\\cms-micro-image-instance.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-key-pair-instance.jpg"
+    },
+    {
       "path": "images\\quickstart\\micro\\cms-micro-marketplace-listing.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-name-instance.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-network-instance.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-storage-instance.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-subscription.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-type-instance.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-view-subscription.jpg"
     },
     {
       "path": "images\\quickstart\\micro\\security-groups.jpg"

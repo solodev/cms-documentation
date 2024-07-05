@@ -18,7 +18,9 @@ Solodev CMS Micro Edition uses a set of AWS cloud services including:
 * Before subscribing to Solodev CMS Micro Edition, you must have an AWS account and sign in. 
 * If you do not have an account, you can create one at <a href="https://aws.amazon.com/" target="blank" rel="noopener noreferrer">https://aws.amazon.com/</a>.
 
-If you already have a Solodev Micro subscription, please [click here](#aws-setup-with-subscription). If you do not have a subscription, please follow these steps:  
+If you already have a subscription to Solodev CMS Micro Edition, [click here](#aws-setup-with-subscription).
+
+If you do not have a subscription, please follow the instructions under AWS Setup below.
 
 ## AWS Setup
 
@@ -60,33 +62,25 @@ The following steps cover the configuration when selecting Launch from Website, 
 
 **EC2 Instance Type**
 
-Select an Amazon EC2 instance from the available options in the menu. To learn more about which instance to select based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here</a>.
+Solodev CMS Micro Edition runs on a single Amazon Elastic Compute (EC2) instance and is defaulted to run on a recommended m3.medium server (double check this default size). Depending on your traffic needs, you can select an instance size from the available options in the menu. To learn more about which instance to choose based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here</a>.
 
 **VPC Settings**
 
-Choose a Virtual Private Cloud (VPC) from the menu to create a dedicated environment on AWS. If you do not have a VPC, you will need to create one in your VPC Console. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">For instructions</a>.
+An Amazon Virtual Private Cloud (VPC) is a dedicated environment that lets you launch the AWS resources that power your Solodev CMS Micro Edition in an isolated virtual network. If you do not have a VPC, you will need to create one in your VPC Console. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">Click here for instructions</a>.
 
 **Subnet Settings**
 
-Select a subnet from the menu to group network resources more efficiently. If you do not have any existing subnets, you will need to create one in your Subnet Console. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">For instructions</a>
+A subnet is a range of IP addresses contained in your VPC. You can create AWS resources, such as EC2 instances, in specific subnets, enabling you to group network resources more efficiently.  If you do not have any existing subnets, you will need to create one in your Subnet Console. For instructions, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">click here</a>.
 
 **Security Group Settings**
 
-Select an existing security group from the menu or configure a new security group using the form provided.
-
-!!!NOTE:
-A security group acts as a firewall that controls the traffic allowed to reach one or more instances. You can create a new security group or choose one of your existing groups. To learn more, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here</a>.
-!!!
+A security group acts as a firewall that controls the traffic allowed to reach one or more instances. You can create a new security group or choose one of your existing groups. Select an existing security group from the menu or configure a new security group using the form provided. To learn more, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here</a>.
 
 <p><img src="../../images/quickstart/micro/security-groups.jpg" alt="CMS Micro Security Groups" style="width: 80%;"></p>
 
 **Key Pair Settings**
 
-Enter an EC2 key pair in the field.
-
-!!!NOTE:
-An Amazon EC2 key pair is a set of security credentials consisting of a public and private key that verifies a user's identity when connecting or communicating with an EC2 instance. If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here</a>.
-!!!
+An Amazon EC2 key pair is a set of security credentials consisting of a public and private key that verify a user’s identity when connecting or communicating with an EC2 instance. Select an existing security group from the menu or configure a new security group using the form provided. If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here</a>.
 
 7. Choose **"Launch"**.
 
