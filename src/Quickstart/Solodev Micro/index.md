@@ -18,6 +18,8 @@ Solodev CMS Micro Edition uses a set of AWS cloud services including:
 * Before subscribing to Solodev CMS Micro Edition, you must have an AWS account and sign in. 
 * If you do not have an account, you can create one at <a href="https://aws.amazon.com/" target="blank" rel="noopener noreferrer">https://aws.amazon.com/</a>.
 
+If you already have a Solodev Micro subscription, please [click here](#aws-setup-with-subscription). If you do not have a subscription, please follow these steps:  
+
 ## AWS Setup
 
 1. Subscribe to **Solodev CMS Micro Edition** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" target="_blank" rel="noopener noreferrer">clicking here</a>.
@@ -87,6 +89,56 @@ An Amazon EC2 key pair is a set of security credentials consisting of a public a
 !!!
 
 7. Choose **"Launch"**.
+
+## AWS Setup with Subscription
+
+1. On the <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" target="_blank" rel="noopener noreferrer">AWS Marketplace</a>, click on **View Subscription**.
+
+<p><img src="../../images/quickstart/micro/cms-micro-view-subscription.jpg" alt="Solodev CMS Micro View Subscription" style="width: 75%;"></p>
+
+2. On the following screen, locate CMS Micro AWS and click on **Launch new instance**.
+
+<p><img src="../../images/quickstart/micro/cms-micro-subscription.jpg" alt="Solodev CMS Micro Subscription" style="width: 35%;"></p>
+
+3. Review the configurations and click on **Continue to launch through EC2**.
+
+4. On the **Launch an instance** page: 
+
+  * Give your instance a **name**
+
+  <p><img src="../../images/quickstart/micro/cms-micro-name-instance.jpg" alt="Solodev CMS Micro Name" style="width: 55%;"></p>
+
+  * Review the **Application and OS Images (Amazon Machine Image)**
+
+  An AMI contains the software configuration (operating system (OS), application server, and applications) required to launch your instance. For more information, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html" target="_blank">click here</a>.
+
+  <p><img src="../../images/quickstart/micro/cms-micro-image-instance.jpg" alt="Solodev CMS Micro Amazon Machine Image" style="width: 55%;"></p>
+
+  * View or update the **Instance Type**. 
+  
+  Select an instance type that meets your computing, memory, networking, or storage needs. To learn more about which instance to select based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here</a>.
+
+  <p><img src="../../images/quickstart/micro/cms-micro-type-instance.jpg" alt="Solodev CMS Micro Instance Type" style="width: 55%;"></p>
+
+  * Select a **Key Pair**. You can use a key pair to securely connect to your instance. Ensure that you have access to the selected key pair before you launch the instance.
+  
+  !!!NOTE:
+  An Amazon EC2 key pair is a set of security credentials consisting of a public and private key that verifies a user's identity when connecting or communicating with an EC2 instance. If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here</a>.
+  !!!
+
+  <p><img src="../../images/quickstart/micro/cms-micro-key-pair-instance.jpg" alt="Solodev CMS Micro Key Pair" style="width: 55%;"></p>
+
+  * Review and adjust the **Network Settings** as needed.
+
+  Here you can create or select an existing security group, create an instance that can connect using SSH, and more.
+
+  <p><img src="../../images/quickstart/micro/cms-micro-network-instance.jpg" alt="Solodev CMS Micro Network Settings" style="width: 55%;"></p>
+
+  * Configure storage as needed.
+
+  <p><img src="../../images/quickstart/micro/cms-micro-storage-instance.jpg" alt="Solodev CMS Micro Storage" style="width: 55%;"></p>
+
+5. After configuring your instance, click **Launch Instance**.
 
 ## Troubleshooting
 
