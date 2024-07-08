@@ -13,7 +13,8 @@ A great solution for small business websites and projects, Micro Theme takes car
 
 ## Product Details
 
-Micro Theme is a one-page website template that's perfect for small sites and projects.
+Micro Theme is a one-page website template that's perfect for small sites and projects. 
+    <a href="https://github.com/solodev/marketplace/raw/master/depot/themes/micro.zip">Download Theme.</a>
 
 * Get started in minutes
 * No code/low code capabilities
