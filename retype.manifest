@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-08T17:18:57Z",
+  "created": "2024-07-09T19:10:34Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1963,13 +1963,22 @@
       "path": "images\\quickstart\\login-screen.png"
     },
     {
+      "path": "images\\quickstart\\micro\\cms-micro-actions.jpg"
+    },
+    {
       "path": "images\\quickstart\\micro\\cms-micro-configure.jpg"
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-image-instance.jpg"
     },
     {
+      "path": "images\\quickstart\\micro\\cms-micro-instance.jpg"
+    },
+    {
       "path": "images\\quickstart\\micro\\cms-micro-key-pair-instance.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-key-pair.jpg"
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-marketplace-listing.jpg"
@@ -1984,6 +1993,12 @@
       "path": "images\\quickstart\\micro\\cms-micro-storage-instance.jpg"
     },
     {
+      "path": "images\\quickstart\\micro\\cms-micro-subnet.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-subscribe-terms.jpg"
+    },
+    {
       "path": "images\\quickstart\\micro\\cms-micro-subscription.jpg"
     },
     {
@@ -1993,7 +2008,13 @@
       "path": "images\\quickstart\\micro\\cms-micro-view-subscription.jpg"
     },
     {
+      "path": "images\\quickstart\\micro\\cms-micro-vpc.jpg"
+    },
+    {
       "path": "images\\quickstart\\micro\\security-groups.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\solodev-micro.png"
     },
     {
       "path": "images\\quickstart\\network-setup.png"
