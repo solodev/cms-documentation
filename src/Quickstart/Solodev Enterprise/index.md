@@ -39,10 +39,6 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 
 * Subscribe to **Solodev CMS Enterprise Edition** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-gfsp76d4g66te" target="_blank" rel="noopener noreferrer">clicking here</a>.
 
-!!!Note:
-If you already have a Solodev license, [call 1-800-859-7656](tel:18008597656), and a team member will activate your subscription.
-!!!
-
 * At the top of the AWS Marketplace listing page for the Solodev CMS Enterprise Edition, click the **“Continue to Subscribe”** button.
 
 <p><img src="../../images/quickstart/enterprise/cms-enterprise-marketplace-listing.jpg" alt="CMS Enterprise Marketplace listing" style="width: 80%;"></p>
@@ -177,7 +173,3 @@ If you would like to cancel your Solodev subscription and you have chosen hourly
 <!-- !!! Note :
 To simplify the process please disable **View nested** button in you AWS and remove the main stack.
 !!! -->
-
-## Support
-
-Call [1-800-859-7656](tel:18008597656) to speak with one of our Solodev Customer Care Specialists.

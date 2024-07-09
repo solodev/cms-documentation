@@ -4,6 +4,17 @@ Take your business to new heights with Micro Theme: a clean, easy-to-use, one-pa
 
 A great solution for small business websites and projects, Micro Theme takes care of the basics so you can focus on content. Use the homepage slider to post multiple hero images. Customize detail pages with targeted content. Add a contact form with your specific personal or company details. In just minutes, you can have an amazing, mobile-responsive website to promote your business like never before.
 
+<div class="border p-4" style="height: 255px; margin-bottom: 20px;">
+  <div style="width: 40%; float: left;">
+    <p><img src="../../images/themes/micro-theme.jpg" alt="Micro Theme"></p>
+  </div>
+  <div style="width: 50%; float: left; padding-left: 30px;">
+    <h2><a href="/themes/micro">Micro Theme</a></h2>
+    <p class="mt-3">Create a lightweight, one-page website in seconds that's beautiful on every screen. Think big with a one-page template with everything you need!</p>
+    <a href="https://github.com/solodev/marketplace/raw/master/depot/themes/micro.zip">Download Theme.</a>
+  </div>
+</div>
+
 * **Quickly launch with a ready-made design:** With just a few simple steps, you can have a fully-functional website ready to go live in no time.
 * **No code? No problem:** Perfect for less technical users, Micro Theme is flexible, easy to set up, and doesn't require a single line of code to get started. But if you're ambitious with code – or even a seasoned programmer that wants full access to HTML – you're always a click away from source code and taking control.
 * **Mobile responsive out-of-the-box:** Built with the popular Bootstrap framework, every template in Micro Theme is optimized for desktop, tablet, and mobile devices. 
@@ -14,7 +25,6 @@ A great solution for small business websites and projects, Micro Theme takes car
 ## Product Details
 
 Micro Theme is a one-page website template that's perfect for small sites and projects. 
-    <a href="https://github.com/solodev/marketplace/raw/master/depot/themes/micro.zip">Download Theme.</a>
 
 * Get started in minutes
 * No code/low code capabilities
@@ -26,4 +36,4 @@ Micro Theme is a one-page website template that's perfect for small sites and pr
 
 ## Support
 
-Support for SpaceJet is handled directly through Solodev's global help desk. For more information regarding support queries, email [help@solodev.com](mailto:help@solodev.com) or use the chat feature on <a href="https://www.solodev.com/" target="_blank" rel="noopener noreferrer">www.solodev.com</a>.
+Support for Micro Theme is handled directly through Solodev's global help desk. For more information regarding support queries, go to <a href="https://www.solodev.com/" target="_blank" rel="noopener noreferrer">www.solodev.com</a>.

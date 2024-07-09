@@ -38,14 +38,6 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 
 * Subscribe to **Solodev CMS Professional Edition** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X" target="_blank" rel="noopener noreferrer">clicking here</a>.
 
-!!!NOTE:
-If you already have an existing Solodev license, call [1-800-859-7656](tel:1-800-859-7656), and a team member will activate your subscription.
-!!!
-
-<!-- **Step 2:** Configure Your VPC and EC2 Key Pair.
-
-Please note that a VPC and EC2 Key Pair must be configured within the region you intend to launch your stack. -->
-
 * At the top of the AWS Marketplace listing page for the Solodev CMS Professional Edition, click the **“Continue to Subscribe”** button.
 
 <p><img src="../../images/quickstart/pro/cms-pro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p>
@@ -169,7 +161,3 @@ If you would like to cancel your Solodev subscription and you have chosen hourly
 !!! Note :
 To simplify the process please disable **View nested** button in you AWS and remove the main stack.
 !!!
----
-
-## Support
-To learn more about our add-on support options, call [1-800-859-7656](tel:1-800-859-7656) to speak with one of our Solodev Customer Care Specialists.

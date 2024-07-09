@@ -26,10 +26,6 @@ Solodev Kubernetes for EKS uses a set of YAML templates to create a new EKS clus
 
 * Subscribe to **Solodev CMS for Kubernetes** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa" target="_blank" rel="noopener noreferrer">clicking here</a>.
 
-!!!NOTE:
-If you already have an existing Solodev license, call [1-800-859-7656](tel:1-800-859-7656), and a team member will activate your subscription.
-!!!
-
 * At the top of the AWS Marketplace listing page for the Solodev CMS for Kubernetes, click the **“Continue to Subscribe”** button.
 
 <p><img src="../../images/quickstart/kubernetes/cms-eks-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p>
@@ -83,7 +79,4 @@ With your EKS cluster up and running, you can install apps within the cluster it
 		</td>
 	</tr>
 </table>
-
-## Support
-
-To learn more about our add-on support options, call 1-800-859-7656 to speak with one of our Solodev Customer Care Specialists. -->
+ -->
