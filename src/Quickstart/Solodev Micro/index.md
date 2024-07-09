@@ -1,22 +1,14 @@
 # Solodev CMS Micro Edition
 
-The perfect launch pad for small development or proof of concept (PoC) projects, Solodev CMS Micro Edition offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.
-
-## Overview
-
-Solodev CMS Micro Edition uses a set of AWS cloud services including:
-
-* <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html" target="_blank" rel="noopener noreferrer">Amazon Virtual Private Cloud (VPC)</a>
-* <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target="_blank" rel="noopener noreferrer">Amazon Elastic Compute Cloud (EC2)</a>
-* <a href="https://docs.aws.amazon.com/ebs/" target="_blank" rel="noopener noreferrer">Amazon Elastic Block Storage (EBS)</a>
-* <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html" target="_blank" rel="noopener noreferrer">Amazon CloudWatch</a>
-
-<p><img src="../../images/quickstart/lite/solodev-cms-lite-reference-architecture.png" alt="Solodev CMS Micro Architecture" style="width: 75%;"></p>
-
-## Prerequisites
-
-* Before subscribing to Solodev CMS Micro Edition, you must have an AWS account and sign in. 
-* If you do not have an account, you can create one at <a href="https://aws.amazon.com/" target="blank" rel="noopener noreferrer">https://aws.amazon.com/</a>.
+<div class="border p-4" style="height: 255px; margin-bottom: 20px;">
+  <div style="width: 20%; float: left;">
+    <p><img src="../../images/quickstart/micro/solodev-micro.png" alt="Solodev Micro Logo" style="width: 100%;"></p>
+  </div>
+  <div style="width: 80%; float: left; padding-left: 30px;">
+    <p>The perfect launch pad for small development or proof of concept (PoC) projects, Solodev CMS Micro Edition offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.</p>
+    <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" target="_blank" class="no-link inline-flex align-middle items-center font-medium cursor-pointer transition-colors duration-200 ease-out focus:outline-none bg-blue-500 hover:bg-blue-700 text-white px-4 h-10 text-sm rounded-md"><span>Subscribe to CMS Micro Edition</span></a>
+  </div>
+</div>
 
 If you already have a subscription to Solodev CMS Micro Edition, [click here](#aws-setup-with-subscription).
 
@@ -24,65 +16,100 @@ If you do not have a subscription, please follow the instructions under AWS Setu
 
 ## AWS Setup
 
-1. Subscribe to **Solodev CMS Micro Edition** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" target="_blank" rel="noopener noreferrer">clicking here</a>.
+### Product Detail
 
-!!!NOTE:
-If you already have an existing Solodev license, call [1-800-859-7656](tel:1-800-859-7656), and a team member will activate your subscription.
-!!!
+1. After subscribing to **Solodev CMS Micro Edition** on the AWS Marketplace, click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page.
 
-2. At the top of the AWS Marketplace listing page for the Solodev CMS Micro Edition, click the **“Continue to Subscribe”** button.
+<p><img src="../../images/quickstart/micro/cms-micro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%; padding-left: 1rem;"></p>
 
-<p><img src="../../images/quickstart/micro/cms-micro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p>
+### Subscribe to this Software
 
-3. You will be directed to the **"Terms and Conditions"** page. Review and accept these terms.
+1. You will be directed to the **"Terms and Conditions"** page. Review and accept these terms.
 
-4. Once accepted, you will receive a thank-you message asking you to configure your software. Click the **"Continue to Configuration"** button in the top right corner.
+<p><img src="../../images/quickstart/micro/cms-micro-subscribe-terms.jpg" alt="CMS Micro Subscribe" style="width: 80%; padding-left: 1rem;"></p>
+
+2. Once accepted, you will receive a thank you message asking you to configure your software. Click the **"Continue to Configuration"** button in the top right corner.
 
 !!!NOTE:
 This process can take a few moments. Please do not exit the screen or refresh the page.
 !!!
 
-5. Select the software version and the AWS Region where you wish to launch your stack. When finished, click **"Continue to Launch."**
+### Configure this Software
 
-!!!NOTE:
-The latest version of Solodev CMS Micro is always recommended. When selecting an available AWS Region for hosting, you may want to consider a region that is closer to your users to help reduce your network latency.
-!!!
+1. Select a fulfillment option, the software version and the AWS Region where you wish to launch your stack.
 
-<p><img src="../../images/quickstart/micro/cms-micro-configure.jpg" alt="CMS Micro Configure" style="width: 80%;"></p>
+<p><img src="../../images/quickstart/micro/cms-micro-configure.jpg" alt="CMS Micro Configure" style="width: 80%; padding-left: 1rem;"></p>
 
-6. Configure your software:
+**Name** | **Description** 
+:--- | ---
+Fulfillment option | Select an AMI. For more information on AMI, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html" target="_blank">click here</a>.
+Software version | The latest version of Solodev CMS Micro is always recommended.
+Region | When selecting an available AWS Region for hosting, you may want to consider a region <br>that is closer to your users to help reduce your network latency.
 
-**Choose Actions**
+2. When finished, click **"Continue to Launch."**
 
-There are two options for configuring your Solodev CMS Micro: Launch from Website or Launch through EC2. Select one from the menu.
+### Launch this software
 
-!!!NOTE:
-The following steps cover the configuration when selecting Launch from Website, which is recommended for first-time subscribers. If you already have your VPC and other variables configured, you can choose Launch through EC2 for more rapid deployment.
-!!!
+1. Review the launch configuration details and follow the instructions to launch this software.
 
-**EC2 Instance Type**
+<div style="padding-left: 2rem;">
 
-Solodev CMS Micro Edition runs on a single Amazon Elastic Compute (EC2) instance and is defaulted to run on a recommended m3.medium server (double check this default size). Depending on your traffic needs, you can select an instance size from the available options in the menu. To learn more about which instance to choose based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here</a>.
+  #### Choose Actions
 
-**VPC Settings**
+  There are two options for configuring your Solodev CMS Micro: Launch from Website or Launch through EC2. Select one from the menu.
 
-An Amazon Virtual Private Cloud (VPC) is a dedicated environment that lets you launch the AWS resources that power your Solodev CMS Micro Edition in an isolated virtual network. If you do not have a VPC, you will need to create one in your VPC Console. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">Click here for instructions</a>.
+  <p><img src="../../images/quickstart/micro/cms-micro-actions.jpg" alt="CMS Micro Actions"></p>
 
-**Subnet Settings**
+  !!!NOTE:
+  The following steps cover the configuration when selecting Launch from Website, which is recommended for first-time subscribers. If you already have your VPC and other variables configured, you can choose Launch through EC2 for more rapid deployment.
+  !!!
 
-A subnet is a range of IP addresses contained in your VPC. You can create AWS resources, such as EC2 instances, in specific subnets, enabling you to group network resources more efficiently.  If you do not have any existing subnets, you will need to create one in your Subnet Console. For instructions, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">click here</a>.
+  #### EC2 Instance Type
 
-**Security Group Settings**
+  Solodev CMS Micro Edition runs on a single Amazon Elastic Compute (EC2) instance and is defaulted to run on a recommended t2.large server. Depending on your traffic needs, you can select an instance size from the available options in the menu. 
 
-A security group acts as a firewall that controls the traffic allowed to reach one or more instances. You can create a new security group or choose one of your existing groups. Select an existing security group from the menu or configure a new security group using the form provided. To learn more, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here</a>.
+  <p><img src="../../images/quickstart/micro/cms-micro-instance.jpg" alt="CMS Micro EC2 Instance Type"></p>
 
-<p><img src="../../images/quickstart/micro/security-groups.jpg" alt="CMS Micro Security Groups" style="width: 80%;"></p>
+  To learn more about which instance to choose based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here</a>.
 
-**Key Pair Settings**
+  #### VPC Settings
 
-An Amazon EC2 key pair is a set of security credentials consisting of a public and private key that verify a user’s identity when connecting or communicating with an EC2 instance. Select an existing security group from the menu or configure a new security group using the form provided. If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here</a>.
+  An Amazon Virtual Private Cloud (VPC) is a dedicated environment that lets you launch the AWS resources that power your Solodev CMS Micro Edition in an isolated virtual network. If you do not have a VPC, you will need to create one in your VPC Console.
 
-7. Choose **"Launch"**.
+  <p><img src="../../images/quickstart/micro/cms-micro-vpc.jpg" alt="CMS Micro VPC Settings"></p>
+
+  For instructions on how to create a VPC, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">click here for instructions</a>.
+
+  **Subnet Settings**
+
+  A subnet is a range of IP addresses contained in your VPC. You can create AWS resources, such as EC2 instances, in specific subnets, enabling you to group network resources more efficiently. 
+
+  <p><img src="../../images/quickstart/micro/cms-micro-subnet.jpg" alt="CMS Micro Subnet Settings"></p>
+
+  If you do not have any existing subnets, you will need to create one in your Subnet Console. For instructions, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">click here</a>.
+
+  **Security Group Settings**
+
+  A security group acts as a firewall that controls the traffic allowed to reach one or more instances. You can create a new security group or choose one of your existing groups. Select an existing security group from the menu or configure a new security group using the form provided. To learn more, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here</a>.
+
+  <p><img src="../../images/quickstart/micro/security-groups.jpg" alt="CMS Micro Security Groups" style="width: 80%;"></p>
+
+  **Name** | **Description** 
+  :--- | ---
+  Name | Name your security group
+  Description | Give your security group a description
+
+  **Key Pair Settings**
+
+  An Amazon EC2 key pair is a set of security credentials consisting of a public and private key that verify a user’s identity when connecting or communicating with an EC2 instance. Select an existing security group from the menu or configure a new security group using the form provided. 
+
+  <p><img src="../../images/quickstart/micro/cms-micro-key-pair.jpg" alt="CMS Micro Key Pair Settings" style="width: 80%;"></p>
+
+  If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here</a>.
+
+</div>
+
+2. After configuring your software, choose **"Launch"**.
 
 ## AWS Setup with Subscription
 
