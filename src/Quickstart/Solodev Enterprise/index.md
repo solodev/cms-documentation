@@ -76,7 +76,7 @@ Specify the basic configuration such as the software version and the region you 
 
 Review the launch configuration details and follow the instructions to launch this software.
 
-<p><img src="../../images/quickstart/enterprise/launch-enterprise.jpg" alt="Launch CMS Enterprise" style="width: 70%;"></p>
+<p><img src="../../images/quickstart/enterprise/launch-enterprise.jpg" alt="Launch CMS Enterprise" style="width: 60%;"></p>
 
 1. **Choose an Action**
 2. Click **"Launch"**.
