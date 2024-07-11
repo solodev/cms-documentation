@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-11T19:00:57Z",
+  "created": "2024-07-11T20:46:40Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1850,7 +1850,11 @@
       "path": "images\\quickstart\\acknowledge.png"
     },
     {
-      "path": "images\\quickstart\\aws_marketplace_logo.jpg"
+      "path": "images\\quickstart\\aws_marketplace_logo.jpg",
+      "old": true
+    },
+    {
+      "path": "images\\quickstart\\aws-marketplace-logo.jpg"
     },
     {
       "path": "images\\quickstart\\aws-pro-subscribe-header.jpg"
@@ -2078,7 +2082,11 @@
       "path": "images\\quickstart\\stack-name.png"
     },
     {
-      "path": "images\\quickstart\\subscribe_large.jpg"
+      "path": "images\\quickstart\\subscribe_large.jpg",
+      "old": true
+    },
+    {
+      "path": "images\\quickstart\\subscribe-large.jpg"
     },
     {
       "path": "images\\quickstart\\vpc\\create-vpc.jpg"
