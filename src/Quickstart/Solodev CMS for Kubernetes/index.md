@@ -4,51 +4,64 @@ Solodev also offers a fully containerized version of the Solodev CMS for Kuberne
 
 Supported services also include Amazon EKS Anywhere and Self-Managed Kubernetes. Deploy from AWS Marketplace via Helm chart or container, with nodes available in multiple pricing tiers. 
 
-[Contact us](mailto:sales@solodev.com) for setup and details.
-
 ## Overview
 
 Launch Amazon Elastic Kubernetes Service (EKS) in a new cluster and manage your containers at any scale with Solodev. Launch your applications rapidly and across AWS Regions and Availability Zones, and move from environment to environment regardless of operating system.
 
 Solodev Kubernetes for EKS uses a set of YAML templates to create a new EKS cluster. All YAML templates are deployed via <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="blank">AWS CloudFormation</a>.
 
-<p><img src="../../images/quickstart/kubernetes/solodev-kubernetes-template.jpg" alt="Solodev EKS Architecture Diagram" style="width: 80%;"></p>
+<!-- <p><img src="../../images/quickstart/kubernetes/solodev-kubernetes-template.jpg" alt="Solodev EKS Architecture Diagram" style="width: 80%;"></p> -->
 
 ## Prerequisites
 
-* Before subscribing to Solodev CMS for Kubernetes, you must have an AWS account and sign in. 
-* If you do not have an account, you can create one at <a href="https://aws.amazon.com/" target="blank" rel="noopener noreferrer">https://aws.amazon.com/</a>.
-* Configure your VPC and EC2 Key Pair.
+### Subscribe on the AWS Marketplace
+
+Before launching one of our products, you'll first need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started:
+
+<div class="border p-4" style="height: 137px; margin-bottom: 20px; align-items: center; display: flex;">
+  <div style="width: 50%; float: left; text-align: center;">
+    <img src="../../images/quickstart/AWS_Marketplace_Logo.jpg" alt="AWS Marketplace Logo" style="width: 70%;">
+  </div>
+  <div style="width: 50%; float: left; text-align: center;">
+    <a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa" rel="noopener noreferrer" target="_blank"><img src="../../images/quickstart/Subscribe_Large.jpg" style="width: 50%;"></a>
+  </div>
+</div>
 
 ## AWS Setup
 
-**Step 1:** Subscribe on the AWS Marketplace.
+The following steps cover the setup of the Solodev CMS for Kubernetes on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process.
 
-* Subscribe to **Solodev CMS for Kubernetes** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa" target="_blank" rel="noopener noreferrer">clicking here</a>.
+<!-- <p><img src="../../images/quickstart/kubernetes/cms-eks-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p> -->
 
-* At the top of the AWS Marketplace listing page for the Solodev CMS for Kubernetes, click the **“Continue to Subscribe”** button.
+### Subscribe to this Software
 
-<p><img src="../../images/quickstart/kubernetes/cms-eks-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p>
-
-* You will be directed to the **"Agreement"** page. Review and make adjustments as needed. Click the **"Continue to Configuration"** button on the top-right corner of the AWS listing.
-
-<p><img src="../../images/quickstart/kubernetes/cms-eks-terms.jpg" alt="CMS EKS Configure Software Contract" style="width: 80%;"></p>
-
-* Select a **"Fulfillment option"** from the dropdown.
-	* Helm chart:
-		* Deploy Helm
-		* HelmChartDeliveryOption
-
-<p><img src="../../images/quickstart/kubernetes/cms-eks-configure.jpg" alt="CMS EKS Configure" style="width: 80%;"></p>
-
-
-* Specify the basic configuration such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
+By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
 
 <p><img src="../../images/quickstart/pro/aws-pro-subscribe.jpg" alt="CMS EKS Configure Software Contract" style="width: 80%;"></p>
+<!-- <p><img src="../../images/quickstart/kubernetes/cms-eks-terms.jpg" alt="CMS EKS Configure Software Contract" style="width: 80%;"></p> -->
 
-* Confirm your configurations and choose **"Launch CloudFormation"** within the "Choose Action" field. Click on the **"Launch"** button to continue to CloudFormation.
+1. Review and accept the **"Terms and Conditions"**.
+2. Click **"Continue to Configuration"**.
 
-<p><img src="../../images/quickstart/pro/cms-pro-launch.jpg" alt="CMS EKS Launch CloudFormation" style="width: 70%; margin-bottom: 20px;"></p>
+!!!NOTE:
+Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
+!!!
+
+### Configure this Software
+
+Choose a fulfillment option and the software version you wish to launch your stack.
+
+<p><img src="../../images/quickstart/kubernetes/cms-eks-configure.jpg" alt="CMS EKS Configure" style="width: 60%;"></p>
+
+1. Select a fulfillment option. Fulfillment options relate to how software products are delivered and deployed. This software is packaged as a virtual appliance and deployed on Amazon EC2 instances.
+2. Click on the **"Continue to Launch"** button to proceed.
+
+### Launch this software
+
+Review the launch configuration details and follow the instructions to launch this software.
+
+1. **Choose Action**
+2. Click **"Launch"**.
 
 <!-- 
 

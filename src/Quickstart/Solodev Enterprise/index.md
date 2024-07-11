@@ -29,35 +29,61 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 
 ## Prerequisites
 
-* Before subscribing to Solodev CMS Enterprise Edition, you must have an AWS account and sign in.
-* If you do not have an account, you can create one at <a href="https://aws.amazon.com/" target="_blank">https://aws.amazon.com/</a>.
-* Configure your VPC and EC2 Key Pair.
+### Subscribe on the AWS Marketplace
+
+Before launching one of our products, you'll first need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started:
+
+<div class="border p-4" style="height: 137px; margin-bottom: 20px; align-items: center; display: flex;">
+  <div style="width: 50%; float: left; text-align: center;">
+    <img src="../../images/quickstart/AWS_Marketplace_Logo.jpg" alt="AWS Marketplace Logo" style="width: 70%;">
+  </div>
+  <div style="width: 50%; float: left; text-align: center;">
+    <a href="https://aws.amazon.com/marketplace/pp/prodview-gfsp76d4g66te" rel="noopener noreferrer" target="_blank"><img src="../../images/quickstart/Subscribe_Large.jpg" style="width: 50%;"></a>
+  </div>
+</div>
 
 ## AWS Setup
 
-**Step 1:** Subscribe on the AWS Marketplace.
+At the top of the AWS Marketplace listing page for the Solodev CMS Enterprise Edition, click the **“Continue to Subscribe”** button.
 
-* Subscribe to **Solodev CMS Enterprise Edition** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/prodview-gfsp76d4g66te" target="_blank" rel="noopener noreferrer">clicking here</a>.
+### Subscribe to this Software
 
-* At the top of the AWS Marketplace listing page for the Solodev CMS Enterprise Edition, click the **“Continue to Subscribe”** button.
+By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
 
-<p><img src="../../images/quickstart/enterprise/cms-enterprise-marketplace-listing.jpg" alt="CMS Enterprise Marketplace listing" style="width: 80%;"></p>
+<!-- <p><img src="../../images/quickstart/enterprise/cms-enterprise-marketplace-listing.jpg" alt="CMS Enterprise Marketplace listing" style="width: 80%;"></p> -->
 
 <!-- **Step 2:** Configure your VPC and EC2 Key Pair.
 
 Please note that a <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html" target="_blank">VPC</a> and <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target="_blank">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch. -->
 
-* You will be directed to the **"Subscription"** page. Review and click on the **"Continue to Configuration"** button.
+<p><img src="../../images/quickstart/enterprise/enterprise-configuration.png" alt="CMS Enterprise Configuration" style="width: 80%;"></p>
 
-<p><img src="../../images/quickstart/enterprise/enterprise-configuration.png" alt="CMS Enterprise Configuration"></p>
+1. Review and accept the **"Terms and Conditions"**.
+2. Click **"Continue to Configuration"**.
 
-* Specify the basic configuration such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
+### Configure this Software
+
+Specify the basic configuration such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
 
 <p><img src="../../images/quickstart/enterprise/enterprise-configure.jpg" alt="Enterprise Configuration"></p>
 
-* Confirm your configurations and choose **"Launch CloudFormation"** within the **"Choose Action"** field. Click on the **"Launch"** button to continue to CloudFormation.
+1. Select a fulfillment option. Fulfillment options relate to how software products are delivered and deployed. This software is packaged as a virtual appliance and deployed on Amazon EC2 instances.
+2. Select a software version. The latest version of Solodev CMS Micro is always recommended.
+3. When selecting an available AWS Region for hosting, you may want to consider a region that is closer to your users to help reduce your network latency.
+4. Click **"Continue to Launch."**
+
+### Launch this software
+
+Review the launch configuration details and follow the instructions to launch this software.
 
 <p><img src="../../images/quickstart/enterprise/launch-enterprise.jpg" alt="Launch CMS Enterprise" style="width: 70%;"></p>
+
+1. **Choose an Action**
+2. Click **"Launch"**.
+
+#### Choose an Action
+
+There are two options for configuring your Solodev CMS Enterprise: Launch CloudFormation or Copy to Service Catalog. Select one from the menu.
 
 ## Fill Out the CloudFormation Stack Wizard
 

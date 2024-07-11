@@ -2,7 +2,9 @@
 
 <p>The perfect launch pad for small development or proof of concept (PoC) projects, Solodev CMS Micro Edition offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.</p>
 
-## Subscribe on the AWS Marketplace
+## Prerequisites
+
+### Subscribe on the AWS Marketplace
 
 Before launching one of our products, you'll first need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started:
 
