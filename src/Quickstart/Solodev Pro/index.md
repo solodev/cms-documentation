@@ -28,35 +28,61 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 
 ## Prerequisites
 
-* Before subscribing to Solodev CMS Professional Edition, you must have an AWS account and sign in. 
-* If you do not have an account, you can create one at <a href="https://aws.amazon.com/" target="blank" rel="noopener noreferrer">https://aws.amazon.com/</a>.
-* Configure your VPC and EC2 Key Pair.
+### Subscribe on the AWS Marketplace
+
+Before launching one of our products, you'll first need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started:
+
+<div class="border p-4" style="height: 137px; margin-bottom: 20px; align-items: center; display: flex;">
+  <div style="width: 50%; float: left; text-align: center;">
+    <img src="../../images/quickstart/AWS_Marketplace_Logo.jpg" alt="AWS Marketplace Logo" style="width: 70%;">
+  </div>
+  <div style="width: 50%; float: left; text-align: center;">
+    <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X" rel="noopener noreferrer" target="_blank"><img src="../../images/quickstart/Subscribe_Large.jpg" style="width: 50%;"></a>
+  </div>
+</div>
 
 ## AWS Setup
 
-**Step 1:** Subscribe on the AWS Marketplace.
+The following steps cover the setup of the **Solodev CMS Professional Edition** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process.
 
-* Subscribe to **Solodev CMS Professional Edition** on the AWS Marketplace by <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X" target="_blank" rel="noopener noreferrer">clicking here</a>.
+<!-- <p><img src="../../images/quickstart/pro/cms-pro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p> -->
 
-* At the top of the AWS Marketplace listing page for the Solodev CMS Professional Edition, click the **“Continue to Subscribe”** button.
+### Subscribe to this Software
 
-<p><img src="../../images/quickstart/pro/cms-pro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p>
-
-* You will be directed to the **"Terms and Conditions"** page. Review and accept these terms.
-
-<p><img src="../../images/quickstart/pro/cms-pro-terms.jpg" alt="CMS Pro Configure Software Contract" style="width: 80%;"></p>
-
-* You will receive a thank you message and you will be asked to configure your software. Click the **"Continue to Configuration"** button on the top-right corner of the AWS listing.
+By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
 
 <p><img src="../../images/quickstart/pro/aws-pro-subscribe.jpg" alt="CMS Pro Configure Software Contract" style="width: 80%;"></p>
 
-* Specify the basic configuration such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
+1. Review and accept the **"Terms and Conditions"**.
+2. Click **"Continue to Configuration"**.
 
-<p><img src="../../images/quickstart/pro/cms-pro-configure.jpg" alt="CMS Pro Configure" style="width: 80%;"></p>
+!!!NOTE:
+Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
+!!!
 
-* Confirm your configurations and choose **"Launch CloudFormation"** within the "Choose Action" field. Click on the **"Launch"** button to continue to CloudFormation.
+### Configure this Software
+
+Specify the basic configuration such as the software version and the region you wish to launch the stack.
+
+<p><img src="../../images/quickstart/pro/cms-pro-configure.jpg" alt="CMS Pro Configure"></p>
+
+1. Select a fulfillment option. Fulfillment options relate to how software products are delivered and deployed. This software is packaged as a virtual appliance and deployed on Amazon EC2 instances.
+2. Select a software version. The latest version of Solodev CMS Micro is always recommended.
+3. When selecting an available AWS Region for hosting, you may want to consider a region that is closer to your users to help reduce your network latency.
+4. Click **"Continue to Launch."**
+
+### Launch this software
+
+Review the launch configuration details and follow the instructions to launch this software.
 
 <p><img src="../../images/quickstart/pro/cms-pro-launch.jpg" alt="CMS Pro Launch CloudFormation" style="width: 70%; margin-bottom: 20px;"></p>
+
+1. **Choose an Action**
+2. Click **"Launch"**.
+
+#### Choose an Action
+
+There are two options for configuring your Solodev CMS Professional: Launch CloudFormation or Copy to Service Catalog. Select one from the menu.
 
 ## CloudFormation Stack Wizard
 
