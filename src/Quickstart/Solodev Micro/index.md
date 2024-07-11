@@ -15,9 +15,9 @@ Before launching one of our products, you will need to subscribe to Solodev on t
   </div>
 </div>
 
+!!!NOTE:
 If you already have a subscription to Solodev CMS Micro Edition, [click here](#aws-setup-with-subscription).
-
-If you do not have a subscription, please follow the instructions under AWS Setup below.
+!!!
 
 ## AWS Setup
 
