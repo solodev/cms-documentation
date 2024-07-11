@@ -20,10 +20,10 @@ Before launching one of our products, you'll first need to subscribe to Solodev 
 
 <div class="border p-4" style="height: 137px; margin-bottom: 20px; align-items: center; display: flex;">
   <div style="width: 50%; float: left; text-align: center;">
-    <img src="../../images/quickstart/AWS_Marketplace_Logo.jpg" alt="AWS Marketplace Logo" style="width: 70%;">
+    <img src="../../images/quickstart/aws-marketplace-logo.jpg" alt="AWS Marketplace Logo" style="width: 70%;">
   </div>
   <div style="width: 50%; float: left; text-align: center;">
-    <a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa" rel="noopener noreferrer" target="_blank"><img src="../../images/quickstart/Subscribe_Large.jpg" style="width: 50%;"></a>
+    <a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa" rel="noopener noreferrer" target="_blank"><img src="../../images/quickstart/subscribe-large.jpg" style="width: 50%;"></a>
   </div>
 </div>
 

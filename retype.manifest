@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-11T17:08:28Z",
+  "created": "2024-07-11T19:00:57Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2860,6 +2860,9 @@
     },
     {
       "path": "images\\workspace.png"
+    },
+    {
+      "path": "images\\workspace\\documents\\copy-file-folder.jpg"
     },
     {
       "path": "images\\workspace11.jpg",
