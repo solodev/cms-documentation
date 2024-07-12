@@ -12,7 +12,7 @@ Amazon EKS (Elastic Kubernetes Service) is a managed Kubernetes service provided
 * You need to have **Chocolatey** installed or any other package manager you prefer. For instructions on how to install Chocolatey, <a href="https://chocolatey.org/install" target="_blank" rel="noopener noreferrer">click here</a>.
 * You will also need the following packages:
 
-  * **eksctl**
+  * **EKS CTL**
    
     `eksctl` is a command-line tool provided by AWS (Amazon Web Services) that simplifies the creation, management, and operation of Kubernetes clusters on AWS's managed Kubernetes service known as Amazon EKS (Elastic Kubernetes Service).
 
@@ -28,7 +28,7 @@ Amazon EKS (Elastic Kubernetes Service) is a managed Kubernetes service provided
     choco install kubernetes-cli
     ```
 
-  * **kubernetes-helm**
+  * **Kubernetes Helm**
 
     `Kubernetes Helm` is a package manager for Kubernetes that simplifies the process of deploying and managing applications on Kubernetes clusters. It allows users to define, install, and upgrade complex Kubernetes applications and their dependencies through charts. A `Helm chart` is a collection of files that describe a set of Kubernetes resources, such as deployments, services, and config maps, packaged together for easy deployment.
 

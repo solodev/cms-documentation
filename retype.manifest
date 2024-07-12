@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-12T12:37:13Z",
+  "created": "2024-07-12T18:15:41Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2962,6 +2962,9 @@
     },
     {
       "path": "quickstart\\index.html"
+    },
+    {
+      "path": "quickstart\\solodev-cms-for-eks\\index.html"
     },
     {
       "path": "quickstart\\solodev-cms-for-kubernetes\\index.html"
