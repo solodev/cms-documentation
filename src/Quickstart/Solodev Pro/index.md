@@ -1,4 +1,4 @@
-# Solodev CMS Professional Edition
+# CMS Professional Edition
 
 Solodev CMS Professional Edition is a business-grade content management system built from the ground up for Amazon Web Services (AWS). It is designed for small to medium-sized websites and apps that require a secure, scalable, flexible, and affordable hosting infrastructure powered by the AWS Cloud.
 

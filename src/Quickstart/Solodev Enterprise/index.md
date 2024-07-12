@@ -1,4 +1,4 @@
-# Solodev CMS Enterprise Edition
+# CMS Enterprise Edition
 
 Solodev CMS Enterprise Edition is an enterprise-grade content management system built from the ground up for Amazon Web Services (AWS). It is designed for high-availability websites and apps that require a secure, scalable, and redundant infrastructure powered by the AWS Cloud.
 
