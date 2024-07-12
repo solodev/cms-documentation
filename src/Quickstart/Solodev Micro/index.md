@@ -87,7 +87,7 @@ An Amazon Virtual Private Cloud (VPC) is a dedicated environment that lets you l
 
 For instructions on how to create a VPC, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">click here for instructions</a>.
 
-**Subnet Settings**
+#### Subnet Settings
 
 A subnet is a range of IP addresses contained in your VPC. You can create AWS resources, such as EC2 instances, in specific subnets, enabling you to group network resources more efficiently. 
 
@@ -95,7 +95,7 @@ A subnet is a range of IP addresses contained in your VPC. You can create AWS re
 
 If you do not have any existing subnets, you will need to create one in your Subnet Console. For instructions, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">click here</a>.
 
-**Security Group Settings**
+#### Security Group Settings
 
 A security group acts as a firewall that controls the traffic allowed to reach one or more instances. You can create a new security group or choose one of your existing groups. Select an existing security group from the menu or configure a new security group using the form provided.
 
@@ -105,7 +105,7 @@ Name your security group and give it a description.
 
 To learn more about security groups, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here</a>.
 
-**Key Pair Settings**
+#### Key Pair Settings
 
 An Amazon EC2 key pair is a set of security credentials consisting of a public and private key that verify a user’s identity when connecting or communicating with an EC2 instance. Select an existing security group from the menu or configure a new security group using the form provided. 
 
