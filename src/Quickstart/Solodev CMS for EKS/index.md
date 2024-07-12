@@ -36,16 +36,24 @@ Amazon EKS (Elastic Kubernetes Service) is a managed Kubernetes service provided
     choco install kubernetes-helm
     ```
 
+  * **jq**
+
+    `jq` is a lightweight and flexible command-line JSON processor. It allows you to parse, filter, map, and transform JSON data with ease.
+
+    ```js
+    choco install jq
+    ```
+
   * **Python**
 
-    `Python` is a versatile and powerful scripting language that allows you to automate tasks, interact with system resources, and integrate with various APIs and libraries. <a href="https://www.microsoft.com/store/productId/9P7QFQMJRFP7" target="_blank" rel="noopener noreferrer">Download the latest version from the Microsoft Store.</a>
+    `Python` is a versatile and powerful scripting language that allows you to automate tasks, interact with system resources, and integrate with various APIs and libraries. <a href="https://apps.microsoft.com/search?query=Python&hl=en-us&gl=US" target="_blank" rel="noopener noreferrer">Download the latest version from the Microsoft Store.</a>
 {% endtab %}
 
 {% tab title="Linux" %}
 Coming soon...
 {% endtab %}
 
-{% tab title="Mac" %}
+{% tab title="MacOs" %}
 Coming soon...
 {% endtab %}
 {% endtabs %}
@@ -58,8 +66,12 @@ aws --version
 ```
 2. Configure your user credentials by running the following command:
 ```js
-aws configure --profile cloud
+aws configure --profile PROFILE-NAME
 ```
+
+!!!NOTE:
+Replace `PROFILE-NAME` with you own.
+!!!
 
 You will be prompted for the following information:
 
@@ -97,6 +109,8 @@ curl -O https://solodev-cms.s3.amazonaws.com/eks/ekscli.sh && chmod 700 ekscli.s
 This process takes approximately 15 to 30 minutes.
 !!!
 
+<p><img src="../../images/quickstart/eks/eks-dashboard-console.jpg" alt="EKS dashboard console" style="width: 62%;"></p>
+
 ## Access the Kubernetes Dashboard
 
 The Kubernetes dashboard provides a graphical interface that simplifies these management tasks, making it easier for administrators and developers to interact with and monitor Kubernetes clusters without needing to use command-line tools exclusively.
@@ -109,6 +123,8 @@ The following command opens a localhost dashboard where you can view the cluster
 
 1. Copy the key from the command line and paste into the Bearer token field in the browser.
 2. Explore the interface to familiarize yourself with its layout and functionalities.
+
+<p><img src="../../images/quickstart/eks/eks-kubernetes-dashboard.jpg" alt="EKS Kubernetes dashboard" style="width: 62%;"></p>
 
 ## Install Solodev CMS for EKS
 
@@ -135,6 +151,8 @@ You can monitor the pod creation progress in the dashboard under your namespace.
 ```js
 ./ekscli.sh cms cms**********
 ```
+
+<p><img src="../../images/quickstart/eks/eks-cms-console.jpg" alt="EKS CMS console" style="width: 62%;"></p>
 
 !!!NOTE:
 This updates the ports for the CMS on Kubernetes to be hosted locally so you can access it in the browser.

@@ -30,7 +30,7 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 
 ### Subscribe on the AWS Marketplace
 
-Before launching one of our products, you will need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started. Once you have completed this, return to this article and follow the instructions below:
+Before launching CMS Professional, you will need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started. Once completed, return to this article and follow the instructions below:
 
 <div class="border p-4" style="height: 137px; margin-bottom: 20px; align-items: center; display: flex;">
   <div style="width: 50%; float: left; text-align: center;">
