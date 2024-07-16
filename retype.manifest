@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-12T18:20:06Z",
+  "created": "2024-07-12T19:13:15Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1880,6 +1880,12 @@
     },
     {
       "path": "images\\quickstart\\create-stack.jpg"
+    },
+    {
+      "path": "images\\quickstart\\eks\\eks-cms-console.jpg"
+    },
+    {
+      "path": "images\\quickstart\\eks\\eks-dashboard-console.jpg"
     },
     {
       "path": "images\\quickstart\\enterprise\\cms-enterprise-aws-subscribe.png"

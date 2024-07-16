@@ -6,7 +6,7 @@ Website Settings applies to specific websites in the CMS system. Administrators 
 
 **Name** | **Description** 
 :--- | ---
-Primary URL | Edit primary URL of your website.
+Primary URL | Update the primary URL of your website.
 [Domain Information](/workspace/websites/settings/#domain-information) | Enter staging address, alias, and custom rules to the domain host file in this section.
 [Sitemap](/workspace/websites/settings/#sitemap) | Generate your website's sitemap.
 [CDN Information](/workspace/websites/settings/#cdn-information) | Configure your CDN information.
@@ -17,7 +17,7 @@ Primary URL | Edit primary URL of your website.
 
 In this section, you can update domain information: website address(es), host settings, and redirects. You can add and remove redirects by clicking the **"Add +"** and **"Remove -"** buttons.
 
-<p><img src="../../../../images/websites/domain-information.jpg" alt="Domain Information Accordion" style="width: 45%;"></p>
+<p><img src="../../../../images/websites/settings/website-settings-domain.jpg" alt="Domain Information Accordion" style="width: 47%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -31,10 +31,11 @@ Remove Redirects | Remove redirects by using the button **Remove -**.
 
  A sitemap is an .xml file that lists and organizes all the web pages within that site. It's like a map or index for the website, designed to help search engines understand the structure of the site and how its pages are connected.
 
-<p><img src="../../../../images/websites/sitemap.jpg" alt="Sitemap Accordion" style="width: 43%;"></p>
+<p><img src="../../../../images/websites/settings/website-settings-sitemap.jpg" alt="Sitemap Accordion" style="width: 43%;"></p>
 
 **Name** | **Description** 
 :--- | ---
+Select URL to create a sitemap | Select a URL from the dropdown to Generate the sitemap.
 Generate Sitemap | To generate a sitemap of the website, click the **Generate Sitemap** button.
 
 !!!Note:
@@ -45,7 +46,7 @@ After clicking the **Generate Sitemap** button, the output process may take seve
 
 A Content Delivery Network (CDN) is a network of servers strategically distributed around the world to help deliver web content, such as web pages, images, videos, and other resources, to users more efficiently and quickly.
 
-<p><img src="../../../../images/websites/cdn-info.jpg" alt="CDN Accordion" style="width: 43%;"></p>
+<p><img src="../../../../images/websites/settings/website-settings-cdn-information.jpg" alt="CDN Accordion" style="width: 43%;"></p>
 
 **Name** | **Description** 
 :--- | ---

@@ -27,7 +27,7 @@ The following steps cover the setup of the **Solodev CMS Micro Edition** on the 
 
 ### Subscribe to this Software
 
-By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
+Solodev CMS Micro Edition is available as a monthly subscription on the AWS Marketplace. The subscription includes the software's operational and infrastructure costs for running on AWS.
 
 <p><img src="../../images/quickstart/micro/cms-micro-subscribe-terms.jpg" alt="CMS Micro Subscribe" style="width: 80%;"></p>
 
