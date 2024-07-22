@@ -13,4 +13,22 @@ Themes determine the overall look and feel of your website, including its layout
   </div>
 </div>
 
+<div class="border p-4" style="height: 255px; margin-bottom: 20px;">
+  <div style="width: 40%; float: left; background-color: #06283a; height: 218px;"></div>
+  <div style="width: 50%; float: left; padding-left: 30px;">
+    <h2>Pro Theme</h2>
+    <p class="mt-3">Launch a website in minutes with an easy-to-use, mobile responsive theme.</p>
+    <p class="mt-3"><em>Theme coming soon.</em></p>
+  </div>
+</div>
+
+<div class="border p-4" style="height: 255px; margin-bottom: 20px;">
+  <div style="width: 40%; float: left; background-color: #06283a; height: 218px;"></div>
+  <div style="width: 50%; float: left; padding-left: 30px;">
+    <h2>Enterprise Theme</h2>
+    <p class="mt-3">Build on the galaxy’s most advanced, mobile responsive website theme package.</p>
+    <p class="mt-3"><em>Theme coming soon.</em></p>
+  </div>
+</div>
+
 If you need more information on how to add a website, [click here](/tutorials/cms/how-to-add-website/).
