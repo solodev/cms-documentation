@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-12T19:13:15Z",
+  "created": "2024-07-16T18:39:16Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2813,6 +2813,15 @@
       "path": "images\\websites\\redirects.jpg"
     },
     {
+      "path": "images\\websites\\settings\\website-settings-cdn-information.jpg"
+    },
+    {
+      "path": "images\\websites\\settings\\website-settings-domain.jpg"
+    },
+    {
+      "path": "images\\websites\\settings\\website-settings-sitemap.jpg"
+    },
+    {
       "path": "images\\websites\\sitemap.jpg"
     },
     {
@@ -2826,6 +2835,9 @@
     },
     {
       "path": "images\\websites\\update-file.jpg"
+    },
+    {
+      "path": "images\\websites\\website-settings-cdn-information.jpg"
     },
     {
       "path": "images\\websites\\website-settings.jpg"
