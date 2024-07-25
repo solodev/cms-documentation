@@ -1,86 +1,11 @@
-# Generic Shortcodes
+# Extended
 
-The following shortcodes can be used periodically in any Solodev website.
+The following shortcodes can be used periodically in any Solodev website to add additional functionality and customization. They offer advanced features such as Google Search integration, YouTube embeds, and various other enhancements.
 
-## Google Search with Ads
-
-Embed Google Custom Search with ads on the website. 
-
-Attributes: 
-
-**Attributes** | **Description** 
+**Shortcode** | **Description** 
 :--- | ---
-```[google_cse_id](required)``` | Specify Google Custom Search ID.
-
-Shortcode:
- 
-```js
-[google_search]
-```
-Code Example:
- 
-```js
-[google_search google_cse_id="XXXXXXXXXXXXXXXXXX"]
-```
------------------------------------------------------------------------------------------------------------------------------
- 
-## Google Search No Ads
-
-Embeds Google Custom Search without ads on the website.
-
-Attributes:
-
-**Attributes** | **Description** 
-:--- | ---
-```[google_cse_id](required)``` | Specify Google Custom Search ID.
-```[google_api_key](required)``` | Google Custom Search ID.
-
-Shortcode: 
-
-```js
-[google_website_search]
-```
-Code Example:
-
-```js
-[google_website_search google_cse_id="XXXXXXXXXXXXXXXXXX" google_api_key="XXXXXXXXXXXXXXXXXX"]
-```
-
-## YouTube
-
-Embed YouTube videos to your website. The YouTube video shortcode has two attributes, one required and one optional, listed below.   
-
-Attributes: 
-
-**Attributes** | **Description** 
-:--- | ---
-```[youtube id](required) ``` | Specify YouTube video id
-```[youtube aspect_ratio](optional)``` | Specify YouTube video aspect ratio. Default is 16:9 
-
-Shortcode: 
- 
-```js
-[youtube id="fg_O2cdOQxA"]
-```
-
-To obtain the video id: 
- 
-Browse to the YouTube page where your video is hosted.
-
-Click the Share button on the right just below the vldeo. 
-
-Select the Embed Link and copy the video's YouTube ID.  For example, if the link reads `https://www.youtube.com/embed/fg_O2cdOQxA?controls=0`, you only need to copy the **fg_O2cdOQxA** after the forward slash. 
-
-Insert the shortcode at the appropriate place in the tpl or html file associated with your page. 
-```js
-[youtube id="fg_O2cdOQxA"]
-``` 
-
-Review and click Publish to save your changes. 
-
-!!!Note: 
-In terms of the best practices, we don't recommend uploading any videos to the CMS due to file size and playback performance. For alternate streaming options such as Wowza, Vimeo, or Wistia, please contact us. 
-!!!
+[Google Search](/shortcodes/extended/google-search/) | Add a Google-powered search feature, with options to include or exclude ads.
+[YouTube Embed](shortcodes/extended/youtube-embed/) | Embed YouTube videos seamlessly into your content.
 
 ## Conditionals
 

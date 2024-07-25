@@ -1,4 +1,4 @@
-# Shortcodes for Secured Account Logins
+# User
 
 This article discusses shortcodes for creating frontend access forms to secured areas in your website or app. This can include private portals, member intranets, and other use cases where user credentials need to be provided for access.
 

@@ -1,6 +1,6 @@
-# Basic Shortcodes
+# Core
 
-This document will discuss the basic shortcodes, their attributes, and use case scenarios.
+Core shortcodes enhance the flexibility and efficiency of content creation by simplifying the integration of advanced elements without requiring extensive coding knowledge.
 
 ## Admin Only
 

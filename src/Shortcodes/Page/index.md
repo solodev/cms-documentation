@@ -1,4 +1,4 @@
-# Shortcodes for Pages
+# Page
 
 This article provides an overview of the shortcodes that make it easy to add complex functionality to webpages. The shortcodes, use cases, and attributes are provided below.
 
