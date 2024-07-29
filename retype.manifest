@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-25T21:43:25Z",
+  "created": "2024-07-29T17:49:34Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1711,6 +1711,12 @@
       "path": "images\\quickstart\\aws-pro-subscribe-terms.jpg"
     },
     {
+      "path": "images\\quickstart\\cms-eks-logo.jpg"
+    },
+    {
+      "path": "images\\quickstart\\cms-enterprise-logo.jpg"
+    },
+    {
       "path": "images\\quickstart\\cms-pro-configure-software.jpg"
     },
     {
@@ -1718,6 +1724,9 @@
     },
     {
       "path": "images\\quickstart\\cms-pro-launch-cloudformation.jpg"
+    },
+    {
+      "path": "images\\quickstart\\cms-pro-logo.jpg"
     },
     {
       "path": "images\\quickstart\\cms-settings.png"
@@ -2795,13 +2804,34 @@
       "path": "shortcodes\\building-custom-shortcodes\\index.html"
     },
     {
+      "path": "shortcodes\\core\\admin\\index.html"
+    },
+    {
+      "path": "shortcodes\\core\\get-asset-file-name\\index.html"
+    },
+    {
+      "path": "shortcodes\\core\\get-asset-file-url\\index.html"
+    },
+    {
       "path": "shortcodes\\core\\index.html"
+    },
+    {
+      "path": "shortcodes\\core\\lower-case\\index.html"
+    },
+    {
+      "path": "shortcodes\\core\\no-spaces\\index.html"
+    },
+    {
+      "path": "shortcodes\\core\\print-date\\index.html"
     },
     {
       "path": "shortcodes\\extended\\google-search\\index.html"
     },
     {
       "path": "shortcodes\\extended\\index.html"
+    },
+    {
+      "path": "shortcodes\\extended\\report-errors\\index.html"
     },
     {
       "path": "shortcodes\\extended\\youtube-embed\\index.html"
@@ -2822,6 +2852,15 @@
     },
     {
       "path": "shortcodes\\page\\index.html"
+    },
+    {
+      "path": "shortcodes\\page\\page-description\\index.html"
+    },
+    {
+      "path": "shortcodes\\page\\page-title\\index.html"
+    },
+    {
+      "path": "shortcodes\\page\\parent-folder-title\\index.html"
     },
     {
       "path": "shortcodes\\shortcodes-for-login-forms\\index.html",
@@ -2845,6 +2884,21 @@
     },
     {
       "path": "shortcodes\\shortcodes-overview\\index.html"
+    },
+    {
+      "path": "shortcodes\\user\\contact-form-forgot-password\\index.html"
+    },
+    {
+      "path": "shortcodes\\user\\contact-form-login\\index.html"
+    },
+    {
+      "path": "shortcodes\\user\\contact-form-reset-password\\index.html"
+    },
+    {
+      "path": "shortcodes\\user\\contact-form-signup\\index.html"
+    },
+    {
+      "path": "shortcodes\\user\\contact-form-update\\index.html"
     },
     {
       "path": "shortcodes\\user\\index.html"
