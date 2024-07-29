@@ -1,4 +1,4 @@
-# CMS for Kubernetes
+# Kubernetes for EKS
 
 Solodev also offers a fully containerized version of the Solodev CMS for Kubernetes with orchestration via AWS EKS (Elastic Kubernetes Service) or Amazon ECS (Elastic Container Service). Ideal for high-availability enterprise applications, Solodev CMS for Kubernetes provides a flexible, modern, scalable solution for delivering websites and applications to meet the most demanding production requirements. 
 
@@ -14,9 +14,7 @@ Solodev Kubernetes for EKS uses a set of YAML templates to create a new EKS clus
 
 ## Prerequisites
 
-### Subscribe on the AWS Marketplace
-
-Before launching CMS for Kubernetes, you will need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started. Once completed, return to this article and follow the instructions below:
+Before launching CMS Kubernetes, you will need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started. Once completed, return to this article and follow the instructions below:
 
 <div class="border p-4" style="height: 137px; margin-bottom: 20px; align-items: center; display: flex;">
   <div style="width: 50%; float: left; text-align: center;">
@@ -62,6 +60,18 @@ Review the launch configuration details and follow the instructions to launch th
 
 1. **Choose Action**
 2. Click **"Launch"**.
+
+## Next Steps
+
+### Login to Solodev
+
+Visit the IP address or the backend domain you previously configured. Log in to Solodev using the username and the password you configured on your stack.
+
+<p><img src="../../images/quickstart/login-screen.png" alt="Solodev CMS Login Screen" style="width: 60%;"></p>
+
+### Add your First Website
+
+Please [follow this link](/workspace/websites/website-overview/add-website/) to learn more about Solodev and to learn how to build your first website.
 
 <!-- 
 

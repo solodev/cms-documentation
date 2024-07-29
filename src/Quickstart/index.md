@@ -1,25 +1,45 @@
 # Quickstart
 
-The Solodev CMS documentation contains technical information, detailed explanations, illustrative screenshots, and helpful tips for using your CMS successfully. 
+<div class="border p-4" style="height: 255px; margin-bottom: 20px;">
+  <div style="width: 18%; float: left;">
+    <p><img src="../../images/quickstart/cms-eks-logo.jpg" alt="CMS EKS Logo"></p>
+  </div>
+  <div style="width: 60%; float: left; padding-left: 30px;">
+    <h2><a href="/quickstart/kubernetes-for-eks">Kubernetes for EKS</a></h2>
+    <p class="mt-3">Designed for enterprise-level demands, Solodev Content Management (CMS) for Kubernetes gives you best-of-breed features and advanced capabilities on a secure architecture managed by Amazon EKS.</p>
+    <p style="margin-top: 2rem;"><a href="/quickstart/kubernetes-for-eks" style="background-color: #0488ce; color: #fff; padding: .75rem 2.5rem; border-radius: 20px;">LEARN MORE</a></p>
+  </div>
+</div>
 
-Our documentation is organized and corresponds directly to the navigation tree in the CMS – making it easy to find answers based on each screen within the app. There are links to other relevant articles and additional resources throughout the documentation. 
+<div class="border p-4" style="height: 255px; margin-bottom: 20px;">
+  <div style="width: 18%; float: left;">
+    <p><img src="../../images/quickstart/cms-enterprise-logo.jpg" alt="CMS Enterprise Logo"></p>
+  </div>
+  <div style="width: 60%; float: left; padding-left: 30px;">
+    <h2><a href="/quickstart/solodev-enterprise">CMS Enterprise</a></h2>
+    <p class="mt-3">Climb aboard the Solodev CMS Enterprise and warp speed ahead with a highly available, fully redundant architecture.</p>
+    <p style="margin-top: 2rem;"><a href="/quickstart/solodev-enterprise" style="background-color: #0488ce; color: #fff; padding: .75rem 2.5rem; border-radius: 20px;">LEARN MORE</a></p>
+  </div>
+</div>
 
-<p><img src="../../images/overview-main.png" alt="Overview Screen"></p>
+<div class="border p-4" style="height: 255px; margin-bottom: 20px;">
+  <div style="width: 18%; float: left;">
+    <p><img src="../../images/quickstart/cms-pro-logo.jpg" alt="CMS Professional Logo"></p>
+  </div>
+  <div style="width: 60%; float: left; padding-left: 30px;">
+    <h2><a href="/quickstart/solodev-pro">CMS Professional</a></h2>
+    <p class="mt-3">Take command of your digital universe with the power of Solodev CMS Pro, PHP, Apache, and Mongo on a single web server with an external RDS MySQL database.</p>
+    <p style="margin-top: 2rem;"><a href="/quickstart/solodev-pro" style="background-color: #0488ce; color: #fff; padding: .75rem 2.5rem; border-radius: 20px;">LEARN MORE</a></p>
+  </div>
+</div>
 
-To access the Solodev documentation, click on the **Help** link under **Support** in the left navigation of your CMS Dashboard. 
-
-!!! Note
-Can’t find what you need in our documentation? Please refer to our [Support](../#support) options in the [Welcome](../#welcome) section if you require additional technical assistance. 
-!!!
-
-**Name** | **Description** 
-:--- | ---
-Navigation | Use the left navigation to browse documentation based on the same tree structure as the CMS. Click each section to view its available subsections.
-Filter | Refine your search of navigation sections and subsections.
-Version | Quickly confirm the version number of your Solodev CMS in the upper left corner. 
-Contents | Access the various content sections on each page by using the right-hand navigation.
-Search | Use the search field in the upper right corner to locate specific articles and topics. 
-
-!!!Tip
-You can also click through the documentation sequentially using the **Previous/Next** buttons at the bottom left and right of each article. 
-!!!
+<div class="border p-4" style="height: 255px; margin-bottom: 20px;">
+  <div style="width: 18%; float: left;">
+    <p><img src="../../images/quickstart/micro/solodev-micro.png" alt="CMS EKS Logo"></p>
+  </div>
+  <div style="width: 60%; float: left; padding-left: 30px;">
+    <h2><a href="/quickstart/solodev-micro">CMS Micro</a></h2>
+    <p class="mt-3">The perfect launch pad for small development projects, CMS Micro Edition gives you optimal control in a streamlined package.</p>
+    <p style="margin-top: 2rem;"><a href="/quickstart/solodev-micro" style="background-color: #0488ce; color: #fff; padding: .75rem 2.5rem; border-radius: 20px;">LEARN MORE</a></p>
+  </div>
+</div>

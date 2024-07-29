@@ -29,8 +29,6 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 
 ## Prerequisites
 
-### Subscribe on the AWS Marketplace
-
 Before launching CMS Enterprise, you will need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started. Once completed, return to this article and follow the instructions below:
 
 <div class="border p-4" style="height: 137px; margin-bottom: 20px; align-items: center; display: flex;">
@@ -180,15 +178,17 @@ If your stack builds successfully, you will see the green "CREATE_COMPLETE" mess
 
 <p><img src="../../images/quickstart/stack-complete.png" alt="CMS Stack Create Complete" style="width: 80%;"></p>
 
-## Login to Solodev
+## Next Steps
 
-Visit the IP address or the backend domain you previously configured. Log in to Solodev using the username **"solodev"** and the password you configured on your stack.
+### Login to Solodev
+
+Visit the IP address or the backend domain you previously configured. Log in to Solodev using the username and the password you configured on your stack.
 
 <p><img src="../../images/quickstart/login-screen.png" alt="Solodev CMS Login Screen" style="width: 60%;"></p>
 
-## Add your First Website
+### Add your First Website
 
-Follow this <a href="/tutorials/websites/add-website/">link</a> and you will learn how to build your first website.
+Please [follow this link](/workspace/websites/website-overview/add-website/) to learn more about Solodev and to learn how to build your first website.
 
 <!-- ## Canceling your subscription
 

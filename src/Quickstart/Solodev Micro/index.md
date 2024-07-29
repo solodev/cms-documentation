@@ -1,4 +1,4 @@
-# CMS Micro Edition
+# CMS Micro AWS
 
 <p>The perfect launch pad for small development or proof of concept (PoC) projects, Solodev CMS Micro Edition offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.</p>
 
@@ -39,6 +39,9 @@ Once accepted, you will receive a thank you message asking you to configure your
 !!!
 
 ### Configure this Software
+
+{% tabs %}
+{% tab title="AMI" %}
 
 Choose a fulfillment option, the software version and the AWS Region where you wish to launch your stack.
 
@@ -206,7 +209,27 @@ Specify the storage options for the instance.
 
 For more information about storage, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Storage.html?icmpid=docs_ec2_console" target="_blank">click here</a>
 
-## Troubleshooting
+{% endtab %}
+
+{% tab title="CFT" %}
+Coming soon...
+{% endtab %}
+
+{% endtabs %}
+
+## Next Steps
+
+### Login to Solodev
+
+Visit the IP address or the backend domain you previously configured. Log in to Solodev using the username and the password you configured on your stack.
+
+<p><img src="../../images/quickstart/login-screen.png" alt="Solodev CMS Login Screen" style="width: 60%;"></p>
+
+### Add your First Website
+
+Please [follow this link](/workspace/websites/website-overview/add-website/) to learn more about Solodev and to learn how to build your first website.
+
+### Troubleshooting
 
 ==- **When I open the link after launching, nothing comes up.**
 Under your Security Group settings, make sure ports 443 and 80 are open to 0.0.0.0/0. If you selected Launch through EC2 and did not create a new Security Group, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here</a>.
