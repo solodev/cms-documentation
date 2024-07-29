@@ -5,6 +5,7 @@ The following shortcodes can be used periodically in any Solodev website to add 
 **Shortcode** | **Description** 
 :--- | ---
 [Google Search](/shortcodes/extended/google-search/) | Add a Google-powered search feature, with options to include or exclude ads.
+[Report Errors](shortcodes/extended/report-errors/) | Enables PHP error messages and warnings.
 [YouTube Embed](shortcodes/extended/youtube-embed/) | Embed YouTube videos seamlessly into your content.
 
 ## Conditionals

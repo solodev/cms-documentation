@@ -2,62 +2,16 @@
 
 This article provides an overview of the shortcodes that make it easy to add complex functionality to webpages. The shortcodes, use cases, and attributes are provided below.
 
-## Page Title
-
-Retrieves the current title of a page. 
-
-Attributes:
-
-**Attributes** | **Description** 
+**Shortcode** | **Description**
 :--- | ---
-```[exclude]```(optional) | When this option is set the function does not search for the specified title. 
+[Page Title](/shortcodes/page/page-title/) | Retrieves the current title of a page.
+[Page Description](/shortcodes/page/page-description/) | Fetches the page description from the meta tab fields of the corresponding page.
+[Parent Folder Title](/shortcodes/page/page-description/) | Retrieves the current title of the parent folder.
 
-Shortcode:
- 
-```js
-  [page_title]
-```
 
-Code Example:
 
-```js
-<h1>[page_title]</h1>
-```
 
-## Page Description
 
-Retrieves the description of the page from the fields in the Meta tab of the corresponding page. This self-enclosing shortcode contains no attributes.
-
-Shortcode:
-
-```js
-[page_description]
-```
-Code Example:
- 
-```js
-<h1>[page_title]</h1> --> Services
-<p>[page_description]</p> --> The Best Services on the Web!
-```
-
-## Parent Folder Title
-
-Retrieves the current title of the parent folder. This self-enclosing short code contains no attributes. 
-
-Shortcode:
-
-```js
-[parent_title]
-```
-
-Code Example:
-
-```js
-<h2 class="aside-header">[parent_title]</h2> 
-<a class="btn btn-arrow btn-motive" href="/contact-us.stml"><span>Contact Us</span>
-  <img src="/core/fileparse.php/14751/urlt/assets/images/arrow-right.png" alt="Arrow Right">
-</a>
-```
 
 ## Parent Description
 

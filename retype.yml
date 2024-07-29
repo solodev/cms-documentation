@@ -17,3 +17,9 @@ links:
 
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
+
+snippets:
+  lineNumbers:
+    - js
+    - json
+    - css

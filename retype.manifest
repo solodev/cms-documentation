@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-23T16:51:53Z",
+  "created": "2024-07-25T21:43:25Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2788,13 +2788,27 @@
       "path": "robots.txt"
     },
     {
-      "path": "shortcodes\\basic-shortcodes\\index.html"
+      "path": "shortcodes\\basic-shortcodes\\index.html",
+      "old": true
     },
     {
       "path": "shortcodes\\building-custom-shortcodes\\index.html"
     },
     {
-      "path": "shortcodes\\generic-shortcodes\\index.html"
+      "path": "shortcodes\\core\\index.html"
+    },
+    {
+      "path": "shortcodes\\extended\\google-search\\index.html"
+    },
+    {
+      "path": "shortcodes\\extended\\index.html"
+    },
+    {
+      "path": "shortcodes\\extended\\youtube-embed\\index.html"
+    },
+    {
+      "path": "shortcodes\\generic-shortcodes\\index.html",
+      "old": true
     },
     {
       "path": "shortcodes\\index.html"
@@ -2804,17 +2818,26 @@
       "old": true
     },
     {
-      "path": "shortcodes\\shortcodes-for-login-forms\\index.html"
+      "path": "shortcodes\\module\\index.html"
     },
     {
-      "path": "shortcodes\\shortcodes-for-modules\\index.html"
+      "path": "shortcodes\\page\\index.html"
+    },
+    {
+      "path": "shortcodes\\shortcodes-for-login-forms\\index.html",
+      "old": true
+    },
+    {
+      "path": "shortcodes\\shortcodes-for-modules\\index.html",
+      "old": true
     },
     {
       "path": "shortcodes\\shortcodes-for-pages--sections\\index.html",
       "old": true
     },
     {
-      "path": "shortcodes\\shortcodes-for-pages\\index.html"
+      "path": "shortcodes\\shortcodes-for-pages\\index.html",
+      "old": true
     },
     {
       "path": "shortcodes\\shortcodes-for-users\\index.html",
@@ -2822,6 +2845,9 @@
     },
     {
       "path": "shortcodes\\shortcodes-overview\\index.html"
+    },
+    {
+      "path": "shortcodes\\user\\index.html"
     },
     {
       "path": "sitemap.xml.gz"
