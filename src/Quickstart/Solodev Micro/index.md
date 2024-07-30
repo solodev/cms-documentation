@@ -17,6 +17,7 @@
 
 ## Prerequisites
 
+* You need to sign up for an <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account</a>.
 * Subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" rel="noopener noreferrer" target="_blank">AWS Marketplace</a>. If you already have a subscription to CMS Micro AWS, [click here](#aws-setup-with-subscription).
 
 ## AWS Setup
@@ -29,25 +30,27 @@ The following steps cover the setup of the **CMS Micro AWS** on the AWS Marketpl
 
 CMS Micro AWS is available as a monthly subscription on the AWS Marketplace. The subscription includes the software's operational and infrastructure costs for running on AWS.
 
-<p><img src="../../images/quickstart/micro/cms-micro-subscribe-terms.jpg" alt="CMS Micro Subscribe" style="width: 80%;"></p>
-
 1. Review and accept the **"Terms and Conditions"**.
 2. Click **"Continue to Configuration"**.
+<p><img src="../../images/quickstart/micro/cms-micro-subscribe-terms.jpg" alt="CMS Micro Subscribe" style="width: 80%;"></p>
 
 !!!NOTE:
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
 !!!
 
-### Configure this Software
-
-Choose a fulfillment option, the software version and the AWS Region where you wish to launch your stack.
+3. Configure this software. Choose a fulfillment option and software version to launch this software.
 
 <p><img src="../../images/quickstart/micro/cms-micro-configure.jpg" alt="CMS Micro Configure"></p>
 
-1. Select a fulfillment option. Fulfillment options relate to how software products are delivered and deployed. This software is packaged as a virtual appliance and deployed on Amazon EC2 instances.
-2. Select a software version. The latest version of Solodev CMS Micro is always recommended.
-3. When selecting an available AWS Region for hosting, you may want to consider a region that is closer to your users to help reduce your network latency.
+**Name** | **Description** 
+:--- | ---
+Fulfillment option | Fulfillment options relate to how software products are delivered and deployed. This software is packaged as a virtual appliance and deployed on Amazon EC2 instances.
+Software version | The latest version of Solodev CMS Micro is always recommended.
+Region | When selecting an available AWS Region for hosting, you may want to consider a region that is closer to your users to help reduce your network latency.
+
 4. Click **"Continue to Launch."**
+
+<p><img src="../../images/quickstart/micro/cms-micro-continue-to-launch.jpg" alt="CMS Micro continue to launch" style="width: 80%;"></p>
 
 ### Launch this software
 

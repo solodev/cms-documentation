@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-29T19:46:24Z",
+  "created": "2024-07-30T16:08:57Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1700,6 +1700,9 @@
     },
     {
       "path": "images\\quickstart\\acknowledge.png"
+    },
+    {
+      "path": "images\\quickstart\\aws-badges.jpg"
     },
     {
       "path": "images\\quickstart\\aws-marketplace-logo.jpg"
