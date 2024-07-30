@@ -4,14 +4,16 @@
 
 Solodev is an enterprise content management system (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud.
 
-Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b" target="_blank" rel="noopener noreferrer">AWS Marketplace</a>. Subscription licensing is available in a Professional Edition, Enterprise Edition, or container option for Kubernetes. Click on a product in the table below to view a Quickstart guide:
+Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b" target="_blank" rel="noopener noreferrer">AWS Marketplace</a>. Subscription licensing is available in a Professional Edition, Enterprise Edition, Micro Edition, or container option for Kubernetes.
+
+## Quickstart
 
 **Name** | **Description** 
 :--- | ---
-[Kubernetes](../../../quickstart/solodev-cms-for-kubernetes/) | A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. Only available in the AWS Marketplace.
-[Enterprise](../../../quickstart/solodev-enterprise/) | A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps. 
-[Professional](../../../quickstart/solodev-pro/) | A single-server deployment designed for business-level projects that require moderate scalability.
-[Micro](../../../quickstart/solodev-micro/) | The perfect launch pad for small development or proof of concept (PoC) projects.
+<span style="display: flex;"><span style="padding-right: .5rem; color: #4284fb;">:icon-container:</span> [Kubernetes](../../../quickstart/solodev-cms-for-kubernetes/)</span> | A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. Only available in the AWS Marketplace.
+<span style="display: flex;"><span style="padding-right: .5rem; color: #4284fb;">:icon-copy:</span> [Enterprise](../../../quickstart/solodev-enterprise/) | A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps. 
+<span style="display: flex;"><span style="padding-right: .5rem; color: #4284fb;">:icon-checklist:</span> [Professional](../../../quickstart/solodev-pro/) | A single-server deployment designed for business-level projects that require moderate scalability.
+<span style="display: flex;"><span style="padding-right: .5rem; color: #4284fb;">:icon-pivot-column:</span> [Micro](../../../quickstart/solodev-micro/) | The perfect launch pad for small development or proof of concept (PoC) projects.
 
 !!!Tip:
 Need help with a custom enterprise deployment with unique requirements? [Contact our professional services team](mailto:sales@solodev.com).

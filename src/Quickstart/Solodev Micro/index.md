@@ -1,23 +1,23 @@
-# CMS Micro AWS
+# 
 
-<p>The perfect launch pad for small development or proof of concept (PoC) projects, CMS Micro AWS offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.</p>
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 2rem 1.5rem; margin-bottom: 2rem; background-color: #eef6ff;">
+  <div  style="display: flex; align-items: center; justify-content: start;">
+    <img src="../../images/quickstart/micro/solodev-micro.png" alt="CMS Micro Logo" style="width: 80px;">
+    <div>
+      <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">CMS Micro AWS</h1>
+      <p style="padding-left: 2rem; margin-bottom: 0;">The perfect launch pad for small development or proof of concept (PoC) projects.</p>
+    </div>
+  </div>
+  <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" rel="noopener noreferrer" target="_blank" style="background-color: #f99700; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;">SUBSCRIBE <span style="padding-left: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
+</div>
+
+## Product Overview
+
+<p>CMS Micro AWS offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.</p>
 
 ## Prerequisites
 
-Before launching CMS Micro, you will need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started. Once completed, return to this article and follow the instructions below:
-
-<div class="border p-4" style="height: 137px; margin-bottom: 20px; align-items: center; display: flex;">
-  <div style="width: 50%; float: left; text-align: center;">
-    <img src="../../images/quickstart/aws-marketplace-logo.jpg" alt="AWS Marketplace Logo" style="width: 70%;">
-  </div>
-  <div style="width: 50%; float: left; text-align: center;">
-    <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" rel="noopener noreferrer" target="_blank"><img src="../../images/quickstart/subscribe-large.jpg" style="width: 50%;"></a>
-  </div>
-</div>
-
-!!!NOTE:
-If you already have a subscription to CMS Micro AWS, [click here](#aws-setup-with-subscription).
-!!!
+* Subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" rel="noopener noreferrer" target="_blank">AWS Marketplace</a>. If you already have a subscription to CMS Micro AWS, [click here](#aws-setup-with-subscription).
 
 ## AWS Setup
 

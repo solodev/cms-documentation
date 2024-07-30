@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-29T18:43:09Z",
+  "created": "2024-07-29T19:46:24Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1825,7 +1825,17 @@
       "path": "images\\quickstart\\login-screen.png"
     },
     {
-      "path": "images\\quickstart\\micro\\cms-micro-actions.jpg"
+      "path": "images\\quickstart\\micro\\choose-action.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-actions-ec2.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-actions-website.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-actions.jpg",
+      "old": true
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-configure.jpg"
