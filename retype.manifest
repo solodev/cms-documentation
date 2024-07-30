@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-30T16:08:57Z",
+  "created": "2024-07-30T17:02:49Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1842,6 +1842,9 @@
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-configure.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-continue-to-launch.jpg"
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-image-instance.jpg"
