@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-30T17:02:49Z",
+  "created": "2024-07-30T19:53:54Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1850,6 +1850,9 @@
       "path": "images\\quickstart\\micro\\cms-micro-image-instance.jpg"
     },
     {
+      "path": "images\\quickstart\\micro\\cms-micro-instance-state.jpg"
+    },
+    {
       "path": "images\\quickstart\\micro\\cms-micro-instance.jpg"
     },
     {
@@ -1857,6 +1860,9 @@
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-key-pair.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-launch-instance.jpg"
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-marketplace-listing.jpg"
@@ -1871,6 +1877,9 @@
       "path": "images\\quickstart\\micro\\cms-micro-new-instance.jpg"
     },
     {
+      "path": "images\\quickstart\\micro\\cms-micro-public-address.jpg"
+    },
+    {
       "path": "images\\quickstart\\micro\\cms-micro-storage-instance.jpg"
     },
     {
@@ -1881,6 +1890,9 @@
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-subscription.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-success.jpg"
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-type-instance.jpg"
