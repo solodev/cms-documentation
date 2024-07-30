@@ -1,6 +1,6 @@
 # Add Page
 
-A page is the basic building block of a website. It acts as a container for your content while providing a general structure based on your [page template](/tutorials/websites/add-page-template/) and styling.
+A page is the basic building block of a website. It acts as a container for your content while providing a general structure based on your [page template](/tutorials/cms/add-page-template/) and styling.
 
 ## STML Files 
 

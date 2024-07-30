@@ -4,7 +4,7 @@ Once you have set up a new website in your Solodev CMS, you can begin creating p
 
 ## Prerequisites
 
-- You will need to complete the <a href="/tutorials/websites/add-website/">How to add a website</a> tutorial.
+- You will need to complete the <a href="/tutorials/cms/add-website/">How to add a website</a> tutorial.
 - As you are building with this tutorial, you can refer to the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet</a>  website to compare your progress.
 
 ## How to add a page to a website
@@ -40,7 +40,7 @@ Page names should be in all lower-cased letters and numerals, and multiple words
 
 
 !!!**Note**:
-To add reusable page templates to your website, read the <a href="/tutorials/websites/add-page-template/">How to create a page template</a> tutorial.
+To add reusable page templates to your website, read the <a href="/tutorials/cms/add-page-template/">How to create a page template</a> tutorial.
 !!!
 
 **Step 8**: Once complete, click **Submit**.
@@ -51,7 +51,7 @@ To add reusable page templates to your website, read the <a href="/tutorials/web
 
 ## Next steps
 
-- In the following tutorial, you will learn <a href="/tutorials/websites/add-page-template/">how to create a page template</a> that can be reused on new pages across your website.
+- In the following tutorial, you will learn <a href="/tutorials/cms/add-page-template/">how to create a page template</a> that can be reused on new pages across your website.
 - If you are ready to add more advanced styling to your pages, you can read <a href="/tutorials/integrations/solodev/how-to-add-webpack-to-your-website/">how to add SCSS to your website</a> .
 
 
@@ -66,7 +66,7 @@ Once you have set up a new website in your Solodev CMS, you can begin creating p
 
 ## Prerequisites
 
-- You will need to complete the <a href="/tutorials/websites/add-website/">How to add a website</a> tutorial.
+- You will need to complete the <a href="/tutorials/cms/add-website/">How to add a website</a> tutorial.
 - For the examples in this tutorial, we will be using the Solodev SpaceJet theme package. <a href="https://github.com/solodev/marketplace/raw/master/depot/themes/solodev-spacejet-2023.zip">Download the zip file</a> to access the images and assets.
 - As you are building with this tutorial, you can refer to the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet</a>  website to compare your progress.
 - When building your own project, it is highly recommended that you have an approved design prototype and sitemap to guide your development.
@@ -98,7 +98,7 @@ Once you have completed your sectional and content pages, you can save them as r
 Saving your pages as templates allows for easier updates at a global level. 
 !!!
 
-**Step 1**: Identify the elements that your pages have in common. For example, in the SpaceJet theme, the reusable elements would be the <a href="/tutorials/websites/add-page-template/#how-to-create-a-base-template">base template</a>, the header, and the footer.
+**Step 1**: Identify the elements that your pages have in common. For example, in the SpaceJet theme, the reusable elements would be the <a href="/tutorials/cms/add-page-template/#how-to-create-a-base-template">base template</a>, the header, and the footer.
 
 **Step 2**: Click on **www** folder and select **Add Page** from the right-hand menu. Name the page **page-template.stml**. Once complete, click **Submit**.
 

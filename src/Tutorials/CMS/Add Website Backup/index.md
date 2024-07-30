@@ -4,7 +4,7 @@ Once you have set up a new website in your Solodev CMS, you can begin creating p
 
 ## Prerequisites
 
-- You will need to complete the <a href="/tutorials/websites/add-website/">How to add a website</a> tutorial.
+- You will need to complete the <a href="/tutorials/cms/add-website/">How to add a website</a> tutorial.
 - For the examples in this tutorial, we will be using the Solodev SpaceJet theme package. <a href="https://github.com/solodev/marketplace/raw/master/depot/themes/solodev-spacejet-2023.zip">Download the zip file</a> to access the images and assets.
 - As you are building with this tutorial, you can refer to the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet</a>  website to compare your progress.
 - When building your own project, it is highly recommended that you have an approved design prototype and sitemap to guide your development.
@@ -18,13 +18,13 @@ Page templates are reusable components that allow you to build website pages fas
 There is no limit to the kinds of page templates you can create in Solodev, but most websites use these common types as a best practice:
 
 
-- <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-base-template">Base Template</a>: The base template is the foundation for every page of your website. It typically consists of a header, footer, and <a href="/tutorials/websites/add-page-template/#using-dynamic-divs">dynamic divs</a> for adding content. As the name implies, the base template acts as the foundation for your site and can include your Google Tag Manager includes, tracking codes, scripts, and more. Because they are universal, any changes made to a base template will be reflected across all pages of your site.
+- <a href="../../../tutorials/cms/add-page-template/#how-to-create-a-base-template">Base Template</a>: The base template is the foundation for every page of your website. It typically consists of a header, footer, and <a href="/tutorials/cms/add-page-template/#using-dynamic-divs">dynamic divs</a> for adding content. As the name implies, the base template acts as the foundation for your site and can include your Google Tag Manager includes, tracking codes, scripts, and more. Because they are universal, any changes made to a base template will be reflected across all pages of your site.
 
-- <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">Homepage Template</a>: A homepage is the introductory page of a website. It is often the first page a visitor sees, acting as a “table of contents” for the rest of the experience. It can also feature high-level news, promotions, and other key messages that require the highest degree of visibility. While a homepage will leverage elements of your base template, such as the header and footer, there is only one homepage on a website – so generally speaking, there is only one unique template for your homepage.  
+- <a href="../../../tutorials/cms/add-page-template/#how-to-create-a-homepage-template">Homepage Template</a>: A homepage is the introductory page of a website. It is often the first page a visitor sees, acting as a “table of contents” for the rest of the experience. It can also feature high-level news, promotions, and other key messages that require the highest degree of visibility. While a homepage will leverage elements of your base template, such as the header and footer, there is only one homepage on a website – so generally speaking, there is only one unique template for your homepage.  
 
-- <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-sectional-template">Sectional Template</a>: A sectional template is a high-level overview of a "section" of your website's content. Think of it as a jumping-off point to areas that fall under a specific content theme or topic. Sectional templates can be used in a variety of ways, but most provide a collection of snippets and links to relevant areas. For example, if a website has a section called "Departments," a sectional template might include an overview along with a list of links to all the departments. Because they are used sparingly, sectional templates generally have a distinct design from your content templates, helping them stand out.
+- <a href="../../../tutorials/cms/add-page-template/#how-to-create-a-sectional-template">Sectional Template</a>: A sectional template is a high-level overview of a "section" of your website's content. Think of it as a jumping-off point to areas that fall under a specific content theme or topic. Sectional templates can be used in a variety of ways, but most provide a collection of snippets and links to relevant areas. For example, if a website has a section called "Departments," a sectional template might include an overview along with a list of links to all the departments. Because they are used sparingly, sectional templates generally have a distinct design from your content templates, helping them stand out.
 
-- <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-content-page-template">Content Template</a>: A content template is usually placed within the base template. Sometimes referred to as an “interior template,” content templates power the bulk of your website, and can be reused for various sections that require multiple pages.
+- <a href="../../../tutorials/cms/add-page-template/#how-to-create-a-content-page-template">Content Template</a>: A content template is usually placed within the base template. Sometimes referred to as an “interior template,” content templates power the bulk of your website, and can be reused for various sections that require multiple pages.
 
 ## Using dynamic divs
 Another important concept is the use of dynamic divs. Page templates are composed of dynamic divs – or “dropzones” – where HTML and content can be inserted and arranged in various places on a website page. Dynamic divs work fluidly with the Bootstrap grid system, allowing you to easily insert content once the layout of your page has been created. Here is the simple HTML code to create a dynamic div in Solodev:
@@ -100,7 +100,7 @@ A .tpl file should be designated as “Code” in the File Type to ensure that i
 You can always add more dynamic divs as needed.
 !!!
 
-**Step 7**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
+**Step 7**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="../../../tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
 
 <img src="../../../images/base-template-dots.jpg" alt="base template" style="width: 50%; display: block"></a>
 
@@ -385,14 +385,14 @@ For HTML file click on source in the bar and then paste the code.
 </div>
 ```
 
-Once complete, your final homepage should appear in the editor, featuring the top navigation, hero, CTA, and footer. The blog section will be covered in the <a href="/tutorials/websites/createmodule/">Modules</a> tutorial. 
+Once complete, your final homepage should appear in the editor, featuring the top navigation, hero, CTA, and footer. The blog section will be covered in the <a href="/tutorials/cms/createmodule/">Modules</a> tutorial. 
 
 ## How to create a Sectional template 
 
 As previously noted, a sectional template is a high-level overview of a "section" of your website's content. They are typically reserved for larger sites with more pages to organize and are completely optional. In this lesson, you will learn how to add a sample sectional template from the SpaceJet theme package.
 
 !!!Note:
-Many of the instructions in this lesson will repeat steps from the previous <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage template</a>. Make sure to complete that first and refer back as needed. 
+Many of the instructions in this lesson will repeat steps from the previous <a href="../../../tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage template</a>. Make sure to complete that first and refer back as needed. 
 !!!
 
 ### Setting up your folders and .tpl files
@@ -423,13 +423,13 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 
 **Step 2**: Just like in the case of homepage, with the **base** folder opened, click in the top dynamic div. Once activated, click on the **base-template.tpl** file. Once complete, click **Publish**.
 
-**Step 3**: Repeat step 3 from the <a href="/tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add **top-nav.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
+**Step 3**: Repeat step 3 from the <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add **top-nav.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
 
 !!!**Note**:
-This tutorial assumes that you had finished **How to create a homepage template** therefore you have some files and folders in place. In case you didn't follow the <a href="/tutorials/websites/add-page-template/#how-to-create-a-homepage-template">How to create a homepage template</a>, please finish it first. 
+This tutorial assumes that you had finished **How to create a homepage template** therefore you have some files and folders in place. In case you didn't follow the <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">How to create a homepage template</a>, please finish it first. 
 !!!
 
-**Step 4**: Repeat step 3 from the <a href="/tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add the **full-width-template.tpl** with the following code:
+**Step 4**: Repeat step 3 from the <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add the **full-width-template.tpl** with the following code:
 
 ```js
 <div>
@@ -441,7 +441,7 @@ This tutorial assumes that you had finished **How to create a homepage template*
 </div>
 ```
 
-**Step 5**: Repeat step 3 from the <a href="/tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add **about.tpl** containing your about page content, for example:
+**Step 5**: Repeat step 3 from the <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add **about.tpl** containing your about page content, for example:
 
 ```js 
 Here is my about page.
@@ -452,7 +452,7 @@ Here is my about page.
 As previously noted, a content template – sometimes referred to as an "interior template" – powers the bulk of your website and can be reused for various sections that require multiple pages. In this lesson, you will learn how to add a sample content template from the SpaceJet theme package.
 
 !!!Note:
-Many of the instructions in this lesson will repeat steps from the previous <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage template</a>. Make sure to complete that first and refer back as needed. 
+Many of the instructions in this lesson will repeat steps from the previous <a href="../../../tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage template</a>. Make sure to complete that first and refer back as needed. 
 !!!
 
 <!-- The content template is typically placed in the base template and serves as the interior of a "Section" of your website. The benefit in a content template is it can be re-used for sections of your website that require multiple pages, allowing you to re-use your content template to build out your web pages. 
@@ -460,7 +460,7 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 For this tutorial, we will use the assets from the SpaceJet template to create a content page (privacy statement) with a header, CTA (call-to-action) banner, footer, and content areas. You can view the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/privacy.html">SpaceJet sample site</a> to view the final privacy page.  
 
 !!!**Note**:
-This tutorial assumes that you had finished **How to create a homepage template** therefore you have some files and folders in place. In case you didn't follow the <a href="/tutorials/websites/add-page-template/#how-to-create-a-homepage-template">How to create a homepage template</a>, please finish it first. 
+This tutorial assumes that you had finished **How to create a homepage template** therefore you have some files and folders in place. In case you didn't follow the <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">How to create a homepage template</a>, please finish it first. 
 !!! -->
 
 ### Setting up your folders and .tpl files
@@ -555,7 +555,7 @@ Saving your pages as templates allows for easier updates at a global level.
 
 ### How to save a sectional page as a template
 
-**Step 1**: Identify the elements that your pages have in common. For example, in the SpaceJet theme, the reusable elements would be the <a href="/tutorials/websites/add-page-template/#how-to-create-a-base-template">base template</a>, the header, and the footer.
+**Step 1**: Identify the elements that your pages have in common. For example, in the SpaceJet theme, the reusable elements would be the <a href="/tutorials/cms/add-page-template/#how-to-create-a-base-template">base template</a>, the header, and the footer.
 
 **Step 2**: Click on **www** folder and select **Add Page** from the right-hand menu. Name the page **sectional-template.stml**. Once complete, click **Submit**.
 
@@ -617,7 +617,7 @@ If you need to make any adjustments to the sectional template you just created, 
 
 <img src="../../../images/add-page-interior-templates.jpg" alt="add-page-interior-templates" style="display: block"></a>
 
-**Step 3**: Follow steps 3 to 5 from the "<a href="/tutorials/websites/add-page-template/#how-to-save-a-sectional-page-as-a-template">How to save a sectional page as a template</a>" tutorial.
+**Step 3**: Follow steps 3 to 5 from the "<a href="/tutorials/cms/add-page-template/#how-to-save-a-sectional-page-as-a-template">How to save a sectional page as a template</a>" tutorial.
 
 <img src="../../../images/topnav-content-template.jpg" alt="topnav-content-template" style="display: block"></a>
 
@@ -625,7 +625,7 @@ If you need to make any adjustments to the sectional template you just created, 
 
 <img src="../../../images/add-left-content-templates.jpg" alt="add-left-content-templates" style="display: block"></a>
 
-**Step 5**: Follow step 7 from the "<a href="/tutorials/websites/add-page-template/#how-to-save-a-sectional-page-as-a-template">How to save a sectional page as a template</a>" tutorial to add a footer. Click **Publish**.
+**Step 5**: Follow step 7 from the "<a href="/tutorials/cms/add-page-template/#how-to-save-a-sectional-page-as-a-template">How to save a sectional page as a template</a>" tutorial to add a footer. Click **Publish**.
 
 <img src="../../../images/add-footer-left-templates.jpg" alt="add-footer-left-templates" style="display: block"></a>
 

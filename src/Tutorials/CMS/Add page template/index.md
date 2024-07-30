@@ -1,6 +1,6 @@
 # How to create a page template
 
-Page templates are reusable layouts that allow you to build pages faster and easier. They provide control over your website’s structure while giving you the freedom to customize and personalize your content. In this tutorial, you will learn how to create a page template using <a href="/tutorials/websites/add-page-template/#using-dynamic-divs">dynamic divs</a> and how to apply it to new pages on your website. 
+Page templates are reusable layouts that allow you to build pages faster and easier. They provide control over your website’s structure while giving you the freedom to customize and personalize your content. In this tutorial, you will learn how to create a page template using <a href="/tutorials/cms/add-page-template/#using-dynamic-divs">dynamic divs</a> and how to apply it to new pages on your website. 
 
 ## Prerequisites
 *	You will need to complete the <a href="/workspace/websites/add-website/">How to add page to a website</a> tutorial.
@@ -85,7 +85,7 @@ You can always add more dynamic divs as needed.
 
 Next, you can apply your base template to your page template.
 
-**Step 1**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
+**Step 1**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="../../../tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
 
 <img src="../../../images/base-template-dots.jpg" alt="base template" style="width: 50%; display: block"></a>
 
@@ -244,7 +244,7 @@ Once complete, your final homepage should appear in the editor, featuring the to
 <img src="../../../images/index-template.jpg" alt="base template" style="display: block"></a>
 
 !!!Note:
-Once you have your page template complete, you can return to the <a href="/tutorials/websites/add-page/">How to add a page to a website</a> tutorial. In Step 7, you will see that your template is now available.
+Once you have your page template complete, you can return to the <a href="/tutorials/cms/add-page/">How to add a page to a website</a> tutorial. In Step 7, you will see that your template is now available.
 !!!
 
 ## How to save a page as a template
@@ -273,4 +273,4 @@ Once you have your page template complete, you can return to the <a href="/tutor
 If you need to make any adjustments to the page template you just created, you can locate it under the **www >** _ folder. Just bear in mind that any new changes will not be applied to the pages you previously created using this template.
 !!!
 
-**Step 6**: To use your template, follow the <a href="/tutorials/websites/add-page/">following steps</a>.
+**Step 6**: To use your template, follow the <a href="/tutorials/cms/add-page/">following steps</a>.

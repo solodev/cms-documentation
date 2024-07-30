@@ -1,6 +1,6 @@
 # How to create a page template
 
-The page template is the foundation for every page of your website. It typically consists of a header, footer, and <a href="/tutorials/websites/add-page-template/#using-dynamic-divs">dynamic divs</a> for adding content. As the name implies, the base template acts as the foundation for your site and can include your Google Tag Manager includes, tracking codes, scripts, and more. Because they are universal, any changes made to a base template will be reflected across all pages of your site.
+The page template is the foundation for every page of your website. It typically consists of a header, footer, and <a href="/tutorials/cms/add-page-template/#using-dynamic-divs">dynamic divs</a> for adding content. As the name implies, the base template acts as the foundation for your site and can include your Google Tag Manager includes, tracking codes, scripts, and more. Because they are universal, any changes made to a base template will be reflected across all pages of your site.
 
 ## Page Template
 
@@ -60,7 +60,7 @@ A .tpl file should be designated as “Code” in the File Type to ensure that i
 You can always add more dynamic divs as needed.
 !!!
 
-**Step 7**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="../../../tutorials/websites/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
+**Step 7**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="../../../tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
 
 <img src="../../../images/base-template-dots.jpg" alt="base template" style="width: 50%; display: block"></a>
 

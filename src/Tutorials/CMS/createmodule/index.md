@@ -8,8 +8,8 @@ In this tutorial, you will learn about the different types of modules in Solodev
 
 ## Prerequisites 
 
-- You will need to complete the <a href="/tutorials/websites/add-website/">How to add a website</a> tutorial.
-- You will need to complete the <a href="/tutorials/websites/add-page-template/">How to add a page to a website</a> tutorial. 
+- You will need to complete the <a href="/tutorials/cms/add-website/">How to add a website</a> tutorial.
+- You will need to complete the <a href="/tutorials/cms/add-page-template/">How to add a page to a website</a> tutorial. 
 - You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
 - For the examples in this tutorial, we will continue using the <a href="solodev-spacejet-2023.zip" download>Solodev SpaceJet</a> theme package for images and assets.
 - As you are building with this tutorial, you can refer to the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet website</a>  to compare your progress.
@@ -90,7 +90,7 @@ You can use the blog example on the <a href="http://solodev-spacejet-2023.s3-web
 
 The repeater template, although optional, displays all entries in the module used. The repeater is written in Solodev shortcodes and refers to the user interface template, printing fields in the form of PHP variables through an $item array.
 
-**Step 1:** From the Dashboard, or from the left navigation, go to your site and under **web files > content** <a href="/tutorials/websites/add-form/">add a folder</a> called **blog**.
+**Step 1:** From the Dashboard, or from the left navigation, go to your site and under **web files > content** <a href="/tutorials/cms/add-form/">add a folder</a> called **blog**.
 
 **Step 2:**  In that folder, <a href="/workspace/websites/manage-folder/add-file/">add a file</a> for the module repeater called **index.tpl**. 
 
@@ -106,7 +106,7 @@ The repeater template, although optional, displays all entries in the module use
 
 <img src="../../../images/module-id-repeater.jpg" alt="base template" style="display: block"></a>
 
-**Step 6:** Under **www** add a folder called **blog** and <a href="/tutorials/websites/add-page/">add a page</a> called **index.stml**.
+**Step 6:** Under **www** add a folder called **blog** and <a href="/tutorials/cms/add-page/">add a page</a> called **index.stml**.
 
 **Step 7:** Add the **index.tpl** to the **index.stml**.
 

@@ -4,8 +4,8 @@ Webpack is a modular bundler that compiles JavaScript files, SCSS, and CSS files
 
 ## Prerequisites
 
-- You will need to complete the <a href="/tutorials/websites/add-website/#adding-a-site">How to add a website</a> tutorial.
-- You will need to complete the <a href="/tutorials/websites/add-page/">How to add a page</a> to a website tutorial.
+- You will need to complete the <a href="/tutorials/cms/add-website/#adding-a-site">How to add a website</a> tutorial.
+- You will need to complete the <a href="/tutorials/cms/add-page/">How to add a page</a> to a website tutorial.
 - Familiarity with Bootstrap is highly recommended. 
 
 ## Setting up your web files

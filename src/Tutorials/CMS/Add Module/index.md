@@ -3,7 +3,7 @@
 In the previous tutorial, you learned how to install a blog module in your CMS and create a repeater and detail template. In this tutorial, you will now learn how to connect your detail page to the blog module, so you can begin adding content to it and dynamically generating posts.
 
 ## Prerequisites
-- You will need to complete the previous <a href="/tutorials/websites/createmodule/">How to create a module in your CMS </a>tutorial.
+- You will need to complete the previous <a href="/tutorials/cms/createmodule/">How to create a module in your CMS </a>tutorial.
 - You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
 - For the examples in this tutorial, we will continue using the <a href="solodev-spacejet-2023.zip" download>Solodev SpaceJet</a> theme package for images and assets.
 - As you are building with this tutorial, you can refer to the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet website</a> to compare your progress.
@@ -18,7 +18,7 @@ The detail template shows the specifics of an individual entry from a repeater t
 
 :::code source="detail.tpl" :::
 
-**Step 3:** Under **www > blog** <a href="/tutorials/websites/add-page/">add a page</a> called **detail.stml**.
+**Step 3:** Under **www > blog** <a href="/tutorials/cms/add-page/">add a page</a> called **detail.stml**.
 
 **Step 4:** Add the **detail.tpl** to the **detail.stml**.
 

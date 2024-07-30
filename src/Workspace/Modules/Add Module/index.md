@@ -27,5 +27,5 @@ Categorization | Create a system of relationships and categorization for your da
 RESTful APIs | Utilize a built-in API to expose datatable information to external publishing channels such as websites, mobile apps, intranets and other API enabled technologies.
 
 !!!Note: 
-To learn how to add a Module in your CMS, please visit <a href="/tutorials/websites/add-module/#install-module">install a module</a>.
+To learn how to add a Module in your CMS, please visit <a href="/tutorials/cms/add-module/#install-module">install a module</a>.
 !!!

@@ -23,7 +23,7 @@ If you prefer working in raw HTML, you can code your own form and upload to Solo
 
 ## Building a form with Form Studio
 
-Form Studio is a built-in drag-and-drop WYSIWYG editor that allows you to directly compose your own custom form. The visual editor consists of a left toolbar for dragging layout, content, and form components onto the canvas in the center. <a href="/tutorials/websites/add-form/#building-a-form-with-form-studio">See table below for details</a>. 
+Form Studio is a built-in drag-and-drop WYSIWYG editor that allows you to directly compose your own custom form. The visual editor consists of a left toolbar for dragging layout, content, and form components onto the canvas in the center. <a href="/tutorials/cms/add-form/#building-a-form-with-form-studio">See table below for details</a>. 
 
 The right toolbar enables you to control the text, styling, and specific details of the components in your form. Under the **Settings** icon, you can adjust your form header, links, and other details. 
 
@@ -233,7 +233,7 @@ In your left menu, you can also click on the forms folder under web files to acc
 <img src="../../../images/add-form-div.png" alt="add-form-div" style="display: block"></a>
 
 !!!Note:
-Remember to add your base template first before adding your form. For a refresher on selecting dynamic divs and applying template files, refer back to <a href="/tutorials/websites/add-page-template/">How to add a page</a> to a website tutorial.
+Remember to add your base template first before adding your form. For a refresher on selecting dynamic divs and applying template files, refer back to <a href="/tutorials/cms/add-page-template/">How to add a page</a> to a website tutorial.
 !!!
 
 Once complete, click **Publish**.
@@ -286,4 +286,4 @@ If you need to add more options to your form submissions, like having each depar
 
 ## Next Steps
 
--	<a href="/tutorials/websites/createmodule/">How to create a module in your CMS</a>
+-	<a href="/tutorials/cms/createmodule/">How to create a module in your CMS</a>

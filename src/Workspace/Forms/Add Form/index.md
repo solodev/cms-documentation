@@ -49,7 +49,7 @@ Radio Button | Create pre-defined options with corresponding radio buttons. | �
 Form Button | Add a custom button to submit your form. | • Link settings: add a URL, email, or phone link <br> • Button properties: adjust text, size, style, and color.
 
 !!!Note:
-When adding a new form, you can take advantage of our Form Studio to easily include a form in your design. To learn more, read how to <a href="/tutorials/websites/add-form/#building-a-form-with-form-studio">add a form with form studio</a>.
+When adding a new form, you can take advantage of our Form Studio to easily include a form in your design. To learn more, read how to <a href="/tutorials/cms/add-form/#building-a-form-with-form-studio">add a form with form studio</a>.
 !!!
 
 ## Upload TPL File 
@@ -57,7 +57,7 @@ When adding a new form, you can take advantage of our Form Studio to easily incl
 Solodev allows you to seamlessly integrate an existing form template directly into your website by uploading as a .tpl file.
 
 !!!Note:
-When adding a new form, you can upload a TPL File to easily include a form in your design. To learn more, read how to <a href="/tutorials/websites/add-form/#upload-tpl-file">upload a TPL File</a>.
+When adding a new form, you can upload a TPL File to easily include a form in your design. To learn more, read how to <a href="/tutorials/cms/add-form/#upload-tpl-file">upload a TPL File</a>.
 !!!
 
 ## Add HTML Code
@@ -65,5 +65,5 @@ When adding a new form, you can upload a TPL File to easily include a form in yo
 Provides you with the flexibility to write and customize your own code, granting full control over your form's functionality and design.
 
 !!!Note:
-When adding a new form, you can upload a HTML File to easily include a form in your design. To learn more, read how to <a href="/tutorials/websites/add-form/#add-html-code">add HTML code</a>.
+When adding a new form, you can upload a HTML File to easily include a form in your design. To learn more, read how to <a href="/tutorials/cms/add-form/#add-html-code">add HTML code</a>.
 !!!

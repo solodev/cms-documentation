@@ -263,4 +263,4 @@ For HTML file click on source in the bar and then paste the code.
 </div>
 ```
 
-Once complete, your final homepage should appear in the editor, featuring the top navigation, hero, CTA, and footer. The blog section will be covered in the <a href="/tutorials/websites/createmodule/">Modules</a> tutorial. 
+Once complete, your final homepage should appear in the editor, featuring the top navigation, hero, CTA, and footer. The blog section will be covered in the <a href="/tutorials/cms/createmodule/">Modules</a> tutorial. 
