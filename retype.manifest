@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-30T19:53:54Z",
+  "created": "2024-07-30T20:57:10Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1860,6 +1860,9 @@
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-key-pair.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-launch-from-website.jpg"
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-launch-instance.jpg"
