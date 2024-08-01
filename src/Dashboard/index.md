@@ -46,15 +46,3 @@ Locate specific files in your CMS using the Search bar at the top of the Dashboa
 !!! Note:
 Press the **Enter** button or click the blue button at the right side of the Search field to start searching. 
 !!!
-
-## Profile 
-
-Use the links in the lower left corner of your Dashboard to manage your profile or log out from Solodev CMS.  
-
-<p><img src="../../../images/dashboard/dashboard-profile.png" alt="Profile Flyout" style="width: 20%;"></p>
-
-**Name** | **Description** 
-:--- | ---
-Manage Profile | Open submenu allowing you to access and edit your profile details.
-[My Profile](/account/) | Check and edit your profile details.
-Log Out | Log out from Solodev CMS.

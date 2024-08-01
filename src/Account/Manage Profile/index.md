@@ -1,5 +1,17 @@
 # Manage Profile
 
+<!-- ## Profile 
+
+Use the links in the lower left corner of your Dashboard to manage your profile or log out from Solodev CMS.  
+
+<p><img src="../../../images/dashboard/dashboard-profile.png" alt="Profile Flyout" style="width: 20%;"></p>
+
+**Name** | **Description** 
+:--- | ---
+Manage Profile | Open submenu allowing you to access and edit your profile details.
+[My Profile](/account/) | Check and edit your profile details.
+Log Out | Log out from Solodev CMS. -->
+
 Update your account details, including your name and phone number, as well as your specific timezone and business title. 
 
 <img src="../../../images/account-manage-profile.png" alt="manage profile" style="width: 40%; display: block"></a>

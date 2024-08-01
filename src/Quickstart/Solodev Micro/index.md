@@ -8,7 +8,7 @@
       <p style="padding-left: 2rem; margin-bottom: 0;">The perfect launch pad for small development or proof of concept (PoC) projects.</p>
     </div>
   </div>
-  <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" rel="noopener noreferrer" target="_blank" style="background-color: #f99700; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;">SUBSCRIBE <span style="padding-left: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
+  <a href="https://aws.amazon.com/marketplace/server/procurement?productId=prod-iwk56zq73bwqs" rel="noopener noreferrer" target="_blank" style="background-color: #f99700; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;">SUBSCRIBE <span style="padding-left: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
 </div>
 
 ## Product Overview
@@ -18,85 +18,63 @@
 ## Prerequisites
 
 * You need to sign up for an <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account</a>.
-* Subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" rel="noopener noreferrer" target="_blank">AWS Marketplace</a>. 
-* If you already have a subscription, simply click **Launch new instance** on CMS Micro AWS, and then follow the instructions provided  [here](#configure).
+* Subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/server/procurement?productId=prod-iwk56zq73bwqs" rel="noopener noreferrer" target="_blank">AWS Marketplace</a>. 
+* If you already have a subscription, simply click **Launch new instance** on CMS Micro AWS, and then follow the instructions provided  [here](#configure-software).
 
 <!-- <p><img src="../../images/quickstart/micro/cms-micro-subscription.jpg" alt="Solodev CMS Micro Subscription" style="width: 35%;"></p> -->
 
-## CMS Setup
+## CMS subscription
 
 The following steps cover the setup of the **CMS Micro AWS** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process.
 
 <!-- <p><img src="../../images/quickstart/micro/cms-micro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%; padding-left: 1rem;"></p> -->
 
-### Subscribe to this Software
+### <span style="color: #168479; margin-top: 2.5rem; display: block;">Subscribe to this Software</span>
 
 CMS Micro AWS is available as a monthly subscription on the AWS Marketplace. The subscription includes the software's operational and infrastructure costs for running on AWS.
 
 1. Review and accept the **"Terms and Conditions"**.
 2. Click **"Continue to Configuration"**.
-<p><img src="../../images/quickstart/micro/cms-micro-subscribe-terms.jpg" alt="CMS Micro Subscribe" style="width: 80%;"></p>
+<p><img src="../../images/quickstart/micro/cms-micro-subscribe-terms.jpg" alt="CMS Micro Continue to Configuration" style="width: 80%;"></p>
 
 !!!NOTE:
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
 !!!
 
-3. <span id="configure">Configure this software. Choose a fulfillment option and software version to launch this software.</span>
+### <span style="color: #168479; margin-top: 2.5rem; display: block;">Configure Software</span>
+
+1. Choose a fulfillment option and software version to launch this software.
 
 <p><img src="../../images/quickstart/micro/cms-micro-configure.jpg" alt="CMS Micro Configure"></p>
 
 **Name** | **Description** 
 :--- | ---
-Fulfillment option | Fulfillment options relate to how software products are delivered and deployed. This software is packaged as a virtual appliance and deployed on Amazon EC2 instances.
-Software version | The latest version of Solodev CMS Micro is always recommended.
-Region | When selecting an available AWS Region for hosting, you may want to consider a region that is closer to your users to help reduce your network latency.
+Fulfillment option | Select a fulfillment option. Default: Amazon Machine Image (AMI).
+Software version | Select the software version. The latest version of Solodev CMS Micro is always recommended.
+Region | Select the AWS Region.
 
-4. Click **"Continue to Launch."**
+2. Click **"Continue to Launch."**
 
 <p><img src="../../images/quickstart/micro/cms-micro-continue-to-launch.jpg" alt="CMS Micro continue to launch" style="width: 80%;"></p>
 
-### Launch this software
+### <span style="color: #168479; margin-top: 2.5rem; display: block;">Launch Software</span>
 
 Review the launch configuration details and follow the instructions to launch this software.
-
-<!-- 1. **Choose an Action**
-2. **Select an EC2 Instance Type**
-3. **Select a VPC**
-4. **Select a Subnet**
-5. **Configure a Security Group**
-6. **Select a Key Pair**
-7. Click **"Launch"**. -->
-
-<!-- 1. **Choose an Action**. There are two options for configuring your Solodev CMS Micro: Launch from Website or Launch through EC2. Select one from the menu.
-
-<p><img src="../../images/quickstart/micro/choose-action.jpg" alt="CMS Micro Actions"></p>
-
-!!!NOTE:
-The following steps cover the configuration when selecting Launch from Website, which is recommended for first-time subscribers. If you already have your VPC and other variables configured, you can choose Launch through EC2 for more rapid deployment.
-!!! -->
 
 {% tabs %}
 {% tab title="Launch through EC2" %}
 
-**Choose an Action**
+#### Choose an Action
 
-1. Select **Launch through EC2**
+1. Select **Launch through EC2**.
 
 <p><img src="../../images/quickstart/micro/cms-micro-actions-ec2.jpg" alt="CMS Micro Actions" style="width: 74%;"></p>
 
-2. Click **Launch**
+2. Click **Launch**.
 
-**Launch an instance**
+#### Launch an instance
 
 Create virtual machines, or instances, that run on the AWS Cloud. Quickly get started by following the simple steps below.
-
-<!-- 1. **Add Name and tags**
-2. **Select Application and OS Images (Amazon Machine Image)**
-3. **Select a Instance Type**
-6. **Select a Key Pair**
-7. **Network Settings**
-8. **Configure storage**
-9. Click **"Launch Instance"**. -->
 
 1. **Name and tags**. Give your instance a **name**. You can also add additional tags (Optional).
 
@@ -146,13 +124,13 @@ For more information about storage, <a href="https://docs.aws.amazon.com/AWSEC2/
 
 8. You will get a success message. Click on the ID to access your EC2 Instance.
 
-<p><img src="../../images/quickstart/micro/cms-micro-success.jpg" alt="Solodev CMS Micro Success Message"></p>
+<p><img src="../../images/quickstart/micro/cms-micro-success.jpg" alt="Solodev CMS Micro Success Message" style="width: 40%;"></p>
 
-**EC2 Instance**
+#### EC2 Instance
 
 1. Check the **Instance State** and **Status Check** of your instance. 
 
-<p><img src="../../images/quickstart/micro/cms-micro-instance-state.jpg" alt="Solodev CMS Micro Instance"></p>
+<p><img src="../../images/quickstart/micro/cms-micro-instance-state.jpg" alt="Solodev CMS Micro Instance" style="width: 40%;"></p>
 
 2. Once your instance state changed from **Pending** to **Running**, you can click on your **Public IPv4 address** to access it.
 
@@ -162,7 +140,7 @@ For more information about storage, <a href="https://docs.aws.amazon.com/AWSEC2/
 
 {% tab title="Launch from Website" %}
 
-**Choose an Action**
+#### Choose an Action
 
 1. Select **Launch from Website**
 
@@ -198,7 +176,7 @@ To learn more about security groups, <a href="https://docs.aws.amazon.com/AWSEC2
 
 If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here</a>.
 
-7. Click **Launch**
+7. Click **Launch**.
 
 <p><img src="../../images/quickstart/micro/cms-micro-launch-from-website.jpg" alt="CMS Micro Launch"></p>
 
@@ -212,7 +190,7 @@ If you do not have a Key Pair, you will need to create one in your Key Pair Cons
 
 Visit the IP address or the backend domain you previously configured. Log in to Solodev using the username and the password you configured on your stack.
 
-<p><img src="../../images/quickstart/login-screen.png" alt="Solodev CMS Login Screen" style="width: 60%;"></p>
+<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 60%;"></p>
 
 ### Add your First Website
 
