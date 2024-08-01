@@ -116,7 +116,7 @@ An Amazon EC2 key pair is a set of security credentials consisting of a public a
 
 <p><img src="../../images/quickstart/micro/cms-micro-storage-instance.jpg" alt="Solodev CMS Micro Storage" style="width: 55%;"></p>
 
-For more information about storage, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Storage.html?icmpid=docs_ec2_console" target="_blank">click here</a>
+For more information about storage, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Storage.html?icmpid=docs_ec2_console" target="_blank">click here</a>.
 
 7. Click **Launch Instance**.
 
@@ -128,13 +128,17 @@ For more information about storage, <a href="https://docs.aws.amazon.com/AWSEC2/
 
 #### EC2 Instance
 
-1. Check the **Instance State** and **Status Check** of your instance. 
+1. Check the **Instance State** and **Status Check** of your instance. Once your instance state changed from **Pending** to **Running**, click on the instance you created to access it.
 
 <p><img src="../../images/quickstart/micro/cms-micro-instance-state.jpg" alt="Solodev CMS Micro Instance" style="width: 40%;"></p>
 
-2. Once your instance state changed from **Pending** to **Running**, you can click on your **Public IPv4 address** to access it.
+2. Click on your **Public IPv4 address** to access the login page.
 
-<p><img src="../../images/quickstart/micro/cms-micro-public-address.jpg" alt="Solodev CMS Micro Public Address"></p>
+<p><img src="../../images/quickstart/micro/cms-micro-public-address.jpg" alt="Solodev CMS Micro Public Address" style="width: 25%;"></p>
+
+3. To log in, use **solodev** as the username and your **instance ID** as the password.
+
+<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 45%;"></p>
 
 {% endtab %}
 
@@ -176,21 +180,33 @@ To learn more about security groups, <a href="https://docs.aws.amazon.com/AWSEC2
 
 If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here</a>.
 
-7. Click **Launch**.
+7. Click **Launch**.  
 
 <p><img src="../../images/quickstart/micro/cms-micro-launch-from-website.jpg" alt="CMS Micro Launch"></p>
+
+8. You will receive a success message to view your instance. Click on **EC2 Console**.
+
+<p><img src="../../images/quickstart/micro/cms-micro-success-launch.jpg" alt="CMS Micro Launch Message" style="width: 40%;"></p>
+
+#### EC2 Instance
+
+1. Check the **Instance State** and **Status Check** of your instance. Once your instance state changed from **Pending** to **Running**, click on the instance you created to access it.
+
+<p><img src="../../images/quickstart/micro/cms-micro-instance-state.jpg" alt="Solodev CMS Micro Instance" style="width: 40%;"></p>
+
+2. Click on your **Public IPv4 address** to access the login page.
+
+<p><img src="../../images/quickstart/micro/cms-micro-public-address.jpg" alt="Solodev CMS Micro Public Address" style="width: 25%;"></p>
+
+3. To log in, use **solodev** as the username and your **instance ID** as the password.
+
+<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 45%;"></p>
 
 {% endtab %}
 
 {% endtabs %}
 
 ## Next Steps
-
-### Login to Solodev
-
-Visit the IP address or the backend domain you previously configured. Log in to Solodev using the username and the password you configured on your stack.
-
-<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 60%;"></p>
 
 ### Add your First Website
 

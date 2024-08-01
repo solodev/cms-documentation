@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-07-30T21:24:28Z",
+  "created": "2024-08-01T16:06:09Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -81,7 +81,8 @@
       "path": "CNAME"
     },
     {
-      "path": "dashboard\\index.html"
+      "path": "dashboard\\index.html",
+      "old": true
     },
     {
       "path": "icons\\icon-api-compass-solid.svg"
@@ -795,6 +796,12 @@
       "path": "images\\dashboard\\dashboard-profile.png"
     },
     {
+      "path": "images\\dashboard\\dashboard-recent.jpg"
+    },
+    {
+      "path": "images\\dashboard\\dashboard.jpg"
+    },
+    {
       "path": "images\\dashboard\\dashboard.png"
     },
     {
@@ -802,6 +809,9 @@
     },
     {
       "path": "images\\dashboard\\search.png"
+    },
+    {
+      "path": "images\\dashboard\\websites.jpg"
     },
     {
       "path": "images\\dashboard\\websites.png"
@@ -1823,6 +1833,9 @@
     },
     {
       "path": "images\\quickstart\\lite\\solodev-cms-lite-reference-architecture.png"
+    },
+    {
+      "path": "images\\quickstart\\login-screen.jpg"
     },
     {
       "path": "images\\quickstart\\login-screen.png"
