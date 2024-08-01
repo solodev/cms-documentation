@@ -7,7 +7,7 @@
 
 <hr>
 
-<h1 style="font-size: 2rem;">Quickstart</h1>
+<h1 style="font-size: 2rem; display: none;" class="sr-only">Quickstart</h1>
 
 Built from the ground up to leverage the power of AWS services, Solodev is a cloud-first enterprise content management system (CMS) and customer experience platform that lets individuals and teams collaborate on their digital transformation. Easy to use for non-technical content marketers yet robust enough for ambitious developers, Solodev lets everyone work together to create rich, enterprise-grade websites that engage and convert. An APN Advanced Technology Partner, Solodev is available with hourly, annual and BYOL pricing.
 

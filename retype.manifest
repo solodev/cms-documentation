@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-08-01T16:06:09Z",
+  "created": "2024-08-01T19:02:09Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1906,6 +1906,9 @@
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-subscription.jpg"
+    },
+    {
+      "path": "images\\quickstart\\micro\\cms-micro-success-launch.jpg"
     },
     {
       "path": "images\\quickstart\\micro\\cms-micro-success.jpg"
