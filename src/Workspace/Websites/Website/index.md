@@ -1,4 +1,4 @@
-# Website Overview
+# Website
 
 You can manage any website in your Solodev CMS to update details, adjust settings, apply redirects, and modify permissions for your team. You will also have access to the [web files](/workspace/websites/website-overview/#web-files) and [www](/workspace/websites/website-overview/#www) folders for managing your website's pages, templates, and other assets. 
 
@@ -37,14 +37,14 @@ After [adding a website](/workspace/websites/add-website) to your Solodev CMS, y
 The web files folder houses the backend elements that power the structure of your website. This includes navigational and layout templates, HTML, imagery and content, [modules](/workspace/modules), [forms](/workspace/forms), and other components. From .tpl code to SCSS, you can [update web files](/workspace/websites/update-web-files) from this folder.
 
 ### www
-The www folder includes all the frontend pages and files that are publicly accessible when a visitor navigates your website. The www folder is where you can [update the pages](/workspace/websites/update-page) on your website.
+The www folder includes all the frontend pages and files that are publicly accessible when a visitor navigates your website. The www folder is where you can [update the pages](/workspace/websites/page) on your website.
 
 ### Using web files and www 
 
 There are several functions you can perform in web files and www at the folder and the file level:
 
-*	[Update the folder](/workspace/websites/manage-folder/update-folder) properties by clicking on the folder icon or text.
+*	[Update the folder](/workspace/websites/folder/update-folder) properties by clicking on the folder icon or text.
 
 *	Access the contents of either folder by clicking on the triangle drop-down icon to the left of each folder icon. 
 
-*	Under the www folder, you can use all the same functions as web files, but also [add a page](/workspace/websites/manage-folder/add-page) or [update a page](/workspace/websites/update-page).
+*	Under the www folder, you can use all the same functions as web files, but also [add a page](/workspace/websites/folder/add-page) or [update a page](/workspace/websites/page).

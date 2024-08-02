@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-08-01T21:28:58Z",
+  "created": "2024-08-02T12:43:33Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2707,6 +2707,21 @@
     },
     {
       "path": "index.html"
+    },
+    {
+      "path": "modules\\blog\\index.html"
+    },
+    {
+      "path": "modules\\events\\index.html"
+    },
+    {
+      "path": "modules\\home-slider\\index.html"
+    },
+    {
+      "path": "modules\\index.html"
+    },
+    {
+      "path": "modules\\news\\index.html"
     },
     {
       "path": "organization\\contacts\\add-contact\\index.html"

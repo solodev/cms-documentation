@@ -1,4 +1,4 @@
-# Update Page
+# Page
 
 In Solodev, you can update any page on your website under the www folder. You can directly edit your page using in-line editing tools with a visual preview, or by accessing component code elements for each div on your page. 
 
@@ -9,7 +9,7 @@ In this article, you will learn how to access a specific page in your www folder
 
 ## Prerequisites 
 - You will need to <a href="/workspace/websites/add-website/">add a website</a> to your CMS.
-- You will need to <a href="/workspace/websites/manage-folder/add-page/">add a page</a> to your website.
+- You will need to <a href="/workspace/websites/folder/add-page/">add a page</a> to your website.
 
 
 ## Using STML files
@@ -36,7 +36,7 @@ Expand Window | Fully expand the rendered view of your page to remove toolbars.
 You can directly edit a page on your website using Solodev’s in-line editing features. Click on a div or content block to access the editing features, make changes, and save your updates. 
 
 !!! **Note**: 
-This low-code method is ideal for making quick changes to your content like updating text or modifying links. More complex changes will require <a href="/workspace/websites/update-page/#updating-a-page-using-code">editing the code</a>  on your page.
+This low-code method is ideal for making quick changes to your content like updating text or modifying links. More complex changes will require <a href="/workspace/websites/page/#updating-a-page-using-code">editing the code</a>  on your page.
 !!!
 
 **Step 1**: Open the **www folder** in the left-hand menu and select a page to edit. Remember to click on the triangle graphic to the left of each folder to access its contents.
@@ -68,8 +68,8 @@ Add Link | Apply a hyperlink to any text.
 Remove Link | Remove a hyperlink from any text.
 Paste from Word | Add copied text from Microsoft Word to your page content.
 Draft | Create a draft version of your code or content.
-<a href="/workspace/websites/manage-folder/stage/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
-<a href="/workspace/websites/manage-folder/publish/">Publish</a> | Push your code or content to live production.
+<a href="/workspace/websites/folder/stage/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
+<a href="/workspace/websites/folder/publish/">Publish</a> | Push your code or content to live production.
 
 !!! **Note**:
 You can also use the tab in the upper right corner of the Metadata panel to Draft, Stage, or Publish your changes. 
@@ -112,7 +112,7 @@ In addition to Draft, Stage, and Publish, the editing pane offers additional fea
 :--- | ---
 <a href="/workspace/documents/editing-files/show-or-hide-meta-data/">Meta</a> | Add meta information and details using the right-hand panel.
 <a href="/workspace/documents/editing-files/includes/">File Includes</a> | Check where your file is being used across the system.
-<a href="/workspace/websites/manage-folder/upload/">Overwrite Current File</a> | Upload a file to overwrite the current one. 
+<a href="/workspace/websites/folder/upload/">Overwrite Current File</a> | Upload a file to overwrite the current one. 
 Tasks | Access the tasks modal.
 Fullscreen | Maximize your file view to fullscreen.
 Collapse Menu | Collapse the metadata panel.

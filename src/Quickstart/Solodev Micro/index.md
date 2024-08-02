@@ -210,7 +210,7 @@ If you do not have a Key Pair, you will need to create one in your Key Pair Cons
 
 ### Add your First Website
 
-Please [follow this link](/workspace/websites/website-overview/add-website/) to learn more about Solodev and to learn how to build your first website.
+Please [follow this link](/workspace/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
 
 ### Troubleshooting
 

@@ -50,7 +50,7 @@ The first step in creating page templates in Solodev is to build your base templ
 
 <img src="../../../images/base-template-nav.jpg" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 2**: Using the right-hand menu, click <a href="/workspace/websites/manage-folder/add-folder/">Add Folder</a>. 
+**Step 2**: Using the right-hand menu, click <a href="/workspace/websites/folder/add-folder/">Add Folder</a>. 
 
 <img src="../../../images/base-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -62,7 +62,7 @@ The first step in creating page templates in Solodev is to build your base templ
 The nested base folder will house your base template and other components. 
 !!!
 
-**Step 4**: Click back on the templates folder. Using the same right-hand menu, click <a href="/workspace/websites/manage-folder/add-file/">Add File</a>. 
+**Step 4**: Click back on the templates folder. Using the same right-hand menu, click <a href="/workspace/websites/folder/add-file/">Add File</a>. 
 
 **Step 5**: In the fields provided, give your file a **Name** (such as “base-template”) and remember to use the .tpl extension. From the **File Type** dropdown, select **Code**, and click **Submit**.
 
@@ -134,7 +134,7 @@ For this tutorial, we will use the assets from the SpaceJet theme to create a ho
 
 **Step 1**: Under **web files**, click on the **templates** folder.
 
-**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/manage-folder/add-folder/">Add Folder</a>. Under **templates**, add four folders with the following names:
+**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/folder/add-folder/">Add Folder</a>. Under **templates**, add four folders with the following names:
 
 - **content**
 - **footer**
@@ -145,7 +145,7 @@ When complete, click **Submit**.
 
 <img src="../../../images/homepage-folders.png" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../workspace/websites/manage-folder/add-file/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
+**Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../workspace/websites/folder/add-file/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
 
 <img src="../../../images/homepage-base-folder-div.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -153,7 +153,7 @@ When complete, click **Submit**.
 The additional div-insert.tpl file will provide extra dynamicDivs to your page template. 
 !!!
 
-**Step 4**: In each of the new folders, you will need to add a new .tpl file. Follow the previous steps to click on each folder and <a href="/workspace/websites/manage-folder/add-file/">Add File</a>. Create a new file under each folder as follows, and select **Code** for the **File Type**. Once complete, click **Submit**:
+**Step 4**: In each of the new folders, you will need to add a new .tpl file. Follow the previous steps to click on each folder and <a href="/workspace/websites/folder/add-file/">Add File</a>. Create a new file under each folder as follows, and select **Code** for the **File Type**. Once complete, click **Submit**:
 
 - content: **cta.tpl**, **home-blog.tpl**, **main.html**
 - footer: **footer.tpl** 
@@ -183,7 +183,7 @@ Next, you will learn how to apply your .tpl files to your dynamic divs. For the 
 
 !!!**Note**: 
 For more details on how to upload images to your website in Solodev, read 
-the <a href="/workspace/websites/manage-folder/upload/">Upload</a> article under Manage Folder in Websites.  
+the <a href="/workspace/websites/folder/upload/">Upload</a> article under Manage Folder in Websites.  
 !!!
 
 **Step 4**: Under **web files**, browse to the **navigation** folder and click on the **top-nav.tpl** file. Copy the code sample below into the editor. When complete, click **Publish**.
@@ -399,27 +399,27 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 
 **Step 1**: Under **web files**, click on the **content** folder.
 
-**Step 2**: Using the right-hand menu, click <a href="/workspace/websites/manage-folder/add-folder/">Add Folder</a>. Under **content**, add folder called **about**. Click **Submit**, when complete.
+**Step 2**: Using the right-hand menu, click <a href="/workspace/websites/folder/add-folder/">Add Folder</a>. Under **content**, add folder called **about**. Click **Submit**, when complete.
 
 <img src="../../../images/about-folder-web-files.png" alt="about folder web files" style=" display: block"></a>
 
-**Step 3**: Now you will need to add a new .tpl file into the folder you have just created. Under **content**, click on the **about** folder and on the right menu, click <a href="/workspace/websites/manage-folder/add-file/">Add File</a>. Create a new file called **about.tpl** and select **Code** for the **File Type**. Once complete, click **Submit**.
+**Step 3**: Now you will need to add a new .tpl file into the folder you have just created. Under **content**, click on the **about** folder and on the right menu, click <a href="/workspace/websites/folder/add-file/">Add File</a>. Create a new file called **about.tpl** and select **Code** for the **File Type**. Once complete, click **Submit**.
 
 <img src="../../../images/about-file-web-files.png" alt="about file web files" style=" display: block"></a>
 
-**Step 4**: You will also need to add a new .tpl file into the folder listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="/workspace/websites/manage-folder/add-file/">Add File</a>. Create a new file under the folder and select **Code** for the **File Type**. Once complete, click **Submit**:
+**Step 4**: You will also need to add a new .tpl file into the folder listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="/workspace/websites/folder/add-file/">Add File</a>. Create a new file under the folder and select **Code** for the **File Type**. Once complete, click **Submit**:
 
   *	content: **full-width-template.tpl**
 
 <img src="../../../images/full-width-code.png" alt="full-width-code" style=" display: block"></a>
 
-**Step 5**: Click on the **www** folder and on the right menu, click <a href="/workspace/websites/manage-folder/add-folder/">Add Folder</a>, and add folder called **about**. Click **Submit**, when complete.
+**Step 5**: Click on the **www** folder and on the right menu, click <a href="/workspace/websites/folder/add-folder/">Add Folder</a>, and add folder called **about**. Click **Submit**, when complete.
 
 <img src="../../../images/about-folder-www.png" alt="about-folder-www" style=" display: block"></a>
 
 ### Adding templates to your dynamic divs
 
-**Step 1**: Click on the **about** folder and on the right menu, click <a href="/workspace/websites/manage-folder/add-page/">Add Page</a>. Create a new page called **index.stml**. Once complete, click **Submit**.
+**Step 1**: Click on the **about** folder and on the right menu, click <a href="/workspace/websites/folder/add-page/">Add Page</a>. Create a new page called **index.stml**. Once complete, click **Submit**.
 
 **Step 2**: Just like in the case of homepage, with the **base** folder opened, click in the top dynamic div. Once activated, click on the **base-template.tpl** file. Once complete, click **Publish**.
 
@@ -467,22 +467,22 @@ This tutorial assumes that you had finished **How to create a homepage template*
 
 **Step 1**: Under **web files**, click on the **content** folder.
 
-**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/manage-folder/add-folder/">Add Folder</a>. Under **content**, add folder called **privacy**. Click **Submit**, when complete.
+**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/folder/add-folder/">Add Folder</a>. Under **content**, add folder called **privacy**. Click **Submit**, when complete.
 
 <img src="../../../images/content-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 3**: Now you will need to add a new .html file into the folder you have just created. Under **content**, click on the **privacy** folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/add-file/">Add File</a>. Create a new file called **privacy.html**, and select **HTML** for the **File Type**. Once complete, click **Submit**.
+**Step 3**: Now you will need to add a new .html file into the folder you have just created. Under **content**, click on the **privacy** folder and on the right menu, click <a href="../../../workspace/websites/folder/add-file/">Add File</a>. Create a new file called **privacy.html**, and select **HTML** for the **File Type**. Once complete, click **Submit**.
 
 <img src="../../../images/content-template-add-file1.png" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 4**: You will also need to add a new .tpl files into a folders listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/add-file/">Add File</a>. Create a new file under each folder, and select **Code** for the **File Type**. Once complete, click **Submit**:
+**Step 4**: You will also need to add a new .tpl files into a folders listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="../../../workspace/websites/folder/add-file/">Add File</a>. Create a new file under each folder, and select **Code** for the **File Type**. Once complete, click **Submit**:
 
 - content: **left-nav-content-template.tpl**
 - navigation: **left-nav.tpl**
 
 <img src="../../../images/content-template-add-file.png" alt="base template" style="width: 25%; display: block"></a>
 
-**Step 5**: Finally click on the **www** folder and on the right menu, click <a href="../../../workspace/websites/manage-folder/add-page/">Add Page</a>. Create a new page called **privacy.stml**. Once complete, click **Submit**:
+**Step 5**: Finally click on the **www** folder and on the right menu, click <a href="../../../workspace/websites/folder/add-page/">Add Page</a>. Create a new page called **privacy.stml**. Once complete, click **Submit**:
 
 <img src="../../../images/content-template-add-file2.png" alt="base template" style="width: 20%; display: block"></a>
 

@@ -10,7 +10,7 @@ The first step in creating page templates in Solodev is to build your base templ
 
 <img src="../../../images/base-template-nav.jpg" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 2**: Using the right-hand menu, click <a href="/workspace/websites/manage-folder/add-folder/">Add Folder</a>. 
+**Step 2**: Using the right-hand menu, click <a href="/workspace/websites/folder/add-folder/">Add Folder</a>. 
 
 <img src="../../../images/base-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -22,7 +22,7 @@ The first step in creating page templates in Solodev is to build your base templ
 The nested base folder will house your base template and other components. 
 !!!
 
-**Step 4**: Click back on the templates folder. Using the same right-hand menu, click <a href="/workspace/websites/manage-folder/add-file/">Add File</a>. 
+**Step 4**: Click back on the templates folder. Using the same right-hand menu, click <a href="/workspace/websites/folder/add-file/">Add File</a>. 
 
 **Step 5**: In the fields provided, give your file a **Name** (such as “base-template”) and remember to use the .tpl extension. From the **File Type** dropdown, select **Code**, and click **Submit**.
 

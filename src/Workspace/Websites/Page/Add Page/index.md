@@ -19,3 +19,17 @@ Title | Add the page title. This will be the Title displayed on your site.
 Description | Add the page description. This description can be utilized on your website's frontend or<br> for organizational purposes.
 Available Templates | Choose from the available templates. The user can skip this step if they would like to build a custom template for the page and add it later.
 Confirm | After filling out all the required fields, please click the **Submit** button to save your changes.
+
+## Add File to Page
+
+Dynamic divs are the connecting elements between your HTML content and STML pages. Generally speaking, your STML pages will contain several dynamic divs, allowing you to easily insert HTML content into the page itself.
+
+To insert your file into your page template, follow these simple steps:
+
+1. Navigate to the **www** folder and click on the **stml** file.
+
+2. In the main content area, click where you want your content to be inserted. The area will become active, displaying the dynamic div as a rectangular box set in a light blue color.
+
+3. Next, click on your file under the **web files** folder in the left menu. This will apply your content to the dynamic div. 
+
+4. Click **Publish** in the upper right corner.
