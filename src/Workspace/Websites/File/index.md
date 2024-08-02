@@ -1,6 +1,4 @@
-# Files
-
-Under web files, you can <a href="/workspace/websites/folder/update-folder/">update folders</a> or access specific files to edit code using the code editor. This includes template files (.tpl), config files, SCSS, package.json, form assets, and other essential components for powering your website. 
+Under web files, you can <a href="/workspace/websites/folders/update-folder/">update folders</a> or access specific files to edit code using the code editor. This includes template files (.tpl), config files, SCSS, package.json, form assets, and other essential components for powering your website. 
 
 To edit a specific file, click on it to access the code editor. 
 
@@ -8,10 +6,10 @@ To edit a specific file, click on it to access the code editor.
 
 **Name** | **Description**
 :--- | ---
-<a href="/workspace/websites/folder/publish/">Publish</a> | Push your code or content to live production. 
-<a href="/workspace/websites/folder/update-folder/">Draft</a> | Create a draft version of your code or content.
-<a href="/workspace/websites/folder/stage/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
-<a href="/workspace/websites/folder/file-groups/add-file-group/">Add to Group</a> | Assign your file or asset to a specific file group.
+<a href="/workspace/websites/folders/publish/">Publish</a> | Push your code or content to live production. 
+<a href="/workspace/websites/folders/update-folder/">Draft</a> | Create a draft version of your code or content.
+<a href="/workspace/websites/folders/stage/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
+<a href="/workspace/websites/file-group/add-file-group/">Add to Group</a> | Assign your file or asset to a specific file group.
 <a href="/workspace/documents/editing-files/history/">History</a> | Review previous versions of your content or code and restore a saved version.
 <a href="/workspace/documents/editing-files/copy/">Copy</a> | Copy a file or asset for editing or additional use elsewhere in your website. 
 <a href="/workspace/documents/editing-files/move/">Move</a> | Relocate a file or asset based on your taxonomy.

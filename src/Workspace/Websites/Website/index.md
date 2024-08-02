@@ -43,8 +43,8 @@ The www folder includes all the frontend pages and files that are publicly acces
 
 There are several functions you can perform in web files and www at the folder and the file level:
 
-*	[Update the folder](/workspace/websites/folder/update-folder) properties by clicking on the folder icon or text.
+*	[Update the folder](/workspace/websites/folders/update-folder) properties by clicking on the folder icon or text.
 
 *	Access the contents of either folder by clicking on the triangle drop-down icon to the left of each folder icon. 
 
-*	Under the www folder, you can use all the same functions as web files, but also [add a page](/workspace/websites/folder/add-page) or [update a page](/workspace/websites/page).
+*	Under the www folder, you can use all the same functions as web files, but also [add a page](/workspace/websites/folders/add-page) or [update a page](/workspace/websites/page).

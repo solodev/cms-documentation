@@ -13,7 +13,7 @@ The Solodev module system offers two types of modules:
 ## Prerequisites 
 
 -	You will need to <a href="/tutorials/add-website/">add a website</a> to your Solodev CMS.
--	You will need to <a href="/workspace/websites/folder/add-page/">add a page</a>.
+-	You will need to <a href="/workspace/websites/folders/add-page/">add a page</a>.
 -	You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
 
 ## Install Module
@@ -65,7 +65,7 @@ Solodev recommends installing modules into the **web files -> managers folder**.
 
 The repeater template, although optional, displays all entries in the module used. The repeater is written in Solodev shortcodes and refers to the user interface template, printing fields in the form of PHP variables through an $item array.
 
-**Step 1**.	<a href="/workspace/websites/folder/add-file/">Add a file</a> for the module repeater.
+**Step 1**.	<a href="/workspace/websites/folders/add-file/">Add a file</a> for the module repeater.
 
 **Step 2**.	Link the repeater to the page you would like your module to be.
 
@@ -109,7 +109,7 @@ The repeater id is the id of the module located on the module table view.
 
 The detail template shows the specifics of an individual entry from a repeater template. An example would be clicking on an individual blog entry from a list of entries to see the entire blog post. The detail page is a subpage of its parent page on the repeater template.
 
-**Step 1**.	<a href="/workspace/websites/folder/add-file/">Add a file</a> for the module detail.
+**Step 1**.	<a href="/workspace/websites/folders/add-file/">Add a file</a> for the module detail.
 
 **Step 2**.	Link the detail to the page you would like your module to be.
 

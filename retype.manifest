@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-08-02T13:40:57Z",
+  "created": "2024-08-02T14:31:47Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -3669,31 +3669,81 @@
       "path": "workspace\\websites\\file\\index.html"
     },
     {
-      "path": "workspace\\websites\\folder\\add-category\\index.html"
+      "path": "workspace\\websites\\folder\\add-category\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\folder\\add-experiment\\index.html"
+      "path": "workspace\\websites\\folder\\add-experiment\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\folder\\add-file-group\\index.html"
+      "path": "workspace\\websites\\folder\\add-file-group\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\websites\\folder\\add-folder\\index.html"
     },
     {
-      "path": "workspace\\websites\\folder\\add-link\\index.html"
+      "path": "workspace\\websites\\folder\\add-link\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\folder\\add-scheduler\\index.html"
+      "path": "workspace\\websites\\folder\\add-scheduler\\index.html",
+      "old": true
+    },
+    {
+      "path": "workspace\\websites\\folder\\category\\add-category\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\category\\category-detail\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\category\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\experiments\\add-experiment\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\experiments\\experiment-detail\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\experiments\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\file-groups\\add-file-group\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\file-groups\\file-group-detail\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\file-groups\\index.html"
     },
     {
       "path": "workspace\\websites\\folder\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\links\\add-link\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\links\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\links\\link-detail\\index.html"
     },
     {
       "path": "workspace\\websites\\folder\\permissions\\index.html"
     },
     {
       "path": "workspace\\websites\\folder\\publish\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\scheduler\\add-scheduler\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\scheduler\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\scheduler\\scheduler-detail\\index.html"
     },
     {
       "path": "workspace\\websites\\folder\\stage\\index.html"
@@ -3772,7 +3822,11 @@
       "old": true
     },
     {
-      "path": "workspace\\websites\\page\\index.html"
+      "path": "workspace\\websites\\page\\index.html",
+      "old": true
+    },
+    {
+      "path": "workspace\\websites\\pages\\index.html"
     },
     {
       "path": "workspace\\websites\\update-page\\index.html",

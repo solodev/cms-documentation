@@ -12,7 +12,7 @@ For this tutorial, we will use the assets from the SpaceJet theme to create a ho
 
 **Step 1**: Under **web files**, click on the **templates** folder.
 
-**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/folder/add-folder/">Add Folder</a>. Under **templates**, add four folders with the following names:
+**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/folders/add-folder/">Add Folder</a>. Under **templates**, add four folders with the following names:
 
 - **content**
 - **footer**
@@ -23,7 +23,7 @@ When complete, click **Submit**.
 
 <img src="../../../images/homepage-folders.png" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../workspace/websites/folder/add-file/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
+**Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../workspace/websites/folders/add-file/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
 
 <img src="../../../images/homepage-base-folder-div.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -31,7 +31,7 @@ When complete, click **Submit**.
 The additional div-insert.tpl file will provide extra dynamicDivs to your page template. 
 !!!
 
-**Step 4**: In each of the new folders, you will need to add a new .tpl file. Follow the previous steps to click on each folder and <a href="/workspace/websites/folder/add-file/">Add File</a>. Create a new file under each folder as follows, and select **Code** for the **File Type**. Once complete, click **Submit**:
+**Step 4**: In each of the new folders, you will need to add a new .tpl file. Follow the previous steps to click on each folder and <a href="/workspace/websites/folders/add-file/">Add File</a>. Create a new file under each folder as follows, and select **Code** for the **File Type**. Once complete, click **Submit**:
 
 - content: **cta.tpl**, **home-blog.tpl**, **main.html**
 - footer: **footer.tpl** 
@@ -61,7 +61,7 @@ Next, you will learn how to apply your .tpl files to your dynamic divs. For the 
 
 !!!**Note**: 
 For more details on how to upload images to your website in Solodev, read 
-the <a href="/workspace/websites/folder/upload/">Upload</a> article under Manage Folder in Websites.  
+the <a href="/workspace/websites/folders/upload/">Upload</a> article under Manage Folder in Websites.  
 !!!
 
 **Step 4**: Under **web files**, browse to the **navigation** folder and click on the **top-nav.tpl** file. Copy the code sample below into the editor. When complete, click **Publish**.

@@ -33,7 +33,7 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 <img src="../../../images/base-template.jpg" alt="base template" style="width: 100%; display: block"></a>
 
-1.	To get started go to **web files > templates** and <a href="/workspace/websites/folder/add-file/">add a file</a>.
+1.	To get started go to **web files > templates** and <a href="/workspace/websites/folders/add-file/">add a file</a>.
 2.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
 3.	Add Dynamic Divs to your file. Below is the code of a sample base template. It includes a dynamicDiv class for the top navigation, content, footer. You can always add more Dynamic Divs as needed.
 
@@ -65,7 +65,7 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 <img src="../../../images/content-template.jpg" alt="base template" style="width: 100%; display: block"></a>
 
-1.	Go to **web files > templates** and <a href="/workspace/websites/folder/add-file/">add a file</a>.
+1.	Go to **web files > templates** and <a href="/workspace/websites/folders/add-file/">add a file</a>.
 2.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
 3.	Follow the above steps to add a base template to the page. Even though it is not required to have a base template, it is highly recommended because it should contain your navigation, footer, and other elements used in your site.
 4.	Add Dynamic Divs to your file. Below is the code of a sample content template. It includes a dynamicDiv class for the breadcrumb, content and a left navigation. It also includes the Page title shortcode (Link to shortcodes). You can always add more DynamicDivs as needed.
