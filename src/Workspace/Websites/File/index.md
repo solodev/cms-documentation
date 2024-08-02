@@ -1,4 +1,4 @@
-# Files
+# File
 
 Under web files, you can <a href="/workspace/websites/folder/update-folder/">update folders</a> or access specific files to edit code using the code editor. This includes template files (.tpl), config files, SCSS, package.json, form assets, and other essential components for powering your website. 
 

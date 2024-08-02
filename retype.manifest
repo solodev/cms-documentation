@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-08-02T12:43:33Z",
+  "created": "2024-08-02T13:20:58Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -3654,80 +3654,167 @@
       "path": "workspace\\modules\\module-overview\\modify\\index.html"
     },
     {
+      "path": "workspace\\websites\\add-website\\index.html"
+    },
+    {
       "path": "workspace\\websites\\delete-website\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\file\\add-file\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\file\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\add-category\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\add-experiment\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\add-file-group\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\add-folder\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\add-link\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\add-scheduler\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\permissions\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\publish\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\stage\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\update-folder\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\folder\\upload\\index.html"
     },
     {
       "path": "workspace\\websites\\index.html"
     },
     {
-      "path": "workspace\\websites\\manage-folder\\add-category\\index.html"
+      "path": "workspace\\websites\\manage-folder\\add-category\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\add-experiment\\index.html"
+      "path": "workspace\\websites\\manage-folder\\add-experiment\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\add-file-group\\index.html"
+      "path": "workspace\\websites\\manage-folder\\add-file-group\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\add-file\\index.html"
+      "path": "workspace\\websites\\manage-folder\\add-file\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\add-folder\\index.html"
+      "path": "workspace\\websites\\manage-folder\\add-folder\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\add-link\\index.html"
+      "path": "workspace\\websites\\manage-folder\\add-link\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\add-page\\index.html"
+      "path": "workspace\\websites\\manage-folder\\add-page\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\add-scheduler\\index.html"
+      "path": "workspace\\websites\\manage-folder\\add-scheduler\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\websites\\manage-folder\\add-theme\\index.html",
       "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\index.html"
+      "path": "workspace\\websites\\manage-folder\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\permissions\\index.html"
+      "path": "workspace\\websites\\manage-folder\\permissions\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\publish\\index.html"
+      "path": "workspace\\websites\\manage-folder\\publish\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\stage\\index.html"
+      "path": "workspace\\websites\\manage-folder\\stage\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\update-folder\\index.html"
+      "path": "workspace\\websites\\manage-folder\\update-folder\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\manage-folder\\upload\\index.html"
+      "path": "workspace\\websites\\manage-folder\\upload\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\update-page\\index.html"
+      "path": "workspace\\websites\\page\\add-page\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\page\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\update-page\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\websites\\update-web-files\\index.html"
     },
     {
-      "path": "workspace\\websites\\website-overview\\add-website\\index.html"
+      "path": "workspace\\websites\\website-overview\\add-website\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\website-overview\\index.html"
+      "path": "workspace\\websites\\website-overview\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\website-overview\\permissions\\index.html"
+      "path": "workspace\\websites\\website-overview\\permissions\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\website-overview\\redirects\\index.html"
+      "path": "workspace\\websites\\website-overview\\redirects\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\website-overview\\settings\\index.html"
+      "path": "workspace\\websites\\website-overview\\settings\\index.html",
+      "old": true
     },
     {
-      "path": "workspace\\websites\\website-overview\\update-website\\index.html"
+      "path": "workspace\\websites\\website-overview\\update-website\\index.html",
+      "old": true
+    },
+    {
+      "path": "workspace\\websites\\website\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\website\\permissions\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\website\\redirects\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\website\\settings\\index.html"
+    },
+    {
+      "path": "workspace\\websites\\website\\update-website\\index.html"
     }
   ]
 }
