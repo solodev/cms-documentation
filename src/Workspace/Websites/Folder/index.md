@@ -1,4 +1,4 @@
-# Folder
+# Folders
 
 By clicking on the [web files](/workspace/websites/website-overview/#web-files) or [www](/workspace/websites/website-overview/#www) folders, you can update folder properties and access features such as uploading documents, adding links and file groups, and setting up advanced functions like A/B testing experiments.
 

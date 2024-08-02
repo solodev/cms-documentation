@@ -1,4 +1,4 @@
-# Page
+# Pages
 
 In Solodev, you can update any page on your website under the www folder. You can directly edit your page using in-line editing tools with a visual preview, or by accessing component code elements for each div on your page. 
 
