@@ -1,0 +1,1 @@
+Category pages allow to optimize SEO and enhance overall user experience. In Solodev CMS, developers can attach category pages to modules by attaching them to category collections and attaching their collection of categories to the module itself. Before creating a category, create a collection.

@@ -16,10 +16,10 @@ While all the functions for the web files and www folder are the same, the www f
 [Add File](/workspace/websites/folder/add-file/) | Add an HTML or code file type into a folder on your website. 
 [Add a Page](/workspace/websites/folder/add-page/) | Add a new page to the master www folder or any sub-folder. 
 [Add Link](/workspace/websites/folder/add-link/) | Add and rank a link and control properties such as opening in a new window.
-[Add File Group](/workspace/websites/folder/add-file-group/) | Create a new file group within your website folder.
-[Add Experiment](/workspace/websites/folder/add-experiment/) | Set up an A/B test for page content using a Google Optimize experiment ID.
-[Add Scheduler](/workspace/websites/folder/add-scheduler/) | Schedule a start or end date for a specific file in your Workspace.
-[Add Category](/workspace/websites/folder/add-category/) | Group and organize content items in categories.
+[Add File Group](/workspace/websites/folder/file-groups/add-file-group/) | Create a new file group within your website folder.
+[Add Experiment](/workspace/websites/folder/experiment/add-experiment/) | Set up an A/B test for page content using a Google Optimize experiment ID.
+[Add Scheduler](/workspace/websites/folder/scheduler/add-scheduler/) | Schedule a start or end date for a specific file in your Workspace.
+[Add Category](/workspace/websites/folder/category/add-category/) | Group and organize content items in categories.
 [Stage](/workspace/websites/folder/stage/) | Assign files or folders to be reviewed and published.
 [Publish](/workspace/websites/folder/publish/) | Push files or folders live on your website. 
 [Permissions](/workspace/websites/folder/permissions/) | Manage user access to files and folders with specific roles.  

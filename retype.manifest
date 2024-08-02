@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-08-02T13:26:47Z",
+  "created": "2024-08-02T13:40:57Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -3663,6 +3663,9 @@
       "path": "workspace\\websites\\file\\add-file\\index.html"
     },
     {
+      "path": "workspace\\websites\\file\\add-page\\index.html"
+    },
+    {
       "path": "workspace\\websites\\file\\index.html"
     },
     {
@@ -3765,7 +3768,8 @@
       "old": true
     },
     {
-      "path": "workspace\\websites\\page\\add-page\\index.html"
+      "path": "workspace\\websites\\page\\add-page\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\websites\\page\\index.html"
