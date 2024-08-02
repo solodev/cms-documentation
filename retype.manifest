@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-08-02T17:04:52Z",
+  "created": "2024-08-02T21:21:50Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -2643,6 +2643,15 @@
       "path": "images\\websites\\website-settings.jpg"
     },
     {
+      "path": "images\\websites\\website\\settings\\website-settings.jpg"
+    },
+    {
+      "path": "images\\websites\\website\\website-dashboard.jpg"
+    },
+    {
+      "path": "images\\websites\\websites-empty-table.jpg"
+    },
+    {
       "path": "images\\websites\\websites.jpg"
     },
     {
@@ -3868,6 +3877,9 @@
     {
       "path": "workspace\\websites\\manage-folder\\upload\\index.html",
       "old": true
+    },
+    {
+      "path": "workspace\\websites\\members\\index.html"
     },
     {
       "path": "workspace\\websites\\page\\add-page\\index.html"
