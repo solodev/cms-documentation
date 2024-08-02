@@ -2,11 +2,11 @@
 
 Website Settings applies to specific websites in the CMS system. Administrators can configure/change their primary URL here, set a domain for staging, add aliases, generate sitemaps and much more. This article provides an overview of Website Settings and their configurable fields.
 
-<p><img src="../../../../images/websites/website-settings.jpg" alt="Website Settings Modal"></p>
+<p><img src="../../../../images/websites/website/settings/website-settings.jpg" alt="Website Settings Modal" style="width: 38%"></p>
 
 **Name** | **Description** 
 :--- | ---
-Primary URL | Update the primary URL of your website.
+Primary URL | The primary URL of your website.
 [Domain Information](/workspace/websites/website/settings/#domain-information) | Enter staging address, alias, and custom rules to the domain host file in this section.
 [Sitemap](/workspace/websites/website/settings/#sitemap) | Generate your website's sitemap.
 [CDN Information](/workspace/websites/website/settings/#cdn-information) | Configure your CDN information.
