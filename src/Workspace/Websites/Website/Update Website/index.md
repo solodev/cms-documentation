@@ -7,9 +7,9 @@ Within this section, you have the flexibility to configure your site title, inpu
 **Name** | **Description** 
 :--- | ---
 Site Title | Add or update the site title.
-<a href="/workspace/websites/update-website/#social-media">Social Media</a> | Manage your social media URLs and unfurl image.
-<a href="/workspace/websites/update-website/#meta-information">Meta Information</a> | Manage your Global HTML and Head Tags.
-<a href="/workspace/websites/update-website/#custom-pages">Custom Pages</a> | Manage custom 404 and login pages.
+<a href="/workspace/websites/website/update-website//#social-media">Social Media</a> | Manage your social media URLs and unfurl image.
+<a href="/workspace/websites/website/update-website//#meta-information">Meta Information</a> | Manage your Global HTML and Head Tags.
+<a href="/workspace/websites/website/update-website//#custom-pages">Custom Pages</a> | Manage custom 404 and login pages.
 
 ## Social Media
 

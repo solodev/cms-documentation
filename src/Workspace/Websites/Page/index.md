@@ -7,7 +7,7 @@ In this article, you will learn how to access a specific page in your www folder
 
 ## Prerequisites 
 - You will need to <a href="/workspace/websites/add-website/">add a website</a> to your CMS.
-- You will need to <a href="/workspace/websites/folders/add-page/">add a page</a> to your website.
+- You will need to <a href="/workspace/websites/page/add-page/">add a page</a> to your website.
 
 
 ## Using STML files

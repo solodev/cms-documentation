@@ -7,11 +7,11 @@ Website Settings applies to specific websites in the CMS system. Administrators 
 **Name** | **Description** 
 :--- | ---
 Primary URL | Update the primary URL of your website.
-[Domain Information](/workspace/websites/settings/#domain-information) | Enter staging address, alias, and custom rules to the domain host file in this section.
-[Sitemap](/workspace/websites/settings/#sitemap) | Generate your website's sitemap.
-[CDN Information](/workspace/websites/settings/#cdn-information) | Configure your CDN information.
-[SSL Information](/workspace/websites/settings/#ssl-information) | Manage your SSL information.
-[Advanced](/workspace/websites/settings/#advanced) | Configure more advanced settings.
+[Domain Information](/workspace/websites/website/settings/#domain-information) | Enter staging address, alias, and custom rules to the domain host file in this section.
+[Sitemap](/workspace/websites/website/settings/#sitemap) | Generate your website's sitemap.
+[CDN Information](/workspace/websites/website/settings/#cdn-information) | Configure your CDN information.
+[SSL Information](/workspace/websites/website/settings/#ssl-information) | Manage your SSL information.
+[Advanced](/workspace/websites/website/settings/#advanced) | Configure more advanced settings.
 
 ## Domain Information
 

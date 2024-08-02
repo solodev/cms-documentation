@@ -12,7 +12,7 @@ Find the document by using the search field at the top.
 <a href="/workspace/documents/document-overview/upload/">Upload</a> | Drag and drop or browse files into your folder. 
 <a href="/workspace/documents/document-overview/add-folder/">Add Folder</a> | Create a new folder in your website and add specific details like name and title.
 <a href="/workspace/documents/document-overview/add-file/">Add File</a> | Add an HTML or code file type into a folder on your website. 
-<a href="/workspace/documents/document-overview/add-group/">Add File Group</a> | Create a new file group within your website folder.
+<a href="/workspace/documents/document-overview/add-file-group/">Add File Group</a> | Create a new file group within your website folder.
 <a href="/workspace/documents/document-overview/add-category/">Add Category</a> | Group and organize content items in categories.
 <a href="/workspace/documents/document-overview/permissions/">Permissions</a> | Manage user access to files and folders with specific roles.
 <a href="/workspace/documents/manage-file-folder/copy/">Copy</a> | Creates a duplicate of a file.

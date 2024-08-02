@@ -29,7 +29,7 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 
 <img src="../../../images/content-template-add-file.png" alt="base template" style="width: 25%; display: block"></a>
 
-**Step 5**: Finally click on the **www** folder and on the right menu, click <a href="../../../workspace/websites/folders/add-page/">Add Page</a>. Create a new page called **privacy.stml**. Once complete, click **Submit**:
+**Step 5**: Finally click on the **www** folder and on the right menu, click <a href="../../../workspace/websites/page/add-page/">Add Page</a>. Create a new page called **privacy.stml**. Once complete, click **Submit**:
 
 <img src="../../../images/content-template-add-file2.png" alt="base template" style="width: 20%; display: block"></a>
 

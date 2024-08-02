@@ -8,11 +8,11 @@ While all the functions for the web files and www folder are the same, the www f
 
 **Name** | **Description**
 :--- | ---
-[Update Folder](/workspace/websites/folders/update-folder/) | Change folder details like name or title and perform advanced functions like deleting a folder.
+[Update Folder](/workspace/websites/folder/update-folder//) | Change folder details like name or title and perform advanced functions like deleting a folder.
 [Upload](/workspace/websites/folders/upload/) | Drag and drop or browse files into your folder. 
 [Add Folder](/workspace/websites/folders/add-folder/) | Create a new folder in your website and add specific details like name and title.
 [Add File](/workspace/websites/folders/add-file/) | Add an HTML or code file type into a folder on your website. 
-[Add a Page](/workspace/websites/folders/add-page/) | Add a new page to the master www folder or any sub-folder. 
+[Add a Page](/workspace/websites/page/add-page/) | Add a new page to the master www folder or any sub-folder. 
 [Add Link](/workspace/websites/folders/add-link/) | Add and rank a link and control properties such as opening in a new window.
 [Add File Group](/workspace/websites/file-group/add-file-group/) | Create a new file group within your website folder.
 [Add Experiment](/workspace/websites/folders/experiment/add-experiment/) | Set up an A/B test for page content using a Google Optimize experiment ID.

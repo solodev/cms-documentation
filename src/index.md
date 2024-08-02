@@ -8,16 +8,56 @@ Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.c
 
 ## Quickstart
 
-**Name** | **Description** 
-:--- | ---
-<span style="display: flex;"><span style="padding-right: .5rem; color: #4284fb;">:icon-container:</span> [Kubernetes](../../../quickstart/solodev-cms-for-kubernetes/)</span> | A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. Only available in the AWS Marketplace.
-<span style="display: flex;"><span style="padding-right: .5rem; color: #4284fb;">:icon-copy:</span> [Enterprise](../../../quickstart/solodev-enterprise/) | A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps. 
-<span style="display: flex;"><span style="padding-right: .5rem; color: #4284fb;">:icon-checklist:</span> [Professional](../../../quickstart/solodev-pro/) | A single-server deployment designed for business-level projects that require moderate scalability.
-<span style="display: flex;"><span style="padding-right: .5rem; color: #4284fb;">:icon-pivot-column:</span> [Micro](../../../quickstart/solodev-micro/) | The perfect launch pad for small development or proof of concept (PoC) projects.
+<div style="display: flex; align-items: self-start; margin-bottom: 1rem;">
+  <div style="width: 23%; margin: 1rem 1rem 2rem 0; margin-top: 1rem; display: flex; align-items: center; justify-content: center; flex-direction: column; float: left; padding: 1rem;" class="text-center border">
+    <img src="../../images/quickstart/cms-eks-logo.jpg" alt="CMS EKS Logo" style="width: 80px;">
+    <h2 style="margin-top: 2rem; font-size: 1.4rem;">Kubernetes for EKS</h2>
+    <p style="font-size: .88rem; height: 95px;">A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS.</p>
+    <p style="margin-top: 1rem;"><a href="/quickstart/solodev-cms-for-kubernetes" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px;">INSTALL</a></p>
+  </div>
+
+  <div style="width: 23%; margin: 1rem 1rem 2rem 0; display: flex; align-items: center; justify-content: center; flex-direction: column; float: left; padding: 1rem;" class="text-center border">
+    <img src="../../images/quickstart/cms-enterprise-logo.jpg" alt="CMS Enterprise Logo" style="width: 80px;">
+    <h2 style="margin-top: 2rem; font-size: 1.4rem;">CMS Enterprise</h2>
+    <p style="font-size: .88rem; height: 95px;">A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps.</p>
+    <p style="margin-top: 1rem;"><a href="/quickstart/solodev-enterprise" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px;">INSTALL</a></p>
+  </div>
+
+  <div style="width: 23%; margin: 1rem 1rem 2rem 0; display: flex; align-items: center; justify-content: center; flex-direction: column; float: left; padding: 1rem;" class="text-center border">
+    <img src="../../images/quickstart/cms-pro-logo.jpg" alt="CMS Professional Logo" style="width: 80px;">
+    <h2 style="margin-top: 2rem; font-size: 1.4rem;">CMS Professional</h2>
+    <p style="font-size: .88rem; height: 95px;">A single-server deployment designed for business-level projects that require moderate scalability.</p>
+    <p style="margin-top: 1rem;"><a href="/quickstart/solodev-pro" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px;">INSTALL</a></p>
+  </div>
+
+  <div style="width: 23%;  margin: 1rem 0 2rem; display: flex; align-items: center; justify-content: center; flex-direction: column; float: left; padding: 1rem;" class="text-center border">
+    <img src="../../images/quickstart/micro/solodev-micro.png" alt="CMS Micro Logo" style="width: 80px;">
+    <h2 style="margin-top: 2rem; font-size: 1.4rem;">CMS Micro</h2>
+    <p style="font-size: .88rem; height: 95px;">The perfect launch pad for small development or proof of concept (PoC) projects.</p>
+    <p style="margin-top: 1rem;"><a href="/quickstart/solodev-micro" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px;">INSTALL</a></p>
+  </div>
+</div>
 
 !!!Tip:
 Need help with a custom enterprise deployment with unique requirements? [Contact our professional services team](mailto:sales@solodev.com).
-!!! 
+!!!
+
+## Themes
+
+<div class="border p-4" style="height: 255px; margin-bottom: 20px;">
+  <div style="width: 40%; float: left;">
+    <p><img src="../../images/themes/micro-theme.jpg" alt="Micro Theme"></p>
+  </div>
+  <div style="width: 50%; float: left; padding-left: 30px;">
+    <h2><a href="/themes/micro">Micro Theme</a></h2>
+    <p class="mt-3">Create a lightweight, one-page website in seconds that's beautiful on every screen. Think big with a one-page template with everything you need!</p>
+    <p style="margin-top: 1rem;"><a href="/themes/micro" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px;">MORE INFO</a></p>
+  </div>
+</div>
+
+## Add Website
+
+You can easily add a new website to your CMS by following a few simple steps. To get started, [click here](/workspace/websites/add-website/).
 
 ## Features
 

@@ -17,8 +17,8 @@ Click the **Main** button or your **organization’s logo** in the upper left co
 **Name** | **Description** 
 :--- | ---
 [Settings](/workspace/websites/settings) | Manage your URL, domain information, Sitemap, CDN, SSL information, and advanced functions.
-[Redirects](/workspace/websites/redirects) | Review and manage the website pages with 301 redirects and review the **.htaccess history**.
-[Update Website](/workspace/websites/update-website) | Add details like site title, social media links, meta information, and custom pages like 404 or logins. 
+[Redirects](/workspace/websites/website/redirects/) | Review and manage the website pages with 301 redirects and review the **.htaccess history**.
+[Update Website](/workspace/websites/website/update-website/) | Add details like site title, social media links, meta information, and custom pages like 404 or logins. 
 [Permissions](/workspace/websites/permissions) | Manage roles for users and groups on your team.
 
 You can quickly link to the most recent pages, template files, documents, or images you have worked on from the website overview.
@@ -43,7 +43,7 @@ The www folder includes all the frontend pages and files that are publicly acces
 
 There are several functions you can perform in web files and www at the folder and the file level:
 
-*	[Update the folder](/workspace/websites/folders/update-folder) properties by clicking on the folder icon or text.
+*	[Update the folder](/workspace/websites/folder/update-folder/) properties by clicking on the folder icon or text.
 
 *	Access the contents of either folder by clicking on the triangle drop-down icon to the left of each folder icon. 
 
