@@ -51,7 +51,7 @@ Need help with a custom enterprise deployment with unique requirements? [Contact
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2><a href="/themes/micro">Micro Theme</a></h2>
     <p class="mt-3">Create a lightweight, one-page website in seconds that's beautiful on every screen. Think big with a one-page template with everything you need!</p>
-    <p style="margin-top: 1rem;"><a href="/themes/micro" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px;">MORE INFO</a></p>
+    <p style="margin-top: 1rem;"><a href="/themes/micro" style="background-color: #0488ce; color: #fff; padding: .6rem 2.5rem; font-size: .9rem; border-radius: 20px;">DOWNLOAD</a></p>
   </div>
 </div>
 

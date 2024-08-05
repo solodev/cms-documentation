@@ -9,7 +9,7 @@ Solodev is a native multi-site platform, allowing you to run multiple websites a
 ## Prerequisites
 
 - You will need a valid  Fully Qualified Domain Name such as *www.testsite<span>.<span>com* for your new site. If you do not currently own a FQDN, you can purchase one through a domain registrar such as [GoDaddy.com](https://www.godaddy.com).
-- Once you have a FQDN, you need to point your domain’s DNS records to the server where your Solodev CMS is hosted on AWS. Visit your registrar’s website for instructions. To locate your server’s IP address in AWS, review the Quickstart for [Solodev CMS for Kubernetes](../../../quickstart/solodev-cms-for-kubernetes/), [Solodev CMS Enterprise Edition](../../../quickstart/solodev-enterprise/), [Solodev CMS Professional Edition](../../../quickstart/solodev-pro/), or [CMS Micro AWS](../../../quickstart/solodev-micro/).
+- Once you have a FQDN, you need to point your domain’s DNS records to the server where your Solodev CMS is hosted on AWS. Visit your registrar’s website for instructions. To locate your server’s IP address in AWS, review the Quickstart for [Solodev CMS for Kubernetes](../../../quickstart/solodev-cms-for-kubernetes/), [Solodev CMS Enterprise Edition](../../../quickstart/solodev-enterprise/), [Solodev CMS Professional Edition](../../../quickstart/solodev-pro/), or [CMS Micro](../../../quickstart/solodev-micro/).
 - Before getting started on any new website, it is highly recommended that you have an approved design prototype and sitemap to guide your development.
  
 ## Adding a site

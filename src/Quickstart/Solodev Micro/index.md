@@ -4,7 +4,7 @@
   <div  style="display: flex; align-items: center; justify-content: start;">
     <img src="../../images/quickstart/micro/solodev-micro.png" alt="CMS Micro Logo" style="width: 80px;">
     <div>
-      <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">CMS Micro AWS</h1>
+      <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">CMS Micro</h1>
       <p style="padding-left: 2rem; margin-bottom: 0;">The perfect launch pad for small development or proof of concept (PoC) projects.</p>
     </div>
   </div>
@@ -13,25 +13,25 @@
 
 ## Product Overview
 
-<p>CMS Micro AWS offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.</p>
+<p>CMS Micro offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.</p>
 
 ## Prerequisites
 
 * You need to sign up for an <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account</a>.
 * Subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/server/procurement?productId=prod-iwk56zq73bwqs" rel="noopener noreferrer" target="_blank">AWS Marketplace</a>. 
-* If you already have a subscription, simply click **Launch new instance** on CMS Micro AWS, and then follow the instructions provided  [here](#configure-software).
+* If you already have a subscription, simply click **Launch new instance** on CMS Micro, and then follow the instructions provided  [here](#configure-software).
 
 <!-- <p><img src="../../images/quickstart/micro/cms-micro-subscription.jpg" alt="Solodev CMS Micro Subscription" style="width: 35%;"></p> -->
 
-## CMS subscription
+## CMS Subscription
 
-The following steps cover the setup of the **CMS Micro AWS** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process.
+The following steps cover the setup of the **CMS Micro** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process.
 
 <!-- <p><img src="../../images/quickstart/micro/cms-micro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%; padding-left: 1rem;"></p> -->
 
 ### <span style="color: #168479; margin-top: 2.5rem; display: block;">Subscribe to this Software</span>
 
-CMS Micro AWS is available as a monthly subscription on the AWS Marketplace. The subscription includes the software's operational and infrastructure costs for running on AWS.
+CMS Micro is available as a monthly subscription on the AWS Marketplace. The subscription includes the software's operational and infrastructure costs for running on AWS.
 
 1. Review and accept the **"Terms and Conditions"**.
 2. Click **"Continue to Configuration"**.
@@ -150,13 +150,13 @@ For more information about storage, <a href="https://docs.aws.amazon.com/AWSEC2/
 
 <p><img src="../../images/quickstart/micro/cms-micro-actions-website.jpg" alt="CMS Micro Choose Actions" style="width: 55%;"></p>
 
-2. **EC2 Instance Type**. CMS Micro AWS runs on a single Amazon Elastic Compute (EC2) instance and is defaulted to run on a recommended t2.large server. Depending on your traffic needs, you can select an instance size from the available options in the menu. 
+2. **EC2 Instance Type**. CMS Micro runs on a single Amazon Elastic Compute (EC2) instance and is defaulted to run on a recommended t2.large server. Depending on your traffic needs, you can select an instance size from the available options in the menu. 
 
 <p><img src="../../images/quickstart/micro/cms-micro-instance.jpg" alt="CMS Micro EC2 Instance Type"></p>
 
 To learn more about which instance to choose based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here</a>.
 
-3. **VPC Settings**. An Amazon Virtual Private Cloud (VPC) is a dedicated environment that lets you launch the AWS resources that power your CMS Micro AWS in an isolated virtual network. If you do not have a VPC, you will need to create one in your VPC Console.
+3. **VPC Settings**. An Amazon Virtual Private Cloud (VPC) is a dedicated environment that lets you launch the AWS resources that power your CMS Micro in an isolated virtual network. If you do not have a VPC, you will need to create one in your VPC Console.
 
 <p><img src="../../images/quickstart/micro/cms-micro-vpc.jpg" alt="CMS Micro VPC Settings"></p>
 
