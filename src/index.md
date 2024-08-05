@@ -9,13 +9,6 @@ Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.c
 ## Quickstart
 
 <div style="display: flex; align-items: self-start; margin-bottom: 1rem;">
-  <div style="width: 23%; margin: 1rem 1rem 2rem 0; margin-top: 1rem; display: flex; align-items: center; justify-content: center; flex-direction: column; float: left; padding: 1rem;" class="text-center border">
-    <img src="../../images/quickstart/cms-eks-logo.jpg" alt="CMS EKS Logo" style="width: 80px;">
-    <h2 style="margin-top: 2rem; font-size: 1.4rem;">Kubernetes for EKS</h2>
-    <p style="font-size: .88rem; height: 95px;">A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS.</p>
-    <p style="margin-top: 1rem;"><a href="/quickstart/solodev-cms-for-kubernetes" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px;">INSTALL</a></p>
-  </div>
-
   <div style="width: 23%; margin: 1rem 1rem 2rem 0; display: flex; align-items: center; justify-content: center; flex-direction: column; float: left; padding: 1rem;" class="text-center border">
     <img src="../../images/quickstart/cms-enterprise-logo.jpg" alt="CMS Enterprise Logo" style="width: 80px;">
     <h2 style="margin-top: 2rem; font-size: 1.4rem;">CMS Enterprise</h2>
@@ -30,11 +23,18 @@ Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.c
     <p style="margin-top: 1rem;"><a href="/quickstart/solodev-pro" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px;">INSTALL</a></p>
   </div>
 
-  <div style="width: 23%;  margin: 1rem 0 2rem; display: flex; align-items: center; justify-content: center; flex-direction: column; float: left; padding: 1rem;" class="text-center border">
+  <div style="width: 23%; margin: 1rem 1rem 2rem 0; display: flex; align-items: center; justify-content: center; flex-direction: column; float: left; padding: 1rem;" class="text-center border">
     <img src="../../images/quickstart/micro/solodev-micro.png" alt="CMS Micro Logo" style="width: 80px;">
     <h2 style="margin-top: 2rem; font-size: 1.4rem;">CMS Micro</h2>
     <p style="font-size: .88rem; height: 95px;">The perfect launch pad for small development or proof of concept (PoC) projects.</p>
     <p style="margin-top: 1rem;"><a href="/quickstart/solodev-micro" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px;">INSTALL</a></p>
+  </div>
+
+  <div style="width: 23%; margin: 1rem 0 2rem; margin-top: 1rem; display: flex; align-items: center; justify-content: center; flex-direction: column; float: left; padding: 1rem; background-color: #033868; color: #fff;" class="text-center border">
+    <img src="../../images/quickstart/cms-eks-logo.jpg" alt="CMS EKS Logo" style="width: 80px;">
+    <h2 style="margin-top: 2rem; font-size: 1.4rem; color: #fff;">CMS EKS</h2>
+    <p style="font-size: .88rem; height: 95px;">A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS.</p>
+    <p style="margin-top: 1rem;"><a href="/quickstart/solodev-cms-for-kubernetes" style="background-color: #f99700; color: #fff; padding: .5rem 2.5rem; border-radius: 20px;">INSTALL</a></p>
   </div>
 </div>
 
@@ -57,15 +57,27 @@ Need help with a custom enterprise deployment with unique requirements? [Contact
 
 ## Add Website
 
-You can easily add a new website to your CMS by following a few simple steps. To get started, [click here](/workspace/websites/add-website/).
+You can easily add a new website to your CMS by following a few simple steps. To get started, [click here](/[workspace]()/websites/add-website/).
+
+<p><img src="../../../images/dashboard/websites.jpg" alt="Solodev CMS Websites"></p>
+
+## CMS Overview
+
+**Name** | **Description** 
+:--- | ---
+[Workspace](/workspace/) | Connect to your websites, organize files, and access modules and forms.
+[Organization](/organization/) | Invite and manage users, create groups, and build custom contact lists.
+[Support](/support/) | Manage tasks, assign them to teams and individuals, and access documentation.
+[Admin](/admin/) | Update your CMS' settings, access your Filesystem, and manage system and module APIs.
+[Account](/account/) | Update your profile information, reset your password, manager API tokens.
 
 ## Features
 
 :icon-shield-check: <span class="ml-2">**Easy to use for content pros**</span><br>
 Built with marketers in mind, Solodev CMS provides a low-code/no-code experience that makes it easy for content creators and teams to publish across channels in seconds. 
 
-:icon-pencil: <span class="ml-2">**Designed for developers**</span><br>
-With full access to HTML, CSS, PHP, and more, developers can create custom advanced, mobile-responsive websites and apps with robust functionality. 
+<!-- :icon-pencil: <span class="ml-2">**Designed for developers**</span><br>
+With full access to HTML, CSS, PHP, and more, developers can create custom advanced, mobile-responsive websites and apps with robust functionality.  -->
 
 :icon-paintbrush: <span class="ml-2">**Create amazing websites**</span><br>
 There’s no limit to what you can build using Solodev CMS. Make beautiful websites or individual pages with traditional template-based features. 
@@ -79,16 +91,14 @@ Create custom shopping carts, inventory systems, and blogs using Solodev’s bui
 :icon-issue-reopened: <span class="ml-2">**Integrate with third-party apps**</span><br>
 The Solodev API makes connecting with almost any third-party app, from MailChimp to Salesforce easy. Use the built-in Swagger library to integrate modules like contact or career forms quickly. 
 
-:icon-git-branch: <span class="ml-2">**Hybrid headless**</span><br>
+<!-- :icon-git-branch: <span class="ml-2">**Hybrid headless**</span><br>
 Looking to power a front-end React, Vue, Angular, or Next.js website–or publish to the Internet of Things? Use Solodev’s modules to push content almost anywhere using our headless CMS features. 
 
 :icon-trophy: <span class="ml-2">**Personalize your experiences**</span><br>
 Use Solodev’s A/B testing to create content “experiments” and optimize your website and landing pages to improve conversions. 
 
 :icon-comment-discussion: <span class="ml-2">**Manage and collaborate with your team**</span><br>
-Set up individual users and groups and manage their roles using the industry’s most granular permissions system. Invite new members to CMS deployments, assign tasks, collaborate on website projects, and manage your team at every level. 
-
----
+Set up individual users and groups and manage their roles using the industry’s most granular permissions system. Invite new members to CMS deployments, assign tasks, collaborate on website projects, and manage your team at every level.  -->
 
 ## Support 
 
