@@ -11,12 +11,12 @@ jobs:
     permissions:
       contents: write
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Retype Build
       uses: retypeapp/action-build@latest
       with:
-        license: ${{ secrets.RETYPE_LICENSE_KEY }}
+        license: "${{ secrets.RETYPE_LICENSE_KEY }}"
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
