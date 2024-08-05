@@ -18,3 +18,9 @@ There are four main sections in your Workspace. Each can be accessed using the l
 [Modules](/workspace/modules/) | Update or create low-code managers that power features on your website, such as blogs, landing pages, calendars, and more. 
 [Forms](/workspace/forms/) | Create custom website forms using drag-and-drop builder, view form completions, export lead data, and more.
 [Documents](/workspace/documents/) | Upload files and images, create folders and file groups, and use stored documents in your websites and apps across your CMS deployment.
+
+## Add Website
+
+To add a website, click the Add Website button or navigate to Websites in the left-hand menu. For detailed instructions, refer to [add a website](/workspace/websites/add-website/).
+
+<p><img src="../../../images/dashboard/websites.jpg" alt="Solodev CMS Websites"></p>
