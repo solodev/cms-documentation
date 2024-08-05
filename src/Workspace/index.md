@@ -1,15 +1,6 @@
-# Workspace
-
 In the home screen of your CMS, you can quickly connect to your websites and recent work, manage users and groups, track tasks, and more. You can also access advanced admin features, including the CMS file system and API.
 
 <p><img src="../../../images/dashboard/dashboard.jpg" alt="Solodev CMS Dashboard"></p>
-
-**Name** | **Description** 
-:--- | ---
-[Workspace](#workspace-1) | Build and manage websites, access modules, build custom forms, and store documents in your CMS. 
-[Organization](/organization) | Manage users, create groups, set permissions, and build contact lists. 
-[Support](/support) | View and update your team’s tasks across websites and access Solodev documentation.
-[Admin](/admin) | Manage your CMS settings for apps and workflows, set permissions, access the CMS file system, and utilize the Solodev API.
 
 !!! Tip:
 No matter where you are in the CMS, you can always return to your Dashboard by clicking your organization’s logo in the upper left corner of the screen. 
