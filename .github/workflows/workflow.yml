@@ -16,7 +16,7 @@ jobs:
     - name: Retype Build
       uses: retypeapp/action-build@latest
       with:
-        license: "${{ secrets.RETYPE_LICENSE_KEY }}"
+        license: "your-static-license-key"
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
