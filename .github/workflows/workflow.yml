@@ -1,7 +1,6 @@
 name: Deploy To S3
 
 on:
-  workflow_dispatch:
   push:
     tags:
       - 'v*'
