@@ -9,13 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Build App
-      uses: actions/checkout@v1
+      uses: actions/checkout@v4
 
-    - name: Install Dependencies
-      run: npm install
-
-    - name: Build Docs
-      run: retype build
+    - uses: retypeapp/action-build@latest
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
