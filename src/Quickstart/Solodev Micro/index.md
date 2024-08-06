@@ -204,6 +204,10 @@ If you do not have a Key Pair, you will need to create one in your Key Pair Cons
 
 {% endtab %}
 
+{% tab title="CloudFormation" %}
+Coming soon...
+{% endtab %}
+
 {% endtabs %}
 
 ## Next Steps
