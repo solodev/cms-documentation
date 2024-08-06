@@ -1,22 +1,20 @@
-# Website
-
 You can manage any website in your Solodev CMS to update details, adjust settings, apply redirects, and modify permissions for your team. You will also have access to the **web files** and **www** folders for managing your website's pages, templates, and other assets. 
 
-After selecting an active website in your Solodev CMS, you will be directed to your website’s main dashboard. Along with the right-hand menu of options, you can launch the site’s domain into a browser and access the most recent pages you have worked on from the Pages table.
+After selecting an active website in your Solodev CMS, you will be directed to your website’s main view. Along with the right-hand menu of options, you can launch the site’s domain into a browser and access the most recent pages you have worked on from the **Pages table**.
 
 Using the left-hand menu, you can access the **web files** and **www folder** that power your website. You can also toggle between different website projects using the dropdown menu.
 
 !!!Note:
-Click the **Main** button or your **organization’s logo** in the upper left corner to return to the main [Websites](/workspace/websites/website) dashboard. 
+Click the **Main** button or your **organization’s logo** in the upper left corner to return to the main screen. 
 !!!
 
 <p><img src="../../../images/websites/website/website-dashboard.jpg" alt="Website Dashboard"></p>
 
 **Name** | **Description** 
 :--- | ---
+[Update Website](/workspace/websites/website/update-website/) | Add details like site title, social media links, meta information, and custom pages like 404 or logins. 
 [Settings](/workspace/websites/website/settings) | Manage your URL, domain information, Sitemap, CDN, SSL information, and advanced functions.
 [Redirects](/workspace/websites/website/redirects/) | Review and manage the website pages with 301 redirects and review the **.htaccess history**.
-[Update Website](/workspace/websites/website/update-website/) | Add details like site title, social media links, meta information, and custom pages like 404 or logins. 
 [Permissions](/workspace/websites/website/permissions) | Manage roles for users and groups on your team.
 
 ## web files and www 

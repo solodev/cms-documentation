@@ -1,5 +1,3 @@
-# Redirects
-
 Add custom redirects to automatically forward traffic from one URL on your website to another. 
 
 In Solodev, you can directly add or modify redirects using <a href="https://loganix.com/what-is-a-htaccess-file/" target="_blank" rel="noopener noreferrer">.htaccess</a> (hypertext access), a powerful yet hidden file for adding extra functionality to your website that can make it more crawlable and indexable to search engines.   

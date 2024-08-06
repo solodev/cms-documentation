@@ -1,5 +1,3 @@
-# Permissions
-
 Assign roles to users or groups, manage and remove permissions. Click the **"+"** button to assign permissions to a new user/group.
 
 <p><img src="../../../../images/permissions/general-permissions.jpg" alt="Permissions modal" style="width: 35%;"></p>

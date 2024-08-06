@@ -57,7 +57,7 @@ Need help with a custom enterprise deployment with unique requirements? [Contact
 
 ## Add Website
 
-You can easily add a new website to your CMS by following a few simple steps. To get started, [click here](/[workspace]()/websites/add-website/).
+You can easily add a new website to your CMS by following a few simple steps. To get started, [click here](/workspace/websites/add-website/).
 
 <p><img src="../../../images/dashboard/websites.jpg" alt="Solodev CMS Websites"></p>
 
