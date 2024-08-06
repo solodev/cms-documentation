@@ -14,7 +14,7 @@ Site Title | Add or update the site title.
 
 Manage your Facebook and Twitter handles, as well as setting the image for sharing your site on social media platforms.
 
-<img src="../../../../images/websites-update3.1.jpg" alt="Social Media form" style="width: 40%;"></a>
+<img src="../../../../images/websites/update/social-media.jpg" alt="Social Media form" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -30,7 +30,7 @@ Social Media Image is a default image used when sharing a page via social media.
  
 In this section, you can assign a class to the `<body>` element, as well as add or modify Global HTML tags and Global Header Inserts.
  
-<img src="../../../../images/websites/meta-information.jpg" alt="Meta Information form" style="width: 40%;"></a>
+<img src="../../../../images/websites/update/meta-information.jpg" alt="Meta Information form" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
