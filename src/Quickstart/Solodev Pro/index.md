@@ -1,12 +1,23 @@
-# CMS Professional
+# 
 
-Solodev CMS Professional Edition is a business-grade content management system built from the ground up for Amazon Web Services (AWS). It is designed for small to medium-sized websites and apps that require a secure, scalable, flexible, and affordable hosting infrastructure powered by the AWS Cloud.
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 2rem 1.5rem; margin-bottom: 2rem; background-color: #eef6ff;">
+  <div  style="display: flex; align-items: center; justify-content: start;">
+    <img src="../../images/quickstart/micro/solodev-micro.png" alt="CMS Micro Logo" style="width: 80px;">
+    <div>
+      <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">CMS Professional</h1>
+      <p style="padding-left: 2rem; margin-bottom: 0;">A business-grade content management system built from the ground up for Amazon Web Services (AWS).</p>
+    </div>
+  </div>
+  <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X" rel="noopener noreferrer" target="_blank" style="background-color: #f99700; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;">SUBSCRIBE <span style="padding-left: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
+</div>
 
-## Overview
+## Product Overview
 
-Solodev CMS Professional Edition deploys on a single AWS instance and features its own MySQL database. This lightweight architecture allows your websites and apps to meet variable traffic demands while maintaining uptime at a reasonable cost. 
+Solodev CMS Professional is designed for small to medium-sized websites and apps that require a secure, scalable, flexible, and affordable hosting infrastructure powered by the AWS Cloud.
 
-Solodev CMS Professional Edition is available in the AWS Marketplace and can be instantly deployed in your account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="_blank" rel="noopener noreferrer">AWS CloudFormation</a>. It leverages an advanced stack of AWS cloud services to deliver a scalable and reliable workload, including:
+Solodev CMS Professional deploys on a single AWS instance and features its own MySQL database. This lightweight architecture allows your websites and apps to meet variable traffic demands while maintaining uptime at a reasonable cost. 
+
+Solodev CMS Professional is available in the AWS Marketplace and can be instantly deployed in your account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="_blank" rel="noopener noreferrer">AWS CloudFormation</a>. It leverages an advanced stack of AWS cloud services to deliver a scalable and reliable workload, including:
 
 * <a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html" target="_blank" rel="noopener noreferrer">Amazon Certificate Manager (ACM)</a>
 * <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html" target="_blank" rel="noopener noreferrer">Amazon CloudFront</a>
@@ -28,20 +39,12 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 
 ## Prerequisites
 
-Before launching CMS Professional, you will need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started. Once completed, return to this article and follow the instructions below:
+* You need to sign up for an <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account</a>.
+* Subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X" rel="noopener noreferrer" target="_blank">AWS Marketplace</a>. 
 
-<div class="border p-4" style="height: 137px; margin-bottom: 20px; align-items: center; display: flex;">
-  <div style="width: 50%; float: left; text-align: center;">
-    <img src="../../images/quickstart/aws-marketplace-logo.jpg" alt="AWS Marketplace Logo" style="width: 70%;">
-  </div>
-  <div style="width: 50%; float: left; text-align: center;">
-    <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X" rel="noopener noreferrer" target="_blank"><img src="../../images/quickstart/subscribe-large.jpg" style="width: 50%;"></a>
-  </div>
-</div>
+## CMS Subscription
 
-## AWS Setup
-
-The following steps cover the setup of the **Solodev CMS Professional Edition** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process.
+The following steps cover the setup of the **CMS Professional** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process.
 
 <!-- <p><img src="../../images/quickstart/pro/cms-pro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p> -->
 
@@ -49,10 +52,10 @@ The following steps cover the setup of the **Solodev CMS Professional Edition** 
 
 By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
 
-<p><img src="../../images/quickstart/pro/aws-pro-subscribe.jpg" alt="CMS Pro Configure Software Contract" style="width: 80%;"></p>
-
 1. Review and accept the **"Terms and Conditions"**.
 2. Click **"Continue to Configuration"**.
+
+<p><img src="../../images/quickstart/pro/aws-pro-subscribe.jpg" alt="CMS Pro Continue to Configuration" style="width: 80%;"></p>
 
 !!!NOTE:
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
@@ -60,39 +63,33 @@ Once accepted, you will receive a thank you message asking you to configure your
 
 ### <span style="color: #168479; margin-top: 2.5rem; display: block;">Configure Software</span>
 
-Specify the basic configuration such as the software version and the region you wish to launch the stack.
+1. Choose a fulfillment option and software version to launch this software.
 
 <p><img src="../../images/quickstart/pro/cms-pro-configure.jpg" alt="CMS Pro Configure"></p>
 
-1. Select a fulfillment option. Fulfillment options relate to how software products are delivered and deployed. This software is packaged as a virtual appliance and deployed on Amazon EC2 instances.
-2. Select a software version. The latest version of Solodev CMS Micro is always recommended.
-3. When selecting an available AWS Region for hosting, you may want to consider a region that is closer to your users to help reduce your network latency.
-4. Click **"Continue to Launch."**
+**Name** | **Description** 
+:--- | ---
+Fulfillment option | Select a fulfillment option.
+Software version | Select the software version. The latest version of Solodev CMS Pro is always recommended.
+Region | Select the AWS Region.
 
 ### <span style="color: #168479; margin-top: 2.5rem; display: block;">Launch Software</span>
 
 Review the launch configuration details and follow the instructions to launch this software.
 
+1. **Choose an Action**
+
 <p><img src="../../images/quickstart/pro/cms-pro-launch.jpg" alt="CMS Pro Launch CloudFormation" style="width: 70%; margin-bottom: 20px;"></p>
 
-1. **Choose an Action**
 2. Click **"Launch"**.
-
-#### Choose an Action
-
-There are two options for configuring your Solodev CMS Professional: Launch CloudFormation or Copy to Service Catalog. Select one from the menu.
 
 ## CloudFormation Stack Wizard
 
-**Step 1:** Create stack
-
-Continue with the pre-selected CloudFormation Template. The Amazon S3 template URL (used for the CloudFormation configuration) should be pre-selected. Click **"Next"** to continue.
+1.  Create stack. Continue with the pre-selected CloudFormation Template. The Amazon S3 template URL (used for the CloudFormation configuration) should be pre-selected. Click **"Next"** to continue.
 
 <p><img src="../../images/quickstart/create-stack.jpg" alt="CMS Pro Create Stack" style="width: 80%; margin-bottom: 20px;"></p>
 
-**Step 2:** Specify stack details
-
-The following parameters must be configured to launch your Solodev DCX CloudFormation stack:
+2. Specify stack details. The following parameters must be configured to launch your Solodev CloudFormation stack:
 
 **Parameter Description** | **Description** 
 :--- | ---
@@ -140,13 +137,9 @@ RestoreBucketName | Name of the S3 bucket containing files for restore.
 Advanced options are not required in order to start Solodev CMS.
 !!!
 
-**Step 3:** Configure stack options
+3. Configure stack options. Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disable "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the **"Next"** button to continue.
 
-Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disable "Rollback on failure" under the "Advanced" options. This will allow for further troubleshooting if necessary. Click on the "Next" button to continue.
-
-**Step 4:** Review stack
-
-Review all CloudFront details and options. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the **"Submit"** button to launch your stack.
+4. Review stack. Review all CloudFront details and options. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the **"Submit"** button to launch your stack.
 
 <p><img src="../../images/quickstart/acknowledge.png" alt="CMS Pro Acknowledge Terms" style="width: 80%;"></p>
 

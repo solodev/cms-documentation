@@ -1,3 +1,9 @@
 h3 {
   margin-top: 2.5rem;
 }
+.pluggable .rounded-t a.text-gray-500 {
+  color: #000;
+}
+.pluggable .border {
+  border-color: #b5b3b3;
+}

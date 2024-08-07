@@ -330,3 +330,12 @@ Under your Security Group settings, make sure ports 443 and 80 are open to 0.0.0
 ==- **I am unable to log in using SSH.**
 Make sure to add your IP address as an inbound rule on the Web Security Group for port 22. For more information, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here</a>
 ===
+
+<style>
+  .pluggable .rounded-t a.text-gray-500 {
+    color: #000;
+  }
+  .pluggable .border {
+    border-color: #b5b3b3;
+  }
+</style>
