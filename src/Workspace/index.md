@@ -14,10 +14,10 @@ There are four main sections in your Workspace. Each can be accessed using the l
 
 **Name** | **Description** 
 :--- | ---
-[Websites](/workspace/websites/) | Access existing websites in your CMS deployment to modify pages, publish updates, add new websites, and manage your content operations. 
-[Modules](/workspace/modules/) | Update or create low-code managers that power features on your website, such as blogs, landing pages, calendars, and more. 
-[Forms](/workspace/forms/) | Create custom website forms using drag-and-drop builder, view form completions, export lead data, and more.
-[Documents](/workspace/documents/) | Upload files and images, create folders and file groups, and use stored documents in your websites and apps across your CMS deployment.
+[:icon-globe: <span class="ml-2">Websites</span>](/workspace/websites/) | Access existing websites in your CMS deployment to modify pages, publish updates, add new websites, <br>and manage your content operations. 
+[:icon-calendar: <span class="ml-2">Modules</span>](/workspace/modules/) | Update or create low-code managers that power features on your website, such as blogs, landing pages, <br>calendars, and more. 
+[:icon-database: <span class="ml-2">Forms</span>](/workspace/forms/) | Create custom website forms using drag-and-drop builder, view form completions, export lead data, and more.
+[:icon-file-directory: <span class="ml-2">Documents</span>](/workspace/documents/) | Upload files and images, create folders and file groups, and use stored documents in your websites <br>and apps across your CMS deployment.
 
 ## Add Website
 
