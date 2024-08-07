@@ -5,7 +5,7 @@
     <img src="../../images/quickstart/micro/solodev-micro.png" alt="CMS Micro Logo" style="width: 80px;">
     <div>
       <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">CMS Professional</h1>
-      <p style="padding-left: 2rem; margin-bottom: 0;">A business-grade content management system built from the ground up for Amazon Web Services (AWS).</p>
+      <p style="padding-left: 2rem; margin-bottom: 0;">A business-grade content management system built from the ground up for <br>Amazon Web Services (AWS).</p>
     </div>
   </div>
   <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X" rel="noopener noreferrer" target="_blank" style="background-color: #f99700; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;">SUBSCRIBE <span style="padding-left: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
@@ -17,7 +17,7 @@ Solodev CMS Professional is designed for small to medium-sized websites and apps
 
 Solodev CMS Professional deploys on a single AWS instance and features its own MySQL database. This lightweight architecture allows your websites and apps to meet variable traffic demands while maintaining uptime at a reasonable cost. 
 
-Solodev CMS Professional is available in the AWS Marketplace and can be instantly deployed in your account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="_blank" rel="noopener noreferrer">AWS CloudFormation</a>. It leverages an advanced stack of AWS cloud services to deliver a scalable and reliable workload, including:
+Solodev CMS Professional is available in the AWS Marketplace and can be instantly deployed in your account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="_blank" rel="noopener noreferrer">AWS CloudFormation :icon-link-external:</a>. It leverages an advanced stack of AWS cloud services to deliver a scalable and reliable workload, including:
 
 * <a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html" target="_blank" rel="noopener noreferrer">Amazon Certificate Manager (ACM)</a>
 * <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html" target="_blank" rel="noopener noreferrer">Amazon CloudFront</a>
@@ -39,8 +39,8 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 
 ## Prerequisites
 
-* You need to sign up for an <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account</a>.
-* Subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X" rel="noopener noreferrer" target="_blank">AWS Marketplace</a>. 
+* You need to sign up for an <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account :icon-link-external:</a>.
+* Subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/B07KMFPW3X/ref=_ptnr_solodev_github_B07KMFPW3X" rel="noopener noreferrer" target="_blank">AWS Marketplace :icon-link-external:</a>. 
 
 ## CMS Subscription
 
@@ -194,3 +194,12 @@ If you would like to cancel your Solodev subscription and you have chosen hourly
 !!! Note :
 To simplify the process please disable **View nested** button in you AWS and remove the main stack.
 !!! -->
+
+<style>
+  .pluggable .rounded-t a.text-gray-500 {
+    color: #000;
+  }
+  .pluggable .border {
+    border-color: #b5b3b3;
+  }
+</style>

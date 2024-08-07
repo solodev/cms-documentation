@@ -5,7 +5,7 @@
     <img src="../../images/quickstart/cms-eks-logo.jpg" alt="CMS for EKS Logo" style="width: 80px;">
     <div>
       <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">CMS for EKS</h1>
-      <p style="padding-left: 2rem; margin-bottom: 0;">Fully containerized version of the CMS for EKS with orchestration via AWS EKS (Elastic Kubernetes Service) or Amazon ECS (Elastic Container Service).</p>
+      <p style="padding-left: 2rem; margin-bottom: 0;">Fully containerized version of the CMS for EKS with orchestration via AWS EKS <br>(Elastic Kubernetes Service) or Amazon ECS (Elastic Container Service).</p>
     </div>
   </div>
   <a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa" rel="noopener noreferrer" target="_blank" style="background-color: #f99700; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;">SUBSCRIBE <span style="padding-left: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
@@ -19,14 +19,14 @@ Supported services also include Amazon EKS Anywhere and Self-Managed Kubernetes.
 
 Launch Amazon Elastic Kubernetes Service (EKS) in a new cluster and manage your containers at any scale with Solodev. Launch your applications rapidly and across AWS Regions and Availability Zones, and move from environment to environment regardless of operating system.
 
-CMS for EKS uses a set of YAML templates to create a new EKS cluster. All YAML templates are deployed via <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="blank">AWS CloudFormation</a>.
+CMS for EKS uses a set of YAML templates to create a new EKS cluster. All YAML templates are deployed via <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="blank">AWS CloudFormation :icon-link-external:</a>.
 
 <!-- <p><img src="../../images/quickstart/kubernetes/solodev-kubernetes-template.jpg" alt="Solodev EKS Architecture Diagram" style="width: 80%;"></p> -->
 
 ## Prerequisites
 
-* You need to sign up for an <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account</a>.
-* Subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa" rel="noopener noreferrer" target="_blank">AWS Marketplace</a>.
+* You need to sign up for an <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account :icon-link-external:</a>.
+* Subscribe to Solodev on the <a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6?sr=0-4&ref_=beagle&applicationId=AWSMPContessa" rel="noopener noreferrer" target="_blank">AWS Marketplace :icon-link-external:</a>.
 <!-- * Launch a <a href="#create-cluster">Cluster</a>. -->
 
 ## CMS Subscription
@@ -105,3 +105,12 @@ With your EKS cluster up and running, you can install apps within the cluster it
 	</tr>
 </table>
  -->
+
+<style>
+  .pluggable .rounded-t a.text-gray-500 {
+    color: #000;
+  }
+  .pluggable .border {
+    border-color: #b5b3b3;
+  }
+</style>
