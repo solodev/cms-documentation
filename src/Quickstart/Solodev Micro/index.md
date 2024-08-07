@@ -62,6 +62,11 @@ Region | Select the AWS Region.
 Review the launch configuration details and follow the instructions to launch this software.
 
 {% tabs %}
+
+{% tab title="CloudFormation" %}
+Coming soon...
+{% endtab %}
+
 {% tab title="Launch through EC2" %}
 
 #### Choose an Action
@@ -202,10 +207,6 @@ If you do not have a Key Pair, you will need to create one in your Key Pair Cons
 
 <p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 45%;"></p>
 
-{% endtab %}
-
-{% tab title="CloudFormation" %}
-Coming soon...
 {% endtab %}
 
 {% endtabs %}

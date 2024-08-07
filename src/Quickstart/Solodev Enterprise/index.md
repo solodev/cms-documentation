@@ -1,4 +1,4 @@
-# CMS Enterprise Edition
+# CMS Enterprise
 
 Solodev CMS Enterprise Edition is an enterprise-grade content management system built from the ground up for Amazon Web Services (AWS). It is designed for high-availability websites and apps that require a secure, scalable, and redundant infrastructure powered by the AWS Cloud.
 
@@ -44,7 +44,7 @@ Before launching CMS Enterprise, you will need to subscribe to Solodev on the AW
 
 At the top of the AWS Marketplace listing page for the Solodev CMS Enterprise Edition, click the **“Continue to Subscribe”** button.
 
-### Subscribe to this Software
+### <span style="color: #168479; margin-top: 2.5rem; display: block;">Subscribe to this Software</span>
 
 By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
 
@@ -59,7 +59,7 @@ Please note that a <a href="https://docs.aws.amazon.com/vpc/latest/userguide/wha
 1. Review and accept the **"Terms and Conditions"**.
 2. Click **"Continue to Configuration"**.
 
-### Configure this Software
+### <span style="color: #168479; margin-top: 2.5rem; display: block;">Configure Software</span>
 
 Specify the basic configuration such as the software version and the region you wish to launch the stack. Click on the **"Continue to Launch"** button to proceed.
 
@@ -70,7 +70,7 @@ Specify the basic configuration such as the software version and the region you 
 3. When selecting an available AWS Region for hosting, you may want to consider a region that is closer to your users to help reduce your network latency.
 4. Click **"Continue to Launch."**
 
-### Launch this software
+### <span style="color: #168479; margin-top: 2.5rem; display: block;">Launch Software</span>
 
 Review the launch configuration details and follow the instructions to launch this software.
 

@@ -1,4 +1,4 @@
-# CMS Professional Edition
+# CMS Professional
 
 Solodev CMS Professional Edition is a business-grade content management system built from the ground up for Amazon Web Services (AWS). It is designed for small to medium-sized websites and apps that require a secure, scalable, flexible, and affordable hosting infrastructure powered by the AWS Cloud.
 
@@ -45,7 +45,7 @@ The following steps cover the setup of the **Solodev CMS Professional Edition** 
 
 <!-- <p><img src="../../images/quickstart/pro/cms-pro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p> -->
 
-### Subscribe to this Software
+### <span style="color: #168479; margin-top: 2.5rem; display: block;">Subscribe to this Software</span>
 
 By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
 
@@ -58,7 +58,7 @@ By subscribing, you gain access to a comprehensive suite of tools and features d
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
 !!!
 
-### Configure this Software
+### <span style="color: #168479; margin-top: 2.5rem; display: block;">Configure Software</span>
 
 Specify the basic configuration such as the software version and the region you wish to launch the stack.
 
@@ -69,7 +69,7 @@ Specify the basic configuration such as the software version and the region you 
 3. When selecting an available AWS Region for hosting, you may want to consider a region that is closer to your users to help reduce your network latency.
 4. Click **"Continue to Launch."**
 
-### Launch this software
+### <span style="color: #168479; margin-top: 2.5rem; display: block;">Launch Software</span>
 
 Review the launch configuration details and follow the instructions to launch this software.
 
