@@ -64,7 +64,111 @@ Review the launch configuration details and follow the instructions to launch th
 {% tabs %}
 
 {% tab title="CloudFormation" %}
-Coming soon...
+
+1. Please copy and paste the following link into your browser. If your AWS region is different from `us-east-1`, make sure to update the link to reflect your specific region.
+
+```
+https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?stackName=solodev-micro&templateURL=https://solodev-cms.s3.amazonaws.com/cloudformation/solodev-micro-linux.yaml
+```
+
+#### Create Stack
+
+1. Prepare template. Select **choose an existing template**.
+
+<p><img src="../../images/quickstart/micro/micro-prepare-template.jpg" alt="CMS Micro prepare template" style="width: 90%;"></p>
+
+2. Specify template. Select **Amazon S3 URL**.
+
+<p><img src="../../images/quickstart/micro/micro-specify-template.jpg" alt="CMS Micro specify template" style="width: 90%;"></p>
+
+3. Click **Next**.
+
+<p><img src="../../images/quickstart/micro/micro-stack-next.jpg" alt="CMS Micro next button" style="width: 8%;"></p>
+
+#### Stack Details
+
+##### Provide a stack name
+
+1. Provide a stack name. Stack name must be 1 to 128 characters, start with a letter, and only contain alphanumeric characters.
+
+<p><img src="../../images/quickstart/micro/micro-stack-name.jpg" alt="CMS Micro stack name" style="width: 62%;"></p>
+
+##### Parameters
+
+1. Specify the parameters in the setup section.
+
+<p><img src="../../images/quickstart/micro/micro-params-setup.jpg" alt="CMS Micro params setup" style="width: 50%;"></p>
+
+Name   | Description
+---    | ---
+VPCID | Choose which VPC the Application should be deployed to. <br><br>An Amazon Virtual Private Cloud (VPC) is a dedicated environment that lets you launch the AWS resources that power your CMS Micro in an isolated virtual network. If you do not have a VPC, you will need to create one in your VPC Console. For instructions on how to create a VPC, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">click here for instructions</a>.
+PublicSubnetID | The ID of the public subnet in Availability Zone 1 in your existing VPC (e.g., subnet-a0246dcd). <br><br>A subnet is a range of IP addresses contained in your VPC. You can create AWS resources, such as EC2 instances, in specific subnets, enabling you to group network resources more efficiently. If you do not have any existing subnets, you will need to create one in your Subnet Console. For instructions, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">click here</a>.
+InstanceType | CMS Micro runs on a single Amazon Elastic Compute (EC2) instance and is defaulted to run on a recommended t2.large server. Depending on your traffic needs, you can select an instance size from the available options in the menu. <br><br>To learn more about which instance to choose based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here</a>.
+KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances. <br><br>An Amazon EC2 key pair is a set of security credentials consisting of a public and private key that verify a user’s identity when connecting or communicating with an EC2 instance. Select an existing security group from the menu or configure a new security group using the form provided. If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here</a>.
+AmiAlias | An AMI Alias refers to a user-defined name or identifier for an Amazon Machine Image (AMI) that simplifies the process of referring to an AMI. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html" target="_blank">Click here</a> to learn more about AMIs.
+WebsiteUrl | Name of initial Solodev website.
+HostVolumeSize | Size in GB of root volume.
+DeletionPolicy | A Deletion Policy is a configuration that you can set for resources in AWS CloudFormation templates to specify what should happen to the resource when its stack is deleted.
+
+2. Specify the SSO parameters. This section is optional.
+
+<p><img src="../../images/quickstart/micro/micro-params-optional.jpg" alt="CMS Micro params optional" style="width: 30%;"></p>
+
+Name   | Description
+---    | ---
+SsoProviderUrl | Issuer URL of your OpenID Connect provider.
+SsoClientId | Unique identifier assigned to a client application that is registered with an AWS Single Sign-On (SSO) service, used to authenticate and authorize the application to access SSO resources.
+SsoClientSecret | Confidential key assigned to a client application registered with an AWS Single Sign-On (SSO) service, used in conjunction with the SSO Client ID to authenticate the application and secure access to SSO resources.
+
+3. Click **Next**.
+
+<p><img src="../../images/quickstart/micro/micro-stack-next.jpg" alt="CMS Micro next button" style="width: 8%;"></p>
+
+#### Configure Stack Options
+
+1. Add a new tag. **This step is optional**.
+
+Tags (key-value pairs) are used to apply metadata to AWS resources, which can help in organizing, identifying, and categorizing those resources. You can add up to 50 unique tags for each stack. If you need more information about tags, click here.
+
+<p><img src="../../images/quickstart/micro/micro-stack-tags.jpg" alt="CMS Micro tags" style="width: 80%;"></p>
+
+2. Specify an existing AWS Identity and Access Management (IAM) service role that CloudFormation can assume. **This step is optional**.
+
+<p><img src="../../images/quickstart/micro/micro-stack-permissions.jpg" alt="CMS Micro permissions" style="width: 80%;"></p>
+
+3. Select the stack failure options.
+
+<p><img src="../../images/quickstart/micro/micro-stack-failure.jpg" alt="CMS Micro failure" style="width: 80%;"></p>
+
+Name   | Description
+---    | ---
+Behavior on provisioning failure | Specify the roll back behavior for a stack failure..
+Delete newly created resources during a rollback | Specify whether resources that were created during a failed operation should be deleted regardless of their deletion policy.
+
+To learn more about the stack failure options, <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stack-failure-options.html" target="_blank">click here</a>.
+
+#### Advanced options
+
+1. You can set additional options for your stack, like notification options and a stack policy. For more information, <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-add-tags.html" target="_blank">click here</a>.
+
+<p><img src="../../images/quickstart/micro/micro-stack-advanced.jpg" alt="CMS Micro advanced options" style="width: 50%;"></p>
+
+2. Click **Next**.
+
+<p><img src="../../images/quickstart/micro/micro-stack-next.jpg" alt="CMS Micro next button" style="width: 8%;"></p>
+
+### Review and create
+
+1. Review your settings.
+
+2. Acknowledge the AWS CloudFormation terms.
+
+<p><img src="../../images/quickstart/micro/micro-stack-capabilities.jpg" alt="CMS Micro capabilities" style="width: 62%;"></p>
+
+3. Click **Submit**.
+
+<p><img src="../../images/quickstart/micro/micro-stack-submit.jpg" alt="CMS Micro submit buttons" style="width: 11%;"></p>
+
 {% endtab %}
 
 {% tab title="Launch through EC2" %}
