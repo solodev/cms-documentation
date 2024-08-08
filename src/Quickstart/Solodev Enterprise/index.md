@@ -48,7 +48,7 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 
 The following steps cover the setup of the **CMS Enterprise** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process.
 
-### <span style="color: #168479; margin-top: 2.5rem; display: block;">Subscribe to this Software</span>
+### <span class="text-teal">Subscribe to this Software</span>
 
 By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
 
@@ -61,11 +61,11 @@ By subscribing, you gain access to a comprehensive suite of tools and features d
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
 !!!
 
-### <span style="color: #168479; margin-top: 2.5rem; display: block;">Configure Software</span>
+### <span class="text-teal">Configure Software</span>
 
 1. Choose a fulfillment option and software version to launch this software.
 
-<p><img src="../../images/quickstart/enterprise/enterprise-configure.jpg" alt="Enterprise Configuration"></p>
+<p><img src="../../images/quickstart/cms-configure.jpg" alt="CMS Enterprise Configure" style="width: 35%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -75,7 +75,7 @@ Region | Select the AWS Region.
 
 2. Click **"Continue to Launch."**
 
-### <span style="color: #168479; margin-top: 2.5rem; display: block;">Launch Software</span>
+### <span class="text-teal">Launch Software</span>
 
 Review the launch configuration details and follow the instructions to launch this software.
 
@@ -89,6 +89,146 @@ Review the launch configuration details and follow the instructions to launch th
 If your AWS region is different from `us-east-1`, make sure to select your specific region from the top menu.
 !!!
 
+#### Create Stack
+
+1. Create a stack.
+
+<p><img src="../../images/quickstart/enterprise/enterprise-create-stack.jpg" alt="CMS Enterprise Create Stack" style="width: 90%;"></p>
+
+2. Click <span class="text-orange">**Next**</span>.
+
+#### Stack Details
+
+##### Provide a stack name
+
+1. Provide a stack name. Stack name must be 1 to 128 characters, start with a letter, and only contain alphanumeric characters.
+
+<p><img src="../../images/quickstart/enterprise/enterprise-stack-name.jpg" alt="CMS Enterprise stack name" style="width: 62%;"></p>
+
+##### Parameters
+
+1. Specify the parameters in the network settings section.
+
+<p><img src="../../images/quickstart/enterprise/enterprise-params-network.jpg" alt="CMS Enterprise network settings" style="width: 45%;"></p>
+
+Name   | Description
+---    | ---
+VPCID | Choose which VPC the Application should be deployed to. <br><br>An Amazon Virtual Private Cloud (VPC) is a dedicated environment that lets you launch the AWS resources that power your CMS Micro in an isolated virtual network. If you do not have a VPC, you will need to create one in your VPC Console. For instructions on how to create a VPC, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">click here for instructions :icon-link-external:</a>.
+PublicSubnet1ID | The ID of the public subnet in Availability Zone 1 in your existing VPC (e.g., subnet-a0246dcd). <br><br>A subnet is a range of IP addresses contained in your VPC. You can create AWS resources, such as EC2 instances, in specific subnets, enabling you to group network resources more efficiently. If you do not have any existing subnets, you will need to create one in your Subnet Console. For instructions, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">click here :icon-link-external:</a>.
+PublicSubnet2ID | The ID of the public subnet in Availability Zone 2 in your existing VPC (e.g., subnet-b1236eea). <br><br>A subnet is a range of IP addresses contained in your VPC. You can create AWS resources, such as EC2 instances, in specific subnets, enabling you to group network resources more efficiently. If you do not have any existing subnets, you will need to create one in your Subnet Console. For instructions, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">click here :icon-link-external:</a>.
+InstanceType | CMS Micro runs on a single Amazon Elastic Compute (EC2) instance and is defaulted to run on a recommended t2.medium server. Depending on your traffic needs, you can select an instance size from the available options in the menu. <br><br>To learn more about which instance to choose based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here :icon-link-external:</a>.
+InstanceCount | Number of instances behind load balancer. Minimum 2 required for high availability.
+KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances. <br><br>An Amazon EC2 key pair is a set of security credentials consisting of a public and private key that verify a user’s identity when connecting or communicating with an EC2 instance. Select an existing security group from the menu or configure a new security group using the form provided. If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here :icon-link-external:</a>.
+AmiAlias | An AMI Alias refers to a user-defined name or identifier for an Amazon Machine Image (AMI) that simplifies the process of referring to an AMI. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html" target="_blank">Click here :icon-link-external:</a> to learn more about AMIs.
+
+2. Specify the CMS Settings.
+
+<p><img src="../../images/quickstart/enterprise/enterprise-params-settings.jpg" alt="CMS Enterprise CMS Settings" style="width: 40%;"></p>
+
+Name   | Description
+---    | ---
+AdminUser | The solodev admin username to login onto your CMS.
+AdminPassword | The solodev admin password to login onto your CMS.
+AdminCidrIpAccess | Please change CIDR from 127.0.0.1/32 to a specific IP or another CIDR range.
+DatabaseUsername | The database admin account username.
+DatabasePassword | The database root password.
+
+3. Optional: Website Settings.
+
+<p><img src="../../images/quickstart/enterprise/enterprise-params-settings-website.jpg" alt="CMS Enterprise CMS Network Settings Optional" style="width: 45%;"></p>
+
+Name   | Description
+---    | ---
+WebsiteUrl | Name of initial Solodev website.
+CertificateArn | CertificateArn for SSL cert that matches the FQDN above. Please visit the <a href="https://docs.aws.amazon.com/acm/" target="_blank">AWS Certificate Manager :icon-link-external:</a>.
+
+4. Optional: Network Settings.
+
+<p><img src="../../images/quickstart/enterprise/enterprise-params-settings-optional.jpg" alt="CMS Enterprise CMS Settings Optional" style="width: 50%;"></p>
+
+Name   | Description
+---    | ---
+RedisEnabled | Enable Redis ElastiCache cluster.
+CookbookURL | Download and host on your own S3 bucket or copy this URL.
+CidrIpAccess | Public CIDR range for web servers behind load balancer.
+DeletionPolicy | A Deletion Policy is a configuration that you can set for resources in AWS CloudFormation templates to specify what should happen to the resource when its stack is deleted.
+StorageEncrypted | Enable encryption for both Database (RDS) and Filesystem (EFS).
+
+4. Optional: SSO.
+
+<p><img src="../../images/quickstart/enterprise/enterprise-params-sso-optional.jpg" alt="CMS Enterprise CMS SSO Optional" style="width: 27%;"></p>
+
+Name   | Description
+---    | ---
+SsoProviderUrl | Issuer URL of your OpenID Connect provider.
+SsoClientId | Unique identifier assigned to a client application that is registered with an AWS Single Sign-On (SSO) service, used to authenticate and authorize the application to access SSO resources.
+SsoClientSecret | Confidential key assigned to a client application registered with an AWS Single Sign-On (SSO) service, used in conjunction with the SSO Client ID to authenticate the application and secure access to SSO resources.
+
+3. Click <span class="text-orange">**Next**</span>.
+
+#### Configure Stack Options
+
+1. Add a new tag. **This step is optional**.
+
+Tags (key-value pairs) are used to apply metadata to AWS resources, which can help in organizing, identifying, and categorizing those resources. You can add up to 50 unique tags for each stack. If you need more information about tags, click here.
+
+<p><img src="../../images/quickstart/micro/micro-stack-tags.jpg" alt="CMS Enterprise tags" style="width: 80%;"></p>
+
+2. Specify an existing AWS Identity and Access Management (IAM) service role that CloudFormation can assume. **This step is optional**.
+
+<p><img src="../../images/quickstart/micro/micro-stack-permissions.jpg" alt="CMS Enterprise permissions" style="width: 80%;"></p>
+
+3. Select the stack failure options.
+
+<p><img src="../../images/quickstart/micro/micro-stack-failure.jpg" alt="CMS Enterprise failure" style="width: 80%;"></p>
+
+Name   | Description
+---    | ---
+Behavior on provisioning failure | Specify the roll back behavior for a stack failure..
+Delete newly created resources during a rollback | Specify whether resources that were created during a failed operation should be deleted regardless of their deletion policy.
+
+To learn more about the stack failure options, <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stack-failure-options.html" target="_blank">click here :icon-link-external:</a>.
+
+#### Advanced options
+
+1. You can set additional options for your stack, like notification options and a stack policy. For more information, <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-add-tags.html" target="_blank">click here :icon-link-external:</a>.
+
+<p><img src="../../images/quickstart/micro/micro-stack-advanced.jpg" alt="CMS Enterprise advanced options" style="width: 50%;"></p>
+
+2. Click <span class="text-orange">**Next**</span>.
+
+### Review and create
+
+1. Review your settings.
+
+2. Acknowledge the AWS CloudFormation terms.
+
+<p><img src="../../images/quickstart/pro/pro-stack-capabilities.jpg" alt="CMS Enterprise capabilities" style="width: 62%;"></p>
+
+3. Click <span class="text-orange">**Submit**</span>.
+
+### Stacks
+
+1. <span class="text-orange">**Watch your CMS being created!**</span> Once the status changes from **CREATE_IN_PROGRESS** to **CREATE_COMPLETE**, you can access your CMS.
+
+<!-- <p><img src="../../images/quickstart/pro/pro-stack.jpg" alt="CMS Enterprise Stack" style="width: 62%;"></p> -->
+
+2. Click on the **Outputs** tab and copy the AdminUrl value.
+
+<p><img src="../../images/quickstart/stack-outputs.jpg" alt="CMS Enterprise Stack Outputs" style="width: 62%;"></p>
+
+3. Open your preferred browser and paste the AdminUrl value to access the CMS login page. Use the **Admin Username** and **Admin Password** provided in the stacks output to log in.
+
+<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 50%;"></p>
+
+{% endtab %}
+
+{% tab title="Launch through EC2" %}
+Coming soon...
+{% endtab %}
+
+{% tab title="Launch from Website" %}
+Coming soon...
 {% endtab %}
 
 {% endtabs %}
@@ -171,7 +311,7 @@ Generally speaking, no additional options need to be configured. If you are expe
 
 Review all CloudFront details and options. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the **"Create"** button to launch your stack.
 
-<p><img src="../../images/quickstart/acknowledge.png" alt="CMS Pro Acknowledge Terms" style="width: 80%;"></p>
+<p><img src="../../images/quickstart/acknowledge.png" alt="CMS Enterprise Acknowledge Terms" style="width: 80%;"></p>
 
 ## Monitor the CloudFormation Stack Creation Process
 

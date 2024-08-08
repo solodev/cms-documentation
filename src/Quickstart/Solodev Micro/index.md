@@ -165,7 +165,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 2. Click on the **Outputs** tab and copy the AdminUrl value.
 
-<p><img src="../../images/quickstart/pro/pro-stack-outputs.jpg" alt="CMS Micro Stack Outputs" style="width: 62%;"></p>
+<p><img src="../../images/quickstart/stack-outputs.jpg" alt="CMS Micro Stack Outputs" style="width: 62%;"></p>
 
 3. Open your preferred browser and paste the AdminUrl value to access the CMS login page. Use the **Admin Username** and **Admin Password** provided in the stacks output to log in.
 
