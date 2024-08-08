@@ -48,7 +48,7 @@ The following steps cover the setup of the **CMS Professional** on the AWS Marke
 
 <!-- <p><img src="../../images/quickstart/pro/cms-pro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p> -->
 
-### <span style="color: #168479; margin-top: 2.5rem; display: block;">Subscribe to this Software</span>
+### <span class="text-teal">Subscribe to this Software</span>
 
 By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
 
@@ -61,7 +61,7 @@ By subscribing, you gain access to a comprehensive suite of tools and features d
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
 !!!
 
-### <span style="color: #168479; margin-top: 2.5rem; display: block;">Configure Software</span>
+### <span class="text-teal">Configure Software</span>
 
 1. Choose a fulfillment option and software version to launch this software.
 
@@ -77,7 +77,7 @@ Region | Select the AWS Region.
 
 <p><img src="../../images/quickstart/pro/cms-pro-continue-to-launch.jpg" alt="CMS Pro continue to launch" style="width: 80%;"></p>
 
-### <span style="color: #168479; margin-top: 2.5rem; display: block;">Launch Software</span>
+### <span class="text-teal">Launch Software</span>
 
 Review the launch configuration details and follow the instructions to launch this software.
 
