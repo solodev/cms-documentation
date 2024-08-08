@@ -73,15 +73,11 @@ If your AWS region is different from `us-east-1`, make sure to select your speci
 
 #### Create Stack
 
-1. Prepare template. Select **choose an existing template**.
+1. Create a stack.
 
-<p><img src="../../images/quickstart/micro/micro-prepare-template.jpg" alt="CMS Micro prepare template" style="width: 90%;"></p>
+<p><img src="../../images/quickstart/micro/micro-create-stack.jpg" alt="CMS Micro Create Stack" style="width: 90%;"></p>
 
-2. Specify template. Select **Amazon S3 URL**.
-
-<p><img src="../../images/quickstart/micro/micro-specify-template.jpg" alt="CMS Micro specify template" style="width: 90%;"></p>
-
-3. Click <span class="text-orange">**Next**<span>.
+2. Click <span class="text-orange">**Next**</span>.
 
 #### Stack Details
 
@@ -118,7 +114,7 @@ SsoProviderUrl | Issuer URL of your OpenID Connect provider.
 SsoClientId | Unique identifier assigned to a client application that is registered with an AWS Single Sign-On (SSO) service, used to authenticate and authorize the application to access SSO resources.
 SsoClientSecret | Confidential key assigned to a client application registered with an AWS Single Sign-On (SSO) service, used in conjunction with the SSO Client ID to authenticate the application and secure access to SSO resources.
 
-3. Click <span class="text-orange">**Next**<span>.
+3. Click <span class="text-orange">**Next**</span>.
 
 #### Configure Stack Options
 
@@ -149,7 +145,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 <p><img src="../../images/quickstart/micro/micro-stack-advanced.jpg" alt="CMS Micro advanced options" style="width: 50%;"></p>
 
-2. Click <span class="text-orange">**Next**<span>.
+2. Click <span class="text-orange">**Next**</span>.
 
 ### Review and create
 
@@ -159,7 +155,21 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 <p><img src="../../images/quickstart/micro/micro-stack-capabilities.jpg" alt="CMS Micro capabilities" style="width: 62%;"></p>
 
-3. Click <span class="text-orange">**Submit**<span>.
+3. Click <span class="text-orange">**Submit**</span>.
+
+### Stacks
+
+1. <span class="text-orange">**Watch your CMS being created!**</span> Once the status changes from **CREATE_IN_PROGRESS** to **CREATE_COMPLETE**, you can access your CMS.
+
+<p><img src="../../images/quickstart/micro/micro-stack.jpg" alt="CMS Micro Stack" style="width: 62%;"></p>
+
+2. Click on the **Outputs** tab and copy the AdminUrl value.
+
+<p><img src="../../images/quickstart/pro/pro-stack-outputs.jpg" alt="CMS Micro Stack Outputs" style="width: 62%;"></p>
+
+3. Open your preferred browser and paste the AdminUrl value to access the CMS login page. Use the **Admin Username** and **Admin Password** provided in the stacks output to log in.
+
+<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 50%;"></p>
 
 {% endtab %}
 
@@ -313,7 +323,7 @@ If you do not have a Key Pair, you will need to create one in your Key Pair Cons
 
 Please [follow this link](/workspace/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
 
-<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 45%;"></p>
+<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 50%;"></p>
 
 ### Troubleshooting
 

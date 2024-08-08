@@ -97,7 +97,7 @@ If your AWS region is different from `us-east-1`, make sure to select your speci
 
 <p><img src="../../images/quickstart/pro/pro-create-stack.jpg" alt="CMS Pro Create Stack" style="width: 90%;"></p>
 
-2. Click <span class="text-orange">**Next**<span>.
+2. Click <span class="text-orange">**Next**</span>.
 
 #### Stack Details
 
@@ -158,7 +158,7 @@ SsoClientId | Unique identifier assigned to a client application that is registe
 SsoClientSecret | Confidential key assigned to a client application registered with an AWS Single Sign-On (SSO) service, used in conjunction with the SSO Client ID to authenticate the application and secure access to SSO resources.
 AmiAlias | An AMI Alias refers to a user-defined name or identifier for an Amazon Machine Image (AMI) that simplifies the process of referring to an AMI. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html" target="_blank">Click here :icon-link-external:</a> to learn more about AMIs.
 
-3. Click <span class="text-orange">**Next**<span>.
+3. Click <span class="text-orange">**Next**</span>.
 
 #### Configure Stack Options
 
@@ -189,7 +189,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 <p><img src="../../images/quickstart/micro/micro-stack-advanced.jpg" alt="CMS Pro advanced options" style="width: 50%;"></p>
 
-2. Click <span class="text-orange">**Next**<span>.
+2. Click <span class="text-orange">**Next**</span>.
 
 ### Review and create
 
@@ -199,11 +199,11 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 <p><img src="../../images/quickstart/pro/pro-stack-capabilities.jpg" alt="CMS Pro capabilities" style="width: 62%;"></p>
 
-3. Click <span class="text-orange">**Submit**<span>.
+3. Click <span class="text-orange">**Submit**</span>.
 
 ### Stacks
 
-1. **Watch your CMS being created!** Once the status changes from **CREATE_IN_PROGRESS** to **CREATE_COMPLETE**, you can access your CMS.
+1. <span class="text-orange">**Watch your CMS being created!**</span> Once the status changes from **CREATE_IN_PROGRESS** to **CREATE_COMPLETE**, you can access your CMS.
 
 <p><img src="../../images/quickstart/pro/pro-stack.jpg" alt="CMS Pro Stack" style="width: 62%;"></p>
 
@@ -213,7 +213,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 3. Open your preferred browser and paste the AdminUrl value to access the CMS login page. Use the **Admin Username** and **Admin Password** provided in the stacks output to log in.
 
-<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 60%;"></p>
+<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 50%;"></p>
 
 {% endtab %}
 
