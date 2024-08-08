@@ -158,7 +158,7 @@ SsoClientId | Unique identifier assigned to a client application that is registe
 SsoClientSecret | Confidential key assigned to a client application registered with an AWS Single Sign-On (SSO) service, used in conjunction with the SSO Client ID to authenticate the application and secure access to SSO resources.
 AmiAlias | An AMI Alias refers to a user-defined name or identifier for an Amazon Machine Image (AMI) that simplifies the process of referring to an AMI. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html" target="_blank">Click here :icon-link-external:</a> to learn more about AMIs.
 
-3. Click **Next**.
+3. Click <span class="text-orange">**Next**<span>.
 
 #### Configure Stack Options
 
@@ -203,9 +203,17 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 ### Stacks
 
-1. What your CMS being created! Once the status changes from **CREATE_IN_PROGRESS** to **CREATE_COMPLETE**, you can access your CMS.
+1. **Watch your CMS being created!** Once the status changes from **CREATE_IN_PROGRESS** to **CREATE_COMPLETE**, you can access your CMS.
 
 <p><img src="../../images/quickstart/pro/pro-stack.jpg" alt="CMS Pro Stack" style="width: 62%;"></p>
+
+2. Click on the **Outputs** tab and copy the AdminUrl value.
+
+<p><img src="../../images/quickstart/pro/pro-stack-outputs.jpg" alt="CMS Pro Stack Outputs" style="width: 62%;"></p>
+
+3. Open your preferred browser and paste the AdminUrl value to access the CMS login page. Use the **Admin Username** and **Admin Password** provided in the stacks output to log in.
+
+<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 60%;"></p>
 
 {% endtab %}
 
@@ -312,22 +320,3 @@ Visit the IP address or the backend domain you previously configured. Log in to 
 ### Add your First Website
 
 Please [follow this link](/workspace/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
-
-<!-- ## Canceling your subscription
-
-If you would like to cancel your Solodev subscription and you have chosen hourly billing plans, just delete the stack connected with your CMS Pro.
-
-<p><img src="../../images/quickstart/stack-delete.png" alt="CMS Pro Stack" style="width: 80%;"></p>
-
-!!! Note :
-To simplify the process please disable **View nested** button in you AWS and remove the main stack.
-!!! -->
-
-<style>
-  .pluggable .rounded-t a.text-gray-500 {
-    color: #000;
-  }
-  .pluggable .border {
-    border-color: #b5b3b3;
-  }
-</style>

@@ -29,7 +29,7 @@ The following steps cover the setup of the **CMS Micro** on the AWS Marketplace.
 
 <!-- <p><img src="../../images/quickstart/micro/cms-micro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%; padding-left: 1rem;"></p> -->
 
-### <span style="color: #168479; margin-top: 2.5rem; display: block;">Subscribe to this Software</span>
+### <span class="text-teal">Subscribe to this Software</span>
 
 CMS Micro is available as a monthly subscription on the AWS Marketplace. The subscription includes the software's operational and infrastructure costs for running on AWS.
 
@@ -41,11 +41,11 @@ CMS Micro is available as a monthly subscription on the AWS Marketplace. The sub
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
 !!!
 
-### <span style="color: #168479; margin-top: 2.5rem; display: block;">Configure Software</span>
+### <span class="text-teal">Configure Software</span>
 
 1. Choose a fulfillment option and software version to launch this software.
 
-<p><img src="../../images/quickstart/micro/cms-micro-configure.jpg" alt="CMS Micro Configure"></p>
+<p><img src="../../images/quickstart/cms-configure.jpg" alt="CMS Micro Configure" style="width: 35%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -57,7 +57,7 @@ Region | Select the AWS Region.
 
 <p><img src="../../images/quickstart/micro/cms-micro-continue-to-launch.jpg" alt="CMS Micro continue to launch" style="width: 80%;"></p>
 
-### <span style="color: #168479; margin-top: 2.5rem; display: block;">Launch Software</span>
+### <span class="text-teal">Launch Software</span>
 
 Review the launch configuration details and follow the instructions to launch this software.
 
@@ -81,9 +81,7 @@ If your AWS region is different from `us-east-1`, make sure to select your speci
 
 <p><img src="../../images/quickstart/micro/micro-specify-template.jpg" alt="CMS Micro specify template" style="width: 90%;"></p>
 
-3. Click **Next**.
-
-<p><img src="../../images/quickstart/micro/micro-stack-next.jpg" alt="CMS Micro next button" style="width: 8%;"></p>
+3. Click <span class="text-orange">**Next**<span>.
 
 #### Stack Details
 
@@ -120,9 +118,7 @@ SsoProviderUrl | Issuer URL of your OpenID Connect provider.
 SsoClientId | Unique identifier assigned to a client application that is registered with an AWS Single Sign-On (SSO) service, used to authenticate and authorize the application to access SSO resources.
 SsoClientSecret | Confidential key assigned to a client application registered with an AWS Single Sign-On (SSO) service, used in conjunction with the SSO Client ID to authenticate the application and secure access to SSO resources.
 
-3. Click **Next**.
-
-<p><img src="../../images/quickstart/micro/micro-stack-next.jpg" alt="CMS Micro next button" style="width: 8%;"></p>
+3. Click <span class="text-orange">**Next**<span>.
 
 #### Configure Stack Options
 
@@ -153,9 +149,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 <p><img src="../../images/quickstart/micro/micro-stack-advanced.jpg" alt="CMS Micro advanced options" style="width: 50%;"></p>
 
-2. Click **Next**.
-
-<p><img src="../../images/quickstart/micro/micro-stack-next.jpg" alt="CMS Micro next button" style="width: 8%;"></p>
+2. Click <span class="text-orange">**Next**<span>.
 
 ### Review and create
 
@@ -165,9 +159,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 <p><img src="../../images/quickstart/micro/micro-stack-capabilities.jpg" alt="CMS Micro capabilities" style="width: 62%;"></p>
 
-3. Click **Submit**.
-
-<p><img src="../../images/quickstart/micro/micro-stack-submit.jpg" alt="CMS Micro submit buttons" style="width: 11%;"></p>
+3. Click <span class="text-orange">**Submit**<span>.
 
 {% endtab %}
 
@@ -332,12 +324,3 @@ Under your Security Group settings, make sure ports 443 and 80 are open to 0.0.0
 ==- **I am unable to log in using SSH.**
 Make sure to add your IP address as an inbound rule on the Web Security Group for port 22. For more information, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here :icon-link-external:</a>
 ===
-
-<style>
-  .pluggable .rounded-t a.text-gray-500 {
-    color: #000;
-  }
-  .pluggable .border {
-    border-color: #b5b3b3;
-  }
-</style>
