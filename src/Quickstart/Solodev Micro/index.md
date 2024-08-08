@@ -321,6 +321,8 @@ If you do not have a Key Pair, you will need to create one in your Key Pair Cons
 
 Please [follow this link](/workspace/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
 
+<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 45%;"></p>
+
 ### Troubleshooting
 
 ==- **When I open the link after launching, nothing comes up.**

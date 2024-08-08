@@ -115,22 +115,24 @@ General Support | To report a bug, submit a feature request, ask a technical que
     display: flex;
   }
   .card {
-    border-radius: 25px;
     border: 1px solid #dee2e6;
     box-shadow: 0 1px 5px 0 #dcdcdc;
   }
   .card a {
     margin-top: .7rem;
     padding: .5rem 2.5rem;
-    border-radius: 35px;
     font-size: .9rem;
+    border-radius: 25px;
+  }
+  .card.card-color {
+    border-radius: 35px;
   }
   .card.card-color a {
     border: 1.5px solid #fff;
-    background-color: transparent;
-    color: #fff;
+    background-color: #fff;
+    color: #0488ce;
   }
   .card.card-color a:hover {
-    color: #fff;
+    color: #0488ce;
   }
 </style>
