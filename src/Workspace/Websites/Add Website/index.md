@@ -12,3 +12,5 @@ Fully Qualified Domain Name (FQDN) | The complete and specific website address. 
 Type | Select the type of website you want to create. CMS (Default) or Standard. **CMS (Content Management System)** - A website that allows you to easily create, manage, and modify content without needing technical knowledge. **Standard** - A basic website that usually consists of static pages and requires some coding knowledge to update content.
 Theme (Optional) | Upload a .zip file to create your website using a theme. Ensure the .zip file includes all necessary files and follows the theme guidelines.
 Timezone | Select the timezone based on your location to ensure accurate time settings for your website. The system will automatically select the timezone for you based on your location, but you can manually choose a different one if needed.
+
+After adding your website, you will be redirected to the [website main screen](/workspace/websites/website/).
