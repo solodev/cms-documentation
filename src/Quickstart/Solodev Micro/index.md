@@ -104,9 +104,9 @@ WebsiteUrl | Name of initial Solodev website.
 HostVolumeSize | Size in GB of root volume.
 DeletionPolicy | A Deletion Policy is a configuration that you can set for resources in AWS CloudFormation templates to specify what should happen to the resource when its stack is deleted.
 
-2. Specify the SSO parameters. This section is optional.
+2. Optional: SSO.
 
-<p><img src="../../images/quickstart/micro/micro-params-optional.jpg" alt="CMS Micro params optional" style="width: 30%;"></p>
+<p><img src="../../images/quickstart/micro/micro-params-optional.jpg" alt="CMS Micro params optional" style="width: 28%;"></p>
 
 Name   | Description
 ---    | ---
@@ -241,11 +241,11 @@ For more information about storage, <a href="https://docs.aws.amazon.com/AWSEC2/
 
 1. Check the **Instance State** and **Status Check** of your instance. Once your instance state changed from **Pending** to **Running**, click on the instance you created to access it.
 
-<p><img src="../../images/quickstart/micro/cms-micro-instance-state.jpg" alt="Solodev CMS Micro Instance" style="width: 40%;"></p>
+<p><img src="../../images/quickstart/cms-instance-state.jpg" alt="Solodev CMS Micro Instance" style="width: 40%;"></p>
 
 2. Click on your **Public IPv4 address** to access the login page.
 
-<p><img src="../../images/quickstart/micro/cms-micro-public-address.jpg" alt="Solodev CMS Micro Public Address" style="width: 25%;"></p>
+<p><img src="../../images/quickstart/cms-public-address.jpg" alt="Solodev CMS Micro Public Address" style="width: 25%;"></p>
 
 3. To log in, use **solodev** as the username and your **instance ID** as the password.
 
@@ -259,55 +259,53 @@ For more information about storage, <a href="https://docs.aws.amazon.com/AWSEC2/
 
 1. Select **Launch from Website**
 
-<p><img src="../../images/quickstart/micro/cms-micro-actions-website.jpg" alt="CMS Micro Choose Actions" style="width: 55%;"></p>
+<p><img src="../../images/quickstart/cms-launch-from-website.jpg" alt="CMS Micro Choose Actions" style="width: 55%;"></p>
 
 2. **EC2 Instance Type**. CMS Micro runs on a single Amazon Elastic Compute (EC2) instance and is defaulted to run on a recommended t2.large server. Depending on your traffic needs, you can select an instance size from the available options in the menu. 
 
-<p><img src="../../images/quickstart/micro/cms-micro-instance.jpg" alt="CMS Micro EC2 Instance Type"></p>
+<p><img src="../../images/quickstart/cms-instance.jpg" alt="CMS Micro EC2 Instance Type" style="width: 35%;"></p>
 
 To learn more about which instance to choose based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here :icon-link-external:</a>.
 
 3. **VPC Settings**. An Amazon Virtual Private Cloud (VPC) is a dedicated environment that lets you launch the AWS resources that power your CMS Micro in an isolated virtual network. If you do not have a VPC, you will need to create one in your VPC Console.
 
-<p><img src="../../images/quickstart/micro/cms-micro-vpc.jpg" alt="CMS Micro VPC Settings"></p>
+<p><img src="../../images/quickstart/cms-vpc.jpg" alt="CMS Micro VPC Settings" style="width: 35%;"></p>
 
 For instructions on how to create a VPC, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">click here for instructions :icon-link-external:</a>.
 
 4. **Subnet Settings**. A subnet is a range of IP addresses contained in your VPC. You can create AWS resources, such as EC2 instances, in specific subnets, enabling you to group network resources more efficiently. 
 
-<p><img src="../../images/quickstart/micro/cms-micro-subnet.jpg" alt="CMS Micro Subnet Settings"></p>
+<p><img src="../../images/quickstart/cms-subnet.jpg" alt="CMS Micro Subnet Settings" style="width: 35%;"></p>
 
 If you do not have any existing subnets, you will need to create one in your Subnet Console. For instructions, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">click here :icon-link-external:</a>.
 
 5. **Security Group Settings**. A security group acts as a firewall that controls the traffic allowed to reach one or more instances. You can create a new security group or choose one of your existing groups. Select an existing security group from the menu or configure a new security group using the form provided. Name your security group and give it a description.
 
-<p><img src="../../images/quickstart/micro/security-groups.jpg" alt="CMS Micro Security Groups" style="width: 60%;"></p>
+<p><img src="../../images/quickstart/security-groups.jpg" alt="CMS Micro Security Groups" style="width: 60%;"></p>
 
 To learn more about security groups, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here :icon-link-external:</a>.
 
 6. **Key Pair Settings**. An Amazon EC2 key pair is a set of security credentials consisting of a public and private key that verify a user’s identity when connecting or communicating with an EC2 instance. Select an existing security group from the menu or configure a new security group using the form provided. 
 
-<p><img src="../../images/quickstart/micro/cms-micro-key-pair.jpg" alt="CMS Micro Key Pair Settings" style="width: 63%;"></p>
+<p><img src="../../images/quickstart/cms-key-pair.jpg" alt="CMS Micro Key Pair Settings" style="width: 63%;"></p>
 
 If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here :icon-link-external:</a>.
 
-7. Click **Launch**.  
-
-<p><img src="../../images/quickstart/micro/cms-micro-launch-from-website.jpg" alt="CMS Micro Launch"></p>
+7. Click <span class="text-orange">**Launch**</span>.
 
 8. You will receive a success message to view your instance. Click on **EC2 Console**.
 
-<p><img src="../../images/quickstart/micro/cms-micro-success-launch.jpg" alt="CMS Micro Launch Message" style="width: 40%;"></p>
+<p><img src="../../images/quickstart/cms-success-launch.jpg" alt="CMS Micro Launch Message" style="width: 44%"></p>
 
 #### EC2 Instance
 
 1. Check the **Instance State** and **Status Check** of your instance. Once your instance state changed from **Pending** to **Running**, click on the instance you created to access it.
 
-<p><img src="../../images/quickstart/micro/cms-micro-instance-state.jpg" alt="Solodev CMS Micro Instance" style="width: 40%;"></p>
+<p><img src="../../images/quickstart/cms-instance-state.jpg" alt="Solodev CMS Micro Instance" style="width: 40%;"></p>
 
 2. Click on your **Public IPv4 address** to access the login page.
 
-<p><img src="../../images/quickstart/micro/cms-micro-public-address.jpg" alt="Solodev CMS Micro Public Address" style="width: 25%;"></p>
+<p><img src="../../images/quickstart/cms-public-address.jpg" alt="Solodev CMS Micro Public Address" style="width: 25%;"></p>
 
 3. To log in, use **solodev** as the username and your **instance ID** as the password.
 
