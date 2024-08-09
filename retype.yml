@@ -15,6 +15,9 @@ links:
   link: https://www.solodev.com
   icon: home-fill
 
+outbound:
+  custom: 'rel="noopener noreferrer"'
+
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
 
@@ -23,3 +26,6 @@ snippets:
     - js
     - json
     - css
+
+assets:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css

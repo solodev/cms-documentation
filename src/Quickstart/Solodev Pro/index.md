@@ -85,6 +85,8 @@ Review the launch configuration details and follow the instructions to launch th
 
 {% tab title="CloudFormation" %}
 
+Before launching the CMS Professional software, make sure you are logged into your AWS account. If you do not have an AWS account, click here to create one. Once you have signed in, click the button below and follow the outlined steps.
+
 <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?stackName=solodev-pro&templateURL=https://solodev-cms.s3.amazonaws.com/cloudformation/solodev-cms-pro.yaml" rel="noopener noreferrer" target="_blank" style="background-color: #f99700; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex; margin-top: .7rem;">LAUNCH CMS PRO <span style="padding-left: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
 
 !!!NOTE:
@@ -440,12 +442,6 @@ If your stack builds successfully, you will see the green "CREATE_COMPLETE" mess
 <p><img src="../../images/quickstart/stack-complete.png" alt="CMS Pro Stack Create Complete" style="width: 80%;"></p> -->
 
 ## Next Steps
-
-### Login to Solodev
-
-Visit the IP address or the backend domain you previously configured. Log in to Solodev using the username and the password you configured on your stack.
-
-<p><img src="../../images/quickstart/login-screen.png" alt="Solodev CMS Login Screen" style="width: 60%;"></p>
 
 ### Add your First Website
 
