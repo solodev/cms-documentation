@@ -23,7 +23,7 @@ Built from the ground up to leverage the power of AWS services, Solodev is a clo
 
   <div class="col">
     <div class="card text-center">
-      <img src="../../images/quickstart/cms-pro-logo.jpg" alt="CMS Professional Logo">
+      <img src="../../images/quickstart/pro/cms-pro-logo.jpg" alt="CMS Professional Logo">
       <h2>CMS Professional</h2>
       <p class="content">A single-server deployment designed for business-level projects that require moderate scalability.</p>
       <p style="margin-bottom: 10px;"><a href="/quickstart/solodev-pro">INSTALL</a></p>
