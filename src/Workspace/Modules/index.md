@@ -1,5 +1,3 @@
-# Modules
-
 The modules dashboard gives you an overview of existing modules presented as a list. Each module has details such as name, location, and members assigned to each one.
 
 You can access all tools from the module dashboard to manage module infrastructure effectively.

@@ -49,13 +49,18 @@ h3 .text-teal {
 .align-items-center {
   align-items: center;
 }
+.mt-0 {
+  margin-bottom: 0;
+}
+.mt-2 {
+  margin-bottom: 0.5rem;
+}
 .mb-0 {
   margin-bottom: 0;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
 }
-
 /* Cards */
 .card {
   border: 1px solid #dee2e6;
@@ -127,18 +132,25 @@ h3 .text-teal {
   margin-bottom: 0;
 }
 /* Buttons */
-.btn-orange-lg {
+.btn-orange-lg,
+.btn-orange-sm {
   background-color: #f99700;
   color: #fff!important;
-  padding: .5rem 2.5rem;
+  padding: .5rem 3rem;
   border-radius: 20px;
   font-weight: 600;
   display: inline-flex;
 }
-.btn-orange-lg span {
+.btn-orange-lg span,
+.btn-orange-sm span {
   padding-left: .5rem;
   display: inline-flex;
-  align-items: center
+  align-items: center;
+  font-weight: 600;
+}
+.btn-orange-sm {
+  padding: .25rem 2rem;
+  font-size: .8rem;
 }
 
 /* Media Queries */

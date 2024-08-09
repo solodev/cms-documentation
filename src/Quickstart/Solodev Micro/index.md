@@ -15,20 +15,18 @@ CMS Micro offers best-of-breed content management features in a streamlined pack
 
 ## Prerequisites
 
-* You need to sign up for an <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account :icon-link-external:</a>.
-* [Subscribe to Solodev](#cms-subscription) on the AWS Marketplace.
-* If you already have a subscription, simply click **Launch new instance** on CMS Micro, and then follow the [instructions provided here](#configure-software).
-
-<!-- <p><img src="../../images/quickstart/micro/cms-micro-subscription.jpg" alt="Solodev CMS Micro Subscription" style="width: 35%;"></p> -->
+* Have an existing <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account :icon-link-external:</a>
+* Have an existing <a href="https://console.aws.amazon.com/ec2/" target="_blank">EC2 Pair Key <span>:icon-link-external:</span></a>
+* Preexisting VPC <a href="https://console.aws.amazon.com/vpc/" target="_blank" class="btn-orange-sm mt-2" style="margin-left: .5rem;">LAUNCH <span>:icon-link-external:</span></a>
 
 ## CMS Subscription
 
 The following steps cover the setup of the **CMS Micro** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process. CMS Micro is available as a monthly subscription on the AWS Marketplace. The subscription includes the software's operational and infrastructure costs for running on AWS.
 
-<!-- <p><img src="../../images/quickstart/micro/cms-micro-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%; padding-left: 1rem;"></p> -->
+1. Subscribe to Solodev on the AWS Marketplace. <a href="https://aws.amazon.com/marketplace/server/procurement?productId=prod-iwk56zq73bwqs" target="_blank" class="btn-orange-sm" style="margin-left: 1rem;">SUBSCRIBE <span>:icon-link-external:</span></a>
+2. Review and accept the **"Terms and Conditions"**.
+3. Click **"Continue to Configuration"**.
 
-1. <span id="subscribe">Review and accept the **"Terms and Conditions"**.</span>
-2. Click **"Continue to Configuration"**.
 <p><img src="../../images/quickstart/micro/cms-micro-subscribe-terms.jpg" alt="CMS Micro Continue to Configuration" style="width: 80%;"></p>
 
 !!!NOTE:

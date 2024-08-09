@@ -6,5 +6,5 @@ Manage and add your workflows. Filter workflows by typing the workflow name that
 
 **Name** | **Description** 
 :--- | ---
-<a href="/admin/settings/workflow/add-workflow/">Add Workflow</a> | Here you can manage your workflows.
-<a href="/admin/settings/workflow/workflow-overview/">Workflow Overview</a> | Here you can add workflow.
+<a href="/admin/settings/add-workflow/">Add Workflow</a> | Here you can manage your workflows.
+<a href="/admin/settings/workflow/workflow/">Workflow</a> | Here you can add workflow.

@@ -5,7 +5,7 @@ favicon: Images/favicon.png
 
 branding:
   logo: Images/logo.png
-  label: v 11
+  label: CMS v11
 
 meta:
   title: " - Content Management System documentation"

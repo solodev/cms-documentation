@@ -8,4 +8,4 @@ On the permissions page, you have the list of users and groups with roles assign
 
 **Name** | **Description** 
 :--- | ---
-<a href="/admin/settings/permissions/permissions-overview/">Manage Permissions</a> | Click the user to manage its permissions.
+<a href="/admin/settings/permissions/permissions/">Manage Permissions</a> | Click the user to manage its permissions.

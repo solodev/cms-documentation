@@ -7,4 +7,4 @@ View, manage, add, and update Contacts in your CMS deployment. Click on a contac
 
 **Name** | **Description** 
 :--- | ---
-<a href="/organization/contacts/add-contact">Add Contact</a> | Add new contact or contacts to your CMS deployment.
+<a href="/organization/add-contact">Add Contact</a> | Add new contact or contacts to your CMS deployment.

@@ -45,7 +45,7 @@ By clicking the folder icon in the upper right corner, you can overwrite your cu
 
 **Name** | **Description**
 :--- | ---
-<a href="/workspace/documents/document-overview/upload/">Upload</a> | Publish your file to your web files.
+<a href="/workspace/documents/document/upload/">Upload</a> | Publish your file to your web files.
 Upload + Stage | Send your file into a pre-staged status. 
 Upload + Save | Send your file and automatically save your code or content, but it will not publish it live.
 

@@ -41,15 +41,17 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 
 ## Prerequisites
 
-* You need to sign up for an <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account :icon-link-external:</a>.
-* [Subscribe to Solodev](#cms-subscription) on the AWS Marketplace.
+* Have an existing <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account :icon-link-external:</a>
+* Have an existing <a href="https://console.aws.amazon.com/ec2/" target="_blank">EC2 Pair Key <span>:icon-link-external:</span></a>
+* Preexisting VPC <a href="https://console.aws.amazon.com/vpc/" target="_blank" class="btn-orange-sm mt-2" style="margin-left: .5rem;">LAUNCH <span>:icon-link-external:</span></a>
 
 ## CMS Subscription
 
 The following steps cover the setup of the **CMS Professional** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process. By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
 
-1. Review and accept the **"Terms and Conditions"**.
-2. Click **"Continue to Configuration"**.
+1. Subscribe to Solodev on the AWS Marketplace. <a href="https://aws.amazon.com/marketplace/server/procurement?productId=prod-uahcrlmuczsau" target="_blank" class="btn-orange-sm" style="margin-left: 1rem;">SUBSCRIBE <span>:icon-link-external:</span></a>
+2. Review and accept the **"Terms and Conditions"**.
+3. Click **"Continue to Configuration"**.
 
 <p><img src="../../images/quickstart/pro/aws-pro-subscribe.jpg" alt="CMS Pro Continue to Configuration" style="width: 80%;"></p>
 

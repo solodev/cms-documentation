@@ -4,7 +4,7 @@ Solodev features a permissions management system that allows administrators to s
 
 ## Prerequisites
 
--	You will need to <a href="../../../organization/users/add-user/">add a user</a> to your Solodev CMS.
+-	You will need to <a href="../../../organization/add-user/">add a user</a> to your Solodev CMS.
 -	You will need to <a href="../../../organization/groups/add-group/">create a group</a>.
 
 ## Assign permissions to group

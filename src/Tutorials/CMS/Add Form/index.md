@@ -281,7 +281,7 @@ You can use this option to send form submissions to an email address you designa
 <img src="../../../images/tickler-list.jpg" alt="tickler-list" style="display: block"></a>
 
 !!!Note: 
-If you need to add more options to your form submissions, like having each department on your company receive the form submission based on what the user selects on the forms, please visit <a href="/workspace/forms/form-overview/workflow/">workflows</a>.
+If you need to add more options to your form submissions, like having each department on your company receive the form submission based on what the user selects on the forms, please visit <a href="/workspace/forms/form/workflow/">workflows</a>.
 !!!
 
 ## Next Steps
