@@ -23,9 +23,9 @@ Launch Amazon Elastic Kubernetes Service (EKS) in a new cluster and manage your 
 
 ## Prerequisites
 
-* You need to sign up for an <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account :icon-link-external:</a>.
+* You need to sign up for an <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" target="_blank">AWS Account :icon-link-external:</a>.
 * [Subscribe to Solodev](#cms-subscription) on the AWS Marketplace.
-<!-- * Launch a <a href="#create-cluster">Cluster</a>. -->
+* Preexisting <a href="https://cloud.solodev.net/quickstart/kubernetes/#create-a-cluster" target="_blank">Cluster</a>.
 
 ## CMS Subscription
 
