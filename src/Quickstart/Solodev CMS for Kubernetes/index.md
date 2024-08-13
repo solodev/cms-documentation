@@ -2,7 +2,7 @@
 
 <div class="header">
   <div class="inner">
-    <img src="../../images/quickstart/cms-eks-logo.jpg" alt="CMS for EKS Logo" style="width: 80px;">
+    <img src="/static/images/logos/eks-logo.jpg" alt="CMS EKS Logo" style="width: 80px;">
     <div>
       <h1>CMS for EKS</h1>
       <p class="mb-0">Fully containerized version of the CMS for EKS with orchestration via AWS EKS <br>(Elastic Kubernetes Service) or Amazon ECS (Elastic Container Service).</p>
@@ -74,42 +74,31 @@ Coming soon...
 
 Please [follow this link](/workspace/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
 
-<!-- 
-
-## Step 2: Launch Solodev Kubernetes for EKS via CloudFormation
-
-<table>
-	<tr>
-		<td width="20%"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/amazon-eks-by-solodev.jpg" /></td>
-		<td>
-			<h3>Solodev Kubernetes for EKS</h3>
-			<p>Launch Amazon Elastic Kubernetes Service (EKS) in a new cluster and manage your containers at any scale with Solodev. Launch your applications rapidly and across AWS Regions and Availability Zones, and move from environment to environment regardless of operating system.</p>
-			<p align="right"><a href="https://github.com/solodev/quickstart-solodev-eks/blob/master/pages/deploy-solodev-eks.md"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-launch-btn.png" width="200"/> </a>
-			</p>
-		</td>
-	</tr>
-</table>
-
-## Launch Apps on your Managed Kubernetes Cluster
-
-With your EKS cluster up and running, you can install apps within the cluster itself. Below are available apps with more to come!
-<table>
-	<tr>
-		<td width="20%"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-dcx-for-eks.jpg" /></td>
-		<td>
-			<h3>Solodev Content Management (CMS) for Kubernetes</h3>
-			<p>Deploy Solodev CMS for Kubernetes and start managing and scaling your websites and digital experiences on AWS. Rapidly move from your local environment to the cloud, add or remove containers to meet shifts in traffic, and manage entire fleets of Solodev applications with the power of Amazon EKS.</p>
-			<p align="right"><a href="https://github.com/solodev/quickstart-solodev-eks/blob/master/pages/deploy-solodev-cms.md"><img src="https://raw.githubusercontent.com/solodev/aws/master/pages/images/solodev-launch-btn.png" width="200" /></a></p>
-		</td>
-	</tr>
-</table>
- -->
-
 <style>
-  .pluggable .rounded-t a.text-gray-500 {
-    color: #000;
+  /* Headers */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+    margin-bottom: 2rem;
+    background-color: #eef6ff;
   }
-  .pluggable .border {
-    border-color: #b5b3b3;
+  .header .inner {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .header img {
+    width: 80px;
+  }
+  .header h1 {
+    margin-left: 0;
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+  }
+  .header p {
+    padding-left: 2rem;
+    margin-bottom: 0;
   }
 </style>

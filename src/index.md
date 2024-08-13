@@ -116,3 +116,50 @@ Set up individual users and groups and manage their roles using the industry’s
 Solodev Help Desk | Enterprise customers can purchase our world-class Solodev Help Desk service with any CMS deployment. Solodev Help Desk is available Monday through Friday, 8 AM – 6 PM EST. [Click here :icon-mail:](mailto:sales@solodev.com) to speak with a customer service representative. 
 Critical Care Service Level Agreements (SLAs) | Solodev CMS customers can purchase an optional SLA with 24/7/365 monitoring and 2, 4, or 6-hour response times. [Click here :icon-mail:](mailto:sales@solodev.com) to speak with a customer service representative.
 General Support | To report a bug, submit a feature request, ask a technical question, or provide feedback, <br>please <a href="https://www.solodev.com/contact/" target="_blank" rel="noopener noreferrer">contact us :icon-link-external:</a>.
+
+
+<style>
+  /* Cards */
+  .card {
+    border: 1px solid #dee2e6;
+    box-shadow: 0 1px 5px 0 #dcdcdc;
+    height: 100%;
+    box-sizing: content-box;
+    padding: 1.5rem;
+  }
+  .card h2 {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+  }
+  .card a {
+    margin-top: .7rem;
+    padding: .5rem 2.5rem;
+    font-size: .9rem;
+    border-radius: 25px;
+    background-color: #0488ce;
+    color: #fff!important;
+  }
+  .card img {
+    width: 80px;
+  }
+  .card.card-color {
+    border-radius: 35px;
+    background-color: #1f335d;
+    color: #fff;
+  }
+  .card.card-color h2 {
+    color: #fff;
+  }
+  .card.card-color a {
+    border: 1.5px solid #fff;
+    background-color: #fff;
+    color: #0488ce!important;
+  }
+  .card.card-color a:hover {
+    color: #0488ce!important;
+  }
+  .card p.content {
+    height: 100px;
+    font-size: .9rem;
+  }
+</style>

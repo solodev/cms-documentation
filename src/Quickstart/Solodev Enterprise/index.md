@@ -2,7 +2,7 @@
 
 <div class="header">
   <div class="inner">
-    <img src="../../images/quickstart/micro/solodev-micro.png" alt="CMS Micro Logo" style="width: 80px;">
+    <img src="/static/images/logos/enterprise-logo.jpg" alt="CMS Enterprise Logo" style="width: 80px;">
     <div>
       <h1>CMS Enterprise</h1>
       <p class="mb-0">An enterprise-grade content management system built from the ground up for <br>Amazon Web Services (AWS).</p>
@@ -36,7 +36,7 @@
     <p class="mb-0">Solodev CMS Enterprise deploys a cluster of three servers, complete with load balancing and auto-scaling services. This architecture allows your websites and apps to meet the most demanding traffic while maintaining the highest levels of uptime.</p>
   </div>
   <div class="col-4">
-    <p><img src="../../images/quickstart/enterprise/solodev-cms-enterprise-architecture-2024-2.jpg" alt="Solodev CMS Enterprise Architecture"></p>
+    <p><img src="/static/images/enterprise/solodev-cms-enterprise-architecture-2024.jpg" alt="Solodev CMS Enterprise Architecture"></p>
   </div>
 </div>
 
@@ -54,7 +54,7 @@ The following steps cover the setup of the **CMS Enterprise** on the AWS Marketp
 2. Review and accept the **"Terms and Conditions"**.
 3. Click **"Continue to Configuration"**.
 
-<p><img src="../../images/quickstart/enterprise/enterprise-configuration.png" alt="CMS Enterprise Configuration" style="width: 80%;"></p>
+<p><img src="/static/images/enterprise/enterprise-configuration.png" alt="CMS Enterprise Configuration" style="width: 80%;"></p>
 
 !!!NOTE:
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
@@ -94,7 +94,7 @@ If your AWS region is different from `us-east-1`, make sure to select your speci
 
 1. Create a stack.
 
-<p><img src="../../images/quickstart/enterprise/enterprise-create-stack.jpg" alt="CMS Enterprise Create Stack" style="width: 90%;"></p>
+<p><img src="/static/images/enterprise/enterprise-create-stack.jpg" alt="CMS Enterprise Create Stack" style="width: 90%;"></p>
 
 2. Click <span class="text-orange">**Next**</span>.
 
@@ -104,13 +104,13 @@ If your AWS region is different from `us-east-1`, make sure to select your speci
 
 1. Provide a stack name. Stack name must be 1 to 128 characters, start with a letter, and only contain alphanumeric characters.
 
-<p><img src="../../images/quickstart/enterprise/enterprise-stack-name.jpg" alt="CMS Enterprise stack name" style="width: 62%;"></p>
+<p><img src="/static/images/enterprise/enterprise-stack-name.jpg" alt="CMS Enterprise stack name" style="width: 62%;"></p>
 
 ##### Parameters
 
 1. Specify the parameters in the network settings section.
 
-<p><img src="../../images/quickstart/enterprise/enterprise-params-network.jpg" alt="CMS Enterprise network settings" style="width: 45%;"></p>
+<p><img src="/static/images/enterprise/enterprise-params-network.jpg" alt="CMS Enterprise network settings" style="width: 45%;"></p>
 
 Name   | Description
 ---    | ---
@@ -124,7 +124,7 @@ AmiAlias | An AMI Alias refers to a user-defined name or identifier for an Amazo
 
 2. Specify the CMS Settings.
 
-<p><img src="../../images/quickstart/enterprise/enterprise-params-settings.jpg" alt="CMS Enterprise CMS Settings" style="width: 40%;"></p>
+<p><img src="/static/images/enterprise/enterprise-params-settings.jpg" alt="CMS Enterprise CMS Settings" style="width: 40%;"></p>
 
 Name   | Description
 ---    | ---
@@ -136,7 +136,7 @@ DatabasePassword | The database root password.
 
 3. Optional: Website Settings.
 
-<p><img src="../../images/quickstart/enterprise/enterprise-params-settings-website.jpg" alt="CMS Enterprise CMS Network Settings Optional" style="width: 45%;"></p>
+<p><img src="/static/images/enterprise/enterprise-params-settings-website.jpg" alt="CMS Enterprise CMS Network Settings Optional" style="width: 45%;"></p>
 
 Name   | Description
 ---    | ---
@@ -145,7 +145,7 @@ CertificateArn | CertificateArn for SSL cert that matches the FQDN above. Please
 
 4. Optional: Network Settings.
 
-<p><img src="../../images/quickstart/enterprise/enterprise-params-settings-optional.jpg" alt="CMS Enterprise CMS Settings Optional" style="width: 50%;"></p>
+<p><img src="/static/images/enterprise/enterprise-params-settings-optional.jpg" alt="CMS Enterprise CMS Settings Optional" style="width: 50%;"></p>
 
 Name   | Description
 ---    | ---
@@ -157,7 +157,7 @@ StorageEncrypted | Enable encryption for both Database (RDS) and Filesystem (EFS
 
 4. Optional: SSO.
 
-<p><img src="../../images/quickstart/enterprise/enterprise-params-sso-optional.jpg" alt="CMS Enterprise CMS SSO Optional" style="width: 27%;"></p>
+<p><img src="/static/images/enterprise/enterprise-params-sso-optional.jpg" alt="CMS Enterprise CMS SSO Optional" style="width: 27%;"></p>
 
 Name   | Description
 ---    | ---
@@ -364,122 +364,37 @@ If you do not have a Key Pair, you will need to create one in your Key Pair Cons
 
 {% endtabs %}
 
-<!-- ## Fill Out the CloudFormation Stack Wizard
-
-Continue with the preselected CloudFormation Template. The Amazon S3 template URL (used for the CloudFormation configuration) should be pre-selected. Click **"Next"** to continue.
-
-<p><img src="../../images/create-enterprise-stack.png" alt="Create Stack" style="width: 80%;"></p>
-
-The following parameters must be configured to launch your Solodev CMS CloudFormation stack:
-
-**Step 1:** Stack Name
-
-**Parameter Name** | **Description** 
-:--- | ---
-Stack name | The name of your stack. Please note the name must be all lowercase, start with a letter<br> and only contain alphanumeric characters.
-
-<p><img src="../../images/quickstart/enterprise/enterprise-stack-name.jpg" alt="Stack name"></p>
-
-**Step 2:** Network Settings
-
-**Parameter Name** | **Description** 
-:--- | ---
-VPCID | Choose which VPC the application should be deployed to
-PublicSubnet1ID | The ID of the public subnet in Availability Zone 1 in your existing VPC (e.g., subnet-a0246dcd)
-PublicSubnet2ID | The ID of the public subnet in Availability Zone 2 in your existing VPC (e.g., subnet-b1236eea)
-InstanceType | The EC2 instance type you wish to launch
-InstanceCount | Number of instances behind the load balancer. Minimum 2 required for high availability.
-KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances
-
-<p><img src="../../images/quickstart/enterprise/enterprise-network-settings.jpg" alt="Network Settings"></p>
-
-**Step 3:** CMS Settings
-
-**Parameter Name** | **Description** 
-:--- | ---
-AdminUser | The solodev admin username
-AdminPassword | The solodev admin password
-DatabaseUsername | The database admin account username
-DatabasePassword | The database root password
-
-<p><img src="../../images/quickstart/enterprise/enterprise-cms-settings.jpg" alt="CMS Settings"></p>
-
-**Step 4:** Optional: Website Settings
-
-**Parameter Name** | **Description** 
-:--- | ---
-WebsiteURL | Name of initial Solodev website
-CertificateArn | CertificateArn for SSL cert that matches the FQDN above. Please visit the AWS Certificate Manager
-
-<p><img src="../../images/quickstart/enterprise/enterprise-website-settings.jpg" alt="Website Settings"></p>
-
-**Step 5:** Optional: Network Settings
-
-**Parameter Name** | **Description** 
-:--- | ---
-AdminEnabled | Enable admin layer
-RedisEnabled | Enable Redis ElastiCache cluster
-CookbookURL | https://s3.amazonaws.com/solodev-cms/chef/1.2/cookbooks.tar.gz. Download and host on your own S3 bucket or use this URL
-CidrIpAccess | Please set CIDR to x.x.x.x/32 to allow one specific IP address access, 0.0.0.0/0 to allow all IP addresses access, or another CIDR range
-DeletionPolicy | Experimental: Deletion Policy (Retain, Delete, Snapshot)
-StorageEncrypted | Enable encryption for both Database (RDS) and Filesystem (EFS)
-
-<p><img src="../../images/quickstart/enterprise/enterprise-network-settings-optional.jpg" alt="Network Settings - Optional"></p>
-
-**Step 6:** Confirm your stack details
-
-Click the **"Next"** button on the bottom of the screen to continue.
-
-**Step 7:** Specify Options
-
-Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disable **"Rollback on failure"** under the **"Advanced"** options. This will allow for further troubleshooting if necessary. Click on the **"Next"** button to continue.
-
-<p><img src="../../images/specific-options1.png" alt="Parameters "></p>
-<p><img src="../../images/specific-options2.png" alt="Parameters "></p>
-<p><img src="../../images/specific-options3.png" alt="Parameters "></p>
-
-**Step 8:** Review
-
-Review all CloudFront details and options. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the **"Create"** button to launch your stack.
-
-<p><img src="../../images/quickstart/acknowledge.png" alt="CMS Enterprise Acknowledge Terms" style="width: 80%;"></p>
-
-## Monitor the CloudFormation Stack Creation Process
-
-Upon launching your CloudFormation stack, you can monitor the installation logs under the **"Events"** tab. The CloudFormation template will launch several stacks related to your Solodev instance, including EFS, EDS, and EC2. If you encounter any failures during this time, please visit the <a href="https://github.com/solodev/aws/wiki/Common-Issues">Common Issues</a> page to begin troubleshooting.
-
-<p><img src="../../images/quickstart/stack-creation.png" alt="CMS Stack Creation Process" style="width: 80%;"></p>
-
-!!! Note: 
-Creating a stack may take up to 30 min depending on the InstanceType you have chosen. During this time, your AWS session may expire, however the stack will continue to build. In such case simply re-login to your AWS account.
-!!!
-
-## View CloudFormation Stack Outputs
-If your stack builds successfully, you will see the green "CREATE_COMPLETE" message. Click on the primary stack and view the **"Outputs"** tab. You will find the load balancer URL for the Solodev backend. Point your primary domain (mydomain.com) and a dedicated backend domain/subdomain (solodev.mydomain.com) to this URL.
-
-<p><img src="../../images/quickstart/stack-complete.png" alt="CMS Stack Create Complete" style="width: 80%;"></p> -->
-
 ## Next Steps
 
 ### Add your First Website
 
 Please [follow this link](/workspace/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
 
-<!-- ## Canceling your subscription
-
-If you would like to cancel your Solodev subscription and you have chosen hourly billing plans, just delete the stack connected with your CMS Pro. -->
-
-<!-- <p><img src="../../images/cmsproawssubscribe16.png" alt="CMSProSubscribe"></p> -->
-
-<!-- !!! Note :
-To simplify the process please disable **View nested** button in you AWS and remove the main stack.
-!!! -->
-
 <style>
-  .pluggable .rounded-t a.text-gray-500 {
-    color: #000;
+  /* Headers */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+    margin-bottom: 2rem;
+    background-color: #eef6ff;
   }
-  .pluggable .border {
-    border-color: #b5b3b3;
+  .header .inner {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .header img {
+    width: 80px;
+  }
+  .header h1 {
+    margin-left: 0;
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+  }
+  .header p {
+    padding-left: 2rem;
+    margin-bottom: 0;
   }
 </style>
