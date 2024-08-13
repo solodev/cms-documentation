@@ -19,7 +19,7 @@ Launch Amazon Elastic Kubernetes Service (EKS) in a new cluster and manage your 
 
 <!-- CMS for EKS uses a set of YAML templates to create a new EKS cluster. All YAML templates are deployed via <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="blank">AWS CloudFormation :icon-link-external:</a>. -->
 
-<!-- <p><img src="../../images/quickstart/kubernetes/solodev-kubernetes-template.jpg" alt="Solodev EKS Architecture Diagram" style="width: 80%;"></p> -->
+<!-- <p><img src="/static/images/kubernetes/solodev-kubernetes-template.jpg" alt="Solodev EKS Architecture Diagram" style="width: 80%;"></p> -->
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ The following steps cover the setup of the **CMS for EKS** on the AWS Marketplac
 1. Review and accept the **"Terms and Conditions"**.
 2. Click **"Continue to Configuration"**.
 
-<p><img src="../../images/quickstart/kubernetes/cms-eks-terms.jpg" alt="CMS EKS Configure Software Contract" style="width: 80%;"></p>
+<p><img src="/static/images/kubernetes/cms-eks-terms.jpg" alt="CMS EKS Configure Software Contract" style="width: 80%;"></p>
 
 !!!NOTE:
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
@@ -45,7 +45,7 @@ Once accepted, you will receive a thank you message asking you to configure your
 1. Select **Helm chart** as the fulfillment option.
 2. Click on the **"Continue to Launch"** button to proceed.
 
-<p><img src="../../images/quickstart/kubernetes/cms-eks-configure.jpg" alt="CMS EKS Configure" style="width: 60%;"></p>
+<p><img src="/static/images/kubernetes/cms-eks-configure.jpg" alt="CMS EKS Configure" style="width: 60%;"></p>
 
 ### <span class="text-teal">Launch Software</span>
 
@@ -56,13 +56,6 @@ Review the launch configuration details and follow the instructions to launch th
 {% tab title="Helm Chart" %}
 
 Coming soon...
-
-<!-- 1. **Choose Action**.
-2. Click <span class="text-orange">**"Launch"**</span>.
-
-3. To log in, use **solodev** as the username and your **instance ID** as the password.
-
-<p><img src="../../images/quickstart/login-screen.jpg" alt="Solodev CMS Login Screen" style="width: 45%;"></p> -->
 
 {% endtab %}
 
