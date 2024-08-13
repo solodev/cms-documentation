@@ -1,5 +1,3 @@
-# Module
-
 This article provides an overview of shortcodes used for multi-functional, date-based elements called <a href="/workspace/modules/">modules</a>. 
 
 ## Repeater
@@ -18,7 +16,7 @@ Attributes:
 ```[category_filter]```(optional) | Filter list of entries by category.
 ```[tag_filter]``` (optional) | Filter list of entries by tags selected in a textbox.
 ```[pages]```(optional) | Paginate list of entries.
-```[offset]``` (optional) | Skip entries at the start of the query. (For example, offset = “5” skips the first five entries in the list.
+```[offset]``` (optional) | Skip entries at the start of the query. (For example, offset = “5” skips the first five entries in the list).
 ```[where]```(optional) | Perform a SQL query on the database.
 ```[website_filter]```(optional) | Filter list of news items by website.
 

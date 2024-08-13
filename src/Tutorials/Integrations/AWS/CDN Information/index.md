@@ -1,5 +1,3 @@
-# How to add a CDN in AWS 
-
 Configure your website to use a Content Delivery Network.
 
 ## Adding a CDN

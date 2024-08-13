@@ -37,4 +37,4 @@ There are several functions you can perform in web files and www at the folder a
 
 *	Access the contents of either folder by clicking on the triangle drop-down icon to the left of each folder icon. 
 
-*	Under the www folder, you can use all the same functions as web files, but also [add a page](/workspace/websites/page/add-page) or [update a page](/workspace/websites/page).
+*	Under the www folder, you can use all the same functions as web files, but also [add a page](/workspace/websites/add-page) or [update a page](/workspace/websites/page).

@@ -6,7 +6,7 @@ Amazon VPC is like having your own private, customizable network within Amazon's
 
 ## Create a VPC
 
-<p><img src="../../../images/quickstart/vpc/vpc-settings.jpg" alt="Create a VPC" style="width: 50%;"></p>
+<p><img src="/static/images/quickstart/vpc/vpc-settings.jpg" alt="Create a VPC" style="width: 50%;"></p>
 
 ### VPC settings
 

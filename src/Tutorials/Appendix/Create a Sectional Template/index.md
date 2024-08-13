@@ -34,7 +34,7 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 
 ### Adding templates to your dynamic divs
 
-**Step 1**: Click on the **about** folder and on the right menu, click <a href="/workspace/websites/page/add-page/">Add Page</a>. Create a new page called **index.stml**. Once complete, click **Submit**.
+**Step 1**: Click on the **about** folder and on the right menu, click [Add Page](workspace/websites/add-page). Create a new page called **index.stml**. Once complete, click **Submit**.
 
 **Step 2**: Just like in the case of homepage, with the **base** folder opened, click in the top dynamic div. Once activated, click on the **base-template.tpl** file. Once complete, click **Publish**.
 
