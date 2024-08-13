@@ -27,7 +27,7 @@ The following steps cover the setup of the **CMS Micro** on the AWS Marketplace.
 2. Review and accept the **"Terms and Conditions"**.
 3. Click **"Continue to Configuration"**.
 
-<p><img src="../../images/quickstart/micro/cms-micro-subscribe-terms.jpg" alt="CMS Micro Continue to Configuration" style="width: 80%;"></p>
+<p><img src="/static/images/micro/cms-micro-subscribe-terms.jpg" alt="CMS Micro Continue to Configuration" style="width: 80%;"></p>
 
 !!!NOTE:
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
@@ -47,7 +47,7 @@ Region | Select the AWS Region.
 
 2. Click **"Continue to Launch."**
 
-<p><img src="../../images/quickstart/micro/cms-micro-continue-to-launch.jpg" alt="CMS Micro continue to launch" style="width: 80%;"></p>
+<p><img src="/static/images/micro/cms-micro-continue-to-launch.jpg" alt="CMS Micro continue to launch" style="width: 80%;"></p>
 
 ### <span class="text-teal">Launch Software</span>
 
@@ -69,7 +69,7 @@ If your AWS region is different from `us-east-1`, make sure to select your speci
 
 1. Create a stack.
 
-<p><img src="../../images/quickstart/micro/micro-create-stack.jpg" alt="CMS Micro Create Stack" style="width: 90%;"></p>
+<p><img src="/static/images/micro/micro-create-stack.jpg" alt="CMS Micro Create Stack" style="width: 90%;"></p>
 
 2. Click <span class="text-orange">**Next**</span>.
 
@@ -79,13 +79,13 @@ If your AWS region is different from `us-east-1`, make sure to select your speci
 
 1. Provide a stack name. Stack name must be 1 to 128 characters, start with a letter, and only contain alphanumeric characters.
 
-<p><img src="../../images/quickstart/micro/micro-stack-name.jpg" alt="CMS Micro stack name" style="width: 62%;"></p>
+<p><img src="/static/images/micro/micro-stack-name.jpg" alt="CMS Micro stack name" style="width: 62%;"></p>
 
 ##### Parameters
 
 1. Specify the parameters in the setup section.
 
-<p><img src="../../images/quickstart/micro/micro-params-setup.jpg" alt="CMS Micro params setup" style="width: 50%;"></p>
+<p><img src="/static/images/micro/micro-params-setup.jpg" alt="CMS Micro params setup" style="width: 50%;"></p>
 
 Name   | Description
 ---    | ---
@@ -100,7 +100,7 @@ DeletionPolicy | A Deletion Policy is a configuration that you can set for resou
 
 2. Optional: SSO.
 
-<p><img src="../../images/quickstart/micro/micro-params-optional.jpg" alt="CMS Micro params optional" style="width: 28%;"></p>
+<p><img src="/static/images/micro/micro-params-optional.jpg" alt="CMS Micro params optional" style="width: 28%;"></p>
 
 Name   | Description
 ---    | ---
@@ -116,15 +116,15 @@ SsoClientSecret | Confidential key assigned to a client application registered w
 
 Tags (key-value pairs) are used to apply metadata to AWS resources, which can help in organizing, identifying, and categorizing those resources. You can add up to 50 unique tags for each stack. If you need more information about tags, click here.
 
-<p><img src="../../images/quickstart/micro/micro-stack-tags.jpg" alt="CMS Micro tags" style="width: 80%;"></p>
+<p><img src="/static/images/micro/micro-stack-tags.jpg" alt="CMS Micro tags" style="width: 80%;"></p>
 
 2. Specify an existing AWS Identity and Access Management (IAM) service role that CloudFormation can assume. **This step is optional**.
 
-<p><img src="../../images/quickstart/micro/micro-stack-permissions.jpg" alt="CMS Micro permissions" style="width: 80%;"></p>
+<p><img src="/static/images/micro/micro-stack-permissions.jpg" alt="CMS Micro permissions" style="width: 80%;"></p>
 
 3. Select the stack failure options.
 
-<p><img src="../../images/quickstart/micro/micro-stack-failure.jpg" alt="CMS Micro failure" style="width: 80%;"></p>
+<p><img src="/static/images/micro/micro-stack-failure.jpg" alt="CMS Micro failure" style="width: 80%;"></p>
 
 Name   | Description
 ---    | ---
@@ -137,7 +137,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 1. You can set additional options for your stack, like notification options and a stack policy. For more information, <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-add-tags.html" target="_blank">click here :icon-link-external:</a>.
 
-<p><img src="../../images/quickstart/micro/micro-stack-advanced.jpg" alt="CMS Micro advanced options" style="width: 50%;"></p>
+<p><img src="/static/images/micro/micro-stack-advanced.jpg" alt="CMS Micro advanced options" style="width: 50%;"></p>
 
 2. Click <span class="text-orange">**Next**</span>.
 
@@ -147,7 +147,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 2. Acknowledge the AWS CloudFormation terms.
 
-<p><img src="../../images/quickstart/micro/micro-stack-capabilities.jpg" alt="CMS Micro capabilities" style="width: 62%;"></p>
+<p><img src="/static/images/micro/micro-stack-capabilities.jpg" alt="CMS Micro capabilities" style="width: 62%;"></p>
 
 3. Click <span class="text-orange">**Submit**</span>.
 
@@ -155,7 +155,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 1. <span class="text-orange">**Watch your CMS being created!**</span> Once the status changes from **CREATE_IN_PROGRESS** to **CREATE_COMPLETE**, you can access your CMS.
 
-<p><img src="../../images/quickstart/micro/micro-stack.jpg" alt="CMS Micro Stack" style="width: 62%;"></p>
+<p><img src="/static/images/micro/micro-stack.jpg" alt="CMS Micro Stack" style="width: 62%;"></p>
 
 2. Click on the **Outputs** tab and copy the AdminUrl value.
 
@@ -173,7 +173,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 1. Select **Launch through EC2**.
 
-<p><img src="../../images/quickstart/micro/cms-micro-actions-ec2.jpg" alt="CMS Micro Actions" style="width: 74%;"></p>
+<p><img src="/static/images/micro/cms-micro-actions-ec2.jpg" alt="CMS Micro Actions" style="width: 74%;"></p>
 
 2. Click **Launch**.
 
@@ -183,7 +183,7 @@ Create virtual machines, or instances, that run on the AWS Cloud. Quickly get st
 
 1. **Name and tags**. Give your instance a **name**. You can also add additional tags (Optional).
 
-<p><img src="../../images/quickstart/micro/cms-micro-name-instance.jpg" alt="Solodev CMS Micro Name" style="width: 55%;"></p>
+<p><img src="/static/images/micro/cms-micro-name-instance.jpg" alt="Solodev CMS Micro Name" style="width: 55%;"></p>
 
 !!!NOTE:
 A tag is a label that you assign to an AWS resource. Each tag consists of a key and an optional value, both of which you define.
@@ -191,13 +191,13 @@ A tag is a label that you assign to an AWS resource. Each tag consists of a key 
 
 2. **Application and OS Images (Amazon Machine Image)**. An AMI contains the software configuration (operating system (OS), application server, and applications) required to launch your instance.
 
-<p><img src="../../images/quickstart/micro/cms-micro-image-instance.jpg" alt="Solodev CMS Micro Amazon Machine Image" style="width: 55%;"></p>
+<p><img src="/static/images/micro/cms-micro-image-instance.jpg" alt="Solodev CMS Micro Amazon Machine Image" style="width: 55%;"></p>
 
 For more information about Amazon Machine Image, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html" target="_blank">click here :icon-link-external:</a>.
 
 3. **Instance Type**. Select an instance type that meets your computing, memory, networking, or storage needs.
 
-<p><img src="../../images/quickstart/micro/cms-micro-type-instance.jpg" alt="Solodev CMS Micro Instance Type" style="width: 55%;"></p>
+<p><img src="/static/images/micro/cms-micro-type-instance.jpg" alt="Solodev CMS Micro Instance Type" style="width: 55%;"></p>
 
 To learn more about which instance to select based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here :icon-link-external:</a>.
 
@@ -207,7 +207,7 @@ Solodev recommends t2.large server. Depending on your traffic needs, you can sel
 
 4. **Key Pair**. You can use a key pair to securely connect to your instance. Ensure that you have access to the selected key pair before you launch the instance.
   
-<p><img src="../../images/quickstart/micro/cms-micro-key-pair-instance.jpg" alt="Solodev CMS Micro Key Pair" style="width: 55%;"></p>
+<p><img src="/static/images/micro/cms-micro-key-pair-instance.jpg" alt="Solodev CMS Micro Key Pair" style="width: 55%;"></p>
 
 !!!NOTE:
 An Amazon EC2 key pair is a set of security credentials consisting of a public and private key that verifies a user's identity when connecting or communicating with an EC2 instance. If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here :icon-link-external:</a>.
@@ -215,21 +215,21 @@ An Amazon EC2 key pair is a set of security credentials consisting of a public a
 
 5. **Network Settings**. Here you can create or select an existing security group, create an instance that can connect using SSH, and more.
 
-<p><img src="../../images/quickstart/micro/cms-micro-network-instance.jpg" alt="Solodev CMS Micro Network Settings" style="width: 55%;"></p>
+<p><img src="/static/images/micro/cms-micro-network-instance.jpg" alt="Solodev CMS Micro Network Settings" style="width: 55%;"></p>
 
 6. **Configure storage**. Specify the storage options for the instance.
 
-<p><img src="../../images/quickstart/micro/cms-micro-storage-instance.jpg" alt="Solodev CMS Micro Storage" style="width: 55%;"></p>
+<p><img src="/static/images/micro/cms-micro-storage-instance.jpg" alt="Solodev CMS Micro Storage" style="width: 55%;"></p>
 
 For more information about storage, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Storage.html?icmpid=docs_ec2_console" target="_blank">click here :icon-link-external:</a>.
 
 7. Click **Launch Instance**.
 
-<p><img src="../../images/quickstart/micro/cms-micro-launch-instance.jpg" alt="Solodev CMS Micro Launch Instance"></p>
+<p><img src="/static/images/micro/cms-micro-launch-instance.jpg" alt="Solodev CMS Micro Launch Instance"></p>
 
 8. You will get a success message. Click on the ID to access your EC2 Instance.
 
-<p><img src="../../images/quickstart/micro/cms-micro-success.jpg" alt="Solodev CMS Micro Success Message" style="width: 40%;"></p>
+<p><img src="/static/images/micro/cms-micro-success.jpg" alt="Solodev CMS Micro Success Message" style="width: 40%;"></p>
 
 #### EC2 Instance
 

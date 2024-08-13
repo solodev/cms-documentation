@@ -8,41 +8,40 @@ Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.c
 
 ## Quickstart
 
-
 <div class="row">
   <div class="col">
     <div class="card text-center">
-      <img src="../../images/quickstart/cms-enterprise-logo.jpg" alt="CMS Enterprise Logo">
+      <img src="/static/images/logos/enterprise-logo.jpg" alt="CMS Enterprise Logo">
       <h2>CMS Enterprise</h2>
-      <p class="content">A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps.</p>
+      <p class="content">Develop enterprise websites and apps on a scalable, redundant CMS</p>
       <p style="margin-bottom: 10px;"><a href="/quickstart/solodev-enterprise">INSTALL</a></p>
     </div>
   </div>
 
   <div class="col">
     <div class="card text-center">
-      <img src="../../images/quickstart/pro/cms-pro-logo.jpg" alt="CMS Professional Logo">
+      <img src="/static/images/logos/pro-logo.jpg" alt="CMS Professional Logo">
       <h2>CMS Professional</h2>
-      <p class="content">A single-server deployment designed for business-level projects that require moderate scalability.</p>
+      <p class="content">Powerful CMS features on a single server for professional websites and apps</p>
       <p style="margin-bottom: 10px;"><a href="/quickstart/solodev-pro">INSTALL</a></p>
     </div>
   </div>
 
   <div class="col">
     <div class="card text-center">
-      <img src="../../images/quickstart/micro/solodev-micro.png" alt="CMS Micro Logo">
+      <img src="/static/images/logos/micro-logo.png" alt="CMS Micro Logo">
       <h2>CMS Micro</h2>
-      <p class="content">The perfect launch pad for small development or proof of concept (PoC) projects.</p>
+      <p class="content">Full featured CMS capabilities on a single server, ideal for small development projects</p>
       <p style="margin-bottom: 10px;"><a href="/quickstart/solodev-micro">INSTALL</a></p>
     </div>
   </div>
 
   <div class="col">
     <div class="card card-color text-center">
-      <img src="../../images/quickstart/cms-eks-logo.jpg" alt="CMS EKS Logo">
+      <img src="/static/images/logos/eks-logo.jpg" alt="CMS EKS Logo">
       <h2>CMS EKS</h2>
-      <p class="content">A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS.</p>
-      <p style="margin-bottom: 10px;"><a href="/quickstart/solodev-cms-for-kubernetes">INSTALL</a></p>
+      <p class="content">Deploy highly scalable websites and apps on a containerized CMS with Elastick Kubernetes Service</p>
+      <p style="margin-bottom: 10px;"><a href="/quickstart/solodev-cms-for-kubernetes" style="">INSTALL</a></p>
     </div>
   </div>
 </div>
