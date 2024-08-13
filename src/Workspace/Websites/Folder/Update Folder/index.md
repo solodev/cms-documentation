@@ -9,8 +9,8 @@ Folders are built in a nested tree hierarchy and serve as containers for all Sol
 Name | Update the folder name. The name of the folder should be lowercase and separated with dashes.
 Title | Add or update the folder title. This will be the Title displayed on your site. 
 Description | You can add or modify the folder description. This description can be utilized on your website's frontend or<br> for organizational purposes.
-[Website Properties](/workspace/websites/folder/update-folder//#website-properties) | Manage website properties.
-[Advanced](/workspace/websites/folder/update-folder//#advanced) | Execute advanced operations.
+[Website Properties](#website-properties) | Manage website properties.
+[Advanced](#advanced) | Execute advanced operations.
 Submit | Once you have completed all the fields, click **Submit** to apply your changes.
 
 ## Website Properties
