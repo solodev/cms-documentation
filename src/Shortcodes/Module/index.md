@@ -8,17 +8,17 @@ Attributes:
 
 **Attributes** | **Description** 
 :--- | ---
-```[id](required)``` | ID of the module from which the data is pulling. 
-```[limit](required)``` | 0 starting at the first entry and the second integer specifying the number of entries to display on the page.
-```[order](optional)``` | Specifies how the repeater will organize the data such as by “start_time desc” which will organize entries by the latest start time first.
-```[type](optional)``` | Specifies the type of manager that provides the data (default: calendar).
-```[display_type]```(optional) | Changes the date filter (Options: “news”, “events”).
-```[category_filter]```(optional) | Filter list of entries by category.
+```[id]``` (required) | ID of the module from which the data is pulling. 
+```[limit]``` (required) | 0 starting at the first entry and the second integer specifying the number of entries to display on the page.
+```[order]``` (optional) | Specifies how the repeater will organize the data such as by “start_time desc” which will organize entries by the latest start time first.
+```[type]``` (optional) | Specifies the type of manager that provides the data (default: calendar).
+```[display_type]``` (optional) | Changes the date filter (Options: “news”, “events”).
+```[category_filter]``` (optional) | Filter list of entries by category.
 ```[tag_filter]``` (optional) | Filter list of entries by tags selected in a textbox.
-```[pages]```(optional) | Paginate list of entries.
+```[pages]``` (optional) | Paginate list of entries.
 ```[offset]``` (optional) | Skip entries at the start of the query. (For example, offset = “5” skips the first five entries in the list).
-```[where]```(optional) | Perform a SQL query on the database.
-```[website_filter]```(optional) | Filter list of news items by website.
+```[where]``` (optional) | Perform a SQL query on the database.
+```[website_filter]``` (optional) | Filter list of news items by website.
 
 {{field_name}}
 
@@ -61,6 +61,7 @@ Code Example:
   <p>{{blog_content}}</p>
 [/entry]
 ```
+<!-- {{{blog_content}}} -->
 
 ## Sub Entry
 

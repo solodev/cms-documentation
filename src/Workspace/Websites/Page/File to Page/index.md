@@ -1,3 +1,5 @@
+# Add File to Page
+
 To insert your file into your page template, follow these simple steps:
 
 1. Navigate to the **www** folder and click on the **stml** file you created.

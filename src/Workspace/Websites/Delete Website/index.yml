@@ -1,4 +1,4 @@
 order: 998
 icon: diff-removed
-expanded: false
-hidden: true
+title: Delete Website
+visibility: hidden

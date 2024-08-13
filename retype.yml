@@ -1,22 +1,30 @@
 input: src
 output: dist
 url: cms.solodev.net
-favicon: Images/favicon.png
+favicon: /static/images/favicon.png
 
 branding:
-  logo: Images/logo.png
+  logo: /static/images/logos/logo.png
   label: CMS v11
 
 meta:
   title: " - Content Management System documentation"
 
 links:
-- text: Solodev Home
-  link: https://www.solodev.com
+- text: Home
+  link: https://www.solodev.com/
   icon: home-fill
+- text: Cloud
+  link: https://cms.solodev.net/
+  icon: cloud
+- text: CMS
+  link: https://cloud.solodev.net/
+  icon: container
 
 outbound:
   custom: 'rel="noopener noreferrer"'
+  icon: link-external
+  target: blank
 
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
@@ -27,9 +35,5 @@ snippets:
     - json
     - css
 
-assets:
-  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css
-
-  
 cache:
   strategy: query 

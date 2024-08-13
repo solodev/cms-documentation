@@ -1,9 +1,9 @@
 In the home screen of your CMS, you can quickly connect to your websites and recent work, manage users and groups, track tasks, and more. You can also access advanced admin features, including the CMS file system and API.
 
-<p><img src="../../../images/dashboard/dashboard.jpg" alt="Solodev CMS Dashboard"></p>
+<p><img src="/static/images/workspace/dashboard.jpg" alt="Solodev CMS Main View"></p>
 
 !!! Tip:
-No matter where you are in the CMS, you can always return to your Dashboard by clicking your organization’s logo in the upper left corner of the screen. 
+No matter where you are in the CMS, you can always return to your main screen by clicking your organization’s logo in the upper left corner of the screen. 
 !!!
 
 <span id="workspace-1">In your Workspace, you can access websites to manage content, use low-code modules to create posts, build custom forms, and store documents in your CMS deployment.</span>
