@@ -17,7 +17,7 @@
     <p class="mb-0">Solodev CMS Professional deploys on a single AWS instance and features its own MySQL database. This lightweight architecture allows your websites and apps to meet variable traffic demands while maintaining uptime at a reasonable cost.</p>
   </div>
   <div class="col-4">
-    <p><img src="../../images/quickstart/pro/solodev-cms-pro-architecture-2024-2.jpg" alt="Solodev CMS Pro Architecture"></p>
+    <p><a href="/static/images/pro/solodev-cms-pro-architecture-2024.jpg" target="_blank"><img src="/static/images/enterprise/solodev-cms-enterprise-architecture-2024.jpg" alt="Solodev CMS Pro Architecture"></a></p>
   </div>
 </div>
 
@@ -53,7 +53,7 @@ The following steps cover the setup of the **CMS Professional** on the AWS Marke
 2. Review and accept the **"Terms and Conditions"**.
 3. Click **"Continue to Configuration"**.
 
-<p><img src="../../images/quickstart/pro/aws-pro-subscribe.jpg" alt="CMS Pro Continue to Configuration" style="width: 80%;"></p>
+<p><img src="/static/images/pro/aws-pro-subscribe.jpg" alt="CMS Pro Continue to Configuration" style="width: 80%;"></p>
 
 !!!NOTE:
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
@@ -73,7 +73,7 @@ Region | Select the AWS Region.
 
 2. Click **"Continue to Launch."**
 
-<p><img src="../../images/quickstart/pro/cms-pro-continue-to-launch.jpg" alt="CMS Pro continue to launch" style="width: 80%;"></p>
+<p><img src="/static/images/pro/cms-pro-continue-to-launch.jpg" alt="CMS Pro continue to launch" style="width: 80%;"></p>
 
 ### <span class="text-teal">Launch Software</span>
 
@@ -95,7 +95,7 @@ If your AWS region is different from `us-east-1`, make sure to select your speci
 
 1. Create a stack.
 
-<p><img src="../../images/quickstart/pro/pro-create-stack.jpg" alt="CMS Pro Create Stack" style="width: 90%;"></p>
+<p><img src="/static/images/pro/pro-create-stack.jpg" alt="CMS Pro Create Stack" style="width: 90%;"></p>
 
 2. Click <span class="text-orange">**Next**</span>.
 
@@ -105,13 +105,13 @@ If your AWS region is different from `us-east-1`, make sure to select your speci
 
 1. Provide a stack name. Stack name must be 1 to 128 characters, start with a letter, and only contain alphanumeric characters.
 
-<p><img src="../../images/quickstart/pro/pro-stack-name.jpg" alt="CMS Pro stack name" style="width: 62%;"></p>
+<p><img src="/static/images/pro/pro-stack-name.jpg" alt="CMS Pro stack name" style="width: 62%;"></p>
 
 ##### Parameters
 
 1. Specify the parameters in the network settings section.
 
-<p><img src="../../images/quickstart/pro/pro-params-network.jpg" alt="CMS Pro network settings" style="width: 70%;"></p>
+<p><img src="/static/images/pro/pro-params-network.jpg" alt="CMS Pro network settings" style="width: 70%;"></p>
 
 Name   | Description
 ---    | ---
@@ -124,7 +124,7 @@ AmiAlias | An AMI Alias refers to a user-defined name or identifier for an Amazo
 
 2. Specify the CMS Settings.
 
-<p><img src="../../images/quickstart/pro/pro-params-settings.jpg" alt="CMS Pro CMS Settings" style="width: 28%;"></p>
+<p><img src="/static/images/pro/pro-params-settings.jpg" alt="CMS Pro CMS Settings" style="width: 28%;"></p>
 
 Name   | Description
 ---    | ---
@@ -135,7 +135,7 @@ DatabasePassword | The database root password.
 
 3. Optional: Settings.
 
-<p><img src="../../images/quickstart/pro/pro-params-settings-optional.jpg" alt="CMS Pro CMS Settings Optional" style="width: 48%;"></p>
+<p><img src="/static/images/pro/pro-params-settings-optional.jpg" alt="CMS Pro CMS Settings Optional" style="width: 48%;"></p>
 
 Name   | Description
 ---    | ---
@@ -149,7 +149,7 @@ StorageEncrypted | Enable encryption for both Database (RDS) and Filesystem (EFS
 
 4. Optional: SSO.
 
-<p><img src="../../images/quickstart/pro/pro-params-sso-optional.jpg" alt="CMS Pro CMS SSO Optional" style="width: 28%;"></p>
+<p><img src="/static/images/pro/pro-params-sso-optional.jpg" alt="CMS Pro CMS SSO Optional" style="width: 28%;"></p>
 
 Name   | Description
 ---    | ---
@@ -197,7 +197,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 2. Acknowledge the AWS CloudFormation terms.
 
-<p><img src="../../images/quickstart/pro/pro-stack-capabilities.jpg" alt="CMS Pro capabilities" style="width: 62%;"></p>
+<p><img src="/static/images/pro/pro-stack-capabilities.jpg" alt="CMS Pro capabilities" style="width: 62%;"></p>
 
 3. Click <span class="text-orange">**Submit**</span>.
 
@@ -205,7 +205,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 1. <span class="text-orange">**Watch your CMS being created!**</span> Once the status changes from **CREATE_IN_PROGRESS** to **CREATE_COMPLETE**, you can access your CMS.
 
-<p><img src="../../images/quickstart/pro/pro-stack.jpg" alt="CMS Pro Stack" style="width: 62%;"></p>
+<p><img src="/static/images/pro/pro-stack.jpg" alt="CMS Pro Stack" style="width: 62%;"></p>
 
 2. Click on the **Outputs** tab and copy the AdminUrl value.
 
@@ -360,7 +360,7 @@ If you do not have a Key Pair, you will need to create one in your Key Pair Cons
 
 <!-- 1. **Choose an Action**
 
-<p><img src="../../images/quickstart/pro/cms-pro-launch.jpg" alt="CMS Pro Launch CloudFormation" style="width: 70%; margin-bottom: 20px;"></p>
+<p><img src="/static/images/pro/cms-pro-launch.jpg" alt="CMS Pro Launch CloudFormation" style="width: 70%; margin-bottom: 20px;"></p>
 
 2. Click **"Launch"**.
 
@@ -389,7 +389,7 @@ InstanceType | The EC2 instance type you wish to launch.
 KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances.
 CidrIpAccess | Please set CIDR to 0.0.0.0/0 to allow all IP addresses to access the web server on port 80 and 443
 
-<p><img src="../../images/quickstart/pro/network-setup-pro.jpg" alt="CMS Pro Network Setup"></p>
+<p><img src="/static/images/pro/network-setup-pro.jpg" alt="CMS Pro Network Setup"></p>
 
 **CMS Settings**
 
@@ -400,7 +400,7 @@ AdminPassword | ***Password must be between 1-41 characters. All characters are 
 DatabasePassword | ***Password must be between 8-41 characters. Only alphanumeric characters are allowed***.
 StorageEncrypted | Enable encryption both Database (RDS) and Filesystem (EFS). True or False.
 
-<p><img src="../../images/quickstart/pro/cms-settings-pro.jpg" alt="CMS Pro Settings"></p>
+<p><img src="/static/images/pro/cms-settings-pro.jpg" alt="CMS Pro Settings"></p>
 
 **Optional: Advanced**
 
@@ -412,7 +412,7 @@ DeletionPolicy | Experimental: Deletion Policy (Retain, Delete, Snapshot).
 CertificateArn | CertificateArn for SSL cert that matches the FQDN above. Please visit the AWS Certificate Manager.
 RestoreBucketName | Name of the S3 bucket containing files for restore.
 
-<p><img src="../../images/quickstart/pro/pro-advanced.jpg" alt="CMS Pro Optional Settings"></p>
+<p><img src="/static/images/pro/pro-advanced.jpg" alt="CMS Pro Optional Settings"></p>
 
 !!! Note:
 Advanced options are not required in order to start Solodev CMS.

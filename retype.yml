@@ -32,4 +32,4 @@ assets:
 
   
 cache:
-  busting: query 
+  strategy: query 

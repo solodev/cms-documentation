@@ -36,7 +36,7 @@
     <p class="mb-0">Solodev CMS Enterprise deploys a cluster of three servers, complete with load balancing and auto-scaling services. This architecture allows your websites and apps to meet the most demanding traffic while maintaining the highest levels of uptime.</p>
   </div>
   <div class="col-4">
-    <p><img src="/static/images/enterprise/solodev-cms-enterprise-architecture-2024.jpg" alt="Solodev CMS Enterprise Architecture"></p>
+    <p><a href="/static/images/enterprise/solodev-cms-enterprise-architecture-2024.jpg" target="_blank"><img src="/static/images/enterprise/solodev-cms-enterprise-architecture-2024.jpg" alt="Solodev CMS Enterprise Architecture"></a></p>
   </div>
 </div>
 
