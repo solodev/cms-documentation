@@ -7,14 +7,14 @@ A content template is usually placed within the base template. Sometimes referre
 As previously noted, a content template – sometimes referred to as an "interior template" – powers the bulk of your website and can be reused for various sections that require multiple pages. In this lesson, you will learn how to add a sample content template from the SpaceJet theme package.
 
 !!!Note:
-Many of the instructions in this lesson will repeat steps from the previous <a href="/tutorials/appendix/create-a-homepage-template/">homepage template</a>. Make sure to complete that first and refer back as needed. 
+Many of the instructions in this lesson will repeat steps from the previous <a href="https://cms.solodev.net/tutorials/appendix/create-a-homepage-template/">homepage template</a>. Make sure to complete that first and refer back as needed. 
 !!!
 
 ### Setting up your folders and .tpl files
 
 **Step 1**: Under **web files**, click on the **content** folder.
 
-**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/folders/add-folder/">Add Folder</a>. Under **content**, add folder called **privacy**. Click **Submit**, when complete.
+**Step 2**: Using the right-hand menu, click  <a href="https://cms.solodev.net/workspace/websites/folders/add-folder/">Add Folder</a>. Under **content**, add folder called **privacy**. Click **Submit**, when complete.
 
 <img src="/static/images/content-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -29,7 +29,7 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 
 <img src="/static/images/content-template-add-file.png" alt="base template" style="width: 25%; display: block"></a>
 
-**Step 5**: Finally click on the **www** folder and on the right menu, click [Add Page](workspace/websites/add-page). Create a new page called **privacy.stml**. Once complete, click **Submit**:
+**Step 5**: Finally click on the **www** folder and on the right menu, click [Add Page](https://cms.solodev.net/workspace/websites/add-page). Create a new page called **privacy.stml**. Once complete, click **Submit**:
 
 <img src="/static/images/content-template-add-file2.png" alt="base template" style="width: 20%; display: block"></a>
 

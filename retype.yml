@@ -37,4 +37,7 @@ snippets:
     - css
 
 cache:
-  strategy: query 
+  strategy: query  
+
+edit:
+  base: "/src"

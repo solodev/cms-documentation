@@ -1,18 +1,18 @@
-By clicking on the [web files](/workspace/websites/website/#web-files) or [www](/workspace/websites/website/#www) folders, you can update folder properties and access features such as uploading documents, adding links and file groups, and setting up advanced functions like A/B testing experiments.
+By clicking on the [web files](https://cms.solodev.net/workspace/websites/website/#web-files) or [www](https://cms.solodev.net/workspace/websites/website/#www) folders, you can update folder properties and access features such as uploading documents, adding links and file groups, and setting up advanced functions like A/B testing experiments.
 
 !!!Note:
-While all the functions for the web files and www folder are the same, the www folder also includes [adding a page](/workspace/websites/add-page), which can be done in the main folder (where the index.stml file exists) or any sub-folders for your website sections. 
+While all the functions for the web files and www folder are the same, the www folder also includes [adding a page](https://cms.solodev.net/workspace/websites/add-page), which can be done in the main folder (where the index.stml file exists) or any sub-folders for your website sections. 
 !!!
 
 <p><img src="/static/images/websites/folder/folder.jpg" alt="Folder View"></p>
 
 **Name** | **Description**
 :--- | ---
-[Update Folder](/workspace/websites/folder/update-folder/) | Change folder details like name or title and perform advanced functions like deleting a folder.
-[Upload](/workspace/websites/folder/upload/) | Drag and drop or browse files into your folder.
-[Stage](/workspace/websites/folder/stage/) | Assign files or folders to be reviewed and published.
-[Publish](/workspace/websites/folder/publish/) | Push files or folders live on your website. 
-[Permissions](/workspace/websites/folder/permissions/) | Manage user access to files and folders with specific roles.  
+[Update Folder](https://cms.solodev.net/workspace/websites/folder/update-folder/) | Change folder details like name or title and perform advanced functions like deleting a folder.
+[Upload](https://cms.solodev.net/workspace/websites/folder/upload/) | Drag and drop or browse files into your folder.
+[Stage](https://cms.solodev.net/workspace/websites/folder/stage/) | Assign files or folders to be reviewed and published.
+[Publish](https://cms.solodev.net/workspace/websites/folder/publish/) | Push files or folders live on your website. 
+[Permissions](https://cms.solodev.net/workspace/websites/folder/permissions/) | Manage user access to files and folders with specific roles.  
 
 ## Members
 

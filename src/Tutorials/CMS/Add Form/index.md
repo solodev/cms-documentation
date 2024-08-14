@@ -1,12 +1,12 @@
 # How to add a form to a page
 
-In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to collect information for almost any kind of application. This includes contact forms, order forms, newsletter subscriptions, product registrations, and more. In this tutorial, you will learn the different ways to create a form using Solodev and how to add it to your web page.  
+In Solodev, you can add a <a href="https://cms.solodev.net/workspace/forms/">form</a> to a web page to collect information for almost any kind of application. This includes contact forms, order forms, newsletter subscriptions, product registrations, and more. In this tutorial, you will learn the different ways to create a form using Solodev and how to add it to your web page.  
 
 ## Prerequisites
 
--	You will need to <a href="/workspace/websites/add-website/">add a website</a> to your Solodev CMS.
--	After selecting a website, you will need to [add a page](workspace/websites/add-page) for your form.
-- You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
+-	You will need to <a href="https://cms.solodev.net/workspace/websites/add-website/">add a website</a> to your Solodev CMS.
+-	After selecting a website, you will need to [add a page](https://cms.solodev.net/workspace/websites/add-page) for your form.
+- You will need to be familiar with using <a href="https://cms.solodev.net/shortcodes/">shortcodes</a>.
 
 ## Form options
 
@@ -23,7 +23,7 @@ If you prefer working in raw HTML, you can code your own form and upload to Solo
 
 ## Building a form with Form Studio
 
-Form Studio is a built-in drag-and-drop WYSIWYG editor that allows you to directly compose your own custom form. The visual editor consists of a left toolbar for dragging layout, content, and form components onto the canvas in the center. <a href="/tutorials/cms/add-form/#building-a-form-with-form-studio">See table below for details</a>. 
+Form Studio is a built-in drag-and-drop WYSIWYG editor that allows you to directly compose your own custom form. The visual editor consists of a left toolbar for dragging layout, content, and form components onto the canvas in the center. <a href="https://cms.solodev.net/tutorials/cms/add-form/#building-a-form-with-form-studio">See table below for details</a>. 
 
 The right toolbar enables you to control the text, styling, and specific details of the components in your form. Under the **Settings** icon, you can adjust your form header, links, and other details. 
 
@@ -281,7 +281,7 @@ You can use this option to send form submissions to an email address you designa
 <img src="/static/images/tickler-list.jpg" alt="tickler-list" style="display: block"></a>
 
 !!!Note: 
-If you need to add more options to your form submissions, like having each department on your company receive the form submission based on what the user selects on the forms, please visit <a href="/workspace/forms/form/workflow/">workflows</a>.
+If you need to add more options to your form submissions, like having each department on your company receive the form submission based on what the user selects on the forms, please visit <a href="https://cms.solodev.net/workspace/forms/form/workflow/">workflows</a>.
 !!!
 
 ## Next Steps

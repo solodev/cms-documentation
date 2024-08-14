@@ -12,7 +12,7 @@ While a theme provides the frontend visual “skin” for your website, it does 
 
 ## Prerequisites 
 - Download the Solodev <a href="https://raw.githubusercontent.com/solodev/marketplace/master/depot/themes/spacejet.zip">SpaceJet theme</a> package (.zip file)
-- Once downloaded, you will need to <a href="../../..//workspace/websites/add-website/">add a website</a> to your Solodev CMS and follow the prompts to upload an optional theme. 
+- Once downloaded, you will need to <a href="https://cms.solodev.net/workspace/websites/add-website/">add a website</a> to your Solodev CMS and follow the prompts to upload an optional theme. 
 
 
 ## Solodev SpaceJet Theme 
@@ -29,7 +29,7 @@ guidance on how to compose your theme package, visit our <a href="https://github
 !!!
 
 ## How to install a theme to your website
-Adding a theme to your Solodev website is simple. Installation occurs during the initial steps of <a href="../../..//workspace/websites/add-website/">adding a website</a> to your Solodev CMS.
+Adding a theme to your Solodev website is simple. Installation occurs during the initial steps of <a href="https://cms.solodev.net/workspace/websites/add-website/">adding a website</a> to your Solodev CMS.
 
 !!!danger  Warning:
 A theme can only be installed when creating a new website. Themes cannot be applied retroactively once a website has been fully deployed.
@@ -44,12 +44,12 @@ A theme can only be installed when creating a new website. Themes cannot be appl
 **Step 3**: Click Upload .zip and browse your local system for your theme package.
 
 !!! **Note**:
-Uploading a theme package may take a few minutes to complete. During thisperiod, you will see a listing of the files from the package in the large field at the bottom of the form. When the button reads **Processing**, do not leave or refresh the page.
+Uploading a theme package may take a few minutes to complete. During this period, you will see a listing of the files from the package in the large field at the bottom of the form. When the button reads **Processing**, do not leave or refresh the page.
 !!!
 
 **Step 4**: Once complete, you will be automatically redirected back to your dashboard, where your new site will appear.
 
 ## Next Steps
 
-- [Add Page](workspace/websites/add-page)
-- <a href="/tutorials/cms/add-page-template/">Add page template</a>
+- [Add Page](https://cms.solodev.net/workspace/websites/add-page)
+- <a href="https://cms.solodev.net/tutorials/cms/add-page-template/">Add page template</a>
