@@ -1,6 +1,6 @@
 In Solodev, you can update any page on your website under the www folder. You can directly edit your page using in-line editing tools with a visual preview, or by accessing component code elements for each div on your page. 
 
-<p><img src="../../../images/websites/page/page.jpg" alt="Micro Main Page"></p>
+<p><img src="/static/images/websites/page/page.jpg" alt="Micro Main Page"></p>
 
 !!!NOTE:
 You will need to [add a website](/workspace/websites/add-website/) to your CMS before adding a page.

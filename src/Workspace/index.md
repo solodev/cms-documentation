@@ -10,7 +10,7 @@ No matter where you are in the CMS, you can always return to your main screen by
 
 There are four main sections in your Workspace. Each can be accessed using the left navigation:
 
-<p><img src="../../images/workspace-menu.jpg" alt="Workspace Menu" style="width: 20%;"></p>
+<p><img src="/static/images/workspace-menu.jpg" alt="Workspace Menu" style="width: 20%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -23,4 +23,4 @@ There are four main sections in your Workspace. Each can be accessed using the l
 
 To add a website, click the Add Website button or navigate to Websites in the left-hand menu. For detailed instructions, refer to [add a website](/workspace/websites/add-website/).
 
-<p><img src="../../../images/dashboard/websites.jpg" alt="Solodev CMS Websites"></p>
+<p><img src="/static/images/dashboard/websites.jpg" alt="Solodev CMS Websites"></p>

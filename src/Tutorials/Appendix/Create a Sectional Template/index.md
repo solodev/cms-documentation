@@ -16,21 +16,21 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 
 **Step 2**: Using the right-hand menu, click <a href="/workspace/websites/folders/add-folder/">Add Folder</a>. Under **content**, add folder called **about**. Click **Submit**, when complete.
 
-<img src="../../../images/about-folder-web-files.png" alt="about folder web files" style=" display: block"></a>
+<img src="/static/images/about-folder-web-files.png" alt="about folder web files" style=" display: block"></a>
 
 **Step 3**: Now you will need to add a new .tpl file into the folder you have just created. Under **content**, click on the **about** folder and on the right menu, click <a href="/workspace/websites/folders/add-file/">Add File</a>. Create a new file called **about.tpl** and select **Code** for the **File Type**. Once complete, click **Submit**.
 
-<img src="../../../images/about-file-web-files.png" alt="about file web files" style=" display: block"></a>
+<img src="/static/images/about-file-web-files.png" alt="about file web files" style=" display: block"></a>
 
 **Step 4**: You will also need to add a new .tpl file into the folder listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="/workspace/websites/folders/add-file/">Add File</a>. Create a new file under the folder and select **Code** for the **File Type**. Once complete, click **Submit**:
 
   *	content: **full-width-template.tpl**
 
-<img src="../../../images/full-width-code.png" alt="full-width-code" style=" display: block"></a>
+<img src="/static/images/full-width-code.png" alt="full-width-code" style=" display: block"></a>
 
 **Step 5**: Click on the **www** folder and on the right menu, click <a href="/workspace/websites/folders/add-folder/">Add Folder</a>, and add folder called **about**. Click **Submit**, when complete.
 
-<img src="../../../images/about-folder-www.png" alt="about-folder-www" style=" display: block"></a>
+<img src="/static/images/about-folder-www.png" alt="about-folder-www" style=" display: block"></a>
 
 ### Adding templates to your dynamic divs
 

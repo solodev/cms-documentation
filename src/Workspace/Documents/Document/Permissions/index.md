@@ -2,7 +2,7 @@
 
 Permissions are a powerful tool that allows you to manage access for users and groups. You can manage existing permissions by changing group roles or you can remove permission entirely.
 
-<p><img src="../../../../images/permissions.png" alt="Permissions" style="width: 40%;"></p>
+<p><img src="/static/images/permissions.png" alt="Permissions" style="width: 40%;"></p>
 
 **Name** | **Description** 
 :--- | ---

@@ -2,7 +2,7 @@ The Solodev editing experience is highly visual and provides a fully rendered pr
 
 Using the toolbar at the top of the screen, you can instantly view your page in a desktop, tablet, and smartphone format to test responsiveness and make in-line edits. You can also highlight divs, open a tab to your live page, and expand the window to maximize your viewable area.
 
-<p><img src="../../../../images/websites/page/page-bar.jpg" alt="Page toolbar" style="width: 80%;"></p>
+<p><img src="/static/images/websites/page/page-bar.jpg" alt="Page toolbar" style="width: 80%;"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -15,7 +15,7 @@ Fullscreen | Fully expand the rendered view of your page to remove toolbars.
 
 ## Actions
 
-<p><img src="../../../../images/websites/page/page-actions.jpg" alt="Page toolbar" style="width: 32%;"></p>
+<p><img src="/static/images/websites/page/page-actions.jpg" alt="Page toolbar" style="width: 32%;"></p>
 
 **Name** | **Description**
 :--- | ---

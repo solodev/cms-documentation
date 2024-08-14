@@ -12,7 +12,7 @@ Export your entries.
 
 **Step 3:** Once you've selected the desired form, it's time to initiate the export process. To export the entire table associated with the selected form, navigate to the toolbar – usually located at the top of the interface – and look for the "Export" option. Click on this option to trigger the export process. This action will generate a file containing the complete table of data within the chosen form.
 
-<img src="../../../../images/forms-export.png" alt="Export Form" style="width: 50%; display: block"></a>
+<img src="/static/images/forms-export.png" alt="Export Form" style="width: 50%; display: block"></a>
 
 **Step 3a:** Alternatively, if you're interested in exporting individual entries or specific pieces of data from the selected form, you can do so using a slightly different approach. Firstly, identify the entries you wish to export. Most likely, there will be checkboxes located to the left of each entry. Select the checkboxes corresponding to the entries you want to export. Once you've made your selections, head to the toolbar and locate the "Export" option. Click on it to begin exporting the chosen entries. This action will generate a file containing only the selected entries' data.
 

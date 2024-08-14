@@ -2,7 +2,7 @@
 
 The Settings section contains a wide range of functionality regarding your Solodev environment. Settings are divided into six parts.
 
-<p><img src="../../../images/admin/settings/settings.jpg" alt="Settings list"></p>
+<p><img src="/static/images/admin/settings/settings.jpg" alt="Settings list"></p>
 
 **Name** | **Description** 
 :--- | ---

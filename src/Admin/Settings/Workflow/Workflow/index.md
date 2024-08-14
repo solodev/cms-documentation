@@ -1,6 +1,6 @@
 Make changes in your workflow. 
 
-<img src="../../../../images/workflowoverview.jpg" alt="workflowoverview" style="width: 100%; display: block"></a>
+<img src="/static/images/workflowoverview.jpg" alt="workflowoverview" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -11,7 +11,7 @@ Make changes in your workflow.
 
 Manage your workflow.
 
-<img src="../../../../images/workflowoverview2.jpg" alt="workflowoverview2" style="width: 100%; display: block"></a>
+<img src="/static/images/workflowoverview2.jpg" alt="workflowoverview2" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -33,7 +33,7 @@ Users can choose from different workflow types:
 
 Delete your workflow.
 
-<img src="../../../../images/deleteworkflow.jpg" alt="deleteworkflow" style="width: 40%; display: block"></a>
+<img src="/static/images/deleteworkflow.jpg" alt="deleteworkflow" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

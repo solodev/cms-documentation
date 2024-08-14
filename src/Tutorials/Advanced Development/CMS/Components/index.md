@@ -22,7 +22,7 @@ You can find more detailed information about the templates over here:
 
 The base template is the most important template in that it contains the essential resources that will be included in every web page on your website. A base template typically consists of a header and footer, references to asset files, and dynamic divs to place content. Note that any changes you make the base template will reflect your entire website. In this article we will show you how to build a base template and demonstrate its value in a real world situation.
 
-<img src="../../../images/solodev-base-template.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/solodev-base-template.png" alt="base template" style="width: 100%; display: block"></a>
 
 !!!Note: 
 Your base template contains your core includes (CSS, JavaScript, Fonts, Images), a header and footer, and dynamic divs (drop zones) in between to insert HTML content.
@@ -34,9 +34,9 @@ Open the **templates** folder and on the right side, click on Add File. Name the
 
 Below is the code of a sample base template. It includes the code for Google Analytics (Google Analytics code need to be on every page), a dynamicDiv class for the top navigation, hero, breadcrumbs, content, footer contact form and footer. 
 
-<img src="../../../images/solodev-base-template-code.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/solodev-base-template-code.png" alt="base template" style="width: 100%; display: block"></a>
 
-<img src="../../../images/base-template-dynamic-divs.png" alt="base template" style="width: 25%; display: block"></a>
+<img src="/static/images/base-template-dynamic-divs.png" alt="base template" style="width: 25%; display: block"></a>
 
 
 We'll talk in detail about the Dynamic Divs  in the next article. In Solodev, Dynamic Divs make laying out web pages easy and completely customizable while removing the need to duplicate HTML. Dynamic Divs allow you to use HTML markup to create drop zones where you can insert content onto a web page.  
@@ -79,7 +79,7 @@ The interior template is typically placed in the base template and serves as the
 
 Below is a screenshot of a two-column template in Solodev:
 
-<img src="../../../images/two-column-template.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/two-column-template.png" alt="base template" style="width: 100%; display: block"></a>
 
 !!! Note: 
 In the screenshot above the base template is still in place and there are other templates added as well such as breadcrumbs. The interior and sectional templates are added inside the base template.
@@ -147,7 +147,7 @@ A sectional template is a high level overview page with links to different secti
 
 Below is a screenshot of a sectional template in Solodev:
 
-<img src="../../../images/About_LunarXP.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/About_LunarXP.png" alt="base template" style="width: 100%; display: block"></a>
 
 !!!Note: 
 As you can see, sectional templates contain a lot of content, most of which direct you to other sections of the website such as the Recent Events, Blog, Photo Gallery sections. Everything on this page lives somewhere else on the website and the sectional template is the page that users will likely use as a starting point to decide where to go next.

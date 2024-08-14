@@ -2,7 +2,7 @@
 
 Folders are built in a nested tree hierarchy and serve as containers of all Solodev resources, including files and folders to your website(s).
 
-<img src="../../../../images/folders/add-folder.jpg" alt="Add Folder" style="width: 40%;"></a>
+<img src="/static/images/folders/add-folder.jpg" alt="Add Folder" style="width: 40%;"></a>
 
 **Name** | **Description**
 :--- | ---

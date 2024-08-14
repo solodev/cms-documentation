@@ -1,6 +1,6 @@
 Administrators can use contacts to make the intranet accessible to the organization and manage its authorized users. 
 
-<img src="../../../images/contact.jpg" alt="contact" style="width: 100%; display: block"></a>
+<img src="/static/images/contact.jpg" alt="contact" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | --- | 

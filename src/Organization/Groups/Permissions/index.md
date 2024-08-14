@@ -2,7 +2,7 @@
 
 You can manage the global permissions for your group by clicking the **Permissions** link with the lock icon on the right side under the **Modify** button. 
 
-<img src="../../../images/permissions4.png" alt="permissions4" style="width: 25%; display: block"></a>
+<img src="/static/images/permissions4.png" alt="permissions4" style="width: 25%; display: block"></a>
 
 
 The table in the Permissions window lists the names of the folders and groups in your Solodev CMS, as well as the role assigned to each. 

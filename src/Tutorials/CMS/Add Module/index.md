@@ -28,19 +28,19 @@ The detail template shows the specifics of an individual entry from a repeater t
 
 **Step 1**.	Go to the module and click **modify**.
 
-<img src="../../../images/modify-calendar.png" alt="base template" style="width: 50%; display: block"></a>
+<img src="/static/images/modify-calendar.png" alt="base template" style="width: 50%; display: block"></a>
 
 **Step 2**.	On the **Website Properties** accordion, under **Detail Page Template**, click **Browse**, from the **www** folder, select the detail page you just created.
 
 **Step 3**.	Under **Detail Folder Location**, click **Browse**, select the **www** folder your detail page is and click **Submit**.
 
-<img src="../../../images/modify-detail.png" alt="base template" style="width: 50%; display: block"></a>
+<img src="/static/images/modify-detail.png" alt="base template" style="width: 50%; display: block"></a>
 
 **Step 4**.	Under **Detail Folder Location**, click **Browse**, select the **www** folder your detail page in and click **Submit**.
 
 **Step 5**: After mapping your detail page, you need to republish your entry for it to know where to go. For this, go back to your module and click on the entry you created and click **Save**.
 
-<img src="../../../images/detail-spacejet.jpg" alt="detail space jet" style="width: 100%; display: block"></a>
+<img src="/static/images/detail-spacejet.jpg" alt="detail space jet" style="width: 100%; display: block"></a>
 
 
 **Congratulations!** You have created your first blog module. Have fun creating posts.

@@ -9,7 +9,7 @@ Delete form entries permanently.
 
 **Step 3:** Click Delete in the toolbar to open the modal on the right.
 
-<img src="../../../../images/module-overview4.jpg" alt="module-overview4" style="width: 50%; display: block"></a>
+<img src="/static/images/module-overview4.jpg" alt="module-overview4" style="width: 50%; display: block"></a>
 
 **Step 4:** Confirm your choice by clicking Submit. Your changes will be applied, and the entry will be removed.
 

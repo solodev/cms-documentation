@@ -2,7 +2,7 @@ Manage entries within the module on the Module Overview page.
 
 To go into the entry of your choosing, double click the row. If you want to delete or export specific entries, you can select them and continue with the action. You can also filter entries by clicking on the arrows next to the table headers.
 
-<p><img src="../../../images/modules/module-overview.jpg" alt="Module Overview" style="width: 90%;"></p>
+<p><img src="/static/images/modules/module-overview.jpg" alt="Module Overview" style="width: 90%;"></p>
 
 !!!Tip:
 Use the search field to filter a specific entry by typing the name and clicking the **Find** button

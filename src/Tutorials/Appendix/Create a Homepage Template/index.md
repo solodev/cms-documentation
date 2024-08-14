@@ -21,11 +21,11 @@ For this tutorial, we will use the assets from the SpaceJet theme to create a ho
 
 When complete, click **Submit**.
 
-<img src="../../../images/homepage-folders.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/homepage-folders.png" alt="base template" style="width: 20%; display: block"></a>
 
 **Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../workspace/websites/folders/add-file/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
 
-<img src="../../../images/homepage-base-folder-div.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/homepage-base-folder-div.png" alt="base template" style="width: 20%; display: block"></a>
 
 !!!**Note**:
 The additional div-insert.tpl file will provide extra dynamicDivs to your page template. 
@@ -38,7 +38,7 @@ The additional div-insert.tpl file will provide extra dynamicDivs to your page t
 - hero: **home-hero.tpl** 
 - navigation: **top-nav.tpl** 
 
-<img src="../../../images/homepage-sub-folder-files.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/homepage-sub-folder-files.png" alt="base template" style="width: 20%; display: block"></a>
 
 Now you have a complete set of folders and .tpl files to build out your homepage.
 
@@ -53,11 +53,11 @@ Next, you will learn how to apply your .tpl files to your dynamic divs. For the 
 
 **Step 2**: Under the **www** folder, click on the **images** folder under the “_” folder. 
 
-<img src="../../../images/homepage-images-folder.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/homepage-images-folder.png" alt="base template" style="width: 100%; display: block"></a>
 
 **Step 3**: Using the right-hand menu, click **Upload**. Drag both images from your local computer into the window and click **Upload**.
 
-<img src="../../../images/homepage-upload-images.png" alt="base template" style="width: 40%; display: block"></a>
+<img src="/static/images/homepage-upload-images.png" alt="base template" style="width: 40%; display: block"></a>
 
 !!!**Note**: 
 For more details on how to upload images to your website in Solodev, read 
@@ -66,7 +66,7 @@ the <a href="/workspace/websites/folders/upload/">Upload</a> article under Manag
 
 **Step 4**: Under **web files**, browse to the **navigation** folder and click on the **top-nav.tpl** file. Copy the code sample below into the editor. When complete, click **Publish**.
 
-<img src="../../../images/homepage-top-nav-code.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/homepage-top-nav-code.png" alt="base template" style="width: 100%; display: block"></a>
 
 ```js
 <div class="bg-primary py-2"></div>
@@ -89,17 +89,17 @@ Started"><strong>Get Started</strong></a>
 
 **Step 5**: Under the **www** folder, click on the **index.stml** file.
 
-<img src="../../../images/homepage-images-menu.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/homepage-images-menu.png" alt="base template" style="width: 20%; display: block"></a>
 
 **Step 6**: In the top dynamic div, click anywhere in the **base-template.tpl** div. Once activated, it will turn blue, indicating that it is ready to have a template applied to it. 
 
 Next, under **web files**, open the **templates** folder and browse to the **navigation** folder. Click on the **top-nav.tpl** file. The tag will change from **base-template.tpl** to **top-nav.tpl**, as shown: 
 
-<img src="../../../images/homepage-top-nav-tpl.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/homepage-top-nav-tpl.png" alt="base template" style="width: 100%; display: block"></a>
 
 Once complete, click **Publish**. After your page reloads, you will see the top navigation appear in your **index.stml** file. 
 
-<img src="../../../images/homepage-top-nav-complete.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/homepage-top-nav-complete.png" alt="base template" style="width: 100%; display: block"></a>
 
 !!!**Note**:
 Solodev provides a rich visual editing experience. The editor renders a preview of your frontend website, but minor differences may occur due to the software’s features and functionality. This can affect the appearance of fonts and images within the editor. You can compare your progress to the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">SpaceJet sample site</a>.

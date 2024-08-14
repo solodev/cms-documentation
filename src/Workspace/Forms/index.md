@@ -10,7 +10,7 @@ In Solodev, forms can be used to collect and manage information for a range of a
 
 On the main Forms dashboard, you can see all current forms in your Solodev CMS, along with their location and members. 
 
-<img src="../../../images/forms-dashboard-workspace.png" alt="forms" style="width: 100%; display: block"></a>
+<img src="/static/images/forms-dashboard-workspace.png" alt="forms" style="width: 100%; display: block"></a>
 
 !!!Note:
 You can access and modify a form by clicking on a specific form’s name in the main table.  
@@ -26,7 +26,7 @@ Search | Locate a form in your system by entering its name in the search field a
 
 Click on any of the icons under the member column in the table to add, remove, or manage user roles.
 
-<img src="../../../images/member-permissions.jpg" alt="member permissions" style="width: 30%; display: block"></a>
+<img src="/static/images/member-permissions.jpg" alt="member permissions" style="width: 30%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

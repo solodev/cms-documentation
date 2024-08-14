@@ -4,7 +4,7 @@ Themes determine the overall look and feel of your website, including its layout
 
 <div class="border p-4" style="height: 255px; margin-bottom: 20px;">
   <div style="width: 40%; float: left;">
-    <p><img src="../../images/themes/micro-theme.jpg" alt="Micro Theme"></p>
+    <p><img src="/static/images/themes/micro-theme.jpg" alt="Micro Theme"></p>
   </div>
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2><a href="/themes/micro">Micro Theme</a></h2>

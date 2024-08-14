@@ -6,7 +6,7 @@ The importance of efficient and reliable APIs cannot be overstated, which is why
 
 In practice, Swagger allows you to display interactive REST API documentation in which you can test and run queries through the integration with code. All commands and the information that the API takes and returns are fully described. More advanced configurations account for authorizations and roles available to individual users.
 
-<img src="../../../images/api.jpg" alt="api" style="width: 100%; display: block"></a>
+<img src="/static/images/api.jpg" alt="api" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

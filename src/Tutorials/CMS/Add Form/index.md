@@ -27,17 +27,17 @@ Form Studio is a built-in drag-and-drop WYSIWYG editor that allows you to direct
 
 The right toolbar enables you to control the text, styling, and specific details of the components in your form. Under the **Settings** icon, you can adjust your form header, links, and other details. 
 
-<img src="../../../images/form-settings.png" alt="form settings" style="width: 25%; display: block"></a>
+<img src="/static/images/form-settings.png" alt="form settings" style="width: 25%; display: block"></a>
 
 Using the **Pencil** icon, you can customize attributes such as layout, position, border radius, size, typography, and background components by entering values or clicking/dragging arrows. The right toolbar also provides **Body** attributes that detail the components in each div. 
 
-<img src="../../../images/form-body.png" alt="form body" style="width: 25%; display: block"></a>
+<img src="/static/images/form-body.png" alt="form body" style="width: 25%; display: block"></a>
 
 **Step 1:** From your main CMS dashboard, click **Forms** in the left-hand menu.
 
 **Step 2:** On the main forms dashboard, click **Add Form**. 
 
-<img src="../../../images/forms-dashboard1.png" alt="form upload" style="width: 100%; display: block"></a>
+<img src="/static/images/forms-dashboard1.png" alt="form upload" style="width: 100%; display: block"></a>
 
 **Step 3:** First, provide a name to your form in the Name field. For this example, call it **contact-form**.
 
@@ -47,11 +47,11 @@ Using the **Pencil** icon, you can customize attributes such as layout, position
 It is recommended that you save your form in the forms folder under web files, so you have easy access to the form data table. 
 !!!
 
-<img src="../../../images/form-choose-object.jpg" alt="form choose object" style="width: 30%; display: block"></a>
+<img src="/static/images/form-choose-object.jpg" alt="form choose object" style="width: 30%; display: block"></a>
 
 **Step 5:** Use the drag-and-drop Form Studio tools to build your form. As with previous lessons, you can use the SpaceJet theme sample as a guide for creating the fields as shown:
 
-<img src="../../../images/form-studio2.jpg" alt="form choose object" style="width: 100%; display: block"></a>
+<img src="/static/images/form-studio2.jpg" alt="form choose object" style="width: 100%; display: block"></a>
 
 ### **Layout**
 
@@ -100,17 +100,17 @@ To use the upload template option, your form file must be in a .tpl file format.
 
 **Step 2:** On the main forms dashboard, click **Add Form**. 
 
-<img src="../../../images/forms-dashboard.png" alt="form upload" style="width: 100%; display: block"></a>
+<img src="/static/images/forms-dashboard.png" alt="form upload" style="width: 100%; display: block"></a>
 
 **Step 3:** In the header at the top of the **Form Builder** screen, provide a name to your form in the **Name** field.
 
 **Step 4:** To the right of the Name field, locate where it says Template (Optional). Click the button that reads **Upload TPL file**.
 
-<img src="../../../images/add-form-upload-tpl.png" alt="form upload" style="width: 100%; display: block"></a>
+<img src="/static/images/add-form-upload-tpl.png" alt="form upload" style="width: 100%; display: block"></a>
 
 **Step 5:** Pick an install location in Solodev by clicking **Browse**. Then, select a specific destination (labeled object) and click **Choose** to select the folder.
 
-<img src="../../../images/choose-object-form.jpg" alt="form browse" style="width: 30%; display: block"></a>
+<img src="/static/images/choose-object-form.jpg" alt="form browse" style="width: 30%; display: block"></a>
 
 **Step 6:** Once complete, click **Save**.
 
@@ -124,11 +124,11 @@ In Solodev, you also have the option of adding your own custom form code using H
 
 **Step 3**: In the Form Studio dashboard, locate and click the **Code** button in the lower right corner. 
 
-<img src="../../../images/add-form-html.jpg" alt="form browse" style="width: 100%; display: block"></a>
+<img src="/static/images/add-form-html.jpg" alt="form browse" style="width: 100%; display: block"></a>
 
 **Step 4**: Add your HTML code to the code editor. 
 
-<img src="../../../images/add-form-html2.jpg" alt="form browse" style="width: 100%; display: block"></a>
+<img src="/static/images/add-form-html2.jpg" alt="form browse" style="width: 100%; display: block"></a>
 
 **Step 5**: Once complete, click **Save**.
 
@@ -181,11 +181,11 @@ For this lesson, you will need to create a new folder and page for your contact 
 
 **Step 2:** Using the right-hand menu, click **Add Folder**. Name the folder **contact**.
 
-<img src="../../../images/add-form-contact-folder.png" alt="add-form-contact-folder" style="width: 20%; display: block"></a>
+<img src="/static/images/add-form-contact-folder.png" alt="add-form-contact-folder" style="width: 20%; display: block"></a>
 
 **Step 3:** In the right-hand menu, click **Add Page**. Name the page **index.stml**, and title it **Get Started**. Once complete, click **Submit**.
 
-<img src="../../../images/add-page1.png" alt="add-page" style="width: 35%; display: block"></a>
+<img src="/static/images/add-page1.png" alt="add-page" style="width: 35%; display: block"></a>
 
 !!!Note:
 If you saved your sectional or content page as a template, you can select one as an option when creating a new page. For more details, read the Add Page article. 
@@ -195,11 +195,11 @@ If you saved your sectional or content page as a template, you can select one as
 
 **Step 5:** In the right-hand menu, click **Add File**. Name it **contact.tpl** and under **File Type**, select **Code**. Once complete, click **Submit**.
 
-<img src="../../../images/add-file-contact-tpl.png" alt="add-file-contact-tpl" style="width: 35%; display: block"></a>
+<img src="/static/images/add-file-contact-tpl.png" alt="add-file-contact-tpl" style="width: 35%; display: block"></a>
 
 **Step 6:** Click on the **contact.tpl** file. In the code editor, add the sample code below for the SpaceJet contact page. Once complete, click **Publish**. 
 
-<img src="../../../images/add-form-page-code.png" alt="add-form-page-code" style="width: 100%; display: block"></a>
+<img src="/static/images/add-form-page-code.png" alt="add-form-page-code" style="width: 100%; display: block"></a>
 
 ```js
 <div class="container my-5">
@@ -214,7 +214,7 @@ If you saved your sectional or content page as a template, you can select one as
 
 **Step 7:** Go back to the main dashboard and click on **Forms** in the left menu. You will see your **contact-form** in the central table. 
 
-<img src="../../../images/forms-dashboard-get-id.png" alt="forms-dashboard-get-id" style="width: 100%; display: block"></a>
+<img src="/static/images/forms-dashboard-get-id.png" alt="forms-dashboard-get-id" style="width: 100%; display: block"></a>
 
 !!!Note:
 In your left menu, you can also click on the forms folder under web files to access your form. 
@@ -222,15 +222,15 @@ In your left menu, you can also click on the forms folder under web files to acc
 
 **Step 8:** In the data table, locate the **form ID** in the upper left corner. In this example, the form ID is “70.” 
 
-<img src="../../../images/form-id.jpg" alt="form id" style="display: block"></a>
+<img src="/static/images/form-id.jpg" alt="form id" style="display: block"></a>
 
 **Step 9:** Go back to **web files**, and under the **contact** folder, click on the **contact.tpl** file to access the code. In line 7, replace the form ID with the actual ID from your for data table. As previously noted, “70” is a placeholder. Once complete, click **Publish**.
 
-<img src="../../../images/add-form-id.png" alt="add-form-id" style="width: 50%; display: block"></a>
+<img src="/static/images/add-form-id.png" alt="add-form-id" style="width: 50%; display: block"></a>
 
 **Step 10:** In the **www** folder, click on **index.stml** under the **contact** folder. In the editor canvas, click on the appropriate div and select the **contact.tpl** file to apply it. 
 
-<img src="../../../images/add-form-div.png" alt="add-form-div" style="display: block"></a>
+<img src="/static/images/add-form-div.png" alt="add-form-div" style="display: block"></a>
 
 !!!Note:
 Remember to add your base template first before adding your form. For a refresher on selecting dynamic divs and applying template files, refer back to <a href="/tutorials/cms/add-page-template/">How to add a page</a> to a website tutorial.
@@ -240,7 +240,7 @@ Once complete, click **Publish**.
 
 After publishing, you will now see your form appear on your page. 
 
-<img src="../../../images/form-page.jpg" alt="form page" style="display: block"></a>
+<img src="/static/images/form-page.jpg" alt="form page" style="display: block"></a>
 
 ## How to add a submission message
 
@@ -256,11 +256,11 @@ For the purposes of this lesson, you can use the sample code below to create a s
 
 **Step 2:** Click modify and go to the **Email Options** accordion.
 
-<img src="../../../images/email-modify.jpg" alt="email modify" style="display: block"></a>
+<img src="/static/images/email-modify.jpg" alt="email modify" style="display: block"></a>
 
 **Step 3:** Click **Upload Return Page** and select the file you previously created. 
 
-<img src="../../../images/email-options.jpg" alt="email options" style="display: block"></a>
+<img src="/static/images/email-options.jpg" alt="email options" style="display: block"></a>
 
 **Step 4:** Click **Submit**.
 
@@ -274,11 +274,11 @@ You can use this option to send form submissions to an email address you designa
 
 **Step 2:** Under tickler information, add a valid email address on the Tickler Email Address field and click the **Add** button. You will see the email address added to the textarea below.
 
-<img src="../../../images/tickler.jpg" alt="tickler" style="display: block"></a>
+<img src="/static/images/tickler.jpg" alt="tickler" style="display: block"></a>
 
 **Step 3:** You can add as many email addresses as you want. When you are done, click **Submit**.
 
-<img src="../../../images/tickler-list.jpg" alt="tickler-list" style="display: block"></a>
+<img src="/static/images/tickler-list.jpg" alt="tickler-list" style="display: block"></a>
 
 !!!Note: 
 If you need to add more options to your form submissions, like having each department on your company receive the form submission based on what the user selects on the forms, please visit <a href="/workspace/forms/form/workflow/">workflows</a>.

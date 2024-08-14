@@ -2,7 +2,7 @@
 
 In the Solodev CMS, a file serves many purposes. Examples of a file include HTML or code files, like .tpl. Files are stored in folders with a different Resource View depending on their file type.
 
-<p><img src="../../../../images/folders/add-file.jpg" alt="Add File" style="width: 40%;"></p>
+<p><img src="/static/images/folders/add-file.jpg" alt="Add File" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---

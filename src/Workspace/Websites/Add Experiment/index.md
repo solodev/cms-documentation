@@ -2,7 +2,7 @@
 
 1. Click on **Add Experiment** in the right menu.
 
-<p><img src="../../../../../images/folders/add-experiment.jpg" alt="Add Experiment" style="width: 40%;"></p>
+<p><img src="/static/images/folders/add-experiment.jpg" alt="Add Experiment" style="width: 40%;"></p>
 
 2. Complete the form in the modal window.
 

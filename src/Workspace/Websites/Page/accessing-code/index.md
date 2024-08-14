@@ -4,15 +4,15 @@ In addition to in-line editing, you can access the code to update a div or .tpl 
 
 1. Open the **www folder** in the left-hand menu and select a page to edit. Remember to click on the triangle graphic to the left of each folder to access its contents.
 
-<p><img src="../../../../images/left-side-menu.jpg" alt="manage-folder" style="width: 20%;"></p>
+<p><img src="/static/images/left-side-menu.jpg" alt="manage-folder" style="width: 20%;"></p>
 
 2. On your selected page, click on the section you wish to edit to access the dynamic div. A small flag with a pencil icon and text will appear in the upper left corner. Click on the text to access the code for the div. 
 
-<p><img src="../../../../images/spacejet-div-access-2.jpg" alt="manage-folder"></p>
+<p><img src="/static/images/spacejet-div-access-2.jpg" alt="manage-folder"></p>
 
 3. The file will open on a new tab. To learn more about files, [click here](/workspace/websites/file/).
 
-<p><img src="../../../../images/websites/update-file.jpg" alt="Update file"></p>
+<p><img src="/static/images/websites/update-file.jpg" alt="Update file"></p>
 
 ## Manage meta information with the Metadata panel
 
@@ -20,7 +20,7 @@ When updating a page using in-line editing, you can view and manage your meta in
 
 The Metadata panel provides quick access to details such as the page ID, which team member made the last update, and the page's location in your website structure. It also provides editable components for page name, description, keywords, and more. 
 
-<p><img src="../../../../images/websites/spacejet-metadata-panel.jpg" alt="Metadata Panel"></p>
+<p><img src="/static/images/websites/spacejet-metadata-panel.jpg" alt="Metadata Panel"></p>
 
 !!! **Note**:
 The Metadata panel can be collapsed using the small “>” icon in the upper left of the window.
@@ -38,13 +38,13 @@ Structured | When you structure a page, you ensure its visibility in your websit
 ### Unfurling Preview 
 The Metadata panel also previews how the page will unfurl in search results and other applications like Slack.
 
-<p><img src="../../../../images/spacejet-unfurl.jpg" alt="Page unfurling" style="width: 43%;"></p>
+<p><img src="/static/images/spacejet-unfurl.jpg" alt="Page unfurling" style="width: 43%;"></p>
 
 ### Advanced
 
 Customize your page's behavior, appearance, and functionality with granular settings to add social media images, control rank, manage header code, and more.
 
-<p><img src="../../../../images/websites/metadata-panel-advanced.jpg" alt="Advanced options on metadata panel" style="width: 40%;"></p>
+<p><img src="/static/images/websites/metadata-panel-advanced.jpg" alt="Advanced options on metadata panel" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---

@@ -8,7 +8,7 @@ Upload a file to your current file to overwrite it.
 
 **Step 3:** Select the file you want to overwrite by using the check box. On your top navigation, look for the **Folder** icon and click on it. This action will open up the modal on the right side of the interface.
 
-<img src="../../../../images/overwrite.png" alt="html files" style="width: 50%; display: block"></a>
+<img src="/static/images/overwrite.png" alt="html files" style="width: 50%; display: block"></a>
 
 **Step 4:** In the modal that appears, you'll be prompted with two options.
 

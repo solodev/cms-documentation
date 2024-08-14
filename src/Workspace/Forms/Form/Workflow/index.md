@@ -4,7 +4,7 @@ A workflow is a sequence of steps or processes that are triggered when someone i
 
 By setting up a workflow on a form, you ensure that each submission is handled systematically, efficiently, and consistently, reducing the need for manual intervention and minimizing the chances of errors or omissions
 
-<p><img src="../../../../images/form-overview9.jpg" alt="form-overview9" style="width: 50%;"></p>
+<p><img src="/static/images/form-overview9.jpg" alt="form-overview9" style="width: 50%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -14,7 +14,7 @@ Delete | Choose this option to delete the workflow.
 
 ## Add WorkFlow
 
-<p><img src="../../../../images/form-overview10.jpg" alt="form-overview10" style="width: 50%;"></p>
+<p><img src="/static/images/form-overview10.jpg" alt="form-overview10" style="width: 50%;"></p>
 
 **Name** | **Description** 
 :--- | ---

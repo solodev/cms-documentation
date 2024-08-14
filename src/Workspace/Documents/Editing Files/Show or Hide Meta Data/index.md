@@ -2,7 +2,7 @@
 
 Add/update your page's name and title, structure and rank them, and add meta information to boost your SEO
 
-<img src="../../../../images/meta-data.png" alt="html files" style="width: 40%; display: block"></a>
+<img src="/static/images/meta-data.png" alt="html files" style="width: 40%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
@@ -10,7 +10,7 @@ Name | Indicates the name of the file you are editing.
 
 ## About
 
-<img src="../../../../images/meta-about.png" alt="html files" style="width: 40%; display: block"></a>
+<img src="/static/images/meta-about.png" alt="html files" style="width: 40%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
@@ -20,7 +20,7 @@ Description | Add a file description.
 
 ## Meta
 
-<img src="../../../../images/meta-meta.png" alt="html files" style="width: 40%; display: block"></a>
+<img src="/static/images/meta-meta.png" alt="html files" style="width: 40%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
@@ -29,7 +29,7 @@ Meta Description | Add or change the Meta description.
 Meta Keywords | Add or change the Meta Keywords.
 
 ## Advanced
-<img src="../../../../images/meta-advanced.png" alt="html files" style="width: 40%; display: block"></a>
+<img src="/static/images/meta-advanced.png" alt="html files" style="width: 40%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---

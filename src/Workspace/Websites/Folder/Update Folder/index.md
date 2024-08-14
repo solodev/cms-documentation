@@ -2,7 +2,7 @@
 
 Folders are built in a nested tree hierarchy and serve as containers for all Solodev resources, including files and folders for the website(s). Modify and customize folders to suit your needs. A folder can be used as a company intranet document repository or to store HTML, TPL, and STML files destined for the web.
 
-<p><img src="../../../../images/folders/update-folder.jpg" alt="Update Folder Modal" style="width: 45%;"></p>
+<p><img src="/static/images/folders/update-folder.jpg" alt="Update Folder Modal" style="width: 45%;"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -17,7 +17,7 @@ Submit | Once you have completed all the fields, click **Submit** to apply your 
 
 Control how folders work with websites.
 
-<p><img src="../../../../images/folders/website-properties.jpg" alt="Website Properties Accordion" style="width: 43%;"></p>
+<p><img src="/static/images/folders/website-properties.jpg" alt="Website Properties Accordion" style="width: 43%;"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -35,7 +35,7 @@ Restrict Access in Website to Authorized Users | Allows access to the folder and
 
 Execute advanced operations.
 
-<p><img src="../../../../images/folders/advanced.jpg" alt="Advanced Accordion" style="width: 43%;"></p>
+<p><img src="/static/images/folders/advanced.jpg" alt="Advanced Accordion" style="width: 43%;"></p>
 
 **Name** | **Description**
 :--- | ---

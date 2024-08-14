@@ -2,7 +2,7 @@
 
 Move the file/folder to another folder. Make sure the item you want to move is marked.
 
-<img src="../../../../images/move.jpg" alt="move" style="width: 40%; display: block"></a>
+<img src="/static/images/move.jpg" alt="move" style="width: 40%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---

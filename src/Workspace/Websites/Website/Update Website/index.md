@@ -1,6 +1,6 @@
 Within this section, you have the flexibility to configure your site title, input your social media URLs and images, as well as include header inserts, and more.
 
-<img src="../../../../images/websites/website/update/update-website.jpg" alt="Update Website Section" style="width: 40%;"></a>
+<img src="/static/images/websites/website/update/update-website.jpg" alt="Update Website Section" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -14,7 +14,7 @@ Site Title | Add or update the site title.
 
 Manage your Facebook and Twitter handles, as well as setting the image for sharing your site on social media platforms.
 
-<img src="../../../../images/websites/website/update/social-media.jpg" alt="Social Media form" style="width: 40%;"></a>
+<img src="/static/images/websites/website/update/social-media.jpg" alt="Social Media form" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -30,7 +30,7 @@ Social Media Image is a default image used when sharing a page via social media.
  
 In this section, you can assign a class to the `<body>` element, as well as add or modify Global HTML tags and Global Header Inserts.
  
-<img src="../../../../images/websites/website/update/meta-information.jpg" alt="Meta Information form" style="width: 40%;"></a>
+<img src="/static/images/websites/website/update/meta-information.jpg" alt="Meta Information form" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -42,7 +42,7 @@ Global Header Insert | The <head> section of a website contains important inform
 
 The `<link rel="canonical">` tag is used to indicate the preferred version of a web page when multiple URLs with similar content exist. It's crucial for SEO to avoid duplicate content issues.
 
-<img src="../../../../images/websites/website/update/canonical.jpg" alt="Canonical form" style="width: 40%;"></a>
+<img src="/static/images/websites/website/update/canonical.jpg" alt="Canonical form" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -52,7 +52,7 @@ Canonical SSL | To set the canonical tag to **https** instead of **http,** pleas
 
 Manage custom 404 and login pages.
 
-<img src="../../../../images/websites/website/update/custom-pages.jpg" alt="Custom Pages form" style="width: 40%;"></a>
+<img src="/static/images/websites/website/update/custom-pages.jpg" alt="Custom Pages form" style="width: 40%;"></a>
 
 **Name** | **Description** 
 :--- | ---

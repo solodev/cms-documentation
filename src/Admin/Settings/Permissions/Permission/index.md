@@ -1,6 +1,6 @@
 Here you can manage the permissions of the respective users/groups.
 
-<img src="../../../../images/adminpermissions2.jpg" alt="adminpermissions2" style="width: 100%; display: block"></a>
+<img src="/static/images/adminpermissions2.jpg" alt="adminpermissions2" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -21,7 +21,7 @@ A group or group member can be assigned one of four roles in Solodev CMS:
 
 Here you can manage view permissions.
 
-<img src="../../../../images/adminpermissions3.jpg" alt="adminpermissions3" style="width: 40%; display: block"></a>
+<img src="/static/images/adminpermissions3.jpg" alt="adminpermissions3" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

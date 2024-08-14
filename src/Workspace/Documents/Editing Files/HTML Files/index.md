@@ -2,7 +2,7 @@
 
 Edit the HTML files you have created
 
-<img src="../../../../images/html-files.png" alt="html files" style="width: 100%; display: block"></a>
+<img src="/static/images/html-files.png" alt="html files" style="width: 100%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
@@ -15,7 +15,7 @@ Publish | Moves the file from the staging server and makes it live.
 <a href="/workspace/documents/editing-files/move/">Move</a> | Move the file to another folder. Make sure the item you want to copy is selected.
 <a href="/workspace/documents/editing-files/delete/">Delete</a> | Permanently remove a file
 
-<img src="../../../../images/document-details.png" alt="document details" style="width: 20%; display: block"></a>
+<img src="/static/images/document-details.png" alt="document details" style="width: 20%; display: block"></a>
 
 **Name** | **Description**
 :- | ---

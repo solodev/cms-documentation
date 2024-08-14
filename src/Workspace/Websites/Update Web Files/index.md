@@ -4,7 +4,7 @@ Under web files, you can <a href="/workspace/websites/folder/update-folder//">up
 
 To edit a specific file, click on it to access the code editor. 
 
-<p><img src="../../../images/websites/code-file.jpg" alt="Code file"></p>
+<p><img src="/static/images/websites/code-file.jpg" alt="Code file"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -21,7 +21,7 @@ To edit a specific file, click on it to access the code editor.
 
 Files also have the option to upload a file, create or manage tasks, expand your screen or collapse the right menu.
 
-<p><img src="../../../../images/websites/code-file-actions.jpg" alt="Code file top actions" style="width: 60%;"></p>
+<p><img src="/static/images/websites/code-file-actions.jpg" alt="Code file top actions" style="width: 60%;"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -35,13 +35,13 @@ Expand | View your file in a full width screen by removing all actions and menus
 
 Quickly identify where your file is being used by clicking the includes icon at the top of the file. You can also go to the page your file is being included on, by clicking on the name of the file.
 
-<p><img src="../../../../images/websites/includes.jpg" alt="File includes" style="width: 43%;"></p>
+<p><img src="/static/images/websites/includes.jpg" alt="File includes" style="width: 43%;"></p>
 
 ### Upload Files
 
 By clicking the folder icon in the upper right corner, you can overwrite your current file, by dragging and dropping them via your browser. 
 
-<p><img src="../../../../images/websites/overwrite-file.jpg" alt="File overwrite" style="width: 43%;"></p>
+<p><img src="/static/images/websites/overwrite-file.jpg" alt="File overwrite" style="width: 43%;"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -53,7 +53,7 @@ Upload + Save | Send your file and automatically save your code or content, but 
 
 Collaborate with team members by creating, assigning and viewing tasks, sending messages, and managing your task status and details. 
 
-<p><img src="../../../../images/websites/file-task.jpg" alt="File task" style="width: 43%;"></p>
+<p><img src="/static/images/websites/file-task.jpg" alt="File task" style="width: 43%;"></p>
 
 ## Advanced
 
@@ -61,21 +61,21 @@ Schedule your publish date and expire date.
 
 <!-- Manage the meta for your file via the **i** icon in the upper right corner to update meta details to enhance SEO and access advanced functions.
 
-<p><img src="../../../images/meta-web-files.png" alt="manage-folder" style="width: 50%;"></p> 
+<p><img src="/static/images/meta-web-files.png" alt="manage-folder" style="width: 50%;"></p> 
 
 **Name** | **Description**
 :--- | ---
 Name | Enter the file name.
 Ok | Complete your changes and save.
 
-<p><img src="../../../images/meta-about2.png" alt="manage-folder" style="width: 50%;"></p> 
+<p><img src="/static/images/meta-about2.png" alt="manage-folder" style="width: 50%;"></p> 
 
 **Name** | **Description**
 :--- | ---
 Title | Enter the title details for your department, note as public or classified
 Description | Provide an optional overview of your file.
 
-<p><img src="../../../images/meta-meta2.png" alt="manage-folder" style="width: 50%;"></p> 
+<p><img src="/static/images/meta-meta2.png" alt="manage-folder" style="width: 50%;"></p> 
 
 **Name** | **Description**
 :--- | ---
@@ -83,7 +83,7 @@ Rank | Include an optional ranking or order for your file.
 Meta Description | Provide an optional meta description of your file.
 Meta Keywords | List relevant keywords to help enhance SEO. -->
 
-<p><img src="../../../images/websites/file-advanced.png" alt="Advanced Accordion" style="width: 43%;"></p> 
+<p><img src="/static/images/websites/file-advanced.png" alt="Advanced Accordion" style="width: 43%;"></p> 
 
 **Name** | **Description**
 :--- | ---

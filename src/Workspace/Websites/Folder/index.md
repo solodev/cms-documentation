@@ -4,7 +4,7 @@ By clicking on the [web files](/workspace/websites/website/#web-files) or [www](
 While all the functions for the web files and www folder are the same, the www folder also includes [adding a page](/workspace/websites/add-page), which can be done in the main folder (where the index.stml file exists) or any sub-folders for your website sections. 
 !!!
 
-<p><img src="../../../images/websites/folder/folder.jpg" alt="Folder View"></p>
+<p><img src="/static/images/websites/folder/folder.jpg" alt="Folder View"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -18,7 +18,7 @@ While all the functions for the web files and www folder are the same, the www f
 
 Manage the folder access permissions for users and groups.
 
-<p><img src="../../../images/permissions/folder-permissions.png" alt="Folder Permissions" style="width: 50%;"></p>
+<p><img src="/static/images/permissions/folder-permissions.png" alt="Folder Permissions" style="width: 50%;"></p>
 
 **Name** | **Description**
 :--- | ---

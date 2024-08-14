@@ -2,11 +2,11 @@
 
 You can efficiently manage your documents within Solodev by performing various actions. These include uploading files, organizing documents into folders, as well as copying, moving, and deleting files as needed. This flexibility allows you to maintain a well-structured and organized digital repository for your content.
 
-<p><img src="../../../images/documents/documents-overview.jpg" alt="Documents View"></p>
+<p><img src="/static/images/documents/documents-overview.jpg" alt="Documents View"></p>
 
 To access additional actions, simply select the checkbox next to the item you wish to modify, and then choose from options like <a href="/workspace/documents/manage-file-folder/copy/">copying</a>, <a href="/workspace/documents/manage-file-folder/move/">moving</a>, or <a href="/workspace/documents/manage-file-folder/delete/">deleting</a> the selected item.
 
-<p><img src="../../../images/documents/documents-actions.jpg" alt="Documents Actions"></p>
+<p><img src="/static/images/documents/documents-actions.jpg" alt="Documents Actions"></p>
 
 !!! Note:
 Use the search field in the upper right corner to locate specific documents. 

@@ -15,9 +15,9 @@ Prior to building an Intranet in Solodev users should be able to:
 * Enter the **Name**, **Title**, and **Description**. 
 * Click **Submit**.
 
-<img src="../../../images/create-intranet1.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/create-intranet1.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/create-intranet2.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/create-intranet2.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
 ## Step 2 - Create the login template (index.tpl file)
 
@@ -58,13 +58,13 @@ Prior to building an Intranet in Solodev users should be able to:
 ```
 * Click **Publish**. 
 
-<img src="../../../images/intranet_3.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_3.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_4.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_4.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
-<img src="../../../images/intranet_5.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_5.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_6.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_6.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
 ## Step 3 – Create a sign-up template (register.tpl file)
 
@@ -96,11 +96,11 @@ Prior to building an Intranet in Solodev users should be able to:
 ```
 * Click Publish.
 
-<img src="../../../images/intranet_7.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_7.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_8.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_8.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
-<img src="../../../images/intranet_9.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_9.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
 ## Step 4 – Create a forgot-password template (forgot-password.tpl)
 
@@ -133,11 +133,11 @@ Prior to building an Intranet in Solodev users should be able to:
 ```
 * Click Publish.
 
-<img src="../../../images/intranet_10.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_10.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_11.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_11.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
-<img src="../../../images/intranet_12.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_12.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
 ## Step 5 – Create the password confirmation template (password-confirmation.tpl)
 
@@ -158,11 +158,11 @@ Prior to building an Intranet in Solodev users should be able to:
 ```
 * Click Publish.
 
-<img src="../../../images/intranet_13.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_13.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_14.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_14.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
-<img src="../../../images/intranet_15.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_15.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
 ## Step 6 – Create a secure folder
 
@@ -170,9 +170,9 @@ Prior to building an Intranet in Solodev users should be able to:
 * Enter the **Name** (‘secure’), **Title** and **Description** of the folder. 
 * Click **Submit**.
 
-<img src="../../../images/intranet_16.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_16.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_17.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_17.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
 ## Step 7 – Create an account page template (index.tpl)
 
@@ -192,11 +192,11 @@ Prior to building an Intranet in Solodev users should be able to:
 ```
 * Click Publish.
 
-<img src="../../../images/intranet_18.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_18.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_19.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_19.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
-<img src="../../../images/intranet_20.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_20.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
 ## Step 8 — Create an intranet folder in the www folder
 
@@ -204,9 +204,9 @@ Prior to building an Intranet in Solodev users should be able to:
 * Enter the **Name**, **Title** and **Description** of the folder. 
 * Click **Submit**.
 
-<img src="../../../images/intranet_21.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_21.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_22.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_22.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
 ## Step 9 – Create a login page (index.stml)
 
@@ -220,11 +220,11 @@ Prior to building an Intranet in Solodev users should be able to:
 * Choose the **index.tpl** file located in **web files - > content -> intranet** folder. 
 * Click **Publish**. 
 
-<img src="../../../images/intranet_23.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_23.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
-<img src="../../../images/intranet_24.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_24.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_25.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_25.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
 ## Step 10 - Create a signup page
 
@@ -238,11 +238,11 @@ Prior to building an Intranet in Solodev users should be able to:
 * Click the register.tpl file located in **web files -> content -> intranet** folder. 
 * Click **Publish**. 
 
-<img src="../../../images/intranet_26.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_26.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
-<img src="../../../images/intranet_27.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_27.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_28.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_28.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
 ## Step 11 – Create a forgot password page
 
@@ -256,11 +256,11 @@ Prior to building an Intranet in Solodev users should be able to:
 * Click the **forgot-password.tpl** file located in **web files -> content -> intranet** folder. 
 * Click **Publish**. 
 
-<img src="../../../images/intranet_29.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_29.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
-<img src="../../../images/intranet_30.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_30.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_31.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_31.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
 ## Step 12 – Create a password-confirmation page
 
@@ -274,11 +274,11 @@ Prior to building an Intranet in Solodev users should be able to:
 * Click the **password-confirmation.tpl** file located in **web files -> content -> intranet** folder. 
 * Click **Publish**. 
 
-<img src="../../../images/intranet_32.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_32.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
-<img src="../../../images/intranet_33.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_33.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_34.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_34.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
 ## Step 13 – Create a secure folder in the intranet folder
 
@@ -286,9 +286,9 @@ Prior to building an Intranet in Solodev users should be able to:
 * Enter the **Name (secure)**, **Title** and **Description** of the folder. 
 * Click **Submit**. 
 
-<img src="../../../images/intranet_35.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_35.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_36.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_36.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
 ## Step 14 – Create an Account page for the users 
 
@@ -306,10 +306,10 @@ Prior to building an Intranet in Solodev users should be able to:
 Any files placed in the "secure" folder will only be accessible to authorized users granted access to the Intranet.
 !!!
 
-<img src="../../../images/intranet_37.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_37.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_38.jpg" alt="add-website" style="width: 50%; display: block"></a>
+<img src="/static/images/intranet_38.jpg" alt="add-website" style="width: 50%; display: block"></a>
 
-<img src="../../../images/intranet_39.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_39.jpg" alt="add-website" style="width: 100%; display: block"></a>
 
-<img src="../../../images/intranet_40.jpg" alt="add-website" style="width: 100%; display: block"></a>
+<img src="/static/images/intranet_40.jpg" alt="add-website" style="width: 100%; display: block"></a>

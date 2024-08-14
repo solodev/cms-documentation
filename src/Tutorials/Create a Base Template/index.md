@@ -10,9 +10,9 @@ Your base template contains your core includes (CSS, JavaScript, Fonts, Images),
 
 To get started go to **web files > content > templates**. On the right side, click on **Add File**. Name the file "base-template.tpl", choose "Code" from the File Type dropdown and click Publish.
 
-<img src="../../../images/Picture1.jpg" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+<img src="/static/images/Picture1.jpg" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
-<img src="../../../images/Picture2.jpg" alt="CMSProSubscribe" style="width: 45%; display: block"></a>
+<img src="/static/images/Picture2.jpg" alt="CMSProSubscribe" style="width: 45%; display: block"></a>
 
 Below is the code sample for a base template. It includes where the code for Google Analytics should be in the body (Google Analytics code needs to be on every page), a dynamicDiv class for the top navigation, content, and footer. You can always add more dynamicDivs as needed.
 ```js
@@ -55,6 +55,6 @@ We created a base template and added code in it but in order to get it to displa
 
 Go to the **www** directory and click on index.stml. On the stml file, click on the content area where the 3 dots are. This area will change color and it will show the file currently associated with it. We want to replace it with base-template.tpl. To do this, with the area selected, click on the base-template.tpl file from the left navigation. You will see the area change to the base-template. Click publish on the right side.
 
-<img src="../../../images/Picture3.jpg" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+<img src="/static/images/Picture3.jpg" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
 Now you can start adding your content to the homepage.

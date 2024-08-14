@@ -23,7 +23,7 @@ SpaceJet is a lightweight, single-page website theme exclusively designed for th
 
 The SpaceJet theme package is hosted on GitHub and can be saved to your computer and uploaded into your Solodev CMS. To get started, <a href="https://raw.githubusercontent.com/solodev/marketplace/master/depot/themes/spacejet.zip">download the SpaceJet .zip package</a>.
 
-<img src="../../../../images/spacejet-mockup.jpg" alt="add-website" style="width: 70%; display: block"></a>
+<img src="/static/images/spacejet-mockup.jpg" alt="add-website" style="width: 70%; display: block"></a>
 
 !!! **Note:**
 SpaceJet offers a simple starting point for creating a website, but you can also create and upload your own custom theme to your Solodev CMS. 
@@ -36,7 +36,7 @@ Adding a theme to your Solodev website is simple. Installation occurs during the
 
 **Step 1**: On the main dashboard in Solodev, click **Add Website**.
 
-<p><img src="../../../images/tutorials/add-website/add-website.jpg" alt="Add website" style="width: 22%;"></p>
+<p><img src="/static/images/tutorials/add-website/add-website.jpg" alt="Add website" style="width: 22%;"></p>
 
 **Step 2**: In the form fields, enter your website address and select your timezone.
 

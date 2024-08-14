@@ -6,6 +6,6 @@ Before you can build your website you first need to deconstruct your designs int
 
 Here's a sample wireframe which details how the main components such as the header, hero image, blog section, contact section and footer will look like as well the positioning of the content elements such as text, videos and images:
 
-<img src="../../../images/LunarXP-Homepage-Wireframe.jpg" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
+<img src="/static/images/LunarXP-Homepage-Wireframe.jpg" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
 
 Once you finish designing the layout of the pages, the next step will be converting your design to basic HTML, CSS, and Javascript.

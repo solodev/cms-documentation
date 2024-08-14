@@ -8,7 +8,7 @@ Remove the file/folder from your CMS deployment. Make sure the item you want to 
 
 **Step 3:** Click Delete in the toolbar to open the modal on the right.
 
-<img src="../../../../images/delete-file.png" alt="html files" style="width: 50%; display: block"></a>
+<img src="/static/images/delete-file.png" alt="html files" style="width: 50%; display: block"></a>
 
 **Step 4:** Confirm your choice by clicking Submit. Your changes will be applied, and the entry will be removed.
 

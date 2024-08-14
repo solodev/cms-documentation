@@ -1,6 +1,6 @@
 # Welcome
 
-<p><img src="../images/solodev-banner.png" alt="Solodev CMS - Create amazing websites and apps in the Cloud"></p>
+<p><img src="/static/images/solodev-banner.png" alt="Solodev CMS - Create amazing websites and apps in the Cloud"></p>
 
 Solodev is an enterprise content management system (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud.
 
@@ -54,7 +54,7 @@ Need help with a custom enterprise deployment with unique requirements? [:icon-m
 
 <div class="border p-4" style="height: 255px; margin-bottom: 20px;">
   <div style="width: 40%; float: left;">
-    <p><img src="../../images/themes/micro-theme.jpg" alt="Micro Theme"></p>
+    <p><img src="/static/images/themes/micro-theme.jpg" alt="Micro Theme"></p>
   </div>
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2><a href="/themes/micro">Micro Theme</a></h2>
@@ -67,7 +67,7 @@ Need help with a custom enterprise deployment with unique requirements? [:icon-m
 
 You can easily add a new website to your CMS by following a few simple steps. To get started, [click here](/workspace/websites/add-website).
 
-<p><img src="../../../images/dashboard/websites.jpg" alt="Solodev CMS Websites"></p>
+<p><img src="/static/images/dashboard/websites.jpg" alt="Solodev CMS Websites"></p>
 
 ## CMS Overview
 

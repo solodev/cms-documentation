@@ -2,7 +2,7 @@
 
 Adding a form in Solodev CMS is a simple process, and can be completed in minutes.
 
-<img src="../../../images/addform.jpg" alt="addform" style="width: 100%; display: block"></a>
+<img src="/static/images/addform.jpg" alt="addform" style="width: 100%; display: block"></a>
 
 
 **Name** | **Description** 
@@ -19,7 +19,7 @@ Put the file into the forms folder in web files
 
 Forms are created based on the Form Studio editor. It has robust built-in drag-and-drop WYSIWYG editor, as well as the option to toggle to edit sources directly.
 
-<img src="../../../images/form-studio.jpg" alt="FormStudio" style="width: 100%; display: block"></a>
+<img src="/static/images/form-studio.jpg" alt="FormStudio" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

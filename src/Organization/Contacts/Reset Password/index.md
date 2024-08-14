@@ -2,7 +2,7 @@
 
 Update a contact's password.
 
-<img src="../../../images/reset-contact.png" alt="reset-contact" style="width: 40%; display: block"></a>
+<img src="/static/images/reset-contact.png" alt="reset-contact" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

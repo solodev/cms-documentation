@@ -12,7 +12,7 @@ Once you have your domain name, connect your domain to Solodev by following the 
 
 On the left side, click on **Websites** then click on **Add Website** button.
 
-<img src="../../../images/addwebsite.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+<img src="/static/images/addwebsite.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
 
 ## Step 2 - Fill out the Fields
@@ -21,8 +21,8 @@ In the **Your Website Address** section, type in your URL and the domain name of
 
 You can choose the optional packages to be installed during this process. You can also add a description of your page.
 
-<img src="../../../images/addwebsite1.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+<img src="/static/images/addwebsite1.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
 
 After that, log into your account, and you'll see that the website has been added to your website's folder.
 
-<img src="../../../images/addwebsite2.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>
+<img src="/static/images/addwebsite2.png" alt="CMSProSubscribe" style="width: 100%; display: block"></a>

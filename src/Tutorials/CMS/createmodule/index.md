@@ -32,11 +32,11 @@ The tutorial will cover the main blog page, the blog detail page, and the repeat
 
 **Step 2**: On the Modules dashboard, click **Add Module** in the upper right corner. 
 
-<img src="../../../images/module-install.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/module-install.png" alt="base template" style="width: 100%; display: block"></a>
 
 **Step 3**: In the Add Module form, give your module a **Name**, then select the module **Type** from the dropdown menu. Finally, choose a **Location** for your module in the CMS, such as the data center. 
 
-<img src="../../../images/add-module.png" alt="base template" style="width: 40%; display: block"></a>
+<img src="/static/images/add-module.png" alt="base template" style="width: 40%; display: block"></a>
 
 !!! **Note:**
 Solodev recommends installing modules into the **web files -> managers folder**.
@@ -66,7 +66,7 @@ Before getting started, locate these images in the theme package that you previo
 
 **Step 1:** Go back to your module and click on **Add Entry**.
 
-<img src="../../../images/add-entry.jpg" alt="base template" style="display: block"></a>
+<img src="/static/images/add-entry.jpg" alt="base template" style="display: block"></a>
 
 !!!Note:
 To learn more about Add Entry please <a href="/workspace/modules/module/add-entry/">click here</a>.
@@ -74,7 +74,7 @@ To learn more about Add Entry please <a href="/workspace/modules/module/add-entr
 
 **Step 2:** On the **Add Entry** modal, add the name of your blog post and select **<a href="/workspace/modules/module/add-entry/">publish</a>** from the status dropdown. Click **Submit**.
 
-<img src="../../../images/entry-modal-blog.jpg" alt="base template" style="display: block"></a>
+<img src="/static/images/entry-modal-blog.jpg" alt="base template" style="display: block"></a>
 
 !!!Note:
 You can fill out the other input fields in this step if you prefer.
@@ -100,11 +100,11 @@ The repeater template, although optional, displays all entries in the module use
 
 **Step 4:** In the module, locate the repeater ID in the upper left corner. In this example, the repeater ID is “1”.
 
-<img src="../../../images/module-id.jpg" alt="base template" style="display: block"></a>
+<img src="/static/images/module-id.jpg" alt="base template" style="display: block"></a>
 
 **Step 5:** Go back to **web files > content**, and under the **blog** folder, click on the **index.tpl** file to access the code. In line 8, replace the repeater ID with the actual ID from your module. As previously noted, “1” is a placeholder. Once complete, click **Publish**.
 
-<img src="../../../images/module-id-repeater.jpg" alt="base template" style="display: block"></a>
+<img src="/static/images/module-id-repeater.jpg" alt="base template" style="display: block"></a>
 
 **Step 6:** Under **www** add a folder called **blog** and <a href="/tutorials/cms/add-page/">add a page</a> called **index.stml**.
 
@@ -112,6 +112,6 @@ The repeater template, although optional, displays all entries in the module use
 
 **Step 8:** **Publish** your page.
 
-<img src="../../../images/blog-spacejet.jpg" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/blog-spacejet.jpg" alt="base template" style="width: 100%; display: block"></a>
 
 

@@ -2,7 +2,7 @@
 
 <div style="display: flex; align-items: center; justify-content: space-between; padding: 2rem 1.5rem; margin-bottom: 2rem; background-color: #eef6ff;">
   <div  style="display: flex; align-items: center; justify-content: start;">
-    <img src="../../images/themes/micro-logo.png" alt="Micro Logo" style="width: 80px;">
+    <img src="/static/images/themes/micro-logo.png" alt="Micro Logo" style="width: 80px;">
     <div>
       <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">Micro</h1>
       <p style="padding-left: 2rem; margin-bottom: 0;">Take your business to new heights with Micro Theme.</p>
@@ -17,7 +17,7 @@ A great solution for small business websites and projects, Micro Theme takes car
 
 <div class="border p-4" style="height: 255px; margin-bottom: 20px;">
   <div style="width: 40%; float: left;">
-    <p><img src="../../images/themes/micro-theme.jpg" alt="Micro Theme"></p>
+    <p><img src="/static/images/themes/micro-theme.jpg" alt="Micro Theme"></p>
   </div>
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2>Micro Theme</h2>

@@ -14,7 +14,7 @@ Import entries by preparing the file in .CSV format. To leave the database empty
 
 **Step 4:** At this stage, you have two options based on your requirements:
 
-<img src="../../../../images/module-overview3.jpg" alt="module-overview3" style="width: 50%; display: block"></a>
+<img src="/static/images/module-overview3.jpg" alt="module-overview3" style="width: 50%; display: block"></a>
 
 Option A: If you possess a .CSV file that you wish to incorporate into the form, you can achieve this by clicking on the 'Browse' button. This will enable you to search and select the appropriate .CSV file from your computer's storage.
 

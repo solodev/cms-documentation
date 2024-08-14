@@ -2,7 +2,7 @@
 
 Here, you have the ability to customize your module, offering a wide array of options at your disposal. These options are conveniently categorized into various sections, including "Website Properties" for fine-tuning the module's appearance and behavior, "Advanced Options" for advanced settings, "Table Schema" for managing the data structure, and "API Info" for integration purposes. Feel free to explore these sections and tailor your module to meet your specific needs.
 
-<p><img src="../../../../images/modules/modify-module.jpg" alt="Modify Module" style="width: 60%;"></p>
+<p><img src="/static/images/modules/modify-module.jpg" alt="Modify Module" style="width: 60%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -15,7 +15,7 @@ Confirm | Once you have completed all the fields, click **Submit** to apply your
 
 Map your module to the front end and to categories, and manage your images settings.
 
-<p><img src="../../../../images/modules/module-website-properties.jpg" alt="Website Properties" style="width: 50%;"></p>
+<p><img src="/static/images/modules/module-website-properties.jpg" alt="Website Properties" style="width: 50%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -31,7 +31,7 @@ Create Thumbnail for Uploaded Photos | Create thumbnails for the images utilized
 
 Manage your database table schema, by adding or removing fields.
 
-<p><img src="../../../../images/modules/module-table-schema.jpg" alt="Table Schema" style="width: 55%;"></p>
+<p><img src="/static/images/modules/module-table-schema.jpg" alt="Table Schema" style="width: 55%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -46,13 +46,13 @@ Default | Defines a default value that is automatically assigned to a field when
 
 Here you can find API Info that can be used in <a href="/admin/api">API section</a> to connect.
 
-<p><img src="../../../../images/module-overview8.jpg" alt="module-overview8" style="width: 50%;"></p>
+<p><img src="/static/images/module-overview8.jpg" alt="module-overview8" style="width: 50%;"></p>
 
 ## Advanced Options
 
 Manage your module, add custom code, and export or delete your module.
 
-<p><img src="../../../../images/module-overview9.jpg" alt="module-overview9" style="width: 50%;"></p>
+<p><img src="/static/images/module-overview9.jpg" alt="module-overview9" style="width: 50%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -78,7 +78,7 @@ Delete Module | To remove your entry, type DELETE in all caps into the field and
 
 Choose this option to export the module.
 
-<p><img src="../../../../images/module-overview10.jpg" alt="module-overview10" style="width: 30%;"></p>
+<p><img src="/static/images/module-overview10.jpg" alt="module-overview10" style="width: 30%;"></p>
 
 **Name** | **Description** 
 :--- | ---

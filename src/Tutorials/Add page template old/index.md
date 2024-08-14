@@ -31,7 +31,7 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 ## Base Template
 
-<img src="../../../images/base-template.jpg" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/base-template.jpg" alt="base template" style="width: 100%; display: block"></a>
 
 1.	To get started go to **web files > templates** and <a href="/workspace/websites/folders/add-file/">add a file</a>.
 2.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
@@ -57,13 +57,13 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 4.	Add the base template to your page. Go to your page and click on the content area where the 3 dots are. This area will change color and it will show the file currently associated with it. We want to replace it with base template file. To do this, with the area selected, click on the base template file from the left navigation. You will see the area change. Click publish on the right side.
 
-<img src="../../../images/stml.jpg" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/stml.jpg" alt="base template" style="width: 100%; display: block"></a>
 
 5.	You can repeat this process to add the content to your page.
 
 ## Content Template
 
-<img src="../../../images/content-template.jpg" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/content-template.jpg" alt="base template" style="width: 100%; display: block"></a>
 
 1.	Go to **web files > templates** and <a href="/workspace/websites/folders/add-file/">add a file</a>.
 2.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
@@ -132,7 +132,7 @@ You can find more detailed information about the templates over here:
 
 The base template is the most crucial because it contains the essential resources that will be included in every web page on your website. A base template typically consists of a header and footer, references to asset files, and dynamic divs to place content. Note that any changes you make to the base template will reflect your entire website. This article will show you how to build a base template and demonstrate its value in a real-world situation.
 
-<img src="../../../images/base-template.jpg" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/base-template.jpg" alt="base template" style="width: 100%; display: block"></a>
 
 !!!Note: 
 Your base template contains your core includes (CSS, JavaScript, Fonts, and Images), a header and footer, and dynamic divs (drop zones) in between to insert HTML content.
@@ -141,9 +141,9 @@ Your base template contains your core includes (CSS, JavaScript, Fonts, and Imag
 ### Step 1 - Create a Base Template file
 To get started go to **web files > templates**. On the right side, click on **Add File**. Name the file **base-template.tpl**, choose **Code** from the File Type dropdown and click Publish.
 
-<img src="../../../images/base-1.jpg" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/base-1.jpg" alt="base template" style="width: 100%; display: block"></a>
 
-<img src="../../../images/addfile.jpg" alt="base template" style="width: 50%; display: block"></a>
+<img src="/static/images/addfile.jpg" alt="base template" style="width: 50%; display: block"></a>
 
 Below is the code of a sample base template. It includes the code for Google Analytics (Google Analytics code need to be on every page), a dynamicDiv class for the top navigation, hero, breadcrumbs, content, footer contact form, and footer. 
 
@@ -177,31 +177,31 @@ We created a base template and added code to it, but we need to create a page to
 
 Go to the www directory, and on the right-side menu, click on Add Page.
 
-<img src="../../../images/addtemplate1.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate1.png" alt="base template" style="width: 100%; display: block"></a>
 
 #### Name your page index.stml and put the title as "Index Page". 
 
 If you'd like to, you can add a page description. Click Submit.
 
-<img src="../../../images/addtemplate2.png" alt="base template" style="width: 50%; display: block"></a>
+<img src="/static/images/addtemplate2.png" alt="base template" style="width: 50%; display: block"></a>
 
 #### Select the index.html page 
 
 On the tree, select the index.stml page you created, select the drop zone until it is blue, as shown below.
 
-<img src="../../../images/addtemplate3.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate3.png" alt="base template" style="width: 100%; display: block"></a>
 
 #### Insert the baseTemplate.tpl in the page
 
 Find and click on the baseTemplate.tpl file from the left tree will be placed on the page.
 
-<img src="../../../images/addtemplate4.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate4.png" alt="base template" style="width: 100%; display: block"></a>
 
 #### Click Publish and you can begin adding content 
 
-<img src="../../../images/addtemplate6.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate6.png" alt="base template" style="width: 100%; display: block"></a>
 
-<img src="../../../images/addtemplate5.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate5.png" alt="base template" style="width: 100%; display: block"></a>
 
 !!! Note: 
 The page we just created will be used on every site page as a template. Now let's insert some HTML content in the drop zones and publish our first page using our base template.
@@ -214,7 +214,7 @@ The interior template is typically placed in the base template and serves as the
 
 Below is a screenshot of a two-column template in Solodev:
 
-<img src="../../../images/two-column-template.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/two-column-template.png" alt="base template" style="width: 100%; display: block"></a>
 
 !!! Note: 
 In the screenshot above, the base template is still in place, and other templates have been added, such as breadcrumbs. The interior and sectional templates are added inside the base template.
@@ -248,33 +248,33 @@ We're using Bootstrap for the website, so the template above also contains Boots
 
 An interior template is created the same way the base template is created. Even though it is not necessary, you can create a folder and organize the different kinds of templates over there. In our example, we created a content folder and put the interior templates inside that folder.
 
-<img src="../../../images/addtemplate7.png" alt="base template" style="width: 30%; display: block"></a>
+<img src="/static/images/addtemplate7.png" alt="base template" style="width: 30%; display: block"></a>
 
 ### Step 1 - Create the folder for the template
 
 Go to the **web files** folder on the tree. Inside the **web files** folder, go to the **templates** folder. Click the "Add a folder" button. Give a name to your folder and hit Submit. 
 
-<img src="../../../images/addtemplate8.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate8.png" alt="base template" style="width: 100%; display: block"></a>
 
-<img src="../../../images/addtemplate9.png" alt="base template" style="width: 50%; display: block"></a>
+<img src="/static/images/addtemplate9.png" alt="base template" style="width: 50%; display: block"></a>
 
 ### Step 2 - Create the file for the template
 
 Go to the folder you created, and on the right side menu, click "Add a file" name the file as you wish, i.e., two-column-template.tpl. Hit the submit button. Click on the file and add your code. When you're done, click on "Publish".
 
-<img src="../../../images/addtemplate10.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate10.png" alt="base template" style="width: 100%; display: block"></a>
 
 ### Step 3 - Add a Page
 
 Go to the **www** directory, and on the right-side menu, click on Add Page
 
-<img src="../../../images/addtemplate1.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate1.png" alt="base template" style="width: 100%; display: block"></a>
 
 #### Name your page and publish it
 
 If you'd like to, you can add a page description. Click Publish.
 
-<img src="../../../images/addtemplate2.png" alt="base template" style="width: 50%; display: block"></a>
+<img src="/static/images/addtemplate2.png" alt="base template" style="width: 50%; display: block"></a>
 
 #### Select the index.stml page
 
@@ -284,7 +284,7 @@ On the tree, select the index.stml page you created, select the drop zone until 
 
 Find and click on the template file from the left tree, which will be placed on the page. Click Publish.
 
-<img src="../../../images/addtemplate11.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate11.png" alt="base template" style="width: 100%; display: block"></a>
 
 ## Create a sectional template
 
@@ -292,10 +292,10 @@ A sectional template is a high-level overview page with links to different secti
 
 Below is a screenshot of a sectional template in Solodev:
 
-<img src="../../../images/addtemplate12.png" alt="base template" style="width: 100%; display: block"></a>
-<img src="../../../images/addtemplate13.png" alt="base template" style="width: 100%; display: block"></a>
-<img src="../../../images/addtemplate14.png" alt="base template" style="width: 100%; display: block"></a>
-<img src="../../../images/addtemplate15.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate12.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate13.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate14.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate15.png" alt="base template" style="width: 100%; display: block"></a>
 
 !!!Note: 
 As you can see, sectional templates contain a lot of content, most of which directs you to other website sections, such as the Recent Events, Blog, and Photo Gallery sections. Everything on this page lives somewhere else on the website, and the sectional template is the page that users will likely use as a starting point to decide where to go next.
@@ -307,23 +307,23 @@ To add a Sectional Template, we first need to add a page and then insert the tem
 
 Go to the www folder. On the side menu, click on "Add Page"
 
-<img src="../../../images/addtemplate1.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate1.png" alt="base template" style="width: 100%; display: block"></a>
 
 ### Step 2 - Name the page and click Submit
 
-<img src="../../../images/addtemplate16.png" alt="base template" style="width: 50%; display: block"></a>
+<img src="/static/images/addtemplate16.png" alt="base template" style="width: 50%; display: block"></a>
 
 ### Step 3 - Add the base template to your drop zone. Click Publish
 
 Go to the www folder and select the sectional template stml file you created. Then go to the web files folder, and under the templates folder, find the basetemplate.tpl. In the sectional template file, select the drop zone until it is blue, then click on the basetemplate.tpl to insert it in the sectional template page.
 
-<img src="../../../images/addtemplate4.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate4.png" alt="base template" style="width: 100%; display: block"></a>
 
 ### Step 4 - Add the top level templates
 
 Since components such as the navigation, hero section, etc., will be at the top of the page, begin by adding them first:
 
-<img src="../../../images/addtemplate17.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate17.png" alt="base template" style="width: 100%; display: block"></a>
 
 ### Step 5 - Add the sectional content templates
 
@@ -341,19 +341,19 @@ Here is the list of the sectional template files we'd like to add by order:
 With the sectional stml page open, we go to the web files folder, then select the template files and click on the blue zones inside the sectional page to place them inside the page respectively.
 
 1.
-<img src="../../../images/addtemplate18.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate18.png" alt="base template" style="width: 100%; display: block"></a>
 
 2.
-<img src="../../../images/addtemplate19.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate19.png" alt="base template" style="width: 100%; display: block"></a>
 
 3.
-<img src="../../../images/addtemplate20.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate20.png" alt="base template" style="width: 100%; display: block"></a>
 
 
 ## Step 6 - Add the remaining templates
 These templates will come after the sectional templates towards the bottom of the page, such as a contact form at the end, the footer, etc.
 
-<img src="../../../images/addtemplate21.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/addtemplate21.png" alt="base template" style="width: 100%; display: block"></a>
 
 If you followed the instructions, your sectional template should appear at the beginning of the "Create a sectional template" section.
 

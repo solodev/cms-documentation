@@ -2,7 +2,7 @@
 
 Adding a workflow in Solodev CMS is a simple process, and can be completed in minutes.
 
-<img src="../../../../images/workflow2.jpg" alt="workflow2" style="width: 40%; display: block"></a>
+<img src="/static/images/workflow2.jpg" alt="workflow2" style="width: 40%; display: block"></a>
 
 
 **Name** | **Description** 

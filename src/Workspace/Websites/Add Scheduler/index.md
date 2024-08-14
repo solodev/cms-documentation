@@ -2,7 +2,7 @@
 
 1. Click on **Add Scheduler** in the right menu.
 
-<p><img src="../../../../../images/folders/add-scheduler.jpg" alt="Add Scheduler" style="width: 40%;"></p>
+<p><img src="/static/images/folders/add-scheduler.jpg" alt="Add Scheduler" style="width: 40%;"></p>
 
 2. Complete the form in the modal window.
 

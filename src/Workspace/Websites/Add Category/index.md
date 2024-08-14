@@ -1,6 +1,6 @@
 1. Click on **Add Category** in the right menu.
 
-<p><img src="../../../../../images/folders/add-collection.jpg" alt="Add Category" style="width: 40%;"></p>
+<p><img src="/static/images/folders/add-collection.jpg" alt="Add Category" style="width: 40%;"></p>
 
 2. Complete the form in the modal window.
 
@@ -18,7 +18,7 @@ Confirm | After filling out all the required fields, please click the **Submit**
 
 Manage where your categories display.
 
-<p><img src="../../../../../images/folders/website-properties.jpg" alt="Website Properties Accordion" style="width: 40%;"></p>
+<p><img src="/static/images/folders/website-properties.jpg" alt="Website Properties Accordion" style="width: 40%;"></p>
 
 <!-- **Name** | **Description**
 :--- | ---

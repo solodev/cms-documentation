@@ -15,7 +15,7 @@ If you have an existing form template, you can expediently upload it as a .tpl f
 * **<a href="/workspace/forms/add-form/#add-html-code">Upload HTML</a>**
 If you're more comfortable with raw HTML, you have the option to create your own custom form using HTML code and then upload it to Solodev.
 
-<img src="../../../images/form-main.png" alt="form main image" style="width: 100%; display: block"></a>
+<img src="/static/images/form-main.png" alt="form main image" style="width: 100%; display: block"></a>
 
 ## Form Studio
 

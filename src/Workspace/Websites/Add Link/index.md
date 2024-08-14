@@ -1,6 +1,6 @@
 1. Click on **Add Link** in the right menu.
 
-<p><img src="../../../../../images/folders/add-link.jpg" alt="Add Link" style="width: 40%;"></p>
+<p><img src="/static/images/folders/add-link.jpg" alt="Add Link" style="width: 40%;"></p>
 
 2. Complete the form in the modal window.
 

@@ -8,37 +8,37 @@ these components, you will be able to clearly structure your theme.
 
 Let's say we have have a homepage like the below:
 
-<img src="../../../images/LunarXP-Homepage-Wireframe.jpg" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
+<img src="/static/images/LunarXP-Homepage-Wireframe.jpg" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
 
 We could select the main components such as the follow:
 
 ## Header
 
-<img src="../../../images/lunarxp-header.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
+<img src="/static/images/lunarxp-header.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
 
 ## Hero
 
-<img src="../../../images/lunarxp-hero.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
+<img src="/static/images/lunarxp-hero.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
 
 ## Recent Blog Posts
 
-<img src="../../../images/lunarxp-blog-recent.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
+<img src="/static/images/lunarxp-blog-recent.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
 
 ## Testimonials
 
-<img src="../../../images/lunarxp-testimonials.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
+<img src="/static/images/lunarxp-testimonials.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
 
 ## Featured Products
 
-<img src="../../../images/lunarxp-ships.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
+<img src="/static/images/lunarxp-ships.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
 
 ## Contact 
 
-<img src="../../../images/lunarxp-contact-section.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
+<img src="/static/images/lunarxp-contact-section.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
 
 ## Footer
 
-<img src="../../../images/lunarxp-footer.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
+<img src="/static/images/lunarxp-footer.png" alt="LunarXP-Homepage-Wireframe" style="width: 100%; display: block"></a>
 
 Then we could name them as header.tpl or navigation.tpl, hero.tpl, recent-blog.tpl, testimonials.tpl, featured-products.tpl, contact-section.tpl, footer.tpl and so on. In Solodev, all the HTML, CSS and Javascript files are stored inside the **web files** folder. More advanced, complex components are given a .tpl extension. Once you mimic and create the folder structure in the web files folder, it is time to actually translate the design into HTML.
 

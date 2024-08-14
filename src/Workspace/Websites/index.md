@@ -2,7 +2,7 @@ From the main Websites dashboard, you can view and access the existing websites 
 
 To modify a website, click on a thumbnail image or a website name from the table. This will link you to the website’s main CMS dashboard. 
 
-<p><img src="../../../images/websites/websites-empty-table.jpg" alt="Websites screen" style="width: 90%;"></p>
+<p><img src="/static/images/websites/websites-empty-table.jpg" alt="Websites screen" style="width: 90%;"></p>
 
 !!!Tip:
 Use the search field in the upper right corner to locate or filter specific websites in your CMS.

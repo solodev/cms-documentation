@@ -13,16 +13,16 @@ Once you have set up a new website in your Solodev CMS, you can begin creating p
 
 **Step 2**: On the Websites dashboard, select the site where you want to add a page.
 
-<img src="../../../images/add-page.png" alt="base-template-templatee" style="width=100%; display: block"></a>
+<img src="/static/images/add-page.png" alt="base-template-templatee" style="width=100%; display: block"></a>
 
 **Step 3**: From the left-hand menu, click on the **www** folder. It should contain 
 your index.stml and the “_” folder your created in the previous tutorial. 
 
-<img src="../../../images/add-page-www.png" alt="base-template-templatee" style="width:20%; display: block"></a>
+<img src="/static/images/add-page-www.png" alt="base-template-templatee" style="width:20%; display: block"></a>
 
 **Step 4**: From the right-hand menu, click **Add Page**. 
 
-<img src="../../../images/add-page-menu.png" alt="base-template-templatee" style="width:20%; display: block"></a>
+<img src="/static/images/add-page-menu.png" alt="base-template-templatee" style="width:20%; display: block"></a>
 
 **Step 5**: In the Add Page window at the right, provide a **Name** for your page. In this example, we are adding a Privacy page from the SpaceJet theme that will feature the site’s privacy statement and disclaimer details. 
 
@@ -30,13 +30,13 @@ your index.stml and the “_” folder your created in the previous tutorial.
 Page names should be in all lower-cased letters and numerals, and multiple words should be separated by a hyphen (for example: **my-page.stml**). Also, remember you can leave .stml out and the system will add it for you, so it is not required
 !!!
 
-<img src="../../../images/add-page-privacy-1.jpg" alt="base-template-templatee" style="width:40%; display: block"></a>
+<img src="/static/images/add-page-privacy-1.jpg" alt="base-template-templatee" style="width:40%; display: block"></a>
 
 **Step 6**: Next, add a **Title**, which will appear in your page meta, as well as a **Description** to improve the searchability of your page in the file system. Both are optional, but highly recommended.
 
 **Step 7**: At the bottom of the Add Page window, select an available **Template** for your page from the dropdown menu.
 
-<img src="../../../images/add-page-privacy-2.jpg" alt="base-template-templatee" style="width:40%; display: block"></a>
+<img src="/static/images/add-page-privacy-2.jpg" alt="base-template-templatee" style="width:40%; display: block"></a>
 
 
 !!!**Note**:
@@ -47,7 +47,7 @@ To add reusable page templates to your website, read the <a href="/tutorials/cms
  
 **Congratulations!** You have just added your first page to your website. From your site’s dashboard, you should now see the page appear under the www folder.
 
-<img src="../../../images/add-page-privacy-added.png" alt="base-template-templatee" style="width:20%; display: block"></a>
+<img src="/static/images/add-page-privacy-added.png" alt="base-template-templatee" style="width:20%; display: block"></a>
 
 ## Next steps
 
@@ -102,35 +102,35 @@ Saving your pages as templates allows for easier updates at a global level.
 
 **Step 2**: Click on **www** folder and select **Add Page** from the right-hand menu. Name the page **page-template.stml**. Once complete, click **Submit**.
 
-<img src="../../../images/add-page-template.jpg" alt="add-page-templates" style="display: block"></a>
+<img src="/static/images/add-page-template.jpg" alt="add-page-templates" style="display: block"></a>
 
 **Step 3**: Keeping the **page-template.stml** file open, browse to **web files** and open the **templates** folder, which includes the base, content, footer, and navigation folders.
 
 Click on the dynamic div in the main canvas of your newly created **page-template.stml** page. 
 
-<img src="../../../images/dynamic-div-template.jpg" alt="dynamic-div-template" style="display: block"></a>
+<img src="/static/images/dynamic-div-template.jpg" alt="dynamic-div-template" style="display: block"></a>
 
 **Step 4**: The dynamic div will turn light blue, indicating that you can apply files to it. From the left-hand menu, click on the **base-template.tpl** file, so the dynamic div replaced by the base template. Once complete, click **Publish** in the top right corner.
 
-<img src="../../../images/base-template-template.jpg" alt="base-template-templatee" style="display: block"></a>
+<img src="/static/images/base-template-template.jpg" alt="base-template-templatee" style="display: block"></a>
 
 **Step 5**: On the page, select the top dynamic div, and click on the **top-nav.tpl** file from the left-hand menu.
 
-<img src="../../../images/topnav-template.jpg" alt="topnav-template" style="display: block"></a>
+<img src="/static/images/topnav-template.jpg" alt="topnav-template" style="display: block"></a>
 
 **Step 6**: Finally, select the bottom dynamic div, and click on the **footer.tpl** file from the left-hand menu.
 
-<img src="../../../images/footer-template.jpg" alt="footer-template" style="display: block"></a>
+<img src="/static/images/footer-template.jpg" alt="footer-template" style="display: block"></a>
 
 **Step 7**: Once you have all your elements assembled in your template page, you can save the page as a template. 
 
 To do this, use the page manager menu at the right and open the **Advanced** accordion.
 
-<img src="../../../images/advance-accordion.jpg" alt="advance-accordion" style="display: block"></a>
+<img src="/static/images/advance-accordion.jpg" alt="advance-accordion" style="display: block"></a>
 
 **Step 8**: At the bottom of the Advanced menu, click the **“is Template”** checkbox. Once complete, click **Publish** at the top of the page.
 
-<img src="../../../images/is-template.jpg" alt="is-template" style="display: block"></a>
+<img src="/static/images/is-template.jpg" alt="is-template" style="display: block"></a>
 
 !!!Note:
 If you need to make any adjustments to the sectional template you just created, you can locate it under the **www** folder. Bear in mind that any new changes will not be applied to the pages you previously created using this template.
@@ -142,10 +142,10 @@ If you need to make any adjustments to the sectional template you just created, 
 
 **Step 10**: On the Add Page modal, give your page a **name** and a **title**. You will also see a dropdown called **Templates**. To use an available template, click on the dropdown and select the **page-template.stml** you just created. Click **Submit**.
 
-<img src="../../../images/add-page-template.jpg" alt="add-page-template" style="display: block"></a>
+<img src="/static/images/add-page-template.jpg" alt="add-page-template" style="display: block"></a>
 
 **Step 11**: Go to your new page and you will see it already contains the elements you added to the **page-template.stml**.
 
-<img src="../../../images/departments.jpg" alt="departments" style="display: block"></a>
+<img src="/static/images/departments.jpg" alt="departments" style="display: block"></a>
 
 -->

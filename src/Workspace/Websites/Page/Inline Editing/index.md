@@ -6,15 +6,15 @@ This low-code method is ideal for making quick changes to your content like upda
 
 1. Open the **www folder** in the left-hand menu and select a page to edit. Remember to click on the triangle graphic to the left of each folder to access its contents.
 
-<p><img src="../../../../images/left-side-menu.jpg" alt="manage-folder" style="width: 20%;"></p>
+<p><img src="/static/images/left-side-menu.jpg" alt="manage-folder" style="width: 20%;"></p>
 
 2. On your selected page, click on the section you wish to edit to access the dynamic div. A small flag with a pencil icon and text will appear in the upper left corner. Click on the icon to directly edit the page.
 
-<p><img src="../../../../images/spacejet-div-access.jpg" alt="manage-folder"></p>
+<p><img src="/static/images/spacejet-div-access.jpg" alt="manage-folder"></p>
 
 3. Once activated, an editing toolbar will appear in your div, allowing you to select text and update your page directly. You can apply styles for bold, italic, and underlined text and change the heading styles. You can also apply numbering, bullets, and links to your content. 
 
-<p><img src="../../../../images/spacejet-div-inline-editor.jpg" alt="manage-folder"></p>
+<p><img src="/static/images/spacejet-div-inline-editor.jpg" alt="manage-folder"></p>
 
 !!!Note: 
 The editing pane will only apply styling that is based on your website’s CSS.

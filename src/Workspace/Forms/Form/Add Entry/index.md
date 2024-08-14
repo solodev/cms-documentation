@@ -2,7 +2,7 @@
 
 Adding an entry is a simple process and can be completed in minutes.
 
-<img src="../../../../images/form-overview2.jpg" alt="form-overview2" style="width: 50%; display: block"></a>
+<img src="/static/images/form-overview2.jpg" alt="form-overview2" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

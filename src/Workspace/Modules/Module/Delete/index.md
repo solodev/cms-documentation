@@ -4,7 +4,7 @@
 
 Delete module permanently.
 
-<img src="../../../../images/module-overview4.jpg" alt="module-overview4" style="width: 40%; display: block"></a>
+<img src="/static/images/module-overview4.jpg" alt="module-overview4" style="width: 40%; display: block"></a>
 
 **Step 1:** To begin, access your website by either by clicking Websites under Workspace interface or from the dashboard. 
 

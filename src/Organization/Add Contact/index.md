@@ -2,7 +2,7 @@
 
 Adding a contact in Solodev CMS is a simple process, and can be completed in minutes.
 
-<img src="../../../images/add-contact.png" alt="contact" style="width: 50%; display: block"></a>
+<img src="/static/images/add-contact.png" alt="contact" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | --- | 

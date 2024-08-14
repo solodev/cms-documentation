@@ -48,15 +48,15 @@ The first step in creating page templates in Solodev is to build your base templ
 
 **Step 1**: Log into your website and enter the main dashboard. Under **web files**, click on the **templates** folder.
 
-<img src="../../../images/base-template-nav.jpg" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/base-template-nav.jpg" alt="base template" style="width: 20%; display: block"></a>
 
 **Step 2**: Using the right-hand menu, click <a href="/workspace/websites/folders/add-folder/">Add Folder</a>. 
 
-<img src="../../../images/base-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/base-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
 **Step 3**: In the **Name** field, add a folder called **base**. You can also add an optional title and description. Once complete, click **Submit**. 
 
-<img src="../../../images/base-template-add-folder-2.png" alt="base template" style="width: 40%; display: block"></a>
+<img src="/static/images/base-template-add-folder-2.png" alt="base template" style="width: 40%; display: block"></a>
 
 !!!**Note**:
 The nested base folder will house your base template and other components. 
@@ -66,7 +66,7 @@ The nested base folder will house your base template and other components.
 
 **Step 5**: In the fields provided, give your file a **Name** (such as “base-template”) and remember to use the .tpl extension. From the **File Type** dropdown, select **Code**, and click **Submit**.
 
-<img src="../../../images/base-template-add-file.png" alt="base template" style="width: 40%; display: block"></a>
+<img src="/static/images/base-template-add-file.png" alt="base template" style="width: 40%; display: block"></a>
 
 !!!**Note**:
 A .tpl file should be designated as “Code” in the File Type to ensure that it can include your HTML, JavaScript, and PHP components. 
@@ -74,7 +74,7 @@ A .tpl file should be designated as “Code” in the File Type to ensure that i
 
 **Step 6**: On your new file paste the sample code below into the editor. The sample includes dynamicDiv classes for the top navigation, hero, content, and footer. Once complete, click **Publish**.
 
-<img src="../../../images/base-template-file.jpg" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/base-template-file.jpg" alt="base template" style="width: 100%; display: block"></a>
 
 ```js
 <div role="main">
@@ -102,7 +102,7 @@ You can always add more dynamic divs as needed.
 
 **Step 7**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="../../../tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
 
-<img src="../../../images/base-template-dots.jpg" alt="base template" style="width: 50%; display: block"></a>
+<img src="/static/images/base-template-dots.jpg" alt="base template" style="width: 50%; display: block"></a>
 
 !!!**Note**:
 The two dots are a default indicator on all blank pages and can be removed 
@@ -111,13 +111,13 @@ during editing.
 
 **Step 8**: After clicking on the two dots, the areas will become active, displaying the dynamic divs as a stack of rectangular boxes set in a light blue color. The name of your base template file will also appear in the upper left. 
 
-<img src="../../../images/base-template-add-base-template.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/base-template-add-base-template.png" alt="base template" style="width: 100%; display: block"></a>
 
 **Step 9**: Next, click on your base template file under the **templates** folder in the left menu. This will apply your base template to the dynamic div. Then, click **Publish** in the upper right corner.
 
 **Step 10**: Once published, your **index.stml** page will refresh, displaying your dynamic divs in white.  You are now ready to build your page templates. 
 
-<img src="../../../images/base-template-base-template-final.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/base-template-base-template-final.png" alt="base template" style="width: 100%; display: block"></a>
 
 
 !!!**Note**: 
@@ -143,11 +143,11 @@ For this tutorial, we will use the assets from the SpaceJet theme to create a ho
 
 When complete, click **Submit**.
 
-<img src="../../../images/homepage-folders.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/homepage-folders.png" alt="base template" style="width: 20%; display: block"></a>
 
 **Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../workspace/websites/folders/add-file/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
 
-<img src="../../../images/homepage-base-folder-div.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/homepage-base-folder-div.png" alt="base template" style="width: 20%; display: block"></a>
 
 !!!**Note**:
 The additional div-insert.tpl file will provide extra dynamicDivs to your page template. 
@@ -160,7 +160,7 @@ The additional div-insert.tpl file will provide extra dynamicDivs to your page t
 - hero: **home-hero.tpl** 
 - navigation: **top-nav.tpl** 
 
-<img src="../../../images/homepage-sub-folder-files.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/homepage-sub-folder-files.png" alt="base template" style="width: 20%; display: block"></a>
 
 Now you have a complete set of folders and .tpl files to build out your homepage.
 
@@ -175,11 +175,11 @@ Next, you will learn how to apply your .tpl files to your dynamic divs. For the 
 
 **Step 2**: Under the **www** folder, click on the **images** folder under the “_” folder. 
 
-<img src="../../../images/homepage-images-folder.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/homepage-images-folder.png" alt="base template" style="width: 100%; display: block"></a>
 
 **Step 3**: Using the right-hand menu, click **Upload**. Drag both images from your local computer into the window and click **Upload**.
 
-<img src="../../../images/homepage-upload-images.png" alt="base template" style="width: 40%; display: block"></a>
+<img src="/static/images/homepage-upload-images.png" alt="base template" style="width: 40%; display: block"></a>
 
 !!!**Note**: 
 For more details on how to upload images to your website in Solodev, read 
@@ -188,7 +188,7 @@ the <a href="/workspace/websites/folders/upload/">Upload</a> article under Manag
 
 **Step 4**: Under **web files**, browse to the **navigation** folder and click on the **top-nav.tpl** file. Copy the code sample below into the editor. When complete, click **Publish**.
 
-<img src="../../../images/homepage-top-nav-code.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/homepage-top-nav-code.png" alt="base template" style="width: 100%; display: block"></a>
 
 ```js
 <div class="bg-primary py-2"></div>
@@ -211,17 +211,17 @@ Started"><strong>Get Started</strong></a>
 
 **Step 5**: Under the **www** folder, click on the **index.stml** file.
 
-<img src="../../../images/homepage-images-menu.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/homepage-images-menu.png" alt="base template" style="width: 20%; display: block"></a>
 
 **Step 6**: In the top dynamic div, click anywhere in the **base-template.tpl** div. Once activated, it will turn blue, indicating that it is ready to have a template applied to it. 
 
 Next, under **web files**, open the **templates** folder and browse to the **navigation** folder. Click on the **top-nav.tpl** file. The tag will change from **base-template.tpl** to **top-nav.tpl**, as shown: 
 
-<img src="../../../images/homepage-top-nav-tpl.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/homepage-top-nav-tpl.png" alt="base template" style="width: 100%; display: block"></a>
 
 Once complete, click **Publish**. After your page reloads, you will see the top navigation appear in your **index.stml** file. 
 
-<img src="../../../images/homepage-top-nav-complete.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/homepage-top-nav-complete.png" alt="base template" style="width: 100%; display: block"></a>
 
 !!!**Note**:
 Solodev provides a rich visual editing experience. The editor renders a preview of your frontend website, but minor differences may occur due to the software’s features and functionality. This can affect the appearance of fonts and images within the editor. You can compare your progress to the live <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">SpaceJet sample site</a>.
@@ -401,21 +401,21 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 
 **Step 2**: Using the right-hand menu, click <a href="/workspace/websites/folders/add-folder/">Add Folder</a>. Under **content**, add folder called **about**. Click **Submit**, when complete.
 
-<img src="../../../images/about-folder-web-files.png" alt="about folder web files" style=" display: block"></a>
+<img src="/static/images/about-folder-web-files.png" alt="about folder web files" style=" display: block"></a>
 
 **Step 3**: Now you will need to add a new .tpl file into the folder you have just created. Under **content**, click on the **about** folder and on the right menu, click <a href="/workspace/websites/folders/add-file/">Add File</a>. Create a new file called **about.tpl** and select **Code** for the **File Type**. Once complete, click **Submit**.
 
-<img src="../../../images/about-file-web-files.png" alt="about file web files" style=" display: block"></a>
+<img src="/static/images/about-file-web-files.png" alt="about file web files" style=" display: block"></a>
 
 **Step 4**: You will also need to add a new .tpl file into the folder listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="/workspace/websites/folders/add-file/">Add File</a>. Create a new file under the folder and select **Code** for the **File Type**. Once complete, click **Submit**:
 
   *	content: **full-width-template.tpl**
 
-<img src="../../../images/full-width-code.png" alt="full-width-code" style=" display: block"></a>
+<img src="/static/images/full-width-code.png" alt="full-width-code" style=" display: block"></a>
 
 **Step 5**: Click on the **www** folder and on the right menu, click <a href="/workspace/websites/folders/add-folder/">Add Folder</a>, and add folder called **about**. Click **Submit**, when complete.
 
-<img src="../../../images/about-folder-www.png" alt="about-folder-www" style=" display: block"></a>
+<img src="/static/images/about-folder-www.png" alt="about-folder-www" style=" display: block"></a>
 
 ### Adding templates to your dynamic divs
 
@@ -469,22 +469,22 @@ This tutorial assumes that you had finished **How to create a homepage template*
 
 **Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/folders/add-folder/">Add Folder</a>. Under **content**, add folder called **privacy**. Click **Submit**, when complete.
 
-<img src="../../../images/content-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/content-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
 **Step 3**: Now you will need to add a new .html file into the folder you have just created. Under **content**, click on the **privacy** folder and on the right menu, click <a href="../../../workspace/websites/folders/add-file/">Add File</a>. Create a new file called **privacy.html**, and select **HTML** for the **File Type**. Once complete, click **Submit**.
 
-<img src="../../../images/content-template-add-file1.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/content-template-add-file1.png" alt="base template" style="width: 20%; display: block"></a>
 
 **Step 4**: You will also need to add a new .tpl files into a folders listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="../../../workspace/websites/folders/add-file/">Add File</a>. Create a new file under each folder, and select **Code** for the **File Type**. Once complete, click **Submit**:
 
 - content: **left-nav-content-template.tpl**
 - navigation: **left-nav.tpl**
 
-<img src="../../../images/content-template-add-file.png" alt="base template" style="width: 25%; display: block"></a>
+<img src="/static/images/content-template-add-file.png" alt="base template" style="width: 25%; display: block"></a>
 
 **Step 5**: Finally click on the **www** folder and on the right menu, click [Add Page](workspace/websites/add-page). Create a new page called **privacy.stml**. Once complete, click **Submit**:
 
-<img src="../../../images/content-template-add-file2.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/content-template-add-file2.png" alt="base template" style="width: 20%; display: block"></a>
 
 Now you have a complete set of folders and .tpl files to build out your content page.
 
@@ -494,7 +494,7 @@ Next, you will apply your .tpl files to your dynamic divs just like you did in t
 
 **Step 1**: Under **web files**, browse to the **templates/content** folder and click on the **left-nav-content-template.tpl** file. Copy the code sample below into the editor. When complete, click **Publish**.
 
-<img src="../../../images/content-template-left-nav.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/content-template-left-nav.png" alt="base template" style="width: 100%; display: block"></a>
 
 ```js
 <div class="container my-5 pb-5" id="maincontent">
@@ -559,39 +559,39 @@ Saving your pages as templates allows for easier updates at a global level.
 
 **Step 2**: Click on **www** folder and select **Add Page** from the right-hand menu. Name the page **sectional-template.stml**. Once complete, click **Submit**.
 
-<img src="../../../images/add-page-templates.jpg" alt="add-page-templates" style="display: block"></a>
+<img src="/static/images/add-page-templates.jpg" alt="add-page-templates" style="display: block"></a>
 
 **Step 3**: Keeping the **sectional-template.stml** file open, browse to **web files** and open the **templates** folder, which includes the base, content, footer, and navigation folders.
 
 Click on the dynamic div in the main canvas of your newly created **sectional-template.stml** page. 
 
-<img src="../../../images/dynamic-div-template.jpg" alt="dynamic-div-template" style="display: block"></a>
+<img src="/static/images/dynamic-div-template.jpg" alt="dynamic-div-template" style="display: block"></a>
 
 **Step 4**: The dynamic div will turn light blue, indicating that you can apply files to it. From the left-hand menu, click on the **base-template.tpl** file, so the dynamic div replaced by the base template. Once complete, click **Publish** in the top right corner.
 
-<img src="../../../images/base-template-template.jpg" alt="base-template-templatee" style="display: block"></a>
+<img src="/static/images/base-template-template.jpg" alt="base-template-templatee" style="display: block"></a>
 
 **Step 5**: On the page, select the top dynamic div, and click on the **top-nav.tpl** file from the left-hand menu.
 
-<img src="../../../images/topnav-template.jpg" alt="topnav-template" style="display: block"></a>
+<img src="/static/images/topnav-template.jpg" alt="topnav-template" style="display: block"></a>
 
 **Step 6**: Following the previous step, select the second dynamic div, and click on the **full-width-template.tpl** file from the left navigation. Once complete, click **Publish**.
 
-<img src="../../../images/full-width-template.jpg" alt="full-width-template" style="display: block"></a>
+<img src="/static/images/full-width-template.jpg" alt="full-width-template" style="display: block"></a>
 
 **Step 7**: Finally, select the bottom dynamic div, and click on the **footer.tpl** file from the left-hand menu.
 
-<img src="../../../images/footer-template.jpg" alt="footer-template" style="display: block"></a>
+<img src="/static/images/footer-template.jpg" alt="footer-template" style="display: block"></a>
 
 **Step 8**: Once you have all your elements assembled in your template page, you can save the page as a template. 
 
 To do this, use the page manager menu at the right and open the **Advanced** accordion.
 
-<img src="../../../images/advance-accordion.jpg" alt="advance-accordion" style="display: block"></a>
+<img src="/static/images/advance-accordion.jpg" alt="advance-accordion" style="display: block"></a>
 
 **Step 9**: At the bottom of the Advanced menu, click the **“is Template”** checkbox. Once complete, click **Publish** at the top of the page.
 
-<img src="../../../images/is-template.jpg" alt="is-template" style="display: block"></a>
+<img src="/static/images/is-template.jpg" alt="is-template" style="display: block"></a>
 
 !!!Note:
 If you need to make any adjustments to the sectional template you just created, you can locate it under the **www** folder. Bear in mind that any new changes will not be applied to the pages you previously created using this template.
@@ -603,11 +603,11 @@ If you need to make any adjustments to the sectional template you just created, 
 
 **Step 11**: On the Add Page modal, give your page a **name** and a **title**. You will also see a dropdown called **Templates**. To use an available template, click on the dropdown and select the **sectional-template.stml** you just created. Click **Submit**.
 
-<img src="../../../images/add-page-template.jpg" alt="add-page-template" style="display: block"></a>
+<img src="/static/images/add-page-template.jpg" alt="add-page-template" style="display: block"></a>
 
 **Step 12**: Go to your new page and you will see it already contains the elements you added to the **sectional-template.stml**.
 
-<img src="../../../images/departments.jpg" alt="departments" style="display: block"></a>
+<img src="/static/images/departments.jpg" alt="departments" style="display: block"></a>
 
 ### How to save a content page as a template
 
@@ -615,31 +615,31 @@ If you need to make any adjustments to the sectional template you just created, 
 
 **Step 2**: Click on **www** and select Add Page from the right-side menu. Name the page **interior-template.stml**. Click **Submit**.
 
-<img src="../../../images/add-page-interior-templates.jpg" alt="add-page-interior-templates" style="display: block"></a>
+<img src="/static/images/add-page-interior-templates.jpg" alt="add-page-interior-templates" style="display: block"></a>
 
 **Step 3**: Follow steps 3 to 5 from the "<a href="/tutorials/cms/add-page-template/#how-to-save-a-sectional-page-as-a-template">How to save a sectional page as a template</a>" tutorial.
 
-<img src="../../../images/topnav-content-template.jpg" alt="topnav-content-template" style="display: block"></a>
+<img src="/static/images/topnav-content-template.jpg" alt="topnav-content-template" style="display: block"></a>
 
 **Step 4**: Click on the second dynamic div and click on the **left-nav-content-template.tpl** file from the left navigation.
 
-<img src="../../../images/add-left-content-templates.jpg" alt="add-left-content-templates" style="display: block"></a>
+<img src="/static/images/add-left-content-templates.jpg" alt="add-left-content-templates" style="display: block"></a>
 
 **Step 5**: Follow step 7 from the "<a href="/tutorials/cms/add-page-template/#how-to-save-a-sectional-page-as-a-template">How to save a sectional page as a template</a>" tutorial to add a footer. Click **Publish**.
 
-<img src="../../../images/add-footer-left-templates.jpg" alt="add-footer-left-templates" style="display: block"></a>
+<img src="/static/images/add-footer-left-templates.jpg" alt="add-footer-left-templates" style="display: block"></a>
 
 **Step 6**: Select the dynamic div corresponding to the left navigation section and click on the **left-nav.tpl** file from the left navigation. Click **Publish**.
 
-<img src="../../../images/leftnav-content-template.jpg" alt="leftnav-content-template" style="display: block"></a>
+<img src="/static/images/leftnav-content-template.jpg" alt="leftnav-content-template" style="display: block"></a>
 
 **Step 7**: Once you have all the elements you want to have in the template page, we can add the page as a template. To do this, go to the bottom of the right-hand section of your page and click on the **Advanced** accordion.
 
-<img src="../../../images/advance-accordion-content.jpg" alt="advance-accordion-content" style="display: block"></a>
+<img src="/static/images/advance-accordion-content.jpg" alt="advance-accordion-content" style="display: block"></a>
 
 **Step 8**: At the bottom of the Advanced section, click on the **“is Template”** checkbox, then click Publish at the top of the page.
 
-<img src="../../../images/is-template.jpg" alt="is-template" style="display: block"></a>
+<img src="/static/images/is-template.jpg" alt="is-template" style="display: block"></a>
 
 !!!Note:
 If you need to make any adjustments to the interior template you just created, you can locate it under the **www** folder. Just bear in mind that any new changes will not be applied to the pages you previously created using this template.
@@ -651,8 +651,8 @@ If you need to make any adjustments to the interior template you just created, y
 
 **Step 10**: On the Add Page modal, give your page a **Name** and a **Title**. You will also see a menu called **Templates**. To use an available template, click on the dropdown and select the **interior-template.stml** you just created. Once complete, click **Submit**.
 
-<img src="../../../images/add-page-content-templates.jpg" alt="add-page-content-templates" style="display: block"></a>
+<img src="/static/images/add-page-content-templates.jpg" alt="add-page-content-templates" style="display: block"></a>
 
 **Step 11**: Go to your new page and you will see it already contains the elements you added to the **sectional-template.stml**.
 
-<img src="../../../images/interior-template-template.jpg" alt="interior-template-template" style="display: block"></a>
+<img src="/static/images/interior-template-template.jpg" alt="interior-template-template" style="display: block"></a>

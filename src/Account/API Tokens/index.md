@@ -4,7 +4,7 @@ Add, store, and manage API tokens associated with your account, allowing you to 
 
 Existing tokens are listed in the table on the API tokens dashboard. Each token is shown with specific details, including the token name, the API key, and the status. From the main dashboard, you can manage the status of your API token, reset it, or delete it.
 
-<img src="../../../images/account-api-tokens.png" alt="api tokens" style="width: 100%; display: block"></a>
+<img src="/static/images/account-api-tokens.png" alt="api tokens" style="width: 100%; display: block"></a>
 
 !!!Tip:
 Most software APIs require the use of an API token. To connect and manage apps and services with your API tokens using Solodev, please review the <a href="/admin/api/#api">API section</a>, and the more advanced features in the <a href="/admin/api/api-tokens/#api-tokens">Solodev Cloud</a> documentation. 
@@ -23,7 +23,7 @@ Delete Token | Remove a token from your account.
 
 Add a custom API token to your account and manage it from your dashboard table. 
 
-<img src="../../../images/account-add-token.png" alt="add token" style="width: 40%; display: block"></a>
+<img src="/static/images/account-add-token.png" alt="add token" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -37,7 +37,7 @@ Once you have entered your new username, click **Submit**.
 
 Force an API token to reset by clicking the **Reset** link at the dashboard table's far right of each row. 
 
-<img src="../../../images/account-delete.png" alt="reset token" style="width: 40%; display: block"></a>
+<img src="/static/images/account-delete.png" alt="reset token" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

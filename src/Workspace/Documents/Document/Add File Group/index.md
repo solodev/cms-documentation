@@ -7,7 +7,7 @@ A file group can be used to:
 - Display a list of files of a file group and their content on the front end of a website.
 - Create an internal document repository where users can upload and share an array of file types grouped by type, category, relevance, date, etc.
 
-<img src="../../../../images/folders/add-file-group.jpg" alt="Add File Group" style="width: 40%;"></a>
+<img src="/static/images/folders/add-file-group.jpg" alt="Add File Group" style="width: 40%;"></a>
 
 **Name** | **Description**
 :--- | ---

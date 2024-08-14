@@ -1,6 +1,6 @@
 Click on any of the members next to a website name to add or remove website members and manage their roles. 
 
-<p><img src="../../../images/permissions/general-permissions.jpg" alt="Permissions modal view" style="width: 420px;"></p>
+<p><img src="/static/images/permissions/general-permissions.jpg" alt="Permissions modal view" style="width: 420px;"></p>
 
 **Name** | **Description** 
 :--- | ---

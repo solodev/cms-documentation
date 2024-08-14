@@ -2,7 +2,7 @@
 
 The config category of settings applies to all websites in the CMS system. Configure settings for payment options, SSL, email, and more.
 
-<p><img src="../../../images/admin/settings/config/config.jpg" alt="Config list" style="width: 80%;"></p>
+<p><img src="/static/images/admin/settings/config/config.jpg" alt="Config list" style="width: 80%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -26,7 +26,7 @@ The config category of settings applies to all websites in the CMS system. Confi
 
 Set the name and address associated with your organization. 
 
-<img src="../../../images/organizationsettings.jpg" alt="organizationsettings" style="width: 80%; display: block"></a>
+<img src="/static/images/organizationsettings.jpg" alt="organizationsettings" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -37,7 +37,7 @@ Organization Address | Standard physical and/or postal location of the organizat
 
 Set a professional email address for your organization and send all outgoing emails via the SMTP server to ensure secure delivery. 
 
-<img src="../../../images/email.jpg" alt="email" style="width: 80%; display: block"></a>
+<img src="/static/images/email.jpg" alt="email" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -53,7 +53,7 @@ Manage the SSL connection.
 
 (Secure Sockets Layer) is the standard security technology for establishing an encrypted link between a web server and a browser. This link ensures that all data between the web server and browsers remain private and integral.
 
-<img src="../../../images/ssl.jpg" alt="ssl" style="width: 80%; display: block"></a>
+<img src="/static/images/ssl.jpg" alt="ssl" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -63,7 +63,7 @@ Force SSL | Mark this option to force an HTTPS connection to your website.
 
 Determine how long files or pages are stored so that future requests can be served faster. The default values are 86400s or one day.
 
-<img src="../../../images/cache.jpg" alt="cache" style="width: 80%; display: block"></a>
+<img src="/static/images/cache.jpg" alt="cache" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -74,7 +74,7 @@ File Cache | Set the maximum age in seconds that CMS files are stored in the cac
 
 Track when users click on an external link to leave your website or track engagement when a user clicks on a document or other asset. Both can be used with web analytics to help you follow patterns and trends among users.
 
-<img src="../../../images/clicktracking.jpg" alt="clicktracking" style="width: 80%; display: block"></a>
+<img src="/static/images/clicktracking.jpg" alt="clicktracking" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -85,7 +85,7 @@ Document Click Tracking | Track when users click on-site documents.
 
 Establish rules for a variety of resources within the CMS.
 
-<img src="../../../images/rules.jpg" alt="rules" style="width: 80%; display: block"></a>
+<img src="/static/images/rules.jpg" alt="rules" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -99,7 +99,7 @@ Timezone | Set the timezone of the CMS system.
 
 If a website built in Solodev is configured to use a CloudFront CDN, you can invalidate a cache on page publishing once AWS keys are specified. 
 
-<img src="../../../images/aws.jpg" alt="aws" style="width: 80%; display: block"></a>
+<img src="/static/images/aws.jpg" alt="aws" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -110,7 +110,7 @@ AWS Secret | Enter secret access key.
 
 Manage your Google access.
 
-<img src="../../../images/google.jpg" alt="google" style="width: 80%; display: block"></a>
+<img src="/static/images/google.jpg" alt="google" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -125,7 +125,7 @@ The spam keyword list is a built-in filtering feature that will help minimize fo
 Only Solodev admins will be able to access the Spam Keyword List feature.
 !!!
 
-<p><img src="../../../images/admin/settings/config/spam-keyword-list.jpg" alt="Spam Keyword List" style="width: 60%;"></p>
+<p><img src="/static/images/admin/settings/config/spam-keyword-list.jpg" alt="Spam Keyword List" style="width: 60%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -135,7 +135,7 @@ Spam Keyword List | Enter the spam keyword list. Each entry should be included o
 
 An IP quality score is used to analyze IP addresses, phone numbers, email addresses, and URLs/domains to identify sophisticated bad actors or high-risk behaviors from visitors to your website.
 
-<img src="../../../images/ipqualityscore.jpg" alt="ipqualityscore" style="width: 80%; display: block"></a>
+<img src="/static/images/ipqualityscore.jpg" alt="ipqualityscore" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -145,7 +145,7 @@ IP Quality Score Key | Enter the IP quality score key.
 
 Solodev CMS allows you to use Salesforce - CRM platform. Manage its features.
 
-<img src="../../../images/salesforce.jpg" alt="salesforce" style="width: 80%; display: block"></a>
+<img src="/static/images/salesforce.jpg" alt="salesforce" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -160,7 +160,7 @@ Sandbox | Enable this mode to perform test activities.
 
 Solodev CMS allows you to use Wowza - a streaming engine. Manage its features.
 
-<img src="../../../images/wowza.jpg" alt="wowza" style="width: 80%; display: block"></a>
+<img src="/static/images/wowza.jpg" alt="wowza" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -173,7 +173,7 @@ Wowza Host| Enter the Wowza Host address.
 
 Process and accept payments on your website through settings in Solodev CMS. Test payment processing in sandbox mode, and remove sandbox mode when testing is completed, and you are ready to process payments. Choose from multiple payment gateway options. Also, you can decide whether to accept AMEX or Discover cards and execute the setting that works for you.
 
-<img src="../../../images/payment.jpg" alt="payment" style="width: 80%; display: block"></a>
+<img src="/static/images/payment.jpg" alt="payment" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -191,7 +191,7 @@ Sandbox Mode | EEnable this mode to test payment processing. You can turn the te
 
 Customize task labels for workflows and display overall task status.
 
-<img src="../../../images/tasks.jpg" alt="tasks" style="width: 80%; display: block"></a>
+<img src="/static/images/tasks.jpg" alt="tasks" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -206,7 +206,7 @@ Display Overall Task Status | Overall task status can be displayed. To do that, 
 
 Manage SSO. It permits a user to use one login credential - for example, a username and password - to access multiple applications.
 
-<img src="../../../images/sso.jpg" alt="sso" style="width: 80%; display: block"></a>
+<img src="/static/images/sso.jpg" alt="sso" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

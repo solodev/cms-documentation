@@ -16,22 +16,22 @@ Many of the instructions in this lesson will repeat steps from the previous <a h
 
 **Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/folders/add-folder/">Add Folder</a>. Under **content**, add folder called **privacy**. Click **Submit**, when complete.
 
-<img src="../../../images/content-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/content-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
 **Step 3**: Now you will need to add a new .html file into the folder you have just created. Under **content**, click on the **privacy** folder and on the right menu, click <a href="../../../workspace/websites/folders/add-file/">Add File</a>. Create a new file called **privacy.html**, and select **HTML** for the **File Type**. Once complete, click **Submit**.
 
-<img src="../../../images/content-template-add-file1.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/content-template-add-file1.png" alt="base template" style="width: 20%; display: block"></a>
 
 **Step 4**: You will also need to add a new .tpl files into a folders listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="../../../workspace/websites/folders/add-file/">Add File</a>. Create a new file under each folder, and select **Code** for the **File Type**. Once complete, click **Submit**:
 
 - content: **left-nav-content-template.tpl**
 - navigation: **left-nav.tpl**
 
-<img src="../../../images/content-template-add-file.png" alt="base template" style="width: 25%; display: block"></a>
+<img src="/static/images/content-template-add-file.png" alt="base template" style="width: 25%; display: block"></a>
 
 **Step 5**: Finally click on the **www** folder and on the right menu, click [Add Page](workspace/websites/add-page). Create a new page called **privacy.stml**. Once complete, click **Submit**:
 
-<img src="../../../images/content-template-add-file2.png" alt="base template" style="width: 20%; display: block"></a>
+<img src="/static/images/content-template-add-file2.png" alt="base template" style="width: 20%; display: block"></a>
 
 Now you have a complete set of folders and .tpl files to build out your content page.
 
@@ -41,7 +41,7 @@ Next, you will apply your .tpl files to your dynamic divs just like you did in t
 
 **Step 1**: Under **web files**, browse to the **templates/content** folder and click on the **left-nav-content-template.tpl** file. Copy the code sample below into the editor. When complete, click **Publish**.
 
-<img src="../../../images/content-template-left-nav.png" alt="base template" style="width: 100%; display: block"></a>
+<img src="/static/images/content-template-left-nav.png" alt="base template" style="width: 100%; display: block"></a>
 
 ```js
 <div class="container my-5 pb-5" id="maincontent">

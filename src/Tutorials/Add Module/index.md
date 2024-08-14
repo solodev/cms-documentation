@@ -22,7 +22,7 @@ The Solodev module system offers two types of modules:
 
 **Step 2**.	Fill out the Add Module form.
 
-<img src="../../../images/add-module.png" alt="base template" style="display: block"></a>
+<img src="/static/images/add-module.png" alt="base template" style="display: block"></a>
 
 **Name** | **Description**
 :--- | ---
@@ -151,10 +151,10 @@ Provided below is a sample of a detail code. For more information on shortcodes,
 
 **Step 1**.	Go to the module and click modify.
 
-<img src="../../../images/modify-calendar.png" alt="base template" style="display: block"></a>
+<img src="/static/images/modify-calendar.png" alt="base template" style="display: block"></a>
 
 **Step 2**.	On the **Website Properties** accordion, under **Detail Page Template**, click **Browse**, select the detail page you want the entries to show on.
 
 **Step 3**.	On **Detail Folder Location**, from the tree select the folder your detail page is on and click **Submit**.
 
-<img src="../../../images/modify-detail.png" alt="base template" style="display: block"></a>
+<img src="/static/images/modify-detail.png" alt="base template" style="display: block"></a>

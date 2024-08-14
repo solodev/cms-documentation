@@ -2,7 +2,7 @@
 
 Create groups in your CMS, add members to your group, and manage roles and permissions. To view or modify a group's details, click on the group name in the main table.
 
-<img src="../../../images/groups.png" alt="groups" style="width: 100%; display: block"></a>
+<img src="/static/images/groups.png" alt="groups" style="width: 100%; display: block"></a>
 
 
 
@@ -17,7 +17,7 @@ Create groups in your CMS, add members to your group, and manage roles and permi
 Click on any Member icons in the table to add or remove members and manage their roles. 
 
 
-<img src="../../../images/permissions2.png" alt="permissions2" style="width: 40%; display: block"></a>
+<img src="/static/images/permissions2.png" alt="permissions2" style="width: 40%; display: block"></a>
 
 
 

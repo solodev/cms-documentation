@@ -2,7 +2,7 @@ Manage your documents using different options, like adding a file or folder.
 
 Find the document by using the search field at the top.
 
-<img src="../../../images/manage-documents.jpg" alt="manage-documents"></a>
+<img src="/static/images/manage-documents.jpg" alt="manage-documents"></a>
 
 **Name** | **Description**
 :--- | ---

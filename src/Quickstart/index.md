@@ -1,7 +1,7 @@
 #
 
 <div style="display: flex; align-items: center; margin-bottom: 2rem;">
-  <img src="../../../images/logo.png" alt="Solodev Logo" style="width: 80px;">
+  <img src="/static/images/logo.png" alt="Solodev Logo" style="width: 80px;">
   <span style="font-size: 2.5rem; padding-left: 1.5rem; font-weight: 600;">Solodev</span>
 </div>
 

@@ -2,7 +2,7 @@ In your Support section, you can manage tasks assigned to teams and individuals,
 
 There are two main sections in your Support. Each can be accessed using the left navigation:
 
-<!-- <img src="../../../images/help1.png" alt="help" style="width: 20%; display: block"></a> -->
+<!-- <img src="/static/images/help1.png" alt="help" style="width: 20%; display: block"></a> -->
 
 **Name** | **Description** 
 :--- | ---

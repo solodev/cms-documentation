@@ -2,7 +2,7 @@
 
 Modify form entries, including displayed fields, email settings, table schema, relationships, etc.
 
-<img src="../../../../images/form-overview3.jpg" alt="form-overview3" style="width: 50%; display: block"></a>
+<img src="/static/images/form-overview3.jpg" alt="form-overview3" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -14,7 +14,7 @@ Display/Hide Columns | Select the option to display/hide columns on the form. Us
 
 Browse and select email options for your data table.
 
-<img src="../../../../images/form-overview7.jpg" alt="form-overview7" style="width: 50%; display: block"></a>
+<img src="/static/images/form-overview7.jpg" alt="form-overview7" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -31,7 +31,7 @@ Auto Assign Users | You can use this option to auto-assign users.
 
 Access and define advanced options for forms and form entries.
 
-<img src="../../../../images/form-overview8.jpg" alt="form-overview8" style="width: 50%; display: block"></a>
+<img src="/static/images/form-overview8.jpg" alt="form-overview8" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -59,7 +59,7 @@ Delete Module | To remove your entry, type DELETE in all caps into the field and
 
 Here you can manage your database table schema.
 
-<img src="../../../../images/form-overview5.jpg" alt="form-overview5" style="width: 50%; display: block"></a>
+<img src="/static/images/form-overview5.jpg" alt="form-overview5" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -75,7 +75,7 @@ Default | Use this option to make the column default.
 
 Here you can relate the data table to other modules.
 
-<img src="../../../../images/form-overview4.jpg" alt="form-overview4" style="width: 50%; display: block"></a>
+<img src="/static/images/form-overview4.jpg" alt="form-overview4" style="width: 50%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -89,7 +89,7 @@ Field | Here, you can select a field.
 
 Here you can find API Info that can be used in the <a href="/admin/api">API section</a> to connect.
 
-<img src="../../../../images/form-overview6.jpg" alt="form-overview6" style="width: 50%; display: block"></a>
+<img src="/static/images/form-overview6.jpg" alt="form-overview6" style="width: 50%; display: block"></a>
 
 ## Confirm 
 

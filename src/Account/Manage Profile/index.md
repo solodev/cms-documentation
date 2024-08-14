@@ -4,7 +4,7 @@
 
 Use the links in the lower left corner of your Dashboard to manage your profile or log out from Solodev CMS.  
 
-<p><img src="../../../images/dashboard/dashboard-profile.png" alt="Profile Flyout" style="width: 20%;"></p>
+<p><img src="/static/images/dashboard/dashboard-profile.png" alt="Profile Flyout" style="width: 20%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -14,7 +14,7 @@ Log Out | Log out from Solodev CMS. -->
 
 Update your account details, including your name and phone number, as well as your specific timezone and business title. 
 
-<img src="../../../images/account-manage-profile.png" alt="manage profile" style="width: 40%; display: block"></a>
+<img src="/static/images/account-manage-profile.png" alt="manage profile" style="width: 40%; display: block"></a>
 
 !!!Note:
 Only your first and last names are required. All other fields are optional. 
@@ -32,7 +32,7 @@ Title | List your business title, such as “Director of Marketing,” etc. (opt
 
 Add a custom photo, image, or graphic to your account profile. 
 
-<img src="../../../images/account-profile-image.png" alt="profile image" style="width: 20%; display: block"></a>
+<img src="/static/images/account-profile-image.png" alt="profile image" style="width: 20%; display: block"></a>
 
 !!!Tip:
 Remember that this is the image you and your team members will see when collaborating in your CMS. Your username sometimes accompanies it, but not always. Consider making it intuitive, like a headshot or a unique graphic that is easy to identify.
@@ -47,7 +47,7 @@ Replace Image | If you already have a profile image, click the camera icon and s
 
 Convert your headshot photo into a realistic 3-D avatar with custom attributes.
 
-<img src="../../../images/account-create-avatar.png" alt="create avatar" style="width: 40%; display: block"></a>
+<img src="/static/images/account-create-avatar.png" alt="create avatar" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
