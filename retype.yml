@@ -16,10 +16,10 @@ links:
   icon: home-fill
   target: blank
 - text: Cloud
-  link: https://cms.solodev.net/
+  link: https://cloud.solodev.net/
   icon: cloud
 - text: CMS
-  link: https://cloud.solodev.net/
+  link: https://cms.solodev.net/
   icon: container
 
 outbound:
