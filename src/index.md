@@ -8,7 +8,7 @@ Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.c
 
 ## Quickstart
 
-<div class="row">
+<div class="row" style="margin-bottom: 2rem;">
   <div class="col">
     <div class="card text-center">
       <img src="/static/images/logos/enterprise-logo.jpg" alt="CMS Enterprise Logo">
@@ -52,11 +52,11 @@ Need help with a custom enterprise deployment with unique requirements? [:icon-m
 
 ## Themes
 
-<div class="border p-4" style="height: 255px; margin-bottom: 20px;">
-  <div style="width: 40%; float: left;">
-    <p><img src="/static/images/themes/micro-theme.jpg" alt="Micro Theme"></p>
+<div class="card-lg" style="margin-bottom: 1.5rem;">
+  <div style="width: 40%;">
+    <img src="/static/images/themes/micro-theme.jpg" alt="Micro Theme">
   </div>
-  <div style="width: 50%; float: left; padding-left: 30px;">
+  <div style="width: 50%; padding-left: 1.5rem">
     <h2><a href="/themes/micro">Micro Theme</a></h2>
     <p class="mt-3">Create a lightweight, one-page website in seconds that's beautiful on every screen. Think big with a one-page template with everything you need!</p>
     <a href="https://solodev-micro.s3.amazonaws.com/releases/micro-latest.zip" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;"><span style="padding-right: .7rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span> Download Theme</a>
@@ -67,7 +67,7 @@ Need help with a custom enterprise deployment with unique requirements? [:icon-m
 
 You can easily add a new website to your CMS by following a few simple steps. To get started, [click here](/workspace/websites/add-website).
 
-<p><img src="/static/images/dashboard/websites.jpg" alt="Solodev CMS Websites"></p>
+<p><img src="/static/images/dashboard/websites.jpg" alt="Solodev CMS Websites" style="width: 20%;"></p>
 
 ## CMS Overview
 
@@ -160,5 +160,17 @@ General Support | To report a bug, submit a feature request, ask a technical que
   .card p.content {
     height: 100px;
     font-size: .9rem;
+  }
+  .card-lg {
+    border: 1px solid #dee2e6;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, .15);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .card-lg h2 {
+    margin-top: 0;
+    font-size: 1.4rem;
   }
 </style>

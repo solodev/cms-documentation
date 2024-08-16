@@ -63,7 +63,7 @@ Coming soon...
 
 ## Next Steps
 
-### Add your First Website
+### Add your first website
 
 Please [follow this link](/workspace/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
 
