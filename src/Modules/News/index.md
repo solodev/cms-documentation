@@ -12,10 +12,11 @@
 
 Keep your users informed about your company happenings or press releases with the News Desk. Complete with categories, the News Desk can be used in multiple locations throughout your website.
 
-- **Optimized data for SEO.** Humans aren't the only ones you want reading your company's news articles. Optimize your site's search performance by adding relevant meta descriptions and keywords associated with your news posts.
-- **Sort by category and tag.** Help your customers find news related to them by sorting your announcements and press releases by category. You can even go one step further and add tags to organize news stories.
-- **Feature images and video.** Images and video help attract media attention by giving journalists more information about your company's biggest news releases. The News Desk allows you to easily add those assets into your important press releases.
+## Prerequisites
+
+- Have a [Solodev CMS](/quickstart).
+- Have a [Website](/workspace/websites/add-website/).
 
 ## Support
 
-Support for Blog Module is handled directly through Solodev's global help desk. For more information regarding support queries, go to <a href="https://www.solodev.com/" target="_blank" rel="noopener noreferrer">www.solodev.com</a>.
+Support for News Module is handled directly through Solodev's global help desk. For more information regarding support queries, go to [www.solodev.com](https://www.solodev.com/).

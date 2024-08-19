@@ -1,7 +1,7 @@
 #
 
 <div style="display: flex; align-items: center; justify-content: space-between; padding: 2rem 1.5rem; margin-bottom: 2rem; background-color: #eef6ff;">
-  <div  style="display: flex; align-items: center; justify-content: start;">
+  <div style="display: flex; align-items: center; justify-content: start;">
     <img src="https://www.solodev.com/file/16b08fea-ba18-11ea-904e-0eb0590535cd/Solodev_Module_Icons_Blog-4b945c31.jpg" alt="Blog Icon" style="width: 80px;">
     <div>
       <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">Blog</h1>
