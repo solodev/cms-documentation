@@ -9,3 +9,7 @@
     </div>
   </div>
 </div>
+
+## Prerequisites
+
+- Have a [Solodev CMS](/quickstart).
