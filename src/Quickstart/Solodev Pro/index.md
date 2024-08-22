@@ -187,7 +187,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 1. You can set additional options for your stack, like notification options and a stack policy. For more information, <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-add-tags.html" target="_blank">click here :icon-link-external:</a>.
 
-<p><img src="/static/images/quickstart/micro/micro-stack-advanced.jpg" alt="CMS Pro advanced options" style="width: 50%;"></p>
+<p><img src="/static/images/quickstart/stack-advanced.jpg" alt="CMS Pro advanced options" style="width: 50%;"></p>
 
 2. Click <span class="text-orange">**Next**</span>.
 
@@ -197,7 +197,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 2. Acknowledge the AWS CloudFormation terms.
 
-<p><img src="/static/images/pro/pro-stack-capabilities.jpg" alt="CMS Pro capabilities" style="width: 62%;"></p>
+<p><img src="/static/images/quickstart/stack-capabilities.jpg" alt="CMS Pro capabilities" style="width: 62%;"></p>
 
 3. Click <span class="text-orange">**Submit**</span>.
 
