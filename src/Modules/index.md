@@ -27,3 +27,10 @@ Modules are versatile components designed to enhance and extend the core functio
   <p style="font-size: .9rem; height: 70px;">Showcase products, workspace, or other important aspects of your organization.</p>
   <p style="margin-top: 1rem;"><a href="/modules/slider" style="background-color: #0488ce; color: #fff; padding: .6rem 2.5rem; font-size: .9rem; border-radius: 20px;">MORE INFO</a></p>
 </div>
+
+<div style="width: 23%; margin: 1rem 0 2rem; margin-top: 1rem; display: flex; align-items: center; justify-content: center; flex-direction: column; float: left; padding: 1rem;" class="text-center border">
+  <img src="https://www.solodev.com/file/f9652529-ba4c-11ea-904e-0eb0590535cd/Solodev_Module_Icons_MediaCenter-9dbc50fa.jpg" alt="Slider Logo" style="width: 80px;">
+  <h2 style="margin-top: 2rem; font-size: 1.4rem;"><a href="/modules/slider">Quick Links</a></h2>
+  <p style="font-size: .9rem; height: 70px;">Convenient shortcuts to allow users to access important information with just one click.</p>
+  <p style="margin-top: 1rem;"><a href="/modules/slider" style="background-color: #0488ce; color: #fff; padding: .6rem 2.5rem; font-size: .9rem; border-radius: 20px;">MORE INFO</a></p>
+</div>

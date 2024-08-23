@@ -1,7 +1,7 @@
 #
 
 <div style="display: flex; align-items: center; justify-content: space-between; padding: 2rem 1.5rem; margin-bottom: 2rem; background-color: #eef6ff;">
-  <div  style="display: flex; align-items: center; justify-content: start;">
+  <div style="display: flex; align-items: center; justify-content: start;">
     <img src="https://www.solodev.com/file/4bac0fa9-ba4f-11ea-904e-0eb0590535cd/Solodev_Module_Icons_News-e04fd354.jpg" alt="News Icon" style="width: 80px;">
     <div>
       <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">News</h1>
@@ -16,6 +16,10 @@ Keep your users informed about your company happenings or press releases with th
 
 - Have a [Solodev CMS](/quickstart).
 - Have a [Website](/workspace/websites/add-website/).
+
+!!!Note: 
+To learn how to add a Module in your CMS, please visit [install a module](/workspace/modules/add-module/).
+!!!
 
 ## Support
 
