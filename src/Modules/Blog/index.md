@@ -19,7 +19,7 @@ The Solodev Blog Module lets you schedule when content goes live, keeping your t
 - Have a [Website](/workspace/websites/add-website/).
 
 !!!Note: 
-To learn how to add a Module in your CMS, please visit [install a module](/workspace/modules/add-module/).
+For step-by-step instructions on adding a Module in your CMS, please visit [Add a Module](/workspace/modules/add-module/).
 !!!
 
 ## Support

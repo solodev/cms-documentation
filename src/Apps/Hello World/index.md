@@ -17,6 +17,14 @@ Increases visitor and customer satisfaction through accessible technology. Solod
 
 Install "Hello World" and learn how apps can be constructed within Solodev. Reverse engineer the app's slim framework so that you can build your own apps.
 
+## Prerequisites
+
+- Have a [Solodev CMS](/quickstart).
+
+!!!Note: 
+For step-by-step instructions on adding an App in your CMS, please visit [Add an App](/admin/settings/add-app/).
+!!!
+
 ## Support
 
 Support for Hello World is handled directly through Solodev's global help desk. For more information regarding support queries, go to <a href="https://www.solodev.com/" target="_blank" rel="noopener noreferrer">www.solodev.com</a>.
