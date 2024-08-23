@@ -20,6 +20,26 @@
 For step-by-step instructions on adding a Module in your CMS, please visit [Add a Module](/workspace/modules/add-module/).
 !!!
 
+## Create Quick Links
+
+Steps coming soon...
+
+### Shortcodes
+
+You will need the following shortcodes to successfully add a Blog to your website:
+
+- [repeater](/shortcodes/module/#repeater) - prints the fields from the blog module form.
+
+```js
+[repeater id="" limit="0, 4" display_type="forum"]
+```
+
+- [get_asset_file_url](/shortcodes/core/get-asset-file-url/) - returns the URL path to the specified asset file in the database.
+
+```js
+<img alt="Image alt" class="img-fluid" src="[get_asset_file_url id={{blog_image}}]" />
+```
+
 ## Support
 
 Support for Quick Links Module is handled directly through Solodev's global help desk. For more information regarding support queries, go to [www.solodev.com](https://www.solodev.com/).
