@@ -1,6 +1,6 @@
 # Export
 
-Export your entries.
+Exporting module entries is a straightforward process that allows you to back up, share, or migrate data from your modules. Whether you're moving data to another system or simply need a record of your entries, exporting ensures that all your important information is preserved and easily accessible.
 
 ## Prerequisites 
 
