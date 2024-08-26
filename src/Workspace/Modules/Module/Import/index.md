@@ -19,9 +19,17 @@ Import entries by preparing the file in .CSV format. To leave the database empty
 **Name** | **Description** 
 :--- | ---
 Browse | Select the `.csv` file you want to import.
-Empty DB | Mark this option if you want to have the current database empty.
+Empty DB | Select this option if you want to empty the current database.
 Submit | Click **Submit** button to proceed.
 
 !!!Note:
-If you want new entries, make sure not to include the `calendar_entry_id` or the `datatable_entry_id` columns in your `.csv`. If your module already contains entries, ensure that the `ids` in your `.csv` file match the existing ones in the module.
+If you want new entries, make sure **not to** include the `calendar_entry_id` column in your `.csv`. If your module already contains entries, ensure that the `ids` in your `.csv` file match the existing ones in the module.
+!!!
+
+## Update Entries
+
+To update the entries on your module, add the `calendar_entry_id` column or make sure this column exists. 
+
+!!!warning Important:
+Make sure the `ids` from the `csv` file match those on the module. If they don't, it could unintentionally update the wrong entries.
 !!!
