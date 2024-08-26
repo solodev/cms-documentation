@@ -355,7 +355,6 @@ If you do not have a Key Pair, you will need to create one in your Key Pair Cons
 
 {% endtabs %}
 
-
 <!-- 1. **Choose an Action**
 
 <p><img src="/static/images/pro/cms-pro-launch.jpg" alt="CMS Pro Launch CloudFormation" style="width: 70%; margin-bottom: 20px;"></p>

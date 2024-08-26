@@ -2,7 +2,7 @@
 
 <div style="display: flex; align-items: center; justify-content: space-between; padding: 2rem 1.5rem; margin-bottom: 2rem; background-color: #eef6ff;">
   <div style="display: flex; align-items: center; justify-content: start;">
-    <img src="https://www.solodev.com/file/08415170-ba53-11ea-904e-0eb0590535cd/Solodev_Module_Icons_EventHub-136fb46d.jpg" alt="Calendar Icon" style="width: 80px;">
+    <img src="/static/images/logos/calendar-module-icon.jpg" alt="Calendar Icon" style="width: 80px;">
     <div>
       <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">Calendar</h1>
       <p style="padding-left: 2rem; margin-bottom: 0;">With the Event Module, your customers won't miss your next big event.</p>
@@ -23,7 +23,37 @@ For step-by-step instructions on adding a Module in your CMS, please visit [Add 
 
 ## Create Calendar
 
+These steps will guide you through the process of installing Calendar Module and adding it to your page.
+
+{% tabs %}
+
+{% tab title="Install" %}
+
+1. Download the **Calendar** package (Coming soon).
+
+2. [Add the module](/workspace/modules/add-module/) to your CMS.
+
+<img src="/static/images/modules/calendar/add-calendar.jpg" alt="Add Calendar" style="width: 45%; margin-bottom: 20px;">
+
+3. [Add an entry](/workspace/modules/module/add-entry/).
+
+{% endtab %}
+
+{% tab title="Repeater" %}
+
 Steps coming soon...
+
+<!-- 1. [Create a file](/workspace/websites/add-file/) called `quick-links.tpl` on your prefer location. This will be where the code for your slider will be. -->
+
+{% endtab %}
+
+{% tab title="Detail" %}
+
+Steps coming soon...
+
+{% endtab %}
+
+{% endtabs %}
 
 ### Shortcodes
 
