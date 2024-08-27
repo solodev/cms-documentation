@@ -11,25 +11,6 @@
   <a class="btn-orange-lg" href="https://aws.amazon.com/marketplace/server/procurement?productId=prod-fwc36r5ftgxem" rel="noopener noreferrer" target="_blank">SUBSCRIBE <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
 </div>
 
-<!-- Solodev CMS Enterprise is available in the AWS Marketplace and can be instantly deployed in your account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="_blank">AWS CloudFormation :icon-link-external:</a>. It leverages an advanced stack of AWS cloud stack to deliver a scalable and reliable workload, including: -->
-
-<!-- * <a href="https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html" target="_blank">Amazon Elastic Load Balancer (ELB)</a>
-* <a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html" target="_blank">Amazon Certificate Manager (ACM)</a>
-* <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html" target="_blank">Amazon CloudFront</a>
-* <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html" target="_blank">Amazon CloudWatch</a>
-* <a href="https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html" target="_blank">Amazon DocumentDB (with MongoDB Compatibility)</a>
-* <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target="_blank">Amazon Elastic Compute Cloud (EC2)</a>
-* <a href="https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html" target="_blank">Amazon Elastic File System (EFS)</a>
-* <a href="https://aws.amazon.com/elasticache/redis/" target="_blank">Amazon Elasticache for Redis</a>
-* <a href="https://aws.amazon.com/systems-manager/" target="_blank">AWS Systems Manager</a>
-* <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html" target="_blank">Amazon Relational Database Service (RDS) MySql</a>
-* <a href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html" target="_blank">Amazon Route 53</a>
-* <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html" target="_blank">Amazon Simple Storage Service (S3)</a>
-* <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html" target="_blank">Amazon Virtual Private Cloud (VPC)</a>
-* <a href="https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html" target="_blank">Amazon Web Application Firewall (WAF)</a> -->
-
-<!-- Additional technology frameworks and libraries include <a href="https://www.linux.org/" target="_blank">Linux</a>, <a href="https://www.apache.org/" target="_blank">Apache</a>, <a href="https://www.mysql.com/" target="_blank">MySQL</a>, <a href="https://www.php.net/" target="_blank">PHP</a>, <a href="https://www.python.org/" target="_blank">Python</a>, and more. -->
-
 <div class="row justify-content-between align-items-center mb-0">
   <div class="col-8">
     <p>Solodev CMS Enterprise is designed for high-availability websites and apps that require a secure, scalable, and redundant infrastructure powered by the AWS Cloud.</p>
@@ -50,11 +31,11 @@
 
 The following steps cover the setup of the **CMS Enterprise** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process. By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
 
-1. Subscribe to Solodev on the AWS Marketplace. <a href="https://aws.amazon.com/marketplace/server/procurement?productId=prod-uahcrlmuczsau" target="_blank" class="btn-orange-sm" style="margin-left: 1rem;">SUBSCRIBE <span>:icon-link-external:</span></a>
+1. Subscribe to Solodev on the AWS Marketplace. <a href="https://aws.amazon.com/marketplace/server/procurement?productId=prod-fwc36r5ftgxem" target="_blank" class="btn-orange-sm" style="margin-left: 1rem;">SUBSCRIBE <span>:icon-link-external:</span></a>
 2. Review and accept the **"Terms and Conditions"**.
 3. Click **"Continue to Configuration"**.
 
-<p><img src="/static/images/enterprise/enterprise-configuration.png" alt="CMS Enterprise Configuration" style="width: 80%;"></p>
+<p><img src="/static/images/enterprise/enterprise-configuration.jpg" alt="CMS Enterprise Configuration" style="width: 80%;"></p>
 
 !!!NOTE:
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
@@ -74,6 +55,12 @@ Region | Select the AWS Region.
 
 2. Click **"Continue to Launch."**
 
+<p><img src="/static/images/enterprise/enterprise-continue-to-launch.jpg" alt="CMS Enterprise Continue to Launch" style="width: 80%;"></p>
+
+!!!danger Important:
+On the next screen, click on **"Usage Instructions"** and then select the Quickstart link to continue the installation.
+!!!
+
 ### <span class="text-teal">Launch Software</span>
 
 Review the launch configuration details and follow the instructions to launch this software.
@@ -82,7 +69,7 @@ Review the launch configuration details and follow the instructions to launch th
 
 {% tab title="CloudFormation" %}
 
-Before launching the CMS Enterprise software, make sure you are logged into your AWS account. If you do not have an AWS account, [click here to create one](https://cloud.solodev.net/quickstart/cloud/aws/). Once you have signed in, click the button below and follow the outlined steps.
+To continue the installation, click the **Launch** button below and follow the outlined steps.
 
 <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?stackName=solodev-enterprise&templateURL=https://solodev-cms.s3.amazonaws.com/cloudformation/solodev-cms-enterprise.yaml" rel="noopener noreferrer" target="_blank" class="btn-orange-lg mb-2">LAUNCH CMS ENTERPRISE <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
 

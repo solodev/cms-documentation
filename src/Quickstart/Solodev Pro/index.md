@@ -75,6 +75,10 @@ Region | Select the AWS Region.
 
 <p><img src="/static/images/pro/cms-pro-continue-to-launch.jpg" alt="CMS Pro continue to launch" style="width: 80%;"></p>
 
+!!!danger Important:
+On the next screen, click on **"Usage Instructions"** and then select the Quickstart link to continue the installation.
+!!!
+
 ### <span class="text-teal">Launch Software</span>
 
 Review the launch configuration details and follow the instructions to launch this software.
@@ -83,7 +87,7 @@ Review the launch configuration details and follow the instructions to launch th
 
 {% tab title="CloudFormation" %}
 
-Before launching the CMS Professional software, make sure you are logged into your AWS account. If you do not have an AWS account, [click here to create one](https://cloud.solodev.net/quickstart/cloud/aws/). Once you have signed in, click the button below and follow the outlined steps.
+To continue the installation, click the **Launch** button below and follow the outlined steps.
 
 <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?stackName=solodev-pro&templateURL=https://solodev-cms.s3.amazonaws.com/cloudformation/solodev-cms-pro.yaml" rel="noopener noreferrer" target="_blank"   class="btn-orange-lg mb-2">LAUNCH CMS PRO <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
 
@@ -111,7 +115,7 @@ If your AWS region is different from `us-east-1`, make sure to select your speci
 
 1. Specify the parameters in the network settings section.
 
-<p><img src="/static/images/pro/pro-params-network.jpg" alt="CMS Pro network settings" style="width: 70%;"></p>
+<p><img src="/static/images/pro/pro-params-network.jpg" alt="CMS Pro network settings" style="width: 50%;"></p>
 
 Name   | Description
 ---    | ---
@@ -124,7 +128,7 @@ AmiAlias | An AMI Alias refers to a user-defined name or identifier for an Amazo
 
 2. Specify the CMS Settings.
 
-<p><img src="/static/images/pro/pro-params-settings.jpg" alt="CMS Pro CMS Settings" style="width: 28%;"></p>
+<p><img src="/static/images/pro/pro-params-settings.jpg" alt="CMS Pro CMS Settings" style="width: 24%;"></p>
 
 Name   | Description
 ---    | ---
@@ -135,12 +139,12 @@ DatabasePassword | The database root password.
 
 3. Optional: Settings.
 
-<p><img src="/static/images/pro/pro-params-settings-optional.jpg" alt="CMS Pro CMS Settings Optional" style="width: 48%;"></p>
+<p><img src="/static/images/pro/pro-params-settings-optional.jpg" alt="CMS Pro CMS Settings Optional" style="width: 52%;"></p>
 
 Name   | Description
 ---    | ---
 CookbookURL | Download and host on your own S3 bucket or copy this URL.
-CertificateArn | CertificateArn for SSL cert that matches the FQDN above. Please visit the <a href="https://docs.aws.amazon.com/acm/" target="_blank">AWS Certificate Manager :icon-link-external:</a>.
+CertificateArn | CertificateArn for SSL cert that matches the FQDN above. Please visit the [AWS Certificate Manager](https://docs.aws.amazon.com/acm/).
 CookbookURL | Download and host on your own S3 bucket or copy this URL.
 WebsiteUrl | Name of initial Solodev website.
 CidrIpAccess | Please set CIDR to 0.0.0.0/0 to allow all IP addresses to access the web server on port 80 and 443.
@@ -156,7 +160,6 @@ Name   | Description
 SsoProviderUrl | Issuer URL of your OpenID Connect provider.
 SsoClientId | Unique identifier assigned to a client application that is registered with an AWS Single Sign-On (SSO) service, used to authenticate and authorize the application to access SSO resources.
 SsoClientSecret | Confidential key assigned to a client application registered with an AWS Single Sign-On (SSO) service, used in conjunction with the SSO Client ID to authenticate the application and secure access to SSO resources.
-AmiAlias | An AMI Alias refers to a user-defined name or identifier for an Amazon Machine Image (AMI) that simplifies the process of referring to an AMI. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html" target="_blank">Click here :icon-link-external:</a> to learn more about AMIs.
 
 3. Click <span class="text-orange">**Next**</span>.
 
