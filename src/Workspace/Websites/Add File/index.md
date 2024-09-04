@@ -6,12 +6,12 @@ In the Solodev CMS, a file serves many purposes. Examples of a file include HTML
 
 **Name** | **Description**
 :--- | ---
-Name | Add the file name. The name of the file should be lowercase and separated with dashes.
-Title | Add the file title. This will be the Title displayed on your site. 
+Name | Update the file name (The name of the file should be lowercase and separated with dashes).
+Title | Add or update the file title.
 File Type | Choose between HTML or Code.
-Confirm | After filling out all the required fields, please click the **Submit** button to save your changes.
+Submit | After filling out all the required fields, please click the **Submit** button to save your changes.
 
-You can add the following file types:<p>
+You can add the following file types:
 - **HTML** - Hypertext Markup Language (HTML) is the markup language used to create the foundation of any web page. In Solodev, HTML files are not web pages. HTML pages serve as content blocks that can be organized and embedded into STML pages via Solodev’s Dynamic Div technology.
 - **Code** - Solodev’s text editor supports a wide range of file types. Solodev supports the following ANSCII-based file types:
 

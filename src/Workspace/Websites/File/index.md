@@ -1,19 +1,19 @@
-Under web files, you can <a href="/workspace/websites/folder/update-folder//">update folders</a> or access specific files to edit code using the code editor. This includes template files (.tpl), config files, SCSS, package.json, form assets, and other essential components for powering your website. 
+Under web files, you can [update folders](/workspace/websites/folder/update-folder/) or directly access specific files to edit their code using the built-in code editor. This includes template files (.tpl), configuration files, SCSS, package.json, form assets, and other essential components for your website. 
 
-To edit a specific file, click on it to access the code editor. 
+To edit a file, simply click on it to open the code editor.
 
-<p><img src="/static/images/websites/code-file.jpg" alt="Code file"></p>
+<p><img src="/static/images/files/html-file.jpg" alt="HTML file"></p>
 
 **Name** | **Description**
 :--- | ---
-<a href="/workspace/websites/folders/publish/">Publish</a> | Push your code or content to live production. 
-<a href="/workspace/websites/folder/update-folder//">Draft</a> | Create a draft version of your code or content.
-<a href="/workspace/websites/folders/stage/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
-<a href="/workspace/websites/file-group/add-file-group/">Add to Group</a> | Assign your file or asset to a specific file group.
-<a href="/workspace/documents/editing-files/history/">History</a> | Review previous versions of your content or code and restore a saved version.
-<a href="/workspace/documents/editing-files/copy/">Copy</a> | Copy a file or asset for editing or additional use elsewhere in your website. 
-<a href="/workspace/documents/editing-files/move/">Move</a> | Relocate a file or asset based on your taxonomy.
-<a href="/workspace/documents/editing-files/delete/">Delete</a> | Delete a file or asset permanently from your website.
+[Publish](/workspace/websites/files/publish) | Push your code or content to live production. 
+[Draft](/workspace/websites/files/draft) | Create a draft version of your code or content.
+[Stage](/workspace/websites/files/stage) | Set up a staged version of your code or content for review as part of your workflow. 
+[Copy](/workspace/websites/files/copy) | Copy a file or asset for editing or additional use elsewhere in your website. 
+[Move](/workspace/websites/files/move) | Relocate a file or asset based on your taxonomy.
+[Delete](/workspace/websites/files/delete) | Delete a file or asset permanently from your website.
+[History](/workspace/websites/files/history) | Review previous versions of your content or code and restore a saved version.
+[Add to File Group](/workspace/websites/files/add-to-file-group) | Assign your file or asset to a specific file group.
 
 ## Other Actions
 
