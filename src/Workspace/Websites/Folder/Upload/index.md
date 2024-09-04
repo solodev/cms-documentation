@@ -1,17 +1,16 @@
 # Upload
 
-Upload a file from your computer. Solodev CMS allows users to upload four primary file types (HTML, Text, Image, and Document). 
+Upload multiple files in bulk from your computer. Solodev CMS supports uploading four primary file types: HTML, Text, Image, and Document.
 
-<p><img src="/static/images/folders/upload-files.png" alt="Files Uploader" style="width: 40%;"></p>
+<p><img src="/static/images/folders/uploader.jpg" alt="Files Uploader" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---
-Drop Area | Drag the files you can to upload from your computer.
-Browse | Browse the file(s) and add it from your computer.
-Upload |  Upload and publish the files.
-Upload + Save |  Upload and save files without publishing them.
-Upload + Stage | Save the file and publish it to a staging server.
-Confirm | Once you have completed all the fields, click **Submit** to apply your changes.
+Drop Area | Drag files from your computer to upload.
+Browse | Select files from your computer to add.
+Upload | Upload and immediately publish the files.
+Upload + Save | Upload files and save them without publishing.
+Upload + Stage | Upload files and publish them to a staging server.
 
 !!!Note:
 Solodev recommends uploading TPL files and HTML files to the **web files -> content folder**, **web files -> templates folder**, or **web files -> forms folder**. Images and script files (e.g., .php, .css, and .js files) should be uploaded to an assets folder located in the **www directory** (e.g., **www -> _ -> css or www -> _ -> js**).

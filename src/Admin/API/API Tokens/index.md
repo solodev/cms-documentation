@@ -8,7 +8,7 @@ On the API tokens page, you have the list of existing tokens. Each token has det
 
 **Name** | **Description** 
 :--- | ---
-[Add API Key](https://cms.solodev.net/admin/api/api-tokens/#add-api-key)| Click this button to add a new API token.
+[Add API Key](/admin/api/api-tokens/#add-api-key)| Click this button to add a new API token.
 
 ## Add API Key
 

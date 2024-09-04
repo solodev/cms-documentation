@@ -18,13 +18,13 @@ Page templates are reusable components that allow you to build website pages fas
 There is no limit to the kinds of page templates you can create in Solodev, but most websites use these common types as a best practice:
 
 
-- <a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-create-a-base-template">Base Template</a>: The base template is the foundation for every page of your website. It typically consists of a header, footer, and <a href="/tutorials/cms/add-page-template/#using-dynamic-divs">dynamic divs</a> for adding content. As the name implies, the base template acts as the foundation for your site and can include your Google Tag Manager includes, tracking codes, scripts, and more. Because they are universal, any changes made to a base template will be reflected across all pages of your site.
+- <a href="/tutorials/cms/add-page-template/#how-to-create-a-base-template">Base Template</a>: The base template is the foundation for every page of your website. It typically consists of a header, footer, and <a href="/tutorials/cms/add-page-template/#using-dynamic-divs">dynamic divs</a> for adding content. As the name implies, the base template acts as the foundation for your site and can include your Google Tag Manager includes, tracking codes, scripts, and more. Because they are universal, any changes made to a base template will be reflected across all pages of your site.
 
-- <a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">Homepage Template</a>: A homepage is the introductory page of a website. It is often the first page a visitor sees, acting as a “table of contents” for the rest of the experience. It can also feature high-level news, promotions, and other key messages that require the highest degree of visibility. While a homepage will leverage elements of your base template, such as the header and footer, there is only one homepage on a website – so generally speaking, there is only one unique template for your homepage.  
+- <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">Homepage Template</a>: A homepage is the introductory page of a website. It is often the first page a visitor sees, acting as a “table of contents” for the rest of the experience. It can also feature high-level news, promotions, and other key messages that require the highest degree of visibility. While a homepage will leverage elements of your base template, such as the header and footer, there is only one homepage on a website – so generally speaking, there is only one unique template for your homepage.  
 
-- <a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-create-a-sectional-template">Sectional Template</a>: A sectional template is a high-level overview of a "section" of your website's content. Think of it as a jumping-off point to areas that fall under a specific content theme or topic. Sectional templates can be used in a variety of ways, but most provide a collection of snippets and links to relevant areas. For example, if a website has a section called "Departments," a sectional template might include an overview along with a list of links to all the departments. Because they are used sparingly, sectional templates generally have a distinct design from your content templates, helping them stand out.
+- <a href="/tutorials/cms/add-page-template/#how-to-create-a-sectional-template">Sectional Template</a>: A sectional template is a high-level overview of a "section" of your website's content. Think of it as a jumping-off point to areas that fall under a specific content theme or topic. Sectional templates can be used in a variety of ways, but most provide a collection of snippets and links to relevant areas. For example, if a website has a section called "Departments," a sectional template might include an overview along with a list of links to all the departments. Because they are used sparingly, sectional templates generally have a distinct design from your content templates, helping them stand out.
 
-- <a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-create-a-content-page-template">Content Template</a>: A content template is usually placed within the base template. Sometimes referred to as an “interior template,” content templates power the bulk of your website, and can be reused for various sections that require multiple pages.
+- <a href="/tutorials/cms/add-page-template/#how-to-create-a-content-page-template">Content Template</a>: A content template is usually placed within the base template. Sometimes referred to as an “interior template,” content templates power the bulk of your website, and can be reused for various sections that require multiple pages.
 
 ## Using dynamic divs
 Another important concept is the use of dynamic divs. Page templates are composed of dynamic divs – or “dropzones” – where HTML and content can be inserted and arranged in various places on a website page. Dynamic divs work fluidly with the Bootstrap grid system, allowing you to easily insert content once the layout of your page has been created. Here is the simple HTML code to create a dynamic div in Solodev:
@@ -50,7 +50,7 @@ The first step in creating page templates in Solodev is to build your base templ
 
 <img src="/static/images/base-template-nav.jpg" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 2**: Using the right-hand menu, click <a href="https://cms.solodev.net/workspace/websites/folders/add-folder/">Add Folder</a>. 
+**Step 2**: Using the right-hand menu, click <a href="/workspace/websites/folders/add-folder/">Add Folder</a>. 
 
 <img src="/static/images/base-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -62,7 +62,7 @@ The first step in creating page templates in Solodev is to build your base templ
 The nested base folder will house your base template and other components. 
 !!!
 
-**Step 4**: Click back on the templates folder. Using the same right-hand menu, click <a href="https://cms.solodev.net/workspace/websites/folders/add-file/">Add File</a>. 
+**Step 4**: Click back on the templates folder. Using the same right-hand menu, click <a href="/workspace/websites/folders/add-file/">Add File</a>. 
 
 **Step 5**: In the fields provided, give your file a **Name** (such as “base-template”) and remember to use the .tpl extension. From the **File Type** dropdown, select **Code**, and click **Submit**.
 
@@ -100,7 +100,7 @@ A .tpl file should be designated as “Code” in the File Type to ensure that i
 You can always add more dynamic divs as needed.
 !!!
 
-**Step 7**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
+**Step 7**: Under the **www** folder, click on the **index.stml** file – which will become your <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage</a>. Then, click in the main content area where the two dots are located. 
 
 <img src="/static/images/base-template-dots.jpg" alt="base template" style="width: 50%; display: block"></a>
 
@@ -134,7 +134,7 @@ For this tutorial, we will use the assets from the SpaceJet theme to create a ho
 
 **Step 1**: Under **web files**, click on the **templates** folder.
 
-**Step 2**: Using the right-hand menu, click  <a href="https://cms.solodev.net/workspace/websites/folders/add-folder/">Add Folder</a>. Under **templates**, add four folders with the following names:
+**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/folders/add-folder/">Add Folder</a>. Under **templates**, add four folders with the following names:
 
 - **content**
 - **footer**
@@ -145,7 +145,7 @@ When complete, click **Submit**.
 
 <img src="/static/images/homepage-folders.png" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="https://cms.solodev.net/workspace/websites/folders/add-file/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
+**Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="/workspace/websites/folders/add-file/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
 
 <img src="/static/images/homepage-base-folder-div.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -153,7 +153,7 @@ When complete, click **Submit**.
 The additional div-insert.tpl file will provide extra dynamicDivs to your page template. 
 !!!
 
-**Step 4**: In each of the new folders, you will need to add a new .tpl file. Follow the previous steps to click on each folder and <a href="https://cms.solodev.net/workspace/websites/folders/add-file/">Add File</a>. Create a new file under each folder as follows, and select **Code** for the **File Type**. Once complete, click **Submit**:
+**Step 4**: In each of the new folders, you will need to add a new .tpl file. Follow the previous steps to click on each folder and <a href="/workspace/websites/folders/add-file/">Add File</a>. Create a new file under each folder as follows, and select **Code** for the **File Type**. Once complete, click **Submit**:
 
 - content: **cta.tpl**, **home-blog.tpl**, **main.html**
 - footer: **footer.tpl** 
@@ -183,7 +183,7 @@ Next, you will learn how to apply your .tpl files to your dynamic divs. For the 
 
 !!!**Note**: 
 For more details on how to upload images to your website in Solodev, read 
-the <a href="https://cms.solodev.net/workspace/websites/folders/upload/">Upload</a> article under Manage Folder in Websites.  
+the <a href="/workspace/websites/folders/upload/">Upload</a> article under Manage Folder in Websites.  
 !!!
 
 **Step 4**: Under **web files**, browse to the **navigation** folder and click on the **top-nav.tpl** file. Copy the code sample below into the editor. When complete, click **Publish**.
@@ -392,44 +392,44 @@ Once complete, your final homepage should appear in the editor, featuring the to
 As previously noted, a sectional template is a high-level overview of a "section" of your website's content. They are typically reserved for larger sites with more pages to organize and are completely optional. In this lesson, you will learn how to add a sample sectional template from the SpaceJet theme package.
 
 !!!Note:
-Many of the instructions in this lesson will repeat steps from the previous <a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage template</a>. Make sure to complete that first and refer back as needed. 
+Many of the instructions in this lesson will repeat steps from the previous <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage template</a>. Make sure to complete that first and refer back as needed. 
 !!!
 
 ### Setting up your folders and .tpl files
 
 **Step 1**: Under **web files**, click on the **content** folder.
 
-**Step 2**: Using the right-hand menu, click <a href="https://cms.solodev.net/workspace/websites/folders/add-folder/">Add Folder</a>. Under **content**, add folder called **about**. Click **Submit**, when complete.
+**Step 2**: Using the right-hand menu, click <a href="/workspace/websites/folders/add-folder/">Add Folder</a>. Under **content**, add folder called **about**. Click **Submit**, when complete.
 
 <img src="/static/images/about-folder-web-files.png" alt="about folder web files" style=" display: block"></a>
 
-**Step 3**: Now you will need to add a new .tpl file into the folder you have just created. Under **content**, click on the **about** folder and on the right menu, click <a href="https://cms.solodev.net/workspace/websites/folders/add-file/">Add File</a>. Create a new file called **about.tpl** and select **Code** for the **File Type**. Once complete, click **Submit**.
+**Step 3**: Now you will need to add a new .tpl file into the folder you have just created. Under **content**, click on the **about** folder and on the right menu, click <a href="/workspace/websites/folders/add-file/">Add File</a>. Create a new file called **about.tpl** and select **Code** for the **File Type**. Once complete, click **Submit**.
 
 <img src="/static/images/about-file-web-files.png" alt="about file web files" style=" display: block"></a>
 
-**Step 4**: You will also need to add a new .tpl file into the folder listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="https://cms.solodev.net/workspace/websites/folders/add-file/">Add File</a>. Create a new file under the folder and select **Code** for the **File Type**. Once complete, click **Submit**:
+**Step 4**: You will also need to add a new .tpl file into the folder listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="/workspace/websites/folders/add-file/">Add File</a>. Create a new file under the folder and select **Code** for the **File Type**. Once complete, click **Submit**:
 
   *	content: **full-width-template.tpl**
 
 <img src="/static/images/full-width-code.png" alt="full-width-code" style=" display: block"></a>
 
-**Step 5**: Click on the **www** folder and on the right menu, click <a href="https://cms.solodev.net/workspace/websites/folders/add-folder/">Add Folder</a>, and add folder called **about**. Click **Submit**, when complete.
+**Step 5**: Click on the **www** folder and on the right menu, click <a href="/workspace/websites/folders/add-folder/">Add Folder</a>, and add folder called **about**. Click **Submit**, when complete.
 
 <img src="/static/images/about-folder-www.png" alt="about-folder-www" style=" display: block"></a>
 
 ### Adding templates to your dynamic divs
 
-**Step 1**: Click on the **about** folder and on the right menu, click [Add Page](https://cms.solodev.net/workspace/websites/add-page). Create a new page called **index.stml**. Once complete, click **Submit**.
+**Step 1**: Click on the **about** folder and on the right menu, click [Add Page](/workspace/websites/add-page). Create a new page called **index.stml**. Once complete, click **Submit**.
 
 **Step 2**: Just like in the case of homepage, with the **base** folder opened, click in the top dynamic div. Once activated, click on the **base-template.tpl** file. Once complete, click **Publish**.
 
-**Step 3**: Repeat step 3 from the <a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add **top-nav.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
+**Step 3**: Repeat step 3 from the <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add **top-nav.tpl**, and the **footer.tpl** in correct places. Once done, click **Publish**.
 
 !!!**Note**:
-This tutorial assumes that you had finished **How to create a homepage template** therefore you have some files and folders in place. In case you didn't follow the <a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">How to create a homepage template</a>, please finish it first. 
+This tutorial assumes that you had finished **How to create a homepage template** therefore you have some files and folders in place. In case you didn't follow the <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">How to create a homepage template</a>, please finish it first. 
 !!!
 
-**Step 4**: Repeat step 3 from the <a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add the **full-width-template.tpl** with the following code:
+**Step 4**: Repeat step 3 from the <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add the **full-width-template.tpl** with the following code:
 
 ```js
 <div>
@@ -441,7 +441,7 @@ This tutorial assumes that you had finished **How to create a homepage template*
 </div>
 ```
 
-**Step 5**: Repeat step 3 from the <a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add **about.tpl** containing your about page content, for example:
+**Step 5**: Repeat step 3 from the <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage steps</a>, and add **about.tpl** containing your about page content, for example:
 
 ```js 
 Here is my about page.
@@ -452,7 +452,7 @@ Here is my about page.
 As previously noted, a content template – sometimes referred to as an "interior template" – powers the bulk of your website and can be reused for various sections that require multiple pages. In this lesson, you will learn how to add a sample content template from the SpaceJet theme package.
 
 !!!Note:
-Many of the instructions in this lesson will repeat steps from the previous <a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage template</a>. Make sure to complete that first and refer back as needed. 
+Many of the instructions in this lesson will repeat steps from the previous <a href="/tutorials/cms/add-page-template/#how-to-create-a-homepage-template">homepage template</a>. Make sure to complete that first and refer back as needed. 
 !!!
 
 <!-- The content template is typically placed in the base template and serves as the interior of a "Section" of your website. The benefit in a content template is it can be re-used for sections of your website that require multiple pages, allowing you to re-use your content template to build out your web pages. 
@@ -467,22 +467,22 @@ This tutorial assumes that you had finished **How to create a homepage template*
 
 **Step 1**: Under **web files**, click on the **content** folder.
 
-**Step 2**: Using the right-hand menu, click  <a href="https://cms.solodev.net/workspace/websites/folders/add-folder/">Add Folder</a>. Under **content**, add folder called **privacy**. Click **Submit**, when complete.
+**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/folders/add-folder/">Add Folder</a>. Under **content**, add folder called **privacy**. Click **Submit**, when complete.
 
 <img src="/static/images/content-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 3**: Now you will need to add a new .html file into the folder you have just created. Under **content**, click on the **privacy** folder and on the right menu, click <a href="https://cms.solodev.net/workspace/websites/folders/add-file/">Add File</a>. Create a new file called **privacy.html**, and select **HTML** for the **File Type**. Once complete, click **Submit**.
+**Step 3**: Now you will need to add a new .html file into the folder you have just created. Under **content**, click on the **privacy** folder and on the right menu, click <a href="/workspace/websites/folders/add-file/">Add File</a>. Create a new file called **privacy.html**, and select **HTML** for the **File Type**. Once complete, click **Submit**.
 
 <img src="/static/images/content-template-add-file1.png" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 4**: You will also need to add a new .tpl files into a folders listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="https://cms.solodev.net/workspace/websites/folders/add-file/">Add File</a>. Create a new file under each folder, and select **Code** for the **File Type**. Once complete, click **Submit**:
+**Step 4**: You will also need to add a new .tpl files into a folders listed below. Under **templates**, click on the correct folder and on the right menu, click <a href="/workspace/websites/folders/add-file/">Add File</a>. Create a new file under each folder, and select **Code** for the **File Type**. Once complete, click **Submit**:
 
 - content: **left-nav-content-template.tpl**
 - navigation: **left-nav.tpl**
 
 <img src="/static/images/content-template-add-file.png" alt="base template" style="width: 25%; display: block"></a>
 
-**Step 5**: Finally click on the **www** folder and on the right menu, click [Add Page](https://cms.solodev.net/workspace/websites/add-page). Create a new page called **privacy.stml**. Once complete, click **Submit**:
+**Step 5**: Finally click on the **www** folder and on the right menu, click [Add Page](/workspace/websites/add-page). Create a new page called **privacy.stml**. Once complete, click **Submit**:
 
 <img src="/static/images/content-template-add-file2.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -555,7 +555,7 @@ Saving your pages as templates allows for easier updates at a global level.
 
 ### How to save a sectional page as a template
 
-**Step 1**: Identify the elements that your pages have in common. For example, in the SpaceJet theme, the reusable elements would be the <a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-create-a-base-template">base template</a>, the header, and the footer.
+**Step 1**: Identify the elements that your pages have in common. For example, in the SpaceJet theme, the reusable elements would be the <a href="/tutorials/cms/add-page-template/#how-to-create-a-base-template">base template</a>, the header, and the footer.
 
 **Step 2**: Click on **www** folder and select **Add Page** from the right-hand menu. Name the page **sectional-template.stml**. Once complete, click **Submit**.
 
@@ -599,7 +599,7 @@ If you need to make any adjustments to the sectional template you just created, 
 
 **Step 10**: To use your template, go to the location under **www** where you want to create your sectional page, and click **Add Page** on the right-hand menu.
 
-<img src="https://cms.solodev.net/images/add-page-update-folder.png" alt="add page update folder" style="width: 20%; display: block"></a>
+<img src="/images/add-page-update-folder.png" alt="add page update folder" style="width: 20%; display: block"></a>
 
 **Step 11**: On the Add Page modal, give your page a **name** and a **title**. You will also see a dropdown called **Templates**. To use an available template, click on the dropdown and select the **sectional-template.stml** you just created. Click **Submit**.
 
@@ -617,7 +617,7 @@ If you need to make any adjustments to the sectional template you just created, 
 
 <img src="/static/images/add-page-interior-templates.jpg" alt="add-page-interior-templates" style="display: block"></a>
 
-**Step 3**: Follow steps 3 to 5 from the "<a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-save-a-sectional-page-as-a-template">How to save a sectional page as a template</a>" tutorial.
+**Step 3**: Follow steps 3 to 5 from the "<a href="/tutorials/cms/add-page-template/#how-to-save-a-sectional-page-as-a-template">How to save a sectional page as a template</a>" tutorial.
 
 <img src="/static/images/topnav-content-template.jpg" alt="topnav-content-template" style="display: block"></a>
 
@@ -625,7 +625,7 @@ If you need to make any adjustments to the sectional template you just created, 
 
 <img src="/static/images/add-left-content-templates.jpg" alt="add-left-content-templates" style="display: block"></a>
 
-**Step 5**: Follow step 7 from the "<a href="https://cms.solodev.net/tutorials/cms/add-page-template/#how-to-save-a-sectional-page-as-a-template">How to save a sectional page as a template</a>" tutorial to add a footer. Click **Publish**.
+**Step 5**: Follow step 7 from the "<a href="/tutorials/cms/add-page-template/#how-to-save-a-sectional-page-as-a-template">How to save a sectional page as a template</a>" tutorial to add a footer. Click **Publish**.
 
 <img src="/static/images/add-footer-left-templates.jpg" alt="add-footer-left-templates" style="display: block"></a>
 
@@ -647,7 +647,7 @@ If you need to make any adjustments to the interior template you just created, y
 
 **Step 9**: To use your template, go to the location under www where you want to create your interior page, and click Add Page on the right-side navigation.
 
-<img src="https://cms.solodev.net/images/add-page-update-folder.png" alt="add-page-update-folder" style="width: 20%; display: block"></a>
+<img src="/images/add-page-update-folder.png" alt="add-page-update-folder" style="width: 20%; display: block"></a>
 
 **Step 10**: On the Add Page modal, give your page a **Name** and a **Title**. You will also see a menu called **Templates**. To use an available template, click on the dropdown and select the **interior-template.stml** you just created. Once complete, click **Submit**.
 

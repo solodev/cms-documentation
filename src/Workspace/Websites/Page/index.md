@@ -3,7 +3,7 @@ In Solodev, you can update any page on your website under the www folder. You ca
 <p><img src="/static/images/websites/page/page.jpg" alt="Micro Main Page"></p>
 
 !!!NOTE:
-You will need to [add a website](https://cms.solodev.net/workspace/websites/add-website/) to your CMS before adding a page.
+You will need to [add a website](/workspace/websites/add-website/) to your CMS before adding a page.
 !!!
 
 ## STML Files

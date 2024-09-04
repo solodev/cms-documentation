@@ -35,4 +35,4 @@ Themes determine the overall look and feel of your website, including its layout
   </div>
 </div>
 
-If you need more information on how to add a website, [click here](https://cms.solodev.net/tutorials/cms/how-to-add-a-website/).
+If you need more information on how to add a website, [click here](/tutorials/cms/how-to-add-a-website/).

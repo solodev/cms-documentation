@@ -12,7 +12,7 @@ While a theme provides the frontend visual “skin” for your website, it does 
 
 ## Prerequisites 
 - Download the Solodev <a href="https://raw.githubusercontent.com/solodev/marketplace/master/depot/themes/spacejet.zip">SpaceJet theme</a> package (.zip file)
-- Once downloaded, you will need to <a href="https://cms.solodev.net/workspace/websites/add-website/">add a website</a> to your Solodev CMS and follow the prompts to upload an optional theme. 
+- Once downloaded, you will need to <a href="/workspace/websites/add-website/">add a website</a> to your Solodev CMS and follow the prompts to upload an optional theme. 
 
 !!!danger  Warning:
 A theme can only be installed when creating a new website. Themes cannot be applied retroactively once a website has been fully deployed.
@@ -32,7 +32,7 @@ guidance on how to compose your theme package, visit our <a href="https://github
 !!!
 
 ## How to install a theme to your website
-Adding a theme to your Solodev website is simple. Installation occurs during the initial steps of <a href="https://cms.solodev.net/workspace/websites/add-website/">adding a website</a> to your Solodev CMS.
+Adding a theme to your Solodev website is simple. Installation occurs during the initial steps of <a href="/workspace/websites/add-website/">adding a website</a> to your Solodev CMS.
 
 **Step 1**: On the main dashboard in Solodev, click **Add Website**.
 
@@ -49,7 +49,7 @@ Uploading a theme package may take a few minutes to complete. During this period
 **Step 4**: Once complete, you will be automatically redirected back to your dashboard, where your new site will appear.
 
 ## How to create a theme
-To create a theme, you need to first create a website. Solodev consists of 2 main folders, <a href="https://cms.solodev.net/workspace/websites/website-overview/#web-files">web files</a> and <a href="https://cms.solodev.net/workspace/websites/website-overview/manage-folder">www folder</a>. Web files is where all your files reside and www where your pages live.
+To create a theme, you need to first create a website. Solodev consists of 2 main folders, <a href="/workspace/websites/website-overview/#web-files">web files</a> and <a href="/workspace/websites/website-overview/manage-folder">www folder</a>. Web files is where all your files reside and www where your pages live.
 
 **Step 1**: Follow the steps to create a website.
 
@@ -69,5 +69,5 @@ To create a theme, you need to first create a website. Solodev consists of 2 mai
 
 ## Next Steps
 
-- [Add Page](https://cms.solodev.net/workspace/websites/add-page)
-- <a href="https://cms.solodev.net/tutorials/cms/add-page-template/">Add page template</a>
+- [Add Page](/workspace/websites/add-page)
+- <a href="/tutorials/cms/add-page-template/">Add page template</a>

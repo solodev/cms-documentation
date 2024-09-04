@@ -4,8 +4,8 @@ In Solodev, you can control user access to your front-end website by implementin
 
 ## Prerequisites 
 
--	You will need to [add a website](https://cms.solodev.net/workspace/websites/add-website) to your Solodev CMS.
-- You will need to be familiar with using [shortcodes](https://cms.solodev.net/shortcodes).
+-	You will need to [add a website](/workspace/websites/add-website) to your Solodev CMS.
+- You will need to be familiar with using [shortcodes](/shortcodes).
 
 ## Restrict Access
 
@@ -23,7 +23,7 @@ In Solodev, you can control user access to your front-end website by implementin
 
 ## Create a login page
 
-**Step 1**. Follow [these steps](https://cms.solodev.net/workspace/websites/add-page) to create a page. Shortcodes for creating a login page [can be found here](https://cms.solodev.net/shortcodes/user).
+**Step 1**. Follow [these steps](/workspace/websites/add-page) to create a page. Shortcodes for creating a login page [can be found here](/shortcodes/user).
 
 **Step 2**. Go back to the dashboard and on the right-side menu, click on **Update Website**.
 
@@ -39,7 +39,7 @@ In Solodev, you can control user access to your front-end website by implementin
 
 ## Link the login page
 
-**Step 1**. Place the following [shortcode](https://cms.solodev.net/shortcodes/user) on each page that needs to be secured.
+**Step 1**. Place the following [shortcode](/shortcodes/user) on each page that needs to be secured.
 
 ```js
 [contact_form_session]

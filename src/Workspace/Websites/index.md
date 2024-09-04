@@ -1,4 +1,4 @@
-From the main Websites dashboard, you can view and access the existing websites in your CMS deployment, manage permissions for your website members, and add new websites. 
+From the main Websites screen, you can view and access the existing websites in your CMS deployment, manage permissions for your website members, and add new websites. 
 
 To modify a website, click on a thumbnail image or a website name from the table. This will link you to the website’s main CMS dashboard. 
 

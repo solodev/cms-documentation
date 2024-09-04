@@ -98,8 +98,8 @@ Tagging is optional and you can choose whether to add tags for better organizati
 There are two options.
 
 A. The user already has a Solodev stack in place because they followed the Quickstarts:
-- <a href="https://cms.solodev.net/quickstart/solodev-pro/" target="_blank">Installing Solodev CMS Professional Edition</a>
-- <a href="https://cms.solodev.net/quickstart/solodev-enterprise/" target="_blank">Installing Solodev CMS Enterprise Edition</a>
+- <a href="/quickstart/solodev-pro/" target="_blank">Installing Solodev CMS Professional Edition</a>
+- <a href="/quickstart/solodev-enterprise/" target="_blank">Installing Solodev CMS Enterprise Edition</a>
 
 
 B. The user is about to create a Solodev stack using one of those quick starts.
