@@ -14,6 +14,12 @@ h3 .text-teal {
 .text-orange {
   color: #e08902;
 }
+.text-blue {
+  color: #0488ce;
+}
+.text-red {
+  color: #e92123;
+}
 /* Tabs */
 .pluggable .rounded-t a.text-gray-500 {
   color: #000;

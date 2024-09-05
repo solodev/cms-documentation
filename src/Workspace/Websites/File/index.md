@@ -19,31 +19,30 @@ To edit a file, simply click on it to open the code editor.
 
 Files also have the option to upload a file, create or manage tasks, expand your screen or collapse the right menu.
 
-<p><img src="/static/images/websites/code-file-actions.jpg" alt="Code file top actions" style="width: 60%;"></p>
+<p><img src="/static/images/files/file-top-actions.jpg" alt="File top actions" style="width: 50%;"></p>
 
 **Name** | **Description**
 :--- | ---
-<a href="/workspace/websites/update-web-files/upload/">Includes</a> | Review where your file is being used. 
-<a href="/workspace/websites/update-web-files/upload/">Upload</a> | Overwrite the current file by uploading a new one. 
-<a href="/workspace/websites/update-web-files/tasks/">Tasks</a> | Collaborate with team members in your CMS deployment by adding or completing tasks.
+[Includes](#includes) | Review where your file is being used. 
+[Upload](#upload) | Overwrite the current file by uploading a new one. 
+[Tasks](#tasks) | Collaborate with team members in your CMS deployment by adding or completing tasks.
 Expand | View your file in a full width screen by removing all actions and menus.
-<a href="/workspace/websites/update-web-files/right-menu/">Collapse Menu</a> | Hide the right menu.
 
 ### Includes
 
 Quickly identify where your file is being used by clicking the includes icon at the top of the file. You can also go to the page your file is being included on, by clicking on the name of the file.
 
-<p><img src="/static/images/websites/includes.jpg" alt="File includes" style="width: 43%;"></p>
+<p><img src="/static/images/files/includes.jpg" alt="File includes" style="width: 43%;"></p>
 
 ### Upload Files
 
 By clicking the folder icon in the upper right corner, you can overwrite your current file, by dragging and dropping them via your browser. 
 
-<p><img src="/static/images/websites/overwrite-file.jpg" alt="File overwrite" style="width: 43%;"></p>
+<p><img src="/static/images/files/overwrite-file.jpg" alt="File overwrite" style="width: 43%;"></p>
 
 **Name** | **Description**
 :--- | ---
-<a href="/workspace/documents/document/upload/">Upload</a> | Publish your file to your web files.
+[Upload](/workspace/documents/document/upload/) | Publish your file to your web files.
 Upload + Stage | Send your file into a pre-staged status. 
 Upload + Save | Send your file and automatically save your code or content, but it will not publish it live.
 
@@ -52,37 +51,3 @@ Upload + Save | Send your file and automatically save your code or content, but 
 Collaborate with team members by creating, assigning and viewing tasks, sending messages, and managing your task status and details. 
 
 <p><img src="/static/images/websites/file-task.jpg" alt="File task" style="width: 43%;"></p>
-
-## Advanced
-
-Schedule your publish date and expire date. 
-
-<!-- Manage the meta for your file via the **i** icon in the upper right corner to update meta details to enhance SEO and access advanced functions.
-
-<p><img src="/static/images/meta-web-files.png" alt="manage-folder" style="width: 50%;"></p> 
-
-**Name** | **Description**
-:--- | ---
-Name | Enter the file name.
-Ok | Complete your changes and save.
-
-<p><img src="/static/images/meta-about2.png" alt="manage-folder" style="width: 50%;"></p> 
-
-**Name** | **Description**
-:--- | ---
-Title | Enter the title details for your department, note as public or classified
-Description | Provide an optional overview of your file.
-
-<p><img src="/static/images/meta-meta2.png" alt="manage-folder" style="width: 50%;"></p> 
-
-**Name** | **Description**
-:--- | ---
-Rank | Include an optional ranking or order for your file. 
-Meta Description | Provide an optional meta description of your file.
-Meta Keywords | List relevant keywords to help enhance SEO. -->
-
-<p><img src="/static/images/websites/file-advanced.png" alt="Advanced Accordion" style="width: 43%;"></p> 
-
-**Name** | **Description**
-:--- | ---
-Publish Date | Set an optional scheduled date for automatically publishing your file. Expire date menu includes: never, 1 day, 10 days, 30 days, 90 days, or 1 year. 
