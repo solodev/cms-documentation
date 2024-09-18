@@ -60,13 +60,17 @@ Steps coming soon...
 
 ### Shortcodes
 
-You will need the following shortcodes to successfully add a Blog to your website:
+You will need the following shortcodes to successfully add a Blog to your website. Depending on your needs, you might need to use extra [shortcodes](/shortcodes/).
 
 - [repeater](/shortcodes/module/#repeater) - prints the fields from the blog module form.
 
 ```js
 [repeater id="" limit="0, 4" display_type="forum"]
 ```
+
+!!!Note:
+You need to add the ID number of your slider module to the repeater shortcode within the `id=""` attribute.
+!!!
 
 - [get_asset_file_url](/shortcodes/core/get-asset-file-url/) - returns the URL path to the specified asset file in the database.
 
@@ -79,6 +83,15 @@ You will need the following shortcodes to successfully add a Blog to your websit
 ```js
 <p>[print_date format="F d, Y g:ia" timestamp="{{start_time}}"]</p>
 ```
+
+- `event_title` - displays the name of the module's entry.
+
+```
+{{event_title}}
+```
+
+<!-- {{{start_time}}} -->
+If you need to use other shortcodes or need to learn more about shortcodes, [click here](/shortcodes/).
 
 ## Support
 
