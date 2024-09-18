@@ -17,6 +17,7 @@ Your brand's content efforts go deeper than just words and blog posts. With the 
 
 - Have a [Solodev CMS](/quickstart).
 - Have a [Website](/workspace/websites/add-website/).
+- Have a Slider Plugin. Like [Slick](https://kenwheeler.github.io/slick/), [Flexslider](https://woocommerce.com/flexslider/), or [Bootstrap Carousel](https://getbootstrap.com/docs/4.0/components/carousel/).
 
 !!!Note: 
 For step-by-step instructions on adding a Module in your CMS, please visit [Add a Module](/workspace/modules/add-module/).
@@ -48,15 +49,13 @@ These steps will guide you through the process of installing Slider Module and a
 
 {% tab title="Repeater" %}
 
-Steps coming soon...
+1. [Create a file](/workspace/websites/add-file/) called `slider-repeater.tpl` on your prefer location. This file will contain the code for your slider.
 
-<!-- 1. [Create a file](/workspace/websites/add-file/) called `quick-links.tpl` on your prefer location. This will be where the code for your slider will be. -->
+2. Follow the documentation of your preferred slider plugin to add the corresponding html code to your file.
 
-{% endtab %}
+3. Include or replace the code with the shortcodes where needed.
 
-{% tab title="Detail" %}
-
-Steps coming soon...
+4. Add the `slider-repeater.tpl` to your [page](/workspace/websites/page/file-to-page/).
 
 {% endtab %}
 
@@ -64,19 +63,29 @@ Steps coming soon...
 
 ### Shortcodes
 
-You will need the following shortcodes to successfully add a Blog to your website:
+You will need the following shortcodes to successfully add a Slider to your website:
 
-- [repeater](/shortcodes/module/#repeater) - prints the fields from the blog module form.
+- [repeater](/shortcodes/module/#repeater) - prints the fields from the Slider module form.
 
 ```js
-[repeater id="" limit="0, 4" display_type="forum"]
+[repeater id="" limit="0, 4" display_type="news" order="start_time desc"]
 ```
 
 - [get_asset_file_url](/shortcodes/core/get-asset-file-url/) - returns the URL path to the specified asset file in the database.
 
 ```js
-<img alt="Image alt" class="img-fluid" src="[get_asset_file_url id={{blog_image}}]" />
+<img alt="Image alt" class="img-fluid" src="[get_asset_file_url id={{slider_image}}]" />
 ```
+
+- `event_title` - displays the name of the module's entry.
+
+```
+{{event_title}}
+```
+
+<!-- {{{blog_image}}} -->
+
+If you need to use other shortcodes or need to learn more about shortcodes, [click here](/shortcodes/).
 
 ## Support
 

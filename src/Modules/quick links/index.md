@@ -60,7 +60,7 @@ You can also fill out the form on the entry view.
 
 {% tab title="Repeater" %}
 
-1. [Create a file](/workspace/websites/add-file/) called `quick-links.tpl` on your prefer location. This will be where the code for your slider will be.
+1. [Create a file](/workspace/websites/add-file/) called `quick-links.tpl` on your prefer location. This will be where the code for your quick links will be.
 
 2. Paste the following code:
 
