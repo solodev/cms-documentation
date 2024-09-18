@@ -62,37 +62,11 @@ You can also fill out the form on the entry view.
 
 1. [Create a file](/workspace/websites/add-file/) called `quick-links.tpl` on your prefer location. This will be where the code for your quick links will be.
 
-2. Paste the following code:
+2. Add the corresponding html code to your file.
 
-```js
-<div class="container py-5">
-  <div class="row">
-    <div class="col-md-8 mx-auto text-center">
-      <span class="bi bi-lg bi-cloud"></span>
-      <h1 class="h2">Cloud Content Management System</h1>
-      <p class="lead fw-normal">Unlock the full potential of your web development with modules.</p>
-    </div>
-  </div>
-  <div class="row row-cols-2 row-cols-lg-4">
-    [repeater id="1" display_type="news" limit="0,4"]
-    <div class="col mt-4">
-      <div class="card py-5 px-xl-4 px-3 text-center d-flex align-items-center flex-column">
-        <img alt="{{link_image_alt_tag}}" class="img-fluid" src="[get_asset_file_url id={{link_image}}]" />
-        <h2 class="h4 mt-4 mb-0"><a class="text-black" href="{{path}}">{{event_title}}</a></h2>
-      </div>
-    </div>
-    [/repeater]
-  </div>
-</div>
-```
-<!-- {{{event_title}}} -->
+3. Include or replace the code with the shortcodes where needed.
 
-!!!Note:
-Replace the `id` with the corresponding id of your Quick Links Module.<br>
-<img src="/static/images/modules/quick-links/quick-links-header.jpg" alt="Quick Links Header" style="width: 60%; margin: 20px 0;">
-!!!
-
-3. [Insert your quick links file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
+4. [Insert your quick links file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
 
 <img src="/static/images/modules/quick-links/quick-links-result.jpg" alt="Quick Links Frontend" style="width: 80%;">
 
@@ -102,19 +76,33 @@ Replace the `id` with the corresponding id of your Quick Links Module.<br>
 
 ### Shortcodes
 
-You will need the following shortcodes to successfully add a Blog to your website:
+You will need the following shortcodes to successfully add a Quick Links to your website. Depending on your needs, you might need to use extra [shortcodes](/shortcodes/).
 
-- [repeater](/shortcodes/module/#repeater) - prints the fields from the blog module form.
+- [repeater](/shortcodes/module/#repeater) - prints the fields from the Quick Links module form.
 
 ```js
-[repeater id="" limit="0, 4" display_type="news"]
+[repeater id="" display_type="news" limit="0,4"]
 ```
+
+!!!Note:
+You need to add the ID number of your quick links module to the repeater shortcode within the `id=""` attribute.
+!!!
 
 - [get_asset_file_url](/shortcodes/core/get-asset-file-url/) - returns the URL path to the specified asset file in the database.
 
 ```js
-<img alt="Image alt" class="img-fluid" src="[get_asset_file_url id={{blog_image}}]" />
+<img alt="Image alt" class="img-fluid" src="[get_asset_file_url id={{quick_links_image}}]" />
 ```
+
+- `event_title` - displays the name of the module's entry.
+
+```
+{{event_title}}
+```
+
+<!-- {{{quick_links_image}}} -->
+
+If you need to use other shortcodes or need to learn more about shortcodes, [click here](/shortcodes/).
 
 ## Support
 

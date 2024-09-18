@@ -55,7 +55,7 @@ These steps will guide you through the process of installing Slider Module and a
 
 3. Include or replace the code with the shortcodes where needed.
 
-4. Add the `slider-repeater.tpl` to your [page](/workspace/websites/page/file-to-page/).
+4. [Insert your slider file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
 
 {% endtab %}
 
@@ -63,13 +63,17 @@ These steps will guide you through the process of installing Slider Module and a
 
 ### Shortcodes
 
-You will need the following shortcodes to successfully add a Slider to your website:
+You will need the following shortcodes to successfully add a Slider to your website. Depending on your needs, you might need to use extra [shortcodes](/shortcodes/).
 
 - [repeater](/shortcodes/module/#repeater) - prints the fields from the Slider module form.
 
 ```js
 [repeater id="" limit="0, 4" display_type="news" order="start_time desc"]
 ```
+
+!!!Note:
+You need to add the ID number of your slider module to the repeater shortcode within the `id=""` attribute.
+!!!
 
 - [get_asset_file_url](/shortcodes/core/get-asset-file-url/) - returns the URL path to the specified asset file in the database.
 
