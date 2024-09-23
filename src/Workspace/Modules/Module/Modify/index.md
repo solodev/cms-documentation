@@ -2,14 +2,15 @@
 
 Here, you have the ability to customize your module, offering a wide array of options at your disposal. These options are conveniently categorized into various sections, including "Website Properties" for fine-tuning the module's appearance and behavior, "Advanced Options" for advanced settings, "Table Schema" for managing the data structure, and "API Info" for integration purposes. Feel free to explore these sections and tailor your module to meet your specific needs.
 
-<p><img src="/static/images/modules/modify-module.jpg" alt="Modify Module" style="width: 60%;"></p>
+<p><img src="/static/images/workspace/module/modify-module.jpg" alt="Modify Module" style="width: 50%;"></p>
 
 **Name** | **Description** 
 :--- | ---
 Name | Modify the module name.
-Type | Assign news, events, blog, photos, landing page, file map, or custom module type using the dropdown menu. <br>You can find more information about module types in <a href="/workspace/modules">Modules</a>.
-Display/Hide Columns | Use this option to display/hide columns from the module's table. To do so, use arrows in the middle of the fields.
-Confirm | Once you have completed all the fields, click **Submit** to apply your changes.
+Type | Assign news, events, blog, photos, landing page, file map, or custom module type using the dropdown menu. <br>You can find more information about module types in [Modules](/modules/#calendar-types).
+Upload Form | Choose this option if you want to upload the form from your computer.
+Edit Form | Choose this option if you want to edit the form code.
+Display/Hide Columns | Use this option to show or hide columns in the module’s table. To do this, simply use the arrows between the fields to move them into the desired columns.
 
 ## Website Properties
 
@@ -50,37 +51,4 @@ Here you can find API Info that can be used in <a href="/admin/api">API section<
 
 ## Advanced Options
 
-Manage your module, add custom code, and export or delete your module.
-
-<p><img src="/static/images/module-overview9.jpg" alt="module-overview9" style="width: 50%;"></p>
-
-**Name** | **Description** 
-:--- | ---
-Upload Form | Choose this option if you want to upload the form from your PC.
-Edit Form | Choose this option if you want to edit the form.
-Custom Icon | Enter font awesome icon class.
-Geo-Coded Fields | Enter a comma-separated list of fields used to generate latitude and longitude that will be saved in fields named "lat" and "lng" respectively.
-Field Name to use in URL | Designate a field name to be accessed via URL. (event_title is the default).
-Error Document | Designate what contents should show when an event expires by clicking the **Browse** button.
-Asset Fields | Link a field in your Calendar to a public URL.
-Post Processing | Write your PHP to handle form submissions.
-Enable Attachments / Gallery | Choose this option to enable attachments/gallery.
-Enforce User Permissions | Choose this option to enforce user permissions.
-Enable User Groups | Choose this option to enable user groups.
-Protect Fields | Choose this option to protect fields.
-Enable Website Mapping | Choose this option to enable website mapping.
-Resave All Entries (On Submit) | Choose this option to resave all entries.
-Export Module | Choose this option to export the module.
-Add Template Map | Choose this option to add a template map - you can define custom attributes for future access. To do that click button "Add Template Map" and enter the name and value then. 
-Delete Module | To remove your entry, type DELETE in all caps into the field and click the red Delete button.
-
-## Export Module
-
-Choose this option to export the module.
-
-<p><img src="/static/images/module-overview10.jpg" alt="module-overview10" style="width: 30%;"></p>
-
-**Name** | **Description** 
-:--- | ---
-Include manager entries in export | You can mark this option to include manager entries in export.
-Continue Export | Choose this option to finalize the export process.
+Manage or personalize your module, add custom code, export or delete your module, and more. For more information, [click here](/workspace/modules/module/modify/advanced/).

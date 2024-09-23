@@ -1,59 +1,16 @@
 # Modify 
 
-Modify form entries, including displayed fields, email settings, table schema, relationships, etc.
+Customize your form's name, type, and styles, including the displayed fields. You can also update [email options](/workspace/forms/form/modify/email/), [table schema](/workspace/forms/form/modify/#table-schema), [relationships](/workspace/forms/form/modify/#relationships), [API details](/workspace/forms/form/modify/#api-info), and other [advanced settings](/workspace/forms/form/modify/advanced/).
 
-<img src="/static/images/form-overview3.jpg" alt="form-overview3" style="width: 50%; display: block"></a>
+<p><img src="/static/images/workspace/form/modify-form.jpg" alt="Modify Form" style="width: 50%;"></p>
 
 **Name** | **Description** 
 :--- | ---
 Name | Make changes to the form name.
 Data Table Type | Modify the data table type. Choose from Data Storage, Website Module, and Website Form.
-Display/Hide Columns | Select the option to display/hide columns on the form. Use the arrows to make your selections in the right column.
-
-## Email Options
-
-Browse and select email options for your data table.
-
-<img src="/static/images/form-overview7.jpg" alt="form-overview7" style="width: 50%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-Upload Return Page | Choose this option to upload the return page from your computer.
-Edit | Choose this option to edit the document sent to users.
-Upload Custom Mail | Upload an email template to send users upon form submission. 
-Notification Type | Choose notification type: form submission, submission + custom email, or other.
-Tickler Email Address | Use this option to send form submissions to an email address you designate. Add the email address and click the **Add** button.
-Email List | Manage email addresses that have been added. To remove an email address, mark it and select the **Delete** button. 
-Tickler URL | Keep users informed of the actions of your Datatable at URL by entering the URL.
-Auto Assign Users | You can use this option to auto-assign users.
-
-## Advanced
-
-Access and define advanced options for forms and form entries.
-
-<img src="/static/images/form-overview8.jpg" alt="form-overview8" style="width: 50%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
 Upload Form | Select this option to upload a predesigned form.
 Edit Form | Make changes to an existing form.
-Design Form | Select this option to design a new form in Page Studio.
-Custom Icon | Enter font awesome icon class.
-Geo-Coded Fields | Enter a comma-separated list of fields used to generate latitude and longitude that will be saved in fields named "lat" and "lng" respectively.
-Field Name to use in URL | Designate a field name to be accessed via URL. (event_title is the default).
-Asset Fields | Link a field in your data table to a public URL, by adding a comma separated list of fields that will generate<br> a new property *_url that will contain a public link to the asset file specified in that field. Example: a datatable field named test_document, when placed into this textarea, will generate a new property called test_document_url that will have a public link to the document.
-Post Processing | Write your PHP to handle form submissions.
-Enforce User Permissions | Choose this option to enforce user permissions.
-Enable User Groups | Choose this option to enable user groups.
-Protect Fields | Choose this option to protect fields.
-Flat Entries (subtable values appear as main values) | Choose this option if you want to have the entries flat.
-Honeypot Protection | Choose this option to have honeypot protection.
-Enable Captcha | Choose this option to enable the captcha.
-Block Anonymous Submissions | Choose this option to block anonymous submissions.
-Sanitize URLS from submissions | Choose this option to sanitize URLs from submissions.
-Resave All Entries (On Submit) | Choose this option to resave all entries.
-Export Module | Choose this option to export forms.
-Delete Module | To remove your entry, type DELETE in all caps into the field and click the red **Delete** button.
+Display/Hide Columns | Select the option to display/hide columns on the form. Use the arrows to make your selections in the right column.
 
 ## Table Schema
 
@@ -69,7 +26,6 @@ Type | Use this option to modify column type.
 Length | Use this option to modify column length.
 Allow Null | Mark this option to allow null in the column.
 Default | Use this option to make the column default.
-
 
 ## Relationships
 
@@ -90,7 +46,3 @@ Field | Here, you can select a field.
 Here you can find API Info that can be used in the <a href="/admin/api">API section</a> to connect.
 
 <img src="/static/images/form-overview6.jpg" alt="form-overview6" style="width: 50%; display: block"></a>
-
-## Confirm 
-
-Once you have completed all the fields, click **Submit** to apply your changes.
