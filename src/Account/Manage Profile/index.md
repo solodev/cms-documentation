@@ -14,11 +14,13 @@ Phone number | Include the phone number you want to associate with your account 
 Timezone | Provide a specific timezone to help improve location services (optional).
 Title | List your business title, such as “Director of Marketing,” etc (optional).
 Company | Add the name of your company (optional).
-[Session Timeout](/account/manage-profile/#session-timeout) | When the app logs out (optional).
+[Session Timeout](/account/manage-profile/#session-timeout) | Set the time before the CMS automatically logs you out of your session due to inactivity (default timeout is 20 minutes with additional options).
 
 ## Session Timeout
 
-A session timeout automatically ends a user's session after a period of inactivity to enhance security and free up resources. You can change the time from the default 20 minutes by selecting a new option from the dropdown.
+Session timeout automatically ends a user's session after a period of inactivity to enhance security and free up resources. You can extend the default time from 20 minutes to 40 or 60 minutes using the dropdown menu.
+
+<p><img src="/static/images/account/session-timeout.jpg" alt="Session Timeout Dropdown" style="width: 30%;"></p>
 
 ## Profile Image
 
