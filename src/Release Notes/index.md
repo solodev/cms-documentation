@@ -1,5 +1,68 @@
 # Release Notes
 
+### v11
+Solodev CMS 11 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. Version 11 optimizes the platform's performance and modernizes code to reflect current technologies and practices, including updates to the Solodev Micro and Pro CloudFormation templates for AWS, as well as a new mailcatcher service. 
+
+#### Key Release Highlights
+ - New mailcatcher added to CMS to receive emails locally 
+ - Updated AWS CloudFormation for CMS Micro and Pro, including SSO parameters
+
+#### New Features
+ - Added policies to CMS Micro to pull updates
+ - Configured CMS Pro AMI with updated if logic
+ - YAML files now written to AWS EKS folder in a proper format
+ - Added ability to browse Themes on Add Website
+
+#### Improvements
+ - Removed Zencoder and moved to using the compose library
+ - Updated inventory_feature_entry to use resizeImage
+ - Total refactor of how objects are used in the new system
+ - Moved getActivities to user_activity_manager to avoid circular dependency
+ - Set npm install to run in background
+ - Updated ProxyPassMatch directive to match only app.php routes in web.conf
+ - Improved how extensions load
+
+#### Bug Fixes
+ - Fixed input tickler email UI
+ - Patched problem with package importer
+ - Addressed minor issues with validation in Add Module 
+ - Fixed Invite User, Reset Password and Forgot Password by email
+
+---
+
+### v10.5
+Solodev CMS 10.5 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. Version 10.5 optimizes the platform's performance and modernizes code to reflect current technologies and practices, including an upgrade to webpack, new sorting enhancements for datatables, and the inclusion of an AMI in the Solodev CMS CloudFormation template for AWS. 
+
+
+#### Key Release Highlights
+ - Upgraded webpack for optimizing JavaScript, CSS, and images
+ - New capability to sort by key within datatables and calendars to preserve order
+ - Updated AWS CloudFormation template (CFT) to include AMI for v10.5.1.8
+
+#### New Features
+ - Enhanced spam redirecting 
+ - Google Tag Manager filtering to ensure it does not fire while browsing backend
+ - Added spam checks before sending out tickler emails
+ - Applied encoding updates to sent emails
+ - Improved styling to make calendar picker visible on modals
+
+#### Improvements
+ - Fine-tuned API route after including in WebRouter
+ - Updated for non-DocumentDB Mongo 
+ - Addressed encoding issues when creating and displaying forms on the backend
+ - Added back disable email protection functionality
+ - Enhanced side navigation highlight from PHP_SELF to REQUEST_URI
+ - Added log details to middleware
+ - Split out fileparse processing into its own class
+
+#### Bug Fixes
+ - Fixed datatable sub-form so it saves properly
+ - Reverted error_logs so changes can be pushed
+ - Fixed filemanager breadcrumb so it is selected by default
+ - Prevented 404 caching headers from duplicating
+
+---
+
 ### v10.4
 Solodev CMS 10.4 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. 
 Version 10.4 optimizes the platform’s performance and modernizes code to reflect current technologies and practices, including greater control over picking website types and an update to webpack.
