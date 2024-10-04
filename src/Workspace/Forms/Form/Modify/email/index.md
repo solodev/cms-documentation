@@ -6,7 +6,7 @@ Access and define advanced email options for forms and form entries.
 :--- | ---
 [Return Behavior](/#return-behavior) | Choose between uploading a return page or adding a URL redirect.
 Edit | Choose this option to edit the document sent to users.
-Upload Custom Mail | Draft an email to send to users after they've submitted your form. [click here](https://www.mailsoar.com/blog/guide/html-email-best-practices/)
+Upload Custom Mail | Draft an email to send to users after they've submitted your form. For more information on best practices, [click here](https://www.mailsoar.com/blog/guide/html-email-best-practices/)
 Notification Type | Choose notification type: form submission, submission + custom email, or other.
 Tickler Email Address | Use this option to send form submissions to an email address you designate. Add the email address and click the **Add** button.
 Email List | Manage email addresses that have been added. To remove an email address, mark it and select the **Delete** button. 
@@ -35,4 +35,4 @@ The form template in your module will be used in both the email you receive when
 
 - For more customization options, consider redesigning your form to incorporate tables.
 
-For more information on best practices, [click here](https://www.mailsoar.com/blog/guide/html-email-best-practices/).
+For more information on email best practices, [click here](https://www.mailsoar.com/blog/guide/html-email-best-practices/).
