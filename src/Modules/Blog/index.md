@@ -40,23 +40,63 @@ These steps will guide you through the process of installing Blog Module and add
 
 3. [Add an entry](/workspace/modules/module/add-entry/).
 
+<img src="/static/images/modules/blog/add-entry-blog.jpg" alt="Add Blog Entry" style="width: 45%; margin-bottom: 20px;">
+
 {% endtab %}
 
 {% tab title="Repeater" %}
 
 1. [Create a file](/workspace/websites/add-file/) called `blog-repeater.tpl` on your prefer location. This file will contain the code for your blog roll that will dynamically pull in your blog entries.
 
-2. Insert the HTML code into your file to display the blog roll.
+<img src="/static/images/modules/blog/blog-repeater-file.jpg" alt="Blog Repeater File" style="width: 45%; margin-bottom: 20px;">
 
-3. Include or replace the code with the shortcodes where needed.
+2. Insert the HTML code into your file to display the blog roll. For example:
+
+```js
+<div class="row row-cols-lg-2 row-cols-1">
+  <div class="col">
+    <img alt="Placeholder image" src="/_/images/blog-image.png" class="img-fluid">
+  </div>
+  <div class="col">
+    <h2>
+      <a href="/blog/detail/" class="text-black">Blog title</a>
+    </h2>
+    <p>Blog intro.</p>
+    <p><a class="btn btn-primary" aria-label="Read more about blog" href="/blog/detail/">Read more</a></p>
+  </div>
+</div>
+```
+
+3. Include or replace the code with the shortcodes where needed. For example:
+
+```js
+<div class="row row-cols-lg-2 row-cols-1">
+  [repeater id="" limit="0, 4" display_type="forum"]
+    <div class="col">
+      <img alt="Placeholder image" src="[get_asset_file_url id={{blog_image}}]" class="img-fluid">
+    </div>
+    <div class="col">
+      <h2>
+        <a href="{{path}}" class="text-black">{{event_title}}</a>
+      </h2>
+      <p>{{blog_intro}}</p>
+      <p><a class="btn btn-primary" aria-label="Read more about {{event_title}}" href="{{path}}">Read more</a></p>
+    </div>
+  [/repeater]
+</div>
+```
 
 4. [Insert your blog repeater file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
+
+<img src="/static/images/modules/blog/blog-repeater-page.jpg" alt="Blog Repeater on Page" style="width: 85%;">
 
 {% endtab %}
 
 {% tab title="Detail" %}
 
 1. [Create a file](/workspace/websites/add-file/) called `blog-detail.tpl` on your prefer location. This file will contain the code for your blog entry.
+
+<img src="/static/images/modules/blog/blog-detail-file.jpg" alt="Blog Detail File" style="width: 45%; margin-bottom: 20px;">
 
 2. Insert the HTML code into your file to display the blog content.
 
@@ -72,17 +112,17 @@ These steps will guide you through the process of installing Blog Module and add
 
 You will need the following shortcodes to successfully add a Blog to your website. Depending on your needs, you might need to use extra [shortcodes](/shortcodes/).
 
-- [repeater](/shortcodes/module/#repeater) - prints the fields from the blog module form.
+- [repeater](/shortcodes/module/#repeater) - prints the fields from the blog module form. Used on your repeater page.
 
 ```js
-[repeater id="" limit="0, 4" display_type="forum"]
+[repeater id="1" limit="0, 4" display_type="forum"]
 ```
 
 !!!Note:
 You need to add the ID number of your slider module to the repeater shortcode within the `id=""` attribute.
 !!!
 
-- [entry](/shortcodes/module/#entry) - displays the content of a specific blog entry from the module form.
+- [entry](/shortcodes/module/#entry) - displays the content of a specific blog entry from the module form. Used on your detail page.
 
 ```js
 [entry]
