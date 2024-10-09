@@ -44,17 +44,27 @@ These steps will guide you through the process of installing Blog Module and add
 
 {% tab title="Repeater" %}
 
-Steps coming soon...
+1. [Create a file](/workspace/websites/add-file/) called `blog-repeater.tpl` on your prefer location. This file will contain the code for your blog roll that will dynamically pull in your blog entries.
 
-<!-- 1. [Create a file](/workspace/websites/add-file/) called `quick-links.tpl` on your prefer location. This will be where the code for your slider will be. -->
+2. Insert the HTML code into your file to display the blog roll.
+
+3. Include or replace the code with the shortcodes where needed.
+
+4. [Insert your blog repeater file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
 
 {% endtab %}
 
 {% tab title="Detail" %}
 
-Steps coming soon...
+1. [Create a file](/workspace/websites/add-file/) called `blog-detail.tpl` on your prefer location. This file will contain the code for your blog entry.
 
-{% endtab %}
+2. Insert the HTML code into your file to display the blog content.
+
+3. Include or replace the code with the shortcodes where needed.
+
+4. [Insert your blog detail file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
+
+{% endtab %}                    
 
 {% endtabs %}
 
@@ -71,6 +81,12 @@ You will need the following shortcodes to successfully add a Blog to your websit
 !!!Note:
 You need to add the ID number of your slider module to the repeater shortcode within the `id=""` attribute.
 !!!
+
+- [entry](/shortcodes/module/#entry) - displays the content of a specific blog entry from the module form.
+
+```js
+[entry]
+```
 
 - [get_asset_file_url](/shortcodes/core/get-asset-file-url/) - returns the URL path to the specified asset file in the database.
 

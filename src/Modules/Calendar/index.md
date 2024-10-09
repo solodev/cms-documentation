@@ -41,15 +41,25 @@ These steps will guide you through the process of installing Calendar Module and
 
 {% tab title="Repeater" %}
 
-Steps coming soon...
+1. [Create a file](/workspace/websites/add-file/) called `calendar-repeater.tpl` on your prefer location. This file will contain the code for your calendars roll that will dynamically pull in your calendars entries.
 
-<!-- 1. [Create a file](/workspace/websites/add-file/) called `quick-links.tpl` on your prefer location. This will be where the code for your slider will be. -->
+2. Insert the HTML code into your file to display the calendars roll.
+
+3. Include or replace the code with the shortcodes where needed.
+
+4. [Insert your calendars repeater file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
 
 {% endtab %}
 
 {% tab title="Detail" %}
 
-Steps coming soon...
+1. [Create a file](/workspace/websites/add-file/) called `calendar-detail.tpl` on your prefer location. This file will contain the code for your calendar entry.
+
+2. Insert the HTML code into your file to display the calendar content.
+
+3. Include or replace the code with the shortcodes where needed.
+
+4. [Insert your calendar detail file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
 
 {% endtab %}
 
@@ -68,6 +78,12 @@ You will need the following shortcodes to successfully add a Calendar to your we
 !!!Note:
 You need to add the ID number of your slider module to the repeater shortcode within the `id=""` attribute.
 !!!
+
+- [entry](/shortcodes/module/#entry) - displays the content of a specific blog entry from the module form.
+
+```js
+[entry]
+```
 
 - [print_date](/shortcodes/core/print-date/) - returns the date formatted according to [PHP's date function](https://www.php.net/manual/en/function.date.php).
 
