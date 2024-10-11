@@ -17,6 +17,10 @@ Fullscreen | Fully expand the rendered view of your page to remove toolbars.
 
 <p><img src="/static/images/websites/page/page-actions.jpg" alt="Page toolbar" style="width: 32%;"></p>
 
+!!!Note:
+If your website uses a CDN and you need to immediately clear a page’s cache, you can publish the page to trigger a cache refresh.
+!!!
+
 **Name** | **Description**
 :--- | ---
 Collapse Menu | Toggle to collapse the right menu for a cleaner and more focused workspace.

@@ -54,6 +54,10 @@ CDN Provider | Choose your CDN provider from the dropdown.
 AWS CDN (distribution) | Provide the AWS CDN.
 AWS Account Config | This link will redirect you the config section to configure your [AWS Account](/admin/settings/config/#aws).
 
+!!!Note:
+If your website uses a CDN and you need to immediately clear a page’s cache, you can publish the page to trigger a cache refresh.
+!!!
+
 ## SSL Information
 
 Secure Sockets Layer (SSL) is a technology for establishing a secure and encrypted connection between a server and a client.
