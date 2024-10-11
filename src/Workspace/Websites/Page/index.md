@@ -12,6 +12,10 @@ The most important assets in your www folder are STML files (.stml), the individ
 
 While a page is composed of hypertext markup and served in a browser, all pages in the Solodev CMS are given a “.stml” extension. An STML is an HTML file that contains server-side includes (SSI), which are used to generate page-generated content. STML files are processed by the server when a user accesses the related webpage.
 
+!!!Note:
+If your website uses a CDN and you need to immediately clear a page’s cache, you can publish the page to trigger a cache refresh.
+!!!
+
 ## Using dynamic divs
 
 Page templates are composed of dynamic divs – or “dropzones” – where HTML and content can be inserted and arranged in various places on a website page. Dynamic divs work fluidly with the Bootstrap grid system, allowing you to easily insert content once the layout of your page has been created. Here is the simple HTML code to create a dynamic div in Solodev:
