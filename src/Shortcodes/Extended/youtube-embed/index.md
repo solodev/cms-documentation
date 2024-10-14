@@ -2,6 +2,10 @@ Effortlessly embed YouTube videos on your website to enhance engagement and show
 
 If your website runs on [Bootstrap 5+](https://getbootstrap.com/docs/5.3/helpers/ratio/#example) and Solodev version 11.0.66 or higher, use the shortcode below. Otherwise, [click here](#youtube-embed---older-versions).
 
+!!!Note:
+If you need to check your Solodev version, go to the login page and locate the version number under the **log in** button.
+!!!
+
 ## YouTube Embed - Newer Versions
 
 **Attributes:**
