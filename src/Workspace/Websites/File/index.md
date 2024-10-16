@@ -15,7 +15,7 @@ To edit a file, simply click on it to open the code editor.
 [History](/workspace/websites/files/history) | Review previous versions of your content or code and restore a saved version.
 [Add to File Group](/workspace/websites/files/add-to-file-group) | Assign your file or asset to a specific file group.
 
-## Other Actions
+## Toolbar Actions
 
 Files also have the option to upload a file, create or manage tasks, expand your screen or collapse the right menu.
 

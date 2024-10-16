@@ -2,9 +2,35 @@ In Solodev, you can update any page on your website under the www folder. You ca
 
 <p><img src="/static/images/websites/page/page.jpg" alt="Micro Main Page"></p>
 
+**Name** | **Description**
+:--- | ---
+[Publish](/workspace/websites/pages/publish) | Push your code or content to live production. 
+[Draft](/workspace/websites/pages/draft) | Create a draft version of your code or content.
+[Stage](/workspace/websites/pages/stage) | Set up a staged version of your code or content for review as part of your workflow. 
+[Copy](/workspace/websites/pages/copy) | Copy a page or asset for editing or additional use elsewhere in your website. 
+[Move](/workspace/websites/pages/move) | Relocate a page or asset based on your taxonomy.
+[Delete](/workspace/websites/pages/delete) | Delete a page or asset permanently from your website.
+[History](/workspace/websites/pages/history) | Review previous versions of your content or code and restore a saved version.
+[Add to File Group](/workspace/websites/pages/add-to-file-group) | Assign your page or asset to a specific file group.
+
 !!!NOTE:
 You will need to [add a website](/workspace/websites/add-website/) to your CMS before adding a page.
 !!!
+
+## Toolbar Actions
+
+Pages also have the option to upload a file, create or manage tasks, expand your screen or collapse the right menu.
+
+<p><img src="/static/images/websites/page/page-toolbar-actions.jpg" alt="Page Toolbar Actions" style="width: 50%;"></p>
+
+**Name** | **Description**
+:--- | ---
+Mobile View | Toggle to a responsive view for a smartphone.
+Tablet View | Toggle to a responsive view for a tablet. 
+Desktop View | Toggle to a responsive view for a desktop/laptop computer.
+Show/Hide Dynamic Divs | Apply a blue dotted line to identify the sections of your page.
+Fullscreen | Fully expand the rendered view of your page to remove toolbars.
+View Page | Launch a new browser tab to view your live, published page.
 
 ## STML Files
 
