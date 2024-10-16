@@ -1,3 +1,4 @@
 order: 5
 icon: pencil
 title: Inline Editing
+visibility: hidden

@@ -1,6 +1,6 @@
 In the Meta Column, you can update your page's title, set the meta description and keywords, preview how your page will unfurl on social media, and perform additional SEO optimizations.
 
-<p><img src="/static/images/websites/page/page-meta-column.jpg" alt="Page Meta Column" style="width: 32%;"></p>
+<p><img src="/static/images/websites/page/page-meta-column.jpg" alt="Page Meta Column" style="width: 26%;"></p>
 
 **Name** | **Description**
 :--- | ---

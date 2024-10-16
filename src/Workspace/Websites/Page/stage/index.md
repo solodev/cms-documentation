@@ -2,6 +2,6 @@ Staging refers to a separate environment used for testing and previewing content
 
 Staging environments help ensure that everything works as intended and looks correct before being published.
 
-1. To stage a file, simply click on **"Stage"** under the dropdown menu on the right-hand side.
+1. To stage a page, simply click on **"Stage"** under the dropdown menu on the right-hand side.
 
 <p><img src="/static/images/common/stage-menu.jpg" alt="Stage Menu" style="width: 15%;"></p>

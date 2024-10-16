@@ -1,3 +1,4 @@
 order: 10
 icon: file-added
 title: File to Page
+visibility: hidden
