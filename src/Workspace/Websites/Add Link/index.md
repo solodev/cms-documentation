@@ -1,3 +1,5 @@
+In Solodev, you can easily add URL links to your website. Links are an essential part of web navigation, allowing users to move from one page to another or access external resources.
+
 1. Click on **Add Link** in the right menu.
 
 <p><img src="/static/images/folders/add-link.jpg" alt="Add Link" style="width: 40%;"></p>

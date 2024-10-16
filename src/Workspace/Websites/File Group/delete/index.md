@@ -4,6 +4,6 @@
 
 2. Ensure you are deleting the correct file group, as this action cannot be undone.
 
-<p><img src="/static/images/file-group/file-group-delete.jpg" alt="File Group Delete" style="width: 40%;"></p>
+<p><img src="/static/images/file-group/file-group-delete.jpg" alt="File Group Delete" style="width: 35%;"></p>
 
 3. Click <span class="text-blue">**Submit**</span>.

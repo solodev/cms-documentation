@@ -1,6 +1,10 @@
+A file group is a collection of files organized together for easier management and better organization.
+
+To create a file group, follow these steps:
+
 1. Click on **"Add File Group"** in the right menu.
 
-<p><img src="/static/images/common/website-file-group-menu.jpg" alt="Add to File Group Menu" style="width: 15%;"></p>
+<p><img src="/static/images/common/website-file-group-menu.jpg" alt="Add to File Group Menu" style="width: 20%;"></p>
 
 2. Complete the form in the modal window.
 

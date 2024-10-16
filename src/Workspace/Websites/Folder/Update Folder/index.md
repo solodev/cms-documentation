@@ -9,7 +9,6 @@ Title | Add or update the folder title. This will be the Title displayed on your
 Description | You can add or modify the folder description. This description can be utilized on your website's frontend or<br> for organizational purposes.
 [Website Properties](#website-properties) | Control how folders work with websites.
 [Advanced](#advanced) | Delete a folder.
-Submit | Once you have completed all the fields, click **Submit** to apply your changes.
 
 ## Website Properties
 

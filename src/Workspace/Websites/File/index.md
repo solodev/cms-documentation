@@ -51,7 +51,3 @@ Upload + Save | Send your file and automatically save your code or content, but 
 Collaborate with team members by creating, assigning and viewing tasks, sending messages, and managing your task status and details. 
 
 <p><img src="/static/images/websites/file-task.jpg" alt="File task" style="width: 43%;"></p>
-
-## Add a file to a page
-
-To insert your file into your page, [follow these simple steps](/tutorials/cms/file-to-page/).

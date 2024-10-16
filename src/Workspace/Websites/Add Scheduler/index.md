@@ -1,4 +1,4 @@
-# Add Scheduler
+Schedule content publication to a live website in advance, allowing you to plan and automate updates, announcements, or promotions without manual intervention at the time of release
 
 1. Click on **Add Scheduler** in the right menu.
 
