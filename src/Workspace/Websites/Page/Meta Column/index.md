@@ -42,8 +42,8 @@ Image | Click the image to upload one for the page's FURL.
 **Name** | **Description**
 :--- | ---
 Page Cache - TTL (Time to Live) | Update the page cache time. Setting it to zero is not recommended, as it can increase server load and expose the server to denial-of-service (DoS) attacks.
-H1 Title | Add or update the main heading of the page.
-Page Description | Add or update the page’s description.
+H1 Title | Add or update the main heading of the page. Use a [shortcode](/shortcodes/page/page-title/) to display this description on the frontend.
+Page Description | Add or update the page’s description. Use a [shortcode](/shortcodes/page/page-description/) to display this description on the frontend.
 Menu Name | Add or update the name used in navigation menus.
 Rank | Adjust the rank to determine the page’s display order in the menu. **Lower numbers appear first.**
 Tags | Add tags to organize your page.
