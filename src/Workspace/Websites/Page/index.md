@@ -27,3 +27,7 @@ Page templates are composed of dynamic divs – or “dropzones” – where HTM
 Dynamic divs are the connecting elements between your HTML content and STML pages. Generally speaking, your STML pages will contain several dynamic divs, allowing you to easily insert HTML content into the page itself.
 
 Dynamic divs are the connecting elements between your HTML content and STML pages. Generally speaking, your STML pages will contain several dynamic divs, allowing you to easily insert HTML content into the page itself.
+
+## Add a file to a page
+
+To insert your file into your page, [follow these simple steps](/tutorials/cms/file-to-page/).
