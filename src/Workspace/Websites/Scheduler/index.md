@@ -7,4 +7,4 @@ Schedulers can be used for two primary purposes:
 
 Once you've created a scheduler, you can start adding and managing related files, such as images, documents, and other media. This helps you organize files efficiently and control views.
 
-<p><img src="/static/images/websites/scheduler/scheduler-table.jpg" alt="Scheduler Table"></p>
+<p><img src="/static/images/websites/scheduler/scheduler-table-empty.jpg" alt="Scheduler Table"></p>
