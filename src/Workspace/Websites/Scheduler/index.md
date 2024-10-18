@@ -4,3 +4,7 @@ Schedulers can be used for two primary purposes:
 
 - Set specific dates and times for the publication of content. 
 - Display a series of announcements on a web page at a given time.
+
+Once you've created a scheduler, you can start adding and managing related files, such as images, documents, and other media. This helps you organize files efficiently and control views.
+
+<p><img src="/static/images/websites/scheduler/scheduler-table.jpg" alt="Scheduler Table"></p>
