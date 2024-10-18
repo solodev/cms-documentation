@@ -52,4 +52,4 @@ Body Role | Defines the element's purpose or behavior, aiding assistive technolo
 Body Class | Add one or more HTML classes to the `<body>` element, separated by spaces.
 Header Code | Insert custom code or additional content in the `<head>` section of the page.
 Is Template | Select this option if you want to use this page layout as a template for future pages.
-<!-- Is Cached | Check this option if you want to . -->
+Is Cached | Write the stml to the filesystem as a static file.

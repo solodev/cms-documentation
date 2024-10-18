@@ -17,3 +17,9 @@ Add files to your file group.
 **Next Steps**
 
 After adding a file group, you’ll be directed to the file group table. From there, you can select any [file group entry](/workspace/websites/file-group/file-group-detail/) to view or update its individual settings.
+
+<p><img src="/static/images/file-group/file-group-table.jpg" alt="File Group Table"></p>
+
+!!!Note: 
+After adding files to a file group, use the arrows to move them up or down in the table to reorder them.
+!!!
