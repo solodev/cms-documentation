@@ -17,3 +17,5 @@ Title | Add the file group title. This will be the Title displayed on your site.
 Description | Add the file group description. This description can be utilized for organizational purposes.
 
 3. Click <span class="text-blue">**Submit**</span>.
+
+4. Add files to your file group by [following these steps](/workspace/websites/file-group/).

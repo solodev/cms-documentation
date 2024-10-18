@@ -14,7 +14,7 @@ Site Title | Add or update the site title.
 
 Manage your Facebook and Twitter handles, as well as setting the image for sharing your site on social media platforms.
 
-<img src="/static/images/websites/website/update/social-media.jpg" alt="Social Media form" style="width: 40%;"></a>
+<img src="/static/images/websites/website/update/social-media.jpg" alt="Social Media form" style="width: 37%;"></a>
 
 **Name** | **Description** 
 :--- | ---

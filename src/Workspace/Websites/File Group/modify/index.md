@@ -1,3 +1,5 @@
+Edit your file group’s name, title, and description.
+
 1. Click **"Modify"** from the action bar.
 
 <p><img src="/static/images/file-group/file-group-modify-menu.jpg" alt="File Group Modify Action Bar" style="width: 25%;"></p>
