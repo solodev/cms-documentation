@@ -8,7 +8,7 @@ Using the left-hand menu, you can access the **web files** and **www folder** th
 Click the **Main** button or your **organization’s logo** in the upper left corner to return to the main screen. 
 !!!
 
-<p><img src="/static/images/websites/website/website-dashboard.jpg" alt="Website Dashboard"></p>
+<p><img src="/static/images/websites/website/website-dashboard.jpg" alt="Website Main View"></p>
 
 **Name** | **Description** 
 :--- | ---
