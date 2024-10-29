@@ -54,7 +54,7 @@ Need help with a custom enterprise deployment with unique requirements? [:icon-m
 
 <div class="card-lg" style="margin-bottom: 1.5rem;">
   <div style="width: 40%;">
-    <img src="/static/images/themes/micro-theme.jpg" alt="Micro Theme">
+    <img src="/static/images/themes/micro-theme-thumbnail.jpg" alt="Micro Theme">
   </div>
   <div style="width: 50%; padding-left: 1.5rem">
     <h2><a href="/themes/micro">Micro Theme</a></h2>
