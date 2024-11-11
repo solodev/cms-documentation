@@ -5,45 +5,24 @@
     <img src="/static/images/logos/pro-logo.jpg" alt="CMS Pro Logo" style="width: 80px;">
     <div>
       <h1>CMS Professional</h1>
-      <p class="mb-0">A business-grade content management system built from the ground up for <br>Amazon Web Services (AWS).</p>
+      <p style="margin-bottom: .5rem;">A business-grade content management system built from the ground up for <br>Amazon Web Services (AWS).</p>
+      <p class="mb-0"><a href="/static/images/pro/solodev-cms-pro-architecture-2024.jpg" rel="noopener noreferrer" target="_blank">Diagram <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><g><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"></path><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"></path></g></g></svg></a></p>
     </div>
   </div>
   <a class="btn-orange-lg" href="https://aws.amazon.com/marketplace/pp/prodview-2km2dv5ozjtga" rel="noopener noreferrer" target="_blank">SUBSCRIBE <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
 </div>
 
-<div class="row justify-content-between align-items-center mb-0">
-  <div class="col-8">
-    <p>Solodev CMS Professional is designed for small to medium-sized websites and apps that require a secure, scalable, flexible, and affordable hosting infrastructure powered by the AWS Cloud.</p>
-    <p class="mb-0">Solodev CMS Professional deploys on a single AWS instance and features its own MySQL database. This lightweight architecture allows your websites and apps to meet variable traffic demands while maintaining uptime at a reasonable cost.</p>
-  </div>
-  <div class="col-4">
-    <p><a href="/static/images/pro/solodev-cms-pro-architecture-2024.jpg" target="_blank"><img src="/static/images/enterprise/solodev-cms-enterprise-architecture-2024.jpg" alt="Solodev CMS Pro Architecture"></a></p>
-  </div>
-</div>
-
-<!-- Solodev CMS Professional is available in the AWS Marketplace and can be instantly deployed in your account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="_blank" rel="noopener noreferrer">AWS CloudFormation :icon-link-external:</a>. It leverages an advanced stack of AWS cloud services to deliver a scalable and reliable workload, including:
-
-* <a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html" target="_blank" rel="noopener noreferrer">Amazon Certificate Manager (ACM)</a>
-* <a href="https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html" target="_blank" rel="noopener noreferrer">Amazon CloudFront</a>
-* <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html" target="_blank" rel="noopener noreferrer">Amazon CloudWatch</a>
-* <a href="https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html" target="_blank" rel="noopener noreferrer">Amazon DocumentDB (with MongoDB Compatibility)</a>
-* <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target="_blank" rel="noopener noreferrer">Amazon Elastic Compute Cloud (EC2)</a>
-* <a href="https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html" target="_blank" rel="noopener noreferrer">Amazon Elastic File System (EFS)</a>
-* <a href="https://aws.amazon.com/elasticache/redis/" target="_blank" rel="noopener noreferrer">Amazon Elasticache for Redis</a>
-* <a href="https://aws.amazon.com/systems-manager/" target="_blank">AWS Systems Manager</a>
-* <a href="https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html" target="_blank" rel="noopener noreferrer">Amazon Relational Database Service (RDS) MySql</a>
-* <a href="https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html" target="_blank" rel="noopener noreferrer">Amazon Route 53</a>
-* <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html" target="_blank" rel="noopener noreferrer">Amazon Simple Storage Service (S3)</a>
-* <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html" target="_blank" rel="noopener noreferrer">Amazon Virtual Private Cloud (VPC)</a>
-* <a href="https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html" target="_blank" rel="noopener noreferrer">Amazon Web Application Firewall (WAF)</a>
-
-Additional technology frameworks and libraries include <a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer">Linux</a>, <a href="https://www.apache.org/" target="_blank" rel="noopener noreferrer">Apache</a>, <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">MySQL</a>, <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">PHP</a>, <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python</a>, and more. -->
+Solodev CMS Professional is designed for small to medium-sized websites and apps that require a secure, scalable, flexible, and affordable hosting infrastructure powered by the AWS Cloud. Solodev CMS Professional deploys on a single AWS instance and features its own MySQL database. This lightweight architecture allows your websites and apps to meet variable traffic demands while maintaining uptime at a reasonable cost.
 
 ## Prerequisites
 
 * Have an existing <a href="https://portal.aws.amazon.com/billing/signup?refid=em_127222&p=free&c=hp&z=1&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/support" rel="noopener noreferrer" target="_blank">AWS Account :icon-link-external:</a>
 * Have an existing <a href="https://console.aws.amazon.com/ec2/" target="_blank">EC2 Pair Key <span>:icon-link-external:</span></a>
 * Preexisting VPC <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?stackName=solodev-vpc&templateURL=https://s3.amazonaws.com/solodev-cms/cloudformation/infrastructure/vpc.yaml" target="_blank" class="btn-orange-sm mt-2" style="margin-left: .5rem;">LAUNCH STACK <span>:icon-play:</span></a>
+
+!!!Note:
+If you already have a subscription to **CMS Professional**, [click here](#launch-software).
+!!!
 
 ## CMS Subscription
 
