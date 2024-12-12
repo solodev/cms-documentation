@@ -1,19 +1,22 @@
 In the Meta Column, you can update your page's title, set the meta description and keywords, preview how your page will unfurl on social media, and perform additional SEO optimizations.
 
-<p><img src="/static/images/websites/page/page-meta-column.jpg" alt="Page Meta Column" style="width: 26%;"></p>
+<p><img src="/static/images/websites/page/page-meta-column.jpg" alt="Page Meta Column" style="width: 30%;"></p>
 
 ## Page Information
 
-<p><img src="/static/images/websites/page/meta-info-page-section.jpg" alt="Meta Column Information Section" style="width: 26%;"></p>
+<p><img src="/static/images/websites/page/meta-info-page-section.jpg" alt="Meta Column Information Section" style="width: 30%;"></p>
 
 **Name** | **Description**
 :--- | ---
-Page Name | To update the page name, click on the pencil icon. After updating the name make sure to <br>click <span class="text-blue">**Publish**</span> on the right-hand side.
-Status Dropdown | Switch between the Publish, Stage, and Draft views by clicking the dropdown menu below the page name.
+Page Name | To update the page name, click on the **pencil** icon. After updating the name make sure to <br>click <span class="text-blue">**Publish**</span> on the right-hand side.
+[Actions](/workspace/websites/page/) | Perform different actions like **Publishing** your page or checking the **History**.
 ID | Identification number of the page.
+Status Dropdown | Switch between the **Publish**, **Stage**, **Draft** and **Origin** views by clicking the dropdown menu below the page name.
+View Page | Launch a new browser tab to view your live, published page.
 User Info | The avatar of the user who last modified the page, along with the date and time.
-Location | Location of the page in the filesystem.
-Structured | Select the 'Structured' checkbox to display the page in the left or right navigation menu of your website.
+Page Cache - TTL (Time to Live) | Update the page cache time (**Default:** 1 day). Select between **15 min, 30 min, 1 hour, <br>12 hours, 1 day**, or **1 week**.
+Location | Location of the page in the filesystem. Click the **copy** icon to copy the location to your clipboard.
+Structured | Select the **'Structured'** checkbox to display the page in the left or right navigation menu of your website.
 
 ## Page Inputs
 
@@ -23,17 +26,8 @@ Structured | Select the 'Structured' checkbox to display the page in the left or
 :--- | ---
 Title | Add or update the page title.
 Description | The meta description for your page, which provides a brief summary for search engines and social media previews.
+Page Preview | The unfurl for your page, used to preview a link when it's shared on social media or messaging platforms. Click the image to upload one for the page's FURL.
 Keywords | The meta keywords for your page, used to improve search engine optimization by targeting specific terms.
-
-## Page Preview
-
-The unfurl for your page, used to preview a link when it's shared on social media or messaging platforms.
-
-<p><img src="/static/images/websites/page/meta-input-page-preview.jpg" alt="Meta Column Preview Section" style="width: 28%;"></p>
-
-**Name** | **Description**
-:--- | ---
-Image | Click the image to upload one for the page's FURL.
 
 ## Advanced
 
@@ -41,7 +35,6 @@ Image | Click the image to upload one for the page's FURL.
 
 **Name** | **Description**
 :--- | ---
-Page Cache - TTL (Time to Live) | Update the page cache time. Setting it to zero is not recommended, as it can increase server load and expose the server to denial-of-service (DoS) attacks.
 H1 Title | Add or update the main heading of the page. Use a [shortcode](/shortcodes/page/page-title/) to display this description on the frontend.
 Page Description | Add or update the page’s description. Use a [shortcode](/shortcodes/page/page-description/) to display this description on the frontend.
 Menu Name | Add or update the name used in navigation menus.

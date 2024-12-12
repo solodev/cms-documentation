@@ -21,16 +21,16 @@ You will need to [add a website](/workspace/websites/add-website/) to your CMS b
 
 Pages also have the option to upload a file, create or manage tasks, expand your screen or collapse the right menu.
 
-<p><img src="/static/images/websites/page/page-toolbar-actions.jpg" alt="Page Toolbar Actions" style="width: 50%;"></p>
+<p><img src="/static/images/websites/page/page-toolbar-actions.jpg" alt="Page Toolbar Actions" style="width: 30%;"></p>
 
 **Name** | **Description**
 :--- | ---
 Mobile View | Toggle to a responsive view for a smartphone.
 Tablet View | Toggle to a responsive view for a tablet. 
 Desktop View | Toggle to a responsive view for a desktop/laptop computer.
+Refresh Frame | Refresh the stml frame.
 Show/Hide Dynamic Divs | Apply a blue dotted line to identify the sections of your page.
 Fullscreen | Fully expand the rendered view of your page to remove toolbars.
-View Page | Launch a new browser tab to view your live, published page.
 
 ## STML Files
 
