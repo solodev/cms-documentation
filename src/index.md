@@ -54,12 +54,34 @@ Need help with a custom enterprise deployment with unique requirements? [:icon-m
 
 <div class="card-lg" style="margin-bottom: 1.5rem;">
   <div style="width: 40%;">
-    <img src="/static/images/themes/micro-theme-thumbnail.jpg" alt="Micro Theme">
+    <img src="/static/images/themes/micro-theme-thumbnail.png" alt="Micro Theme">
   </div>
   <div style="width: 50%; padding-left: 1.5rem">
     <h2><a href="/themes/micro">Micro Theme</a></h2>
     <p class="mt-3">Create a lightweight, one-page website in seconds that's beautiful on every screen. Think big with a one-page template with everything you need!</p>
     <a href="https://solodev-micro.s3.amazonaws.com/releases/micro-latest.zip" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;"><span style="padding-right: .7rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span> Download</a>
+  </div>
+</div>
+
+<div class="card-lg" style="margin-bottom: 1.5rem;">
+  <div style="width: 40%;">
+    <img src="/static/images/themes/pro-theme-thumbnail.png" alt="Pro Theme">
+  </div>
+  <div style="width: 50%; padding-left: 1.5rem">
+    <h2><a href="/themes/pro">Pro Theme</a></h2>
+    <p class="mt-3">The theme for pros! Build business-grade sites using a complete, mobile-responsive theme package with multiple pages and ready-to-go modules.</p>
+    <a href="https://www.solodev.com/marketplace/pro-theme" target="_blank" rel="noopener noreferrer" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;"><span style="padding-right: .7rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span> Download</a>
+  </div>
+</div>
+
+<div class="card-lg" style="margin-bottom: 1.5rem;">
+  <div style="width: 40%;">
+    <img src="/static/images/themes/enterprise-theme-thumbnail.png" alt="Enterprise Theme">
+  </div>
+  <div style="width: 50%; padding-left: 1.5rem">
+    <h2><a href="/themes/enterprise">Enterprise Theme</a></h2>
+    <p class="mt-3">Get agency-quality features to power your enterprise-grade website! Build it beautifully with mobile-responsive templates and leverage advanced out-of-the-box modules.</p>
+    <a href="https://solodev-enterprise.s3.amazonaws.com/releases/enterprise-latest.zip" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;"><span style="padding-right: .7rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span> Download</a>
   </div>
 </div>
 
@@ -115,7 +137,6 @@ Set up individual users and groups and manage their roles using the industry’s
 Solodev Help Desk | Enterprise customers can purchase our world-class Solodev Help Desk service with any CMS deployment. Solodev Help Desk is available Monday through Friday, 8 AM – 6 PM EST. [Click here :icon-mail:](mailto:sales@solodev.com) to speak with a customer service representative. 
 Critical Care Service Level Agreements (SLAs) | Solodev CMS customers can purchase an optional SLA with 24/7/365 monitoring and 2, 4, or 6-hour response times. [Click here :icon-mail:](mailto:sales@solodev.com) to speak with a customer service representative.
 General Support | To report a bug, submit a feature request, ask a technical question, or provide feedback, <br>please <a href="https://www.solodev.com/contact/" target="_blank" rel="noopener noreferrer">contact us :icon-link-external:</a>.
-
 
 <style>
   /* Cards */
