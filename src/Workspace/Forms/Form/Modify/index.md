@@ -1,6 +1,6 @@
 # Modify 
 
-Customize your form's name, type, and styles, including the displayed fields. You can also update [email options](/workspace/forms/form/modify/email/), [table schema](/workspace/forms/form/modify/#table-schema), [relationships](/workspace/forms/form/modify/#relationships), [API details](/workspace/forms/form/modify/#api-info), and other [advanced settings](/workspace/forms/form/modify/advanced/).
+Customize your form's name, type, and styles, including the displayed fields. You can also update [email options](/workspace/forms/form/modify/email/), [table schema](/workspace/forms/form/modify/#table-schema), [relationships](/workspace/forms/form/modify/#relationships), [API details](/workspace/forms/form/modify/#api-info), [customer.io setup](/workspace/forms/form/modify/customer.io) and other [advanced settings](/workspace/forms/form/modify/advanced/).
 
 <p><img src="/static/images/workspace/form/modify-form.jpg" alt="Modify Form" style="width: 50%;"></p>
 
