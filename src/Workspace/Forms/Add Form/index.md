@@ -1,23 +1,55 @@
 # Add Form
 
-In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to collect information for almost any kind of application. There are three ways to create a form in Solodev:
+In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to collect information for almost any kind of application. There are two ways to create a form in Solodev:
 
 ## Add Form Options
 
-From the main dashboard, there are three ways to add a form to Solodev:
-
-*	**<a href="/workspace/forms/add-form/#form-studio">Form Studio</a>**
-Solodev's drag-and-drop Form Studio lets you to create highly customized forms effortlessly, offering fine-grained control without the need to write any code. Instantly incorporate text, images, input fields, radio buttons, and more to craft your ideal form. Save your form and apply it to your page within minutes.
+From the main dashboard, there are two ways to add a form to Solodev:
 
 * **<a href="/workspace/forms/add-form/#upload-tpl-file">Upload TPL File</a>**
 If you have an existing form template, you can expediently upload it as a .tpl file directly into Solodev and seamlessly integrate it into your webpage.
 
-* **<a href="/workspace/forms/add-form/#add-html-code">Add HTML Code</a>**
-If you're more comfortable with raw HTML, you have the option to create your own custom form using HTML code and then upload it to Solodev.
+*	**<a href="/workspace/forms/add-form/#form-studio">Form Studio</a>**
+Solodev's drag-and-drop Form Studio lets you to create highly customized forms effortlessly, offering fine-grained control without the need to write any code. Instantly incorporate text, images, input fields, radio buttons, and more to craft your ideal form. Save your form and apply it to your page within minutes.
 
-<img src="/static/images/form-main.png" alt="form main image" style="width: 100%; display: block"></a>
+<!-- * **<a href="/workspace/forms/add-form/#add-html-code">Add HTML Code</a>**
+If you're more comfortable with raw HTML, you have the option to create your own custom form using HTML code and then upload it to Solodev. -->
+
+## Upload TPL File 
+
+Solodev allows you to seamlessly integrate an existing form template directly into your website by uploading as a .tpl file.
+
+1. **Navigate to Forms:** From the main navigation menu, select Forms.
+
+2. **Create a New Form:** Click Add Form to start creating your new form.
+
+3. **Name Your Form:** Enter a descriptive name to easily identify your form.
+
+4. **Upload Your Template:** Click the Upload button under the Template section.
+
+5. **Add the HTML Form File:** Select and upload your .tpl file containing the HTML form.
+
+6. **Save Your Form:** Click Save to finalize and store your new form.
+
+### Add the form to your page
+
+Once your form is created, follow these steps to add it to your STML page.
+
+1. **Access the Filesystem:** From the main navigation menu, select Filesystem.
+
+2. **Locate the STML Page:** Navigate to the STML file where you want to embed the form.
+
+3. **Find Your Form:** With the stml opened, navigate to the form from the navigation menu.
+
+4. **Insert the Form:** Select the dynamic div in the STML, then insert your form.
+
+5. **Select  the Form:** With the dynamic div active, click on the form to confirm the insertion.
+
+6. **Publish Your Changes:** Click Publish to save and apply your updates.
 
 ## Form Studio
+
+<img src="/static/images/form-main.png" alt="form main image" style="width: 100%; display: block"></a>
 
 Use the built-in drag-and-drop WYSIWYG editor that allows you to create custom forms without any coding knowledge. It provides variety of features to help you create a professional-looking form, including:
 
@@ -47,23 +79,3 @@ Checkbox | Create pre-defined options with corresponding checkboxes. | • Adjus
 Select | Add a picker with a dropdown menu of options. |• Add custom menu list text <br> • Select settings for helper text, placeholder, label, name, and ID.
 Radio Button | Create pre-defined options with corresponding radio buttons. | • Adjust label, name, and ID.
 Form Button | Add a custom button to submit your form. | • Link settings: add a URL, email, or phone link <br> • Button properties: adjust text, size, style, and color.
-
-!!!Note:
-When adding a new form, you can take advantage of our Form Studio to easily include a form in your design.
-!!!
-
-## Upload TPL File 
-
-Solodev allows you to seamlessly integrate an existing form template directly into your website by uploading as a .tpl file.
-
-!!!Note:
-When adding a new form, you can upload a TPL File to easily include a form in your design.
-!!!
-
-## Add HTML Code
-
-Provides you with the flexibility to write and customize your own code, granting full control over your form's functionality and design.
-
-!!!Note:
-When adding a new form, you can upload a HTML File to easily include a form in your design.
-!!!
