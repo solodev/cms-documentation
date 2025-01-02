@@ -1,6 +1,6 @@
 Manage entries within a form using the Form Overview page.
 
-<img src="/static/images/form-overview.jpg" alt="form-overview" style="width: 100%; display: block"></a>
+<p><img src="/static/images/form-overview.jpg" alt="form-overview" style="width: 70%;"></p>
 
 !!!Note:
 Please remember to mark the entry you want to work with before any further actions.

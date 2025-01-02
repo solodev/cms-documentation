@@ -12,7 +12,7 @@ Solodev's drag-and-drop Form Studio lets you to create highly customized forms e
 * **<a href="/workspace/forms/add-form/#upload-tpl-file">Upload TPL File</a>**
 If you have an existing form template, you can expediently upload it as a .tpl file directly into Solodev and seamlessly integrate it into your webpage.
 
-* **<a href="/workspace/forms/add-form/#add-html-code">Upload HTML</a>**
+* **<a href="/workspace/forms/add-form/#add-html-code">Add HTML Code</a>**
 If you're more comfortable with raw HTML, you have the option to create your own custom form using HTML code and then upload it to Solodev.
 
 <img src="/static/images/form-main.png" alt="form main image" style="width: 100%; display: block"></a>
@@ -49,7 +49,7 @@ Radio Button | Create pre-defined options with corresponding radio buttons. | �
 Form Button | Add a custom button to submit your form. | • Link settings: add a URL, email, or phone link <br> • Button properties: adjust text, size, style, and color.
 
 !!!Note:
-When adding a new form, you can take advantage of our Form Studio to easily include a form in your design. To learn more, read how to <a href="/tutorials/cms/add-form/#building-a-form-with-form-studio">add a form with form studio</a>.
+When adding a new form, you can take advantage of our Form Studio to easily include a form in your design.
 !!!
 
 ## Upload TPL File 
@@ -57,7 +57,7 @@ When adding a new form, you can take advantage of our Form Studio to easily incl
 Solodev allows you to seamlessly integrate an existing form template directly into your website by uploading as a .tpl file.
 
 !!!Note:
-When adding a new form, you can upload a TPL File to easily include a form in your design. To learn more, read how to <a href="/tutorials/cms/add-form/#upload-tpl-file">upload a TPL File</a>.
+When adding a new form, you can upload a TPL File to easily include a form in your design.
 !!!
 
 ## Add HTML Code
@@ -65,5 +65,5 @@ When adding a new form, you can upload a TPL File to easily include a form in yo
 Provides you with the flexibility to write and customize your own code, granting full control over your form's functionality and design.
 
 !!!Note:
-When adding a new form, you can upload a HTML File to easily include a form in your design. To learn more, read how to <a href="/tutorials/cms/add-form/#add-html-code">add HTML code</a>.
+When adding a new form, you can upload a HTML File to easily include a form in your design.
 !!!
