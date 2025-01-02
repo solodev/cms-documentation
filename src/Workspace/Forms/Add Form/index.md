@@ -15,7 +15,9 @@ Solodev's drag-and-drop Form Studio lets you to create highly customized forms e
 <!-- * **<a href="/workspace/forms/add-form/#add-html-code">Add HTML Code</a>**
 If you're more comfortable with raw HTML, you have the option to create your own custom form using HTML code and then upload it to Solodev. -->
 
-## Upload TPL File 
+{% tabs %}
+
+{% tab title="Upload TPL File" %}
 
 Solodev allows you to seamlessly integrate an existing form template directly into your website by uploading as a .tpl file.
 
@@ -76,23 +78,9 @@ You can use the following Bootstrap form:
 
 6. **Save Your Form:** Click Save to finalize and store your new form.
 
-### Add the form to your page
+{% endtab %}
 
-Once your form is created, follow these steps to add it to your STML page.
-
-1. **Access the Filesystem:** From the main navigation menu, select Filesystem.
-
-2. **Locate the STML Page:** Navigate to the STML file where you want to embed the form.
-
-3. **Find Your Form:** With the stml opened, navigate to the form from the navigation menu.
-
-4. **Insert the Form:** Select the dynamic div in the STML, then insert your form.
-
-5. **Select  the Form:** With the dynamic div active, click on the form to confirm the insertion.
-
-6. **Publish Your Changes:** Click Publish to save and apply your updates.
-
-## Form Studio
+{% tab title="Form Studio" %}
 
 <p><img src="/static/images/form-main.png" alt="form main image" style="width: 100%; display: block"></p>
 
@@ -124,3 +112,23 @@ Checkbox | Create pre-defined options with corresponding checkboxes. | • Adjus
 Select | Add a picker with a dropdown menu of options. |• Add custom menu list text <br> • Select settings for helper text, placeholder, label, name, and ID.
 Radio Button | Create pre-defined options with corresponding radio buttons. | • Adjust label, name, and ID.
 Form Button | Add a custom button to submit your form. | • Link settings: add a URL, email, or phone link <br> • Button properties: adjust text, size, style, and color.
+
+{% endtab %}                    
+
+{% endtabs %}
+
+## Add the form to your page
+
+Once your form is created, follow these steps to add it to your STML page.
+
+1. **Access the Filesystem:** From the main navigation menu, select Filesystem.
+
+2. **Locate the STML Page:** Navigate to the STML file where you want to embed the form.
+
+3. **Find Your Form:** With the stml opened, navigate to the form from the navigation menu.
+
+4. **Insert the Form:** Select the dynamic div in the STML, then insert your form.
+
+5. **Select  the Form:** With the dynamic div active, click on the form to confirm the insertion.
+
+6. **Publish Your Changes:** Click Publish to save and apply your updates.
