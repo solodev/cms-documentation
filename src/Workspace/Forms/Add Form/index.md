@@ -7,7 +7,7 @@ In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to 
 From the main dashboard, there are two ways to add a form to Solodev:
 
 * **<a href="/workspace/forms/add-form/#upload-tpl-file">Upload TPL File</a>**
-If you have an existing form template, you can expediently upload it as a .tpl file directly into Solodev and seamlessly integrate it into your webpage.
+If you have an existing form template, you can upload it as a .tpl file directly into Solodev and seamlessly integrate it into your webpage.
 
 *	**<a href="/workspace/forms/add-form/#form-studio">Form Studio</a>**
 Solodev's drag-and-drop Form Studio lets you to create highly customized forms effortlessly, offering fine-grained control without the need to write any code. Instantly incorporate text, images, input fields, radio buttons, and more to craft your ideal form. Save your form and apply it to your page within minutes.
@@ -21,13 +21,58 @@ Solodev allows you to seamlessly integrate an existing form template directly in
 
 1. **Navigate to Forms:** From the main navigation menu, select Forms.
 
+<p><img src="/static/images/workspace/form/forms-main-nav.jpg" alt="Main navigation with Forms link highlighted" style="width: 15%;"></p>
+
 2. **Create a New Form:** Click Add Form to start creating your new form.
+
+<p><img src="/static/images/workspace/form/add-form.jpg" alt="Add Form" style="width: 80%;"></p>
 
 3. **Name Your Form:** Enter a descriptive name to easily identify your form.
 
+<p><img src="/static/images/workspace/form/add-form-name.jpg" alt="Name form field" style="width: 70%;"></p>
+
 4. **Upload Your Template:** Click the Upload button under the Template section.
 
+<p><img src="/static/images/workspace/form/add-form-template.jpg" alt="Add form template button" style="width: 70%;"></p>
+
 5. **Add the HTML Form File:** Select and upload your .tpl file containing the HTML form.
+
+!!!Note:
+You can use the following Bootstrap form:
+
+```js
+<div class="my-4">
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="name">Name <span class="text-red">*</span></label> 
+      <input class="form-control required" id="name" name="name" type="text">
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="email">Email <span class="text-red">*</span></label> 
+      <input class="form-control required" id="email" name="email" type="email">
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="company">Company <span class="text-red">*</span></label> 
+      <input class="form-control required" id="company" name="company" type="text">
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="phone">Phone <span class="text-red">*</span></label> 
+      <input class="form-control required" id="phone" name="phone" type="tel">
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="message">Message <span class="text-red">*</span></label>
+    <textarea class="form-control" id="message" name="message"></textarea>
+  </div>
+</div>
+
+<input class="btn btn-primary" type="submit" value="Send">
+```
+!!!
 
 6. **Save Your Form:** Click Save to finalize and store your new form.
 
@@ -49,7 +94,7 @@ Once your form is created, follow these steps to add it to your STML page.
 
 ## Form Studio
 
-<img src="/static/images/form-main.png" alt="form main image" style="width: 100%; display: block"></a>
+<p><img src="/static/images/form-main.png" alt="form main image" style="width: 100%; display: block"></p>
 
 Use the built-in drag-and-drop WYSIWYG editor that allows you to create custom forms without any coding knowledge. It provides variety of features to help you create a professional-looking form, including:
 
