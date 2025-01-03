@@ -43,36 +43,32 @@ Solodev allows you to seamlessly integrate an existing form template directly in
 You can use the following Bootstrap form:
 
 ```js
-<div class="my-4">
-  <div class="row">
-    <div class="col-md-6 mb-3">
-      <label for="name">Name <span class="text-red">*</span></label> 
-      <input class="form-control required" id="name" name="name" type="text">
-    </div>
-    <div class="col-md-6 mb-3">
-      <label for="email">Email <span class="text-red">*</span></label> 
-      <input class="form-control required" id="email" name="email" type="email">
-    </div>
-  </div>
-  
-  <div class="row">
-    <div class="col-md-6 mb-3">
-      <label for="company">Company <span class="text-red">*</span></label> 
-      <input class="form-control required" id="company" name="company" type="text">
-    </div>
-    <div class="col-md-6 mb-3">
-      <label for="phone">Phone <span class="text-red">*</span></label> 
-      <input class="form-control required" id="phone" name="phone" type="tel">
-    </div>
-  </div>
-
-  <div class="mb-3">
-    <label for="message">Message <span class="text-red">*</span></label>
-    <textarea class="form-control" id="message" name="message"></textarea>
-  </div>
+<div class="mb-3">
+  <label for="full_name">Full Name</label> 
+  <input class="form-control" id="full_name" name="full_name" type="text" required>
 </div>
 
-<input class="btn btn-primary" type="submit" value="Send">
+<div class="mb-3">
+  <label for="email">Email</label> 
+  <input class="form-control" id="email" name="email" type="email" required>
+</div>
+
+<div class="mb-3">
+  <label for="company">Company</label> 
+  <input class="form-control" id="company" name="company" type="text">
+</div>
+
+<div class="mb-3">
+  <label for="phone">Phone</label> 
+  <input class="form-control" id="phone" name="phone" type="tel">
+</div>
+
+<div class="mb-3">
+  <label for="message">Message</label>
+  <textarea class="form-control" id="message" name="message"></textarea>
+</div>
+
+<input class="btn btn-primary" type="submit" value="Submit">
 ```
 !!!
 
@@ -120,6 +116,10 @@ Form Button | Add a custom button to submit your form. | • Link settings: add 
 ## Add the form to your page
 
 Once your form is created, follow these steps to add it to your STML page.
+
+!!!Note:
+You need Admin access to navigate to the Filesystem.
+!!!
 
 1. **Access the Filesystem:** From the main navigation menu, select Filesystem.
 
