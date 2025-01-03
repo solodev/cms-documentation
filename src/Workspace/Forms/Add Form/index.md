@@ -1,15 +1,15 @@
 # Add Form
 
-In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to collect information for almost any kind of application. There are two ways to create a form in Solodev:
+In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to collect information for almost any kind of application.
 
 ## Add Form Options
 
 From the main dashboard, there are two ways to add a form to Solodev:
 
-* **<a href="/workspace/forms/add-form/#upload-tpl-file">Upload TPL File</a>**
+* **<a href="/workspace/forms/add-form/#upload-tpl-file">Upload TPL File:</a>**
 If you have an existing form template, you can upload it as a .tpl file directly into Solodev and seamlessly integrate it into your webpage.
 
-*	**<a href="/workspace/forms/add-form/#form-studio">Form Studio</a>**
+*	**<a href="/workspace/forms/add-form/#form-studio">Form Studio:</a>**
 Solodev's drag-and-drop Form Studio lets you to create highly customized forms effortlessly, offering fine-grained control without the need to write any code. Instantly incorporate text, images, input fields, radio buttons, and more to craft your ideal form. Save your form and apply it to your page within minutes.
 
 <!-- * **<a href="/workspace/forms/add-form/#add-html-code">Add HTML Code</a>**
@@ -111,16 +111,22 @@ Select | Add a picker with a dropdown menu of options. |• Add custom menu list
 Radio Button | Create pre-defined options with corresponding radio buttons. | • Adjust label, name, and ID.
 Form Button | Add a custom button to submit your form. | • Link settings: add a URL, email, or phone link <br> • Button properties: adjust text, size, style, and color.
 
-{% endtab %}                    
+{% endtab %}
 
 {% endtabs %}
 
 ## Add the form to your page
 
-Once your form is created, follow these steps to add it to your STML page.
+Adding a form to your STML page is a straightforward process. Follow these steps to seamlessly integrate your form and enhance your page functionality.
 
-!!!Note:
-You need Admin access to navigate to the Filesystem.
+{% tabs %}
+
+{% tab title="Point-and-click" %}
+
+Once your form is created, follow these steps to add it to your STML page with a simple point-and-click process.
+
+!!!warning Alert:
+Admin access is required to navigate to the Filesystem.
 !!!
 
 1. **Access the Filesystem:** From the main navigation menu, select Filesystem.
@@ -146,3 +152,27 @@ You need Admin access to navigate to the Filesystem.
 6. **Publish Your Changes:** Click Publish to save and apply your updates.
 
 <p><img src="/static/images/workspace/form/stml-publish.jpg" alt="Publish button highlighted" style="width: 35%;"></p>
+
+{% endtab %}
+
+{% tab title="Shortcode" %}
+
+You can also add your form using [shortcodes](/shortcodes/).
+
+1. **Create or Select a File:** Navigate to Web Files > Content in your workspace. Either [create a file](/workspace/websites/folder/add-file/) in your desired location or use an existing file.
+
+2. **Add Shortcode to File:** On your file add the following shortcode:
+
+```js
+[form id="1"]
+```
+
+!!!Note:
+Replace the ID number of your form within the `id=""` attribute.
+!!!
+
+3. **Publish Your Changes:** Click Publish to save and apply your updates.
+
+{% endtab %}
+
+{% endtabs %}
