@@ -21,23 +21,25 @@ If you're more comfortable with raw HTML, you have the option to create your own
 
 Solodev allows you to seamlessly integrate an existing form template directly into your website by uploading as a .tpl file.
 
-1. **Navigate to Forms:** From the main navigation menu, select Forms.
+1. From the main navigation menu, select **Forms**.
 
 <p><img src="/static/images/workspace/form/forms-main-nav.jpg" alt="Main navigation with Forms link highlighted" style="width: 15%;"></p>
 
-2. **Create a New Form:** Click Add Form to start creating your new form.
+2. Click **Add Form** to start creating your new form.
 
 <p><img src="/static/images/workspace/form/add-form.jpg" alt="Add Form" style="width: 80%;"></p>
 
-3. **Name Your Form:** Enter a descriptive name to easily identify your form.
+3. Name Your Form. Enter a descriptive name to easily identify your form.
 
 <p><img src="/static/images/workspace/form/add-form-name.jpg" alt="Name form field" style="width: 70%;"></p>
 
-4. **Upload Your Template:** Click the Upload button under the Template section.
+4. You can update the location of where your form gets added. (Default: Forms).
+
+5. Click the Upload button under the Template section.
 
 <p><img src="/static/images/workspace/form/add-form-template.jpg" alt="Add form template button" style="width: 70%;"></p>
 
-5. **Add the HTML Form File:** Select and upload your .tpl file containing the HTML form.
+6. **Add the HTML Form File:** Select and upload your .tpl file containing the HTML form.
 
 !!!Note:
 You can use the following Bootstrap form:
@@ -74,7 +76,7 @@ You can use the following Bootstrap form:
 ```
 !!!
 
-6. **Save Your Form:** Click Save to finalize and store your new form.
+7. Click <span class="text-blue">**Save**</span>.
 
 {% endtab %}
 
@@ -129,27 +131,27 @@ Once your form is created, follow these steps to add it to your STML page with a
 Admin access is required to navigate to the Filesystem.
 !!!
 
-1. **Access the Filesystem:** From the main navigation menu, select Filesystem.
+1. From the main navigation menu, select **Filesystem**.
 
 <p><img src="/static/images/workspace/form/main-nav-filesystem.jpg" alt="Main navigation with Filesystem link highlighted" style="width: 15%;"></p>
 
-2. **Locate the STML Page:** Navigate to the STML file where you want to embed the form.
+2. Navigate to the **STML** file where you want to embed the form.
 
 <p><img src="/static/images/workspace/form/website-nav-stml.jpg" alt="Website navigation with index.stml link highlighted" style="width: 15%;"></p>
 
-3. **Find Your Form:** With the stml opened, navigate to the form from the navigation menu.
+3. With the stml opened, navigate to the form from the navigation menu.
 
 <p><img src="/static/images/workspace/form/website-nav-form.jpg" alt="Website navigation with Contact form link highlighted" style="width: 15%;"></p>
 
-4. **Insert the Form:** Select the dynamic div in the STML, then insert your form.
+4. Select the dynamic div in the STML.
 
 <p><img src="/static/images/workspace/form/stml-dynamic-div.jpg" alt="index.stml with dynamic div highlighted" style="width: 70%;"></p>
 
-5. **Select  the Form:** With the dynamic div active, click on the form to confirm the insertion.
+5. With the dynamic div active, click on the form to confirm the insertion.
 
 <p><img src="/static/images/workspace/form/stml-with-form.jpg" alt="index.stml with form highlighted" style="width: 70%;"></p>
 
-6. **Publish Your Changes:** Click Publish to save and apply your updates.
+6. Click <span class="text-blue">**Publish**</span>.
 
 <p><img src="/static/images/workspace/form/stml-publish.jpg" alt="Publish button highlighted" style="width: 35%;"></p>
 
@@ -159,9 +161,9 @@ Admin access is required to navigate to the Filesystem.
 
 You can also add your form using [shortcodes](/shortcodes/).
 
-1. **Create or Select a File:** Navigate to Web Files > Content in your workspace. Either [create a file](/workspace/websites/folder/add-file/) in your desired location or use an existing file.
+1. Navigate to **Web Files > Content** in your workspace. Either [create a file](/workspace/websites/folder/add-file/) in your desired location or use an existing file.
 
-2. **Add Shortcode to File:** On your file add the following shortcode:
+2. On your file add the following shortcode:
 
 ```js
 [form id="1"]
@@ -171,7 +173,7 @@ You can also add your form using [shortcodes](/shortcodes/).
 Replace the ID number of your form within the `id=""` attribute.
 !!!
 
-3. **Publish Your Changes:** Click Publish to save and apply your updates.
+3. Click <span class="text-blue">**Publish**</span>.
 
 {% endtab %}
 
