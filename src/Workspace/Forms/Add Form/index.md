@@ -19,8 +19,6 @@ If you're more comfortable with raw HTML, you have the option to create your own
 
 {% tab title="Upload TPL File" %}
 
-Solodev allows you to seamlessly integrate an existing form template directly into your website by uploading as a .tpl file.
-
 1. From the main navigation menu, select **Forms**.
 
 <p><img src="/static/images/workspace/form/forms-main-nav.jpg" alt="Main navigation with Forms link highlighted" style="width: 15%;"></p>
@@ -33,7 +31,9 @@ Solodev allows you to seamlessly integrate an existing form template directly in
 
 <p><img src="/static/images/workspace/form/add-form-name.jpg" alt="Name form field" style="width: 70%;"></p>
 
-4. You can update the location of where your form gets added. (Default: Forms).
+4. Modify the location where your form will be added, if needed, by clicking **Browse**. (Default: Forms).
+
+<p><img src="/static/images/workspace/form/add-form-location.jpg" alt="Location form field" style="width: 70%;"></p>
 
 5. Click the Upload button under the Template section.
 
@@ -119,13 +119,11 @@ Form Button | Add a custom button to submit your form. | • Link settings: add 
 
 ## Add the form to your page
 
-Adding a form to your STML page is a straightforward process. Follow these steps to seamlessly integrate your form and enhance your page functionality.
+There are two ways to add a form to your page. [Point-and-click](/workspace/forms/add-form/#point-and-click) and with [Shortcode](/workspace/forms/add-form/#shortcode).
 
 {% tabs %}
 
 {% tab title="Point-and-click" %}
-
-Once your form is created, follow these steps to add it to your STML page with a simple point-and-click process.
 
 !!!warning Alert:
 Admin access is required to navigate to the Filesystem.
@@ -159,21 +157,25 @@ Admin access is required to navigate to the Filesystem.
 
 {% tab title="Shortcode" %}
 
-You can also add your form using [shortcodes](/shortcodes/).
-
 1. Navigate to **Web Files > Content** in your workspace. Either [create a file](/workspace/websites/folder/add-file/) in your desired location or use an existing file.
 
-2. On your file add the following shortcode:
+<p><img src="/static/images/workspace/form/form-create-file.jpg" alt="Create file modal" style="width: 35%;"></p>
+
+2. On your file add the following [shortcode](/shortcodes/):
 
 ```js
 [form id="1"]
 ```
+
+<!-- <p><img src="/static/images/workspace/form/file-form-shortcode.jpg" alt="Form shortcode on file" style="width: 15%;"></p> -->
 
 !!!Note:
 Replace the ID number of your form within the `id=""` attribute.
 !!!
 
 3. Click <span class="text-blue">**Publish**</span>.
+
+<p><img src="/static/images/workspace/form/file-publish-button.jpg" alt="Publish button" style="width: 35%;"></p>
 
 {% endtab %}
 
