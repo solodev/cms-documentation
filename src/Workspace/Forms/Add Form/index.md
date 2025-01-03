@@ -43,32 +43,34 @@ Solodev allows you to seamlessly integrate an existing form template directly in
 You can use the following Bootstrap form:
 
 ```js
-<div class="mb-3">
-  <label for="full_name">Full Name</label> 
-  <input class="form-control" id="full_name" name="full_name" type="text" required>
-</div>
+<div class="container">
+  <div class="mb-3">
+    <label for="full_name">Full Name</label> 
+    <input class="form-control" id="full_name" name="full_name" type="text" required>
+  </div>
 
-<div class="mb-3">
-  <label for="email">Email</label> 
-  <input class="form-control" id="email" name="email" type="email" required>
-</div>
+  <div class="mb-3">
+    <label for="email">Email</label> 
+    <input class="form-control" id="email" name="email" type="email" required>
+  </div>
 
-<div class="mb-3">
-  <label for="company">Company</label> 
-  <input class="form-control" id="company" name="company" type="text">
-</div>
+  <div class="mb-3">
+    <label for="company">Company</label> 
+    <input class="form-control" id="company" name="company" type="text">
+  </div>
 
-<div class="mb-3">
-  <label for="phone">Phone</label> 
-  <input class="form-control" id="phone" name="phone" type="tel">
-</div>
+  <div class="mb-3">
+    <label for="phone">Phone</label> 
+    <input class="form-control" id="phone" name="phone" type="tel">
+  </div>
 
-<div class="mb-3">
-  <label for="message">Message</label>
-  <textarea class="form-control" id="message" name="message"></textarea>
-</div>
+  <div class="mb-3">
+    <label for="message">Message</label>
+    <textarea class="form-control" id="message" name="message"></textarea>
+  </div>
 
-<input class="btn btn-primary" type="submit" value="Submit">
+  <input class="btn btn-primary" type="submit" value="Submit">
+</div>
 ```
 !!!
 
@@ -123,12 +125,24 @@ You need Admin access to navigate to the Filesystem.
 
 1. **Access the Filesystem:** From the main navigation menu, select Filesystem.
 
+<p><img src="/static/images/workspace/form/main-nav-filesystem.jpg" alt="Main navigation with Filesystem link highlighted" style="width: 15%;"></p>
+
 2. **Locate the STML Page:** Navigate to the STML file where you want to embed the form.
+
+<p><img src="/static/images/workspace/form/website-nav-stml.jpg" alt="Website navigation with index.stml link highlighted" style="width: 15%;"></p>
 
 3. **Find Your Form:** With the stml opened, navigate to the form from the navigation menu.
 
+<p><img src="/static/images/workspace/form/website-nav-form.jpg" alt="Website navigation with Contact form link highlighted" style="width: 15%;"></p>
+
 4. **Insert the Form:** Select the dynamic div in the STML, then insert your form.
+
+<p><img src="/static/images/workspace/form/stml-dynamic-div.jpg" alt="index.stml with dynamic div highlighted" style="width: 70%;"></p>
 
 5. **Select  the Form:** With the dynamic div active, click on the form to confirm the insertion.
 
+<p><img src="/static/images/workspace/form/stml-with-form.jpg" alt="index.stml with form highlighted" style="width: 70%;"></p>
+
 6. **Publish Your Changes:** Click Publish to save and apply your updates.
+
+<p><img src="/static/images/workspace/form/stml-publish.jpg" alt="Publish button highlighted" style="width: 35%;"></p>
