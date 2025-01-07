@@ -75,7 +75,7 @@ You can use the following Bootstrap form:
 ```
 
 !!!warning Note:
-Your input fields **must** have the `name` attribute. Also, there is no need to include the `<form>` tag, given that Solodev already includes it.
+Your input fields **must** have the `name` attribute, formatted with underscores `(_)` for separation, e.g: `first_name`. Additionally, there's no need to include the `<form>` tag, as Solodev already provides it.
 !!!
 
 7. Click <span class="text-blue">**Save**</span>.
