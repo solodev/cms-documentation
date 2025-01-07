@@ -39,9 +39,8 @@ If you're more comfortable with raw HTML, you have the option to create your own
 
 <p><img src="/static/images/workspace/form/add-form-template.jpg" alt="Add form template button" style="width: 70%;"></p>
 
-6. **Add the HTML Form File:** Select and upload your .tpl file containing the HTML form.
+6. Select and upload your file containing the HTML form.
 
-!!!Note:
 You can use the following Bootstrap form:
 
 ```js
@@ -74,6 +73,9 @@ You can use the following Bootstrap form:
   <input class="btn btn-primary" type="submit" value="Submit">
 </div>
 ```
+
+!!!warning Note:
+Your input fields **must** have the `name` attribute. Also, there is no need to include the `<form>` tag, given that Solodev already includes it.
 !!!
 
 7. Click <span class="text-blue">**Save**</span>.
