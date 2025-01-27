@@ -6,6 +6,8 @@ Let’s kick things off by showing you how to add a group to your CMS. It’s ea
 
 1. Head over to Groups in the left navigation under the Organization section.
 
+<p><img src="/static/images/navigation/navigation-groups.jpg" alt="Groups link selected in the navigation" style="width: 10%;"></p>
+
 2. On the right side of the Groups view, click Add Group.
 
 3. Give your group a name and a description, if you’d like.
@@ -32,6 +34,8 @@ Now it’s time to give your group access to specific views. Here's how to do it
 
 1. Navigate to **Websites** in the left-hand menu.
 
+<p><img src="/static/images/navigation/navigation-websites.jpg" alt="Websites link selected in the navigation" style="width: 10%;"></p>
+
 2. Select the specific Website you want the group to access.
 
 3. From the dropdown menu, click on **Permissions**.
@@ -51,6 +55,8 @@ Once you’ve chosen the right role for your group, you’re all set to invite u
 Adding a new user is quick and easy! Just follow these simple steps:
 
 1. Click **Users** in the left navigation under the Organization section.
+
+<p><img src="/static/images/navigation/navigation-users.jpg" alt="Users link selected in the navigation" style="width: 10%;"></p>
 
 2. On the right side of the Users view, click **Invite User**.
 
