@@ -2,7 +2,7 @@
 
 The config category of settings applies to all websites in the CMS system. Configure settings for payment options, SSL, email, and more.
 
-<p><img src="/static/images/admin/settings/config/config.jpg" alt="Config list" style="width: 80%;"></p>
+<!-- <p><img src="/static/images/admin/settings/config/config.jpg" alt="Config list" style="width: 80%;"></p> -->
 
 **Name** | **Description** 
 :--- | ---
