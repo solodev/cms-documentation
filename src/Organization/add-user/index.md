@@ -1,6 +1,4 @@
-# Add User
-
-Easily add new members to your CMS deployment and assign them to groups.
+Easily add new members to your CMS and assign them to groups.
 
 <p><img src="/static/images/organization/user/add-user.jpg" alt="Add user form" style="width: 40%;"></p>
 

@@ -1,25 +1,16 @@
-# Groups
+Create groups, add members, and manage roles and permissions. To view or update a group's details, simply click on the group name in the main table.
 
-Create groups in your CMS, add members to your group, and manage roles and permissions. To view or modify a group's details, click on the group name in the main table.
-
-<img src="/static/images/groups.png" alt="groups" style="width: 100%; display: block"></a>
-
-
+<!-- <img src="/static/images/groups.png" alt="groups" style="width: 100%; display: block"></a> -->
 
 **Name** | **Description** 
 :--- | ---
-<a href="/organization/groups/add-group/#add-group">Add Group</a> | Add a new group. 
-<a href="/organization/groups/#member-permissions">Member Permissions </a> | Add or remove permissions for individual members of a group.
-
+[Add Group](/organization/add-group) | Create a new group. 
+[Members](/organization/groups/permissions) | Add or remove permissions for all members of the group.
+<!-- 
 
 ## Member Permissions
 
 Click on any Member icons in the table to add or remove members and manage their roles. 
-
-
-<img src="/static/images/permissions2.png" alt="permissions2" style="width: 40%; display: block"></a>
-
-
 
 **Name** | **Description** 
 :--- | ---
@@ -36,9 +27,4 @@ A group or group member can be assigned one of four roles in Solodev CMS:
 - **Stager:** Enables a member to create or modify content but not publish.
 - **Editor:** Gives a member the ability to view, create, edit, and publish.
 - **Admin:** Provides full editorial control and management of group members.
-!!!
-
-## Confirm
-
-Once you have completed all the fields, click **Submit** to apply your changes.
-
+!!! -->

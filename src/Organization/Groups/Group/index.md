@@ -1,11 +1,11 @@
-Access a specific group in your CMS to view all its members, add or delete members, modify roles, and manage permissions at both the member and group levels.
+Access a specific group in your CMS to see all its members, add or remove members, adjust roles, and manage permissions for both individual members and the entire group.
 
-<img src="/static/images/groupoverview1.png" alt="groupoverview1" style="width: 100%; display: block"></a>
+<!-- <img src="/static/images/groupoverview1.png" alt="groupoverview1" style="width: 100%; display: block"></a> -->
 
 **Name** | **Description** 
 :--- | ---
 <a href="/organization/groups/modify">Modify</a> | Update the name, purpose, and team image for your group.
-<a href="/organization/users/user/delete-user/">Delete</a> | Permanently remove the group under Advanced Operations.
+<a href="/organization/users/user/delete/">Delete</a> | Permanently remove the group under Advanced Operations.
 <a href="/organization/groups/permissions">Permissions</a> | Manage group roles for specific folders and apps in your CMS. 
 
 ---

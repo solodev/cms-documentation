@@ -1,20 +1,19 @@
-# Permissions
+Update a user's role for a specific folder or group, or remove them from that folder or group entirely.
 
-Assign roles to users, manage access, and delete permissions. Click on a user name, folder, or group in the table row to view and access a specific item. 
-
-<img src="/../../../images/permissions.png" alt="permissions" style="width: 40%; display: block"></a>
+<p><img src="/static/images/organization/user/permissions.png" alt="User permissions form" style="width: 40%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Role | Assign Admin, Editor, Stager, or View roles to users, folders, or groups.
-Delete | Remove permission for a user, folder, or group.
+Role | Assign Admin, Editor, Stager, or View roles.
+Delete | Remove permission by clicking the `x` icon.
+
+A group or group member can be assigned one of four roles in Solodev CMS:
+
+- **View:** Allows a member to see items and content. 
+- **Stager:** Enables a member to create or modify content but not publish.
+- **Editor:** Gives a member the ability to view, create, edit, and publish.
+- **Admin:** Provides full editor control and management of group members.
 
 !!! Note:
 You can access additional permissions and details by clicking on the user name, folder, or group in the permissions table.
 !!!
-
-#### Confirm
-
-Once you have completed all the fields, click **Submit** to apply your changes.
-
-
