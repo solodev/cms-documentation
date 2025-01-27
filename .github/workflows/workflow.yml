@@ -10,24 +10,29 @@ jobs:
     permissions:
       contents: write
     steps:
-    - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-    - name: Retype Build
-      uses: retypeapp/action-build@latest
-      id: build
-      with:
-        license: "${{ secrets.RETYPE_LICENSE_KEY }}"
+      - name: Set up .NET 7.0
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '7.0.x'
 
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v4
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-east-1
+      - name: Retype Build
+        uses: retypeapp/action-build@latest
+        id: build
+        with:
+          license: "${{ secrets.RETYPE_LICENSE_KEY }}"
 
-    - name: Deploy static site to S3 bucket
-      run: |
-        aws s3 sync ${{ steps.build.outputs.retype-output-path }} s3://cms-documentation \
-          --delete \
-          --acl public-read \
-          --cache-control "max-age=0,no-cache,no-store,must-revalidate"
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: Deploy static site to S3 bucket
+        run: |
+          aws s3 sync ${{ steps.build.outputs.retype-output-path }} s3://cms-documentation \
+            --delete \
+            --acl public-read \
+            --cache-control "max-age=0,no-cache,no-store,must-revalidate"
