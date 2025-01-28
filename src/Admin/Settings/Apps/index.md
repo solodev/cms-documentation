@@ -1,9 +1,15 @@
-Solodev Apps are ways to extend the functionality of Solodev CMS to fit individual use cases. Apps themselves can create customized backend views, power several different frontend experiences, and even be used to power customized API integrations. However, No matter their purposes, Solodev Apps generally share the same framework and employ many different deployment methods depending on the broad use case.
+Solodev Apps are powerful tools designed to enhance the capabilities of your CMS, allowing for tailored solutions to fit your specific needs. Whether you're creating custom backend views, driving unique frontend experiences, or powering API integrations, Solodev Apps offer unmatched flexibility. If you're ready to get started, check out the [Add App](/admin/settings/add-app/) page to begin integrating new apps seamlessly into your environment.
 
-On the apps page, you can manage the order in which items, such as modules or forms, are displayed in your dashboard. To change the order, click on the item and hold down the left mouse button while moving the item to the desired location.
+Despite their varied purposes, all Solodev Apps share a common framework and support a range of deployment methods, making them adaptable to diverse use cases.
 
-<img src="/static/images/apps.jpg" alt="apps" style="width: 100%; display: block"></a>
+<p><img src="/static/images/settings/apps/apps.jpg" alt="Apps" style="width: 60%;"></p>
 
-**Name** | **Description** 
-:--- | ---
-<a href="/admin/settings/add-app/">Add App</a> | Add a new app.
+## Managing App Order
+
+On the Apps page, you can easily rearrange how items like modules and forms are displayed in your dashboard:
+
+1. Navigate to the Apps section.
+2. Click and hold an item using the left mouse button.
+3. Drag it to the desired position and release.
+
+This intuitive drag-and-drop feature makes organizing your workspace quick and hassle-free.

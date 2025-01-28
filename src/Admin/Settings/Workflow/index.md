@@ -1,10 +1,3 @@
-# Workflow
+Workflows in Solodev CMS are designed to streamline the management of your forms. Whether you’re setting up approval stages or automating form-related tasks, workflows ensure a smooth and efficient process. To get started, simply click the [Add Workflow](/admin/settings/add-workflow/) button to create a new workflow for your forms.
 
-Manage and add your workflows. Filter workflows by typing the workflow name that you want to find.
-
-<img src="/static/images/workflow.jpg" alt="workflow" style="width: 100%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-<a href="/admin/settings/add-workflow/">Add Workflow</a> | Here you can manage your workflows.
-<a href="/admin/settings/workflow/workflow/">Workflow</a> | Here you can add workflow.
+<p><img src="/static/images/settings/workflow/workflow.jpg" alt="Workflow view" style="width: 90%;"></p>

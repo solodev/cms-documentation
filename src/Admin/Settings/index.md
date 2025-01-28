@@ -1,14 +1,14 @@
-# Settings
+The Settings section offers a versatile range of tools to help you manage and customize your CMS environment. It's divided into six key areas, each serving a unique purpose:
 
-The Settings section contains a wide range of functionality regarding your Solodev environment. Settings are divided into six parts.
-
-<p><img src="/static/images/admin/settings/settings.jpg" alt="Settings list"></p>
+<p><img src="/static/images/navigation/navigation-settings.jpg" alt="Settings navigation"></p>
 
 **Name** | **Description** 
 :--- | ---
-<a href="/admin/settings/apps/">Apps</a> | Add/manage an app or reorganize your left menu. 
-<a href="/admin/settings/permissions/">Permissions</a> | Manage your users and group permissions.
-<a href="/admin/settings/workflow/">Workflow</a> | Add workflows to your forms.
-<a href="/admin/settings/reports/">Reports</a> | Check your users activity log.
-<a href="/admin/settings/branding/">Branding</a> | Update your branding and update colors.
-<a href="/admin/settings/config/">Config</a> | Add and update the configuration of your CMS.
+[Apps](/admin/settings/apps/) | Manage your apps or reorganize the left menu for better navigation.
+[Permissions](/admin/settings/permissions/) | Control access by managing user and group permissions.
+[Workflow](/admin/settings/workflow/) | Create and apply workflows to streamline your forms.
+[Reports](/admin/settings/reports/) | View activity logs to track user actions and monitor system activity.
+[Branding](/admin/settings/branding/) | Update your site's visual identity, including colors and branding elements.
+[Config](/admin/settings/config/) | Modify your CMS configuration to adjust system behavior and settings.
+
+Each section empowers you to tailor your Solodev environment, helping you build a more functional, efficient, and user-friendly platform.
