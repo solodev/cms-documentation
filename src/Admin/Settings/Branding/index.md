@@ -1,42 +1,17 @@
-# Branding
+The Branding section allows you to personalize your Solodev CMS by uploading your company logo and updating the colors of the buttons to match your brand’s style. You can also add custom CSS to further customize the appearance of your CMS and dashboard, ensuring it aligns with your company's visual identity.
 
-Branding displays your logo and custom CSS.
+<p><img src="/static/images/settings/branding/branding.jpg" alt="Branding view" style="width: 90%;"></p>
 
-<img src="/static/images/branding.jpg" alt="branding" style="width: 100%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-Upload Logo | Upload the logo from your computer.  
-<a href="/admin/settings/branding/#custom-css">Custom CSS</a> | Modify the look and feel of your backend experience. 
-<a href="/admin/settings/branding/#custom-dashboard">Custom Dashboard</a> | Update what is first seen when logging into CMS.
-
-!!!Note:
-Recommended logo size: 360px x 360px.
-!!!
+Use the **Browse** button to upload your company logo and customize the branding of your CMS.
 
 ## Custom CSS
 
-Modify the look and feel of your backend experience. 
+Enhance the look and feel of your CMS by customizing the primary and secondary button colors, along with adding your own custom CSS to personalize the backend experience even further.
 
-<img src="/static/images/branding2.jpg" alt="branding2" style="width: 100%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-Change Primary Button Color | Change primary button color. Click it and choose the color.
-Change Secondary Button Color | Change secondary button color. Click it and choose the color.
-Custom CSS | Type custom CSS code.
+<p><img src="/static/images/settings/branding/custom-css.jpg" alt="Custom CSS accordion" style="width: 60%;"></p>
 
 ## Custom Dashboard
 
-Update what is first seen when logging into CMS.
+Take control of the user experience by enabling a custom dashboard. This allows you to personalize what’s displayed when you first log into the CMS, giving you the flexibility to create a tailored environment that suits your needs by adding custom code.
 
-<img src="/static/images/branding3.jpg" alt="branding3" style="width: 100%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-Enable Custom Dashboard | Mark this option if you want a custom dashboard enabled.
-Custom Dashboard Markup | Enter custom dashboard markup.
-
-## Confirm
-
-Click the blue **Submit** button at the bottom right to apply your changes.
+<p><img src="/static/images/settings/branding/custom-dashboard.jpg" alt="Custom Dashboard accordion" style="width: 60%;"></p>

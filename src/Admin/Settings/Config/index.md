@@ -1,26 +1,25 @@
-# Config
+The **Config** category in settings covers a broad range of configurations that apply to all websites within the CMS system. This section allows you to set up key functionalities such as payment options, SSL security, email settings, click tracking, and much more, ensuring that your sites run smoothly and securely. From managing your organization’s settings to integrating with third-party services like Salesforce and AWS, the Config section gives you full control over essential elements of your CMS environment.
 
-The config category of settings applies to all websites in the CMS system. Configure settings for payment options, SSL, email, and more.
-
-<!-- <p><img src="/static/images/admin/settings/config/config.jpg" alt="Config list" style="width: 80%;"></p> -->
+<p><img src="/static/images/settings/config/config.jpg" alt="Config view" style="width: 90%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-<a href="/admin/settings/config/#organization-settings">Organization Settings</a> | Manage your organization settings, such as organization name and address.
-<a href="/admin/settings/config/#email">Email</a> | Manage email details for the official correspondence from the organization.
-<a href="/admin/settings/config/#ssl">SSL</a> | Manage a secure sockets layer (SSL) establishes an encrypted link between the web server and a browser.
-<a href="/admin/settings/config/#cache">Cache</a> | Determine how long files or pages are stored.
-<a href="/admin/settings/config/#click-tracking">Click Tracking</a> | Create settings for click tracking, which monitors users' click behavior on your sites.
-<a href="/admin/settings/config/#rules">Rules</a> | Create click tracking settings, which monitor users' click behavior on your sites.
-<a href="/admin/settings/config/#aws">AWS</a> | Specify AWS Keys and Secret Keys
-<a href="/admin/settings/config/#google">Google</a> | Manage your Google access.
-<a href="/admin/settings/config/#spam-keyword-list">Spam Keyword List</a> | Filter form entries that contain specific spam keywords.
-<a href="/admin/settings/config/#ip-quality-score">IP Quality Score</a> | Assess the IP quality score by analyzing IP addresses, phone numbers, email addresses, and more.
-<a href="/admin/settings/config/#salesforce">Salesforce</a> | Manage settings in connecting your Solodev CMS to Salesforce.
-<a href="/admin/settings/config/#wowza">Wowza</a> | Manage settings in connecting your Solodev CMS to Wowza.
-<a href="/admin/settings/config/#payment">Payment</a> | Manage payment settings, process test payments, connect payment gateways, and more.
-<a href="/admin/settings/config/#tasks">Tasks</a> | Create and manage task labels and workflows.
-<a href="/admin/settings/config/#sso">SSO</a> | Manage settings for single sign-on (SSO) capabilities in multiple applications.
+[Organization Settings](/admin/settings/config/#organization-settings) | Manage your organization settings, such as organization name and address.
+[Email](/admin/settings/config/#email) | Manage email details for the official correspondence from the organization.
+[SSL](/admin/settings/config/#ssl) | Manage a secure sockets layer (SSL) establishes an encrypted link between the web server and a browser.
+[Cache](/admin/settings/config/#cache) | Determine how long files or pages are stored.
+[Click Tracking](/admin/settings/config/#click-tracking) | Create settings for click tracking, which monitors users' click behavior on your sites.
+[Rules](/admin/settings/config/#rules) | Create click tracking settings, which monitor users' click behavior on your sites.
+[AWS](/admin/settings/config/#aws) | Specify AWS Keys and Secret Keys
+[Google](/admin/settings/config/#google) | Manage your Google access.
+[Spam Keyword List](/admin/settings/config/#spam-keyword-list) | Filter form entries that contain specific spam keywords.
+[IP Quality Score](/admin/settings/config/#ip-quality-score) | Assess the IP quality score by analyzing IP addresses, phone numbers, email addresses, and more.
+[Salesforce](/admin/settings/config/#salesforce) | Manage settings in connecting your Solodev CMS to Salesforce.
+[Wowza](/admin/settings/config/#wowza) | Manage settings in connecting your Solodev CMS to Wowza.
+[Payment](/admin/settings/config/#payment) | Manage payment settings, process test payments, connect payment gateways, and more.
+[Tasks](/admin/settings/config/#tasks) | Create and manage task labels and workflows.
+<!-- [Customer.io](/admin/settings/config/#tasks) | Create and manage task labels and workflows. -->
+[SSO](/admin/settings/config/#sso) | Manage settings for single sign-on (SSO) capabilities in multiple applications.
 
 ## Organization Settings
 

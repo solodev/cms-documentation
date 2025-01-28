@@ -1,9 +1,3 @@
-# Reports
+The Reports section provides a detailed log of user activity within your Solodev CMS. Here, you can track which users performed specific actions, including the date and time of each action, as well as the user's IP address. This functionality helps you monitor and audit the actions taken within your CMS, ensuring that you have a complete record of all user activity. It's a valuable tool for keeping tabs on usage, ensuring compliance, and maintaining security within your environment.
 
-Check your current activity. 
-
-<img src="/static/images/reports.jpg" alt="reports" style="width: 100%; display: block"></a>
-
-All actions are presented with the details such as activity date, IP, action type, and view.
-
-Search activities by name. To do that, use the **Search** field at the top.
+<p><img src="/static/images/settings/reports/reports.jpg" alt="Reports table" style="width: 90%;"></p>
