@@ -4,76 +4,79 @@ The **Config** category in settings covers a broad range of configurations that 
 
 **Name** | **Description** 
 :--- | ---
-[Organization Settings](/admin/settings/config/#organization-settings) | Manage your organization settings, such as organization name and address.
-[Email](/admin/settings/config/#email) | Manage email details for the official correspondence from the organization.
-[SSL](/admin/settings/config/#ssl) | Manage a secure sockets layer (SSL) establishes an encrypted link between the web server and a browser.
-[Cache](/admin/settings/config/#cache) | Determine how long files or pages are stored.
-[Click Tracking](/admin/settings/config/#click-tracking) | Create settings for click tracking, which monitors users' click behavior on your sites.
-[Rules](/admin/settings/config/#rules) | Create click tracking settings, which monitor users' click behavior on your sites.
-[AWS](/admin/settings/config/#aws) | Specify AWS Keys and Secret Keys
-[Google](/admin/settings/config/#google) | Manage your Google access.
-[Spam Keyword List](/admin/settings/config/#spam-keyword-list) | Filter form entries that contain specific spam keywords.
-[IP Quality Score](/admin/settings/config/#ip-quality-score) | Assess the IP quality score by analyzing IP addresses, phone numbers, email addresses, and more.
-[Salesforce](/admin/settings/config/#salesforce) | Manage settings in connecting your Solodev CMS to Salesforce.
-[Wowza](/admin/settings/config/#wowza) | Manage settings in connecting your Solodev CMS to Wowza.
-[Payment](/admin/settings/config/#payment) | Manage payment settings, process test payments, connect payment gateways, and more.
-[Tasks](/admin/settings/config/#tasks) | Create and manage task labels and workflows.
-<!-- [Customer.io](/admin/settings/config/#tasks) | Create and manage task labels and workflows. -->
-[SSO](/admin/settings/config/#sso) | Manage settings for single sign-on (SSO) capabilities in multiple applications.
+[Organization Settings](/admin/settings/config/#organization-settings) | Manage organization details, including name and address.
+[Email](/admin/settings/config/#email) | Configure email settings for official correspondence.
+[SSL](/admin/settings/config/#ssl) | Manage SSL settings to establish secure, encrypted links between the web server and browsers.
+[Cache](/admin/settings/config/#cache) | Control the caching duration for faster page loading.
+[Click Tracking](/admin/settings/config/#click-tracking) | Set up tracking for user click behavior on your site.
+[Rules](/admin/settings/config/#rules) | Define rules for various resources in the CMS, including click tracking.
+[AWS](/admin/settings/config/#aws) | Configure AWS keys and secrets for integration.
+[Google](/admin/settings/config/#google) | Manage your Google API access and integrations.
+[Spam Keyword List](/admin/settings/config/#spam-keyword-list) | Filter out form entries containing specific spam keywords.
+[IP Quality Score](/admin/settings/config/#ip-quality-score) | Evaluate IP quality scores based on user data like IP addresses and phone numbers.
+[Salesforce](/admin/settings/config/#salesforce) | Integrate and manage Salesforce CRM settings in Solodev CMS.
+[Wowza](/admin/settings/config/#wowza) | Configure settings for connecting Solodev CMS to Wowza streaming.
+[Payment](/admin/settings/config/#payment) | Manage payment settings, process test payments, and connect payment gateways.
+[Tasks](/admin/settings/config/#tasks) | Set up and manage task labels and workflows.
+[Customer.io](/admin/settings/config/#customer.io) | Integrate Customer.io for personalized marketing automation.
+[SSO](/admin/settings/config/#sso) | Configure Single Sign-On (SSO) settings for multiple applications.
 
 ## Organization Settings
 
-Set the name and address associated with your organization. 
+Use these settings to define the company name and address that appear in transactional emails sent from the CMS.
 
-<img src="/static/images/organizationsettings.jpg" alt="organizationsettings" style="width: 80%; display: block"></a>
+<p><img src="/static/images/settings/config/organization-settings.jpg" alt="Organization Settings" style="width: 35%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Organization Name | Identifies organization
-Organization Address | Standard physical and/or postal location of the organization.
+Organization Name	| Specifies the company's name displayed in transactional communications.
+Organization Address | Provide the standard physical or postal location of the organization.
 
 ## Email
 
-Set a professional email address for your organization and send all outgoing emails via the SMTP server to ensure secure delivery. 
+Configure a professional email address for your organization and ensure secure delivery by sending outgoing emails via the SMTP server.
 
 <img src="/static/images/email.jpg" alt="email" style="width: 80%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
-Email from Address | This is the email address used by the organization to send emails to its recipients. Type it in the field.
-SMTP Host | Enter the name of the outgoing mail server (example: mail.sftp.solodev.com). 
-SMTP Port | Enter the port that will be used to relay outbound mail to your mail server.
-SMTP Username | Enter the username used to login to the mail server.
-SMTP Password | Enter the password used to login to the mail server. 
+Email from Address | The email address your organization uses to send messages to recipients.
+SMTP Host	| The name of the outgoing mail server (e.g., `mail.sftp.solodev.com`).
+SMTP Port	| The port used to relay outbound mail to your mail server.
+SMTP Username	| The username required to log in to the mail server.
+SMTP Password	| The password required to log in to the mail server.
 
 ## SSL
 
-Manage the SSL connection.
+Secure Sockets Layer (SSL) is the standard technology for creating an encrypted link between a web server and a browser. This encryption ensures that data exchanged between the server and browser remains private and secure.
 
-(Secure Sockets Layer) is the standard security technology for establishing an encrypted link between a web server and a browser. This link ensures that all data between the web server and browsers remain private and integral.
-
-<img src="/static/images/ssl.jpg" alt="ssl" style="width: 80%; display: block"></a>
+<p><img src="/static/images/settings/config/ssl-settings.jpg" alt="SSL Settings" style="width: 70%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Force SSL | Mark this option to force an HTTPS connection to your website.
+Force SSL	| Select this option to enforce an HTTPS connection for your website.
+SSL Type | Choose **Custom** from the dropdown to access additional configuration options.
+CMS Login URL	| The Solodev Admin URL.
+SSL Certificate	| Upload the SSL Certificate file.
+SSL Key	| Upload the SSL Key file.
+SSL Chain Certificate	| Upload the SSL Chain Certificate file.
 
 ## Cache
 
-Determine how long files or pages are stored so that future requests can be served faster. The default values are 86400s or one day.
+Control how long files or pages are stored to improve the speed of future requests. The default caching duration is 86400 seconds (or one day). You can also choose from other durations, including 12 hours, 1 hour, 30 minutes, 15 minutes, or no cache.
 
-<img src="/static/images/cache.jpg" alt="cache" style="width: 80%; display: block"></a>
+<p><img src="/static/images/settings/config/cache-settings.jpg" alt="Cache Settings" style="width: 90%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Page Cache | Set the maximum age in seconds stml pages are stored in the cache. 
-File Cache | Set the maximum age in seconds that CMS files are stored in the cache.
+Page Cache | Set the maximum age in seconds for STML pages stored in the cache.
+File Cache | Set the maximum age in seconds for files stored in the cache.
 
 ## Click Tracking
 
-Track when users click on an external link to leave your website or track engagement when a user clicks on a document or other asset. Both can be used with web analytics to help you follow patterns and trends among users.
+Monitor user interactions by tracking when they click an external link to leave your website or engage with documents and other assets. This data can be integrated with web analytics to uncover patterns and trends in user behavior.
 
-<img src="/static/images/clicktracking.jpg" alt="clicktracking" style="width: 80%; display: block"></a>
+<p><img src="/static/images/settings/config/click-tracking.jpg" alt="Click Tracking Settings" style="width: 90%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -82,101 +85,93 @@ Document Click Tracking | Track when users click on-site documents.
 
 ## Rules
 
-Establish rules for a variety of resources within the CMS.
+Establish rules for various resources within the CMS.
 
-<img src="/static/images/rules.jpg" alt="rules" style="width: 80%; display: block"></a>
+<p><img src="/static/images/settings/config/rules-settings.jpg" alt="Rules Settings" style="width: 90%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Auto Publish Pages | Refers to the automatic display pages on the front end. To do that, choose **True**. If you don't want to display it, choose **False**.
+Auto Publish Pages | Choose **True** to automatically display pages on the front end. Select **False** if you do not want the page displayed.
 Expire-On Values | Set the default expiration date for all asset files.
-Default Document Folder | Set the default folder for files uploaded to the CMS system. The value is the ID of the folder. 
-Google API Key | Enter this key to use a variety of Google API integrations – namely, integration with Google Maps and the use of latitude and longitude data.
-Timezone | Set the timezone of the CMS system.
+Default Document Folder | Define the default folder for uploaded files within the CMS. The value is the **folder ID**.
+Google API Key | Enter the key to enable Google API integrations, such as Google Maps or the use of latitude and longitude data.
+Timezone | Set the timezone for the CMS system.
+Disable Email Protection | Select this option to allow email addresses to be displayed without hiding them.
 
 ## AWS
 
-If a website built in Solodev is configured to use a CloudFront CDN, you can invalidate a cache on page publishing once AWS keys are specified. 
+If a website built in Solodev is configured to use a CloudFront CDN, you can invalidate the cache on page publishing once AWS keys are specified.
 
-<img src="/static/images/aws.jpg" alt="aws" style="width: 80%; display: block"></a>
+<p><img src="/static/images/settings/config/aws-settings.jpg" alt="AWS Settings" style="width: 90%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-AWS Key | Enter the access key ID. 
-AWS Secret | Enter secret access key.
+AWS Key | The AWS access key ID. 
+AWS Secret | The AWS secret access key.
 
 ## Google
 
-Manage your Google access.
+Manage your reCAPTCHA access for enhanced security.
 
-<img src="/static/images/google.jpg" alt="google" style="width: 80%; display: block"></a>
+<p><img src="/static/images/settings/config/google-settings.jpg" alt="Google Settings" style="width: 90%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-reCAPTCHA Site Key | Enter the reCAPTCHA site key. 
-reCAPTCHA Secret Key | Enter the reCAPTCHA secret key.
+reCAPTCHA Site Key | The reCAPTCHA site key used for verification.
+reCAPTCHA Secret Key | The reCAPTCHA secret key used for authentication.
 
 ## Spam Keyword List
 
-The spam keyword list is a built-in filtering feature that will help minimize form entries containing specific keywords, including profanity. Identify these words and enter them into the field below.
+The spam keyword list is a built-in filtering feature designed to minimize form entries containing specific keywords, including profanity. Each entry should be placed on its own line.
 
-!!!**Note**:
+!!!warning Note:
 Only Solodev admins will be able to access the Spam Keyword List feature.
 !!!
 
-<p><img src="/static/images/admin/settings/config/spam-keyword-list.jpg" alt="Spam Keyword List" style="width: 60%;"></p>
-
-**Name** | **Description** 
-:--- | ---
-Spam Keyword List | Enter the spam keyword list. Each entry should be included on its own line.
+<p><img src="/static/images/settings/config/spam-keyword-list.jpg" alt="Spam Keyword List" style="width: 60%;"></p>
 
 ## IP Quality Score
 
-An IP quality score is used to analyze IP addresses, phone numbers, email addresses, and URLs/domains to identify sophisticated bad actors or high-risk behaviors from visitors to your website.
+An IP quality score is used to analyze IP addresses, phone numbers, email addresses, and URLs/domains to detect sophisticated bad actors or high-risk behaviors from visitors to your website. Enter the IP quality score key.
 
-<img src="/static/images/ipqualityscore.jpg" alt="ipqualityscore" style="width: 80%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-IP Quality Score Key | Enter the IP quality score key.
+<p><img src="/static/images/settings/config/ip-quality-score.jpg" alt="IP Quality Score Settings" style="width: 60%;"></p>
 
 ## Salesforce
 
-Solodev CMS allows you to use Salesforce - CRM platform. Manage its features.
+Solodev CMS allows you to integrate with Salesforce, the CRM platform.
 
-<img src="/static/images/salesforce.jpg" alt="salesforce" style="width: 80%; display: block"></a>
+<p><img src="/static/images/settings/config/salesforce-settings.jpg" alt="Salesforce Settings" style="width: 80%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Salesforce Username | Enter the salesforce username.
-Salesforce Password | Enter the salesforce password.
-Consumer Key | Enter the consumer key.
-Consumer Secret | Enter the consumer secret.
-Security Token | Enter the security token.
+Salesforce Username | The salesforce username.
+Salesforce Password | The salesforce password.
+Consumer Key | The consumer key.
+Consumer Secret | The consumer secret.
+Security Token | The security token.
 Sandbox | Enable this mode to perform test activities. 
 
 ## Wowza
 
-Solodev CMS allows you to use Wowza - a streaming engine. Manage its features.
+Solodev CMS allows you to use Wowza - a streaming engine.
 
-<img src="/static/images/wowza.jpg" alt="wowza" style="width: 80%; display: block"></a>
+<p><img src="/static/images/settings/config/wowza-settings.jpg" alt="Wowza Settings" style="width: 80%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Wowza Username | Enter the salesforce username.
-Wowza Password | Enter the salesforce password.
-Wowza Host| Enter the Wowza Host address.
-
+Wowza Username | The Wowza username.
+Wowza Password | The Wowza password.
+Wowza Host| The Wowza host address.
 
 ## Payment
 
 Process and accept payments on your website through settings in Solodev CMS. Test payment processing in sandbox mode, and remove sandbox mode when testing is completed, and you are ready to process payments. Choose from multiple payment gateway options. Also, you can decide whether to accept AMEX or Discover cards and execute the setting that works for you.
 
-<img src="/static/images/payment.jpg" alt="payment" style="width: 80%; display: block"></a>
+<p><img src="/static/images/settings/config/payment-settings.jpg" alt="Payment Settings" style="width: 80%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Payment Gateway | Choose payment gateway. It can be **Paypal Payflow Pro**, **Paypal Payments Pro**, or **Authorize.net**.
+Payment Gateway | Choose a payment gateway. It can be **Paypal Payflow Pro**, **Paypal Payments Pro**, or **Authorize.net**.
 Partner | Type the name of the merchant service that authorizes credit card or direct payment processing. 
 Vendor | Type the name of your organization’s eCommerce store. 
 Authorized Payment Username | Type the username used to login into the merchant service. 
@@ -190,7 +185,7 @@ Sandbox Mode | EEnable this mode to test payment processing. You can turn the te
 
 Customize task labels for workflows and display overall task status.
 
-<img src="/static/images/tasks.jpg" alt="tasks" style="width: 80%; display: block"></a>
+<p><img src="/static/images/settings/config/tasks-settings.jpg" alt="Tasks Settings" style="width: 80%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -199,25 +194,28 @@ Approved Status Label | Set the label for approved tasks.
 In Progress Status Label | Set the label for tasks in progress.
 Not Started Status Label | Set the label for tasks that are not assigned. 
 Denied Status Label | Set the label for rejected tasks. 
-Display Overall Task Status | Overall task status can be displayed. To do that, choose **True**. If you don't want to show it, choose **False**.
+Display Overall Task Status | Overall task status can be displayed. To do so, choose **True**. If you don't want to show it, choose **False**.
 
-## SSO
+## Customer.io
 
-Manage SSO. It permits a user to use one login credential - for example, a username and password - to access multiple applications.
+Customer.io is a marketing automation platform that helps businesses send targeted, personalized messages to customers via email, SMS, and push notifications. To find the credentials needed to integrate Customer.io with Solodev, go to [Account Settings > API Credentials](https://fly.customer.io/settings/api_credentials).
 
-<img src="/static/images/sso.jpg" alt="sso" style="width: 80%; display: block"></a>
+<p><img src="/static/images/settings/config/customerio-settings.jpg" alt="Customer.io Settings" style="width: 80%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Authorize URI | Enter the authorized URI. 
-Access Token URI | Enter the access token URI.
-Redirect URI | The redirect URI is the callback entry point of the app. Type it in the field.
-Resource Owner URI | Resource owner is the user who authorizes an application to access its account. Type resource owner URI in the field.
-Key Set URL | Enter the key set URL.
-API Scopes | Scopes enable you to group a set of REST resources, methods, or both, and SOAP operations for an API. Type it in the field.
-Client ID | Enter the client ID.
-Client Secret | Enter the client secret.
+Site ID	| The unique Site ID assigned by Customer.io.
+Track API Key	| The Track API Key provided by Customer.io for tracking user interactions.
+App API Key	| The App API Key provided by Customer.io for integrating your application.
 
-## Confirm
+## SSO
 
-Click the blue **Submit** button at the bottom right to apply your changes.
+Single Sign-On (SSO) is an authentication process that allows users to access multiple applications with one set of login credentials.
+
+<p><img src="/static/images/settings/config/sso-settings.jpg" alt="SSO Settings" style="width: 80%;"></p>
+
+**Name** | **Description** 
+:--- | ---
+Provider URL | The issuer URL of your OpenID Connect provider.
+Client ID	| The unique Client ID assigned to your application.
+Client Secret	| The confidential Client Secret associated with your application.
