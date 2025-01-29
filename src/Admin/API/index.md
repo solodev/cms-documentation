@@ -6,10 +6,10 @@ The importance of efficient and reliable APIs cannot be overstated, which is why
 
 In practice, Swagger allows you to display interactive REST API documentation in which you can test and run queries through the integration with code. All commands and the information that the API takes and returns are fully described. More advanced configurations account for authorizations and roles available to individual users.
 
-<img src="/static/images/api.jpg" alt="api" style="width: 100%; display: block"></a>
+<p><img src="/static/images/api/api.jpg" alt="API View" style="width: 80%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-<a href="/admin/api/system-api/">System API</a> | System APIs unlock data from core systems of record within an organization. To go there, use the link from the tree on the left or click the Launched button in the screenshot above.
-<a href="/admin/api/module-api/">Module API</a> | Module API unlocks data from particular modules within an organization. To go there, use the link from the tree on the left or click the Launched button in the screenshot above.
-<a href="/admin/api/api-tokens/">API Tokens</a> | An API token is similar to a password and allows you to authenticate to Dataverse Software APIs to perform actions as you. Here you can manage API tokens. You need to use the link from the tree on the left to go there.
+[System API](/admin/api/system-api/) | System APIs unlock data from core systems of record within an organization. To go there, use the link from the tree on the left or click the Launched button in the screenshot above.
+[Module API](/admin/api/module-api/) | Module API unlocks data from particular modules within an organization. To go there, use the link from the tree on the left or click the Launched button in the screenshot above.
+[API Tokens](/admin/api/api-tokens/) | An API token is similar to a password and allows you to authenticate to Dataverse Software APIs to perform actions as you. Here you can manage API tokens. You need to use the link from the tree on the left to go there.
