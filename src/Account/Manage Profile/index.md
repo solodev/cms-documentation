@@ -8,12 +8,12 @@ Only your first and last names are required. All other fields are optional.
 
 **Name** | **Description** 
 :--- | ---
-First name | Add your first name.
-Last name | Add your last name. 
+First name | Your first name.
+Last name | Your last name. 
 Phone number | Include the phone number you want to associate with your account (optional).
 Timezone | Provide a specific timezone to help improve location services (optional).
 Title | List your business title, such as “Director of Marketing,” etc (optional).
-Company | Add the name of your company (optional).
+Company | The name of your company (optional).
 [Session Timeout](/account/manage-profile/#session-timeout) | Set the time before the CMS automatically logs you out of your session due to <br>inactivity (default timeout is 20 minutes with additional options).
 
 ## Session Timeout

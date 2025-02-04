@@ -2,10 +2,10 @@
 
 Change the master password for your account. 
 
-<img src="/static/images/account-change-password.png" alt="change password" style="width: 40%; display: block"></a>
+<p><img src="/static/images/account/change-password.jpg" alt="change password" style="width: 40%;"></p>
 
-!!!Tip:
-While your individual or business policies may vary, strong passwords are critical to securing your account. It is strongly recommended that you use a password generator to create and store your credentials and periodically change your password.
+!!!
+**Pro Tip:** While your individual or business policies may vary, strong passwords are critical to securing your account. It is strongly recommended that you use a password generator to create and store your credentials and periodically change your password.
 !!!
 
 **Name** | **Description** 
@@ -21,7 +21,3 @@ Your password in Solodev must be a minimum of 8 characters long and must contain
 - one number
 - one special character from this approved set: @#$%^&*!=
 !!!
-
-## Confirm
-
-Once you have entered your current and new password in the appropriate fields, click **Submit**.
