@@ -42,7 +42,7 @@ By clicking the folder icon in the upper right corner, you can overwrite your cu
 
 **Name** | **Description**
 :--- | ---
-[Upload](/workspace/documents/document/upload/) | Publish your file to your web files.
+[Upload](/workspace/documents/upload/) | Publish your file to your web files.
 Upload + Stage | Send your file into a pre-staged status. 
 Upload + Save | Send your file and automatically save your code or content, but it will not publish it live.
 
