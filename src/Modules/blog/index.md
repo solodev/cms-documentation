@@ -86,7 +86,7 @@ These steps will guide you through the process of installing Blog Module and add
 </div>
 ```
 
-4. [Insert your blog repeater file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
+4. [Insert your blog repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
 
 <img src="/static/images/modules/blog/blog-repeater-page.jpg" alt="Blog Repeater on Page" style="width: 85%;">
 
@@ -102,7 +102,7 @@ These steps will guide you through the process of installing Blog Module and add
 
 3. Include or replace the code with the shortcodes where needed.
 
-4. [Insert your blog detail file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
+4. [Insert your blog detail file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
 
 {% endtab %}                    
 

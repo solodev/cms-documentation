@@ -47,7 +47,7 @@ These steps will guide you through the process of installing Calendar Module and
 
 3. Include or replace the code with the shortcodes where needed.
 
-4. [Insert your calendars repeater file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
+4. [Insert your calendars repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
 
 {% endtab %}
 
@@ -59,7 +59,7 @@ These steps will guide you through the process of installing Calendar Module and
 
 3. Include or replace the code with the shortcodes where needed.
 
-4. [Insert your calendar detail file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
+4. [Insert your calendar detail file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
 
 {% endtab %}
 

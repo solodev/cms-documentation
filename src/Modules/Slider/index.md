@@ -55,7 +55,7 @@ These steps will guide you through the process of installing Slider Module and a
 
 3. Include or replace the code with the shortcodes where needed.
 
-4. [Insert your slider file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
+4. [Insert your slider file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
 
 {% endtab %}
 

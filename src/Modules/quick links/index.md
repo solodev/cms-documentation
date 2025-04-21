@@ -66,7 +66,7 @@ You can also fill out the form on the entry view.
 
 3. Include or replace the code with the shortcodes where needed.
 
-4. [Insert your quick links file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
+4. [Insert your quick links file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
 
 <img src="/static/images/modules/quick-links/quick-links-result.jpg" alt="Quick Links Frontend" style="width: 80%;">
 

@@ -52,25 +52,16 @@ These steps will guide you through the process of installing Blog Module and add
 
 {% tab title="Repeater" %}
 
-Coming soon...
-
-<!-- 1. [Create a file](/workspace/websites/add-file/) called `alert-repeater.tpl` on your prefer location. This file will contain the code for your alert bar that will dynamically pull in your alert entries. -->
+1. [Create a file](/workspace/websites/add-file/) called `alert-repeater.tpl` on your prefer location. This file will contain the code for your alert bar that will dynamically pull in your alert entries.
 
 <!-- <img src="/static/images/modules/blog/blog-repeater-file.jpg" alt="Blog Repeater File" style="width: 45%; margin-bottom: 20px;"> -->
-<!--
-2. Insert the HTML code into your file to display the blog roll. For example:
+
+2. Insert the HTML code into your file to display the alert bar. For example:
 
 ```js
-<div class="row row-cols-lg-2 row-cols-1">
-  <div class="col">
-    <img alt="Placeholder image" src="/_/images/blog-image.png" class="img-fluid">
-  </div>
-  <div class="col">
-    <h2>
-      <a href="/blog/detail/" class="text-black">Blog title</a>
-    </h2>
-    <p>Blog intro.</p>
-    <p><a class="btn btn-primary" aria-label="Read more about blog" href="/blog/detail/">Read more</a></p>
+<div class="bg-primary text-center py-2">
+  <div class="container">
+    <a aria-label="New weather alert!" class="text-white" href="/weather"><u><strong>New weather alert!</strong></u></a>
   </div>
 </div>
 ```
@@ -78,43 +69,20 @@ Coming soon...
 3. Include or replace the code with the shortcodes where needed. For example:
 
 ```js
-<div class="row row-cols-lg-2 row-cols-1">
-  [repeater id="" limit="0, 4" display_type="forum"]
-    <div class="col">
-      <img alt="Placeholder image" src="[get_asset_file_url id={{blog_image}}]" class="img-fluid">
+[repeater id="10" display_type="news" limit="0,1"]
+  <div class="bg-primary text-center py-2">
+    <div class="container">
+      <a aria-label="{{event_title}}" class="text-white" href="{{alert_link}}"><u><strong>{{event_title}}</strong></u></a>
     </div>
-    <div class="col">
-      <h2>
-        <a href="{{path}}" class="text-black">{{event_title}}</a>
-      </h2>
-      <p>{{blog_intro}}</p>
-      <p><a class="btn btn-primary" aria-label="Read more about {{event_title}}" href="{{path}}">Read more</a></p>
-    </div>
-  [/repeater]
-</div>
+  </div>
+[/repeater]
 ```
 
-4. [Insert your blog repeater file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on.
+4. [Insert your alert repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
 
-<img src="/static/images/modules/blog/blog-repeater-page.jpg" alt="Blog Repeater on Page" style="width: 85%;">
-!-->
+<!-- <img src="/static/images/modules/blog/blog-repeater-page.jpg" alt="Blog Repeater on Page" style="width: 85%;"> -->
+
 {% endtab %}
-
-{% tab title="Detail" %}
-
-Coming soon...
-
-<!-- 1. [Create a file](/workspace/websites/add-file/) called `blog-detail.tpl` on your prefer location. This file will contain the code for your blog entry.
-
-<img src="/static/images/modules/blog/blog-detail-file.jpg" alt="Blog Detail File" style="width: 45%; margin-bottom: 20px;">
-
-2. Insert the HTML code into your file to display the blog content.
-
-3. Include or replace the code with the shortcodes where needed.
-
-4. [Insert your blog detail file](/workspace/websites/page/file-to-page/) into the page you want to display the entries on. -->
-
-{% endtab %}                    
 
 {% endtabs %}
 
@@ -125,7 +93,7 @@ You will need the following shortcodes to successfully add a Blog to your websit
 - [repeater](/shortcodes/module/#repeater) - prints the fields from the blog module form. Used on your repeater page.
 
 ```js
-[repeater id="1" display_type="news"]
+[repeater id="1" display_type="news" limit="0,1"]
 ```
 
 !!!Note:
