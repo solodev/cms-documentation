@@ -1,14 +1,14 @@
 # 
 
-<div style="display: flex; align-items: center; justify-content: space-between; padding: 2rem 1.5rem; margin-bottom: 2rem; background-color: #eef6ff;">
-  <div style="display: flex; align-items: center; justify-content: start;">
+<div class="header">
+  <div class="inner">
     <img src="/static/images/logos/micro-logo.png" alt="CMS Micro Logo" style="width: 80px;">
     <div>
       <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">CMS Micro</h1>
       <p style="padding-left: 2rem; margin-bottom: 0;">The perfect launch pad for small development or proof of concept (PoC) projects.</p>
     </div>
   </div>
-  <a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" rel="noopener noreferrer" target="_blank" style="background-color: #f99700; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;">SUBSCRIBE <span style="padding-left: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
+  <a class="btn-orange-lg" href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" rel="noopener noreferrer" target="_blank">SUBSCRIBE <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
 </div>
 
 CMS Micro offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.
@@ -332,3 +332,43 @@ Under your Security Group settings, make sure ports 443 and 80 are open to 0.0.0
 ==- **I am unable to log in using SSH.**
 Make sure to add your IP address as an inbound rule on the Web Security Group for port 22. For more information, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html" target="_blank">click here :icon-link-external:</a>
 ===
+
+<style>
+  /* Headers */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+    margin-bottom: 2rem;
+    background-color: #eef6ff;
+  }
+  .header .inner {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .header img {
+    width: 80px;
+  }
+  .header h1 {
+    margin-left: 0;
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+  }
+  .header p {
+    padding-left: 2rem;
+    margin-bottom: 0;
+  }
+  /* Dark Headers */
+  .dark .header {
+    background-color: #fff;
+  }
+  .dark .header h1,
+  .dark .header p {
+    color: #222;
+  }
+  .dark .pluggable .rounded-t a.text-gray-500 {
+    color: #fff;
+  }
+</style>

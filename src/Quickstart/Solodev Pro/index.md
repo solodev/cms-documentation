@@ -451,4 +451,15 @@ Please [follow this link](/workspace/websites/add-website/) to learn more about 
     padding-left: 2rem;
     margin-bottom: 0;
   }
+  /* Dark Headers */
+  .dark .header {
+    background-color: #fff;
+  }
+  .dark .header h1,
+  .dark .header p {
+    color: #222;
+  }
+  .dark .pluggable .rounded-t a.text-gray-500 {
+    color: #fff;
+  }
 </style>
