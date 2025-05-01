@@ -78,7 +78,7 @@ You can also fill out the form on the entry view.
 
 You will need the following shortcodes to successfully add a Quick Links to your website. Depending on your needs, you might need to use extra [shortcodes](/shortcodes/).
 
-- [repeater](/shortcodes/module/#repeater) - prints the fields from the Quick Links module form.
+- [repeater](/shortcodes/module/repeater) - prints the fields from the Quick Links module form.
 
 ```js
 [repeater id="" display_type="news" limit="0,4"]

@@ -71,7 +71,7 @@ These steps will guide you through the process of installing News Module and add
 
 You will need the following shortcodes to successfully add a News module to your website. Depending on your needs, you might need to use extra [shortcodes](/shortcodes/).
 
-- [repeater](/shortcodes/module/#repeater) - prints the fields from the news module form.
+- [repeater](/shortcodes/module/repeater) - prints the fields from the news module form.
 
 ```js
 [repeater id="" limit="0, 4" display_type="news"]

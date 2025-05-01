@@ -65,7 +65,7 @@ These steps will guide you through the process of installing Slider Module and a
 
 You will need the following shortcodes to successfully add a Slider to your website. Depending on your needs, you might need to use extra [shortcodes](/shortcodes/).
 
-- [repeater](/shortcodes/module/#repeater) - prints the fields from the Slider module form.
+- [repeater](/shortcodes/module/repeater) - prints the fields from the Slider module form.
 
 ```js
 [repeater id="" limit="0, 4" display_type="news" order="start_time desc"]

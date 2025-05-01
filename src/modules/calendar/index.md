@@ -69,7 +69,7 @@ These steps will guide you through the process of installing Calendar Module and
 
 You will need the following shortcodes to successfully add a Calendar to your website. Depending on your needs, you might need to use extra [shortcodes](/shortcodes/).
 
-- [repeater](/shortcodes/module/#repeater) - prints the fields from the Calendar module form.
+- [repeater](/shortcodes/module/repeater) - prints the fields from the Calendar module form.
 
 ```js
 [repeater id="" limit="0, 4" display_type="news"]

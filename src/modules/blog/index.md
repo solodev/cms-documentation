@@ -112,7 +112,7 @@ These steps will guide you through the process of installing Blog Module and add
 
 You will need the following shortcodes to successfully add a Blog to your website. Depending on your needs, you might need to use extra [shortcodes](/shortcodes/).
 
-- [repeater](/shortcodes/module/#repeater) - prints the fields from the blog module form. Used on your repeater page.
+- [repeater](/shortcodes/module/repeater) - prints the fields from the blog module form. Used on your repeater page.
 
 ```js
 [repeater id="1" limit="0, 4" display_type="forum"]

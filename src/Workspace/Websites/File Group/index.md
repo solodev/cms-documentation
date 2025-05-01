@@ -16,3 +16,17 @@ Date Filter | Filter files in the file group by date.
 [Add Entry](/workspace/websites/file-group/add-entry/) | Add a new file to the file group.
 [Modify](/workspace/websites/file-group/modify/) | Modify the file group settings.
 [Delete](/workspace/websites/file-group/delete/) | Delete a file group.
+
+## Add File Group to Page
+
+To display your file group on your website, simply embed it into your STML file by following these steps:
+
+1. Navigate to the **STML** file where you want the file group to appear.
+
+2. With the stml opened, navigate to the file group from the navigation menu.
+
+3. Within the STML file, click on the dynamic div where the file group should be inserted.
+
+4. With the dynamic div active, click on the file group to confirm its placement.
+
+5. Click <span class="text-blue">**Publish**</span>.
