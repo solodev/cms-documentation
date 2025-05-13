@@ -1,15 +1,15 @@
-Website Settings applies to specific websites in the CMS system. Administrators can configure/change their primary URL here, set a domain for staging, add aliases, generate sitemaps and much more. This article provides an overview of Website Settings and their configurable fields.
+VHost applies to specific websites in the CMS system. Administrators can configure/change their primary URL here, set a domain for staging, add aliases, generate sitemaps and much more. This article provides an overview of Website VHost and their configurable fields.
 
-<p><img src="/static/images/websites/website/settings/website-settings.jpg" alt="Website Settings" style="width: 38%"></p>
+<p><img src="/static/images/websites/website/settings/website-settings.jpg" alt="VHost" style="width: 38%"></p>
 
 **Name** | **Description** 
 :--- | ---
 Primary URL | The primary URL of your website.
-[Domain Information](/workspace/websites/website/settings/#domain-information) | Enter staging address, alias, and custom rules to the domain host file in this section.
-[Sitemap](/workspace/websites/website/settings/#sitemap) | Generate your website's sitemap.
-[CDN Information](/workspace/websites/website/settings/#cdn-information) | Configure your CDN information.
-[SSL Information](/workspace/websites/website/settings/#ssl-information) | Manage your SSL information.
-[Advanced](/workspace/websites/website/settings/#advanced) | Configure more advanced settings.
+[Domain Information](/workspace/websites/website/vhost/#domain-information) | Enter staging address, alias, and custom rules to the domain host file in this section.
+[Sitemap](/workspace/websites/website/vhost/#sitemap) | Generate your website's sitemap.
+[CDN Information](/workspace/websites/website/vhost/#cdn-information) | Configure your CDN information.
+[SSL Information](/workspace/websites/website/vhost/#ssl-information) | Manage your SSL information.
+[Advanced](/workspace/websites/website/vhost/#advanced) | Configure more advanced settings.
 
 ## Domain Information
 
