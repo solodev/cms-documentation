@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "retypeapp": "^3.0.0"
+    "retypeapp": "^3.8.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
