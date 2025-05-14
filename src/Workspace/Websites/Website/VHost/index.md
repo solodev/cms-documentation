@@ -1,6 +1,6 @@
 VHost applies to specific websites in the CMS system. Administrators can configure/change their primary URL here, set a domain for staging, add aliases, generate sitemaps and much more. This article provides an overview of Website VHost and their configurable fields.
 
-<p><img src="/static/images/websites/website/settings/website-settings.jpg" alt="VHost" style="width: 38%"></p>
+<p><img src="/static/images/websites/website/vhost/vhost-menu.jpg" alt="VHost" style="width: 40%"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -15,7 +15,7 @@ Primary URL | The primary URL of your website.
 
 In this section, you can update domain information: website address(es), host settings, and redirects. You can add and remove redirects by clicking the **"Add +"** and **"Remove -"** buttons.
  
-<p><img src="/static/images/websites/settings/website-settings-domain.jpg" alt="Domain Information form" style="width: 38%;"></p>
+<p><img src="/static/images/websites/website/vhost/vhost-domains.jpg" alt="Domain Information form" style="width: 38%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -29,7 +29,7 @@ Remove Redirects | Remove redirects by using the button **Remove -**.
 
  A sitemap is an .xml file that lists and organizes all the web pages within that site. It's like a map or index for the website, designed to help search engines understand the structure of the site and how its pages are connected.
 
-<p><img src="/static/images/websites/website/settings/sitemap.jpg" alt="Sitemap form" style="width: 38%;"></p>
+<p><img src="/static/images/websites/website/vhost/sitemap.jpg" alt="Sitemap form" style="width: 38%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -63,7 +63,7 @@ If your website uses a CDN and you need to immediately clear a page’s cache, y
 Secure Sockets Layer (SSL) is a technology for establishing a secure and encrypted connection between a server and a client.
 Here you can manage your SSL information.
 
-<p><img src="/static/images/websites/website/settings/ssl-information.jpg" alt="SSL Information form"></p>
+<p><img src="/static/images/websites/website/vhost/ssl-information.jpg" alt="SSL Information form"></p>
 
 **Name** | **Description** 
 :--- | ---
