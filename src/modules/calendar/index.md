@@ -59,7 +59,7 @@ These steps will guide you through the process of installing the Calendar Module
 
 2. Add the HTML code for your calendar list layout using the example code provided
 
-```js
+```html
 <div class="container">
   <h1 class="text-center">Calendar</h1>
   <div class="mt-5">
@@ -84,6 +84,7 @@ These steps will guide you through the process of installing the Calendar Module
   </div>
 </div>
 ```
+<!-- {{{event_title}}} -->
 
 3. [Insert your calendar repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
 
@@ -95,11 +96,11 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 
 {% tab title="Step 3: Create Your Event Detail Page" %}
 
-1. [Create a file](/workspace/websites/add-file/) on your prefer location. This file will contain the code for your calendar entry.
+1. [Create a file](/workspace/websites/add-file/) in your preferred location.
 
 2. Add the HTML code for your calendar list layout using the example code provided
 
-```js
+```html
 <div class="container">
   [entry]
     <article class="row justify-content-between mt-3">
@@ -116,7 +117,7 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
         <p>{{calendar_address}} {{calendar_address_suite}} <br> {{calendar_address_city}}, {{calendar_address_state}} {{calendar_address_zip_code}}</p>
       </div>
       <div class="col-md-4">
-        <img src="/_/images/Logo.jpg" alt="Logo" class="img-fluid">
+        <img src="/_/images/logo.jpg" alt="Logo" class="img-fluid">
       </div>
     </article>
   [/entry]
@@ -124,6 +125,18 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 ```
 
 3. [Insert your calendar detail file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
+
+4. Map your Module to your page:
+<ul style="padding-left: 50px;">
+  <li>In your Module, click <strong>Modify</strong></li>
+  <li>Under <strong>Websites Properties</strong>, select the .stml file for your detail page</li>
+  <li>Select the folder where your detail file is located</li>
+  <li>Click <span class="text-blue">Submit</span>.</li>
+</ul>
+
+5. Go to your website and refresh the page to see your calendar module in action
+
+<img src="/static/images/modules/calendar/calendar-page.jpg" alt="Calendar" style="width: 90%; margin-bottom: 20px;">
 
 {% endtab %}
 
