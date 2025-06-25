@@ -84,6 +84,11 @@ These steps will guide you through the process of installing the Calendar Module
   </div>
 </div>
 ```
+
+!!!warning Important!
+You need to add the ID number of your calendar module to the repeater shortcode within the `id=""` attribute.
+!!!
+
 <!-- {{{event_title}}} -->
 
 3. [Insert your calendar repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
@@ -129,12 +134,22 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 4. Map your Module to your page:
 <ul style="padding-left: 50px;">
   <li>In your Module, click <strong>Modify</strong></li>
-  <li>Under <strong>Websites Properties</strong>, select the .stml file for your detail page</li>
-  <li>Select the folder where your detail file is located</li>
-  <li>Click <span class="text-blue">Submit</span>.</li>
+  <li>Under <strong>Websites Properties</strong>
+    <ul style="padding-left: 50px;">
+      <li>On <strong>Detail Page Template</strong>, select the .stml file for your detail page</li>
+      <li>Under <strong>Detail Folder Location</strong>, select the folder where your detail file is located</li>
+    </ul>
+  </li>
+  <li>Click <span class="text-blue">Submit</span></li>
 </ul>
 
-5. Go to your website and refresh the page to see your calendar module in action
+!!!warning Important!
+If you already have entries added to your module, you will need to resave them to generate the path. To do this, go to **Modify**, scroll to Advanced, check the **Resave All Entries** option., and then click <span class="text-blue">Submit</span>
+!!!
+
+5. Click [Add Entry](/workspace/modules/module/add-entry/) to begin adding content to your module
+
+6. Go to your website and refresh the page to see your calendar module in action
 
 <img src="/static/images/modules/calendar/calendar-page.jpg" alt="Calendar" style="width: 90%; margin-bottom: 20px;">
 
