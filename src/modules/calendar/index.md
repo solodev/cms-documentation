@@ -8,6 +8,7 @@
       <p style="padding-left: 2rem; margin-bottom: 0; color: #222;">With the Event Module, your customers won't miss your next big event.</p>
     </div>
   </div>
+  <a href="https://solodev-calendar.s3.us-east-1.amazonaws.com/releases/calendar-1.0.25.zip" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;"><span style="padding-right: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span>DOWNLOAD</a>
 </div>
 
 The Calendar Module helps you showcase upcoming events and keep your audience engaged. With this module, you can schedule events with automated publishing, create rich event descriptions using an intuitive editor, and organize events by categories, making it easy for your audience to stay connected with your upcoming activities.
@@ -43,7 +44,7 @@ These steps will guide you through the process of installing the Calendar Module
     <ul>
       <li><strong>Datatable:</strong> Creates a simple data table structure</li>
       <li><strong>Module:</strong> Builds a custom module from scratch</li>
-      <li><strong>Package:</strong> Installs a pre-built module from a zip file (You can use the <a href="/static/files/calendar.zip" target="blank" rel="noopener noreferrer">following package</a>)</li>
+      <li><strong>Package:</strong> Installs a pre-built module from a zip file</li>
     </ul>
   </li>
   <li>Click <span class="text-blue">Submit</span>.</li>
