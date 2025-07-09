@@ -29,7 +29,7 @@ To include the necessary JavaScript and CSS files for the calendar functionality
 **Code Example:**
  
 ```js
-[js_full_calendar calendar_id="110"]
+[js_full_calendar_includes]
 
-[js_full_calendar]
+[js_full_calendar calendar_id="110"]
 ```
