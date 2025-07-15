@@ -45,7 +45,7 @@ These steps will guide you through the process of installing the [Full Calendar 
 
 ### Add Full Calendar Shortcode
 
-1. Create a shortcode file if you don't already have one. Create a new file called **shortcode.php** and place it under `www > _ > php` (optional, but recommended).
+1. Create a shortcode file if you don't already have one. [Create a new file](/workspace/websites/folder/add-file/) called **shortcode.php** and place it under `www > _ > php` (optional, but recommended).
 
 2. Add the **FullCalendar** code to your newly created shortcode file using the code provided below.
 
