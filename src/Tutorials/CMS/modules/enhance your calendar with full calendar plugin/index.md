@@ -41,14 +41,18 @@ These steps will guide you through the process of installing the [Full Calendar 
 
 {% endtab %}
 
-{% tab title="Step 2: Create Your Calendar Page" %}
+{% tab title="Step 2: Create Your Calendar Pages" %}
+
+### Create Your Full Calendar View
+
+To display your enhanced calendar, you'll need to create a dedicated page that incorporates the **FullCalendar** functionality.
 
 1. [Create a new file](/workspace/websites/add-file/) on your preferred location
 
 2. Add the HTML code for your calendar list layout using the example code provided
 
 ```html
-[js_full_calendar_includes]
+[js_full_calendar_includes_v2]
 
 <div class="container">
   <div class="row text-center justify-content-center">
@@ -60,7 +64,7 @@ These steps will guide you through the process of installing the [Full Calendar 
 	<div id="calendar_display"></div>
 </div>
 
-[js_full_calendar calendar_id="" calendar_display_area_id="calendar_display"]
+[js_full_calendar_v2 calendar_id="" calendar_display_area_id="calendar_display"]
 ```
 
 !!!warning Important!
@@ -69,13 +73,17 @@ You need to add the ID number of your calendar module to the repeater shortcode 
 
 <!-- {{{event_title}}} -->
 
-3. [Insert your calendar repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
+3. [Create a page](/workspace/websites/add-page) in your calendar folder called and name it exactly `list.stml`.
+
+4. [Insert your calendar repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
 
 !!!Note:
 To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
 !!!
 
-If you want to have a list view as well as a calendar view, follow the next steps:
+### Create a List View Alternative
+
+Provide users with a traditional list view option alongside your interactive calendar by creating a complementary page.
 
 1. [Create a new file](/workspace/websites/add-file/) on your preferred location
 
@@ -111,9 +119,11 @@ If you want to have a list view as well as a calendar view, follow the next step
 You need to add the ID number of your calendar module to the repeater shortcode within the `id=""` attribute.
 !!!
 
-3. [Insert your calendar repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
+3. [Create a page](/workspace/websites/add-page) in your calendar folder called and name it exactly `list.stml`.
 
-4. 
+4. [Insert your calendar repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
+
+You now have both an interactive FullCalendar view and a traditional list view, giving your users flexible options for browsing events. 
 
 {% endtab %}
 
@@ -147,9 +157,11 @@ You need to add the ID number of your calendar module to the repeater shortcode 
 </div>
 ```
 
-3. [Insert your calendar detail file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
+3. [Create a page](/workspace/websites/add-page) in your calendar folder to display individual calendar entry details.
 
-4. Map your Module to your page:
+4. [Insert your calendar detail file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
+
+5. Map your Module to your page:
 <ul style="padding-left: 50px;">
   <li>In your Module, click <strong>Modify</strong></li>
   <li>Under <strong>Websites Properties</strong>
@@ -165,9 +177,9 @@ You need to add the ID number of your calendar module to the repeater shortcode 
 If you already have entries added to your module, you will need to resave them to generate the path. To do this, go to **Modify**, scroll to Advanced, check the **Resave All Entries** option., and then click <span class="text-blue">Submit</span>
 !!!
 
-5. Click [Add Entry](/workspace/modules/module/add-entry/) to begin adding content to your module
+6. Click [Add Entry](/workspace/modules/module/add-entry/) to begin adding content to your module
 
-6. Go to your website and refresh the page to see your calendar module in action
+7. Go to your website and refresh the page to see your calendar module in action
 
 <img src="/static/images/modules/calendar/calendar-page.jpg" alt="Calendar" style="width: 90%; margin-bottom: 20px;">
 
