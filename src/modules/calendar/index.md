@@ -56,7 +56,7 @@ These steps will guide you through the process of installing the Calendar Module
 
 {% tab title="Step 2: Create Your Calendar List Page" %}
 
-1. [Create a new file](/workspace/websites/add-file/) on your preferred location
+1. [Create a new file](/workspace/websites/folder/add-file/) on your preferred location
 
 2. Add the HTML code for your calendar list layout using the example code provided
 
@@ -102,7 +102,7 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 
 {% tab title="Step 3: Create Your Event Detail Page" %}
 
-1. [Create a file](/workspace/websites/add-file/) in your preferred location.
+1. [Create a file](/workspace/websites/folder/add-file/) in your preferred location.
 
 2. Add the HTML code for your calendar list layout using the example code provided
 

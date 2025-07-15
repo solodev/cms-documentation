@@ -50,7 +50,7 @@ These steps will guide you through the process of installing Blog Module and add
 
 {% tab title="Repeater" %}
 
-1. [Create a file](/workspace/websites/add-file/) called `alert-repeater.tpl` on your prefer location. This file will contain the code for your alert bar that will dynamically pull in your alert entries.
+1. [Create a file](/workspace/websites/folder/add-file/) called `alert-repeater.tpl` on your prefer location. This file will contain the code for your alert bar that will dynamically pull in your alert entries.
 
 <!-- <img src="/static/images/modules/blog/blog-repeater-file.jpg" alt="Blog Repeater File" style="width: 45%; margin-bottom: 20px;"> -->
 

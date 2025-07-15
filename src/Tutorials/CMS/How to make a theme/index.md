@@ -69,5 +69,5 @@ To create a theme, you need to first create a website. Solodev consists of 2 mai
 
 ## Next Steps
 
-- [Add Page](/workspace/websites/add-page)
+- [Add Page](/workspace/websites/folder/add-page)
 - <a href="/tutorials/cms/add-page-template/">Add page template</a>

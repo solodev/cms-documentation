@@ -46,7 +46,7 @@ These steps will guide you through the process of installing Blog Module and add
 
 {% tab title="Repeater" %}
 
-1. [Create a file](/workspace/websites/add-file/) called `blog-repeater.tpl` on your prefer location. This file will contain the code for your blog roll that will dynamically pull in your blog entries.
+1. [Create a file](/workspace/websites/folder/add-file/) called `blog-repeater.tpl` on your prefer location. This file will contain the code for your blog roll that will dynamically pull in your blog entries.
 
 <img src="/static/images/modules/blog/blog-repeater-file.jpg" alt="Blog Repeater File" style="width: 45%; margin-bottom: 20px;">
 
@@ -94,7 +94,7 @@ These steps will guide you through the process of installing Blog Module and add
 
 {% tab title="Detail" %}
 
-1. [Create a file](/workspace/websites/add-file/) called `blog-detail.tpl` on your prefer location. This file will contain the code for your blog entry.
+1. [Create a file](/workspace/websites/folder/add-file/) called `blog-detail.tpl` on your prefer location. This file will contain the code for your blog entry.
 
 <img src="/static/images/modules/blog/blog-detail-file.jpg" alt="Blog Detail File" style="width: 45%; margin-bottom: 20px;">
 

@@ -49,7 +49,7 @@ These steps will guide you through the process of installing Slider Module and a
 
 {% tab title="Repeater" %}
 
-1. [Create a file](/workspace/websites/add-file/) called `slider-repeater.tpl` on your prefer location. This file will contain the code for your slider.
+1. [Create a file](/workspace/websites/folder/add-file/) called `slider-repeater.tpl` on your prefer location. This file will contain the code for your slider.
 
 2. Follow the documentation of your preferred slider plugin to add the corresponding html code to your file.
 

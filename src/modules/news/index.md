@@ -43,7 +43,7 @@ These steps will guide you through the process of installing News Module and add
 
 {% tab title="Repeater" %}
 
-1. [Create a file](/workspace/websites/add-file/) called `news-repeater.tpl` on your prefer location. This file will contain the code for your news roll that will dynamically pull in your news entries.
+1. [Create a file](/workspace/websites/folder/add-file/) called `news-repeater.tpl` on your prefer location. This file will contain the code for your news roll that will dynamically pull in your news entries.
 
 2. Insert the HTML code into your file to display the news roll.
 
@@ -55,7 +55,7 @@ These steps will guide you through the process of installing News Module and add
 
 {% tab title="Detail" %}
 
-1. [Create a file](/workspace/websites/add-file/) called `news-detail.tpl` on your prefer location. This file will contain the code for your news entry.
+1. [Create a file](/workspace/websites/folder/add-file/) called `news-detail.tpl` on your prefer location. This file will contain the code for your news entry.
 
 2. Insert the HTML code into your file to display the news content.
 

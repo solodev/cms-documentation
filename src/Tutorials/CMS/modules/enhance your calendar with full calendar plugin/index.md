@@ -368,7 +368,7 @@ class CustomShortcode extends ShortcodeService
 
 To display your enhanced calendar, you'll need to create a dedicated page that incorporates the **FullCalendar** functionality.
 
-1. [Create a new file](/workspace/websites/add-file/) on your preferred location
+1. [Create a new file](/workspace/websites/folder/add-file/) on your preferred location
 
 2. Add the HTML code for your calendar list layout using the example code provided
 
@@ -394,7 +394,7 @@ You need to add the ID number of your calendar module to the repeater shortcode 
 
 <!-- {{{event_title}}} -->
 
-3. [Create a page](/workspace/websites/add-page) in your calendar folder called and name it exactly `list.stml`.
+3. [Create a page](/workspace/websites/folder/add-page) in your calendar folder called and name it exactly `list.stml`.
 
 4. [Insert your calendar repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
 
@@ -406,7 +406,7 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 
 Provide users with a traditional list view option alongside your interactive calendar by creating a complementary page.
 
-1. [Create a new file](/workspace/websites/add-file/) on your preferred location
+1. [Create a new file](/workspace/websites/folder/add-file/) on your preferred location
 
 2. Add the HTML code for your calendar list layout using the example code provided
 
@@ -440,7 +440,7 @@ Provide users with a traditional list view option alongside your interactive cal
 You need to add the ID number of your calendar module to the repeater shortcode within the `id=""` attribute.
 !!!
 
-3. [Create a page](/workspace/websites/add-page) in your calendar folder called and name it exactly `list.stml`.
+3. [Create a page](/workspace/websites/folder/add-page) in your calendar folder called and name it exactly `list.stml`.
 
 4. [Insert your calendar repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
 
@@ -492,7 +492,7 @@ Configure the `[category_filter]` shortcode by adding your Category Group ID to 
 
 {% tab title="Step 3: Create Your Event Detail Page" %}
 
-1. [Create a file](/workspace/websites/add-file/) in your preferred location.
+1. [Create a file](/workspace/websites/folder/add-file/) in your preferred location.
 
 2. Add the HTML code for your calendar list layout using the example code provided
 
@@ -520,7 +520,7 @@ Configure the `[category_filter]` shortcode by adding your Category Group ID to 
 </div>
 ```
 
-3. [Create a page](/workspace/websites/add-page) in your calendar folder to display individual calendar entry details.
+3. [Create a page](/workspace/websites/folder/add-page) in your calendar folder to display individual calendar entry details.
 
 4. [Insert your calendar detail file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
 
