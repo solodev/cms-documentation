@@ -394,7 +394,7 @@ You need to add the ID number of your calendar module to the repeater shortcode 
 
 <!-- {{{event_title}}} -->
 
-3. [Create a page](/workspace/websites/folder/add-page) in your calendar folder called and name it exactly `list.stml`.
+3. [Create a page](/workspace/websites/folder/add-page) in your calendar folder called and name it `index.stml`.
 
 4. [Insert your calendar repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
 
@@ -494,7 +494,7 @@ Configure the `[category_filter]` shortcode by adding your Category Group ID to 
 
 1. [Create a file](/workspace/websites/folder/add-file/) in your preferred location.
 
-2. Add the HTML code for your calendar list layout using the example code provided
+2. Add the HTML code for your calendar detail layout using the example code provided
 
 ```html
 <div class="container">
