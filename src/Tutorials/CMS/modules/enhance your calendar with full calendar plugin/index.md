@@ -385,7 +385,7 @@ To display your enhanced calendar, you'll need to create a dedicated page that i
 	<div id="calendar_display"></div>
 </div>
 
-[js_full_calendar_v2 calendar_id="" calendar_display_area_id="calendar_display" where="start_time asc"]
+[full_calendar_v2 calendar_id="" calendar_display_area_id="calendar_display" where="start_time asc"]
 ```
 
 !!!warning Important!
