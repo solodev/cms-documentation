@@ -72,27 +72,27 @@ class CustomShortcode extends ShortcodeService
         parent::__construct($config);
     }
 
-    //[js_full_calendar_includes_v2]
+    //[js_full_calendar_includes_custom]
     /*
      * no atts - returns libraries for full calendar: http://fullcalendar.io/
      */
-    function js_full_calendar_includes_v2($atts, $content = null)
+    function js_full_calendar_includes_custom($atts, $content = null)
     {
         notify_solodev_shortcode();
 
-        $js_full_calendar_includes_v2 = '<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        $js_full_calendar_includes_custom = '<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.8.0/fullcalendar.min.js"></script>
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.8.0/fullcalendar.min.css">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.8.0/fullcalendar.print.css" media="print">';
 
-        return do_shortcode($js_full_calendar_includes_v2);
+        return do_shortcode($js_full_calendar_includes_custom);
     }
     
     /*
-     * [full_calendar_v2]
+     * [full_calendar_custom]
      */
-    function full_calendar_v2($atts, $content = null)
+    function full_calendar_custom($atts, $content = null)
     {
         $this->notify_solodev_shortcode();
         
@@ -375,7 +375,7 @@ To display your enhanced calendar, you'll need to create a dedicated page that i
 2. Add the calendar HTML code using the example template provided below.
 
 ```html calendar.tpl
-[js_full_calendar_includes_v2]
+[js_full_calendar_includes_custom]
 
 <div class="container">
   <div class="row text-center justify-content-center">
@@ -387,7 +387,7 @@ To display your enhanced calendar, you'll need to create a dedicated page that i
 	<div id="calendar_display"></div>
 </div>
 
-[full_calendar_v2 calendar_id="" calendar_display_area_id="calendar_display" where="start_time asc"]
+[full_calendar_custom calendar_id="" calendar_display_area_id="calendar_display" where="start_time asc"]
 ```
 
 !!!warning Important!
@@ -489,7 +489,56 @@ To use the Category Dropdown filter, you must first add a category group to your
 Configure the `[category_filter]` shortcode by adding your Category Group ID to the `category_group_id` attribute and your calendar module ID to the `calendar_id=""` attribute.
 !!!
 
-2. **For Category Filter users:** If you're implementing the category filter, add the attribute `category_filter_input_id="category_filter"` to your `full_calendar_v2` shortcode.
+2. **For Category Filter users:** If you're implementing the category filter, add the attribute `category_filter_input_id="category_filter"` to your `full_calendar_custom` shortcode.
+
+You will also need to add the following code to the `shortcode.php` file.
+
+```js
+/* [category_filter_custom]
+  */
+  function category_filter_custom($atts, $content = null)
+  {
+    $this->notify_solodev_shortcode();
+  
+    $datatable_category_group_id = $atts['id'];
+    $class = isset($atts['class']) ? $atts['class'] : "form-control";
+    $parent_category_id = isset($atts['parent_category_id']) ? $atts['parent_category_id'] : "form-control";
+    $sort = isset($atts['sort']) ? $atts['sort'] : "title asc";
+  
+    $output = 'Category: <select class="' . $class . '" id="category_filter" name="category_filter">
+    <option value="">All</option>';
+  
+    $cats = $this->datatableManager->getDatatableCategories("", "object_id = '" . $datatable_category_group_id . "' AND parent_category_id = '" . $parent_category_id . "'", "" . $sort . "");
+    foreach ($cats as $cat) {
+      $output .= '<option value="' . $cat->datatable_category_id . '" class="font-weight-bold">' . $cat->title . '</option>';
+  
+      $kittens = $this->datatableManager->getDatatableCategories("", "parent_category_id = '" . $cat->datatable_category_id . "'", "title ASC");
+      if (!empty($kittens)) {
+        foreach ($kittens as $kitten) {
+          $output .= '<option value="' . $kitten->datatable_category_id . '">- ' . $kitten->title . '</option>';
+  
+          $sub_kittens = $this->datatableManager->getDatatableCategories("", "parent_category_id = '" . $kitten->datatable_category_id . "'", "title ASC");
+          if (!empty($sub_kittens)) {
+            foreach ($sub_kittens as $sub_kitten) {
+              $output .= '<option value="' . $sub_kitten->datatable_category_id . '">&nbsp;&nbsp;&nbsp;- ' . $sub_kitten->title . '</option>';
+  
+              $sub_sub_kittens = $this->datatableManager->getDatatableCategories("", "parent_category_id = '" . $sub_kitten->datatable_category_id . "'", "title ASC");
+              if (!empty($sub_sub_kittens)) {
+                foreach ($sub_sub_kittens as $sub_sub_kitten) {
+                  $output .= '<option value="' . $sub_sub_kitten->datatable_category_id . '">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- ' . $sub_sub_kitten->title . '</option>';
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    $output .= '</select>';
+  
+    return $output;
+  }
+```
 
 {% endtab %}
 
