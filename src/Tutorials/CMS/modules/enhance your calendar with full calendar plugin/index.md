@@ -479,14 +479,14 @@ To use the Category Dropdown filter, you must first add a category group to your
       [date_filter years="2023-2025" all_value="" default_filters=0 label="Year" year_format="simple" show_all_option="0" class="form-control"]
     </div>
     <div class="col-md-3 form-group">
-      [category_filter category_group_id="" calendar_id=""]
+      [category_filter_custom category_group_id="" calendar_id=""]
     </div>
   </div>
 </div>
 ```
 
 !!!warning Important!
-Configure the `[category_filter]` shortcode by adding your Category Group ID to the `category_group_id` attribute and your calendar module ID to the `calendar_id=""` attribute.
+Configure the `[category_filter_custom]` shortcode by adding your Category Group ID to the `category_group_id` attribute and your calendar module ID to the `calendar_id=""` attribute.
 !!!
 
 2. **For Category Filter users:** If you're implementing the category filter, add the attribute `category_filter_input_id="category_filter"` to your `full_calendar_custom` shortcode.
