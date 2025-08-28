@@ -2,7 +2,7 @@
 
 <div style="display: flex; align-items: center; justify-content: space-between; padding: 2rem 1.5rem; margin-bottom: 2rem; background-color: #eef6ff;">
   <div style="display: flex; align-items: center; justify-content: start;">
-    <!-- <img src="/static/images/logos/blog-module-icon.jpg" alt="Alert Icon" style="width: 80px;"> -->
+    <img src="/static/images/icons/alert-icon.svg" alt="Alert Icon" style="width: 80px;">
     <div>
       <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">Alert</h1>
       <p style="padding-left: 2rem; margin-bottom: 0;">Boost user engagement with eye-catching, personalized alert notifications.</p>
@@ -30,7 +30,7 @@ For step-by-step instructions on adding a Module in your CMS, please visit [Add 
 
 ## Step-by-Step Setup Guide
 
-These steps will guide you through the process of installing the Alert Module and adding it to your page.
+These steps will guide you through the process of installing the Alert Module and getting it live on your page.
 
 {% tabs %}
 
@@ -97,7 +97,7 @@ You need to add the ID number of your alert module to the repeater shortcode wit
 
 3. Open your homepage `index.stml` or the desired page where you want to add the alert bar.
 
-4. [Insert your alert-bar file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
+4. [Insert your alert-bar file](/workspace/websites/page/#add-a-file-to-page) into the page.
 
 !!!Note:
 To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
