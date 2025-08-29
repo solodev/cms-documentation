@@ -103,7 +103,7 @@ class CustomShortcode extends ShortcodeService
         
         $calendar_display_area_id = isset($atts['calendar_display_area_id']) ? $atts['calendar_display_area_id'] : "calendar_display";
         if (isset($atts['website_filter'])) $_POST['websiteFilter'] = $atts['website_filter'];
-
+        
         //category_filter
         $category_filter_input_id = "";
         if (isset($GLOBALS["category_filter_input_id"]))
@@ -129,232 +129,225 @@ class CustomShortcode extends ShortcodeService
         
         if ($pull_mongo == 1) {
             $js_includes = "<script>
-                $(document).ready(function () {
-                    $('#" . $calendar_display_area_id . "').fullCalendar({
-                        loading: function (bool) {
-                            if (bool) {
-                                $('#calendar-loading').show();
-                            } else {
-                                $('#calendar-loading').hide();
+            $(document).ready(function () {
+                $('#" . $calendar_display_area_id . "').fullCalendar({
+                    loading: function (bool) {
+                        if (bool) {
+                            $('#calendar-loading').show();
+                        } else {
+                            $('#calendar-loading').hide();
+                        }
+                    },
+                    customButtons: {
+                        list: {
+                            text: 'View as List',
+                            click: function() {
+                                window.location = 'list.stml';
                             }
-                        },
-                        customButtons: {
-                            list: {
-                                text: 'View as List',
-                                click: function() {
-                                    window.location = 'list.stml';
-                                }
-                            }
-                        }, 
-                        header: {
-                            left: 'title',
-                            center: '',
-                            right: 'list today prev,next '
-                        }, 
-                        events: function (start, end, timezone, callback) {
-                            $.ajax({
-                                url: (function(){
-                                    var qryString = '{\"\$and\":[{\"calendar_id\":" . $calendar_id . "},{\"entry_status\":\"publish\"},{\"\$or\":[{\"\$and\":[{\"start_time\":{\"\$gte\":'+start.unix()+'}},{\"start_time\":{\"\$lte\":'+end.unix()+'}}]},{\"\$and\":[{\"end_time\":{\"\$gte\":'+start.unix()+'}},{\"end_time\":{\"\$lte\":'+end.unix()+'}}]}]}';";
+                        }
+                    }, 
+                    header: {
+                        left: 'title',
+                        center: '',
+                        right: 'list today prev,next '
+                    }, 
+                    events: function (start, end, timezone, callback) {
+                        $.ajax({
+                            url: (function(){
+                                var qryString = '{\"\$and\":[{\"calendar_id\":" . $calendar_id . "},{\"entry_status\":\"publish\"},{\"\$or\":[{\"\$and\":[{\"start_time\":{\"\$gte\":'+start.unix()+'}},{\"start_time\":{\"\$lte\":'+end.unix()+'}}]},{\"\$and\":[{\"end_time\":{\"\$gte\":'+start.unix()+'}},{\"end_time\":{\"\$lte\":'+end.unix()+'}}]}]}';";
             
             if ($category_filter_input_id != "") {
                 $js_includes .= "
-                                    if($('#" . $category_filter_input_id . "').val().trim() != ''){
-                                        qryString += ',{\"datatable_category_id\":'+$('#" . $category_filter_input_id . "').val()+'}';
-                                    }";
+                                if($('#" . $category_filter_input_id . "').val().trim() != ''){
+                                    qryString += ',{\"datatable_category_id\":'+$('#" . $category_filter_input_id . "').val()+'}';
+                                }";
             }
             if (!empty($atts['where'])) {
                 $js_includes .= "
-                                    qryString += ',{\"" . $atts['where'] . "\":1}';";
+                                qryString += ',{\"" . $atts['where'] . "\":1}';";
             }
             $js_includes .= "
-                                    qryString += ']}';
-                                    var jsonURL = '/api/api.php/search/solodev_view?rows=1000&qry='+qryString+'&nonce=" . $this->jwtOneTimeToken->create() . "&orderStr=start_time&orderDir=desc';
-                                    return jsonURL;
-                                })(),
-                                dataType: 'json',
-                                data: {
-                                    start: start.unix(), 
-                                    end: end.unix()
-                                },
-                                success: function (data) {
-                                    var events = [];
-                                    $(data.solodev_view).each(function () {
-                                        var eventData = $(this)[0];
-                                        var startTime = parseInt(eventData.start_time, 10) * 1000;
-                                        var endTime = eventData.end_time ? 
-                                            parseInt(eventData.end_time, 10) * 1000 : 
-                                            startTime + (60 * 60 * 1000);
-                                        
-                                        events.push({
-                                            end: moment(endTime),
-                                            id: eventData.calendar_entry_id,
-                                            start: moment(startTime),
-                                            title: eventData.name,
-                                            url: eventData.url,
-                                            className: eventData.datatable_category_name
-                                        });
+                                qryString += ']}';
+                                var jsonURL = '/api/api.php/search/solodev_view?rows=1000&qry='+qryString+'&nonce=" . $this->jwtOneTimeToken->create() . "&orderStr=start_time&orderDir=desc';
+                                return jsonURL;
+                            })(),
+                            dataType: 'json',
+                            data: {
+                                start: start.unix(), 
+                                end: end.unix()
+                            },
+                            success: function (data) {
+                                var events = [];
+                                $(data.solodev_view).each(function () {
+                                    var eventData = $(this)[0];
+                                    var startTime = parseInt(eventData.start_time, 10) * 1000;
+                                    var endTime = eventData.end_time ? 
+                                        parseInt(eventData.end_time, 10) * 1000 : 
+                                        startTime + (60 * 60 * 1000);
+                                    
+                                    events.push({
+                                        end: moment(endTime),
+                                        id: eventData.calendar_entry_id,
+                                        start: moment(startTime),
+                                        title: eventData.name,
+                                        url: eventData.url,
+                                        className: eventData.datatable_category_name
                                     });
-                                    callback(events);
-                                },
-                                error: function(xhr, status, error) {
-                                    console.error('MongoDB Calendar Error:', status, error);
-                                    callback([]);
-                                }
-                            });
-                        }
-                    });
+                                });
+                                callback(events);
+                            },
+                            error: function(xhr, status, error) {
+                                console.error('MongoDB Calendar Error:', status, error);
+                                callback([]);
+                            }
+                        });
+                    }
                 });
-            </script>";
+            });
+        </script>";
         } else {
             $js_includes = "<script>
-                $(document).ready(function () {
-                    $('#" . $calendar_display_area_id . "').fullCalendar({
-                        customButtons: {
-                            list: {
-                                text: 'View as List',
-                                click: function() {
-                                    window.location = 'list.stml';
-                                }
+            $(document).ready(function () {
+                $('#" . $calendar_display_area_id . "').fullCalendar({
+                    customButtons: {
+                        list: {
+                            text: 'View as List',
+                            click: function() {
+                                window.location = 'list.stml';
                             }
-                        },
-                        header: {
-                            left: 'title',
-                            center: '',
-                            right: 'list today prev,next '
-                        }, 
-                        events: function (start, end, timezone, callback) {
-                            // Build the query string for non-MongoDB
-                            var qryString = '{\"calendar_id\":" . $calendar_id . ",\"entry_status\":\"publish\"}';
-                            var jsonURL = '/api/api.php/search/solodev_view?rows=1000&qry='+qryString+'&nonce=" . $this->jwtOneTimeToken->create() . "&orderStr=start_time&orderDir=desc';
-                            
-                            $.ajax({
-                                url: jsonURL,
-                                dataType: 'json',
-                                data: {";
-            
-            if ($category_filter_input_id != "") {
-                $js_includes .= "
-                                    category_filter: function () {
-                                        var categoryFilter = $('#" . $category_filter_input_id . "').val();
-                                        return categoryFilter.trim();
-                                    },";
-            }
-            
-            if (isset($atts['where'])) {
-                $js_includes .= "
-                                    whereStr: '" . str_replace("'", '"', $atts['where']) . "',";
-            }
-            
-            $js_includes .= "
-                                    start: start.unix(),
-                                    end: end.unix()
-                                },
-                                success: function (data) {
-                                    var events = [];
-                                    // Handle both possible response structures
-                                    var eventList = data.solodev_view || data.rows || [];
-                                    
-                                    $(eventList).each(function () {
-                                        var eventData = $(this)[0];
-                                        
-                                        // Handle missing end_time by defaulting to start_time + 1 hour
-                                        var startTime = parseInt(eventData.start_time, 10) * 1000;
-                                        var endTime = eventData.end_time ? 
-                                            parseInt(eventData.end_time, 10) * 1000 : 
-                                            startTime + (60 * 60 * 1000);
-                                        
-                                        events.push({
-                                            end: moment(endTime),
-                                            id: eventData.calendar_entry_id,
-                                            start: moment(startTime),
-                                            title: eventData.event_title || eventData.name,
-                                            url: eventData.path || eventData.url
-                                        });
-                                    });
-                                    callback(events);
-                                },
-                                error: function(xhr, status, error) {
-                                    console.error('Non-MongoDB Calendar Error:', status, error);
-                                    callback([]);
-                                }
-                            });
                         }
-                    });
+                    },
+                    header: {
+                        left: 'title',
+                        center: '',
+                        right: 'list today prev,next '
+                    }, 
+                    events: function (start, end, timezone, callback) {
+                        // Build the query string for non-MongoDB
+                        var qryString = '{\"calendar_id\":" . $calendar_id . ",\"entry_status\":\"publish\"';";
+
+                        if ($category_filter_input_id != "") {
+                            $js_includes .= "
+                                            var categoryFilter = $('#" . $category_filter_input_id . "').val();
+                                            if (categoryFilter && categoryFilter.trim() !== '') {
+                                                qryString += ',\"datatable_category_id\":' + categoryFilter;
+                                            }";
+                        }
+
+                        $js_includes .= "
+                                            qryString += '}';
+                                            var jsonURL = '/api/api.php/search/solodev_view?rows=1000&qry='+qryString+'&nonce=" . $this->jwtOneTimeToken->create() . "&orderStr=start_time&orderDir=desc';
+                                            
+                                            $.ajax({
+                                                url: jsonURL,
+                                                dataType: 'json',
+                                                data: {
+                                                    start: start.unix(),
+                                                    end: end.unix()";
+
+                    if (isset($atts['where'])) {
+                        $js_includes .= ",
+                                            whereStr: '" . str_replace("'", '"', $atts['where']) . "'";
+                    }
+
+                    $js_includes .= "
+                        },
+                        success: function (data) {
+                                var events = [];
+                                // Handle both possible response structures
+                                var eventList = data.solodev_view || data.rows || [];
+                                
+                                $(eventList).each(function () {
+                                    var eventData = $(this)[0];
+                                    
+                                    // Handle missing end_time by defaulting to start_time + 1 hour
+                                    var startTime = parseInt(eventData.start_time, 10) * 1000;
+                                    var endTime = eventData.end_time ? 
+                                        parseInt(eventData.end_time, 10) * 1000 : 
+                                        startTime + (60 * 60 * 1000);
+                                    
+                                    events.push({
+                                        end: moment(endTime),
+                                        id: eventData.calendar_entry_id,
+                                        start: moment(startTime),
+                                        title: eventData.event_title || eventData.name,
+                                        url: eventData.path || eventData.url
+                                    });
+                                });
+                                callback(events);
+                            },
+                            error: function(xhr, status, error) {
+                                console.error('Non-MongoDB Calendar Error:', status, error);
+                                callback([]);
+                            }
+                        });
+                    }
                 });
-            </script>";
+            });
+        </script>";
         }
         
         if ($category_filter_input_id != "") {
             $js_includes .= "
-                <script>
-                $(document).ready(function() {
-                    $('#" . $category_filter_input_id . "').change(function () {
-                        $('#" . $calendar_display_area_id . "').fullCalendar('refetchEvents');
-                        $('#" . $calendar_display_area_id . "').fullCalendar('rerenderEvents');
-                        window.location = '?type_filter=' + $('#type_filter').val()+'&category_filter=' + $('#" . $category_filter_input_id . "').val();
-                    });
-                    
-                    var URLCatFilt = Solodev_GetURLParameter('category_filter');
-                    if (typeof URLCatFilt  == 'undefined') URLCatFilt = '';
-                    
-                    $('#" . $category_filter_input_id . "').val(URLCatFilt);
+            <script>
+            $(document).ready(function() {
+                $('#" . $category_filter_input_id . "').change(function () {
+                    $('#" . $calendar_display_area_id . "').fullCalendar('refetchEvents');
+                    $('#" . $calendar_display_area_id . "').fullCalendar('rerenderEvents');
+                    window.location = '?category_filter=' + $('#" . $category_filter_input_id . "').val();
                 });
-                </script>";
+                
+                var URLCatFilt = Solodev_GetURLParameter('category_filter');
+                if (typeof URLCatFilt  == 'undefined') URLCatFilt = '';
+                
+                $('#" . $category_filter_input_id . "').val(URLCatFilt);
+            });
+            </script>";
         }
         
         $js_includes .= "
-            <script>
-            $(document).ready(function() {
-                $('#type_filter').change(function () {
-                    $('#type_filter').fullCalendar('refetchEvents');
-                    $('#type_filter').fullCalendar('rerenderEvents');
-                    window.location = '?type_filter=' + $('#type_filter').val()+'&category_filter=' + $('#" . $category_filter_input_id . "').val();
-                });
-                
-                var URLtypeFilt = Solodev_GetURLParameter('type_filter');
-                if (typeof URLtypeFilt  == 'undefined') URLtypeFilt = '';
-                
-                $('#type_filter').val(URLtypeFilt);";
+        <script>
+        $(document).ready(function() {
+            ";
         
         if ($date_filter_input_id != "" && $month_filter_input_id != "") {
             $js_includes .= "
-                var nYear = new Date().getFullYear();
-                var nMonth = new Date().getMonth();
-                var nNextYear = nYear + 1;
-                
-                $('#" . $month_filter_input_id . "').val(nMonth+1);
-                $('#" . $date_filter_input_id . "').val(nYear);
-                
-                $('#" . $date_filter_input_id . ", #" . $month_filter_input_id . "').on('change', function () {
-                    nYear = ($('#" . $date_filter_input_id . "').val() !== 0) ? $('#" . $date_filter_input_id . "').val() : nYear;
-                    nMonth = ($('#" . $month_filter_input_id . "').val() !== 0) ? $('#" . $month_filter_input_id . "').val() - 1 : nMonth;
-                    var newDate = new Date(nYear, nMonth, 1);
-                    $('#" . $calendar_display_area_id . "').fullCalendar('gotoDate', newDate);
-                });
-                
-                $('#" . $calendar_display_area_id . "').fullCalendar('refetchEvents');
-                $('#" . $calendar_display_area_id . "').fullCalendar('rerenderEvents');";
+            var nYear = new Date().getFullYear();
+            var nMonth = new Date().getMonth();
+            var nNextYear = nYear + 1;
+            
+            $('#" . $month_filter_input_id . "').val(nMonth+1);
+            $('#" . $date_filter_input_id . "').val(nYear);
+            
+            $('#" . $date_filter_input_id . ", #" . $month_filter_input_id . "').on('change', function () {
+                nYear = ($('#" . $date_filter_input_id . "').val() !== 0) ? $('#" . $date_filter_input_id . "').val() : nYear;
+                nMonth = ($('#" . $month_filter_input_id . "').val() !== 0) ? $('#" . $month_filter_input_id . "').val() - 1 : nMonth;
+                var newDate = new Date(nYear, nMonth, 1);
+                $('#" . $calendar_display_area_id . "').fullCalendar('gotoDate', newDate);
+            });
+            
+            $('#" . $calendar_display_area_id . "').fullCalendar('refetchEvents');
+            $('#" . $calendar_display_area_id . "').fullCalendar('rerenderEvents');";
         }
         
         $js_includes .= "
-            });
-            
-            function Solodev_GetURLParameter(sParam) {
-                var sPageURL = window.location.search.substring(1);
-                var sURLVariables = sPageURL.split('&');
-                for (var i = 0; i < sURLVariables.length; i++) {
-                    var sParameterName = sURLVariables[i].split('=');
-                    if (sParameterName[0] == sParam) {
-                        return sParameterName[1];
-                    }
+        });
+        
+        function Solodev_GetURLParameter(sParam) {
+            var sPageURL = window.location.search.substring(1);
+            var sURLVariables = sPageURL.split('&');
+            for (var i = 0; i < sURLVariables.length; i++) {
+                var sParameterName = sURLVariables[i].split('=');
+                if (sParameterName[0] == sParam) {
+                    return sParameterName[1];
                 }
             }
-            </script>";
+        }
+        </script>";
         
         unset($_POST['websiteFilter']);
         return $this->do_shortcode($js_includes);
     }
-}
 ?>
 ```
 
@@ -479,7 +472,7 @@ To use the Category Dropdown filter, you must first add a category group to your
       [date_filter years="2023-2025" all_value="" default_filters=0 label="Year" year_format="simple" show_all_option="0" class="form-control"]
     </div>
     <div class="col-md-3 form-group">
-      [category_filter_custom category_group_id="" calendar_id=""]
+      [category_filter_custom category_group_id="" calendar_id="" class="form-control"]
     </div>
   </div>
 </div>
@@ -494,34 +487,40 @@ Configure the `[category_filter_custom]` shortcode by adding your Category Group
 You will also need to add the following code to the `shortcode.php` file.
 
 ```js
-/* [category_filter_custom]
+  /* [category_filter_custom]
   */
   function category_filter_custom($atts, $content = null)
   {
     $this->notify_solodev_shortcode();
-  
-    $datatable_category_group_id = $atts['id'];
+        
+    // Fix: Check for both 'id' and 'category_group_id' attributes
+    if (!isset($atts['id']) && !isset($atts['category_group_id']))
+        return $this->do_shortcode("Error: id or category_group_id is required.");
+    
+    $datatable_category_group_id = isset($atts['category_group_id']) ? $atts['category_group_id'] : $atts['id'];
+    
     $class = isset($atts['class']) ? $atts['class'] : "form-control";
-    $parent_category_id = isset($atts['parent_category_id']) ? $atts['parent_category_id'] : "form-control";
+    $parent_category_id = isset($atts['parent_category_id']) ? $atts['parent_category_id'] : "0"; // Changed from "form-control" to "0"
     $sort = isset($atts['sort']) ? $atts['sort'] : "title asc";
-  
-    $output = 'Category: <select class="' . $class . '" id="category_filter" name="category_filter">
+    $GLOBALS["category_filter_input_id"] = "category_filter";
+        
+    $output = 'Category <select class="' . $class . '" id="category_filter" name="category_filter">
     <option value="">All</option>';
-  
+        
     $cats = $this->datatableManager->getDatatableCategories("", "object_id = '" . $datatable_category_group_id . "' AND parent_category_id = '" . $parent_category_id . "'", "" . $sort . "");
     foreach ($cats as $cat) {
       $output .= '<option value="' . $cat->datatable_category_id . '" class="font-weight-bold">' . $cat->title . '</option>';
-  
+      
       $kittens = $this->datatableManager->getDatatableCategories("", "parent_category_id = '" . $cat->datatable_category_id . "'", "title ASC");
       if (!empty($kittens)) {
         foreach ($kittens as $kitten) {
           $output .= '<option value="' . $kitten->datatable_category_id . '">- ' . $kitten->title . '</option>';
-  
+          
           $sub_kittens = $this->datatableManager->getDatatableCategories("", "parent_category_id = '" . $kitten->datatable_category_id . "'", "title ASC");
           if (!empty($sub_kittens)) {
             foreach ($sub_kittens as $sub_kitten) {
               $output .= '<option value="' . $sub_kitten->datatable_category_id . '">&nbsp;&nbsp;&nbsp;- ' . $sub_kitten->title . '</option>';
-  
+              
               $sub_sub_kittens = $this->datatableManager->getDatatableCategories("", "parent_category_id = '" . $sub_kitten->datatable_category_id . "'", "title ASC");
               if (!empty($sub_sub_kittens)) {
                 foreach ($sub_sub_kittens as $sub_sub_kitten) {
@@ -533,9 +532,19 @@ You will also need to add the following code to the `shortcode.php` file.
         }
       }
     }
-  
+        
     $output .= '</select>';
-  
+
+    $output .= '
+      <script>
+      $(document).ready(function() {
+          $("#category_filter").change(function() {
+              // Refresh the calendar when category changes
+              $("#' . (isset($GLOBALS["calendar_display_area_id"]) ? $GLOBALS["calendar_display_area_id"] : "calendar_display") . '").fullCalendar("refetchEvents");
+          });
+      });
+      </script>';
+    
     return $output;
   }
 ```
