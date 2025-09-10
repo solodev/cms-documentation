@@ -56,6 +56,8 @@ These steps will guide you through the process of installing the Alert Module an
   <li>Click <span class="text-blue">Submit</span>.</li>
 </ul>
 
+<img src="/static/images/modules/alert/add-alert.jpg" alt="Add Alert" style="width: 40%; margin-bottom: 20px;">
+
 !!!Note:
 The alert module comes with a pre-configured entry that you can customize by accessing the module entry.
 !!!
@@ -66,10 +68,10 @@ The alert module comes with a pre-configured entry that you can customize by acc
 
 1. Navigate to `web files > content` and [create a new code file](/workspace/websites/folder/add-file/) in your desired location.
 
-2. Add the alert HTML code using the example template provided below.
+2. Add the alert code using the example template provided below.
 
 ```html alert-bar.tpl
-[repeater id="" limit="0,1"]
+[repeater id="" limit="0,1" display_type="news"]
   <div class="text-center bg-primary py-2">
     <div class="container">
       [is_set value="{{alert_link}}"]
@@ -99,13 +101,15 @@ You need to add the ID number of your alert module to the repeater shortcode wit
 
 4. [Insert your alert-bar file](/workspace/websites/page/#add-a-file-to-page) into the page.
 
+5. Click <span class="text-blue">Publish</span>.
+
 !!!Note:
 To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
 !!!
 
-5. Click <span class="text-blue">Publish</span>.
-
 6. Go to your website and refresh the page to see your alert bar in action.
+
+<img src="/static/images/modules/alert/alert-bar.jpg" alt="Alert Bar on Page">
 
 {% endtab %}
 
