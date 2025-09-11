@@ -56,40 +56,70 @@ These steps will guide you through the process of installing the Blog Module and
   <li>Click <span class="text-blue">Submit</span>.</li>
 </ul>
 
-<img src="/static/images/modules/alert/add-alert.jpg" alt="Add Alert" style="width: 45%; margin-bottom: 20px;">
+<img src="/static/images/modules/blog/add-blog.jpg" alt="Add Blog" style="width: 40%; margin-bottom: 20px;">
+
+!!!Note:
+The blog module comes with a pre-configured entries that you can customize by accessing the module entries.
+!!!
 
 {% endtab %}
 
 {% tab title="Step 2: Create Your Blog List Page" %}
 
-1. Navigate to `web files > content` and [create a new code file](/workspace/websites/folder/add-file/) in your desired location.
+1. Navigate to `web files > content`
+<ul style="padding-left: 50px;">
+  <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>blog</code></li>
+  <li>In the blog folder, <a href="/workspace/websites/folder/add-file/">create a new code file</a> called <code>blog-repeater.tpl</code></li>
+</ul>
 
-2. Add the blog HTML code using the example template provided below.
+2. Add the blog code using the example template provided below.
 
-```html
-<div class="row row-cols-lg-2 row-cols-1">
-  [repeater id="" limit="0, 4" display_type="forum"]
-    <div class="col">
-      <img alt="Placeholder image" src="[get_asset_file_url id={{blog_image}}]" class="img-fluid">
+```html blog-repeater.tpl
+<div class="container my-6" id="main-content">
+  <div class="row text-center justify-content-center">
+    <div class="col-md-8 col-xxl-7">
+      <h1>Blog</h1>
+      <p class="fs-5">With Pro Theme's Blog module, you can customize the experience to drive your SEO. Publish news, articles, and more using simple fields.</p>
     </div>
-    <div class="col">
-      <h2>
-        <a href="{{path}}" class="text-black">{{event_title}}</a>
-      </h2>
-      <p>{{blog_intro}}</p>
-      <p><a class="btn btn-primary" aria-label="Read more about {{event_title}}" href="{{path}}">Read more</a></p>
+  </div>
+  <div class="mt-5">
+    <div class="row border-lg-bottom py-4">
+      [repeater id="" order="start_time desc" display_type="news"]
+        <div class="col-lg-3">
+          [is_set value="{{post_image}}"]	
+            <img alt="{{event_title}}" src="[get_asset_file_url id='{{post_image}}']" class="img-fluid img-thumbnail">
+          [/is_set]
+          [is_empty value="{{post_image}}"]
+            <img alt="{{event_title}}" class="img-fluid img-thumbnail" src="/_/images/blog-1.png" />
+          [/is_empty]
+        </div>
+        <div class="col-lg-9 ps-lg-3 mt-4 mt-lg-0">
+          <h2><a aria-label="Read more" href="{{path}}">{{event_title}}</a></h2>
+          <p class="text-muted fs-6">[print_date format="M. d, Y g:i a" timestamp="{{start_time}}"]</p>
+          <p>{{post_intro}}</p>
+          <p><a aria-label="Read more" href="{{path}}"><strong>Read More</strong></a></p>
+        </div>
+      [/repeater]
     </div>
-  [/repeater]
+  </div>
 </div>
 ```
+
+3. Click <span class="text-blue">Publish</span>.
 
 !!!warning Important!
 You need to add the ID number of your calendar module to the repeater shortcode within the `id=""` attribute.
 !!!
 
-3. [Create a page](/workspace/websites/folder/add-page) in your calendar folder and name it `index.stml`.
+4. Navigate to `www`
+<ul style="padding-left: 50px;">
+  <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>blog</code></li>
+  <li>In the blog folder, <a href="/workspace/websites/folder/add-page/">create a page</a> called <code>index.stml</code></li>
+</ul>
 
-4. [Insert your calendar repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
+5. [Insert your blog repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
+
+6. Click <span class="text-blue">Publish</span>.
 
 <!-- {{{event_title}}} -->
 
@@ -97,21 +127,66 @@ You need to add the ID number of your calendar module to the repeater shortcode 
 To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
 !!!
 
-<img src="/static/images/modules/blog/blog-repeater-page.jpg" alt="Blog Repeater on Page" style="width: 85%;">
+7. Go to your website and refresh the page to see your blog in action.
+
+<img src="/static/images/modules/blog/blog-list.jpg" alt="Blog Repeater on Page">
 
 {% endtab %}
 
-{% tab title="Detail" %}
+{% tab title="Step 3: Create Your Blog Detail Page" %}
 
-1. [Create a file](/workspace/websites/folder/add-file/) called `blog-detail.tpl` on your prefer location. This file will contain the code for your blog entry.
+1. Navigate to `web files > content > blog` and [create a new code file](/workspace/websites/folder/add-file/) called `blog-detail.tpl`.
 
-<img src="/static/images/modules/blog/blog-detail-file.jpg" alt="Blog Detail File" style="width: 45%; margin-bottom: 20px;">
+<img src="/static/images/modules/blog/blog-detail-file.jpg" alt="Blog Detail File" style="width: 40%; margin-bottom: 20px;">
 
-2. Insert the HTML code into your file to display the blog content.
+2. Add the blog detail code using the example template provided below.
 
-3. Include or replace the code with the shortcodes where needed.
+```html blog-detail.tpl
+<div class="container py-4">
+  <div class="py-3">
+    <a href="/blog/"><strong><span class="bi bi-arrow-left pe-2"></span>Back to Blog</strong></a>
+  </div>
+  <article class="bg-white p-5">
+    <a class="btn btn-sm btn-outline-black text-uppercase me-1" href="/blog/">BLOG</a>
+    [entry]
+      <h1 class="h2 mt-4">{{event_title}}</h1>
+      <p class="mt-1"><em>{{post_intro}}</em></p>
+      <hr class="border-top border-primary border-2 opacity-75">
+      <div class="mt-4">
+        {{post_content}}
+      </div>
+    [/entry]
+  </article>
+</div>
+```
 
-4. [Insert your blog detail file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
+3. Click <span class="text-blue">Publish</span>.
+
+4. Navigate to `www > blog` and [create a new page](/workspace/websites/folder/add-page/) called `detail.stml`.
+
+5. [Insert your blog detail file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
+
+6. Click <span class="text-blue">Publish</span>.
+
+7. Map your Module to your page:
+<ul style="padding-left: 50px;">
+  <li>In your Module, click <strong>Modify</strong></li>
+  <li>Under <strong>Websites Properties</strong>
+    <ul style="padding-left: 50px;">
+      <li>On <strong>Detail Page Template</strong>, select the .stml file for your detail page</li>
+      <li>Under <strong>Detail Folder Location</strong>, select the folder where your detail file is located</li>
+    </ul>
+  </li>
+  <li>Click <span class="text-blue">Submit</span></li>
+</ul>
+
+!!!warning Important!
+If you already have entries added to your module, you will need to resave them to generate the path. To do this, go to **Modify**, scroll to Advanced, check the **Resave All Entries** option, and then click <span class="text-blue">Submit</span>
+!!!
+
+8. Go to your website, refresh the blog page, and click on an entry
+
+<img src="/static/images/modules/blog/blog-detail.jpg" alt="Blog Detail on Page">
 
 {% endtab %}                    
 

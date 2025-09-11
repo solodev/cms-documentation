@@ -149,7 +149,7 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 </ul>
 
 !!!warning Important!
-If you already have entries added to your module, you will need to resave them to generate the path. To do this, go to **Modify**, scroll to Advanced, check the **Resave All Entries** option., and then click <span class="text-blue">Submit</span>
+If you already have entries added to your module, you will need to resave them to generate the path. To do this, go to **Modify**, scroll to Advanced, check the **Resave All Entries** option, and then click <span class="text-blue">Submit</span>
 !!!
 
 5. Click [Add Entry](/workspace/modules/module/add-entry/) to begin adding content to your module
