@@ -75,7 +75,7 @@ The blog module comes with a pre-configured entries that you can customize by ac
 2. Add the blog code using the example template provided below.
 
 ```html blog-repeater.tpl
-<div class="container my-6" id="main-content">
+<div class="container my-6">
   <div class="row text-center justify-content-center">
     <div class="col-md-8 col-xxl-7">
       <h1>Blog</h1>
@@ -86,17 +86,17 @@ The blog module comes with a pre-configured entries that you can customize by ac
     <div class="row border-lg-bottom py-4">
       [repeater id="" order="start_time desc" display_type="news"]
         <div class="col-lg-3">
-          [is_set value="{{post_image}}"]	
-            <img alt="{{event_title}}" src="[get_asset_file_url id='{{post_image}}']" class="img-fluid img-thumbnail">
+          [is_set value="{{calendar_image}}"]	
+            <img alt="{{event_title}}" src="[get_asset_file_url id='{{calendar_image}}']" class="img-fluid img-thumbnail">
           [/is_set]
-          [is_empty value="{{post_image}}"]
-            <img alt="{{event_title}}" class="img-fluid img-thumbnail" src="/_/images/blog-1.png" />
+          [is_empty value="{{calendar_image}}"]
+            <img alt="{{event_title}}" class="img-fluid img-thumbnail" src="/_/images/calendar-1.png" />
           [/is_empty]
         </div>
         <div class="col-lg-9 ps-lg-3 mt-4 mt-lg-0">
           <h2><a aria-label="Read more" href="{{path}}">{{event_title}}</a></h2>
           <p class="text-muted fs-6">[print_date format="M. d, Y g:i a" timestamp="{{start_time}}"]</p>
-          <p>{{post_intro}}</p>
+          <p>{{calendar_intro}}</p>
           <p><a aria-label="Read more" href="{{path}}"><strong>Read More</strong></a></p>
         </div>
       [/repeater]
