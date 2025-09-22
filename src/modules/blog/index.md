@@ -25,7 +25,7 @@ The Solodev Blog Module makes it easy to create, organize, and publish posts on 
 - Have a [Website](/workspace/websites/add-website/).
 
 !!!Note: 
-For step-by-step instructions on adding a Module in your CMS, please visit [Add a Module](/workspace/modules/add-module/).
+We use Bootstrap 5 in our packages. You can update your code to match your own framework, styles, or preferences as needed.
 !!!
 
 ## Step-by-Step Setup Guide

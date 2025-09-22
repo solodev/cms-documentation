@@ -24,8 +24,8 @@ The Solodev Quick Links Module makes it easy to streamline navigation by providi
 - Have a [Solodev CMS](/quickstart).
 - Have a [Website](/workspace/websites/add-website/).
 
-!!!Note: 
-For step-by-step instructions on adding a Module in your CMS, please visit [Add a Module](/workspace/modules/add-module/).
+!!!Note:
+We use Bootstrap 5 in our packages. You can update your code to match your own framework, styles, or preferences as needed.
 !!!
 
 ## Step-by-Step Setup Guide
@@ -96,7 +96,7 @@ The quick links module comes with a pre-configured entry that you can customize 
               <img alt="{{event_title}}" class="img-fluid" src="[get_asset_file_url id={{link_image}}]" />
             [/sub_is_empty]
           [/is_set]
-          <h2 class="h4 mt-4 mb-0"><a class="text-black stretched-link" href="{{link_url}}">{{event_title}}</a></h2>
+          <h2 class="h4 mt-4 mb-0"><a class="text-black" href="{{link_url}}">{{event_title}}</a></h2>
         </div>
       </div>
     [/repeater]
@@ -104,25 +104,27 @@ The quick links module comes with a pre-configured entry that you can customize 
 </div>
 ```
 
+<!-- {{{event_title}}} -->
+
 !!!warning Important!
 You need to add the ID number of your quick links module to the repeater shortcode within the `id=""` attribute.
 !!!
 
-<!-- {{{event_title}}} -->
+3. Click <span class="text-blue">Publish</span>.
 
-3. Open your homepage `index.stml` or the desired page where you want to add the quick links boxes.
+4. Open your homepage `index.stml` or the desired page where you want to add the quick links boxes.
 
-4. [Insert your quick-links file](/workspace/websites/page/#add-a-file-to-page) into the page.
+5. [Insert your quick-links file](/workspace/websites/page/#add-a-file-to-page) into the page.
 
-5. Click <span class="text-blue">Publish</span>.
+6. Click <span class="text-blue">Publish</span>.
 
 !!!Note:
 To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
 !!!
 
-6. Go to your website and refresh the page to see your quick links bar in action.
+7. Go to your website and refresh the page to see your quick links boxes in action.
 
-<img src="/static/images/modules/quick-links/quick-links-result.jpg" alt="Quick Links Frontend">
+<img src="/static/images/modules/quick-links/quick-links-result.jpg" alt="Quick Links in Website">
 
 {% endtab %}
 

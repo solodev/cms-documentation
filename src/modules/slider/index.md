@@ -20,7 +20,7 @@ Customize each slide with images, text, buttons, and links to match your brand p
 - Have a Slider Plugin. Like [Slick](https://kenwheeler.github.io/slick/), [Flexslider](https://woocommerce.com/flexslider/), or [Bootstrap Carousel](https://getbootstrap.com/docs/4.0/components/carousel/).
 
 !!!Note: 
-For step-by-step instructions on adding a Module in your CMS, please visit [Add a Module](/workspace/modules/add-module/).
+We use Bootstrap 5 in our packages. You can update your code to match your own framework, styles, or preferences as needed.
 !!!
 
 ## Step-by-Step Setup Guide
