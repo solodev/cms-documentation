@@ -105,11 +105,11 @@ The blog module comes with a pre-configured entries that you can customize by ac
 </div>
 ```
 
-3. Click <span class="text-blue">Publish</span>.
-
 !!!warning Important!
 You need to add the ID number of your calendar module to the repeater shortcode within the `id=""` attribute.
 !!!
+
+3. Click <span class="text-blue">Publish</span>.
 
 4. Navigate to `www`
 <ul style="padding-left: 50px;">

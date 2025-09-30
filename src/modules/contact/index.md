@@ -5,17 +5,19 @@
     <img src="/static/images/logos/contact-icon.jpg" alt="Contact Icon" style="width: 80px;">
     <div>
       <h1>Contact</h1>
-      <p>Allow users to submit a web form in order to ask questions and leave feedback.</p>
+      <p>Make it easy for visitors to connect with you directly on your website.</p>
     </div>
   </div>
-  <a class="btn-blue-lg" href="https://solodev-alert.s3.us-east-1.amazonaws.com/releases/alert-latest.zip"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span>DOWNLOAD</a>
+  <a href="https://solodev-contact.s3.us-east-1.amazonaws.com/releases/contact-latest.zip" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;"><span style="padding-right: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span>DOWNLOAD</a>
 </div>
 
-The Solodev Contact form allows users to submit a web form in order to ask questions, leave feedback, and communicate with you directly.
+The Solodev Contact provides a simple way to collect inquiries, feedback, and requests. Customize fields, manage submissions, and ensure every message reaches your team.
 
-- **Customize form fields.** Name, email address, and message fields might be enough for some companies. In case you need more; however, the form fields can be customized to meet your website's needs.
-- **Link to relevant information.** Showcase links to other pages on your website to help customers get the answers they need before ever hitting "send" on a contact sheet.
-- **Quickly connect to email accounts.** Your customers' messages won't get lost online. The Contact Form manager makes it easy to send form submissions to the inbox of whoever needs them.
+- **Create and manage forms with ease** – Build and update forms quickly through an intuitive module. Add or remove fields as needed to capture the right information.
+
+- **Fully customizable fields and design** – Control how your form looks and functions. Match your brand’s style while tailoring inputs to fit your communication needs.
+
+- **Keep your audience connected** – Give users a direct line to your team. From support requests to general questions, make sure every interaction is seamless and reliable.
 
 ## Prerequisites
 
@@ -26,86 +28,99 @@ The Solodev Contact form allows users to submit a web form in order to ask quest
 We use Bootstrap 5 in our packages. You can update your code to match your own framework, styles, or preferences as needed.
 !!!
 
-## Create Alert
+## Step-by-Step Setup Guide
 
-These steps will guide you through the process of installing Blog Module and adding it to your page.
+These steps will guide you through the process of installing the Contact Form Module and getting it live on your page.
 
 {% tabs %}
 
-{% tab title="Install" %}
+{% tab title="Step 1: Install the Contact Form" %}
 
-1. Download the **Alert** package.
+1. Navigate to Modules
+<ul style="padding-left: 50px;">
+  <li>In your CMS dashboard, click <strong>Modules</strong> in the left navigation menu</li>
+  <li>Click the <strong>Add Module</strong> button</li>
+</ul>
 
-<a href="https://solodev-alert.s3.us-east-1.amazonaws.com/releases/alert-latest.zip" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;"><span style="padding-right: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span>DOWNLOAD</a>
+2. [Add the module](/workspace/modules/add-module/)
+<ul style="padding-left: 50px;">
+  <li>Give your contact form a name</li>
+  <li>Select from the three options:
+    <ul>
+      <li><strong>Datatable:</strong> Creates a simple data table structure</li>
+      <li><strong>Module:</strong> Builds a custom module from scratch</li>
+      <li><strong>Package:</strong> Installs a pre-built module from a zip file</li>
+    </ul>
+  </li>
+  <li>For the purpose of this tutorial, select <strong>Package:</strong> and use this <a href="https://solodev-contact.s3.us-east-1.amazonaws.com/releases/contact-latest.zip" style="display: inline-flex; align-items: center;">zip file <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="#0488ce" style="margin-left: .4rem;"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg>.</a></li>
+  <li>Click <span class="text-blue">Submit</span>.</li>
+</ul>
 
-2. [Add the module](/workspace/modules/add-module/) to your CMS.
-
-<!-- <img src="/static/images/modules/blog/add-blog.jpg" alt="Add Blog" style="width: 45%; margin-bottom: 20px;"> -->
-
-3. [Add an entry](/workspace/modules/module/add-entry/).
-
-<img src="/static/images/modules/blog/add-entry-blog.jpg" alt="Add Blog Entry" style="width: 45%; margin-bottom: 20px;">
+<img src="/static/images/modules/contact/add-contact.jpg" alt="Add contact form" style="width: 45%; margin-bottom: 20px;">
 
 {% endtab %}
 
-{% tab title="Repeater" %}
+{% tab title="Step 2: Create your Contact Form" %}
 
-1. [Create a file](/workspace/websites/folder/add-file/) called `alert-repeater.tpl` on your prefer location. This file will contain the code for your alert bar that will dynamically pull in your alert entries.
+1. Navigate to `web files > content`
+<ul style="padding-left: 50px;">
+  <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>contact</code></li>
+  <li>In the contact folder, <a href="/workspace/websites/folder/add-file/">create a new code file</a> called <code>contact.tpl</code></li>
+</ul>
 
-<!-- <img src="/static/images/modules/blog/blog-repeater-file.jpg" alt="Blog Repeater File" style="width: 45%; margin-bottom: 20px;"> -->
+2. Add the contact code using the example template provided below.
 
-2. Insert the HTML code into your file to display the alert bar. For example:
-
-```js
-<div class="bg-primary text-center py-2">
-  <div class="container">
-    <a aria-label="New weather alert!" class="text-white" href="/weather"><u><strong>New weather alert!</strong></u></a>
+```html contact.tpl
+<div class="container my-5">
+  <div class="row justify-content-between mt-5">
+    <div class="col-lg-7 col-xl-6">
+      <h1>Contact Us</h1>
+      <p class="fs-5">Provide support or capture leads from your website. Easily customize the fields and view all your submission details in the Contact module.</p>
+      <div class="mt-4">
+      	[form id=""]
+      </div>
+    </div>
+    <div class="col-lg-5 col-xl-4 mt-lg-0 mt-4">
+      <div class="border shadow-sm p-5">
+        <h2 class="h3">Need more information?</h2>
+        <p>Add more details about how your customers can engage with you about your products and services.</p>
+        <p class="mb-0">
+          <a href="tel:1234567890">123-456-7890</a> <br>
+          <a href="mailto:email@email.com">email@email.com</a>
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 ```
 
-3. Include or replace the code with the shortcodes where needed. For example:
+!!!warning Important!
+You need to add the ID number of your contact datatable to the form shortcode within the `id=""` attribute.
+!!!
 
-```js
-[repeater id="10" display_type="news" limit="0,1"]
-  <div class="bg-primary text-center py-2">
-    <div class="container">
-      <a aria-label="{{event_title}}" class="text-white" href="{{alert_link}}"><u><strong>{{event_title}}</strong></u></a>
-    </div>
-  </div>
-[/repeater]
-```
+3. Click <span class="text-blue">Publish</span>.
 
-4. [Insert your alert repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
+4. Navigate to `www`
+<ul style="padding-left: 50px;">
+  <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>contact</code></li>
+  <li>In the contact folder, <a href="/workspace/websites/folder/add-page/">create a page</a> called <code>index.stml</code></li>
+</ul>
 
-<!-- <img src="/static/images/modules/blog/blog-repeater-page.jpg" alt="Blog Repeater on Page" style="width: 85%;"> -->
+5. [Insert your contact form file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
+
+6. Click <span class="text-blue">Publish</span>.
+
+!!!Note:
+To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
+!!!
+
+7. Go to your website and refresh the page to see your contact form in action.
+
+<img src="/static/images/modules/contact/contact-page.jpg" alt="Contact Page" style="width: 85%;">
 
 {% endtab %}
 
 {% endtabs %}
-
-### Shortcodes
-
-You will need the following shortcodes to successfully add a Blog to your website. Depending on your needs, you might need to use extra [shortcodes](/shortcodes/).
-
-- [repeater](/shortcodes/module/repeater) - prints the fields from the blog module form. Used on your repeater page.
-
-```js
-[repeater id="1" display_type="news" limit="0,1"]
-```
-
-!!!Note:
-You need to add the ID number of your slider module to the repeater shortcode within the `id=""` attribute.
-!!!
-
-- `event_title` - displays the name of the module's entry.
-
-```
-{{event_title}}
-```
-
-<!-- {{{start_time}}} -->
-If you need to use other shortcodes or need to learn more about shortcodes, [click here](/shortcodes/).
 
 ## Support
 

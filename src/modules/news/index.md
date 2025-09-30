@@ -50,19 +50,21 @@ These steps will guide you through the process of installing the News Module and
   <li>Click <span class="text-blue">Submit</span>.</li>
 </ul>
 
-!!!Note:
-The news module comes with a pre-configured entry that you can customize by accessing the module entry.
-!!!
+<img src="/static/images/modules/news/add-news.jpg" alt="Add News Form" style="width: 40%; margin-bottom: 20px;">
 
 {% endtab %}
 
 {% tab title="Step 2: Create Your News List Page" %}
 
-1. Navigate to `web files > content` and [create a new file](/workspace/websites/folder/add-file/).
+1. Navigate to `web files > content`
+<ul style="padding-left: 50px;">
+  <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>news</code></li>
+  <li>In the news folder, <a href="/workspace/websites/folder/add-file/">create a new code file</a> called <code>news-repeater.tpl</code></li>
+</ul>
 
-2. Add the calendar HTML code using the example template provided below.
+2. Add the news code using the example template provided below.
 
-```html
+```html news-repeater.tpl
 <div class="container">
   <h1 class="text-center">News</h1>
   <div class="mt-5">
