@@ -66,7 +66,11 @@ The alert module comes with a pre-configured entry that you can customize by acc
 
 {% tab title="Step 2: Create your Alert Bar" %}
 
-1. Navigate to `web files > content` and [create a new code file](/workspace/websites/folder/add-file/) in your desired location.
+1. Navigate to `Websites > example.com > web files > content`
+<ul style="padding-left: 50px;">
+  <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>alert</code></li>
+  <li>In the alert folder, <a href="/workspace/websites/folder/add-file/">create a new code file</a> named <code>alert-bar.tpl</code></li>
+</ul>
 
 2. Add the alert code using the example template provided below.
 
@@ -91,23 +95,21 @@ The alert module comes with a pre-configured entry that you can customize by acc
 [/repeater]
 ```
 
-!!!warning Important!
+<!-- {{{event_title}}} -->
+
+!!!danger Important!
 You need to add the ID number of your alert module to the repeater shortcode within the `id=""` attribute.
 !!!
 
-<!-- {{{event_title}}} -->
+3. Click <span class="text-blue">Publish</span>.
 
-3. Open your homepage `index.stml` or the desired page where you want to add the alert bar.
+4. Open your homepage `index.stml` or the desired page where you want to add the alert bar.
 
-4. [Insert your alert-bar file](/workspace/websites/page/#add-a-file-to-page) into the page.
+5. [Insert your alert-bar file](/workspace/websites/page/#add-a-file-to-page) into the page.
 
-5. Click <span class="text-blue">Publish</span>.
+6. Click <span class="text-blue">Publish</span>.
 
-!!!Note:
-To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
-!!!
-
-6. Go to your website and refresh the page to see your alert bar in action.
+7. Go to your website and refresh the page to see your alert bar in action.
 
 <img src="/static/images/modules/alert/alert-bar.jpg" alt="Alert Bar on Page">
 
@@ -118,3 +120,7 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 ## Support
 
 Support for Alert Module is handled directly through Solodev's global help desk. For more information regarding support queries, go to [www.solodev.com](https://www.solodev.com/).
+
+!!!Note:
+To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
+!!!

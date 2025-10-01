@@ -59,14 +59,14 @@ These steps will guide you through the process of installing the Blog Module and
 <img src="/static/images/modules/blog/add-blog.jpg" alt="Add Blog" style="width: 40%; margin-bottom: 20px;">
 
 !!!Note:
-The blog module comes with a pre-configured entries that you can customize by accessing the module entries.
+The blog module comes with pre-configured entries that you can customize by accessing the module entries.
 !!!
 
 {% endtab %}
 
 {% tab title="Step 2: Create Your Blog List Page" %}
 
-1. Navigate to `web files > content`
+1. Navigate to `Websites > example.com > web files > content`
 <ul style="padding-left: 50px;">
   <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>blog</code></li>
   <li>In the blog folder, <a href="/workspace/websites/folder/add-file/">create a new code file</a> called <code>blog-repeater.tpl</code></li>
@@ -79,53 +79,50 @@ The blog module comes with a pre-configured entries that you can customize by ac
   <div class="row text-center justify-content-center">
     <div class="col-md-8 col-xxl-7">
       <h1>Blog</h1>
-      <p class="fs-5">With Pro Theme's Blog module, you can customize the experience to drive your SEO. Publish news, articles, and more using simple fields.</p>
+      <p class="fs-5">With the Blog module, you can customize the experience to drive your SEO. Publish news, articles, and more using simple fields.</p>
     </div>
   </div>
   <div class="mt-5">
-    <div class="row border-lg-bottom py-4">
-      [repeater id="" order="start_time desc" display_type="news"]
+    [repeater id="" order="start_time desc"]
+      <div class="row border-bottom py-4">
         <div class="col-lg-3">
-          [is_set value="{{calendar_image}}"]	
-            <img alt="{{event_title}}" src="[get_asset_file_url id='{{calendar_image}}']" class="img-fluid img-thumbnail">
+          [is_set value="{{post_image}}"]	
+            <img alt="{{event_title}}" src="[get_asset_file_url id='{{post_image}}']" class="w-100">
           [/is_set]
-          [is_empty value="{{calendar_image}}"]
-            <img alt="{{event_title}}" class="img-fluid img-thumbnail" src="/_/images/calendar-1.png" />
+          [is_empty value="{{post_image}}"]
+            <img alt="{{event_title}}" class="w-100" src="/_/images/blog-1.png" />
           [/is_empty]
         </div>
         <div class="col-lg-9 ps-lg-3 mt-4 mt-lg-0">
           <h2><a aria-label="Read more" href="{{path}}">{{event_title}}</a></h2>
           <p class="text-muted fs-6">[print_date format="M. d, Y g:i a" timestamp="{{start_time}}"]</p>
-          <p>{{calendar_intro}}</p>
+          <p>{{post_intro}}</p>
           <p><a aria-label="Read more" href="{{path}}"><strong>Read More</strong></a></p>
         </div>
-      [/repeater]
-    </div>
+      </div>
+    [/repeater]
   </div>
 </div>
 ```
 
-!!!warning Important!
+<!-- {{{event_title}}} -->
+
+!!!danger Important!
 You need to add the ID number of your calendar module to the repeater shortcode within the `id=""` attribute.
 !!!
 
 3. Click <span class="text-blue">Publish</span>.
 
-4. Navigate to `www`
+4. Navigate to `Websites > example.com > www`
 <ul style="padding-left: 50px;">
   <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>blog</code></li>
   <li>In the blog folder, <a href="/workspace/websites/folder/add-page/">create a page</a> called <code>index.stml</code></li>
+  <li>Give your page a Title, and select a Template (optional)</li>
 </ul>
 
 5. [Insert your blog repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
 
 6. Click <span class="text-blue">Publish</span>.
-
-<!-- {{{event_title}}} -->
-
-!!!Note:
-To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
-!!!
 
 7. Go to your website and refresh the page to see your blog in action.
 
@@ -137,8 +134,6 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 
 1. Navigate to `web files > content > blog` and [create a new code file](/workspace/websites/folder/add-file/) called `blog-detail.tpl`.
 
-<img src="/static/images/modules/blog/blog-detail-file.jpg" alt="Blog Detail File" style="width: 40%; margin-bottom: 20px;">
-
 2. Add the blog detail code using the example template provided below.
 
 ```html blog-detail.tpl
@@ -146,8 +141,7 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
   <div class="py-3">
     <a href="/blog/"><strong><span class="bi bi-arrow-left pe-2"></span>Back to Blog</strong></a>
   </div>
-  <article class="bg-white p-5">
-    <a class="btn btn-sm btn-outline-black text-uppercase me-1" href="/blog/">BLOG</a>
+  <article>
     [entry]
       <h1 class="h2 mt-4">{{event_title}}</h1>
       <p class="mt-1"><em>{{post_intro}}</em></p>
@@ -162,7 +156,7 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 
 3. Click <span class="text-blue">Publish</span>.
 
-4. Navigate to `www > blog` and [create a new page](/workspace/websites/folder/add-page/) called `detail.stml`.
+4. Navigate to `www > blog` and [create a new page](/workspace/websites/folder/add-page/) called `detail.stml`. Select a template (optional).
 
 5. [Insert your blog detail file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
 
@@ -180,7 +174,7 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
   <li>Click <span class="text-blue">Submit</span></li>
 </ul>
 
-!!!warning Important!
+!!!danger Important!
 If you already have entries added to your module, you will need to resave them to generate the path. To do this, go to **Modify**, scroll to Advanced, check the **Resave All Entries** option, and then click <span class="text-blue">Submit</span>
 !!!
 
@@ -195,3 +189,7 @@ If you already have entries added to your module, you will need to resave them t
 ## Support
 
 Support for Blog Module is handled directly through Solodev's global help desk. For more information regarding support queries, go to [www.solodev.com](https://www.solodev.com/).
+
+!!!Note:
+To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
+!!!

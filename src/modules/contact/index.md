@@ -62,7 +62,7 @@ These steps will guide you through the process of installing the Contact Form Mo
 
 {% tab title="Step 2: Create your Contact Form" %}
 
-1. Navigate to `web files > content`
+1. Navigate to `Websites > example.com > web files > content`
 <ul style="padding-left: 50px;">
   <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>contact</code></li>
   <li>In the contact folder, <a href="/workspace/websites/folder/add-file/">create a new code file</a> called <code>contact.tpl</code></li>
@@ -94,13 +94,13 @@ These steps will guide you through the process of installing the Contact Form Mo
 </div>
 ```
 
-!!!warning Important!
+!!!danger Important!
 You need to add the ID number of your contact datatable to the form shortcode within the `id=""` attribute.
 !!!
 
 3. Click <span class="text-blue">Publish</span>.
 
-4. Navigate to `www`
+4. Navigate to `Websites > example.com > www`
 <ul style="padding-left: 50px;">
   <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>contact</code></li>
   <li>In the contact folder, <a href="/workspace/websites/folder/add-page/">create a page</a> called <code>index.stml</code></li>
@@ -109,10 +109,6 @@ You need to add the ID number of your contact datatable to the form shortcode wi
 5. [Insert your contact form file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
 
 6. Click <span class="text-blue">Publish</span>.
-
-!!!Note:
-To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
-!!!
 
 7. Go to your website and refresh the page to see your contact form in action.
 
@@ -125,6 +121,10 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 ## Support
 
 Support for Contact form is handled directly through Solodev's global help desk. For more information regarding support queries, go to [www.solodev.com](https://www.solodev.com/).
+
+!!!Note:
+To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
+!!!
 
 <style>
   /* Headers */

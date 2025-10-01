@@ -56,7 +56,7 @@ These steps will guide you through the process of installing the News Module and
 
 {% tab title="Step 2: Create Your News List Page" %}
 
-1. Navigate to `web files > content`
+1. Navigate to `Websites > example.com > web files > content`
 <ul style="padding-left: 50px;">
   <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>news</code></li>
   <li>In the news folder, <a href="/workspace/websites/folder/add-file/">create a new code file</a> called <code>news-repeater.tpl</code></li>
@@ -90,29 +90,36 @@ These steps will guide you through the process of installing the News Module and
 </div>
 ```
 
-!!!warning Important!
+<!-- {{{event_title}}} -->
+
+!!!danger Important!
 You need to add the ID number of your news module to the repeater shortcode within the `id=""` attribute.
 !!!
 
-3. [Create a page](/workspace/websites/folder/add-page) in your news folder and name it `index.stml`.
+3. Click <span class="text-blue">Publish</span>.
 
-4. [Insert your news repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
+4. Navigate to `Websites > example.com > www`
+<ul style="padding-left: 50px;">
+  <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>news</code></li>
+  <li>In the news folder, <a href="/workspace/websites/folder/add-page/">create a page</a> called <code>index.stml</code></li>
+  <li>Give your page a Title, and select a Template (optional)</li>
+</ul>
 
-<!-- {{{event_title}}} -->
+5. [Insert your news repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
 
-!!!Note:
-To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
-!!!
+6. Click <span class="text-blue">Publish</span>.
+
+7. Go to your website and refresh the page to see your news in action.
 
 {% endtab %}
 
 {% tab title="Step 3: Create Your News Detail Page" %}
 
-1. [Create a file](/workspace/websites/folder/add-file/) in your preferred location.
+1. Navigate to `web files > content > news` and [create a new code file](/workspace/websites/folder/add-file/) called `news-detail.tpl`.
 
-2. Add the HTML code for your news list layout using the example code provided
+2. Add the news detail code using the example template provided below.
 
-```html
+```html news-detail.tpl
 <div class="container">
   [entry]
     <article class="row justify-content-between mt-3">
@@ -126,9 +133,15 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 </div>
 ```
 
-3. [Insert your news detail file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
+3. Click <span class="text-blue">Publish</span>.
 
-4. Map your Module to your page:
+4. Navigate to `www > news` and [create a new page](/workspace/websites/folder/add-page/) called `detail.stml`. Select a template (optional).
+
+5. [Insert your news detail file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
+
+6. Click <span class="text-blue">Publish</span>.
+
+7. Map your Module to your page:
 <ul style="padding-left: 50px;">
   <li>In your Module, click <strong>Modify</strong></li>
   <li>Under <strong>Websites Properties</strong>
@@ -140,13 +153,11 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
   <li>Click <span class="text-blue">Submit</span></li>
 </ul>
 
-!!!warning Important!
+!!!danger Important!
 If you already have entries added to your module, you will need to resave them to generate the path. To do this, go to **Modify**, scroll to Advanced, check the **Resave All Entries** option., and then click <span class="text-blue">Submit</span>
 !!!
 
-5. Click [Add Entry](/workspace/modules/module/add-entry/) to begin adding content to your module
-
-6. Go to your website and refresh the page to see your news module in action
+8. Go to your website, refresh the blog page, and click on an entry
 
 <!-- <img src="/static/images/modules/calendar/calendar-page.jpg" alt="Calendar" style="width: 90%; margin-bottom: 20px;"> -->
 
@@ -157,3 +168,7 @@ If you already have entries added to your module, you will need to resave them t
 ## Support
 
 Support for News Module is handled directly through Solodev's global help desk. For more information regarding support queries, go to [www.solodev.com](https://www.solodev.com/).
+
+!!!Note:
+To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
+!!!

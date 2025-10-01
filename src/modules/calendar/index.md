@@ -64,7 +64,7 @@ These steps will guide you through the process of installing the Calendar Module
 
 {% tab title="Step 2: Create Your Calendar List Page" %}
 
-1. Navigate to `web files > content`
+1. Navigate to `Websites > example.com > web files > content`
 <ul style="padding-left: 50px;">
   <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>calendar</code></li>
   <li>In the calendar folder, <a href="/workspace/websites/folder/add-file/">create a new code file</a> called <code>calendar-repeater.tpl</code></li>
@@ -100,31 +100,29 @@ These steps will guide you through the process of installing the Calendar Module
   </div>
 </div>
 ```
-3. Click <span class="text-blue">Publish</span>.
 
-!!!warning Important!
+<!-- {{{event_title}}} -->
+
+!!!danger Important!
 You need to add the ID number of your calendar module to the repeater shortcode within the `id=""` attribute.
 !!!
 
-4. Navigate to `www`
+3. Click <span class="text-blue">Publish</span>.
+
+4. Navigate to `Websites > example.com > www`
 <ul style="padding-left: 50px;">
   <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>calendar</code></li>
   <li>In the calendar folder, <a href="/workspace/websites/folder/add-page/">create a page</a> called <code>index.stml</code></li>
+  <li>Give your page a Title, and select a Template (optional)</li>
 </ul>
 
 5. [Insert your calendar repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
 
 6. Click <span class="text-blue">Publish</span>.
 
-<!-- {{{event_title}}} -->
-
-!!!Note:
-To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
-!!!
-
 7. Go to your website and refresh the page to see your blog in action.
 
-<img src="/static/images/modules/blog/blog-list.jpg" alt="Blog Repeater on Page">
+<img src="/static/images/modules/calendar/calendar-page.jpg" alt="Calendar List Page">
 
 {% endtab %}
 
@@ -176,11 +174,9 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 If you already have entries added to your module, you will need to resave them to generate the path. To do this, go to **Modify**, scroll to Advanced, check the **Resave All Entries** option, and then click <span class="text-blue">Submit</span>
 !!!
 
-5. Click [Add Entry](/workspace/modules/module/add-entry/) to begin adding content to your module
+5. Go to your website, refresh the calendar page, and click on an entry.
 
-6. Go to your website and refresh the page to see your calendar module in action
-
-<img src="/static/images/modules/calendar/calendar-page.jpg" alt="Calendar" style="width: 90%; margin-bottom: 20px;">
+<!-- <img src="/static/images/modules/calendar/calendar-page.jpg" alt="Calendar" style="width: 90%; margin-bottom: 20px;"> -->
 
 {% endtab %}
 
@@ -193,6 +189,10 @@ Do you want to take your calendar to the next level? Explore our [full calendar 
 ## Support
 
 Support for Calendar Module is handled directly through Solodev's global help desk. For more information regarding support queries, go to [www.solodev.com](https://www.solodev.com/).
+
+!!!Note:
+To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
+!!!
 
 <style>
   .dark .pluggable .rounded-t a.text-gray-500 {
