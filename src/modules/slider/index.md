@@ -58,48 +58,62 @@ The module includes pre-built slides that you can personalize by editing the mod
 {% endtab %}
 
 {% tab title="Step 2: Create your Hero Slider" %}
-1. Navigate to `web files > content` and [create a new code file](/workspace/websites/folder/add-file/) in your desired location.
 
-2. Add the hero slider HTML code using the example template provided below.
+1. Navigate to `Websites > example.com > web files > content`
+<ul style="padding-left: 50px;">
+  <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>hero</code></li>
+  <li>In the hero folder, <a href="/workspace/websites/folder/add-file/">create a new code file</a> named <code>hero-slider.tpl</code></li>
+</ul>
+
+2. Add the hero code using the example template provided below.
 
 ```html hero-slider.tpl
-[repeater id="" limit="0,1"]
-  <div class="text-center bg-primary py-2">
-    <div class="container">
-      [is_set value="{{alert_link}}"]
-        [cond type="is" subject="{{alert_link_external}}" value="1"]
-          <a href="{{alert_link}}" class="text-white" target="_blank" rel="noopener noreferrer">{{event_title}}</a>
-        [/cond]
-        [cond type="is_not" subject="{{alert_link_external}}" value="1"]
-          <a href="{{alert_link}}" class="text-white">{{event_title}}</a>
-        [/cond]
+<div class="hero position-relative">
+  [repeater id="" display_type="news" limit="0,3"]
+    <div style="background: url([get_asset_file_url id={{slider_image}}]); background-repeat: no-repeat;" class="d-flex align-items-center" 
+      [is_set value="slider_image_alt_tag"]
+        title="{{slider_image_alt_tag}}"
       [/is_set]
-      
-      [is_empty value="{{alert_link}}"]
-        <span class="text-white">{{event_title}}</span>
+      [is_empty value="slider_image_alt_tag"]
+        title="{{event_title}}"
       [/is_empty]
+    >
+      <div class="container px-sm-0 px-7">
+        <div class="row">
+          <div class="col-lg-9 col-xl-8 col-xxl-6">
+            <p class="h1">{{event_title}}</p>
+            <p class="mt-3 d-none d-sm-flex">{{slider_intro}}</p>
+            <div class="d-inline-flex v-align-middle fs-5 mt-sm-2 mt-3 flex-md-row flex-column">
+              [cond type="is_not" subject="{{slider_link_external}}" value="0"] 
+                <a href="{{slider_link}}" class="btn btn-lg btn-secondary d-flex align-items-center justify-content-center fw-semibold text-white" target="_blank" rel="noopener noreferrer"></span>{{slider_button_text}}</a>
+              [/cond]
+              [cond type="is" subject="{{slider_link_external}}" value="0"] 
+                <a href="{{slider_link}}" class="btn btn-lg btn-secondary d-flex align-items-center justify-content-center fw-semibold text-white"></span>{{slider_button_text}}</a>
+              [/cond]
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-[/repeater]
+  [/repeater]
+</div>
 ```
-
-!!!warning Important!
-You need to add the ID number of your hero slider module to the repeater shortcode within the `id=""` attribute.
-!!!
 
 <!-- {{{event_title}}} -->
 
-3. Open your homepage `index.stml` or the desired page where you want to add the hero slider.
-
-4. [Insert your hero-slider file](/workspace/websites/page/#add-a-file-to-page) into the page.
-
-!!!Note:
-To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
+!!!danger Important!
+You need to add the ID number of your hero slider module to the repeater shortcode within the `id=""` attribute.
 !!!
 
-5. Click <span class="text-blue">Publish</span>.
+3. Click <span class="text-blue">Publish</span>.
 
-6. Go to your website and refresh the page to see your hero slider in action.
+4. Open your homepage `index.stml` or the desired page where you want to add the hero slider.
+
+5. [Insert your hero-slider file](/workspace/websites/page/#add-a-file-to-page) into the page.
+
+6. Click <span class="text-blue">Publish</span>.
+
+7. Go to your website and refresh the page to see your hero slider in action.
 
 {% endtab %}
 
@@ -108,3 +122,7 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 ## Support
 
 Support for Hero Slider Module is handled directly through Solodev's global help desk. For more information regarding support queries, go to [www.solodev.com](https://www.solodev.com/).
+
+!!!Note:
+To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
+!!!

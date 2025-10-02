@@ -30,7 +30,7 @@ We use Bootstrap 5 in our packages. You can update your code to match your own f
 
 ## Step-by-Step Setup Guide
 
-These steps will guide you through the process of installing the Quick Links Module and getting it live on your page.
+These steps will guide you through the process of installing the Quick Links Module and adding it to your page.
 
 {% tabs %}
 
@@ -59,14 +59,14 @@ These steps will guide you through the process of installing the Quick Links Mod
 <img src="/static/images/modules/quick-links/add-quick-links.jpg" alt="Quick Links" style="width: 40%; margin-bottom: 20px;">
 
 !!!Note:
-The quick links module comes with a pre-configured entry that you can customize by accessing the module entry.
+The quick links module comes with pre-configured entries that you can customize by accessing the module entry.
 !!!
 
 {% endtab %}
 
 {% tab title="Step 2: Create your Quick Links" %}
 
-1. Navigate to `web files > content`
+1. Navigate to `Websites > example.com > web files > content`
 <ul style="padding-left: 50px;">
   <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>quick-links</code></li>
   <li>In the quick-links folder, <a href="/workspace/websites/folder/add-file/">create a new code file</a> called <code>quick-links-repeater.tpl</code></li>
@@ -106,7 +106,7 @@ The quick links module comes with a pre-configured entry that you can customize 
 
 <!-- {{{event_title}}} -->
 
-!!!warning Important!
+!!!danger Important!
 You need to add the ID number of your quick links module to the repeater shortcode within the `id=""` attribute.
 !!!
 
@@ -118,10 +118,6 @@ You need to add the ID number of your quick links module to the repeater shortco
 
 6. Click <span class="text-blue">Publish</span>.
 
-!!!Note:
-To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
-!!!
-
 7. Go to your website and refresh the page to see your quick links boxes in action.
 
 <img src="/static/images/modules/quick-links/quick-links-result.jpg" alt="Quick Links in Website">
@@ -130,8 +126,10 @@ To learn more about shortcodes and how they work, visit our [shortcodes](/shortc
 
 {% endtabs %}
 
-<!-- {{{quick_links_image}}} -->
-
 ## Support
 
 Support for Quick Links Module is handled directly through Solodev's global help desk. For more information regarding support queries, go to [www.solodev.com](https://www.solodev.com/).
+
+!!!Note:
+To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
+!!!

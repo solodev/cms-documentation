@@ -65,27 +65,37 @@ These steps will guide you through the process of installing the News Module and
 2. Add the news code using the example template provided below.
 
 ```html news-repeater.tpl
-<div class="container">
-  <h1 class="text-center">News</h1>
-  <div class="mt-5">
-    <div class="row border-lg-bottom py-4">
-      [repeater id="" order="start_time desc" limit="0, 4" display_type="news"]
-        <div class="col-lg-3">
-          [is_set value="{{news_image}}"]	
-            <img alt="{{event_title}}" src="[get_asset_file_url id='{{news_image}}']" class="img-fluid img-thumbnail">
-          [/is_set]
-          [is_empty value="{{news_image}}"]
-            <img alt="{{event_title}}" class="img-fluid img-thumbnail" src="/_/images/default-2.jpg" />
-          [/is_empty]
-        </div>
-        <div class="col-lg-9 ps-lg-3 mt-4 mt-lg-0">
-          <h2><a aria-label="Read more" href="{{path}}">{{event_title}}</a></h2>
-          <p class="text-muted fs-6">[print_date format="M. d, Y g:i a" timestamp="{{start_time}}"]</p>
-          <p>{{news_intro}}</p>
-          <p><a aria-label="Read more" href="{{path}}"><strong>Read More</strong></a></p>
-        </div>
-      [/repeater]
+<div class="container my-6">
+  <div class="row text-center justify-content-center">
+    <div class="col-lg-8 col-xxl-7">
+      <h1>News</h1>
+      <p class="fs-5">The News module lets you customize your events with a clean, visual organization and update your published schedule with total ease.</p>
     </div>
+  </div>
+  <div class="row mt-5">
+    [repeater id="" pages="10" display_type="news"]
+      <div class="col-lg-3 py-4 text-center">
+        [is_set value="{{news_image_alt_tag}}"]	
+          <img alt="{{news_image_alt_tag}}" src="[get_asset_file_url id='{{news_image}}']" class="img-fluid">
+        [/is_set]
+        [is_empty value="{{news_image_alt_tag}}"]
+          <img alt="{{event_title}}" class="img-fluid" src="[get_asset_file_url id='{{news_image}}']" />
+        [/is_empty]
+      </div>
+      <div class="col-lg-9 py-4">		
+        <h2>
+          <a class="mt-2 text-primary-color font-weight-bold" aria-label="link to {{event_title}}" href="{{path}}">{{event_title}}</a>
+        </h2>
+        
+        <p class="text-muted small">
+          [print_date format="F d, Y" timestamp="{{start_time}}"]
+        </p>
+
+        <p>{{news_intro}}</p>
+        
+        <p><a class="text-primary-color font-weight-bold" aria-label="read more about {{event_title}}" href="{{path}}">Read More</a></p>
+      </div>
+    [/repeater]
   </div>
 </div>
 ```
@@ -111,31 +121,34 @@ You need to add the ID number of your news module to the repeater shortcode with
 
 7. Go to your website and refresh the page to see your news in action.
 
+<img src="/static/images/modules/news/news-list.jpg" alt="News listing page">
+
 {% endtab %}
 
 {% tab title="Step 3: Create Your News Detail Page" %}
 
-1. Navigate to `web files > content > news` and [create a new code file](/workspace/websites/folder/add-file/) called `news-detail.tpl`.
+1. Navigate to `Websites > example.com > web files > content > news` and [create a new code file](/workspace/websites/folder/add-file/) called `news-detail.tpl`.
 
 2. Add the news detail code using the example template provided below.
 
 ```html news-detail.tpl
 <div class="container">
   [entry]
-    <article class="row justify-content-between mt-3">
-      <div class="col-md-7">
-        <h2 class="border-bottom border-primary border-2 mt-2">Upcoming news</h2>
-        <div class="mt-4 pe-7">
-          <p>{{news_content}}</p>
-        </div>
-    </article>
+    <h1 class="mt-2 text-center">{{event_title}}</h1>
+      [is_set value="{{news_image_alt_tag}}"]	
+        <img alt="{{news_image_alt_tag}}" src="[get_asset_file_url id='{{news_image}}']" class="img-fluid d-block mx-auto">
+      [/is_set]
+      [is_empty value="{{news_image_alt_tag}}"]
+        <img alt="{{event_title}}" class="img-fluid d-block mx-auto" src="[get_asset_file_url id='{{news_image}}']" />
+      [/is_empty]
+    <p>{{news_content}}</p>
   [/entry]
 </div>
 ```
 
 3. Click <span class="text-blue">Publish</span>.
 
-4. Navigate to `www > news` and [create a new page](/workspace/websites/folder/add-page/) called `detail.stml`. Select a template (optional).
+4. Navigate to `Websites > example.com > www > news` and [create a new page](/workspace/websites/folder/add-page/) called `detail.stml`. Select a template (optional).
 
 5. [Insert your news detail file](/workspace/websites/page/#add-a-file-to-page) into the page you just created.
 
@@ -154,12 +167,12 @@ You need to add the ID number of your news module to the repeater shortcode with
 </ul>
 
 !!!danger Important!
-If you already have entries added to your module, you will need to resave them to generate the path. To do this, go to **Modify**, scroll to Advanced, check the **Resave All Entries** option., and then click <span class="text-blue">Submit</span>
+If you already have entries added to your module, you will need to resave them to generate the path. To do this, go to **Modify**, scroll to Advanced, check the **Resave All Entries** option, and then click <span class="text-blue">Submit</span>
 !!!
 
-8. Go to your website, refresh the blog page, and click on an entry
+8. Go to your website, refresh the news page, and click on an entry
 
-<!-- <img src="/static/images/modules/calendar/calendar-page.jpg" alt="Calendar" style="width: 90%; margin-bottom: 20px;"> -->
+<img src="/static/images/modules/news/news-detail.jpg" alt="News Detail Page">
 
 {% endtab %}
 
