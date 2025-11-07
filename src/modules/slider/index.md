@@ -70,7 +70,7 @@ The module includes pre-built slides that you can personalize by editing the mod
 ```html hero-slider.tpl
 <div class="hero position-relative">
   [repeater id="" display_type="news" limit="0,3"]
-    <div style="background: url([get_asset_file_url id={{slider_image}}]); background-repeat: no-repeat;" class="d-flex align-items-center" 
+    <div style="background: url([get_asset_file_url id={{slider_image}}]); background-repeat: no-repeat;" class="d-flex align-items-center"
       [is_set value="slider_image_alt_tag"]
         title="{{slider_image_alt_tag}}"
       [/is_set]
@@ -84,11 +84,11 @@ The module includes pre-built slides that you can personalize by editing the mod
             <p class="h1">{{event_title}}</p>
             <p class="mt-3 d-none d-sm-flex">{{slider_intro}}</p>
             <div class="d-inline-flex v-align-middle fs-5 mt-sm-2 mt-3 flex-md-row flex-column">
-              [cond type="is_not" subject="{{slider_link_external}}" value="0"] 
-                <a href="{{slider_link}}" class="btn btn-lg btn-secondary d-flex align-items-center justify-content-center fw-semibold text-white" target="_blank" rel="noopener noreferrer"></span>{{slider_button_text}}</a>
+              [cond type="is_not" subject="{{slider_link_external}}" value="0"]
+                <a href="{{slider_link}}" class="btn btn-lg btn-secondary d-flex align-items-center justify-content-center fw-semibold text-white" target="_blank" rel="noopener noreferrer">{{slider_button_text}}</a>
               [/cond]
-              [cond type="is" subject="{{slider_link_external}}" value="0"] 
-                <a href="{{slider_link}}" class="btn btn-lg btn-secondary d-flex align-items-center justify-content-center fw-semibold text-white"></span>{{slider_button_text}}</a>
+              [cond type="is" subject="{{slider_link_external}}" value="0"]
+                <a href="{{slider_link}}" class="btn btn-lg btn-secondary d-flex align-items-center justify-content-center fw-semibold text-white">{{slider_button_text}}</a>
               [/cond]
             </div>
           </div>
