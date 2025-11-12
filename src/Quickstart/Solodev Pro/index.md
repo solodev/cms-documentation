@@ -422,7 +422,7 @@ If your stack builds successfully, you will see the green "CREATE_COMPLETE" mess
 
 ### Add your first website
 
-Please [follow this link](/workspace/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
+Start your journey with Solodev! Set up and launch your [first website](/workspace/websites/add-website/).
 
 <style>
   /* Headers */

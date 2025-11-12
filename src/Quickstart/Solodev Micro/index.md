@@ -321,7 +321,7 @@ If you do not have a Key Pair, you will need to create one in your Key Pair Cons
 
 ### Add your first website
 
-Please [follow this link](/workspace/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
+Start your journey with Solodev! Set up and launch your [first website](/workspace/websites/add-website/).
 
 ### Troubleshooting
 

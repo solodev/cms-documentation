@@ -34,7 +34,6 @@ If you already have a subscription to **CMS Enterprise**, [click here](#launch-s
 
 ## CMS Subscription
 
-
 The following steps cover the setup of the **CMS Enterprise** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process. By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
 
 1. Subscribe to Solodev on the AWS Marketplace. <a href="https://aws.amazon.com/marketplace/pp/prodview-btylxhjxu6pew" target="_blank" class="btn-orange-sm" style="margin-left: 1rem;">SUBSCRIBE <span>:icon-link-external:</span></a>
@@ -359,7 +358,7 @@ If you do not have a Key Pair, you will need to create one in your Key Pair Cons
 
 ### Add your first website
 
-Please [follow this link](/workspace/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
+Start your journey with Solodev! Set up and launch your [first website](/workspace/websites/add-website/).
 
 <style>
   /* Headers */
