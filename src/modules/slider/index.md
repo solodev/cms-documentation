@@ -68,34 +68,47 @@ The module includes pre-built slides that you can personalize by editing the mod
 2. Add the hero code using the example template provided below.
 
 ```html hero-slider.tpl
-<div class="hero position-relative">
-  [repeater id="" display_type="news" limit="0,3"]
-    <div style="background: url([get_asset_file_url id={{slider_image}}]); background-repeat: no-repeat;" class="d-flex align-items-center"
-      [is_set value="slider_image_alt_tag"]
-        title="{{slider_image_alt_tag}}"
-      [/is_set]
-      [is_empty value="slider_image_alt_tag"]
-        title="{{event_title}}"
-      [/is_empty]
-    >
-      <div class="container px-sm-0 px-7">
-        <div class="row">
-          <div class="col-lg-9 col-xl-8 col-xxl-6">
-            <p class="h1">{{event_title}}</p>
-            <p class="mt-3 d-none d-sm-flex">{{slider_intro}}</p>
-            <div class="d-inline-flex v-align-middle fs-5 mt-sm-2 mt-3 flex-md-row flex-column">
-              [cond type="is_not" subject="{{slider_link_external}}" value="0"]
-                <a href="{{slider_link}}" class="btn btn-lg btn-secondary d-flex align-items-center justify-content-center fw-semibold text-white" target="_blank" rel="noopener noreferrer">{{slider_button_text}}</a>
-              [/cond]
-              [cond type="is" subject="{{slider_link_external}}" value="0"]
-                <a href="{{slider_link}}" class="btn btn-lg btn-secondary d-flex align-items-center justify-content-center fw-semibold text-white">{{slider_button_text}}</a>
-              [/cond]
+<div id="home-slider" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    [repeater id="1" limit="0, 3" order="start_time asc"]
+      <div style="background: url([get_asset_file_url id={{slider_image}}]) center/cover; height: 420px;" class="carousel-item d-flex align-items-center[cond type='is' subject='{{index}}' value='0'] active[/cond]" 
+        [is_set value='slider_image_alt_tag']
+          title="{{slider_image_alt_tag}}"
+        [/is_set]
+        [is_empty value='slider_image_alt_tag']
+          title="{{event_title}}"
+        [/is_empty]
+      >
+        <div class="container position-relative">
+          <div class="row">
+            <div class="col-lg-9 col-xl-8 col-xxl-6">
+              <div class="bg-white p-5 rounded text-start">
+                <p class="h1 fw-bold">{{event_title}}</p>
+                <p class="lead mt-3 fw-normal">{{slider_intro}}</p>
+                <div class="d-flex mt-sm-2 mt-3 justify-content-between">
+                  [cond type="is_not" subject="{{slider_link_external}}" value="0"] 
+                  <a href="{{slider_link}}" class="btn btn-primary d-flex align-items-center justify-content-center text-white" target="_blank" rel="noopener noreferrer">{{slider_button_text}}</a>
+                  [/cond]
+                  [cond type="is" subject="{{slider_link_external}}" value="0"] 
+                  <a href="{{slider_link}}" class="btn btn-primary d-flex align-items-center justify-content-center text-white">{{slider_button_text}}</a>
+                  [/cond]
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  [/repeater]
+    [/repeater]
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#home-slider" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#home-slider" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 ```
 
