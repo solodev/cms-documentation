@@ -69,7 +69,7 @@ The module includes pre-built slides that you can personalize by editing the mod
 ```html hero-slider.tpl
 <div id="home-slider" class="carousel slide carousel-fade">
   <div class="carousel-inner">
-    [repeater id="1" limit="0, 3" order="start_time asc"]
+    [repeater id="" limit="0, 3" order="start_time asc"]
       <div style="background: url([get_asset_file_url id={{slider_image}}]) center/cover; height: 420px;" class="carousel-item d-flex align-items-center[cond type='is' subject='{{index}}' value='0'] active[/cond]" 
         [is_set value='slider_image_alt_tag']
           title="{{slider_image_alt_tag}}"
