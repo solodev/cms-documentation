@@ -361,7 +361,7 @@ If you do not have a Key Pair, you will need to create one in your Key Pair Cons
 Start your journey with Solodev! Set up and launch your [first website](/workspace/websites/add-website/).
 
 ### Migrate to a new server
-Moving your Solodev CMS to a different Solodev server? Follow our [server-to-server migration guide](/tutorials/integrations/aws/backup-and-restore/).
+Moving your Solodev CMS to a different Solodev server? Follow our [server-to-server migration guide](/tutorials/cms/backup-and-restore/).
 
 <style>
   /* Headers */
