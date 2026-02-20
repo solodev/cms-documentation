@@ -9,7 +9,7 @@
 
 <h1 style="font-size: 2rem; display: none;" class="sr-only">Quickstart</h1>
 
-Built from the ground up to leverage the power of AWS services, Solodev is a cloud-first enterprise content management system (CMS) and customer experience platform that lets individuals and teams collaborate on their digital transformation. Easy to use for non-technical content marketers yet robust enough for ambitious developers, Solodev lets everyone work together to create rich, enterprise-grade websites that engage and convert. An APN Advanced Technology Partner, Solodev is available with hourly, annual and BYOL pricing.
+Built from the ground up to leverage the power of AWS services, Solodev CMS is a cloud-first enterprise content management system (CMS) and customer experience platform that lets individuals and teams collaborate seamlessly with ease. Easy to use for non-technical content marketers yet robust enough for ambitious developers, Solodev CMS lets everyone work together to create rich, enterprise-grade websites that engage and convert. An APN Advanced Technology Partner, Solodev CMS is available with hourly, annual and BYOL (Bring Your Own License) pricing.
 
 <div class="row">
   <div class="col">
@@ -49,7 +49,7 @@ Built from the ground up to leverage the power of AWS services, Solodev is a clo
   </div>
 </div>
 
-<p class="text-center">Enterprise-class software. Best-of-breed capabilities. World-class cloud hosting. It’s all here – and it’s all yours – with Solodev.</p>
+<p class="text-center">Enterprise-class software. Best-of-breed capabilities. World-class cloud hosting. It’s all here – and it’s all yours – with Solodev CMS.</p>
 
 <img src="/static/images/quickstart/aws-badges.jpg" alt="AWS Badges" style="width: 56%; display: block; margin: 0 auto;">
 

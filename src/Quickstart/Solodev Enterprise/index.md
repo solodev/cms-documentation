@@ -27,7 +27,7 @@ If you already have a subscription to **CMS Enterprise**, [click here](#launch-s
 ## CMS Subscription
 
 
-The following steps cover the setup of the **CMS Enterprise** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process. By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
+The following steps cover the setup of **CMS Enterprise** on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process. By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflows.
 
 1. Subscribe to Solodev on the AWS Marketplace. <a href="https://aws.amazon.com/marketplace/pp/prodview-btylxhjxu6pew" target="_blank" class="btn-orange-sm" style="margin-left: 1rem;">SUBSCRIBE <span>:icon-link-external:</span></a>
 2. Review and accept the **"Terms and Conditions"**.
@@ -39,7 +39,7 @@ The following steps cover the setup of the **CMS Enterprise** on the AWS Marketp
 Once accepted, you will receive a thank you message asking you to configure your software. <br>This process can take a few moments. Please do not exit the screen or refresh the page.
 !!!
 
-### <span class="text-teal">Configure Software</span>
+### Configure Software
 
 1. Choose a fulfillment option and software version to launch this software.
 
@@ -59,7 +59,7 @@ Region | Select the AWS Region.
 On the next screen, click on **"Usage Instructions"** and then select the Quickstart link to continue the installation.
 !!!
 
-### <span class="text-teal">Launch Software</span>
+### Launch Software
 
 Review the launch configuration details and follow the instructions to launch this software.
 
@@ -87,7 +87,7 @@ If your AWS region is different from `us-east-1`, make sure to select your speci
 
 ##### Provide a stack name
 
-1. Provide a stack name. Stack name must be 1 to 128 characters, start with a letter, and only contain alphanumeric characters.
+1. Provide a stack name. Your stack name must be 1 to 128 characters, start with a letter, and only contain alphanumeric characters.
 
 <p><img src="/static/images/enterprise/enterprise-stack-name.jpg" alt="CMS Enterprise stack name" style="width: 62%;"></p>
 
@@ -99,10 +99,10 @@ If your AWS region is different from `us-east-1`, make sure to select your speci
 
 Name   | Description
 ---    | ---
-VPCID | Choose which VPC the Application should be deployed to. <br><br>An Amazon Virtual Private Cloud (VPC) is a dedicated environment that lets you launch the AWS resources that power your CMS Micro in an isolated virtual network. If you do not have a VPC, you will need to create one in your VPC Console. For instructions on how to create a VPC, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">click here for instructions :icon-link-external:</a>.
+VPCID | Choose which VPC the Application should be deployed to. <br><br>An Amazon Virtual Private Cloud (VPC) is a dedicated environment that lets you launch the AWS resources that power your CMS Enterprise in an isolated virtual network. If you do not have a VPC, you will need to create one in your VPC Console. For instructions on how to create a VPC, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html" target="_blank">click here for instructions :icon-link-external:</a>.
 PublicSubnet1ID | The ID of the public subnet in Availability Zone 1 in your existing VPC (e.g., subnet-a0246dcd). <br><br>A subnet is a range of IP addresses contained in your VPC. You can create AWS resources, such as EC2 instances, in specific subnets, enabling you to group network resources more efficiently. If you do not have any existing subnets, you will need to create one in your Subnet Console. For instructions, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">click here :icon-link-external:</a>.
 PublicSubnet2ID | The ID of the public subnet in Availability Zone 2 in your existing VPC (e.g., subnet-b1236eea). <br><br>A subnet is a range of IP addresses contained in your VPC. You can create AWS resources, such as EC2 instances, in specific subnets, enabling you to group network resources more efficiently. If you do not have any existing subnets, you will need to create one in your Subnet Console. For instructions, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-vpc.html#ec2-shared-VPC-subnets" target="_blank">click here :icon-link-external:</a>.
-InstanceType | CMS Micro runs on a single Amazon Elastic Compute (EC2) instance and is defaulted to run on a recommended t2.medium server. Depending on your traffic needs, you can select an instance size from the available options in the menu. <br><br>To learn more about which instance to choose based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here :icon-link-external:</a>.
+InstanceType | CMS Enterprise runs on a load-balanced EC2 cluster plus a dedicated admin EC2 instance.. Depending on your traffic needs, you can select an instance size from the available options in the menu. <br><br>To learn more about which instance to choose based on your traffic needs, <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Instances.html" target="_blank">click here :icon-link-external:</a>.
 InstanceCount | Number of instances behind load balancer. Minimum 2 required for high availability.
 KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances. <br><br>An Amazon EC2 key pair is a set of security credentials consisting of a public and private key that verify a user’s identity when connecting or communicating with an EC2 instance. Select an existing security group from the menu or configure a new security group using the form provided. If you do not have a Key Pair, you will need to create one in your Key Pair Console. For instructions <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html" target="_blank">click here :icon-link-external:</a>.
 AmiAlias | An AMI Alias refers to a user-defined name or identifier for an Amazon Machine Image (AMI) that simplifies the process of referring to an AMI. <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html" target="_blank">Click here :icon-link-external:</a> to learn more about AMIs.
@@ -195,7 +195,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 ### Stacks
 
-1. <span class="text-orange">**Watch your CMS being created!**</span> Once the status changes from **CREATE_IN_PROGRESS** to **CREATE_COMPLETE**, you can access your CMS.
+1. <span class="text-orange">**Watch your CMS being deployed!**</span> Once the status changes from **CREATE_IN_PROGRESS** to **CREATE_COMPLETE**, you can access your CMS.
 
 <!-- <p><img src="/static/images/quickstart/pro/pro-stack.jpg" alt="CMS Enterprise Stack" style="width: 62%;"></p> -->
 

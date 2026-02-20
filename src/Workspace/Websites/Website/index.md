@@ -4,6 +4,11 @@ After selecting an active website in your Solodev CMS, you will be directed to y
 
 Using the left-hand menu, you can access the **web files** and **www folder** that power your website. You can also toggle between different website projects using the dropdown menu.
 
+**Folder** | **Description** 
+:--- | ---
+www  | The www folder includes all the frontend pages and files that are publicly accessible when a visitor navigates your website. The www folder is where you can [update the pages](/workspace/websites/page) on your website.
+web files | The web files folder houses the backend elements that power the structure of your website. This includes navigational and layout templates, HTML, imagery and content, [modules](/workspace/modules), [forms](/workspace/forms), and other components. From .tpl code to SCSS, you can update web files from this folder.
+
 !!!Note:
 Click the **Main** button or your **organization’s logo** in the upper left corner to return to the main screen. 
 !!!

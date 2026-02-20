@@ -1,6 +1,6 @@
 Add custom redirects to automatically forward traffic from one URL on your website to another. 
 
-In Solodev, you can directly add or modify redirects using <a href="https://loganix.com/what-is-a-htaccess-file/" target="_blank" rel="noopener noreferrer">.htaccess :icon-link-external:</a> (hypertext access), a powerful yet hidden file for adding extra functionality to your website that can make it more crawlable and indexable to search engines.   
+You can directly add or modify redirects using <a href="https://loganix.com/what-is-a-htaccess-file/" target="_blank" rel="noopener noreferrer">.htaccess :icon-link-external:</a> (hypertext access), a powerful hidden file for adding extra functionality to your website that can make it more crawlable and indexable by search engines.   
 
 <p><img src="/static/images/websites/website/redirects/redirects.jpg" alt="Redirects section" style="width: 50%;"></p>
 
@@ -13,7 +13,7 @@ Several common redirects can be used to forward traffic, including 301 permanent
 **Name** | **Description** 
 :--- | ---
 History | View the history of your redirects, compare versions, and restore a previous version to the current version.
-Code editor | Use code to add redirects or other functions in the editor window.
+Code editor | Add redirects or other functions in the editor window.
 Submit | Click **Submit** after updating your redirects.
 
 !!!Tip:
@@ -25,7 +25,7 @@ Redirect 301 /partners https://www.example.com/customers/
 
 ## History
 
-View the history of your .htaccess file, including redirects. See the date each version was created and who updated the version. You can also compare and restore a previous version to your current version.
+View the history of your .htaccess file, including redirects. See the date each version was created and who updated the version. You can also compare and restore previous versions.
 
 <p><img src="/static/images/websites/website/redirects/redirect-history.jpg" alt="History Modal" style="width: 55%;"></p>
 

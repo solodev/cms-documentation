@@ -185,7 +185,7 @@ To learn more about the stack failure options, <a href="https://docs.aws.amazon.
 
 ### Stacks
 
-1. <span class="text-orange">**Watch your CMS being created!**</span> Once the status changes from **CREATE_IN_PROGRESS** to **CREATE_COMPLETE**, you can access your CMS.
+1. <span class="text-orange">**Watch your CMS being deployed!**</span> Once the status changes from **CREATE_IN_PROGRESS** to **CREATE_COMPLETE**, you can access your CMS.
 
 <p><img src="/static/images/pro/pro-stack.jpg" alt="CMS Pro Stack" style="width: 62%;"></p>
 
