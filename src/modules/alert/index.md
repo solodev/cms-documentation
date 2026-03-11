@@ -2,10 +2,10 @@
 
 <div style="display: flex; align-items: center; justify-content: space-between; padding: 2rem 1.5rem; margin-bottom: 2rem; background-color: #eef6ff;">
   <div style="display: flex; align-items: center; justify-content: start;">
-    <!-- <img src="/static/images/logos/blog-module-icon.jpg" alt="Alert Icon" style="width: 80px;"> -->
+    <img src="/static/images/icons/alert-icon.svg" alt="Alert Icon" style="width: 80px;">
     <div>
       <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem;">Alert</h1>
-      <p style="padding-left: 2rem; margin-bottom: 0;">Display alerts with ease—customize messages and keep users informed.</p>
+      <p style="padding-left: 2rem; margin-bottom: 0;">Boost user engagement with eye-catching, personalized alert notifications.</p>
     </div>
   </div>
   <a href="https://solodev-alert.s3.us-east-1.amazonaws.com/releases/alert-latest.zip" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;"><span style="padding-right: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span>DOWNLOAD</a>
@@ -13,11 +13,11 @@
 
 The Solodev Alert Module effortlessly manage and display alerts on your website. Customize messages to match your needs and make sure your audience never misses an important update.
 
-- **Create and manage alerts with ease** Set up alerts quickly through an intuitive module. Easily update or remove messages as your needs change.
+- **Create and manage alerts with ease -** Set up alerts quickly through an intuitive module. Easily update or remove messages as your needs change.
 
-- **Fully customizable display and behavior** Control exactly when alerts appear and how long they stay visible. Tailor the experience to suit different types of messages and user needs.
+- **Fully customizable display and behavior -** Control exactly when alerts appear and how long they stay visible. Tailor the experience to suit different types of messages and user needs.
 
-- **Keep your users informed in real-time** Make sure visitors never miss important updates, announcements, or warnings. Whether it’s system maintenance or promotional messages, deliver them instantly and reliably.
+- **Keep your users informed in real-time -** Make sure visitors never miss important updates, announcements, or warnings. Whether it’s system maintenance or promotional messages, deliver them instantly and reliably.
 
 ## Prerequisites
 
@@ -25,90 +25,102 @@ The Solodev Alert Module effortlessly manage and display alerts on your website.
 - Have a [Website](/workspace/websites/add-website/).
 
 !!!Note: 
-For step-by-step instructions on adding a Module in your CMS, please visit [Add a Module](/workspace/modules/add-module/).
+We use Bootstrap 5 in our packages. You can update your code to match your own framework, styles, or preferences as needed.
 !!!
 
-## Create Alert
+## Step-by-Step Setup Guide
 
-These steps will guide you through the process of installing Blog Module and adding it to your page.
+These steps will guide you through the process of installing the Alert Module and getting it live on your page.
 
 {% tabs %}
 
-{% tab title="Install" %}
+{% tab title="Step 1: Install the Alert Module" %}
 
-1. Download the **Alert** package.
+1. Navigate to Modules
+<ul style="padding-left: 50px;">
+  <li>In your CMS dashboard, click <strong>Modules</strong> in the left navigation menu</li>
+  <li>Click the <strong>Add Module</strong> button</li>
+</ul>
 
-<a href="https://solodev-alert.s3.us-east-1.amazonaws.com/releases/alert-latest.zip" style="background-color: #0488ce; color: #fff; padding: .5rem 2.5rem; border-radius: 20px; font-weight: 600; display: inline-flex;"><span style="padding-right: .5rem; display: inline-flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span>DOWNLOAD</a>
+2. [Add the module](/workspace/modules/add-module/)
+<ul style="padding-left: 50px;">
+  <li>Give your alert module a name</li>
+  <li>Select from the three options:
+    <ul>
+      <li><strong>Datatable:</strong> Creates a simple data table structure</li>
+      <li><strong>Module:</strong> Builds a custom module from scratch</li>
+      <li><strong>Package:</strong> Installs a pre-built module from a zip file</li>
+    </ul>
+  </li>
+  <li>For the purpose of this tutorial, select <strong>Package:</strong> and use this <a href="https://solodev-alert.s3.us-east-1.amazonaws.com/releases/alert-latest.zip" style="display: inline-flex; align-items: center;">zip file <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="#0488ce" style="margin-left: .4rem;"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg>.</a></li>
+  <li>Click <span class="text-blue">Submit</span>.</li>
+</ul>
 
-2. [Add the module](/workspace/modules/add-module/) to your CMS.
+<img src="/static/images/modules/alert/add-alert.jpg" alt="Add Alert" style="width: 40%; margin-bottom: 20px;">
 
-<!-- <img src="/static/images/modules/blog/add-blog.jpg" alt="Add Blog" style="width: 45%; margin-bottom: 20px;"> -->
-
-3. [Add an entry](/workspace/modules/module/add-entry/).
-
-<img src="/static/images/modules/blog/add-entry-blog.jpg" alt="Add Blog Entry" style="width: 45%; margin-bottom: 20px;">
+!!!Note:
+The alert module comes with a pre-configured entry that you can customize by accessing the module entry.
+!!!
 
 {% endtab %}
 
-{% tab title="Repeater" %}
+{% tab title="Step 2: Create your Alert Bar" %}
 
-1. [Create a file](/workspace/websites/add-file/) called `alert-repeater.tpl` on your prefer location. This file will contain the code for your alert bar that will dynamically pull in your alert entries.
+1. Navigate to `Websites > example.com > web files > content`
+<ul style="padding-left: 50px;">
+  <li><a href="/workspace/websites/folder/add-folder/">Create a folder</a> called <code>alert</code></li>
+  <li>In the alert folder, <a href="/workspace/websites/folder/add-file/">create a new code file</a> named <code>alert-bar.tpl</code></li>
+</ul>
 
-<!-- <img src="/static/images/modules/blog/blog-repeater-file.jpg" alt="Blog Repeater File" style="width: 45%; margin-bottom: 20px;"> -->
+2. Add the alert code using the example template provided below.
 
-2. Insert the HTML code into your file to display the alert bar. For example:
-
-```js
-<div class="bg-primary text-center py-2">
-  <div class="container">
-    <a aria-label="New weather alert!" class="text-white" href="/weather"><u><strong>New weather alert!</strong></u></a>
-  </div>
-</div>
-```
-
-3. Include or replace the code with the shortcodes where needed. For example:
-
-```js
-[repeater id="10" display_type="news" limit="0,1"]
-  <div class="bg-primary text-center py-2">
+```html alert-bar.tpl
+[repeater id="" limit="0,1" display_type="news"]
+  <div class="text-center bg-primary py-2">
     <div class="container">
-      <a aria-label="{{event_title}}" class="text-white" href="{{alert_link}}"><u><strong>{{event_title}}</strong></u></a>
+      [is_set value="{{alert_link}}"]
+        [cond type="is" subject="{{alert_link_external}}" value="1"]
+          <a href="{{alert_link}}" class="text-white" target="_blank" rel="noopener noreferrer">{{event_title}}</a>
+        [/cond]
+        [cond type="is_not" subject="{{alert_link_external}}" value="1"]
+          <a href="{{alert_link}}" class="text-white">{{event_title}}</a>
+        [/cond]
+      [/is_set]
+      
+      [is_empty value="{{alert_link}}"]
+        <span class="text-white">{{event_title}}</span>
+      [/is_empty]
     </div>
   </div>
 [/repeater]
 ```
 
-4. [Insert your alert repeater file](/workspace/websites/page/#add-a-file-to-page) into the page you want to display the entries on.
+<!-- {{{event_title}}} -->
 
-<!-- <img src="/static/images/modules/blog/blog-repeater-page.jpg" alt="Blog Repeater on Page" style="width: 85%;"> -->
+!!!danger Important!
+You need to add the ID number of your alert module to the repeater shortcode within the `id=""` attribute.
+!!!
+
+3. Click <span class="text-blue">Publish</span>.
+
+4. Open your homepage `index.stml` or the desired page where you want to add the alert bar.
+
+5. [Insert your alert-bar file](/workspace/websites/page/#add-a-file-to-page) into the page.
+
+6. Click <span class="text-blue">Publish</span>.
+
+7. Go to your website and refresh the page to see your alert bar in action.
+
+<img src="/static/images/modules/alert/alert-bar.jpg" alt="Alert Bar on Page">
 
 {% endtab %}
 
 {% endtabs %}
 
-### Shortcodes
-
-You will need the following shortcodes to successfully add a Blog to your website. Depending on your needs, you might need to use extra [shortcodes](/shortcodes/).
-
-- [repeater](/shortcodes/module/repeater) - prints the fields from the blog module form. Used on your repeater page.
-
-```js
-[repeater id="1" display_type="news" limit="0,1"]
-```
-
-!!!Note:
-You need to add the ID number of your slider module to the repeater shortcode within the `id=""` attribute.
-!!!
-
-- `event_title` - displays the name of the module's entry.
-
-```
-{{event_title}}
-```
-
-<!-- {{{start_time}}} -->
-If you need to use other shortcodes or need to learn more about shortcodes, [click here](/shortcodes/).
-
 ## Support
 
 Support for Alert Module is handled directly through Solodev's global help desk. For more information regarding support queries, go to [www.solodev.com](https://www.solodev.com/).
+
+!!!Note:
+To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
+!!!

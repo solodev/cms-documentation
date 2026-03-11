@@ -70,7 +70,10 @@ Steps coming soon...
 
 ### Add your first website
 
-Please [follow this link](/workspace/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
+Start your journey with Solodev! Set up and launch your [first website](/workspace/websites/add-website/).
+
+### Migrate to a new server
+Moving your Solodev CMS to a different Solodev server? Follow our [server-to-server migration guide](/tutorials/cms/backup-and-restore/).
 
 <style>
   /* Headers */

@@ -30,22 +30,49 @@ Create Thumbnail for Uploaded Photos | Create thumbnails for the images utilized
 
 ## Table Schema
 
-Manage your database table schema, by adding or removing fields.
+Manage your database table schema by adding or removing fields. The schema defines your module's data structure, including what information can be stored and how it's organized. Choose appropriate field types to optimize storage and stay within database limits.
 
 <p><img src="/static/images/modules/module-table-schema.jpg" alt="Table Schema" style="width: 55%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-Name | Refers to the name of a database field or column.
-Type | Select a field type to define how data is stored and how it can be manipulated or processed.
-Length | Designates the maximum number of characters or digits that can be stored in a particular field.
-Allow Null | Specifies whether a particular database field can contain null values.
-Default | Defines a default value that is automatically assigned to a field when a new record is created.
-**+/-** | Use these buttons to add / remove the column.
+**Name** | The database field/column name. Use descriptive names: single words (`name`, `email`, `message`) or multiple words separated by underscores (`first_name`, `zip_code`, `department_name`). No spaces allowed or dashes.
+Type | Defines how data is stored and processed.
+Length | Maximum characters or digits allowed. Use the smallest length that fits your data.
+Allow Null | Check to allow empty values; uncheck to make the field required.
+Default | Value automatically assigned to new records. Leave blank if not needed.
+**+/-** | Add (+) or remove (-) columns from the schema.
+
+!!!warning Important
+When creating or modifying a Table Schema, be aware of MySQL's 65,535 byte row size limit. If your module has many fields, you can exceed this limit, causing errors when saving entries.
+
+**Choosing the Right Field Type**
+
+Select the most appropriate field type for your data to minimize row size:
+
+**Field Type** | **Best For** | **Size** | **Notes**
+:--- | ---
+Character | Short to medium text | Variable | Specify length: (64) for short text like names/titles/codes, (255) for longer single-line text. Use the smallest length that fits your data.
+Large Text | Long text, paragraphs, HTML/WYSIWYG content | ~10 bytes | Best for descriptions, formatted content, and long-form text.
+Blob | Binary data, serialized objects | ~10 bytes | Use for storing complex data structures or binary content.
+File | File uploads, file references | Variable | Stores file paths, names, and metadata for uploaded files.
+Date Field | Dates without time | 3 bytes | Use for deadlines, start/end dates, birthdays (format: MM/DD/YYYY).
+TimeStamp | Dates with time | 4 bytes | Use for event times, created/modified dates (includes date + time).
+Integer | Whole numbers, checkboxes, status codes | 4 bytes | Length (1) for yes/no/checkbox fields; (11) for IDs, counts, and general numbers.
+numeric | Decimal numbers, currency, percentages | ~8 bytes | Use for budget fields, prices, and monetary values requiring 2 decimal places (up to $999,999.99).
+Serial Field | Auto-incrementing primary keys | 4 bytes | Automatically generates unique sequential IDs for each record.
+!!!
 
 ## API Info
 
-Here you can find API Info that can be used in <a href="/admin/api">API section</a> to connect.
+Connect to your Calendar via API. This section provides:
+- The API endpoint URL for making requests
+- Authentication header format (use your API key)
+- Complete list of available fields and their data types
+
+Use this information to integrate with external applications, automate data entry, or build custom solutions. For detailed information, visit the [API section](link-to-api-docs).
+
+ <a href="/admin/api">API section</a> to connect.
 
 <p><img src="/static/images/module-overview8.jpg" alt="module-overview8" style="width: 50%;"></p>
 
