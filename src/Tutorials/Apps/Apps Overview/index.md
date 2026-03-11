@@ -1,3 +1,1 @@
-# Apps Overview
-
-Coming soon.
+Content coming soon...
