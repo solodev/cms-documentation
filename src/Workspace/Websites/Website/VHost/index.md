@@ -1,4 +1,4 @@
-VHost applies to specific websites in the CMS system. Administrators can configure/change their primary URL here, set a domain for staging, add aliases, generate sitemaps and much more. This article provides an overview of Website VHost and their configurable fields.
+Website Settings applies to your websites in your Solodev CMS. Administrators can configure/change their primary URL here, set a domain for staging, add aliases, generate sitemaps and much more. This article provides an overview of Website Settings and their configurable fields.
 
 <p><img src="/static/images/websites/website/settings/website-settings.jpg" alt="VHost" style="width: 38%"></p>
 
@@ -86,4 +86,4 @@ Document Repository ID | To connect an STML element with a document repository, 
 Calendar ID to connect to STMLs | To link an STML element with an event or a file, simply include the calendar's ID, which is located on the left side of the calendar.
 Custom Shortcodes File | Shortcodes act as shortcuts allowing you to quickly embed elements into a post or page. Add shortcodes file by using the **Custom Shortcodes File** option.
 Export | Click the **Export** button to export the website package. In the next screen select if you want to include manager entries in export and click **Continue Export**. Wait a couple of minutes for the package to be ready and click on **Download Package**.
-Delete Website | To permanently remove your website, please type DELETE and then click the **Delete** button. Please be aware that this action is irreversible.
+Delete Website | To permanently remove your website, please type DELETE and then click the **Delete** button. **Please be aware that this action cannot be undone.**

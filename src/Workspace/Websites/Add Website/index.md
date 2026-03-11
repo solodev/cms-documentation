@@ -1,4 +1,4 @@
-In Solodev, you can add a new website to your CMS by completing a form with a few basic details. You can also import a [theme package](/themes/) (optional) and apply it to a new site.
+You can add a new website to your CMS by completing a form with a few basic details. You can also import a [theme package](/themes/) (optional) and apply it to a new site.
 
 !!!Note:
 A theme can only be installed when creating a site, and cannot be added to an existing site.
@@ -13,4 +13,4 @@ Type | Select the type of website you want to create. CMS (Default) or Standard.
 Theme (Optional) | Upload a .zip file to create your website using a theme. Ensure the .zip file includes all necessary files and follows the theme guidelines.
 Timezone | Select the timezone based on your location to ensure accurate time settings for your website. The system will automatically select the timezone for you based on your location, but you can manually choose a different one if needed.
 
-After adding your website, you will be redirected to the [website main screen](/workspace/websites/website/).
+After adding your website, you will be redirected to the [website main view](/workspace/websites/website/).

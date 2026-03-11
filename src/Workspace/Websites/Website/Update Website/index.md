@@ -1,4 +1,4 @@
-Within this section, you have the flexibility to configure your site title, input your social media URLs and images, as well as include header inserts, and more.
+Within this section, you can configure your site title, add your social media URLs and images, as well as include header inserts (ex:Google Tag Manager), and more.
 
 <img src="/static/images/websites/website/update/update-website.jpg" alt="Update Website Section" style="width: 40%;"></a>
 
@@ -12,7 +12,7 @@ Site Title | Add or update the site title.
 
 ## Social Media
 
-Manage your Facebook and Twitter handles, as well as setting the image for sharing your site on social media platforms.
+Add your Facebook and Twitter handles, as well as setting the Open Graph image for sharing your site on social media platforms.
 
 <img src="/static/images/websites/website/update/social-media.jpg" alt="Social Media form" style="width: 37%;"></a>
 
