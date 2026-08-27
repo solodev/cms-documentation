@@ -4,18 +4,27 @@
 
 The CMS has moved well past v10.4 without release notes keeping pace; the live application is currently on the v11.9.x line. This entry summarizes the verified, user-facing changes pulled directly from recent commit history. It intentionally does not attempt to reconstruct every intermediate v10.5&ndash;v11.8 release &mdash; only what could be confirmed against the current codebase. Older, unreleased-note versions will be backfilled separately.
 
+This entry also folds in a broader pass across the full commit history since v10.4 (1,900+ commits) to surface major feature areas that were shipped without ever getting a release note. Some of these (native Provider integrations such as Customer.io, Google Business Profile, Mailchimp, Constant Contact, Dynamics 365, DeepL, and accessibility scanning) are deliberately out of scope for this pass and are not detailed below.
+
 #### Key Release Highlights
  - Git-backed branching: websites and their virtual entities (Calendars, Datatables, Forms, Segments, Schedulers, Experiments, File Groups, Page Layouts, Page Components) can now exist as sparse overlays on top of a live branch, enabling real Git branch/merge workflows for CMS content
+ - Native Cart and Checkout system (Inventory, Shopping Cart, Coupons, Shipping, Tax, Payment) for selling directly from a website
+ - Two-Factor Authentication (TOTP) available on every user account
  - Read-only Customer Impersonation for support/administration, gated to super admins
  - Native MCP (Model Context Protocol) and AgentCore integration, including dynamic Swagger generation for live Calendar/Datatable module schemas
  - Hardened frontend password reset and contact signup flows
 
 #### New Features
  - Added Git branch overlays for virtual CMS entities &mdash; branch-local rows in `modasset_asset_map` and `modgit_git_branch_pointer` let a non-live branch carry only its changed objects, with tombstone-based deletes and SQL-level branch visibility filtering (no PHP post-filtering)
+ - Added native Git Commits and Pull Requests views inside the CMS alongside branch management
+ - Added a full Cart and Checkout system: Inventory-backed products, Shopping Cart, Checkout Login, Billing/Shipping, Coupons, Shipping (flat-rate and table-based), Tax, and Payment processing with invoices and receipts &mdash; see **Tutorials > CMS > Cart and Checkout Overview**
+ - Added Two-Factor Authentication (TOTP-based) to user profile security &mdash; see **Account > Two-Factor Authentication**
+ - Added Page Layouts and Page Components as a branch-versioned content composition system, alongside existing page templates
  - Added read-only Customer Impersonation: a super admin can open a contact's record and start a time-limited (60 second), single-use, no-store storefront session as that customer for troubleshooting
  - Added Module Swagger generation so a signed-in user's live Calendar and Datatable modules are exposed with dynamic per-module schemas at `/public/api/module/swagger.json`
  - Added support for no-cache page TTL on individual pages
  - Added modified-date tracking on Calendar entries
+ - Added an expanded Provider framework (OAuth-based third-party connections) &mdash; individual providers are not documented in this pass
 
 #### Improvements
  - Improved CMS MCP workflows and AgentCore guidance for automating website/page/DynamicDiv creation
