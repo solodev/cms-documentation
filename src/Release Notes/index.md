@@ -1,5 +1,42 @@
 # Release Notes
 
+### v11.9 (Recent Updates)
+
+The CMS has moved well past v10.4 without release notes keeping pace; the live application is currently on the v11.9.x line. This entry summarizes the verified, user-facing changes pulled directly from recent commit history. It intentionally does not attempt to reconstruct every intermediate v10.5&ndash;v11.8 release &mdash; only what could be confirmed against the current codebase. Older, unreleased-note versions will be backfilled separately.
+
+#### Key Release Highlights
+ - Git-backed branching: websites and their virtual entities (Calendars, Datatables, Forms, Segments, Schedulers, Experiments, File Groups, Page Layouts, Page Components) can now exist as sparse overlays on top of a live branch, enabling real Git branch/merge workflows for CMS content
+ - Read-only Customer Impersonation for support/administration, gated to super admins
+ - Native MCP (Model Context Protocol) and AgentCore integration, including dynamic Swagger generation for live Calendar/Datatable module schemas
+ - Hardened frontend password reset and contact signup flows
+
+#### New Features
+ - Added Git branch overlays for virtual CMS entities &mdash; branch-local rows in `modasset_asset_map` and `modgit_git_branch_pointer` let a non-live branch carry only its changed objects, with tombstone-based deletes and SQL-level branch visibility filtering (no PHP post-filtering)
+ - Added read-only Customer Impersonation: a super admin can open a contact's record and start a time-limited (60 second), single-use, no-store storefront session as that customer for troubleshooting
+ - Added Module Swagger generation so a signed-in user's live Calendar and Datatable modules are exposed with dynamic per-module schemas at `/public/api/module/swagger.json`
+ - Added support for no-cache page TTL on individual pages
+ - Added modified-date tracking on Calendar entries
+
+#### Improvements
+ - Improved CMS MCP workflows and AgentCore guidance for automating website/page/DynamicDiv creation
+ - Fixed Collections/Datatable_Category gaps and rebuilt the app Dashboard
+ - Fixed contact signup handling and added pagination to the Contacts listing
+ - Fixed multi-user Invite so a final typed email address is no longer dropped when the invite dialog is submitted (the action modal's native submit doesn't fire the form's change/blur handlers, so the last token is now committed explicitly before submit)
+ - Extended module export to carry additional Datatable/Calendar transfer fields
+
+#### Bug Fixes
+ - Fixed CSRF token fields missing from the Customer Impersonation form
+ - Hardened the frontend password reset flow against invalid/expired token edge cases
+ - Fixed permission inheritance edge cases surfaced by the invite flow
+ - Fixed website path/dashboard permission checks (`webperms`)
+ - Fixed category delete edge cases (`catdeletefix`)
+
+!!! Note
+Customer Impersonation currently redirects into a storefront route that is configured per deployment. Confirm the target route for your site before enabling this for support staff.
+!!!
+
+---
+
 ### v10.4
 Solodev CMS 10.4 contains new features, updates, bug fixes, and user interface (UI) enhancements to the Solodev content management system. 
 Version 10.4 optimizes the platform’s performance and modernizes code to reflect current technologies and practices, including greater control over picking website types and an update to webpack.
