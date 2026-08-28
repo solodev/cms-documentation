@@ -2,10 +2,6 @@
 
 Manage entries within a module from its overview page. Click **Open** on a row to view or edit that entry. Filter entries with **Filter**/**Date Filter** and **Find**, or select rows with the checkboxes to act on several at once.
 
-<video controls style="width: 90%; max-width: 900px;">
-  <source src="../../../videos/modules/module-overview.mp4" type="video/mp4">
-</video>
-
 <p><img src="../../../images/modules/module-overview.png" alt="Module Overview with entries" style="width: 90%;"></p>
 
 **Name** | **Description** 
