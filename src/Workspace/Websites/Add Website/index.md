@@ -17,6 +17,6 @@ A theme can only be applied when creating a site, and cannot be added to an exis
 
 Click the Theme Picker to see all available options.
 
-<p><img src="../../../images/tutorials/add-website/add-website-theme-picker.png" alt="Theme Picker options: Blank, Micro, Pro, Enterprise, and Upload Theme Zip" style="width: 80%;"></p>
+<p><img src="../../../images/tutorials/add-website/add-website-theme-picker.png" alt="Theme Picker options: Blank, Micro, Pro, Enterprise, and Upload Theme Zip" style="max-width: 456px; width: 100%;"></p>
 
 Once you've filled in the form, click **Add** to create your website. You'll land on its [Website Overview](/workspace/websites/website-overview/) page.
