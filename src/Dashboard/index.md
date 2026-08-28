@@ -56,5 +56,5 @@ Use the links in the lower left corner of your Dashboard to manage your profile 
 **Name** | **Description** 
 :--- | ---
 Manage Profile | Open submenu allowing you to access and edit your profile details.
-[My Profile](/account/) | Check and edit your profile details.
+[My Profile](/profile/) | Check and edit your profile details.
 Log Out | Log out from Solodev CMS.
