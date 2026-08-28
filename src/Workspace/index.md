@@ -4,7 +4,7 @@ In your Workspace, you can access websites to manage content, use low-code modul
 
 There are five main sections in your Workspace. Each can be accessed using the left navigation:
 
-<p><img src="../../images/workspace-menu.jpg" alt="Workspace Menu" style="width: 20%;"></p>
+<p><img src="../../images/workspace-menu.png" alt="Source, Websites, Modules, Forms, and Documents in the left navigation" style="width: 20%;"></p>
 
 **Name** | **Description** 
 :--- | ---
