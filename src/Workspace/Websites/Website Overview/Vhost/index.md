@@ -1,17 +1,20 @@
-# Settings
+# Vhost
 
-Website Settings applies to specific websites in the CMS system. Administrators can configure/change their primary URL here, set a domain for staging, add aliases, generate sitemaps and much more. This article provides an overview of Website Settings and their configurable fields.
+Vhost (virtual host) applies to a specific website in the CMS. Administrators configure the website's primary URL here, set a domain for staging, add aliases, and manage CDN/SSL and other advanced settings. This article covers Vhost and its configurable fields.
 
-<p><img src="../../../../images/websites/website-settings.jpg" alt="Website Settings Modal"></p>
+<p><img src="../../../../images/websites/website-settings.jpg" alt="Vhost Modal"></p>
 
 **Name** | **Description** 
 :--- | ---
 Primary URL | Update the primary URL of your website.
-[Domain Information](/workspace/websites/settings/#domain-information) | Enter staging address, alias, and custom rules to the domain host file in this section.
-[Sitemap](/workspace/websites/settings/#sitemap) | Generate your website's sitemap.
-[CDN Information](/workspace/websites/settings/#cdn-information) | Configure your CDN information.
-[SSL Information](/workspace/websites/settings/#ssl-information) | Manage your SSL information.
-[Advanced](/workspace/websites/settings/#advanced) | Configure more advanced settings.
+[Domain Information](/workspace/websites/website-overview/vhost/#domain-information) | Enter staging address, alias, and custom rules to the domain host file in this section.
+[CDN Information](/workspace/websites/website-overview/vhost/#cdn-information) | Configure your CDN information.
+[SSL Information](/workspace/websites/website-overview/vhost/#ssl-information) | Manage your SSL information.
+[Advanced](/workspace/websites/website-overview/vhost/#advanced) | Configure more advanced settings.
+
+!!! Note
+Sitemap generation now has its own action from the website dashboard's **Update** menu &mdash; see [Generate Sitemap](/workspace/websites/website-overview/generate-sitemap/).
+!!!
 
 ## Domain Information
 
@@ -26,21 +29,6 @@ Origin website address(es) | The domain name(s) for the non-cached version of yo
 Host Settings | Add custom rules to the domain hosts file, by entering the details in the text box.
 Add Redirects | Add redirects by using the button **Add +**.
 Remove Redirects | Remove redirects by using the button **Remove -**. 
-
-## Sitemap
-
- A sitemap is an .xml file that lists and organizes all the web pages within that site. It's like a map or index for the website, designed to help search engines understand the structure of the site and how its pages are connected.
-
-<p><img src="../../../../images/websites/settings/website-settings-sitemap.jpg" alt="Sitemap Accordion" style="width: 43%;"></p>
-
-**Name** | **Description** 
-:--- | ---
-Select URL to create a sitemap | Select a URL from the dropdown to Generate the sitemap.
-Generate Sitemap | To generate a sitemap of the website, click the **Generate Sitemap** button.
-
-!!!Note:
-After clicking the **Generate Sitemap** button, the output process may take several minutes. Do not close or quit your browser during this process
-!!!
 
 ## CDN Information
 
