@@ -12,3 +12,5 @@ Open In New Window | Mark this if the link should open in a new window.
 Rank | Add or change the rank that orders the link when displayed in the menu navigation. **Lowest number <br>listed first.**
 Description | Add the link description. This description can be utilized for organizational purposes.
 Confirm | After filling out all the required fields, please click the **Submit** button to save your changes.
+
+Once added, a link can be copied, moved, or deleted the same way as any other item in the folder listing.

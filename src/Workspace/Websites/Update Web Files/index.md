@@ -16,6 +16,8 @@ To edit a specific file, click on it to access the code editor.
 <a href="/workspace/documents/editing-files/copy/">Copy</a> | Copy a file or asset for editing or additional use elsewhere in your website. 
 <a href="/workspace/documents/editing-files/move/">Move</a> | Relocate a file or asset based on your taxonomy.
 <a href="/workspace/documents/editing-files/delete/">Delete</a> | Delete a file or asset permanently from your website.
+Attachments | Manage files attached to this asset.
+Events | View activity/events recorded against this asset.
 
 ## Other Actions
 

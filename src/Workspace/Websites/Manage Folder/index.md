@@ -17,6 +17,8 @@ While all the functions for the web files and www folder are the same, the www f
 [Add a Page](/workspace/websites/manage-folder/add-page/) | Add a new page to the master www folder or any sub-folder. 
 [Add Link](/workspace/websites/manage-folder/add-link/) | Add and rank a link and control properties such as opening in a new window.
 [Add Category](/workspace/websites/manage-folder/add-category/) | Group and organize content items in categories.
+[Copy](/workspace/documents/editing-files/copy/) | Duplicate the folder.
+[Move](/workspace/documents/editing-files/move/) | Relocate the folder elsewhere in your website.
 [Stage](/workspace/websites/manage-folder/stage/) | Assign files or folders to be reviewed and published.
 [Publish](/workspace/websites/manage-folder/publish/) | Push files or folders live on your website. 
 [Permissions](/workspace/websites/manage-folder/permissions/) | Manage user access to files and folders with specific roles.  
