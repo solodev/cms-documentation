@@ -1,26 +1,22 @@
 # Websites
 
-From the main Websites dashboard, you can view and access the existing websites in your CMS deployment, manage permissions for your website members, and add new websites. 
+The Websites list shows every website in your CMS deployment. On a brand new deployment, this starts out empty.
 
-To modify a website, click on a thumbnail image or a website name from the table. This will link you to the website’s main CMS dashboard. 
-
-<p><img src="../../../images/websites/websites.jpg" alt="Websites table"></p>
-
-!!!Tip:
-Use the search field in the upper right corner to locate or filter specific websites in your CMS.
-!!!
+<p><img src="../../../images/websites/websites.png" alt="Empty Websites list with the Add Website button"></p>
 
 **Name** | **Description** 
 :--- | ---
 [Add Website](/workspace/websites/add-website/) | Create a new website in your CMS deployment.
 
-You can access a website by clicking either the image or its name listed in the table.
+!!!Tip:
+Use the search field at the top to locate or filter specific websites once you have more than a few.
+!!!
+
+Once you've [added a website](/workspace/websites/add-website/), it appears in this list. Click its thumbnail image or name to open its [Website Overview](/workspace/websites/website-overview/) dashboard.
 
 ## Permissions
 
 Click on any of the members next to a website name to add or remove website members and manage their roles. 
-
-<p><img src="../../../images/permissions/general-permissions.jpg" alt="Permissions modal view" style="width: 420px;"></p>
 
 **Name** | **Description** 
 :--- | ---
