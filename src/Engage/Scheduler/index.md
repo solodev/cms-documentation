@@ -7,4 +7,6 @@ Scheduler is commonly used to:
 - Publish content at a specific date and time.
 - Rotate a series of announcements on a page over time.
 
-To create and manage a Scheduler, see [Scheduler](/tutorials/advanced-development/cms/scheduler/) in Tutorials.
+**Name** | **Description**
+:--- | ---
+[Add Scheduler](/engage/scheduler/add-scheduler/) | Create a new Scheduler.

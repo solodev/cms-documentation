@@ -7,4 +7,6 @@ A File Group can be used to:
 - Display a list of a group's files and their content on the front end of a website.
 - Create an internal document repository where users upload and share files grouped by type, category, or relevance.
 
-To create and manage a File Group, see [File Groups](/tutorials/advanced-development/cms/file-groups/) in Tutorials.
+**Name** | **Description**
+:--- | ---
+[Add File Group](/engage/file-groups/add-file-group/) | Create a new File Group.
