@@ -23,7 +23,7 @@ Bearer Authentication (token authentication) is an HTTP authentication scheme in
 
 **Name** | **Description** 
 :--- | ---
-Value | To authorize yourself, copy and paste the value found in <a href="/admin/api/api-tokens">API Tokens</a>.
+Value | To authorize yourself, copy and paste the value found in <a href="/admin/api/api-keys">API Keys</a>.
 Authorize | Authorize yourself.
 
 ## Swagger Management
