@@ -1,15 +1,16 @@
 # Dashboard
 
-The Dashboard is the home screen of your CMS. From here, you can quickly connect to your websites and recent work, manage users and groups, track tasks, and more. You can also access advanced admin features, including the CMS file system and API.
+The Dashboard is the home screen of your CMS. From here, you can quickly connect to your websites and recent work, manage users and groups, track tasks, and more. You can also access advanced admin features, including Settings and the API.
 
 <p><img src="../../../images/dashboard/dashboard.png" alt="Solodev CMS Dashboard"></p>
 
 **Name** | **Description** 
 :--- | ---
-[Workspace](/workspace) | Build and manage websites, access modules, build custom forms, and store documents in your CMS. 
-[Organization](/organization) | Manage users, create groups, set permissions, and build contact lists. 
-[Support](/support) | View and update your team’s tasks across websites and access Solodev documentation.
-[Admin](/admin) | Manage your CMS settings for apps and workflows, set permissions, access the CMS file system, and utilize the Solodev API.
+[Workspace](/workspace) | Browse the combined Source tree, build and manage websites, access modules, build custom forms, and store documents in your CMS. 
+[Engage](/engage) | Segments, File Groups, Scheduler, and Experiments for reaching and testing content with specific audiences.
+[Organization](/organization) | Manage users, create groups, set permissions, build contact lists, and configure AI Agents. 
+[Support](/support) | View and update your team’s tasks across websites.
+[Admin](/admin) | Manage your CMS settings for apps and workflows, set permissions, and utilize the Solodev API.
 
 !!! Tip:
 No matter where you are in the CMS, you can always return to your Dashboard by clicking your organization’s logo in the upper left corner of the screen. 
@@ -55,6 +56,5 @@ Use the links in the lower left corner of your Dashboard to manage your profile 
 
 **Name** | **Description** 
 :--- | ---
-Manage Profile | Open submenu allowing you to access and edit your profile details.
 [My Profile](/profile/) | Check and edit your profile details.
 Log Out | Log out from Solodev CMS.

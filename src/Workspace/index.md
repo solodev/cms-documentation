@@ -1,13 +1,14 @@
 # Workspace
 
-In your Workspace, you can access websites to manage content, use low-code modules to create posts, build custom forms, and store documents in your CMS deployment.
+In your Workspace, you can access websites to manage content, use low-code modules to create posts, build custom forms, browse the combined file tree, and store documents in your CMS deployment.
 
-There are four main sections in your Workspace. Each can be accessed using the left navigation:
+There are five main sections in your Workspace. Each can be accessed using the left navigation:
 
 <p><img src="../../images/workspace-menu.jpg" alt="Workspace Menu" style="width: 20%;"></p>
 
 **Name** | **Description** 
 :--- | ---
+[Source](/workspace/source/) | Browse the combined tree for everything in your deployment &mdash; Websites, Modules, Users, Documents, and Forms &mdash; in one place.
 [Websites](/workspace/websites/) | Access existing websites in your CMS deployment to modify pages, publish updates, add new websites, and manage your content operations. 
 [Modules](/workspace/modules/) | Update or create low-code managers that power features on your website, such as blogs, landing pages, calendars, and more. 
 [Forms](/workspace/forms/) | Create custom website forms using drag-and-drop builder, view form completions, export lead data, and more.

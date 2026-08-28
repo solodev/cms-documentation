@@ -7,10 +7,6 @@ Our documentation is clearly organized and corresponds directly to the navigatio
 <img src="../../../images/overviewmain.png" alt="Overview" style="width: 100%; display: block"></a>
 
 
-To access the Solodev documentation, click on the **Help** link under **Support** in the left navigation of your CMS Dashboard. 
-
-<!--You can also view documentation for a specific screen anywhere in Solodev by clicking the **help center icon** in the lower right of each screen. -->
-
 !!! Note
 Can’t find what you need in our documentation? If you require additional technical assistance, please refer to our <a href="/#support">Support</a> options in the <a href="/#welcome">Welcome</a> section. 
 !!!
