@@ -15,5 +15,5 @@ There are five main sections in your Workspace. Each can be accessed using the l
 [Documents](/workspace/documents/) | Upload files and images, create folders and file groups, and use stored documents in your websites and apps across your CMS deployment. 
 
 !!!Tip:
-By using [Permissions](/workspace/websites/permissions/), you can control the specific websites, modules, and apps your team members can access within your Workspace. 
+By using [Permissions](/workspace/websites/website-overview/permissions/), you can control the specific websites, modules, and apps your team members can access within your Workspace. 
 !!!

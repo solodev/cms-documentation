@@ -37,7 +37,7 @@ At the bottom of the panel, **Pages** lists the site's most recently worked-on p
 
 Solodev has a unique, folder-based site structure for managing and building websites. This consists of two core folders: web files and www. These folders mutually reinforce one another and help power your website's content, code, and pages.
 
-After [adding a website](/workspace/websites/add-website) to your Solodev CMS, you can access the web files and www folder from the left-hand menu on your main website dashboard. 
+After [adding a website](/workspace/websites/website-overview/add-website/) to your Solodev CMS, you can access the web files and www folder from the left-hand menu on your main website dashboard. 
 
 ### web files 
 The web files folder houses the backend elements that power the structure of your website. This includes navigational and layout templates, HTML, imagery and content, [modules](/workspace/modules), [forms](/workspace/forms), and other components. From .tpl code to SCSS, you can [update web files](/workspace/websites/update-web-files) from this folder.
