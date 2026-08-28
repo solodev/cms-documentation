@@ -7,7 +7,6 @@ These docs were last genuinely updated on 2024-07-29, when the CMS was at v10.3.
 Deliberately out of scope for this pass: native Provider integrations built on the OAuth Provider framework &mdash; SSO (OpenID Connect), Customer.io (contacts and Segments/Personalize), Google Business Profile, Mailchimp, Constant Contact, Dynamics 365, DeepL, Salesforce (legacy SFDC document connection), and accessibility scanning providers. These exist and are in active use, but each needs its own setup documentation written with a real provider connection in hand, not guessed from source.
 
 #### Key Release Highlights
- - Git-backed branching: websites and their virtual entities (Calendars, Datatables, Forms, Segments, Schedulers, Experiments, File Groups, Page Layouts, Page Components) can now exist as sparse overlays on top of a live branch, enabling real Git branch/merge workflows for CMS content
  - Native Cart and Checkout system (Inventory, Shopping Cart, Coupons, Shipping, Tax, Payment) for selling directly from a website
  - Two-Factor Authentication (TOTP) available on every user account
  - Read-only Customer Impersonation for support/administration, gated to super admins
@@ -15,11 +14,12 @@ Deliberately out of scope for this pass: native Provider integrations built on t
  - Hardened frontend password reset and contact signup flows
 
 #### New Features
- - Added Git branch overlays for virtual CMS entities &mdash; branch-local rows in `modasset_asset_map` and `modgit_git_branch_pointer` let a non-live branch carry only its changed objects, with tombstone-based deletes and SQL-level branch visibility filtering (no PHP post-filtering)
- - Added native Git Commits and Pull Requests views inside the CMS alongside branch management
  - Added a full Cart and Checkout system: Inventory-backed products, Shopping Cart, Checkout Login, Billing/Shipping, Coupons, Shipping (flat-rate and table-based), Tax, and Payment processing with invoices and receipts &mdash; see **Tutorials > CMS > Cart and Checkout Overview**
  - Added Two-Factor Authentication (TOTP-based) to user profile security &mdash; see **Account > Two-Factor Authentication**
- - Added Page Layouts and Page Components as a branch-versioned content composition system, alongside existing page templates
+ - Added Page Layouts, composed from reusable Page Components, alongside existing page templates &mdash; see **Admin > Settings > Page Layouts**
+ - Added Agent workspaces (Organization > Agents) for AI-assisted CMS tasks with real permission enforcement, run tracking, and rollback
+ - Added Collections, which generate a category detail page from a page template automatically &mdash; see **Tutorials > Advanced Development > Collections**
+ - Added an Engage section to the left nav (Segments, File Groups, Scheduler, Experiments) and drag-and-drop insert for objects onto a Dynamic Div
  - Added read-only Customer Impersonation: a super admin can open a contact's record and start a time-limited (60 second), single-use, no-store storefront session as that customer for troubleshooting
  - Added Module Swagger generation so a signed-in user's live Calendar and Datatable modules are exposed with dynamic per-module schemas at `/public/api/module/swagger.json`
  - Added support for no-cache page TTL on individual pages
