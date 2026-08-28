@@ -14,7 +14,7 @@ Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.c
 [Kubernetes](/quickstart/solodev-cms-for-kubernetes/) | A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. Only available in the AWS Marketplace.
 
 !!!Tip:
-Need help with a custom enterprise deployment with unique requirements? [Contact our professional services team](mailto:sales@solodev.com).
+Need help with a custom enterprise deployment with unique requirements? <a href="https://www.solodev.com/contact/" target="_blank" rel="noopener noreferrer">Contact our professional services team</a>.
 !!! 
 
 ## Features
@@ -52,6 +52,6 @@ Set up individual users and groups and manage their roles using the industry’s
 
 **Name** | **Description** 
 :--- | ---
-Solodev Help Desk | Enterprise customers can purchase our world-class Solodev Help Desk service with any CMS deployment. Solodev Help Desk is available Monday through Friday, 8 AM – 6 PM EST. [Click here](mailto:sales@solodev.com) to speak with a customer service representative. 
-Critical Care Service Level Agreements (SLAs) | Solodev CMS customers can purchase an optional SLA with 24/7/365 monitoring and 2, 4, or 6-hour response times. [Click here](mailto:sales@solodev.com) to speak with a customer service representative.
+Solodev Help Desk | Enterprise customers can purchase our world-class Solodev Help Desk service with any CMS deployment. Solodev Help Desk is available Monday through Friday, 8 AM – 6 PM EST. <a href="https://www.solodev.com/contact/" target="_blank" rel="noopener noreferrer">Click here</a> to speak with a customer service representative. 
+Critical Care Service Level Agreements (SLAs) | Solodev CMS customers can purchase an optional SLA with 24/7/365 monitoring and 2, 4, or 6-hour response times. <a href="https://www.solodev.com/contact/" target="_blank" rel="noopener noreferrer">Click here</a> to speak with a customer service representative.
 General Support | To report a bug, submit a feature request, ask a technical question, or provide feedback, please <a href="https://www.solodev.com/contact/" target="_blank" rel="noopener noreferrer">contact us</a>.
