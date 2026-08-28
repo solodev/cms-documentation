@@ -12,7 +12,7 @@ Use the search field in the upper right corner to locate or filter specific webs
 
 **Name** | **Description** 
 :--- | ---
-[Add Website](/workspace/websites/website-overview/add-website/) | Create a new website in your CMS deployment.
+[Add Website](/workspace/websites/add-website/) | Create a new website in your CMS deployment.
 
 You can access a website by clicking either the image or its name listed in the table.
 

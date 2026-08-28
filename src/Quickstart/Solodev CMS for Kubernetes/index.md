@@ -71,7 +71,7 @@ Visit the IP address or the backend domain you previously configured. Log in to 
 
 ### Add your First Website
 
-Please [follow this link](/workspace/websites/website-overview/add-website/) to learn more about Solodev and to learn how to build your first website.
+Please [follow this link](/workspace/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
 
 <!-- 
 

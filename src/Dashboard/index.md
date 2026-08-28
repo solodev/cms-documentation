@@ -38,7 +38,7 @@ You can access any active websites using the cards on the main Dashboard.
 
 **Name** | **Description** 
 :--- | ---
-[Add Website](/workspace/websites/website-overview/add-website/) | Create a new website in your CMS deployment.
+[Add Website](/workspace/websites/add-website/) | Create a new website in your CMS deployment.
 
 !!! Tip:
 Click on the thumbnail image or default logo to edit your CMS website. You can also click on the website URL or arrow icon at the lower right to view the live site. 
