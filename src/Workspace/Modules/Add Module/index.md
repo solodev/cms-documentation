@@ -1,31 +1,20 @@
 # Add Module
 
-In Solodev, you can add a <a href="/workspace/modules/">module</a> that allows users to manage any type of data. There are two two types of modules we use in Solodev:
+From the [Modules](/workspace/modules/) list, click **Add Module** to create a new low-code module. Give it a name, pick a starting point, and define its schema.
 
-## Calendar Types
+<p><img src="../../../../images/modules/add-module.png" alt="Add Module form" style="width: 70%;"></p>
 
-Can be modified to create date-based customer facing applications. Calendars can be used to build an unlimited number of custom web and mobile applications to manage content.
+Field | Description
+--- | ---
+Name | The name of your new module.
+Module Picker | Choose **Custom Module** to build your own schema from scratch, or start from a prebuilt module: **Alert**, **Blog**, **Calendar**, **News**, **Quick Links**, or **Slider**.
+Module Template | Upload a module template file instead of building one from scratch.
+Quick Schema Ideas | One-click starting schemas -- Blog, Events, News, Photos, Landing Page, Data Module, Hero Slider, Quick Links, FAQ -- to jump-start a page-ready schema, with or without AI.
+Schema Builder | Define the columns (fields) for entries in this module. Click **+ Add Field** to add a column, and set its Name, Type, Length, Null, and Default. Check **Content is schedulable** to give entries a start/end date and behave like a calendar.
+Package Upload (Optional) | Upload a module package `.zip` that bundles a schema, template, and assets together.
 
-**Name** | **Description** 
-:--- | ---
-Events | A calendar that shows events that have a specific start and end date.
-Blog | The blog is suited for article feeds, news entries, and other sets of data where end dates are optional.
-Photos | A photo calendar is great for displaying photos or creating a gallery. 
-Landing Page | Create landing pages for marketing purposes. 
-Custom | a custom calendar gives users the ability to tailor a calendar type to their needs – using some or all the of functionality in the aforementioned calendar types.
+Click **Submit** to create the module. You'll land on its module dashboard, ready to [add entries](/workspace/modules/module-overview/add-entry/).
 
-
-## Datatables
-
-Dependent applications that can be formatted for display in a variety of ways on several devices. 
-
-**Name** | **Description** 
-:--- | ---
-User Interface | Build custom user interfaces to interact with your data.
-Database Schemas | Define fields and Solodev CMS builds tables to store data.
-Categorization | Create a system of relationships and categorization for your data.
-RESTful APIs | Utilize a built-in API to expose datatable information to external publishing channels such as websites, mobile apps, intranets and other API enabled technologies.
-
-!!!Note: 
-To learn how to add a Module in your CMS, please visit <a href="/tutorials/websites/add-module/#install-module">install a module</a>.
+!!!Note:
+"Schedulable" is what distinguishes a calendar-style module (entries have start/end dates, shown on a calendar view) from a standard datatable-style module -- it's a checkbox in Schema Builder, not a separate module type.
 !!!
