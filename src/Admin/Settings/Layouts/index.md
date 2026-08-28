@@ -4,8 +4,8 @@ Page Layouts are a way to compose a page's structure from reusable Page Componen
 
 **Name** | **Description**
 :--- | ---
-[Add Page Layout](/admin/settings/page-layouts/add-page-layout/) | Create a new custom layout.
-[Update Page Layout](/admin/settings/page-layouts/update-page-layout/) | Edit an existing layout's content and settings.
-[Delete Page Layout](/admin/settings/page-layouts/delete-page-layout/) | Permanently remove a layout.
+[Add Page Layout](/admin/settings/layouts/add-page-layout/) | Create a new custom layout.
+[Update Page Layout](/admin/settings/layouts/update-page-layout/) | Edit an existing layout's content and settings.
+[Delete Page Layout](/admin/settings/layouts/delete-page-layout/) | Permanently remove a layout.
 
 From the Layouts Library, you can also **Preview** a layout before using it, and **Copy** an existing layout (including a System Layout) to start a Custom Layout from it.

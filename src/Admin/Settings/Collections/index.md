@@ -8,9 +8,9 @@ Use a Collection when a Datatable's categories should each get their own public 
 
 **Name** | **Description**
 :--- | ---
-[Add Collection](/tutorials/advanced-development/collections/add-collection/) | Create a new Collection.
-[Update Collection](/tutorials/advanced-development/collections/update-collection/) | Change a Collection's settings.
-[Delete Collection](/tutorials/advanced-development/collections/delete-collection/) | Permanently remove a Collection.
+[Add Collection](/admin/settings/collections/add-collection/) | Create a new Collection.
+[Update Collection](/admin/settings/collections/update-collection/) | Change a Collection's settings.
+[Delete Collection](/admin/settings/collections/delete-collection/) | Permanently remove a Collection.
 
 !!! Note
 If a generated category page looks wrong, check the Collection's Page Template first &mdash; it's a shared layout, so a fix there applies to every category the Collection covers.
