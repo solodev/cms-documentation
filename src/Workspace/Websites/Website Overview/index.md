@@ -2,6 +2,12 @@
 
 You can manage any website in your Solodev CMS to update details, adjust the Vhost, apply redirects, and modify permissions for your team. You will also have access to the [web files](/workspace/websites/website-overview/#web-files) and [www](/workspace/websites/website-overview/#www) folders for managing your website's pages, templates, and other assets. 
 
+Watch the full walkthrough below -- creating a website and using every action on its dashboard, start to finish.
+
+<video controls style="width: 90%; max-width: 900px;">
+  <source src="../../../../videos/websites/website-overview-full-walkthrough.mp4" type="video/mp4">
+</video>
+
 ## Website Dashboard
 
 After selecting an active website in your Solodev CMS, you're directed to that website's dashboard: a left-hand file tree, a live preview of the site in the middle, and a details/actions panel on the right.
