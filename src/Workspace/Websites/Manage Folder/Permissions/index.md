@@ -1,8 +1,8 @@
 # Permissions
 
-Permissions is a powerful tool that allows you to manage access for users and groups. You can manage existing permissions by changing group roles or removing permission entirely.
+Permissions is a powerful tool that allows you to manage access for users and groups. You can manage existing permissions by changing group roles or removing permission entirely. From an open folder, click the **...** menu next to **+ Add**, then click **Permissions**.
 
-<p><img src="../../../../images/folders/permissions.png" alt="Permissions" style="width: 40%;"></p>
+<p><img src="../../../../images/folders/permissions.png" alt="Folder Permissions form" style="width: 40%;"></p>
 
 **Name** | **Description** 
 :--- | ---

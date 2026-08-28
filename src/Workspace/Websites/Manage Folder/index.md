@@ -1,21 +1,32 @@
 # Manage Folder
 
-Click into the **web files** or **www** folder from a website's [Website Overview](/workspace/websites/website-overview/) to manage its contents: upload files, create subfolders, and set permissions.
+Click into the **web files** or **www** folder from a website's [Website Overview](/workspace/websites/website-overview/) to manage its contents: add pages, files, and subfolders, upload assets, and set permissions.
 
-<p><img src="../../../images/websites/folder/folder.png" alt="Folder view"></p>
+<p><img src="../../../images/websites/folder/folder.png" alt="Folder view with real content"></p>
 
 **Name** | **Description**
 :--- | ---
-[Update Folder](/workspace/websites/manage-folder/update-folder/) | Change the folder's name or title.
 [Upload](/workspace/websites/manage-folder/upload/) | Drag and drop or browse files into your folder.
 [Add Folder](/workspace/websites/manage-folder/add-folder/) | Create a new subfolder and add specific details like name and title.
-[Copy](/workspace/documents/editing-files/copy/) | Duplicate the folder.
-[Move](/workspace/documents/editing-files/move/) | Relocate the folder elsewhere in your website.
-[Permissions](/workspace/websites/manage-folder/permissions/) | Manage user access to files and folders with specific roles.
+[Add File](/workspace/websites/manage-folder/add-file/) | Add an HTML, Template Code, or README file to the folder.
+[Add Page](/workspace/websites/manage-folder/add-page/) | Add a new page (www folder only).
+[Add Link](/workspace/websites/manage-folder/add-link/) | Add and rank a link and control properties such as opening in a new window.
+[Add Category](/workspace/websites/manage-folder/add-category/) | Group and organize content items in categories.
+Copy | Duplicate the folder.
+Move | Relocate the folder elsewhere in your website.
 Delete | Permanently delete the folder.
 
+**Upload** and **+ Add** sit directly in the folder's toolbar. Click the **...** menu next to them for the rest:
+
+**Name** | **Description**
+:--- | ---
+[Update](/workspace/websites/manage-folder/update-folder/) | Change the folder's name, title, and other properties.
+[Stage](/workspace/websites/manage-folder/stage/) | Stage all pages and files in the folder immediately &mdash; no confirmation form.
+[Publish](/workspace/websites/manage-folder/publish/) | Publish all pages and files in the folder immediately &mdash; no confirmation form.
+[Permissions](/workspace/websites/manage-folder/permissions/) | Manage user access to files and folders with specific roles.
+
 !!! Note
-File Groups, Experiments, and Scheduler are also inserted into a folder, but they're documented under [Engage](/engage/) alongside the rest of that section: [Add File Group](/engage/file-groups/add-file-group/), [Add Experiment](/engage/experiments/add-experiment/), [Add Scheduler](/engage/scheduler/add-scheduler/). To add a new page to a website, use the **+** button in the **Pages** panel on [Website Overview](/workspace/websites/website-overview/) rather than a folder-level action.
+File Groups, Experiments, and Scheduler are also inserted into a folder, but they're documented under [Engage](/engage/) alongside the rest of that section: [Add File Group](/engage/file-groups/add-file-group/), [Add Experiment](/engage/experiments/add-experiment/), [Add Scheduler](/engage/scheduler/add-scheduler/).
 !!!
 
 ## Members

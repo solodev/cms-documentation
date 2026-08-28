@@ -3,17 +3,15 @@
 Automatically publish all pages and files in a designated folder. 
 
 !!!danger Warning:
-Publishing will apply to all pages and files within a selected folder. Make sure you are aware of the folder’s contents – including any files that you wish to remain in draft or stage – before you click “Publish.”
+Publishing will apply to all pages and files within a selected folder. Make sure you are aware of the folder's contents &mdash; including any files that you wish to remain in draft or stage &mdash; before you click **Publish**.
 !!!
 
-**Step 1:** From the left tree menu, select a folder you wish to publish the contents of. 
+**Step 1:** From the left tree, select the folder you wish to publish the contents of. 
 
-<p><img src="../../../../images/folders/publish-dashboard.png" alt="Publish dashboard"></p>
+**Step 2:** Click the **...** menu next to **+ Add**, then click **Publish**. There's no confirmation form to fill out &mdash; this applies immediately.
 
-**Step 2:** In the right menu, click **Publish**. You do not need to click the Submit button.
+<p><img src="../../../../images/folders/publish-dashboard.png" alt="Folder actions menu with Publish"></p>
 
 !!!Note:
-The window will remain open until publishing is complete, which can take a few moments. During this period, do not click outside the window, refresh the page, or leave the site. 
+On a large folder, publishing can take a few moments to finish. Avoid navigating away until it completes.
 !!!
-
-<p><img src="../../../../images/folders/publish-window.png" alt="Publish window" style="width: 40%;"></p>

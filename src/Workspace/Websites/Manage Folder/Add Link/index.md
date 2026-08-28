@@ -1,8 +1,8 @@
 # Add Link 
 
-You can add an URL link to your website. On Solodev, links are used on navigation elements.
+You can add an URL link to your website. On Solodev, links are used on navigation elements. From an open folder, click **+ Add** and select **Add Link**.
 
-<p><img src="../../../../images/folders/add-link.jpg" alt="Add Link" style="width: 40%;"></p>
+<p><img src="../../../../images/folders/add-link.png" alt="Add Link form" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---
