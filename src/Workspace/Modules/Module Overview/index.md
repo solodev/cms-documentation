@@ -1,21 +1,17 @@
 # Module Overview
 
-Manage entries within the module on the Module Overview page.
+Manage entries within a module from its overview page. Click **Open** on a row to view or edit that entry. Filter entries with **Filter**/**Date Filter** and **Find**, or select rows with the checkboxes to act on several at once.
 
-To go into the entry of your choosing, double click the row. If you want to delete or export specific entries, you can select them and continue with the action. You can also filter entries by clicking on the arrows next to the table headers.
+<video controls style="width: 90%; max-width: 900px;">
+  <source src="../../../videos/modules/module-overview.mp4" type="video/mp4">
+</video>
 
-<p><img src="../../../images/modules/module-overview.jpg" alt="Module Overview" style="width: 90%;"></p>
-
-!!!Tip:
-Use the search field to filter a specific entry by typing the name and clicking the **Find** button
-!!!
+<p><img src="../../../images/modules/module-overview.png" alt="Module Overview with entries" style="width: 90%;"></p>
 
 **Name** | **Description** 
 :--- | ---
-<a href="/workspace/modules/module-overview/add-entry/">Add Entry</a> | A a new entry to your settings such as .
-<a href="/workspace/modules/module-overview/modify/">Modify</a> | Modify your module's name and access additional options, including website properties, table schema, <br>API info, and more.
-Copy | Duplicate an existing entry as a starting point for a new one.
-<a href="/workspace/modules/module-overview/delete/">Delete</a> | Permanently delete a selected entry or entries.
-<a href="/workspace/modules/module-overview/import/">Import</a> | Import entries to your module.
-<a href="/workspace/modules/module-overview/export/">Export</a> | Export selected entries from your module.
-Workflow | For Datatable modules with a workflow enabled, review and manage the entry's approval workflow. See [Workflow](/admin/settings/workflow/).
+[Add Entry](/workspace/modules/module-overview/add-entry/) | Add a new entry to the module.
+[Modify](/workspace/modules/module-overview/modify/) | Modify the module's name and access additional options, including table schema, permissions, and more.
+[Delete](/workspace/modules/module-overview/delete/) | Permanently delete a selected entry or entries.
+[Import](/workspace/modules/module-overview/import/) | Import entries into your module.
+[Export](/workspace/modules/module-overview/export/) | Export selected entries from your module.
