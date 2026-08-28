@@ -1,4 +1,4 @@
-# Add Provider Setting
+# Add Connection
 
 1. Go to Admin > Settings > Providers and choose one from **Available Providers**.
 2. Fill in the common fields:

@@ -1,4 +1,4 @@
-# Delete Provider Setting
+# Delete
 
 Permanently remove a connection.
 

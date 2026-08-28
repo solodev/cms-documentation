@@ -9,3 +9,4 @@ On the apps page, you can manage the order in which items, such as modules or fo
 **Name** | **Description** 
 :--- | ---
 <a href="/admin/settings/apps/add-app/">Add App</a> | Add a new app.
+Delete | Remove an app from the dashboard.
