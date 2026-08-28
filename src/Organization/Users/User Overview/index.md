@@ -9,7 +9,6 @@ Modify a user’s details, delete a user from your CMS, and manage a user’s pe
 <a href="/organization/users/user-overview/modify-user">Modify User</a> | Update a user’s details, including name, title, company, and timezone.
 <a href="/organization/users/user-overview/delete-user">Delete</a> | Remove a user from your CMS deployment.
 <a href="/organization/users/user-overview/reset-password">Reset Password</a> | Send an email that allows a user to update their password.
-<a href="/organization/users/user-overview/login-as-user">Login as User</a> | Assumes a user’s profile to log in and manage their details.
 <a href="/organization/users/user-overview/permissions">Permissions</a>| Manage a user’s access to apps and modules in your CMS.
 
 !!! Note:

@@ -21,7 +21,6 @@ Administrators can use the following actions to manage users.
 Modify | Edit a user's name, title, company, and timezone
 Delete | Delete a User
 Reset Password | Reset a user's password
-Login as User | Allows an administrator to login as the user for troubleshooting purposes
 Permissions | View a user's group and object permissions
 Apps | Set user permissions to objects in the Solodev dashboard
 
