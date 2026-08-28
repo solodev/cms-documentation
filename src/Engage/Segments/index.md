@@ -2,15 +2,11 @@
 
 A Segment groups contacts by shared criteria so content, campaigns, or personalization can target a specific audience instead of everyone.
 
-## Creating a Segment
-
-1. Go to Engage > Segments and add a new Segment.
-2. Enter a **Name** and a **Purpose** describing who belongs in it and why.
-3. Save.
-
-## Managing Members
-
-Open a Segment to see **Users in segment** and use **Manage Members** to add or remove contacts.
+**Name** | **Description**
+:--- | ---
+[Add Segment](/engage/segments/add-segment/) | Create a new Segment.
+[Update Segment](/engage/segments/update-segment/) | Change a Segment's name or purpose.
+[Manage Members](/engage/segments/manage-members/) | Add or remove contacts from a Segment.
 
 ## Importing from a Connected Provider
 

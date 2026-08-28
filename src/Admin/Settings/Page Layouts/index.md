@@ -1,14 +1,11 @@
 # Page Layouts
 
-Page Layouts are a way to compose a page's structure from reusable Page Components, separate from a website's file-based templates. They live under Admin > Settings > Layouts.
+Page Layouts are a way to compose a page's structure from reusable Page Components, separate from a website's file-based templates. They live under Admin > Settings > Layouts, organized into a **Layouts Library** (System Layouts, provided by Solodev, and Custom Layouts, built by your team) and a separate **Page Components** library that layouts are built from.
 
-## Creating a Page Layout
+**Name** | **Description**
+:--- | ---
+[Add Page Layout](/admin/settings/page-layouts/add-page-layout/) | Create a new custom layout.
+[Update Page Layout](/admin/settings/page-layouts/update-page-layout/) | Edit an existing layout's content and settings.
+[Delete Page Layout](/admin/settings/page-layouts/delete-page-layout/) | Permanently remove a layout.
 
-1. Go to Admin > Settings > Layouts and add a new layout.
-2. Build it from Page Components. Each component can be previewed on its own before it's used in a layout.
-3. Save. Preview the full layout before it's used on a live page.
-
-## Editing and Deleting
-
-- Update a layout from its own settings page. Since a layout can be reused across pages, a change here can affect every page built from it &mdash; preview before publishing.
-- Deleting a layout is a structural change, the same caution as deleting a template: confirm nothing live still depends on it first.
+From the Layouts Library, you can also **Preview** a layout before using it, and **Copy** an existing layout (including a System Layout) to start a Custom Layout from it.
