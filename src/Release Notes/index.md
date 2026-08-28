@@ -2,9 +2,9 @@
 
 ### v11.9 (Recent Updates)
 
-The CMS has moved well past v10.4 without release notes keeping pace; the live application is currently on the v11.9.x line. This entry summarizes the verified, user-facing changes pulled directly from recent commit history. It intentionally does not attempt to reconstruct every intermediate v10.5&ndash;v11.8 release &mdash; only what could be confirmed against the current codebase. Older, unreleased-note versions will be backfilled separately.
+These docs were last genuinely updated on 2024-07-29, when the CMS was at v10.3.103. The live application is now on v11.9.137 &mdash; an 877-commit, 200+ merged-feature-branch gap with zero release notes written against it. This entry summarizes the user-facing changes that could be confirmed directly against the current codebase and the list of merged feature branches since that anchor point. It does not attempt to reconstruct a release-by-release v10.4&ndash;v11.8 history &mdash; the CMS's tagging is per-build (2,200+ tags), not per-release, so there's no clean seam to split on. Treat this as one consolidated "since 2024" entry.
 
-This entry also folds in a broader pass across the full commit history since v10.4 (1,900+ commits) to surface major feature areas that were shipped without ever getting a release note. Some of these (native Provider integrations such as Customer.io, Google Business Profile, Mailchimp, Constant Contact, Dynamics 365, DeepL, and accessibility scanning) are deliberately out of scope for this pass and are not detailed below.
+Deliberately out of scope for this pass: native Provider integrations built on the OAuth Provider framework &mdash; SSO (OpenID Connect), Customer.io (contacts and Segments/Personalize), Google Business Profile, Mailchimp, Constant Contact, Dynamics 365, DeepL, Salesforce (legacy SFDC document connection), and accessibility scanning providers. These exist and are in active use, but each needs its own setup documentation written with a real provider connection in hand, not guessed from source.
 
 #### Key Release Highlights
  - Git-backed branching: websites and their virtual entities (Calendars, Datatables, Forms, Segments, Schedulers, Experiments, File Groups, Page Layouts, Page Components) can now exist as sparse overlays on top of a live branch, enabling real Git branch/merge workflows for CMS content
