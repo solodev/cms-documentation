@@ -14,6 +14,8 @@ Use the search field to filter a specific entry by typing the name and clicking 
 :--- | ---
 <a href="/workspace/modules/module-overview/add-entry/">Add Entry</a> | A a new entry to your settings such as .
 <a href="/workspace/modules/module-overview/modify/">Modify</a> | Modify your module's name and access additional options, including website properties, table schema, <br>API info, and more.
+Copy | Duplicate an existing entry as a starting point for a new one.
 <a href="/workspace/modules/module-overview/delete/">Delete</a> | Permanently delete a selected entry or entries.
 <a href="/workspace/modules/module-overview/import/">Import</a> | Import entries to your module.
 <a href="/workspace/modules/module-overview/export/">Export</a> | Export selected entries from your module.
+Workflow | For Datatable modules with a workflow enabled, review and manage the entry's approval workflow. See [Workflow](/admin/settings/workflow/).
