@@ -10,3 +10,6 @@ A File Group can be used to:
 **Name** | **Description**
 :--- | ---
 [Add File Group](/engage/file-groups/add-file-group/) | Create a new File Group.
+[Add Entry](/engage/file-groups/add-entry/) | Add a file to the group.
+[Modify](/engage/file-groups/modify/) | Edit the group's name, title, or description.
+[Delete](/engage/file-groups/delete/) | Permanently remove the group.

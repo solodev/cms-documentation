@@ -9,3 +9,6 @@ Content being tested can't be a page itself; it has to be a file in the web file
 **Name** | **Description**
 :--- | ---
 [Add Experiment](/engage/experiments/add-experiment/) | Create a new A/B test.
+[Add Entry](/engage/experiments/add-entry/) | Add an item (a variation to test) to the Experiment.
+[Modify](/engage/experiments/modify/) | Edit the Experiment's name and settings.
+[Delete](/engage/experiments/delete/) | Permanently remove the Experiment.

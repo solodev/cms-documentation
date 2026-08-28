@@ -10,3 +10,6 @@ Scheduler is commonly used to:
 **Name** | **Description**
 :--- | ---
 [Add Scheduler](/engage/scheduler/add-scheduler/) | Create a new Scheduler.
+[Add Entry](/engage/scheduler/add-entry/) | Add a file and its go-live date to the Scheduler.
+[Modify](/engage/scheduler/modify/) | Edit the Scheduler's name, title, or description.
+[Delete](/engage/scheduler/delete/) | Permanently remove the Scheduler.
