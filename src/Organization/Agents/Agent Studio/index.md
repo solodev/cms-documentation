@@ -1,4 +1,4 @@
-# Agent Studio Settings
+# Agent Studio
 
 Configures the agent's identity, model, and how it presents itself.
 

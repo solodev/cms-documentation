@@ -8,6 +8,7 @@ Administrators can use contacts to make the intranet accessible to the organizat
 :--- | --- | 
 <a href="/organization/contacts/modify">Modify</a> | Update a contact’s details, including name, number, and address.
 <a href="/organization/contacts/reset-password">Reset Password</a> | Reset your password.
+<a href="/organization/contacts/view-as-customer">View as Customer</a> | Start a read-only storefront session as this contact, for troubleshooting.
 <a href="/organization/contacts/delete">Delete</a> | Delete contact.
 
 ## Notification Preferences

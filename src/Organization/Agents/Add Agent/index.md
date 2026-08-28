@@ -1,4 +1,4 @@
-# Add Agent Workspace
+# Add Agent
 
 Field | Description
 --- | ---
@@ -7,4 +7,4 @@ Published Agent / Trigger ID | The identifier of the remote agent being connecte
 Description | What this agent is for.
 Read-only CMS access | Restrict the agent to reading CMS data without making changes.
 
-After creating the workspace, continue in [Agent Studio Settings](/organization/agents/agent-studio-settings/), [Agent Mapping](/organization/agents/agent-mapping/), and [Agent MCP Settings](/organization/agents/agent-mcp-settings/) to finish configuring it.
+After creating the agent, continue in [Agent Studio](/organization/agents/agent-studio/), [Edit Mapping](/organization/agents/edit-mapping/), and [MCP Settings](/organization/agents/mcp-settings/) to finish configuring it.

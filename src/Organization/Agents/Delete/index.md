@@ -1,4 +1,4 @@
-# Delete Agent Workspace
+# Delete
 
 Permanently remove an Agent workspace, including its settings, mapping, and thread history.
 

@@ -1,4 +1,4 @@
-# Agent Mapping
+# Edit Mapping
 
 Sets which part of your CMS an agent is scoped to.
 

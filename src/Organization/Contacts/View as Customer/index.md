@@ -1,4 +1,4 @@
-# Impersonate a Customer
+# View as Customer
 
 Solodev CMS supports a read-only Customer Impersonation tool so a super admin can see a frontend contact's storefront exactly as that customer sees it &mdash; useful for troubleshooting a reported issue without asking the customer for their password.
 
