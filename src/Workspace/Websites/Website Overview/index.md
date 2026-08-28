@@ -14,6 +14,10 @@ After selecting an active website in your Solodev CMS, you're directed to that w
 Click the back arrow or **Websites** at the top of the tree to return to the main [Websites](/workspace/websites) list. 
 !!!
 
+!!!Tip:
+If the file tree looks empty, you (or your group) may not be a member of this website yet -- being in a group with broad app-level access isn't the same as having permissions on this specific website. Add yourself via [Permissions](/workspace/websites/website-overview/permissions/) below.
+!!!
+
 **Center: live preview** &mdash; the toolbar above it has a pencil icon (opens [Update Website](/workspace/websites/website-overview/update-website/) to edit the site title, framework, social links, and other settings), device-width toggles (mobile/tablet/desktop) to preview responsively, and an expand icon for full screen.
 
 **Right: details and actions** &mdash; shows the website's name, description, and thumbnail, followed by its addresses:
