@@ -40,3 +40,7 @@ For each component area such as the top navigation, the hero section, breadcrumb
 Each Dynamic Div is marked with dotted lines. Every time you select a Dynamic Div, it will highlight in blue.
 
 Dynamic Divs are the connecting elements between your HTML content and STML pages. Generally speaking, your STML pages will contain several Dynamic Divs. These drop-zones allow you to easily drop HTML content into the page itself.
+
+## Inserting Objects by Drag and Drop
+
+You can drag a file, module, form, File Group, Scheduler, or Experiment straight from the file browser onto a Dynamic Div to insert it, instead of using the object chooser. The drop zone only accepts objects you have permission to use, and inserting a module this way still applies its normal template. This is a shortcut for the same insert action &mdash; it doesn't change what gets inserted or how it renders.
