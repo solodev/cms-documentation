@@ -1,76 +1,52 @@
 # Vhost
 
-Vhost (virtual host) applies to a specific website in the CMS. Administrators configure the website's primary URL here, set a domain for staging, add aliases, and manage CDN/SSL and other advanced settings. This article covers Vhost and its configurable fields.
+Vhost (virtual host) applies to a specific website in the CMS. Administrators configure the website's primary URL here, set a domain for staging, add redirects, and manage CDN/SSL and other advanced settings. This article covers Vhost and its configurable fields.
 
-<p><img src="../../../../images/websites/website-settings.jpg" alt="Vhost Modal"></p>
+<p><img src="../../../../images/websites/settings/vhost.png" alt="Vhost panel" style="width: 60%;"></p>
 
 **Name** | **Description** 
 :--- | ---
 Primary URL | Update the primary URL of your website.
-[Domain Information](/workspace/websites/website-overview/vhost/#domain-information) | Enter staging address, alias, and custom rules to the domain host file in this section.
+[Domain Information](/workspace/websites/website-overview/vhost/#domain-information) | Enter staging/origin addresses, host settings, a custom 404 page, and domain redirects.
+[SSL Information](/workspace/websites/website-overview/vhost/#ssl-information) | Manage your SSL certificate configuration.
 [CDN Information](/workspace/websites/website-overview/vhost/#cdn-information) | Configure your CDN information.
-[SSL Information](/workspace/websites/website-overview/vhost/#ssl-information) | Manage your SSL information.
-[Advanced](/workspace/websites/website-overview/vhost/#advanced) | Configure more advanced settings.
 
 !!! Note
-Sitemap generation now has its own action from the website dashboard's **Update** menu &mdash; see [Generate Sitemap](/workspace/websites/website-overview/generate-sitemap/).
+Sitemap generation has its own action from the website dashboard's **Update** menu &mdash; see [Generate Sitemap](/workspace/websites/website-overview/generate-sitemap/).
 !!!
 
 ## Domain Information
 
-In this section, you can update domain information: website address(es), host settings, and redirects. You can add and remove redirects by clicking the **"Add +"** and **"Remove -"** buttons.
-
-<p><img src="../../../../images/websites/settings/website-settings-domain.jpg" alt="Domain Information Accordion" style="width: 47%;"></p>
+Update domain information: website addresses, host settings, a custom 404 page, and domain redirects.
 
 **Name** | **Description** 
 :--- | ---
-Staging website address(es) | The domain name for your staging site used for testing.
-Origin website address(es) | The domain name(s) for the non-cached version of your production website.
-Host Settings | Add custom rules to the domain hosts file, by entering the details in the text box.
-Add Redirects | Add redirects by using the button **Add +**.
-Remove Redirects | Remove redirects by using the button **Remove -**. 
-
-## CDN Information
-
-A Content Delivery Network (CDN) is a network of servers strategically distributed around the world to help deliver web content, such as web pages, images, videos, and other resources, to users more efficiently and quickly.
-
-<p><img src="../../../../images/websites/settings/website-settings-cdn-information.jpg" alt="CDN Accordion" style="width: 43%;"></p>
-
-**Name** | **Description** 
-:--- | ---
-Enable CDN | Click to enable CDN and to display the rest of the options.
-CDN website address | Provide the CDN website address or origin URL.
-CDN Provider | Choose your CDN provider from the dropdown.
-AWS CDN (distribution) | Provide the AWS CDN.
-AWS Account Config | This link will redirect you the config section to configure your [AWS Account](/admin/settings/config/#aws).
+Staging website address(es) | The domain name(s) for your staging site used for testing. Put each address on a new line.
+Origin website address(es) | The domain name(s) for the non-cached, origin version of your production website. Put each address on a new line.
+Host Settings | Add custom rules to the domain hosts file.
+404 Page | Click **Browse** to select a custom 404 error page, used for Apache-native 404s and generated Vhost error handling.
+Site Wide SSL (Canonical) | Check this to force an HTTPS connection to all pages.
+Domain Redirects | Click **Add Redirects** to add a domain-level redirect.
 
 ## SSL Information
 
-Secure Sockets Layer (SSL) is a technology for establishing a secure and encrypted connection between a server and a client.
-Here you can manage your SSL information.
-
-<p><img src="../../../../images/websites/ssl-info.jpg" alt="SSL Accordion" style="width: 45%;"></p>
+Secure Sockets Layer (SSL) establishes a secure, encrypted connection between a server and a client.
 
 **Name** | **Description** 
 :--- | ---
-SSL website address | This domain name establishes an HTTPS connection to your website. To add it, enter text in the text box.
-Sitewide SSL (Canonical) | Mark this checkbox to force an  HTTPS connection to all pages.
-SSL Certificate | SSL certificates create a foundation of trust by establishing a secure connection. To add an SSL certificate, enter text in the text box.
-SSL Key | The SSL/TLS protocol uses a pair of keys – one private, one public – to authenticate, secure, and manage secure connections. These keys are a linked pair of text files created together when you create your Certificate Signing Request (CSR). SSL makes one key of the pair (the public key) known to the outside world, while the other (the private key) remains a secret only you know. To add the SSL key, enter text in the text box.
-SSL Chain Certificate | There are two certificate authorities (CAs) types: root CAs and intermediate CAs. For an SSL certificate to be trusted, that certificate must have been issued by a CA that’s included in the trusted store of the connecting device. If a trusted CA didn’t issue the certificate, the connecting device (e.g., a web browser) checks to see if the certificate issuing a trusted CA issued CA. It continues checking until a trusted CA is found (at which point a trusted, secure connection will be established) or no trusted CA can be found (at which point the device will usually display an error). The list of SSL certificates, from the root certificate to the end-user certificate, represents the SSL certificate chain. To add an SSL chain certificate, enter text in the text box.
+SSL website address | The domain name that establishes an HTTPS connection to your website.
+SSL Certificate Configuration | Choose how the website is secured: **Off**, **Let's Encrypt** (automatic, free certificate), or **Custom** (provide your own certificate, key, and chain).
 
-## Advanced
+## CDN Information
 
-In this section, you can upload a shortcodes file, export packages, and adjust the timezone.
-
-<p><img src="../../../../images/websites/advanced-settings.jpg" alt="Advanced Accordion" style="width: 40%;"></p>
+A Content Delivery Network (CDN) is a network of servers strategically distributed around the world to help deliver web content more efficiently and quickly.
 
 **Name** | **Description** 
 :--- | ---
-Timezone | To change the timezone, expand the list and choose the desired timezone.
-Document Repository ID | To connect an STML element with a document repository, input the folder ID in the text box. You can locate this ID on the right side of the folder where your documents are stored.
-Calendar ID to connect to STMLs | To link an STML element with an event or a file, simply include the calendar's ID, which is located on the left side of the calendar.
-Custom Shortcodes File | Shortcodes act as shortcuts allowing you to quickly embed elements into a post or page. Add shortcodes file by using the **Custom Shortcodes File** option.
-Export | Click the **Export** button to export the website package. In the next screen select if you want to include manager entries in export and click **Continue Export**. Wait a couple of minutes for the package to be ready and click on **Download Package**.
-Delete Website | To permanently remove your website, please type DELETE and then click the **Delete** button. Please be aware that this action is irreversible.
-Confirm | After filling out all the required fields, please click the **Submit** button to save your changes.
+Enable CDN | Turn on CDN delivery and reveal the rest of the CDN options.
+CDN website address | The CDN website address or origin URL.
+CDN Provider | Choose your CDN provider from the dropdown (for example, AWS).
+AWS CDN (distribution) | The AWS CloudFront distribution to use.
+AWS Account Config | Links to the [AWS Account](/admin/settings/config/#aws) config section to connect your AWS account.
+
+Click **Submit** to save your changes.

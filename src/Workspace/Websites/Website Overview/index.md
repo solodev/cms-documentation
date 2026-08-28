@@ -6,13 +6,15 @@ You can manage any website in your Solodev CMS to update details, adjust the Vho
 
 After selecting an active website in your Solodev CMS, you're directed to that website's dashboard: a left-hand file tree, a live preview of the site in the middle, and a details/actions panel on the right.
 
+<p><img src="../../../../images/websites/website-overview.png" alt="Website Overview dashboard"></p>
+
 **Left: file tree** &mdash; expand **web files** and **www** to browse the site's folders and pages, and switch between websites using the dropdown at the top of the tree.
 
 !!!Note:
 Click the back arrow or **Websites** at the top of the tree to return to the main [Websites](/workspace/websites) list. 
 !!!
 
-**Center: live preview** &mdash; the toolbar above it has a pencil icon (opens [Update Website](/workspace/websites/website-overview/update-website/) to edit site title, social media, meta information, and custom pages), device-width toggles (mobile/tablet/desktop) to preview responsively, and an expand icon for full screen.
+**Center: live preview** &mdash; the toolbar above it has a pencil icon (opens [Update Website](/workspace/websites/website-overview/update-website/) to edit the site title, framework, social links, and other settings), device-width toggles (mobile/tablet/desktop) to preview responsively, and an expand icon for full screen.
 
 **Right: details and actions** &mdash; shows the website's name, description, and thumbnail, followed by its addresses:
 
@@ -27,7 +29,7 @@ Below that, the **Update** dropdown provides:
 **Name** | **Description** 
 :--- | ---
 [Vhost](/workspace/websites/website-overview/vhost/) | Manage the website's primary URL, domain information, CDN, SSL, and advanced settings.
-[Redirects](/workspace/websites/website-overview/redirects/) | Review and manage the website's 301 redirects and its **.htaccess history**.
+[Redirects](/workspace/websites/website-overview/redirects/) | Edit the website's `.htaccess` file directly to add 301 redirects and other rules.
 [Permissions](/workspace/websites/website-overview/permissions/) | Manage roles for users and groups on your team.
 [Generate Sitemap](/workspace/websites/website-overview/generate-sitemap/) | Build the website's sitemap.
 

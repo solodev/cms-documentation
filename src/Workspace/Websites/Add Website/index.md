@@ -19,4 +19,6 @@ Click the Theme Picker to see all available options.
 
 <p><img src="../../../images/tutorials/add-website/add-website-theme-picker.png" alt="Theme Picker options: Blank, Micro, Pro, Enterprise, and Upload Theme Zip" style="max-width: 456px; width: 100%;"></p>
 
-Once you've filled in the form, click **Add** to create your website. You'll land on its [Website Overview](/workspace/websites/website-overview/) page.
+Once you've filled in the form, click **Add** to create your website. You'll land on its [Website Overview](/workspace/websites/website-overview/) page, with a starter page already scaffolded.
+
+<p><img src="../../../images/websites/website-overview.png" alt="The newly created website's Website Overview dashboard"></p>
