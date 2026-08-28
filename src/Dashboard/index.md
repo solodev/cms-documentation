@@ -16,6 +16,20 @@ The Dashboard is the home screen of your CMS. From here, you can quickly connect
 No matter where you are in the CMS, you can always return to your Dashboard by clicking your organization’s logo in the upper left corner of the screen. 
 !!!
 
+The main Dashboard has two sections below the search bar: **Websites** and **Recents**.
+
+## Search
+
+A global search bar sits at the top of the Dashboard. It searches Mongo directly, across both files (HTML, STML pages, documents, images) and module/datatable entries &mdash; a result can be a page like `county.html` or a specific record like `datatable_entry_id: 7248`.
+
+<p><img src="../../../images/dashboard/search.png" alt="Search field" style="width: 60%;"></p>
+
+Results are shown in a table with **Name**, **Modified**, and **By** columns. Click a result to open it directly.
+
+!!! Note:
+Press **Enter** or click the search button to run the search. Click **Close** to dismiss the results.
+!!!
+
 ## Websites
 
 You can access any active websites using the cards on the main Dashboard.
@@ -37,16 +51,6 @@ From the Dashboard, you can quickly link to the most recent website pages, templ
 To access a specific file, click on a row in the **Recents** table. 
 
 <p><img src="../../../images/dashboard/recent-files.png" alt="Recent Files" style="width: 70%;"></p>
-
-## Search
-
-Locate specific files in your CMS using the Search bar at the top of the Dashboard. Browse for .html files, PDF documents, blog posts, images, and more.
-
-<p><img src="../../../images/dashboard/search.png" alt="Search field" style="width: 60%;"></p>
-
-!!! Note:
-Press the **Enter** button or click the blue button at the right side of the Search field to start searching. 
-!!!
 
 ## Profile 
 
