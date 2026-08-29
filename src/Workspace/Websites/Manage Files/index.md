@@ -4,54 +4,35 @@ Under **web files**, you can update folders or open a specific file to edit it w
 
 <p><img src="../../../images/websites/code-file.png" alt="A template file open in the code editor"></p>
 
-**Name** | **Description**
-:--- | ---
-Publish | Push the file's code or content to live production.
-Draft | Save a draft version of the file's code or content.
-Stage | Set up a staged version of the file for review as part of your workflow.
-Add to Group | Assign the file to a [file group](/engage/file-groups/).
-History | Review previous versions of the file and restore a saved one.
-Copy | Copy the file for editing or reuse elsewhere in your website.
-Move | Relocate the file based on your taxonomy.
-Delete | Delete the file permanently from your website.
-Attachments | Manage files attached to this asset.
-Events | View activity/events recorded against this asset.
+Once a file is open, its actions are split across three groups: the workflow-status button, the **...** actions menu, and an icon row above them both.
 
-## Other Actions
+<p><img src="../../../images/websites/files/actions-menu.png" alt="The three action groups on an open file: icon row, Publish button, and the ... actions menu" style="width: 45%;"></p>
 
-Files also have the option to upload a new version, create or manage tasks, expand your screen, or collapse the right menu.
+## Publish, Stage & Draft
 
 **Name** | **Description**
 :--- | ---
-Includes | Review where the file is being used across your website.
-Upload | Overwrite the current file by uploading a new one.
-Tasks | Collaborate with team members by adding or completing tasks.
-Expand | View the file in a full-width screen, removing all actions and menus.
-Collapse Menu | Hide the right-hand menu.
+[Publish, Stage & Draft](/workspace/websites/manage-files/publish-stage-draft/) | Push the file's code or content to live production, stage it for review, or save it as a draft.
 
-### Includes
+## Actions menu
 
-Quickly identify where your file is being used by clicking the includes icon at the top of the file. You can also jump to the page your file is included on by clicking its name.
-
-### Upload
-
-Click the upload icon in the upper-right corner to overwrite your current file by dragging and dropping a new one from your browser.
+Click the **...** button next to **Publish** for file management actions.
 
 **Name** | **Description**
 :--- | ---
-Upload | Publish your uploaded file live.
-Upload + Stage | Send the uploaded file into a staged status.
-Upload + Save | Save the uploaded file without publishing it live.
+[Update File](/workspace/websites/manage-files/update-file/) | Change the file's title, description, and publish/expire scheduling.
+[Copy File](/workspace/websites/manage-files/copy-file/) | Copy the file for editing or reuse elsewhere in your website.
+[Move File](/workspace/websites/manage-files/move-file/) | Relocate the file based on your taxonomy.
+[Delete File](/workspace/websites/manage-files/delete-file/) | Permanently delete the file from your website.
+[File History](/workspace/websites/manage-files/file-history/) | Review previous versions of the file, compare them, and restore a saved one.
 
-### Tasks
-
-Collaborate with team members by creating, assigning, and viewing tasks, sending messages, and managing task status and details.
-
-## Advanced
-
-Schedule a publish date and expire date for the file.
+## Icon row
 
 **Name** | **Description**
 :--- | ---
-Publish Date | Set an optional scheduled date to automatically publish the file.
-Expire Date | Choose when the file should expire: never, 1 day, 10 days, 30 days, 90 days, or 1 year.
+Info | The default right-hand panel: name, published status, ID, modified date, location, and editable title/description.
+[Replace File](/workspace/websites/manage-files/replace-file/) | Overwrite the current file by uploading a new one.
+[Tasks](/workspace/websites/manage-files/tasks/) | Track a to-do status for the file and leave comments for your team.
+[Includes](/workspace/websites/manage-files/includes/) | Review where the file is being used across your website.
+[Attachments](/workspace/websites/manage-files/attachments/) | Manage files attached to this asset.
+[Events](/workspace/websites/manage-files/events/) | Map a calendar entry to this file.
