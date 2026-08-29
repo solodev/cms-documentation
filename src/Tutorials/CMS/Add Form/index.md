@@ -5,7 +5,7 @@ In Solodev, you can add a <a href="/forms/">form</a> to a web page to collect in
 ## Prerequisites
 
 -	You will need to <a href="/websites/add-website/">add a website</a> to your Solodev CMS.
--	After selecting a website, you will need to <a href="../../../websites/manage-folder/add-page/">add a page</a> for your form.
+-	After selecting a website, you will need to <a href="../../../websites/add-page/">add a page</a> for your form.
 - You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
 
 ## Form options

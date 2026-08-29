@@ -9,7 +9,7 @@ Click into the **web files** or **www** folder from a website's [Website Overvie
 [Upload](/websites/manage-folder/upload/) | Drag and drop or browse files into your folder.
 [Add Folder](/websites/manage-folder/add-folder/) | Create a new subfolder and add specific details like name and title.
 [Add File](/websites/manage-folder/add-file/) | Add an HTML, Template Code, or README file to the folder.
-[Add Page](/websites/manage-folder/add-page/) | Add a new page (www folder only).
+[Add Page](/websites/add-page/) | Add a new page (www folder only).
 [Add Link](/websites/manage-folder/add-link/) | Add and rank a link and control properties such as opening in a new window.
 [Add Category](/websites/manage-folder/add-category/) | Group and organize content items in categories.
 Copy | Duplicate the folder.

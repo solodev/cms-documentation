@@ -1,6 +1,6 @@
 # Dynamic Div
 
-A dynamic div is a blank, editable content region &mdash; the basic building block you drop text, images, or other content into via <a href="/websites/manage-pages/#in-line-editing">in-line editing</a>.
+A dynamic div is a blank, editable content region &mdash; the basic building block you drop text, images, or other content into via <a href="/websites/page-overview/#in-line-editing">in-line editing</a>.
 
 <p><img src="../../../../images/websites/pages/component-rail.png" alt="Component palette rail" style="width: 8%;"></p>
 

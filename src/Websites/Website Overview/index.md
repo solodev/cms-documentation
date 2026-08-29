@@ -49,7 +49,7 @@ After [adding a website](/websites/add-website/) to your Solodev CMS, you can ac
 The web files folder houses the backend elements that power the structure of your website. This includes navigational and layout templates, HTML, code files, imagery and content, [modules](/modules), [forms](/forms), and other components. You can [manage files](/websites/manage-files/) from this folder.
 
 ### www
-The www folder includes all the frontend pages and files that are publicly accessible when a visitor navigates your website. The www folder is where you can [manage pages](/websites/manage-pages/) on your website.
+The www folder includes all the frontend pages and files that are publicly accessible when a visitor navigates your website. The www folder is where you can [manage pages](/websites/page-overview/) on your website.
 
 ### Using web files and www 
 
@@ -59,4 +59,4 @@ There are several functions you can perform in web files and www at the folder a
 
 *	Access the contents of either folder by clicking on the triangle drop-down icon to the left of each folder icon. 
 
-*	Under the www folder, you can use all the same functions as web files, but also [add a page](/websites/manage-folder/add-page) or [manage a page](/websites/manage-pages/).
+*	Under the www folder, you can use all the same functions as web files, but also [add a page](/websites/add-page) or [manage a page](/websites/page-overview/).

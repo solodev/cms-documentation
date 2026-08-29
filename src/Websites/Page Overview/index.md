@@ -1,14 +1,16 @@
-# Manage Pages
+# Page Overview
 
 In Solodev, you can update any page on your website under the www folder. You can build a page from scratch using a layout template and a drag-and-drop component palette, directly edit an existing page using in-line editing tools with a visual preview, or access the underlying code for each div on your page.
 
 In this article, you will learn how to build a new page from a layout template and the component palette, access an existing page in your www folder, modify it using the editing options available in your CMS, and update your page's meta information and details.
 
-<p><img src="../../../images/websites/pages/add-page-layouts.png" alt="Add Page layout picker" style="width: 45%;"></p>
+<p><img src="../../../images/websites/pages/built-page-overview.png" alt="A real page built from a base template, a Blog module, and shared header/footer"></p>
+
+The page above was built entirely with the process in this article: a [layout template](#building-a-page) for the header/nav/footer, then a [Module](#adding-content-with-the-component-palette) dropped in for the Blog.
 
 ## Prerequisites 
 - You will need to <a href="/websites/add-website/">add a website</a> to your CMS.
-- You will need to <a href="/websites/manage-folder/add-page/">add a page</a> to your website.
+- You will need to <a href="/websites/add-page/">add a page</a> to your website.
 
 ## Using STML files
 
@@ -16,7 +18,7 @@ The most important assets in your www folder are STML files (.stml), the individ
 
 ## Building a page
 
-When you <a href="/websites/manage-folder/add-page/">add a page</a>, the **Layouts** picker determines what you start with:
+When you <a href="/websites/add-page/">add a page</a>, the **Layouts** picker determines what you start with:
 
 **Name** | **Description**
 :--- | ---
@@ -36,16 +38,24 @@ A page you're editing has a vertical icon rail on its left edge. Each icon is a 
 
 **Name** | **Description**
 :--- | ---
-[Dynamic Div](/websites/manage-pages/dynamic-div/) | Inserts a new, empty dynamic div directly &mdash; no picker, ready for in-line content.
-[Components](/websites/manage-pages/components/) | Insert a saved, reusable group of components.
-[File](/websites/manage-pages/file/) | Insert an HTML or Template Code file from your web files.
-[Module](/websites/manage-pages/module/) | Insert a module (Blog, Calendar, Datatable, and so on).
-[Form](/websites/manage-pages/form/) | Insert a contact form.
-[File Group](/websites/manage-pages/file-group/) | Insert a file group.
-[Scheduler](/websites/manage-pages/scheduler/) | Insert a scheduler.
-[Experiment](/websites/manage-pages/experiment/) | Insert an A/B experiment.
+[Dynamic Div](/websites/page-overview/dynamic-div/) | Inserts a new, empty dynamic div directly &mdash; no picker, ready for in-line content.
+[Components](/websites/page-overview/components/) | Insert a saved, reusable group of components.
+[File](/websites/page-overview/file/) | Insert an HTML or Template Code file from your web files.
+[Module](/websites/page-overview/module/) | Insert a module (Blog, Calendar, Datatable, and so on).
+[Form](/websites/page-overview/form/) | Insert a contact form.
+[File Group](/websites/page-overview/file-group/) | Insert a file group.
+[Scheduler](/websites/page-overview/scheduler/) | Insert a scheduler.
+[Experiment](/websites/page-overview/experiment/) | Insert an A/B experiment.
 
 Every picker (except Dynamic Div, which has none) shares the same layout: a searchable list on the left with a **+ Add** shortcut if you need to create a new one on the spot, and a preview pane on the right showing the selected item's details before you commit.
+
+!!! Tip:
+Drop directly onto an empty dynamic div, not just anywhere on the canvas. If the File you drop is itself a template with its own dynamic div inside (like [base-template.tpl](/websites/manage-files/)), that inner div becomes a new drop target &mdash; you can keep nesting components inside it the same way, building up a full page like header → Module → footer.
+!!!
+
+!!! Note:
+Dropping a component updates the page in your browser immediately, but it isn't saved yet. Use [Publish, Stage, or Draft](/websites/manage-files/publish-stage-draft/) once you're done to save your changes &mdash; the same as any other file.
+!!!
 
 ## Viewing your page
 The Solodev editing experience is highly visual and provides a fully rendered preview of your page’s template elements, graphics, and text. 
@@ -67,7 +77,7 @@ Expand Window | Fully expand the rendered view of your page to remove toolbars.
 You can directly edit a page on your website using Solodev’s in-line editing features. Click on a div or content block to access the editing features, make changes, and save your updates. 
 
 !!! **Note**: 
-This low-code method is ideal for making quick changes to your content like updating text or modifying links. More complex changes will require <a href="/websites/manage-pages/#accessing-your-code-from-a-page">editing the code</a> on your page.
+This low-code method is ideal for making quick changes to your content like updating text or modifying links. More complex changes will require <a href="/websites/page-overview/#accessing-your-code-from-a-page">editing the code</a> on your page.
 !!!
 
 **Step 1**: Open the **www folder** in the left-hand menu and select a page to edit. Remember to click on the triangle graphic to the left of each folder to access its contents.
