@@ -1,4 +1,4 @@
-# Update Page
+# Manage Pages
 
 In Solodev, you can update any page on your website under the www folder. You can directly edit your page using in-line editing tools with a visual preview, or by accessing component code elements for each div on your page. 
 
@@ -36,7 +36,7 @@ Expand Window | Fully expand the rendered view of your page to remove toolbars.
 You can directly edit a page on your website using Solodev’s in-line editing features. Click on a div or content block to access the editing features, make changes, and save your updates. 
 
 !!! **Note**: 
-This low-code method is ideal for making quick changes to your content like updating text or modifying links. More complex changes will require <a href="/workspace/websites/update-page/#updating-a-page-using-code">editing the code</a>  on your page.
+This low-code method is ideal for making quick changes to your content like updating text or modifying links. More complex changes will require <a href="/workspace/websites/manage-pages/#accessing-your-code-from-a-page">editing the code</a> on your page.
 !!!
 
 **Step 1**: Open the **www folder** in the left-hand menu and select a page to edit. Remember to click on the triangle graphic to the left of each folder to access its contents.

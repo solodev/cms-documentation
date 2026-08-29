@@ -46,17 +46,17 @@ Solodev has a unique, folder-based site structure for managing and building webs
 After [adding a website](/workspace/websites/add-website/) to your Solodev CMS, you can access the web files and www folder from the left-hand menu on your main website dashboard. 
 
 ### web files 
-The web files folder houses the backend elements that power the structure of your website. This includes navigational and layout templates, HTML, imagery and content, [modules](/workspace/modules), [forms](/workspace/forms), and other components. From .tpl code to SCSS, you can [update web files](/workspace/websites/update-web-files) from this folder.
+The web files folder houses the backend elements that power the structure of your website. This includes navigational and layout templates, HTML, code files, imagery and content, [modules](/workspace/modules), [forms](/workspace/forms), and other components. You can [manage files](/workspace/websites/manage-files/) from this folder.
 
 ### www
-The www folder includes all the frontend pages and files that are publicly accessible when a visitor navigates your website. The www folder is where you can [update the pages](/workspace/websites/update-page) on your website.
+The www folder includes all the frontend pages and files that are publicly accessible when a visitor navigates your website. The www folder is where you can [manage pages](/workspace/websites/manage-pages/) on your website.
 
 ### Using web files and www 
 
 There are several functions you can perform in web files and www at the folder and the file level:
 
-*	[Update the folder](/workspace/websites/manage-folder/update-folder) properties by clicking on the folder icon or text.
+*	[Manage the folder](/workspace/websites/manage-folder/) properties by clicking on the folder icon or text.
 
 *	Access the contents of either folder by clicking on the triangle drop-down icon to the left of each folder icon. 
 
-*	Under the www folder, you can use all the same functions as web files, but also [add a page](/workspace/websites/manage-folder/add-page) or [update a page](/workspace/websites/update-page).
+*	Under the www folder, you can use all the same functions as web files, but also [add a page](/workspace/websites/manage-folder/add-page) or [manage a page](/workspace/websites/manage-pages/).
