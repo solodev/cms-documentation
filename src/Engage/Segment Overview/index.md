@@ -1,12 +1,13 @@
-# Segments
+# Segment Overview
 
 A Segment groups contacts by shared criteria so content, campaigns, or personalization can target a specific audience instead of everyone.
 
+Once you've [added a Segment](/engage/add-segment/), it appears in this list. Click its name to open this Overview and manage it.
+
 **Name** | **Description**
 :--- | ---
-[Add Segment](/engage/segments/add-segment/) | Create a new Segment.
-[Update Segment](/engage/segments/update-segment/) | Change a Segment's name or purpose.
-[Manage Members](/engage/segments/manage-members/) | Add or remove contacts from a Segment.
+[Update Segment](/engage/segment-overview/update-segment/) | Change a Segment's name or purpose.
+[Manage Members](/engage/segment-overview/manage-members/) | Add or remove contacts from a Segment.
 
 ## Importing from a Connected Provider
 

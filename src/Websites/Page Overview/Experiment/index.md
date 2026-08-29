@@ -1,6 +1,12 @@
 # Experiment
 
-Insert an [A/B experiment](/engage/experiments/) &mdash; test variations of content against each other.
+Insert an [A/B experiment](/engage/experiment-overview/) &mdash; alternates between two or more HTML/TPL files for visitors and tracks which one performs best. Each visit randomly shows one variant, weighted by the **Frequency** percentage you set on it, and every view (and, once you mark a visit as converted, every conversion) is counted per variant so you can compare real conversion rates.
+
+<p><img src="../../../../images/websites/pages/experiment-3variants.png" alt="A three-variant A/B/C test with a 50/30/20 traffic split"></p>
+
+!!! Note:
+Content being tested can't be a page itself; it has to be a file with an .html extension in your web files (not an .stml page).
+!!!
 
 <p><img src="../../../../images/websites/pages/rail-experiment.png" alt="Experiment icon in the component palette"></p>
 
@@ -14,7 +20,7 @@ Insert an [A/B experiment](/engage/experiments/) &mdash; test variations of cont
 :--- | ---
 Search experiment | Filter the list by name.
 [Add Experiment](#quick-add) | Create a new experiment on the spot if the one you need doesn't exist yet.
-Results list | [Experiments](/engage/experiments/) that already exist for this website.
+Results list | [Experiments](/engage/experiment-overview/) that already exist for this website.
 Preview pane | Selecting an experiment previews its details before you commit.
 Choose | Insert the selected experiment at the drop location.
 

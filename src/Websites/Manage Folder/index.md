@@ -26,7 +26,7 @@ Delete | Permanently delete the folder.
 [Permissions](/websites/manage-folder/permissions/) | Manage user access to files and folders with specific roles.
 
 !!! Note
-File Groups, Experiments, and Scheduler are also inserted into a folder, but they're documented under [Engage](/engage/) alongside the rest of that section: [Add File Group](/engage/file-groups/add-file-group/), [Add Experiment](/engage/experiments/add-experiment/), [Add Scheduler](/engage/scheduler/add-scheduler/).
+File Groups, Experiments, and Scheduler are also inserted into a folder, but they're documented under [Engage](/engage/) alongside the rest of that section: [Add File Group](/engage/add-file-group/), [Add Experiment](/engage/add-experiment/), [Add Scheduler](/engage/add-scheduler/).
 !!!
 
 ## Members
