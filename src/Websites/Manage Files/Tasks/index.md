@@ -7,6 +7,6 @@ Track a to-do status for a file and leave comments for your team. From an open f
 **Name** | **Description**
 :--- | ---
 Status | Click the status button to toggle the file's task status (e.g. between open and **Completed**).
-+ Add task | Create a new task for this file.
+**Add task** | Create a new task for this file.
 Activity | A running log of who created and last updated the file, and when.
 Add a comment | Leave a comment visible to teammates with access to this file.

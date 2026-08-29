@@ -32,26 +32,20 @@ The Base, Homepage, Sectional, and Content layouts are built-in Bootstrap system
 
 A page you're editing has a vertical icon rail on its left edge. Each icon is a draggable component type &mdash; drag one onto an empty region of the page canvas to insert it:
 
+<p><img src="../../../images/websites/pages/component-rail.png" alt="Component palette rail" style="width: 6%;"></p>
+
 **Name** | **Description**
 :--- | ---
-Dynamic Div | Inserts a new, empty dynamic div directly &mdash; no picker, ready for in-line content.
-Components | Opens **Select Components** to insert a saved, reusable group of components.
-File | Opens **Select File** to insert an HTML or Template Code file from your web files.
-Module | Opens **Select Module** to insert a module (Blog, Calendar, Datatable, and so on).
-Form | Opens **Select Form** to insert a contact form.
-File Group | Opens **Select File Group** to insert a file group.
-Scheduler | Opens **Select Scheduler** to insert a scheduler.
-Experiment | Opens **Select Experiment** to insert an A/B experiment.
+[Dynamic Div](/websites/manage-pages/dynamic-div/) | Inserts a new, empty dynamic div directly &mdash; no picker, ready for in-line content.
+[Components](/websites/manage-pages/components/) | Insert a saved, reusable group of components.
+[File](/websites/manage-pages/file/) | Insert an HTML or Template Code file from your web files.
+[Module](/websites/manage-pages/module/) | Insert a module (Blog, Calendar, Datatable, and so on).
+[Form](/websites/manage-pages/form/) | Insert a contact form.
+[File Group](/websites/manage-pages/file-group/) | Insert a file group.
+[Scheduler](/websites/manage-pages/scheduler/) | Insert a scheduler.
+[Experiment](/websites/manage-pages/experiment/) | Insert an A/B experiment.
 
-Every picker (except Dynamic Div, which has none) shares the same layout: a searchable list on the left with an **+ Add** shortcut if you need to create a new one on the spot, and a preview pane on the right showing the selected item's details before you commit.
-
-<p><img src="../../../images/websites/pages/select-file-picker.png" alt="Select File picker with a template previewed"></p>
-
-For example, dragging **File** onto the canvas opens **Select File** with your web files listed; selecting one previews its code, type, ID, module, location, and other details before you click **Choose**.
-
-<p><img src="../../../images/websites/pages/select-module-picker.png" alt="Select Module picker"></p>
-
-**Module**, **Form**, **File Group**, **Scheduler**, and **Experiment** work the same way, scoped to that asset type &mdash; each opens its own picker over whatever already exists in your CMS, with a shortcut to add a new one if nothing fits yet.
+Every picker (except Dynamic Div, which has none) shares the same layout: a searchable list on the left with a **+ Add** shortcut if you need to create a new one on the spot, and a preview pane on the right showing the selected item's details before you commit.
 
 ## Viewing your page
 The Solodev editing experience is highly visual and provides a fully rendered preview of your page’s template elements, graphics, and text. 
@@ -104,9 +98,9 @@ Heading | Change the heading status of your text (H1, H2, paragraph, etc.).
 Add Link | Apply a hyperlink to any text.
 Remove Link | Remove a hyperlink from any text.
 Paste from Word | Add copied text from Microsoft Word to your page content.
-Draft | Create a draft version of your code or content.
-<a href="/websites/manage-folder/stage/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
-<a href="/websites/manage-folder/publish/">Publish</a> | Push your code or content to live production.
+<a href="/websites/manage-files/publish-stage-draft/">Draft</a> | Create a draft version of your code or content.
+<a href="/websites/manage-files/publish-stage-draft/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
+<a href="/websites/manage-files/publish-stage-draft/">Publish</a> | Push your code or content to live production.
 
 !!! **Note**:
 You can also use the tab in the upper right corner of the Metadata panel to Draft, Stage, or Publish your changes. 
@@ -130,14 +124,13 @@ In addition to in-line editing, you can access the code to update a div or .tpl 
 
 **Name** | **Description**
 :--- | ---
-Draft | Create a draft version of your code or content.
-Stage | Set up a staged version of your code or content for review as part of your workflow. 
-Publish | Push your code or content to live production. 
-<a href="/documents/editing-files/add-to-group/">Add to File Group</a> | Assign the file to a specific file group.
-<a href="/documents/editing-files/history/">History</a> | Review previous versions of your content or code and restore a saved version.
-<a href="/documents/editing-files/copy/">Copy</a> | Copy the file for editing or additional use elsewhere in your website.
-<a href="/documents/editing-files/move/">Move</a> | Relocate the file based on your taxonomy.
-<a href="/documents/editing-files/delete/">Delete</a> | Permanently delete the file from your CMS.
+<a href="/websites/manage-files/publish-stage-draft/">Draft</a> | Create a draft version of your code or content.
+<a href="/websites/manage-files/publish-stage-draft/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
+<a href="/websites/manage-files/publish-stage-draft/">Publish</a> | Push your code or content to live production. 
+<a href="/websites/manage-files/file-history/">History</a> | Review previous versions of your content or code and restore a saved version.
+<a href="/websites/manage-files/copy-file/">Copy</a> | Copy the file for editing or additional use elsewhere in your website.
+<a href="/websites/manage-files/move-file/">Move</a> | Relocate the file based on your taxonomy.
+<a href="/websites/manage-files/delete-file/">Delete</a> | Permanently delete the file from your CMS.
 
 **Step 4**: After updating your content, use the **Draft**, **Stage**, or **Publish** buttons in the editing pane to save your changes for review or to push live directly.
 
@@ -147,10 +140,10 @@ In addition to Draft, Stage, and Publish, the editing pane offers additional fea
 
 **Name** | **Description**
 :--- | ---
-<a href="/documents/editing-files/show-or-hide-meta-data/">Meta</a> | Add meta information and details using the right-hand panel.
-<a href="/documents/editing-files/includes/">File Includes</a> | Check where your file is being used across the system.
-<a href="/websites/manage-folder/upload/">Overwrite Current File</a> | Upload a file to overwrite the current one. 
-Tasks | Access the tasks modal.
+<a href="#manage-meta-information-with-the-metadata-panel">Meta</a> | Add meta information and details using the right-hand panel.
+<a href="/websites/manage-files/includes/">File Includes</a> | Check where your file is being used across the system.
+<a href="/websites/manage-files/replace-file/">Overwrite Current File</a> | Upload a file to overwrite the current one. 
+<a href="/websites/manage-files/tasks/">Tasks</a> | Access the tasks modal.
 Fullscreen | Maximize your file view to fullscreen.
 Collapse Menu | Collapse the metadata panel.
 
