@@ -1,0 +1,18 @@
+# Form Overview
+
+Manage entries within a form using the Form Overview page.
+
+<img src="../../../images/form-overview.jpg" alt="form-overview" style="width: 100%; display: block"></a>
+
+!!!Note:
+Please remember to mark the entry you want to work with before any further actions.
+!!!
+
+**Name** | **Description** 
+:--- | ---
+<a href="/forms/form-overview/addentry/">Add Entry</a> | Choose this option to add new entry.
+<a href="/forms/form-overview/modify/">Modify</a> | Choose this option to modify entry.
+<a href="/forms/form-overview/import/">Import</a> | Choose this option to import entry.
+<a href="/forms/form-overview/export/">Export</a> | Choose this option to export entry.
+<a href="/forms/form-overview/workflow/">WorkFlow</a> |  Choose this option to add WorkFlow.
+<a href="/forms/form-overview/delete/">Delete</a> | Choose this option to delete entry.

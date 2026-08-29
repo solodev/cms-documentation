@@ -1,6 +1,6 @@
 # Module
 
-This article provides an overview of shortcodes used for multi-functional, date-based elements called <a href="/workspace/modules/">modules</a>. 
+This article provides an overview of shortcodes used for multi-functional, date-based elements called <a href="/modules/">modules</a>. 
 
 ## Repeater
 

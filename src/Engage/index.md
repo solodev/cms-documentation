@@ -1,6 +1,6 @@
 # Engage
 
-Engage groups the tools used to reach and test content with specific audiences, separate from the core content-management tools in Workspace. It sits in the left navigation right after Workspace.
+Engage groups the tools used to reach and test content with specific audiences, separate from the core content-management tools like Websites, Modules, Forms, and Documents. It sits in the left navigation right after those.
 
 **Name** | **Description**
 :--- | ---

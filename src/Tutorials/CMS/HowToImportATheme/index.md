@@ -1,6 +1,6 @@
 # How to import a theme
 
-Adding a theme to your Solodev website is simple. Installation occurs during the initial steps of <a href="/workspace/websites/add-website/">adding a website</a> to your Solodev CMS.
+Adding a theme to your Solodev website is simple. Installation occurs during the initial steps of <a href="/websites/add-website/">adding a website</a> to your Solodev CMS.
 
 **Step 1**: On the main dashboard in Solodev, click **Add Website**.
 

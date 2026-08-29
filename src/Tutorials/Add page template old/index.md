@@ -33,7 +33,7 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 <img src="../../../images/base-template.jpg" alt="base template" style="width: 100%; display: block"></a>
 
-1.	To get started go to **web files > templates** and <a href="/workspace/websites/manage-folder/add-file/">add a file</a>.
+1.	To get started go to **web files > templates** and <a href="/websites/manage-folder/add-file/">add a file</a>.
 2.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
 3.	Add Dynamic Divs to your file. Below is the code of a sample base template. It includes a dynamicDiv class for the top navigation, content, footer. You can always add more Dynamic Divs as needed.
 
@@ -65,7 +65,7 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 <img src="../../../images/content-template.jpg" alt="base template" style="width: 100%; display: block"></a>
 
-1.	Go to **web files > templates** and <a href="/workspace/websites/manage-folder/add-file/">add a file</a>.
+1.	Go to **web files > templates** and <a href="/websites/manage-folder/add-file/">add a file</a>.
 2.	Name the file, choose **Code** from the File Type dropdown, and click **Publish**.
 3.	Follow the above steps to add a base template to the page. Even though it is not required to have a base template, it is highly recommended because it should contain your navigation, footer, and other elements used in your site.
 4.	Add Dynamic Divs to your file. Below is the code of a sample content template. It includes a dynamicDiv class for the breadcrumb, content and a left navigation. It also includes the Page title shortcode (Link to shortcodes). You can always add more DynamicDivs as needed.
@@ -111,8 +111,8 @@ Dynamic Divs are the connecting elements between your HTML content and STML page
 
 ## Next Steps
 
-- <a href="/workspace/forms/add-form/">Add a form</a>
-- <a href="/workspace/modules/add-module/">Add a module</a>
+- <a href="/forms/add-form/">Add a form</a>
+- <a href="/modules/add-module/">Add a module</a>
 
 <!-- * **Base Template:** The base template is the most crucial because it contains the essential resources that will be included in every web page on your website. A base template typically consists of a header and footer, references to asset files, and dynamic divs to place content. Note that any changes you make to the base template will reflect your entire website.
 

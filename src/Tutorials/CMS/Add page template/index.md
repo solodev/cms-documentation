@@ -3,7 +3,7 @@
 Page templates are reusable layouts that allow you to build pages faster and easier. They provide control over your website’s structure while giving you the freedom to customize and personalize your content. In this tutorial, you will learn how to create a page template using <a href="/tutorials/websites/add-page-template/#using-dynamic-divs">dynamic divs</a> and how to apply it to new pages on your website. 
 
 ## Prerequisites
-*	You will need to complete the <a href="/workspace/websites/add-website/">How to add page to a website</a> tutorial.
+*	You will need to complete the <a href="/websites/add-website/">How to add page to a website</a> tutorial.
 *	For the examples in this tutorial, we will be using the Solodev SpaceJet theme package. <a href="https://github.com/solodev/marketplace/raw/master/depot/themes/solodev-spacejet-2023.zip">Download the zip file</a> to access the images and assets.
 *	As you are building with this tutorial, you can refer to the <a href="http://solodev-spacejet-2023.s3-website-us-east-1.amazonaws.com/">Solodev SpaceJet website</a> to compare your progress.
 
@@ -31,7 +31,7 @@ The first step in creating a page template is to build your base template, which
 
 <img src="../../../images/base-template-nav.jpg" alt="base template" style="width: 20%; display: block"></a>
 
-**Step 2**: Using the right-hand menu, click <a href="/workspace/websites/manage-folder/add-folder/">Add Folder</a>. 
+**Step 2**: Using the right-hand menu, click <a href="/websites/manage-folder/add-folder/">Add Folder</a>. 
 
 <img src="../../../images/base-template-add-folder.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -43,7 +43,7 @@ The first step in creating a page template is to build your base template, which
 The nested base folder will house your base template and other components. 
 !!!
 
-**Step 4**: Click back on the templates folder. Using the same right-hand menu, click <a href="/workspace/websites/manage-folder/add-file/">Add File</a>. 
+**Step 4**: Click back on the templates folder. Using the same right-hand menu, click <a href="/websites/manage-folder/add-file/">Add File</a>. 
 
 **Step 5**: In the fields provided, give your file a **Name** (such as “base-template”) and remember to use the .tpl extension. From the **File Type** dropdown, select **Code**, and click **Submit**.
 
@@ -112,7 +112,7 @@ You can repeat this process for all additional page templates in your website.
 
 **Step 1**: Under **web files**, click on the **templates** folder.
 
-**Step 2**: Using the right-hand menu, click  <a href="/workspace/websites/manage-folder/add-folder/">Add Folder</a>. Under **templates**, add four folders with the following names:
+**Step 2**: Using the right-hand menu, click  <a href="/websites/manage-folder/add-folder/">Add Folder</a>. Under **templates**, add four folders with the following names:
 
 - **footer**
 - **navigation**
@@ -121,7 +121,7 @@ When complete, click **Submit**.
 
 <img src="../../../images/template-folders.jpg" alt="base template" style="display: block"></a>
 
-**Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../workspace/websites/manage-folder/add-file/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
+**Step 3**: Under **templates**, click on the **base** folder. In the right menu, click <a href="../../../websites/manage-folder/add-file/">Add File</a>. Create a new file named **div-insert.tpl** and select **Code** from the **File Type** dropdown. When complete, click **Submit**.
 
 <img src="../../../images/homepage-base-folder-div.png" alt="base template" style="width: 20%; display: block"></a>
 
@@ -129,7 +129,7 @@ When complete, click **Submit**.
 The additional div-insert.tpl file will provide extra dynamicDivs to your page template. 
 !!!
 
-**Step 4**: In each of the new folders, you will need to add a new .tpl file. Follow the previous steps to click on each folder and <a href="/workspace/websites/manage-folder/add-file/">Add File</a>. Create a new file under each folder as follows, and select **Code** for the **File Type**. Once complete, click **Submit**:
+**Step 4**: In each of the new folders, you will need to add a new .tpl file. Follow the previous steps to click on each folder and <a href="/websites/manage-folder/add-file/">Add File</a>. Create a new file under each folder as follows, and select **Code** for the **File Type**. Once complete, click **Submit**:
 
 - footer: **footer.tpl** 
 - navigation: **top-nav.tpl** 
@@ -154,7 +154,7 @@ Next, you will learn how to apply your .tpl files to your dynamic divs. For the 
 
 !!!**Note**: 
 For more details on how to upload images to your website in Solodev, read 
-the <a href="/workspace/websites/manage-folder/upload/">Upload</a> article under Manage Folder in Websites.  
+the <a href="/websites/manage-folder/upload/">Upload</a> article under Manage Folder in Websites.  
 !!!
 
 **Step 4**: Under **web files**, browse to the **navigation** folder and click on the **top-nav.tpl** file. Copy the code sample below into the editor. When complete, click **Publish**.
@@ -249,11 +249,11 @@ Once you have your page template complete, you can return to the <a href="/tutor
 
 ## How to save a page as a template
 
-**Step 1**: Click on the '_' folder under **www** and <a href="/workspace/websites/manage-folder/add-folder/">create a new folder</a> called **templates**.
+**Step 1**: Click on the '_' folder under **www** and <a href="/websites/manage-folder/add-folder/">create a new folder</a> called **templates**.
 
 <img src="../../../images/www-templates.jpg" alt="www template" style="display: block"></a>
 
-**Step 2**: Open your new **index.stml** and click <a href="/workspace/documents/editing-files/copy/">copy</a> from the right-hand side action dropdown.
+**Step 2**: Open your new **index.stml** and click <a href="/documents/editing-files/copy/">copy</a> from the right-hand side action dropdown.
 
 <img src="../../../images/copy-stml.jpg" alt="copy stml" style="display: block"></a>
 

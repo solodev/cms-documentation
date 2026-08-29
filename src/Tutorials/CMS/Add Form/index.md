@@ -1,11 +1,11 @@
 # How to add a form to a page
 
-In Solodev, you can add a <a href="/workspace/forms/">form</a> to a web page to collect information for almost any kind of application. This includes contact forms, order forms, newsletter subscriptions, product registrations, and more. In this tutorial, you will learn the different ways to create a form using Solodev and how to add it to your web page.  
+In Solodev, you can add a <a href="/forms/">form</a> to a web page to collect information for almost any kind of application. This includes contact forms, order forms, newsletter subscriptions, product registrations, and more. In this tutorial, you will learn the different ways to create a form using Solodev and how to add it to your web page.  
 
 ## Prerequisites
 
--	You will need to <a href="/workspace/websites/add-website/">add a website</a> to your Solodev CMS.
--	After selecting a website, you will need to <a href="../../../workspace/websites/manage-folder/add-page/">add a page</a> for your form.
+-	You will need to <a href="/websites/add-website/">add a website</a> to your Solodev CMS.
+-	After selecting a website, you will need to <a href="../../../websites/manage-folder/add-page/">add a page</a> for your form.
 - You will need to be familiar with using <a href="/shortcodes/">shortcodes</a>.
 
 ## Form options
@@ -281,7 +281,7 @@ You can use this option to send form submissions to an email address you designa
 <img src="../../../images/tickler-list.jpg" alt="tickler-list" style="display: block"></a>
 
 !!!Note: 
-If you need to add more options to your form submissions, like having each department on your company receive the form submission based on what the user selects on the forms, please visit <a href="/workspace/forms/form-overview/workflow/">workflows</a>.
+If you need to add more options to your form submissions, like having each department on your company receive the form submission based on what the user selects on the forms, please visit <a href="/forms/form-overview/workflow/">workflows</a>.
 !!!
 
 ## Next Steps

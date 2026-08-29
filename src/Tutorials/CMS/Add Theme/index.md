@@ -12,7 +12,7 @@ While a theme provides the frontend visual “skin” for your website, it does 
 
 ## Prerequisites 
 - Download the Solodev <a href="https://raw.githubusercontent.com/solodev/marketplace/master/depot/themes/spacejet.zip">SpaceJet theme</a> package (.zip file)
-- Once downloaded, you will need to <a href="../../..//workspace/websites/add-website/">add a website</a> to your Solodev CMS and follow the prompts to upload an optional theme. 
+- Once downloaded, you will need to <a href="../../..//websites/add-website/">add a website</a> to your Solodev CMS and follow the prompts to upload an optional theme. 
 
 
 ## Solodev SpaceJet Theme 
@@ -29,7 +29,7 @@ guidance on how to compose your theme package, visit our <a href="https://github
 !!!
 
 ## How to install a theme to your website
-Adding a theme to your Solodev website is simple. Installation occurs during the initial steps of <a href="../../..//workspace/websites/add-website/">adding a website</a> to your Solodev CMS.
+Adding a theme to your Solodev website is simple. Installation occurs during the initial steps of <a href="../../..//websites/add-website/">adding a website</a> to your Solodev CMS.
 
 !!!danger  Warning:
 A theme can only be installed when creating a new website. Themes cannot be applied retroactively once a website has been fully deployed.
@@ -51,5 +51,5 @@ Uploading a theme package may take a few minutes to complete. During thisperiod,
 
 ## Next Steps
 
-- <a href="../../../workspace/websites/manage-folder/add-page/">Add page</a>
+- <a href="../../../websites/manage-folder/add-page/">Add page</a>
 - <a href="/tutorials/websites/add-page-template/">Add page template</a>
