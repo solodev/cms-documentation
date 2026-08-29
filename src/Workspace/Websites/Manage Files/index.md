@@ -2,7 +2,8 @@
 
 Under **web files**, you can update folders or open a specific file to edit it with the code editor. This includes template files (.tpl), config files, package.json, form assets, and other components that power your website's structure. Click on a file to open it.
 
-<p><img src="../../../images/websites/code-file.png" alt="An HTML file open in the code editor"></p>
+<!-- TODO: screenshot pending -- CMS unreachable this pass. Needs a real
+HTML file example open in the code editor, not the old SCSS one. -->
 
 **Name** | **Description**
 :--- | ---
