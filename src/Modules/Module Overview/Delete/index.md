@@ -1,45 +1,30 @@
-# Delete 
+# Delete
 
-## Delete Modules
+There are two separate delete actions on a module's overview page: deleting individual entries, and deleting the whole module.
 
-Delete module permanently.
+## Delete Entries
 
-<img src="../../../../images/module-overview4.jpg" alt="module-overview4" style="width: 40%; display: block"></a>
+Select one or more entries with their row checkboxes, then click **Delete** in the toolbar that appears.
 
-**Step 1:** To begin, access your website by either by clicking Websites under Workspace interface or from the dashboard. 
+<p><img src="../../../../images/modules/module-delete-entries.png" alt="Delete confirmation listing the selected entries"></p>
 
-**Step 2:** Once in the **Websites** section, identify and choose the specific website from which you intend to remove a module.
+The flyout lists exactly what you selected and warns that the action can't be undone.
 
-**Step 3:** In the left tree menu, locate and access the **web files** folder. This folder contains various components of your website.
+**Name** | **Description**
+:--- | ---
+Submit | Click **Submit** to permanently delete the selected entries.
 
-**Step 4:** Within the **web files** section, locate the **managers** folder. This is where the folder associated with the module you want to delete is situated.
+## Delete the module
 
-**Step 5:** Inside the **managers** folder, you will find the module you wish to remove. Click the checkbox next to the module you want to delete. On your right navigation, look for the **Delete** option and click on it. This action will open up the modal on the right side of the interface.
+Deleting the whole module (and every entry in it) lives inside [Modify](/modules/module-overview/modify/)'s **Advanced Options** section, not the main toolbar.
 
-**Step 6:** Once the modal is open, you will have the opportunity to confirm your decision. To finalize the deletion, locate and click the **Submit** button. This will initiate the removal process for the selected module.
+<p><img src="../../../../images/modules/module-delete-whole.png" alt="Delete Module confirmation inside Advanced Options"></p>
 
-!!!danger  Warning:
-Remember to exercise caution when deleting modules, as this action might have implications on your workspace's functionality and the tasks you're working on. Always ensure that you have a backup or a clear understanding of the consequences before proceeding with the deletion.
+**Name** | **Description**
+:--- | ---
+Type DELETE to confirm | Type **DELETE** (all caps) into the field to enable the button.
+Delete | Permanently deletes the module and all its entries. This can't be undone.
+
+!!!danger Warning:
+Deleting a module removes every entry in it along with the module itself. If you only want to remove some content, use Delete Entries above instead.
 !!!
-
-**Name** | **Description** 
-:--- | ---
-Submit | After submitting it will delete your module permanently 
-
------
-
-## Delete Module Entries
-
-Delete module entries permanently.
-
-**Step 1:** From the left tree menu and go into the Module under Workspace.
-
-**Step 2** Use the checkbox on the left and choose which entries you want deleted.
-
-**Step 3:** Click Delete in the toolbar to open the modal on the right.
-
-**Step 4:** Confirm your choice by clicking Submit. Your changes will be applied, and the entry will be removed.
-
-**Name** | **Description** 
-:--- | ---
-Submit | When you get sure that entry/ all entries you want to delete are marked, click the blue **Submit** button to delete an entry/entries.

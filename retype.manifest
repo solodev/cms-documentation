@@ -1,6 +1,6 @@
 {
   "version": "3.12.0",
-  "created": "2026-08-29T21:43:55Z",
+  "created": "2026-08-29T23:03:01Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1779,7 +1779,8 @@
       "path": "images\\modify4.png"
     },
     {
-      "path": "images\\module-add-entry.jpg"
+      "path": "images\\module-add-entry.jpg",
+      "old": true
     },
     {
       "path": "images\\module-id-repeater.jpg"
@@ -1794,7 +1795,8 @@
       "path": "images\\module-overview.jpg"
     },
     {
-      "path": "images\\module-overview10.jpg"
+      "path": "images\\module-overview10.jpg",
+      "old": true
     },
     {
       "path": "images\\module-overview2.jpg"
@@ -1815,10 +1817,12 @@
       "path": "images\\module-overview7.jpg"
     },
     {
-      "path": "images\\module-overview8.jpg"
+      "path": "images\\module-overview8.jpg",
+      "old": true
     },
     {
-      "path": "images\\module-overview9.jpg"
+      "path": "images\\module-overview9.jpg",
+      "old": true
     },
     {
       "path": "images\\module-permissions.png"
@@ -1839,13 +1843,52 @@
       "path": "images\\modules.jpg"
     },
     {
-      "path": "images\\modules\\add-module.png"
+      "path": "images\\modules\\add-module-custom.png"
     },
     {
-      "path": "images\\modules\\modify-module.jpg"
+      "path": "images\\modules\\add-module-prebuilt.png"
     },
     {
-      "path": "images\\modules\\module-add-entry.jpg"
+      "path": "images\\modules\\add-module.png",
+      "old": true
+    },
+    {
+      "path": "images\\modules\\modify-module.jpg",
+      "old": true
+    },
+    {
+      "path": "images\\modules\\module-add-entry.jpg",
+      "old": true
+    },
+    {
+      "path": "images\\modules\\module-add-entry.png"
+    },
+    {
+      "path": "images\\modules\\module-delete-entries.png"
+    },
+    {
+      "path": "images\\modules\\module-delete-whole.png"
+    },
+    {
+      "path": "images\\modules\\module-export.png"
+    },
+    {
+      "path": "images\\modules\\module-import.png"
+    },
+    {
+      "path": "images\\modules\\module-modify-advanced.png"
+    },
+    {
+      "path": "images\\modules\\module-modify-api-info.png"
+    },
+    {
+      "path": "images\\modules\\module-modify-table-schema.png"
+    },
+    {
+      "path": "images\\modules\\module-modify-top.png"
+    },
+    {
+      "path": "images\\modules\\module-modify-website-props.png"
     },
     {
       "path": "images\\modules\\module-overview.jpg",
@@ -1855,10 +1898,12 @@
       "path": "images\\modules\\module-overview.png"
     },
     {
-      "path": "images\\modules\\module-table-schema.jpg"
+      "path": "images\\modules\\module-table-schema.jpg",
+      "old": true
     },
     {
-      "path": "images\\modules\\module-website-properties.jpg"
+      "path": "images\\modules\\module-website-properties.jpg",
+      "old": true
     },
     {
       "path": "images\\modules\\modules.jpg",

@@ -1,15 +1,20 @@
 # Add Entry
 
-Adding an entry to a module serves the fundamental purpose of enriching and expanding the content within a website or digital platform. Each entry represents a unique piece of information, be it an article, product listing, event, or any other type of content. By creating these entries, you contribute to the dynamic and ever-growing repository of your website's content. This, in turn, enhances the user experience, as visitors can access fresh and relevant information. Additionally, modules allow for categorization, tagging, and easy retrieval of entries, making it easier to manage and organize the content efficiently.
+Add a new row of content to a module. From the module's overview page, click **Add Entry**.
 
-<p><img src="../../../../images/modules/module-add-entry.jpg" alt="Add Entry" style="width: 50%;"></p>
+<p><img src="../../../../images/modules/module-add-entry.png" alt="Add Entry form for a Blog module"></p>
 
-**Name** | **Description** 
+The fields shown depend on the module's own schema (defined when it was [added](/modules/add-module/) or later edited in [Modify](/modules/module-overview/modify/)) -- the form above is for a Blog-type module, so it has Body/Hero Image/Summary/Title columns. A few fields are always present regardless of schema:
+
+**Name** | **Description**
 :--- | ---
-Name | Enter the name of your post.
-Status | Select Draft to preview content that is not yet published. Select Publish to make your post live. Default: Draft.
-Start | The date the publication will become visible on your site. Default: published date.
-Stop | It will hide your post after the selected date/time. (Optional)
-Groups | For more granular permissions, enter the name of users/groups that should have access to the entry. (Optional)
-Categories | List of categories previously created. Select to categorize your post. (Optional)
-Submit | Once you have completed all the fields, click **Submit** to apply your changes.
+Name | The entry's internal name.
+Schedule -- Start/Stop | For a [schedulable (calendar-style) module](/modules/add-module/#calendar-vs-datatable-modules), the date range this entry is active. A datatable-style module skips this section entirely.
+Status | Draft or Publish. Draft entries aren't shown on the front end.
+*(schema fields)* | One field per column defined in the module's schema -- Body, Hero Image, Summary, and Title in the example above.
+Permissions -- Allowed Users/Groups | Optionally restrict who can edit this specific entry.
+Submit | Click **Submit** to save the entry.
+
+!!! Note:
+On some modules, **Add Entry** may not appear in the toolbar even though the module itself has entries and [Import](/modules/module-overview/import/)/[Export](/modules/module-overview/export/) still work -- this looks like a permissions edge case tied to how the module was created rather than anything schema-related. If you hit it, check the module's Permissions, or use [Import](/modules/module-overview/import/) with a single-row CSV as a workaround.
+!!!
