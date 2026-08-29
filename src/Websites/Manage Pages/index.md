@@ -1,20 +1,57 @@
 # Manage Pages
 
-In Solodev, you can update any page on your website under the www folder. You can directly edit your page using in-line editing tools with a visual preview, or by accessing component code elements for each div on your page. 
+In Solodev, you can update any page on your website under the www folder. You can build a page from scratch using a layout template and a drag-and-drop component palette, directly edit an existing page using in-line editing tools with a visual preview, or access the underlying code for each div on your page.
 
+In this article, you will learn how to build a new page from a layout template and the component palette, access an existing page in your www folder, modify it using the editing options available in your CMS, and update your page's meta information and details.
 
-In this article, you will learn how to access a specific page in your www folder, modify it using the editing options available in your CMS, and update your page’s meta information and details. 
-
-<p><img src="../../../images/websites/spacejet-main-page.jpg" alt="SpaceJet Main Page"></p>
+<p><img src="../../../images/websites/pages/add-page-layouts.png" alt="Add Page layout picker" style="width: 45%;"></p>
 
 ## Prerequisites 
 - You will need to <a href="/websites/add-website/">add a website</a> to your CMS.
 - You will need to <a href="/websites/manage-folder/add-page/">add a page</a> to your website.
 
-
 ## Using STML files
 
 The most important assets in your www folder are STML files (.stml), the individual website files that are served in a browser when a user visits your website. STML files are built with templates using <a href="/tutorials/websites/add-page-template/#dynamic-divs">dynamic divs</a>. A template imports common elements to a page such as the header and footer, while dynamic divs allow you to include unique page content, such as text, images, and more. 
+
+## Building a page
+
+When you <a href="/websites/manage-folder/add-page/">add a page</a>, the **Layouts** picker determines what you start with:
+
+**Name** | **Description**
+:--- | ---
+Blank Template | Start from a completely empty STML page with no content.
+Base Template | A full-width Bootstrap shell with a reusable header, footer, and three body layout drop zones.
+Homepage Template | A Bootstrap homepage shell with stacked section bands and blank content regions.
+Sectional Template | A flexible Bootstrap shell with stacked content rows, suited to promo or landing sections.
+Content Template | A Bootstrap inner-page shell with a two-column content-and-sidebar layout.
+
+The Base, Homepage, Sectional, and Content layouts are built-in Bootstrap system templates &mdash; a faster starting point than Blank Template if your page fits one of those common shapes.
+
+## Adding content with the component palette
+
+A page you're editing has a vertical icon rail on its left edge. Each icon is a draggable component type &mdash; drag one onto an empty region of the page canvas to insert it:
+
+**Name** | **Description**
+:--- | ---
+Dynamic Div | Inserts a new, empty dynamic div directly &mdash; no picker, ready for in-line content.
+Components | Opens **Select Components** to insert a saved, reusable group of components.
+File | Opens **Select File** to insert an HTML or Template Code file from your web files.
+Module | Opens **Select Module** to insert a module (Blog, Calendar, Datatable, and so on).
+Form | Opens **Select Form** to insert a contact form.
+File Group | Opens **Select File Group** to insert a file group.
+Scheduler | Opens **Select Scheduler** to insert a scheduler.
+Experiment | Opens **Select Experiment** to insert an A/B experiment.
+
+Every picker (except Dynamic Div, which has none) shares the same layout: a searchable list on the left with an **+ Add** shortcut if you need to create a new one on the spot, and a preview pane on the right showing the selected item's details before you commit.
+
+<p><img src="../../../images/websites/pages/select-file-picker.png" alt="Select File picker with a template previewed"></p>
+
+For example, dragging **File** onto the canvas opens **Select File** with your web files listed; selecting one previews its code, type, ID, module, location, and other details before you click **Choose**.
+
+<p><img src="../../../images/websites/pages/select-module-picker.png" alt="Select Module picker"></p>
+
+**Module**, **Form**, **File Group**, **Scheduler**, and **Experiment** work the same way, scoped to that asset type &mdash; each opens its own picker over whatever already exists in your CMS, with a shortcut to add a new one if nothing fits yet.
 
 ## Viewing your page
 The Solodev editing experience is highly visual and provides a fully rendered preview of your page’s template elements, graphics, and text. 
