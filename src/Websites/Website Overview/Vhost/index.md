@@ -2,7 +2,7 @@
 
 Vhost (virtual host) applies to a specific website in the CMS. Administrators configure the website's primary URL here, set a domain for staging, add redirects, and manage CDN/SSL and other advanced settings. This article covers Vhost and its configurable fields.
 
-<p><img src="../../../../images/websites/settings/vhost.png" alt="Vhost panel" style="width: 60%;"></p>
+<p><img src="../../../../images/websites/settings/vhost.png" alt="Vhost panel" style="max-width: 500px;"></p>
 
 **Name** | **Description** 
 :--- | ---

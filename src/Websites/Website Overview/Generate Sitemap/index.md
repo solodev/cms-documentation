@@ -4,7 +4,7 @@ A sitemap is an .xml file that lists and organizes all the web pages within a si
 
 From the website dashboard, open the **Update** menu and select **Generate Sitemap**.
 
-<p><img src="../../../../images/websites/generate-sitemap.png" alt="Generate Sitemap panel" style="width: 60%;"></p>
+<p><img src="../../../../images/websites/generate-sitemap.png" alt="Generate Sitemap panel" style="max-width: 520px;"></p>
 
 **Name** | **Description**
 :--- | ---
