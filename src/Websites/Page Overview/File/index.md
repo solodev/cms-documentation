@@ -2,7 +2,7 @@
 
 Insert an HTML or Template Code file from your website's web files &mdash; useful for reusable page structure like a base template, header, or footer.
 
-<p><img src="../../../../images/websites/pages/component-rail.png" alt="Component palette rail" style="width: 8%;"></p>
+<p><img src="../../../../images/websites/pages/rail-file.png" alt="File icon in the component palette"></p>
 
 **Step 1**: While editing a page, find the vertical icon rail on the left edge of the page canvas. File is the third icon from the top.
 

@@ -2,7 +2,7 @@
 
 Insert a low-code module &mdash; a Blog, Calendar, Datatable, or other <a href="/modules/">module</a> already built for this website.
 
-<p><img src="../../../../images/websites/pages/component-rail.png" alt="Component palette rail" style="width: 8%;"></p>
+<p><img src="../../../../images/websites/pages/rail-module.png" alt="Module icon in the component palette"></p>
 
 **Step 1**: While editing a page, find the vertical icon rail on the left edge of the page canvas. Module is the fourth icon from the top.
 
