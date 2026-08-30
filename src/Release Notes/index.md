@@ -1,10 +1,10 @@
 # Release Notes
 
-### v11.9 (Recent Updates)
+### v11.8 (Recent Updates)
 
-These docs were last genuinely updated on 2024-07-29, when the CMS was at v10.3.103. The live application is now on v11.9.137 &mdash; an 877-commit, 200+ merged-feature-branch gap with zero release notes written against it. This entry summarizes the user-facing changes that could be confirmed directly against the current codebase and the list of merged feature branches since that anchor point. It does not attempt to reconstruct a release-by-release v10.4&ndash;v11.8 history &mdash; the CMS's tagging is per-build (2,200+ tags), not per-release, so there's no clean seam to split on. Treat this as one consolidated "since 2024" entry.
+This entry covers everything added since the last release notes update, consolidated into one "since 2024" entry rather than split release-by-release.
 
-Deliberately out of scope for this pass: native Provider integrations built on the OAuth Provider framework &mdash; SSO (OpenID Connect), Customer.io (contacts and Segments/Personalize), Google Business Profile, Mailchimp, Constant Contact, Dynamics 365, DeepL, Salesforce (legacy SFDC document connection), and accessibility scanning providers. These exist and are in active use, but each needs its own setup documentation written with a real provider connection in hand, not guessed from source.
+Native Provider integrations (SSO, Customer.io, Google Business Profile, Mailchimp, Constant Contact, Dynamics 365, DeepL, Salesforce, and accessibility scanning providers) are in active use but not yet covered here -- see [Providers](/admin/settings/providers/) for what's documented so far.
 
 #### Key Release Highlights
  - Native Cart and Checkout system (Inventory, Shopping Cart, Coupons, Shipping, Tax, Payment) for selling directly from a website
