@@ -1,13 +1,7 @@
-# Delete User
+# Delete
 
-Remove a user from your CMS.
+Permanently remove a user from your CMS deployment. From [User Overview](/organization/users/user-overview/), open the **...** menu and click **Delete**.
 
-<img src="/../../../images/delete_user.png" alt="delete_user" style="width: 40%; display: block"></a>
+<p><img src="../../../../images/organization/user-delete.png" alt="Delete User confirmation"></p>
 
-**Name** | **Description** 
-:--- | ---
-Delete | In the text field, type the word **DELETE** in all caps and click the Delete button.
-
-!!! Note:
-Deleting a user is permanent and cannot be undone.
-!!!
+Type **DELETE** to confirm. This action cannot be undone.

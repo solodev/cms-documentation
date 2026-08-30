@@ -1,13 +1,13 @@
-# Modify User
+# Modify
 
-Add a user's details, including first name, last name, title, company, and timezone. Enter the values in each field and click **Submit**.
+Update a user's profile details. From [User Overview](/organization/users/user-overview/), click **Modify**.
 
-<img src="/../../../images/modify-user.jpg" alt="modify" style="width: 40%; display: block"></a>
+<p><img src="../../../../images/organization/user-modify.png" alt="Modify User form"></p>
 
 **Name** | **Description** 
 :--- | ---
-First Name | Enter the user’s first name in the field.
-Last Name | Enter the user’s last name or surname in the field.
-Title | Enter the user’s company title in the field (optional).
-Company | Enter the user’s company name in the field (optional).
-Timezone | Enter the user’s timezone in the field (optional).
+First Name | The user's first name.
+Last Name | The user's last name.
+Title | The user's job title.
+Company | The user's company name.
+Timezone | The timezone used for dates and times shown to this user.

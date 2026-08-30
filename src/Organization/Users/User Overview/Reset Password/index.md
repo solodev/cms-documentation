@@ -1,9 +1,7 @@
 # Reset Password
 
-Send an automatic email to a user that allows them to reset their password and disable their current password.
+Send a user an email to reset their password, disabling their current password immediately. From [User Overview](/organization/users/user-overview/), open the **...** menu and click **Reset Password**.
 
-<img src="/../../../images/modify3.png" alt="modify3" style="width: 40%; display: block"></a>
+<p><img src="../../../../images/organization/user-reset-password.png" alt="Reset Password confirmation"></p>
 
-**Name** | **Description** 
-:--- | ---
-Reset Password | In the text field, type **RESET** in all caps and click the **Submit** button.
+Type **RESET** to confirm, then submit.
