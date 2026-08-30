@@ -1,53 +1,18 @@
-# Modify Group
+# Modify
 
-Update a group's details or delete a group from your CMS by clicking the Modify button on the Groups Overview.
+Update a group's details. From [Group Overview](/organization/groups/group-overview/), open the **...** menu and click **Modify**.
 
-
-<img src="../../../images/modify.png" alt="modify" style="width: 40%; display: block"></a>
-
-
+<p><img src="../../../../images/organization/group-modify.png" alt="Modify Group form"></p>
 
 **Name** | **Description** 
 :--- | ---
-Name | Add or change the group name.
-Purpose | Add or change your group's description.
-Team Image | Upload a custom image for your group. **Recommended size: 200px x 200px**
+Name | The group's name.
+Purpose | What the group is for.
+Team Image | Upload an image to represent the group. Recommended size: 200px x 200px.
+Advanced | Expand to permanently delete the group.
 
+## Deleting a group
 
+There's no separate Delete action for groups -- it lives inside **Advanced**. Expand it, type `DELETE` to confirm, then click **Delete**. This can't be undone.
 
-## Advanced
-
-Under the Advanced dropdown, you can execute advanced operations such as deleting a group. 
-
-<img src="../../../images/modify2.png" alt="modify2" style="width: 40%; display: block"></a>
-
-
-**Name** | **Description** 
-:--- | ---
-Delete | To remove your group, type **DELETE** in all caps into the field and click the red Delete button.
-
-
-!!! Note:
-Deleting a group will permanently remove the group and its content and cannot be undone.
-!!!
-
-## Confirm
-
-Once you have completed all the fields, click **Submit** to apply your changes.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p><img src="../../../../images/organization/group-delete.png" alt="Advanced section expanded, showing the group delete confirmation"></p>

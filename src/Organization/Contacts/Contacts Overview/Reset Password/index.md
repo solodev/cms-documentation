@@ -1,15 +1,15 @@
 # Reset Password
 
-Update a contact's password.
+Reset a contact's storefront password. From [Contacts Overview](/organization/contacts/contacts-overview/), open the **...** menu and click **Reset Password**.
 
-<img src="../../../images/reset-contact.png" alt="reset-contact" style="width: 40%; display: block"></a>
+<p><img src="../../../../images/organization/contact-reset-password.png" alt="Reset Password form"></p>
 
 **Name** | **Description** 
 :--- | ---
-New Password | Enter the new password.
-Confirm Password | Rewrite the new password.
+Username | The contact's username (read-only).
+New Password | The new password.
+Confirm Password | Re-enter the new password.
 
 ## Confirm
 
-Once you have completed all the fields, click **Submit** to apply your changes.
-
+Once you've filled in both fields, click **Submit**.

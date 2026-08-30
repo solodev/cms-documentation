@@ -1,11 +1,10 @@
 # Contacts 
 
-View, manage, add, and update Contacts in your CMS deployment. Click on a contact's name to access or modify their details. You can also search contacts by using the option Search at the top.
+Contacts are frontend/storefront customers, distinct from the [Users](/organization/users/) who log into the CMS itself. Click a contact's name to view or manage their details, or use **Search** at the top to find one.
 
-<img src="../../../images/contacts.png" alt="contacts" style="width: 100%; display: block"></a>
----
+<p><img src="../../../images/organization/contacts-list.png" alt="Contacts list"></p>
 
 **Name** | **Description** 
 :--- | ---
-<a href="/organization/contacts/add-contact/">Add Contact</a> | Add new contact or contacts to your CMS deployment.
+<a href="/organization/contacts/add-contact/">Add Contact</a> | Add a new contact.
 <a href="/organization/contacts/contacts-overview/">Contacts Overview</a> | View and manage an existing contact.

@@ -9,7 +9,7 @@ Impersonation is restricted to super admins. It is intentionally not available t
 ## Start an impersonation session
 
 1. Go to **Organization > Contacts** and open the contact you need to view as.
-2. Start the impersonation action for that contact.
+2. Open the **...** menu on [Contacts Overview](/organization/contacts/contacts-overview/) and click **View as Customer**.
 3. On the **View as Customer** screen, choose the website from the **Website** dropdown. Only websites with a resolvable public address are listed.
 4. Click **Create secure login**.
 5. The CMS opens a secure, single-use login into that customer's storefront session.

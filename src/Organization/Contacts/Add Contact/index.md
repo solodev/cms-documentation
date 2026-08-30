@@ -1,16 +1,14 @@
 # Add Contact
 
-Adding a contact in Solodev CMS is a simple process, and can be completed in minutes.
+From the [Contacts](/organization/contacts/) list, click **Add Contact**.
 
-<img src="../../../images/add-contact.png" alt="contact" style="width: 50%; display: block"></a>
+<p><img src="../../../images/organization/add-contact.png" alt="Add Contact form"></p>
 
 **Name** | **Description** 
-:--- | --- | 
-First Name | Enter the user’s first name in the field.
-Last Name | Enter the user’s last name or surname in the field.
-Email | Enter the contact's email in the field (optional).
-Phone Number | Enter the contact's number in the field (optional).
+:--- | ---
+First Name | The contact's first name. Required.
+Last Name | The contact's last name. Required.
+Email Address | The contact's email address. Required.
+Phone Number | The contact's phone number. Optional.
 
-## Confirm
-
-Once you have completed all the fields, click **Submit** button to apply your changes and invited person will receive message to the email address.
+Once created, you'll land on the contact's [Contacts Overview](/organization/contacts/contacts-overview/) page, where you can fill in the rest of their details.

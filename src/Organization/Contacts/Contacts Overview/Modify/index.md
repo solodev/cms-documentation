@@ -1,24 +1,36 @@
 # Modify
 
-Modify contact details every time by clicking the button **modify**.
+Update a contact's details. From [Contacts Overview](/organization/contacts/contacts-overview/), click **Modify**.
 
-<img src="../../../images/modify-contact.png" alt="modify-contact" style="width: 40%; display: block"></a>
+<p><img src="../../../../images/organization/contact-modify.png" alt="Modify Contact form"></p>
 
 **Name** | **Description** 
 :--- | ---
-First Name | Enter the contact's first name.
-Last Name | Enter the contact's last name.
-Phone Number | Enter the contact’s phone number.
-Business Number | Enter the contact’s business number.
-Address 1 | Enter the contact's address.
-Address 2 | Enter the contact's address.
-City | Enter the contact’s city.
-State/Province | Expand the list and choose a suitable state/province.
-Zip Code | Enter the zip code.
-Country/Region | Expand the list and choose a suitable country/region.
-Contact Type | Enter the contact type.
-Status | Enter the contact status. For example, mark the contact inactive if it is not used.
+First Name | The contact's first name.
+Last Name | The contact's last name.
+Phone Number | The contact's primary phone number.
+Business Number | The contact's business phone number.
+Address 1 | Street address.
+Address 2 | Suite, unit, or additional address info.
+City | City.
+State/Province | Choose a state or province.
+Zip Code | Postal/zip code.
+Country/Region | Choose a country or region.
+Contact Type | Free-text categorization for the contact.
+Status | Free-text status (for example, mark the contact inactive if it's no longer used).
+Notification Preferences | Expand to set email/text notification options -- see below.
+
+## Notification Preferences
+
+Expand this section to manage how the contact is notified.
+
+**Name** | **Description** 
+:--- | ---
+Notify me via email | Notify the contact via email.
+Notify me via text message | Notify the contact via text message.
+Phone Carrier | The contact's phone carrier, used for text notifications.
+Notes | Any additional notes.
 
 ## Confirm
 
-Once you have completed all the fields, click **Submit** to apply your changes.
+Once you've made your changes, click **Submit**.

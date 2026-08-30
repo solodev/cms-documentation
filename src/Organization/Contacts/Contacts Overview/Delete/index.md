@@ -1,9 +1,7 @@
 # Delete Contact
 
-Remove a contact from your CMS deployment. Make sure the contact name you want to delete is marked.
+Permanently remove a contact. From [Contacts Overview](/organization/contacts/contacts-overview/), open the **...** menu and click **Delete**.
 
-<img src="../../../images/delete-contact1.png" alt="delete-contact" style="width: 40%; display: block"></a>
+<p><img src="../../../../images/organization/contact-delete.png" alt="Delete contact confirmation"></p>
 
-## Confirm
-
-Once you have completed all the fields, click **Submit** to apply your changes.
+Review the listed contact, then click **Submit** to confirm. This can't be undone.
