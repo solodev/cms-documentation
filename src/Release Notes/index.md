@@ -14,7 +14,7 @@ Deliberately out of scope for this pass: native Provider integrations built on t
  - Hardened frontend password reset and contact signup flows
 
 #### New Features
- - Added a full Cart and Checkout system: Inventory-backed products, Shopping Cart, Checkout Login, Billing/Shipping, Coupons, Shipping (flat-rate and table-based), Tax, and Payment processing with invoices and receipts &mdash; see **Tutorials > CMS > Cart and Checkout Overview**
+ - Added a full Cart and Checkout system: Inventory-backed products, Shopping Cart, Checkout Login, Billing/Shipping, Coupons, Shipping (flat-rate and table-based), Tax, and Payment processing with invoices and receipts &mdash; see **Admin > Settings > Apps > Shopping Cart**
  - Added Two-Factor Authentication (TOTP-based) to user profile security &mdash; see **Account > Two-Factor Authentication**
  - Added Page Layouts, composed from reusable Page Components, alongside existing page templates &mdash; see **Admin > Settings > Layouts**
  - Added Agent workspaces (Organization > Agents) for AI-assisted CMS tasks with real permission enforcement, run tracking, and rollback

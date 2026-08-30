@@ -162,4 +162,4 @@ This updates the ports for the CMS on Kubernetes to be hosted locally so you can
 
 ## Next Step
 
-Add a website, [click here](/tutorials/cms/how-to-add-website/).
+Add a website, [click here](/websites/add-website/).

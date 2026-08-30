@@ -31,3 +31,10 @@ Sectional Template | A flexible Bootstrap shell with stacked content rows, suite
 Content Template | A Bootstrap inner-page shell with a two-column content-and-sidebar layout.
 
 The Base, Homepage, Sectional, and Content layouts are built-in Bootstrap system templates &mdash; a faster starting point than Blank Template if your page fits one of those common shapes. Once your page is created, see [Page Overview](/websites/page-overview/) for how to build it out with the drag-and-drop component palette.
+
+### Which layout fits?
+
+- **Homepage** is your site's front door, and there's normally only one -- it introduces the whole site and often carries a hero banner, a CTA, and links out to everything else.
+- **Sectional** is a high-level jumping-off point for one section of a larger site (think a "Departments" landing page linking out to each department). Used sparingly, and usually styled to stand out from ordinary content pages.
+- **Content** (sometimes called an "interior" template) is the workhorse -- it powers the bulk of an ordinary multi-page site and gets reused across many pages that share the same shape.
+- **Base** underlies all of the above -- it's the header/footer/tracking-code shell that the other layouts (and any page you build from Blank) are ultimately built on top of.

@@ -14,7 +14,7 @@ The page above was built entirely with the process in this article: a [layout te
 
 ## Using STML files
 
-The most important assets in your www folder are STML files (.stml), the individual website files that are served in a browser when a user visits your website. STML files are built with templates using <a href="/tutorials/websites/add-page-template/#dynamic-divs">dynamic divs</a>. A template imports common elements to a page such as the header and footer, while dynamic divs allow you to include unique page content, such as text, images, and more. 
+The most important assets in your www folder are STML files (.stml), the individual website files that are served in a browser when a user visits your website. STML files are built with templates using [dynamic divs](/websites/page-overview/dynamic-div/). A template imports common elements to a page such as the header and footer, while dynamic divs allow you to include unique page content, such as text, images, and more. In raw markup, a dynamic div is just `<div class="dynamicDiv"></div>` -- the connecting point between your HTML/.tpl files and an STML page.
 
 ## Building a page
 
@@ -62,7 +62,7 @@ The Solodev editing experience is highly visual and provides a fully rendered pr
 
 Using the toolbar at the top of the screen, you can instantly view your page in a desktop, tablet, and smartphone format to test responsiveness and make in-line edits. You can also highlight divs, open a tab to your live page, and expand the window to maximize your viewable area.
 
-<p><img src="../../../images/spacejet-top-toolbar.jpg" alt="manage-folder"></p>
+<p><img src="../../../images/websites/pages/page-preview-toolbar.png" alt="Page preview toolbar with mobile/tablet/desktop toggles and expand"></p>
 
 **Name** | **Description**
 :--- | ---

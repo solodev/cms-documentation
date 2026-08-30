@@ -10,3 +10,9 @@ On the apps page, you can manage the order in which items, such as modules or fo
 :--- | ---
 <a href="/admin/settings/apps/add-app/">Add App</a> | Add a new app.
 Delete | Remove an app from the dashboard.
+
+## Built-in apps
+
+**Name** | **Description**
+:--- | ---
+<a href="/admin/settings/apps/shopping-cart/">Shopping Cart</a> | Solodev's native cart and checkout system for selling products or services directly from a website.
