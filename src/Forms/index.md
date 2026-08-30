@@ -1,26 +1,27 @@
 # Forms
 
-A form is an interactive component that allows website users to enter information that is collected and sent to a module, server, database, or even a third-party system. A form can resemble a traditional paper or database form, as a user fills it out using text fields, checkboxes, radio buttons, and other input elements. 
+A form collects information from website visitors -- a newsletter signup, a contact request, an event RSVP -- and stores each submission as an entry you can review later. Every form is one of two types, chosen when you [add it](/forms/add-form/):
 
-In Solodev, forms can be used to collect and manage information for a range of applications, but they generally serve two purposes:
+**Name** | **Description**
+:--- | ---
+**Contact Form** | Submissions are saved as [Contacts](/organization/contacts/) -- the same centralized, fixed-schema record used everywhere else in the CMS (First Name, Last Name, Email, Phone, Company, and so on). This is the default, and the recommended choice for any form that collects personal information.
+**Module Form** | Submissions are saved to a custom module you design yourself, with your own schema -- the same schema builder used by [Add Module](/modules/add-module/#calendar-vs-datatable-modules). Use this only for structured, non-personal data that doesn't fit the Contact model.
 
-*	**Web forms:** Web forms appear on the front end of a website, where a visitor’s information is captured and sent to a Solodev module and/or a third-party marketing automation system. There are many examples of web forms, but some of the most common include contact forms, newsletter subscriptions, registrations, and more.
+!!! Note:
+Module Form used to be the default, and it's still what a lot of long-time users reach for out of habit. It was moved out of the default position deliberately: every Module Form creates its own one-off database table, and over time that produced a sprawl of scattered, inconsistently-governed tables that often ended up holding personal information (names, emails, phone numbers) outside the centralized Contacts model. If a form is collecting anyone's personal details, use Contact Form -- it keeps that data in one place with consistent permissions, instead of one more ad-hoc table to track.
+!!!
 
-*	**Data Modules:** Data Modules are found in the back end of Solodev and are used to add, edit, or delete entries of information or data that can power custom modules 
-
-On the main Forms dashboard, you can see all current forms in your Solodev CMS, along with their location and members. 
+The Forms dashboard lists every form in your Solodev CMS, along with its location and members.
 
 <img src="../../../images/forms-dashboard-workspace.png" alt="forms" style="width: 100%; display: block"></a>
 
-!!!Note:
-You can access and modify a form by clicking on a specific form’s name in the main table.  
-!!!
-
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-Add Form | Create a new form by clicking the blue button in the upper right. 
+[Add Form](/forms/add-form/) | Create a new form.
 Location | Filter your list by selecting a location from the dropdown menu at the upper right.
-Search | Locate a form in your system by entering its name in the search field at the upper right. 
+Search | Locate a form in your system by entering its name in the search field at the upper right.
+
+Click a form's name to open it and manage its submissions -- see [Form Overview](/forms/form-overview/).
 
 ## Member Permissions
 
