@@ -1,8 +1,19 @@
 # Add Form
 
-From the [Forms](/forms/) list, click **Add Form**. The fields shown depend on which **Type** you pick.
+From the [Forms](/forms/) list, click **Add Form**. The fields shown depend on which **Type** you pick -- Contact Form happens to be what the dropdown shows first, but that's not a recommendation either way; see the note on [Forms](/forms/) for guidance on picking one.
 
-## Contact Form (default, recommended)
+<div style="display:flex; gap:1rem; flex-wrap:wrap; margin: 1rem 0 1.5rem;">
+  <div style="flex:1 1 260px; border:1px solid #d0d7de; border-radius:8px; padding:1.25rem;">
+    <h3 style="margin-top:0;"><a href="#contact-form">Contact Form</a></h3>
+    <p style="margin-bottom:0;">Submissions save as a <a href="/organization/contacts/">Contact</a> using the CMS's fixed, built-in schema.</p>
+  </div>
+  <div style="flex:1 1 260px; border:1px solid #d0d7de; border-radius:8px; padding:1.25rem;">
+    <h3 style="margin-top:0;"><a href="#module-form">Module Form</a></h3>
+    <p style="margin-bottom:0;">Submissions save to a custom module with a schema you design yourself.</p>
+  </div>
+</div>
+
+## Contact Form
 
 Submissions are saved as [Contacts](/organization/contacts/) using the CMS's fixed, built-in contact schema -- no new database table is created.
 

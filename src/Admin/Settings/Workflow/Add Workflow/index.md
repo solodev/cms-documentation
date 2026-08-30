@@ -1,24 +1,33 @@
 # Add Workflow
 
-Adding a workflow in Solodev CMS is a simple process, and can be completed in minutes.
+From [Workflow](/admin/settings/workflow/), click **Add Workflow**. The fields shown depend on which **Type** you pick.
 
-<img src="../../../../images/workflow2.jpg" alt="workflow2" style="width: 40%; display: block"></a>
+<p><img src="../../../../images/admin/workflow/add-workflow-top.png" alt="Add Workflow: Name and Type"></p>
 
-
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-Name | Enter the workflow’s name in the field.
-Type | Choose the workflow type.
+Name | The workflow's internal name. Lowercase, letters/numbers/hyphens only.
+Type | What triggers the rule -- see below.
 
-!!!Note:
-User can choose from different workflow types:
-- **File:** Saved, Staged, Published.
-- **Task:** Completed by User, Completed by Group.
-- **Form Submission**.
+## File triggers: Saved, Staged, Published
 
-Depending on your choice you may be presented with additional options allowing for better control over added workflow. Those additional fields are optional.
-!!!
+Fires when a file changes state.
 
-## Confirm
+<p><img src="../../../../images/admin/workflow/add-workflow-file-type.png" alt="Add Workflow with a File-type trigger selected"></p>
 
-Once you have completed all the fields, click **Submit** to add your workflow.
+**Name** | **Description**
+:--- | ---
+Completed by user | Optionally restrict the trigger to when the action was performed by specific user(s). Leave empty to match any user.
+Assign to user | Optionally assign a follow-up task to a user when the rule fires.
+
+## Task triggers: Completed by user, Completed by user from group
+
+Fires when a task is marked complete, either by a specific user or by any member of a group.
+
+<p><img src="../../../../images/admin/workflow/add-workflow-task-type.png" alt="Add Workflow with a Task-type trigger selected"></p>
+
+Same **Completed by user** / **Assign to user** fields as the File triggers above.
+
+## Form Submission
+
+Fires when a form is submitted -- optionally only when a submitted field matches a value. See [Form Overview's Workflow](/forms/form-overview/workflow/) for the full walkthrough with a real example, including its Emails/Email Subject/condition-builder fields, since opening Add Workflow from a form pre-fills this Type and scopes the rule to that form.

@@ -1,18 +1,15 @@
 # Delete
 
-Delete form entries permanently.
-## Delete Form Entries
+There are two separate delete actions on a form's overview page: deleting individual submissions, and deleting the whole form.
 
-**Step 1:** From the left tree menu and go into the Forms under Workspace.
+## Delete submissions
 
-**Step 2** Use the checkbox on the left and choose which entries you want deleted.
+Select one or more submissions with their row checkboxes, then click **Delete** in the toolbar that appears. Confirm by clicking **Submit** -- this can't be undone.
 
-**Step 3:** Click Delete in the toolbar to open the modal on the right.
+## Delete the form
 
-<img src="../../../../images/module-overview4.jpg" alt="module-overview4" style="width: 50%; display: block"></a>
+Deleting the whole form (and every submission in it) lives inside [Modify](/forms/form-overview/modify/)'s **Advanced Options** section, not the main toolbar -- same pattern as [Module Overview's Delete](/modules/module-overview/delete/). Type **DELETE** (all caps) to confirm.
 
-**Step 4:** Confirm your choice by clicking Submit. Your changes will be applied, and the entry will be removed.
-
-**Name** | **Description** 
-:--- | ---
-Submit | When you get sure that entry/ all entries you want to delete are marked, click the blue **Submit** button to delete an entry/entries.
+!!!danger Warning:
+Deleting a form removes every submission in it along with the form itself. If you only want to remove some submissions, use Delete submissions above instead.
+!!!

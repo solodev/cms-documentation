@@ -1,6 +1,6 @@
 {
   "version": "3.12.0",
-  "created": "2026-08-30T00:43:18Z",
+  "created": "2026-08-30T14:51:07Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -749,6 +749,27 @@
       "path": "images\\admin\\settings\\settings.jpg"
     },
     {
+      "path": "images\\admin\\workflow\\add-workflow-file-type.png"
+    },
+    {
+      "path": "images\\admin\\workflow\\add-workflow-task-type.png"
+    },
+    {
+      "path": "images\\admin\\workflow\\add-workflow-top.png"
+    },
+    {
+      "path": "images\\admin\\workflow\\workflow-delete.png"
+    },
+    {
+      "path": "images\\admin\\workflow\\workflow-list.png"
+    },
+    {
+      "path": "images\\admin\\workflow\\workflow-overview-bottom.png"
+    },
+    {
+      "path": "images\\admin\\workflow\\workflow-overview.png"
+    },
+    {
       "path": "images\\adminpermissions.jpg"
     },
     {
@@ -1097,7 +1118,8 @@
       "path": "images\\delete2.jpg"
     },
     {
-      "path": "images\\deleteworkflow.jpg"
+      "path": "images\\deleteworkflow.jpg",
+      "old": true
     },
     {
       "path": "images\\departments.jpg"
@@ -1353,34 +1375,44 @@
       "old": true
     },
     {
-      "path": "images\\form-overview.jpg"
+      "path": "images\\form-overview.jpg",
+      "old": true
     },
     {
-      "path": "images\\form-overview10.jpg"
+      "path": "images\\form-overview10.jpg",
+      "old": true
     },
     {
-      "path": "images\\form-overview2.jpg"
+      "path": "images\\form-overview2.jpg",
+      "old": true
     },
     {
-      "path": "images\\form-overview3.jpg"
+      "path": "images\\form-overview3.jpg",
+      "old": true
     },
     {
-      "path": "images\\form-overview4.jpg"
+      "path": "images\\form-overview4.jpg",
+      "old": true
     },
     {
-      "path": "images\\form-overview5.jpg"
+      "path": "images\\form-overview5.jpg",
+      "old": true
     },
     {
-      "path": "images\\form-overview6.jpg"
+      "path": "images\\form-overview6.jpg",
+      "old": true
     },
     {
-      "path": "images\\form-overview7.jpg"
+      "path": "images\\form-overview7.jpg",
+      "old": true
     },
     {
-      "path": "images\\form-overview8.jpg"
+      "path": "images\\form-overview8.jpg",
+      "old": true
     },
     {
-      "path": "images\\form-overview9.jpg"
+      "path": "images\\form-overview9.jpg",
+      "old": true
     },
     {
       "path": "images\\form-page.jpg"
@@ -1404,7 +1436,8 @@
       "path": "images\\forms-dashboard-get-id.png"
     },
     {
-      "path": "images\\forms-dashboard-workspace.png"
+      "path": "images\\forms-dashboard-workspace.png",
+      "old": true
     },
     {
       "path": "images\\forms-dashboard.png"
@@ -1413,7 +1446,8 @@
       "path": "images\\forms-dashboard1.png"
     },
     {
-      "path": "images\\forms-export.png"
+      "path": "images\\forms-export.png",
+      "old": true
     },
     {
       "path": "images\\forms.jpg"
@@ -1426,6 +1460,36 @@
     },
     {
       "path": "images\\forms\\add-form-module.png"
+    },
+    {
+      "path": "images\\forms\\form-add-workflow.png"
+    },
+    {
+      "path": "images\\forms\\form-modify-advanced.png"
+    },
+    {
+      "path": "images\\forms\\form-modify-email.png"
+    },
+    {
+      "path": "images\\forms\\form-modify-relationships.png"
+    },
+    {
+      "path": "images\\forms\\form-modify-top.png"
+    },
+    {
+      "path": "images\\forms\\form-overview-module.png"
+    },
+    {
+      "path": "images\\forms\\form-workflow-list.png"
+    },
+    {
+      "path": "images\\forms\\form-workflow.png"
+    },
+    {
+      "path": "images\\forms\\forms-dashboard.png"
+    },
+    {
+      "path": "images\\forms\\forms-permissions.png"
     },
     {
       "path": "images\\full-width-code.png"
@@ -1789,7 +1853,8 @@
       "old": true
     },
     {
-      "path": "images\\member-permissions.jpg"
+      "path": "images\\member-permissions.jpg",
+      "old": true
     },
     {
       "path": "images\\meta-about.png"
@@ -1872,10 +1937,12 @@
       "path": "images\\module-overview2.jpg"
     },
     {
-      "path": "images\\module-overview3.jpg"
+      "path": "images\\module-overview3.jpg",
+      "old": true
     },
     {
-      "path": "images\\module-overview4.jpg"
+      "path": "images\\module-overview4.jpg",
+      "old": true
     },
     {
       "path": "images\\module-overview5.jpg"
@@ -3168,10 +3235,12 @@
       "path": "images\\websites5.jpg"
     },
     {
-      "path": "images\\workflow.jpg"
+      "path": "images\\workflow.jpg",
+      "old": true
     },
     {
-      "path": "images\\workflow2.jpg"
+      "path": "images\\workflow2.jpg",
+      "old": true
     },
     {
       "path": "images\\workflow3.jpg"
@@ -3183,10 +3252,12 @@
       "path": "images\\workflow5.jpg"
     },
     {
-      "path": "images\\workflowoverview.jpg"
+      "path": "images\\workflowoverview.jpg",
+      "old": true
     },
     {
-      "path": "images\\workflowoverview2.jpg"
+      "path": "images\\workflowoverview2.jpg",
+      "old": true
     },
     {
       "path": "images\\workspace-menu.jpg",

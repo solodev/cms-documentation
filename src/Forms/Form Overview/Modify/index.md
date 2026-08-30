@@ -1,96 +1,58 @@
-# Modify 
+# Modify
 
-Modify form entries, including displayed fields, email settings, table schema, relationships, etc.
+Change a form's own settings. From the form's overview page, click **Modify**. A Module Form's Modify panel is built on the same underlying schema as [Module Overview's Modify](/modules/module-overview/modify/) -- Grid Display, Table Schema, and API Info work identically -- with two form-specific additions: Email Options and Relationships.
 
-<img src="../../../../images/form-overview3.jpg" alt="form-overview3" style="width: 50%; display: block"></a>
+<p><img src="../../../../images/forms/form-modify-top.png" alt="Modify panel: Name, Type, Form Template, Grid Display"></p>
 
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-Name | Make changes to the form name.
-Data Table Type | Modify the data table type. Choose from Data Storage, Website Module, and Website Form.
-Display/Hide Columns | Select the option to display/hide columns on the form. Use the arrows to make your selections in the right column.
+Name | The form's internal name.
+Type | Form (read-only once created).
+Form Template | Upload a custom form template for the Add Entry form.
+Grid Display -- Display/Hide Columns | Choose which schema fields show as columns in the submissions grid.
 
 ## Email Options
 
-Browse and select email options for your data table.
+Get notified when someone submits the form.
 
-<img src="../../../../images/form-overview7.jpg" alt="form-overview7" style="width: 50%; display: block"></a>
+<p><img src="../../../../images/forms/form-modify-email.png" alt="Email Options section"></p>
 
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-Upload Return Page | Choose this option to upload the return page from your computer.
-Edit | Choose this option to edit the document sent to users.
-Upload Custom Mail | Upload an email template to send users upon form submission. 
-Notification Type | Choose notification type: form submission, submission + custom email, or other.
-Tickler Email Address | Use this option to send form submissions to an email address you designate. Add the email address and click the **Add** button.
-Email List | Manage email addresses that have been added. To remove an email address, mark it and select the **Delete** button. 
-Tickler URL | Keep users informed of the actions of your Datatable at URL by entering the URL.
-Auto Assign Users | You can use this option to auto-assign users.
-
-## Advanced
-
-Access and define advanced options for forms and form entries.
-
-<img src="../../../../images/form-overview8.jpg" alt="form-overview8" style="width: 50%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-Upload Form | Select this option to upload a predesigned form.
-Edit Form | Make changes to an existing form.
-Design Form | Select this option to design a new form in Page Studio.
-Custom Icon | Enter font awesome icon class.
-Geo-Coded Fields | Enter a comma-separated list of fields used to generate latitude and longitude that will be saved in fields named "lat" and "lng" respectively.
-Field Name to use in URL | Designate a field name to be accessed via URL. (event_title is the default).
-Asset Fields | Link a field in your data table to a public URL, by adding a comma separated list of fields that will generate<br> a new property *_url that will contain a public link to the asset file specified in that field. Example: a datatable field named test_document, when placed into this textarea, will generate a new property called test_document_url that will have a public link to the document.
-Post Processing | Write your PHP to handle form submissions.
-Enforce User Permissions | Choose this option to enforce user permissions.
-Enable User Groups | Choose this option to enable user groups.
-Protect Fields | Choose this option to protect fields.
-Flat Entries (subtable values appear as main values) | Choose this option if you want to have the entries flat.
-Honeypot Protection | Choose this option to have honeypot protection.
-Enable Captcha | Choose this option to enable the captcha.
-Block Anonymous Submissions | Choose this option to block anonymous submissions.
-Sanitize URLS from submissions | Choose this option to sanitize URLs from submissions.
-Resave All Entries (On Submit) | Choose this option to resave all entries.
-Export Module | Choose this option to export forms.
-Delete Module | To remove your entry, type DELETE in all caps into the field and click the red **Delete** button.
+Return Behavior | What happens in the visitor's browser after they submit.
+Notification Type | What triggers a notification email (Form Submission, and other options).
+Tickler Email Address | Add one or more email addresses to notify on each submission.
 
 ## Table Schema
 
-Here you can manage your database table schema.
-
-<img src="../../../../images/form-overview5.jpg" alt="form-overview5" style="width: 50%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-**+/-** | Use these options to add/ remove the column.
-Name | Use this option to modify the column name.
-Type | Use this option to modify column type.
-Length | Use this option to modify column length.
-Allow Null | Mark this option to allow null in the column.
-Default | Use this option to make the column default.
-
+Add, edit, or remove the fields a submission can have -- identical to [Module Overview's Table Schema](/modules/module-overview/modify/#table-schema).
 
 ## Relationships
 
-Here you can relate the data table to other modules.
+Relate this form's entries to another module.
 
-<img src="../../../../images/form-overview4.jpg" alt="form-overview4" style="width: 50%; display: block"></a>
+<p><img src="../../../../images/forms/form-modify-relationships.png" alt="Relationships section"></p>
 
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-**+/-** | Use these options to add/ remove the relationship.
-Relationship Name | Use this option to modify the relationship name.
-Type | Here, you can choose type. There are three options: one-to-one, one-to-many, and many-to-many.
-Module | Here, you can select a module. To do that, click the **Browse** button and choose the object.
-Field | Here, you can select a field.
+Relationship Name | A label for the relationship.
+Type | One-to-one, one-to-many, or many-to-many.
+Module | Browse to the related module.
+Field | Which field on that module the relationship uses.
+**+** | Add a new relationship row.
 
 ## API Info
 
-Here you can find API Info that can be used in the <a href="/admin/api">API section</a> to connect.
+Connection details for reading this form's submissions via the REST API -- identical to [Module Overview's API Info](/modules/module-overview/modify/#api-info).
 
-<img src="../../../../images/form-overview6.jpg" alt="form-overview6" style="width: 50%; display: block"></a>
+## Advanced Options
 
-## Confirm 
+Most of this section matches [Module Overview's Advanced Options](/modules/module-overview/modify/#advanced-options) (Custom Icon, Geo-Coded Fields, Field Name to use in URL, Error Document, Asset Fields, Post Processing, Export/Delete), plus a few fields specific to public-facing forms:
 
-Once you have completed all the fields, click **Submit** to apply your changes.
+<p><img src="../../../../images/forms/form-modify-advanced.png" alt="Advanced Options, form-specific fields"></p>
+
+**Name** | **Description**
+:--- | ---
+Allowed File Extensions for Uploads | Comma-separated list (e.g. `jpg, png, pdf`) restricting what visitors can attach via a File field.
+Enable CSRF | Checked by default -- protects the form against cross-site request forgery.
+Enforce User Permissions | Require a logged-in, permitted user to submit.

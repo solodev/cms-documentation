@@ -1,17 +1,14 @@
 # Add Entry
 
-Adding an entry is a simple process and can be completed in minutes.
+Manually add a submission. From the form's overview page, click **Add Entry**.
 
-<img src="../../../../images/form-overview2.jpg" alt="form-overview2" style="width: 50%; display: block"></a>
+The fields shown match the form's own schema -- for a Contact Form, the standard Contact fields (First Name, Last Name, Email, Phone, and so on); for a Module Form, whatever fields were defined when it was [added](/forms/add-form/) or later edited in [Modify](/forms/form-overview/modify/).
 
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-First Name | Enter the first name.
-Last Name | Enter the last name.
-Phone Number | Enter the phone number.
-Email Address | Enter an email address.
-Comments |  Enter comments if needed.
+*(schema fields)* | One field per column defined in the form's schema.
+Submit | Click **Submit** to save the entry.
 
-## Confirm 
-
-Once you have completed all the fields, click **Submit** to apply your changes.
+!!! Note:
+On some forms, **Add Entry** may not appear in the toolbar -- see the note on [Form Overview](/forms/form-overview/). Use [Import](/forms/form-overview/import/) with a single-row CSV as a workaround.
+!!!

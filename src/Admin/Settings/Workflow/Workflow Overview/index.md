@@ -1,50 +1,23 @@
 # Workflow Overview
 
-Make changes in your workflow. 
+Edit or delete an existing workflow rule. Click a rule's name from [Workflow](/admin/settings/workflow/) to open it.
 
-<img src="../../../../images/workflowoverview.jpg" alt="workflowoverview" style="width: 100%; display: block"></a>
+<p><img src="../../../../images/admin/workflow/workflow-overview.png" alt="Workflow Overview showing a real Form Submission rule"></p>
 
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-<a href="/admin/settings/workflow/workflow-overview/#workflow-management">Workflow Management</a> | Manage your workflow.
-<a href="/admin/settings/workflow/workflow-overview/#delete">Delete</a> | Delete your workflow.
-
-## Workflow Management
-
-Manage your workflow.
-
-<img src="../../../../images/workflowoverview2.jpg" alt="workflowoverview2" style="width: 100%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-Name | Enter the workflow's name.
-Type | Choose the workflow's type.
-Choose Datable | Choose datable by using the **Browse** button.
-Variables | Enter the variables.
-If Statement | Enter if statement.
-Then Statement | Enter then statement.
-
-!!!Note:
-Users can choose from different workflow types:
-- **File:** Saved, Staged, Published.
-- **Task:** Completed by User, Completed by Group.
-- **Form Submission**.
-!!!
+Name | The workflow's internal name.
+Type | The trigger type -- see [Add Workflow](/admin/settings/workflow/add-workflow/).
+Choose form (or Choose Datable / Choose Module, depending on Type) | Which object this rule is scoped to.
+Variables | Raw JSON -- the notification details (for example, `{"email":"...","subject":"..."}`). Edited automatically by the friendly form when you build a rule normally; edit directly here for advanced changes.
+If Statement | Raw JSON -- the condition, if any (for example, `[{"urgency":"High"}]`). An empty `[]` means the rule always fires.
+Save | Apply your changes.
 
 ## Delete
 
-Delete your workflow.
+<p><img src="../../../../images/admin/workflow/workflow-delete.png" alt="Delete confirmation"></p>
 
-<img src="../../../../images/deleteworkflow.jpg" alt="deleteworkflow" style="width: 40%; display: block"></a>
-
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-Delete | To remove your workflow, type **DELETE** in all caps into the field and click the red Delete button.
-
-!!! Note:
-Deleting a workflow will permanently remove the workflow and its content and cannot be undone.
-!!!
-
-## Confirm
-
-Once you have completed all the fields, click **Save** to apply your changes.
+Type DELETE to confirm | Type **DELETE** (all caps) to enable the button.
+Delete | Permanently deletes this workflow rule. This can't be undone.

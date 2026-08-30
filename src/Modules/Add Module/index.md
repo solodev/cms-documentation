@@ -4,9 +4,21 @@ From the [Modules](/modules/) list, click **Add Module** to create a new low-cod
 
 ## Starting from a prebuilt module
 
-Pick one of the ready-made types -- **Alert**, **Blog**, **Calendar**, **News**, **Quick Links**, or **Slider** -- and the form collapses down to just Name and Module Picker. The schema (columns, field types, whether it's schedulable) is already defined for you.
+Pick one of the ready-made types and the form collapses down to just Name and Module Picker. The schema (columns, field types, whether it's schedulable) is already defined for you.
 
 <p><img src="../../../../images/modules/add-module-prebuilt.png" alt="Add Module form with a prebuilt type selected"></p>
+
+**Type** | **Description**
+:--- | ---
+Custom Module | Build your own module schema and form template from scratch -- see [Building a Custom Module](#building-a-custom-module) below.
+Alert Module | Boost user engagement with eye-catching, personalized alert notifications.
+Blog Module | Write, draft, edit, and publish content. Ships with Body/Hero Image/Summary/Title fields.
+Calendar Module | Schedule events and publish date-based content.
+News Module | Keep users informed with announcements and releases.
+Quick Links Module | Create convenient shortcuts to key destinations.
+Slider Module | Showcase featured products and visual highlights.
+
+All six named types (everything but Custom Module) come from Solodev, not something your organization defines -- if none fits, choose Custom Module and build your own schema.
 
 ## Building a Custom Module
 

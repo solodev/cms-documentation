@@ -1,26 +1,29 @@
-# WorkFlow
+# Workflow
 
-A workflow is a sequence of steps or processes that are triggered when someone interacts with or submits the form. These steps outline what happens from the moment the form is filled out until the final action is completed.
+Automatically email someone when a submission comes in -- optionally only when a specific field matches a value. From the form's overview page, open the **...** menu and click **WorkFlow**.
 
-By setting up a workflow on a form, you ensure that each submission is handled systematically, efficiently, and consistently, reducing the need for manual intervention and minimizing the chances of errors or omissions
+This is the same underlying automation engine as the org-wide [Workflow settings](/admin/settings/workflow/) -- opening it from a form just pre-scopes a new rule to this specific form. A Module Form is a [datatable-style module](/modules/add-module/#calendar-vs-datatable-modules) under the hood, so its Type dropdown is the same one described in [Module Overview's Workflow](/modules/module-overview/workflow/#datatable-style-modules-manager-group--task--form-submission) -- **Form Submission** below is the type you'll use most, but **Submitted by user**, **Submitted by user from group**, and **Value contains** are also available, plus the Task triggers described on the [global Workflow page](/admin/settings/workflow/add-workflow/#task-triggers-completed-by-user-completed-by-user-from-group).
 
-<p><img src="../../../../images/form-overview9.jpg" alt="form-overview9" style="width: 50%;"></p>
+<p><img src="../../../../images/forms/form-workflow-list.png" alt="Workflow list with two real rules"></p>
 
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-Add Workflow | Choose this option to add a workflow.
-Save | Choose this option to save the workflow.
-Delete | Choose this option to delete the workflow.
+Add Workflow | Create a new workflow rule.
+Save | Save changes to the workflow list.
+Delete | Select a workflow's checkbox, then click Delete to remove it.
 
-## Add WorkFlow
+## Add Workflow
 
-<p><img src="../../../../images/form-overview10.jpg" alt="form-overview10" style="width: 50%;"></p>
+**Example:** notify the support team by email only when a submission's Urgency field is "High".
 
-**Name** | **Description** 
+<p><img src="../../../../images/forms/form-add-workflow.png" alt="Add Workflow form filled out with a real conditional example"></p>
+
+**Name** | **Description**
 :--- | ---
-Name | You can add a name here (lowercase and separated with dashes).
-Type | Choose type. You can select from File (Saved, Staged, Published), Task (Completed by a user, Completed by a user from a group), and Form Submission.
-Select user | Select user by using the **Browse** button.
-Assign to | Select assignee by using the **Browse** button.
-Tickler Information | Enter the email address.
-Submit | Once you have completed all the fields, click **Submit** to apply your changes.
+Name | The workflow's internal name.
+Type | **Form Submission** for the example below. No type is pre-selected -- pick one from the dropdown.
+Emails | One or more email addresses, comma-separated, to notify.
+Email Subject | The subject line of the notification email.
+Select the form field to add to your workflow | Optional. Click **+** to add a condition: pick a **Statement Name** (one of this form's own schema fields) and the **Value** it must match for the email to send. Leave this empty and the email sends on every submission, with no condition.
+
+Submit to save. The list shows each rule's **If** (the condition, or `[]` if unconditional), **Then** (the action -- `email`), and **Variables** (the notification details) as raw data, matching what's stored.
