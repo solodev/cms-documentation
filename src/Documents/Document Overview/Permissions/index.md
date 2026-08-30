@@ -1,21 +1,21 @@
 # Permissions
 
-Permissions are a powerful tool that allows you to manage access for users and groups. You can manage existing permissions by changing group roles or you can remove permission entirely.
+Manage which users/groups can access a folder and what they can do in it. From a folder's page, open the **...** menu and click **Permissions**.
 
-<p><img src="../../../../images/permissions.png" alt="Permissions" style="width: 40%;"></p>
+<p><img src="../../../../images/documents/permissions-form.png" alt="Permissions panel"></p>
 
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-Name | Enter the name of a member you want to add to your group.
-Role | Assign a View, Stager, Editor, or Admin role to a new or existing member via the dropdown menus.
-Add | Click the orange **"+"** button to add a new member to your group.
-Delete |  Click the **"x"** on the right side of the table to remove a member from your group. 
+Name | Enter the name of an existing member or group to add.
+Role | Assign a View, Stage, Editor, or Admin role via the dropdown.
+**+** | Click the orange **+** button to add the member to the table below.
+Remove | Click the **x** next to an existing entry in the table to remove that member.
 
 !!! Note:
-A group or group member can be assigned one of four roles in Solodev CMS:
+A member can be assigned one of four roles:
 
-- **View:** Allows a member to see items and content. 
-- **Stager:** Enables a member to create or modify content but not publish.
-- **Editor:** Gives a member the ability to view, create, edit, and publish.
-- **Admin:** Provides full editorial control and management of group members.
+- **View:** See items and content.
+- **Stage:** Create or modify content, but not publish.
+- **Editor:** View, create, edit, and publish.
+- **Admin:** Full control, including managing other members' permissions.
 !!!

@@ -1,20 +1,24 @@
 # Document Overview
 
-Manage your documents using different options, like adding a file or folder.
+A folder's own page, where you upload files, organize with more folders, and manage what's already there. Click a folder's name from [Documents](/documents/) (or from inside another folder) to open it.
 
-Find the document by using the search field at the top.
-
-<img src="../../../images/manage-documents.jpg" alt="manage-documents"></a>
+<p><img src="../../../../images/documents/folder-toolbar.png" alt="A folder's toolbar: Upload, Add Folder, and the ... actions menu"></p>
 
 **Name** | **Description**
 :--- | ---
-<a href="/documents/document-overview/update-folder/">Update Folder</a> | Change folder details like name or title and perform advanced functions like deleting a folder.
-<a href="/documents/document-overview/upload/">Upload</a> | Drag and drop or browse files into your folder. 
-<a href="/documents/document-overview/add-folder/">Add Folder</a> | Create a new folder in your website and add specific details like name and title.
-<a href="/documents/document-overview/add-file/">Add File</a> | Add an HTML or code file type into a folder on your website. 
-<a href="/documents/document-overview/add-group/">Add File Group</a> | Create a new file group within your website folder.
-<a href="/documents/document-overview/add-category/">Add Category</a> | Group and organize content items in categories.
-<a href="/documents/document-overview/permissions/">Permissions</a> | Manage user access to files and folders with specific roles.
-<a href="/documents/manage-file-folder/copy/">Copy</a> | Creates a duplicate of a file.
-<a href="/documents/manage-file-folder/move/">Move</a> | Moves the file to a new location.
-<a href="/documents/manage-file-folder/delete/">Delete</a> | Removes a file permanently from the CMS.
+[Upload](/documents/document-overview/upload/) | Add files from your computer into this folder.
+[Add Folder](/documents/add-folder/) | Create another folder nested inside this one.
+[Update Folder](/documents/document-overview/update-folder/) | Change this folder's own name, title, description, and website-mapping settings, or delete it.
+[Permissions](/documents/document-overview/permissions/) | Manage which users/groups can access this folder and what they can do.
+
+Select one or more items with their row checkboxes to reveal actions that act on them:
+
+**Name** | **Description**
+:--- | ---
+[Copy](/documents/document-overview/copy/) | Duplicate the selected file(s)/folder(s) into another location.
+[Move](/documents/document-overview/move/) | Move the selected file(s)/folder(s) to another location.
+[Delete](/documents/document-overview/delete/) | Permanently remove the selected file(s)/folder(s).
+
+!!! Note:
+Use the search field at the top to locate a specific file or folder within this one.
+!!!

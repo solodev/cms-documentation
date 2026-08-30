@@ -253,7 +253,7 @@ Once you have your page template complete, you can return to the <a href="/tutor
 
 <img src="../../../images/www-templates.jpg" alt="www template" style="display: block"></a>
 
-**Step 2**: Open your new **index.stml** and click <a href="/documents/editing-files/copy/">copy</a> from the right-hand side action dropdown.
+**Step 2**: Open your new **index.stml** and click **Copy** from the right-hand side action dropdown.
 
 <img src="../../../images/copy-stml.jpg" alt="copy stml" style="display: block"></a>
 

@@ -32,11 +32,8 @@ Click into any catalog to manage it with the same options available from its own
 :--- | ---
 <a href="/documents/document-overview/update-folder/">Update Folder</a> | Change folder details like name or title and perform advanced functions like deleting a folder.
 <a href="/documents/document-overview/upload/">Upload</a> | Drag and drop or browse files into your folder.
-<a href="/documents/document-overview/add-folder/">Add Folder</a> | Create a new folder and add specific details like name and title.
-<a href="/documents/document-overview/add-file/">Add File</a> | Add an HTML or code file type into a folder.
-<a href="/documents/document-overview/add-file-group/">Add File Group</a> | Create a new File Group within a folder.
-<a href="/documents/document-overview/add-category/">Add Category</a> | Group and organize content items in categories.
+<a href="/documents/add-folder/">Add Folder</a> | Create a new folder and add specific details like name and title.
 <a href="/documents/document-overview/permissions/">Permissions</a> | Manage user access to files and folders with specific roles.
-<a href="/documents/manage-file-folder/copy/">Copy</a> | Creates a duplicate of a file.
-<a href="/documents/manage-file-folder/move/">Move</a> | Moves the file to a new location.
-<a href="/documents/manage-file-folder/delete/">Delete</a> | Removes a file permanently from the CMS.
+<a href="/documents/document-overview/copy/">Copy</a> | Creates a duplicate of a file.
+<a href="/documents/document-overview/move/">Move</a> | Moves the file to a new location.
+<a href="/documents/document-overview/delete/">Delete</a> | Removes a file permanently from the CMS.

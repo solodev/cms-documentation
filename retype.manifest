@@ -1,6 +1,6 @@
 {
   "version": "3.12.0",
-  "created": "2026-08-29T23:03:01Z",
+  "created": "2026-08-30T00:15:56Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -131,19 +131,35 @@
       "path": "dashboard\\index.html"
     },
     {
-      "path": "documents\\document-overview\\add-category\\index.html"
+      "path": "documents\\add-folder\\index.html"
     },
     {
-      "path": "documents\\document-overview\\add-file-group\\index.html"
+      "path": "documents\\document-overview\\add-category\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\document-overview\\add-file\\index.html"
+      "path": "documents\\document-overview\\add-file-group\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\document-overview\\add-folder\\index.html"
+      "path": "documents\\document-overview\\add-file\\index.html",
+      "old": true
+    },
+    {
+      "path": "documents\\document-overview\\add-folder\\index.html",
+      "old": true
+    },
+    {
+      "path": "documents\\document-overview\\copy\\index.html"
+    },
+    {
+      "path": "documents\\document-overview\\delete\\index.html"
     },
     {
       "path": "documents\\document-overview\\index.html"
+    },
+    {
+      "path": "documents\\document-overview\\move\\index.html"
     },
     {
       "path": "documents\\document-overview\\permissions\\index.html"
@@ -155,52 +171,67 @@
       "path": "documents\\document-overview\\upload\\index.html"
     },
     {
-      "path": "documents\\editing-files\\add-to-group\\index.html"
+      "path": "documents\\editing-files\\add-to-group\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\code-files\\index.html"
+      "path": "documents\\editing-files\\code-files\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\copy\\index.html"
+      "path": "documents\\editing-files\\copy\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\delete\\index.html"
+      "path": "documents\\editing-files\\delete\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\history\\index.html"
+      "path": "documents\\editing-files\\history\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\html-files\\index.html"
+      "path": "documents\\editing-files\\html-files\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\includes\\index.html"
+      "path": "documents\\editing-files\\includes\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\index.html"
+      "path": "documents\\editing-files\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\move\\index.html"
+      "path": "documents\\editing-files\\move\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\overwrite-current-file\\index.html"
+      "path": "documents\\editing-files\\overwrite-current-file\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\show-or-hide-meta-data\\index.html"
+      "path": "documents\\editing-files\\show-or-hide-meta-data\\index.html",
+      "old": true
     },
     {
       "path": "documents\\index.html"
     },
     {
-      "path": "documents\\manage-file-folder\\copy\\index.html"
+      "path": "documents\\manage-file-folder\\copy\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\manage-file-folder\\delete\\index.html"
+      "path": "documents\\manage-file-folder\\delete\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\manage-file-folder\\index.html"
+      "path": "documents\\manage-file-folder\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\manage-file-folder\\move\\index.html"
+      "path": "documents\\manage-file-folder\\move\\index.html",
+      "old": true
     },
     {
       "path": "engage\\add-experiment\\index.html"
@@ -953,7 +984,8 @@
       "path": "images\\copy-stml.jpg"
     },
     {
-      "path": "images\\copy.jpg"
+      "path": "images\\copy.jpg",
+      "old": true
     },
     {
       "path": "images\\copy.png"
@@ -1052,7 +1084,8 @@
       "path": "images\\delete-site.png"
     },
     {
-      "path": "images\\delete.jpg"
+      "path": "images\\delete.jpg",
+      "old": true
     },
     {
       "path": "images\\delete.png"
@@ -1082,19 +1115,44 @@
       "path": "images\\documents.jpg"
     },
     {
-      "path": "images\\documents\\documents-actions.jpg"
+      "path": "images\\documents\\add-folder-form.png"
     },
     {
-      "path": "images\\documents\\documents-overview.jpg"
+      "path": "images\\documents\\documents-actions.jpg",
+      "old": true
     },
     {
-      "path": "images\\documents13.jpg"
+      "path": "images\\documents\\documents-overview.jpg",
+      "old": true
+    },
+    {
+      "path": "images\\documents\\folder-toolbar.png"
+    },
+    {
+      "path": "images\\documents\\permissions-form.png"
+    },
+    {
+      "path": "images\\documents\\update-folder-advanced.png"
+    },
+    {
+      "path": "images\\documents\\update-folder-top.png"
+    },
+    {
+      "path": "images\\documents\\update-folder-website-props.png"
+    },
+    {
+      "path": "images\\documents\\upload-form.png"
+    },
+    {
+      "path": "images\\documents13.jpg",
+      "old": true
     },
     {
       "path": "images\\documents14.jpg"
     },
     {
-      "path": "images\\documents14.png"
+      "path": "images\\documents14.png",
+      "old": true
     },
     {
       "path": "images\\documents16.jpg"
@@ -1214,7 +1272,8 @@
       "path": "images\\folders\\add-file.png"
     },
     {
-      "path": "images\\folders\\add-folder.jpg"
+      "path": "images\\folders\\add-folder.jpg",
+      "old": true
     },
     {
       "path": "images\\folders\\add-folder.png"
@@ -1268,7 +1327,8 @@
       "path": "images\\folders\\update-folder.png"
     },
     {
-      "path": "images\\folders\\upload-files.png"
+      "path": "images\\folders\\upload-files.png",
+      "old": true
     },
     {
       "path": "images\\folders\\website-properties.jpg"
@@ -1700,10 +1760,12 @@
       "path": "images\\manage_profile.png"
     },
     {
-      "path": "images\\manage-documents.jpg"
+      "path": "images\\manage-documents.jpg",
+      "old": true
     },
     {
-      "path": "images\\manage-documents.png"
+      "path": "images\\manage-documents.png",
+      "old": true
     },
     {
       "path": "images\\manage-folder.jpg",
@@ -1716,7 +1778,8 @@
       "path": "images\\manage.png"
     },
     {
-      "path": "images\\managefilesfolders.jpg"
+      "path": "images\\managefilesfolders.jpg",
+      "old": true
     },
     {
       "path": "images\\member-permissions.jpg"
@@ -1919,7 +1982,8 @@
       "path": "images\\modules3.jpg"
     },
     {
-      "path": "images\\move.jpg"
+      "path": "images\\move.jpg",
+      "old": true
     },
     {
       "path": "images\\move.png"
@@ -3131,7 +3195,8 @@
       "path": "images\\workspace.png"
     },
     {
-      "path": "images\\workspace\\documents\\copy-file-folder.jpg"
+      "path": "images\\workspace\\documents\\copy-file-folder.jpg",
+      "old": true
     },
     {
       "path": "images\\wowza.jpg"

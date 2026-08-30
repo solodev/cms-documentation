@@ -1,44 +1,34 @@
-# Update Folder 
+# Update Folder
 
-Folders are built in a nested tree hierarchy and serve as containers of all Solodev resources including files and folders to the website(s). Modify and customize folders to suit your needs. A folder can be used as a document repository for a company intranet or used to store HTML, TPL, and STML files destined for the web.
+Change a folder's own name, title, and description, map it into a website's navigation, or delete it. From a folder's page, open the **...** menu and click **Update**.
 
-<img src="../../../../images/documents13.jpg" alt="documents13" style="width: 40%; display: block"></a>
+<p><img src="../../../../images/documents/update-folder-top.png" alt="Update panel: Name, Title, Description"></p>
 
 **Name** | **Description**
 :--- | ---
-Name | Add or change the folder name.
-Title | Add or change the folder title.
-Description | Add or change the folder description.
+Name | The folder's internal name.
+Title | The folder's display title.
+Description | An optional description.
 
 ## Website Properties
 
-Control how folders work with websites.
+Optionally map this folder into a website's front-end navigation.
 
-<img src="../../../../images/manage-documents.png" alt="documents15" style="width: 40%; display: block"></a>
+<p><img src="../../../../images/documents/update-folder-website-props.png" alt="Website Properties section"></p>
 
 **Name** | **Description**
 :--- | ---
-Menu Name | Add or change the folder name in the menu navigation.
-Rank | Add or change the rank that orders the folder when displayed in the menu navigation. **Lowest number listed first.**
-Layout | Add or change the layout. The layout is predefined templates. The way the contents of a folder will be displayed in the navigation is based on it.
-Levels | Add or change levels. The level says how deep the elements in the folder will be displayed in the navigation.
-Datable Category Group ID | Select the datable category group ID. This is the ID for a group of categories.
-Datable Category ID | Add or change the datable category ID. This is the ID for a specific category.
-Upload Image | Add an image to the folder or change it. It allows querying the image associated with the folder.
-Include in Website Navigation | Mark this option to structure the folder to display in navigation menus.
-Restrict Access in Website to Authorized Users | Mark this option to protect content with a password.
-Enable Publish Contents to Filesystem | Mark this option to grant access to publish
+Menu Name | The label shown for this folder in navigation menus.
+Rank | Where this folder sorts among its siblings in navigation. Lowest number listed first.
+Layout | Which predefined layout template controls how this folder's contents render in navigation.
+Levels | How many levels deep this folder's own contents show in navigation.
+Datatable Category Group ID / Datatable Category ID | Associate this folder with a specific category group/category.
 
 ## Advanced
 
-Execute advanced operations.
-
-<img src="../../../../images/documents14.png" alt="documents14" style="width: 30%; display: block"></a>
+<p><img src="../../../../images/documents/update-folder-advanced.png" alt="Advanced section with the Delete confirmation"></p>
 
 **Name** | **Description**
 :--- | ---
-Delete | Type **DELETE** in all caps into the field and click the red Delete button to remove the folder.
-
-## Confirm
-
-Once you have completed all the fields, click **Submit** to apply your changes.
+Type DELETE to confirm | Type **DELETE** (all caps) to enable the button.
+Delete | Permanently deletes this folder and everything in it. This can't be undone.
