@@ -1,6 +1,8 @@
-# CMS Micro AWS
+# CMS Micro
 
-<p>The perfect launch pad for small development or proof of concept (PoC) projects, CMS Micro AWS offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.</p>
+<p>The perfect launch pad for small development or proof of concept (PoC) projects, CMS Micro offers best-of-breed content management features in a streamlined package. Build amazing websites with total control and flexibility – and deploy rapidly on a single server with a secure, reliable, and affordable hosting infrastructure powered by the AWS Cloud.</p>
+
+<p><a href="https://aws.amazon.com/marketplace/pp/prodview-vfh6feu6ofujq" target="_blank" rel="noopener noreferrer">CMS Micro on AWS Marketplace</a> &mdash; $99.00/month + $0.20&ndash;$0.60/hour usage, by EC2 instance type.</p>
 
 ## Prerequisites
 

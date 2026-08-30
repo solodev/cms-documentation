@@ -4,14 +4,14 @@
 
 Solodev is an enterprise content management system (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud.
 
-Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b" target="_blank" rel="noopener noreferrer">AWS Marketplace</a>. Subscription licensing is available in a Professional Edition, Enterprise Edition, or container option for Kubernetes. Click on a product in the table below to view a Quickstart guide:
+Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b" target="_blank" rel="noopener noreferrer">AWS Marketplace</a>. Subscription licensing is available as CMS Micro, CMS Pro, CMS Enterprise, or a containerized option for Kubernetes (CMS for EKS). Click on a product in the table below to view a Quickstart guide:
 
 **Name** | **Description** 
 :--- | ---
 [Micro](/quickstart/solodev-micro/) | The perfect launch pad for small development or proof of concept (PoC) projects.
-[Professional](/quickstart/solodev-pro/) | A single-server deployment designed for business-level projects that require moderate scalability.
+[Pro](/quickstart/solodev-pro/) | A single-server deployment designed for business-level projects that require moderate scalability.
 [Enterprise](/quickstart/solodev-enterprise/) | A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps. 
-[Kubernetes](/quickstart/solodev-cms-for-kubernetes/) | A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. Only available in the AWS Marketplace.
+[CMS for EKS](/quickstart/solodev-cms-for-kubernetes/) | A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. Only available in the AWS Marketplace.
 
 !!!Tip:
 Need help with a custom enterprise deployment with unique requirements? <a href="https://www.solodev.com/contact/" target="_blank" rel="noopener noreferrer">Contact our professional services team</a>.

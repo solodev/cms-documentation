@@ -1,12 +1,14 @@
-# CMS Enterprise Edition
+# CMS Enterprise
 
-Solodev CMS Enterprise Edition is an enterprise-grade content management system built from the ground up for Amazon Web Services (AWS). It is designed for high-availability websites and apps that require a secure, scalable, and redundant infrastructure powered by the AWS Cloud.
+CMS Enterprise is an enterprise-grade content management system built from the ground up for Amazon Web Services (AWS). It is designed for high-availability websites and apps that require a secure, scalable, and redundant infrastructure powered by the AWS Cloud.
+
+<p><a href="https://aws.amazon.com/marketplace/pp/prodview-btylxhjxu6pew" target="_blank" rel="noopener noreferrer">CMS Enterprise on AWS Marketplace</a> &mdash; $999.00/month + $0.40&ndash;$0.70/hour usage, by EC2 instance type.</p>
 
 ## Overview
 
-Solodev CMS Enterprise Edition deploys a cluster of three servers, complete with load balancing and auto-scaling services. This architecture allows your websites and apps to meet the most demanding traffic while maintaining the highest levels of uptime.
+CMS Enterprise deploys a cluster of three servers, complete with load balancing and auto-scaling services. This architecture allows your websites and apps to meet the most demanding traffic while maintaining the highest levels of uptime.
 
-Solodev CMS Enterprise Edition is available in the AWS Marketplace and can be instantly deployed in your account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="_blank">AWS CloudFormation</a>. It leverages an advanced stack of AWS cloud stack to deliver a scalable and reliable workload, including:
+CMS Enterprise is available in the AWS Marketplace and can be instantly deployed in your account using <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="_blank">AWS CloudFormation</a>. It leverages an advanced stack of AWS cloud stack to deliver a scalable and reliable workload, including:
 
 * <a href="https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html" target="_blank">Amazon Elastic Load Balancer (ELB)</a>
 * <a href="https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html" target="_blank">Amazon Certificate Manager (ACM)</a>
@@ -42,7 +44,7 @@ Before launching CMS Enterprise, you will need to subscribe to Solodev on the AW
 
 ## AWS Setup
 
-At the top of the AWS Marketplace listing page for the Solodev CMS Enterprise Edition, click the **“Continue to Subscribe”** button.
+At the top of the AWS Marketplace listing page for the CMS Enterprise, click the **“Continue to Subscribe”** button.
 
 ### Subscribe to this Software
 

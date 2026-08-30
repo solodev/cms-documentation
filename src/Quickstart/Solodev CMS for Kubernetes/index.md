@@ -1,20 +1,20 @@
-# Kubernetes for EKS
+# CMS for EKS
 
-Solodev also offers a fully containerized version of the Solodev CMS for Kubernetes with orchestration via AWS EKS (Elastic Kubernetes Service) or Amazon ECS (Elastic Container Service). Ideal for high-availability enterprise applications, Solodev CMS for Kubernetes provides a flexible, modern, scalable solution for delivering websites and applications to meet the most demanding production requirements. 
+A fully containerized version of Solodev CMS orchestrated via AWS EKS (Elastic Kubernetes Service). Ideal for high-availability enterprise applications, CMS for EKS provides a flexible, modern, scalable solution for delivering websites and applications to meet the most demanding production requirements.
 
-Supported services also include Amazon EKS Anywhere and Self-Managed Kubernetes. Deploy from AWS Marketplace via Helm chart or container, with nodes available in multiple pricing tiers. 
+<p><a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6" target="_blank" rel="noopener noreferrer">CMS for EKS on AWS Marketplace</a> &mdash; billed per-node, starting at $875.00/month for a single node, with volume tiers up to 10,000 nodes and multi-year contract discounts.</p>
 
 ## Overview
 
 Launch Amazon Elastic Kubernetes Service (EKS) in a new cluster and manage your containers at any scale with Solodev. Launch your applications rapidly and across AWS Regions and Availability Zones, and move from environment to environment regardless of operating system.
 
-Solodev Kubernetes for EKS uses a set of YAML templates to create a new EKS cluster. All YAML templates are deployed via <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="blank">AWS CloudFormation</a>.
+CMS for EKS uses a set of YAML templates to create a new EKS cluster. All YAML templates are deployed via <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html" target="blank">AWS CloudFormation</a>.
 
 <!-- <p><img src="../../images/quickstart/kubernetes/solodev-kubernetes-template.jpg" alt="Solodev EKS Architecture Diagram" style="width: 80%;"></p> -->
 
 ## Prerequisites
 
-Before launching CMS Kubernetes, you will need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started. Once completed, return to this article and follow the instructions below:
+Before launching CMS for EKS, you will need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started. Once completed, return to this article and follow the instructions below:
 
 <div class="border p-4" style="height: 137px; margin-bottom: 20px; align-items: center; display: flex;">
   <div style="width: 50%; float: left; text-align: center;">
@@ -27,7 +27,7 @@ Before launching CMS Kubernetes, you will need to subscribe to Solodev on the AW
 
 ## AWS Setup
 
-The following steps cover the setup of the Solodev CMS for Kubernetes on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process.
+The following steps cover the setup of CMS for EKS on the AWS Marketplace. Click the **“Continue to Subscribe”** button at the top of the AWS Marketplace listing page to continue the process.
 
 <!-- <p><img src="../../images/quickstart/kubernetes/cms-eks-marketplace-listing.jpg" alt="AWS Marketplace listing" style="width: 80%;"></p> -->
 
