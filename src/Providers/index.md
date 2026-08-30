@@ -13,15 +13,19 @@ Everything related to connecting Solodev CMS to outside infrastructure and servi
 
 **Name** | **Description**
 :--- | ---
-[Connect your DNS](/providers/solodev/connect-your-dns/) | Point your domain's DNS records at your Solodev CMS deployment.
-[Registering Domain](/providers/solodev/registering-domain/) | Register a domain and configure the DNS records it needs.
-[Restrict Access to Authorized Users](/providers/solodev/how-to-restrict-access-in-website-to-authorized-users/) | Lock down parts of your front-end website to logged-in, authorized users.
 [Add Webpack to your website](/providers/solodev/how-to-add-webpack-to-your-website/) | Bundle JavaScript, SCSS, and CSS for more advanced frontend styling.
-[Configure IPQualityScore](/providers/solodev/configure-ipquailty/) | Coming soon.
 
-## Google
+## GoDaddy
 
-[Coming soon.](/providers/google/)
+**Name** | **Description**
+:--- | ---
+[GoDaddy](/providers/godaddy/) | Register a domain and point its DNS at your Solodev CMS deployment.
+
+## Route53
+
+**Name** | **Description**
+:--- | ---
+[Route53](/providers/route53/) | Point AWS Route 53 DNS at your Solodev CMS deployment.
 
 ## Permissions
 
@@ -32,3 +36,7 @@ Everything related to connecting Solodev CMS to outside infrastructure and servi
 ## OAuth Providers
 
 For the CMS's own Provider connections -- SSO, Customer.io, Google Business Profile, Mailchimp, Constant Contact, Dynamics 365, DeepL, Salesforce, and accessibility scanning providers -- see [Admin > Settings > Providers](/admin/settings/providers/).
+
+!!! Note:
+Looking for password-protecting part of a website's frontend? See [Restricted Access](/websites/restricted-access/) under Websites.
+!!!
