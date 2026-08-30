@@ -7,4 +7,4 @@ Published Agent / Trigger ID | The identifier of the remote agent being connecte
 Description | What this agent is for.
 Read-only CMS access | Restrict the agent to reading CMS data without making changes.
 
-After creating the agent, continue in [Agent Studio](/organization/agents/agent-studio/), [Edit Mapping](/organization/agents/edit-mapping/), and [MCP Settings](/organization/agents/mcp-settings/) to finish configuring it.
+After creating the agent, continue in [Agent Studio](/organization/agents/agent-overview/agent-studio/), [Edit Mapping](/organization/agents/agent-overview/edit-mapping/), and [MCP Settings](/organization/agents/agent-overview/mcp-settings/) to finish configuring it.

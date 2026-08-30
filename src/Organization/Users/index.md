@@ -6,11 +6,5 @@ View, manage, and invite users to your CMS deployment and see what groups they a
 
 **Name** | **Description** 
 :--- | ---
-<a href="/organization/users/add-user">Invite User(s)</a> | Add new users to your CMS deployment
-
-
-!!! Note:
-New users are added through your Solodev CMS deployment and must first be registered in Solodev Cloud.
-!!!
-
----
+<a href="/organization/users/add-user/">Invite User(s)</a> | Add new users to your CMS deployment.
+<a href="/organization/users/user-overview/">User Overview</a> | View and manage an existing user.
