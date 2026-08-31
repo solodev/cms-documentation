@@ -2,49 +2,42 @@
 
 Add, store, and manage API tokens associated with your account, allowing you to authenticate your connection to different apps and services.
 
-Existing tokens are listed in the table on the API tokens dashboard. Each token is shown with specific details, including the token name, the API key, and the status. From the main dashboard, you can manage the status of your API token, reset it, or delete it.
+Existing tokens are listed in a table on this page, each with its name, API key, status, and version.
 
-<img src="../../../../images/account-api-tokens.png" alt="api tokens" style="width: 100%; display: block"></a>
-
-!!!Tip:
-Most software APIs require the use of an API token. To connect and manage apps and services with your API tokens using Solodev, please review the <a href="/admin/api/#api">API section</a>, and the more advanced features in the <a href="/admin/api/api-tokens/#api-tokens">Solodev Cloud</a> documentation. 
-!!!
+<p><img src="../../../images/profile/tokens-list.png" alt="API Tokens list with a real, active token"></p>
 
 **Name** | **Description** 
 :--- | ---
-Name | The name of your API token.
-Token | The API key for your specific app or service. Note that the default state is hidden, but the key can be revealed by clicking the **eye icon** to the right of the token.
-Change Status | Toggle your token from active to inactive.
-<a href="/profile/security/api-tokens/#add-token">Add Token</a> | Enter an API key to add to your table.  
-<a href="/profile/security/api-tokens/#reset-token">Reset Token</a> | Force a reset of your token.
-Delete Token | Remove a token from your account. 
+Name | The name you gave the token when you created it.
+API Key | The token itself. Hidden by default -- click the eye icon to reveal it, or the copy icon to copy it.
+Status | **Active** or **Inactive**. Click **Make inactive** / **Activate** to toggle it.
+Version | The API version this token is scoped to.
+Delete | Permanently remove the token.
+
+<p><img src="../../../images/profile/tokens-revealed.png" alt="API Tokens list with the key revealed"></p>
 
 ## Add Token
 
-Add a custom API token to your account and manage it from your dashboard table. 
+Click **Add API Token**.
 
-<img src="../../../../images/account-add-token.png" alt="add token" style="width: 40%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-Name | Enter the name of your new token.
-
-### Confirm 
-
-Once you have entered your new username, click **Submit**.
-
-## Reset Token
-
-Force an API token to reset by clicking the **Reset** link at the dashboard table's far right of each row. 
-
-<img src="../../../../images/account-delete.png" alt="reset token" style="width: 40%; display: block"></a>
+<p><img src="../../../images/profile/add-token.png" alt="Add API Token form"></p>
 
 **Name** | **Description** 
 :--- | ---
-Reset | Reset your token.
-Change Status | Toggle your token from active to inactive.
-Delete Token | Instantly remove a token from your account by clicking the **X** at the far right of each row in the dashboard table. 
+Name | Optional name to help you identify this key.
 
-!!!Note:
-Deleting an API token cannot be undone. Once removed, the key will need to be re-added. 
+Click **Submit** to create the token.
+
+## Change status
+
+Click **Make inactive** (or **Activate**, if it's already inactive) next to a token. Confirm on the flyout that appears.
+
+<p><img src="../../../images/profile/token-toggle-confirm.png" alt="Confirmation flyout for changing a token's status"></p>
+
+!!! Note:
+Deactivating a token immediately stops it from working -- you won't be able to use that API key until you reactivate it. Deleting a token cannot be undone; once removed, you'll need to create a new one.
 !!!
+
+## Delete
+
+Click **Delete** next to a token, then confirm. This can't be undone -- the key will need to be re-added if you need it again.
