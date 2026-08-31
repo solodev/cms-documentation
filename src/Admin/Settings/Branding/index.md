@@ -1,42 +1,30 @@
 # Branding
 
-Branding displays your logo and custom CSS.
+Branding controls how the CMS backend itself looks for your organization &mdash; the logo, button colors, custom CSS, and an optional custom dashboard shown after login.
 
-<img src="../../../images/branding.jpg" alt="branding" style="width: 100%; display: block"></a>
+<p><img src="../../../images/admin/settings/branding/branding.png" alt="Branding page, with Custom CSS and Custom Dashboard expanded"></p>
 
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-Upload Logo | Upload the logo from your computer.  
-<a href="/admin/settings/branding/#custom-css">Custom CSS</a> | Modify the look and feel of your backend experience. 
-<a href="/admin/settings/branding/#custom-dashboard">Custom Dashboard</a> | Update what is first seen when logging into CMS.
-
-!!!Note:
-Recommended logo size: 360px x 360px.
-!!!
+Logo | Click **Browse** to pick a logo from Documents. Recommended size: 360px x 360px.
+Custom CSS | Change the primary/secondary button colors and add raw CSS to restyle the backend. Collapsible.
+Custom Dashboard | Replace the default Dashboard with your own markup. Collapsible.
 
 ## Custom CSS
 
-Modify the look and feel of your backend experience. 
-
-<img src="../../../images/branding2.jpg" alt="branding2" style="width: 100%; display: block"></a>
-
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-Change Primary Button Color | Change primary button color. Click it and choose the color.
-Change Secondary Button Color | Change secondary button color. Click it and choose the color.
-Custom CSS | Type custom CSS code.
+Primary Button Color / Secondary Button Color | Click a swatch to pick a color, or type a hex value directly.
+Back to default colors | Reset both colors to the CMS defaults.
+Custom CSS | Raw CSS applied on top of the backend's own styles.
 
 ## Custom Dashboard
 
-Update what is first seen when logging into CMS.
-
-<img src="../../../images/branding3.jpg" alt="branding3" style="width: 100%; display: block"></a>
-
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-Enable Custom Dashboard | Mark this option if you want a custom dashboard enabled.
-Custom Dashboard Markup | Enter custom dashboard markup.
+Enable Custom Dashboard | Turn on to replace the default Dashboard with your own markup below.
+Custom Dashboard Markup | The HTML shown in place of the default Dashboard once enabled.
 
 ## Confirm
 
-Click the blue **Submit** button at the bottom right to apply your changes.
+Click **Submit** to apply your changes.
