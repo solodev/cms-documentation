@@ -1,139 +1,55 @@
 # Building Custom Shortcodes
 
-## Overview
+A website can register its own PHP file of custom shortcodes, on top of the built-in ones covered elsewhere in this section. This walks through building a `[hello]` shortcode from scratch.
 
-With Solodev CMS, users can utilize shortcodes to build dynamic, feature rich applications with maximum functionality and little coding knowledge. Solodev CMS 9 allows developers to create their own custom shortcodes that can be leveraged to create custom modules inside Solodev. This article teaches developers how to build custom shortcodes in Solodev 9. For example, this document will build a hello world short code. 
+## Step 1: Create a PHP shortcode file
 
-Step 1 Create a PHP short code file 
- 
-Open the www folder and create a shortcodes folder. 
+Create a `.php` file (for example, under web files > content > a `shortcodes` folder) using **Add File** > **Code**, and append the `.php` extension to the file name.
 
-Open the shortcodes folder and create a shortcodes.php file. 
+Define a function for your shortcode and register it with `add_shortcode()`. The function name is the shortcode's implementation; the first argument to `add_shortcode()` is the tag name used in `[brackets]`:
 
-Select Code under the File Type section of the Add File modal and append the .php extension to the file name. 
-
-In the shortcodes.php file create a shortcode function called ‘hello’ The name of the function is the name of the shortcode. In the code below, attributes are passed to the function as arguments and the required Solodev function is called.  
-```js
+```php
 <?php
-function hello($atts, $content = null){
-
-notify_solodev_shortcode();
-
+function hello($atts, $content = null) {
+    notify_solodev_shortcode();
+    return "Hello world!";
 }
-?>
-```
-Create a PHP variable called $hello to store the string value “hello world” and return the contents of the variable: 
-```js
-$hello = "Hello world!";
-
-return $hello;
-```
-After creating a function to return the contents of the $hello variable, add this function to create the shortcode: 
-```js
 add_shortcode('hello', 'hello');
-``` 
-
-Click Publish.
-
-The full code block for the hello shortcode is listed below: 
-```js
-<?php
-function hello($atts, $content = null){
-
-notify_solodev_shortcode();
-
-$hello = "Hello world!";
-
-return $hello;15.96+12.
-
-}
-
-add_shortcode('hello', 'hello');
-
-?>
 ```
 
-Note: Every shortcode function should be written in the following format -- passing the variables $atts and $content as arguments and assigning $content to a null value.
- 
-```js
-function foo_bar($atts, $content = null) {
-  notify_solodev_shortcode(); }
-```
+Every shortcode function takes the same two arguments &mdash; `$atts` (an array of the attributes passed in the tag) and `$content` (the enclosed content, or `null` for a self-closing tag) &mdash; and should call `notify_solodev_shortcode()` first.
 
-Step 2 – Mapping the shortcode file to the website
-To map the shortcode created, open the website and click Settings to bring up the Settings modal. 
+## Step 2: Map the shortcode file to the website
 
-Expand the Advanced accordion. 
+Open the website, go to **Update Website**, expand the **Advanced** accordion, and use **Browse** under **Custom Shortcodes File** to select the `.php` file you created. Click **Submit**.
 
-Under the ‘Custom Shortcodes File’ section click Browse.
+The CMS includes this file on every page render for that website, so any `add_shortcode()` calls inside it become available immediately.
 
-Select the shortcodes.php file. 
+## Step 3: Use the shortcode
 
-Click Submit. 
+Add `[hello]` anywhere in a page's content and publish. If your shortcode encloses content instead of self-closing, wrap it the same way a built-in one does:
 
-Step 3 – Adding the shortcode to a .tpl file 
-Expand the web files -> content directory and open the folder that will contain the .tpl file. 
-
-Create the .tpl file. Select Code under the File Type and append .tpl to the filename. 
-
-Open the .tpl file and type: 
 ```js
 [hello]
-```
-Click Publish.  
-
-Step 4 – Displaying the contents of the shortcode on the website 
-Open the page that will contain the .tpl file with the shortcode.
-
-Select the dropzone.
-
-Click the .tpl file to insert it into the dropzone. 
-
-Click Publish. 
-
-The contents of the string are displayed on the page. 
-
-Note: When the $content value is set to null, users can set the content within the shortcode using the following format: 
- 
-```js
-[hello]
-
 My content goes here
-
 [/hello]
 ```
-An example of this is reflected in the repeater shortcode:
- 
-```js
-[repeater id="##" limit="0,2"]
-<h2>{{event_title}}</h2>
-<p>{{blog_intro}}</p>
-<a href="{{path}}">{{event_title}}</a>
-[/repeater]
-```
-Note: The $atts variable allows users to set strings and variables when using shortcodes. With the following print_date shortcode,
 
-```js
-<?php
+When a shortcode is self-closing (`$content` is `null`), read attributes from `$atts` instead. For example, the built-in `[print_date]` shortcode:
 
-function print_date($atts, $content = null){
-notify_solodev_shortcode();
-if(!isset($atts['format']))
-    return "format is required";
-  if($atts["datestring"])
-    $timestamp = strtotime($atts["datestring"]);
-  else if($atts["timestamp"])
-    $timestamp = $atts["timestamp"];
-  else
-    $timestamp = time();
-  return date($atts["format"], $timestamp);
+```php
+function print_date($atts, $content = null) {
+    notify_solodev_shortcode();
+    if (!isset($atts['format'])) {
+        return "format is required";
+    }
+    return date($atts['format'], $atts['timestamp'] ?? time());
 }
 add_shortcode('print_date', 'print_date');
-?>
 ```
-users can print the date and time by entering the following short code into a .tpl file and adding it to a page: 
 
-```js
-[print_date format="F j, Y, g:i a"]
-```
- 
+is used as `[print_date format="F j, Y, g:i a"]`.
+
+## Advanced: a CustomShortcode class
+
+If your shortcode file defines a `Website\CustomShortcode` class, the CMS instantiates it automatically after including the file &mdash; useful for grouping several related shortcodes, or for anything that needs setup beyond a single function (dependency injection via the container, shared state between shortcodes, etc.). A plain file of `add_shortcode()` calls, as shown above, is enough for most cases.

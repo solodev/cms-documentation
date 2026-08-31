@@ -1,499 +1,63 @@
 # Module
 
-This article provides an overview of shortcodes used for multi-functional, date-based elements called <a href="/modules/">modules</a>. 
+Pull and filter entries from a <a href="/modules/">Datatable or Calendar module</a>: repeaters, detail pages, categories, tags, and pagination.
 
-## Repeater
+## Repeaters (lists of entries)
 
-Refers to the user interface template, printing fields in the form of PHP variables through an $item array.
-  
-Attributes:
-
-**Attributes** | **Description** 
+**Shortcode** | **Description**
 :--- | ---
-```[id](required)``` | ID of the module from which the data is pulling. 
-```[limit](required)``` | 0 starting at the first entry and the second integer specifying the number of entries to display on the page.
-```[order](optional)``` | Specifies how the repeater will organize the data such as by “start_time desc” which will organize entries by the latest start time first.
-```[type](optional)``` | Specifies the type of manager that provides the data (default: calendar).
-```[display_type]```(optional) | Changes the date filter (Options: “news”, “events”).
-```[category_filter]```(optional) | Filter list of entries by category.
-```[tag_filter]``` (optional) | Filter list of entries by tags selected in a textbox.
-```[pages]```(optional) | Paginate list of entries.
-```[offset]``` (optional) | Skip entries at the start of the query. (For example, offset = “5” skips the first five entries in the list.
-```[where]```(optional) | Perform a SQL query on the database.
-```[website_filter]```(optional) | Filter list of news items by website.
+`repeater` | The general-purpose list shortcode &mdash; dispatches to `datatable_repeat` or `cal_repeat` based on `type`. Requires `id` (the module's id); optional `type` (`datatable` or `calendar`, default `calendar`), `limit` (e.g. `0,4`), `order`, `where`, `display_type` (`news` or `events`, adjusts the default date filter), `category_filter`, `tag_filter`, `pages` (paginate), `offset`, `website_filter`. Use `{{field_name}}` inside to print an entry's fields &mdash; field names come from the module's Table Schema.
+`cal_repeat` (alias `calendar_repeat`) | The Calendar-specific version of `repeater`. Same attributes, minus `type`.
+`datatable_repeat` | The Datatable-specific version of `repeater`. Requires `id`; optional `limit`, `order`, `where`.
+`repeater_entries_exists` | Renders its enclosed content only if a `repeater` with the same attributes would return entries (or, with `type="does_not"`, only if it wouldn't).
+`cat_repeat` | Lists a Datatable category group's categories. Requires `id`; optional `parent_id` (list sub-categories of a category instead), `order`.
 
-{{field_name}}
+## Entry detail
 
-Insert the names of your HTML fields inside these curly braces to print out the appropriate variable. You can find the field_name on your Table Schema.
-
-```js
-[repeater]
-```
-
-Code Example:
-
-```js
-[repeater id="23" limit="0,4"]
-  <h2>{{event_title}}</h2>
-  <p>{{blog_intro}}</p>
-[/repeater]
-```
-
-## Detail
-
-Shows the specifics of an individual entry from a repeater template. 
-
-Attributes:
-
-**Attributes** | **Description** 
+**Shortcode** | **Description**
 :--- | ---
-```[id](optional)``` | Used to reference a specific entry or map the list of repeater entries to detail page entries.
+`entry` | Renders a single entry's detail fields. Auto-detects Calendar vs. Datatable from context, or set `id` and `type="datatable"`/`calendar` explicitly. Automatically hides draft/expired entries.
+`sub_entry` | Like `entry`, but for referencing a second, related entry nested inside an outer `[entry]` block. Requires `id`.
+`datatable_detail` | The Datatable-specific version of `entry`.
+`entry_url` | The URL to an entry's detail page.
+`entry_mapping` | Renders a UI for mapping one entry to another (creates `Datatable_Object_Map` rows) &mdash; used to build "related entries" pickers in the editor. Requires `id` (the source module) and `type`.
 
-Shortcode:
+## Categories & tags
 
-```js
-[entry]
-```
-
-Code Example:
-
-```js
-[entry]
-  <h1>{{name}}</h1>
-  <p>{{blog_content}}</p>
-[/entry]
-```
-
-## Sub Entry
-
-Queries a specific entry within a detail page.
-
-Attributes: 
-
-**Attributes** | **Description** 
+**Shortcode** | **Description**
 :--- | ---
-```[id](required)``` | Used to query a specific entry.
+`entry_categories_repeat` | Lists the categories assigned to an entry. Requires `id`; optional `type` (default `calendar`), `limit`.
+`entry_tags_repeat` | Lists the tags assigned to an entry. Requires `id`; optional `type` (default `calendar`).
+`category_list` | Lists a module's top-level categories.
+`sub_category_list` | Lists a category's immediate sub-categories.
+`sub_sub_category_list` | Lists a third level of nested categories.
+`categories_exist` | Renders its enclosed content only if the module has any categories.
+`sub_categories_exist` | Renders its enclosed content only if a given category has sub-categories.
+`calendar_entry_attachments_repeat` | Lists an entry's attachments (photo gallery / document share). Requires `id`. The module's **Enable Attachments / Gallery** option (Modify > Advanced) must be turned on first.
 
-Shortcode:
- 
-```js
-[sub_entry]
-``` 
+## Pagination & full calendar
 
-Code Examples:
-
-```js
-[entry]
-  <h1>{{name}}</h1>
-  [sub_entry id="###"]
-    <p>{{name}} - {{blog_content}}}</p>
-  [/sub_entry]
-[/entry]
-```
-
-## Category Filter
-
-Provides users with the ability to filter module entries by category.
-
-Attributes: 
-
-**Attributes** | **Description** 
+**Shortcode** | **Description**
 :--- | ---
-```[id](required)``` | Used to query a specific entry.
-```[category_group_id]```(required) | Specifies the ID of the datatable category group from which to pull the module’s categories.
-```[calendar_id]```(optional) | Specifies the ID of the calendar from which to pull its categories.
-```[all_value]```(optional) | Enables Bootstrap Selectize to function, improving the UI of the category dropdown. When set to “ ” it uses the first option in the select box as the all value.
-```[all_text]```(optional) | Sets the All value.
-```[input_class]```(optional) | Adds classes to the category filter.
-```[input_id]```(optional) | Adds an ID to the category filter.
+`js_pager_includes` | Self-closing &mdash; loads the JS libraries `js_pager`/`js_pager_controls` depend on. Include once near the top of the page.
+`js_pager` | Wires a `repeater`'s output up to AJAX paging/sorting/filtering. Requires `data_source_id`; optional `data_source` (`calendar` or `datatable`), `rows`, `sort`, `order`, plus IDs to bind to any filter shortcodes already on the page (`category_filter_input_id`, `date_filter_input_id`, `table_filter_input_id`, and so on).
+`js_pager_controls` | Renders the Previous/Next/page-number control template `js_pager` targets. Optional `control_id`, `callback_function`.
+`js_pager_total` | Renders a template showing the total result count.
+`pager_controls` | A simpler, non-AJAX Previous/Next control pair for a plain paginated `repeater`.
+`js_full_calendar_includes` | Self-closing &mdash; loads the FullCalendar.io JS/CSS libraries. Required alongside `js_full_calendar`.
+`js_full_calendar` | Renders an interactive month/week/day calendar view of a Calendar module's entries. Requires `calendar_id`.
+`template_repeater` | Like `repeater`, but renders an Underscore.js `<script type="text/template">` block (`<%=e.field%>` syntax) for client-side re-rendering instead of server-side HTML.
+`template_print_date` | Like [Print Date](/shortcodes/core/print-date/), but for use inside a `template_repeater`/`template_cond` block (Underscore template syntax).
+`template_cond` (alias `template_sub_cond`) | Like [cond](/shortcodes/extended/), but for use inside a `template_repeater` block.
+`template_value_isset` / `template_value_isset_assignment` | Like `value_isset`, but for use inside a `template_repeater` block; the `_assignment` variant assigns a default instead of just checking.
 
-Shortcode:
+## Forms backed by a module
 
-```js
-[category_filter]
-```
-
-Code Example:
-
-[category_filter category_group_id="32" all_value=" "]
-
-## Date Filter
-
-Provides users with the ability to filter module entries by date.
-
-Attributes:
- 
-**Attributes** | **Description** 
+**Shortcode** | **Description**
 :--- | ---
-```[class]```(optional) | Add classes to the date filter.
-```[id]```(optional) | Add an ID to the date filter.
-```[years]```(optional) | Comma separated years(2001, 2002, 2005), or two years separated by dash (2000-2010).
-```[years_format]```(optional) | Accepts “range,” “simple”(default: range).
-```[show_all_option]```(optional) | Show all dates.
-```[all_value=””]``` | Enables Bootstrap Selectize.
-```[label]```(optional) | Generates the label for the select box.
-
-Shortcode:
- 
-```js
-[date_filter]
-```
-
-Code Example:
- 
-```js
-<div class="row">
-  <div class="col-md-4">
-   [date_filter years="2010-2015" all_value=" "]
-  </div>
-</div>
-```
-
-## Month List
-
-Loops through the months of the year starting with current month. 
-
-Attributes:
-
-**Attributes** | **Description** 
-:--- | ---
-```[class]```(required) | Specify a class for CSS styling.
-```[start_year]```(optional) | The default start year (default: current year).
-```[start_month]```(optional) | The default start month(default: current month).
-
-Shortcode:
-
- 
-```js
-[month_list]
-```
-Code Example:
-
-```js
-[month_list class="month_list"]
-```
-
-## Search Filter 
-
-Allows the user to search module entries using strings or integers.
- 
-Attributes:
-
-**Attributes** | **Description** 
-:--- | ---
-```[id]```(optional) | Specify an id for CSS styling. Applies to the search bar.
-```[class]```(optional) | Specify a class for CSS styling. Applies to the search bar.
-```[button_id]```(optional) | Specify an id for CSS styling. Applies to the button.
-```[button_class]```(optional) | Specify a class for CSS styling. Applies to the button.
-```[button_text]```(optional) | Set the text for the search button.
-
-Shortcode:
-
-```js
-[search_filter]
-```
-
-Code Example:
- 
-```js
-[search_filter]
-``` 
-
-## Tag Filter 
-
-Provides users with the ability to filter module entries by tags.
-
-Attributes:
-
-**Attributes** | **Description** 
-:--- | ---
-```[id]```(optional) | Specify an id for CSS styling.
-```[class]```(optional) | Specify a class for CSS styling.
-
-Shortcode:
- 
-```js
-[tag_filter]
-```
-
-Code Example: 
-
-```js
-[tag_filter id="my-select-id" class="my-select-class]
-```
-
-## Entry Tags Repeat 
-
-Retrieves the tags to be displayed.
-
-Attributes: 
-
-**Attributes** | **Description** 
-:--- | ---
-```[id]```(required) | id of the manager where the data is pulling from.
-```[type]```(optional) | Specifies what type of manager the data is pulling from (default: calendar).
-
-Shortcode: 
- 
-```js
-[entry_tags_repeat]
-```
-
-Code Example:
-
-```js
-[entry_tags_repeat id="{{calendar_entry_id}}"]
-      <a class="text-capitalize" href="/blog/tags/{{{name}}}.stml"><u>  {{{title}}}</u></a>
-[/entry_tags_repeat]
-```
-
-## Category Repeat 
-
-Retrieves the categories to be displayed.
-
-Attributes: 
-
-**Attributes** | **Description** 
-:--- | ---
-```[parent_id]```(optional) | Allows the user to create subcategories.
-```[order]```(optional) | Rank the categories.
-
-Shortcode:
- 
-```js
-[cat_repeat]
-```
-Code Example:
-
-```js
-[cat_repeat parent_id = "###"]
-```
-
-## Repeat Entries Exist
-
-Checks to see if blog entries exist.
-
-Attributes:
-
-**Attributes** | **Description** 
-:--- | ---
-```[id]```(required) | id of the manager where the data is pulling from.
-```[type]```(optional) | Specifies what type of manager the data is pulling from (default: calendar).
-```[order]```(optional) | Specifies how the repreater will organize the data such as by "start_time desc" which will organize entries by the latest start time first. 
-```[display_type]```(optional) | Changes the date filter (Options: “news”, “events”).
-```[category_filter]```(optional) | Filter list of entries by category.
-```[tag_filter]```(optional) | Filter list of entries by tags selected in a textbox.
-```[pages]```(optional) | Paginate list of entries.
-```[offset]```(optional) | Skip entries at the start of the query. (For example, offset = “5” skips the first five entries in the list.
-```[where]```(optional) | Perform a SQL query on the database.
-```[website_filter]```(optional) | Filter list of news items by website.
-
-{{field_name}}
-
-Insert the names of your HTML fields inside these curly braces to print out the appropriate variable. You can find the field_name on your Table Schema.
-
-Shortcode:
- 
-```js
-[repeater_entries_exists]
-```
-
-Code Example:
- 
-```js
-[repeater_entries_exists id = '###' type = "calendar" limit="0,4"]
-```
-
-## Calendar Entry Attachments
-
-Gathers the attachments of a module and prints them, much like a repeater, onto a single web page. This is used in the photo gallery modules and document share. 
-
-!!!Note: 
-The photo gallery option must be activated on the module. The steps to do so are outlined below: 
-!!!
-
-Activating Photo Gallery
-
-Open the blog module and click Modify.
-
-Click the arrow in the Advanced accordion in the modal window to expand it.
-
-Scroll down and click the checkbox beside Enable Attachments / Gallery.
-
-Click Submit. 
- 
-Attributes:
-
-**Attributes** | **Description** 
-:--- | ---
-```[id]```(required) | ID of the module from which the data pulling.
-
-Shortcode: 
-
-```js
-[calendar_entry_attachments_repeat]
-```
-
-Code Example:
- 
-```js
-[calendar_entry_attachments_repeat id={{calendar_entry_id}}]
-  <div class="item">
-    <a data-gallery="multiimages" data-toggle="lightbox" href="{{{attachment_url}}}">
-      <img src="{{{attachment_url}}}" />
-    </a>
-  </div>
-[/calendar_entry_attachments_repeat]
-```
-
-## Calendar Entry Categories
-
-Gathers the categories of a module and prints them onto a single web-page.
-
-Attributes: 
-
-**Attributes** | **Description** 
-:--- | ---
-```[id]```(optional) | ID of the module from which the data is coming.
- 
-Shortcodes:
-
-```js
-[entry_categories_repeat]
-```
-
-Code Example:
- 
-```js
-<div class="services">
-  <h3>Services Included</h3>
-  [entry_categories_repeat id="{{calendar_entry_id}}"]
-    <p>{{{title}}}</p>
-  [/entry_categories_repeat]
-</div>
-```
-
-## Full Calendar
-
-This shortcode creates a representation of the full calendar plugin and retrieves calendar entries using the calendar ID of the module in question.
-
-## Full Calendar Includes
-
-Returns libraries for a full calendar fullcalendar.io/ This is used on the events modules. This shortcode has no attributes. 
-
-!!! Note:
-
-```[js_full_calendar_includes]``` and ```[js_full_calendar]``` work together. You will need to include both codes in the page in order for it to work.
-!!!
-
-Add ```[js_full_calendar_includes]``` at the top of the page.
-
-You need to choose Events as the calendar type.
-
-Attributes ```[js_full_calendar]```:
-
-**Attributes** | **Description** 
-:--- | ---
-```[calendar_id]```(required) | ID of the calendar
- 
-Shortcode:
-
-```js
-[js_full_calendar_includes]
-[js_full_calendar]
-```
-  
-Code Example:
- 
-```js
-[js_full_calendar calendar_id="110"]
-```
-
-## Event Date
-
-Prints the event end date, typically along with the event’s start date and end time according to PHP’s date function. This is used in the events module.
-
-Attributes: 
-
-**Attributes** | **Description** 
-:--- | ---
-```[format]```(required) | The date format to be returned.
-```[separator]```(optional) | Separates the month, day, and year.
-
-Shortcode:
-
-```js
-[print_event_end]
-```
-  
-Code Example:
- 
-```js
-[entry]
-  <h2>{{name}}</h2>
-  <div class="media">
-    [print_date format="F j, Y g:ia" timestamp="{{start_time}}"] [print_event_end format="F j, Y g:ia"]
-  </div>
-[/entry]
-```
-
-## Solodev Form 
-
-Populates the form from a module by a specified datatable ID. 
-
-Attributes:
-
-**Attributes** | **Description** 
-:--- | ---
-```[id]```(required) | ID of the datatable where to GET and POST entries.
-Title | Name of the folder to display on the frontend.
-
-ShortCode:
-
-```js
-[form]
-```
-
-Code Example:
-
-```js
-[form id="40"]
-```
-
-## Landing Page Form 
-
-Place a form in blog entries and landing pages.
-
-Attributes:
-
-**Attributes** | **Description** 
-:--- | ---
-```[id]```(required) | id of the form.
-
-Shortcode:
-
-```js
-[landing_page_form]
-```
-
-Code Example:
-
-```js
-[landing_page_form id="40"]
-```
-
-## CAPTCHA 
-
-Generates a CAPTCHA code image with input field to be included on a form to limit computer-generated form entries. This shortcode has no attributes. 
-
-Shortcode:
-
-```js
-[captcha]
-```
-
-Code Example:
- 
-```js
-[captcha]
-```
+`form` | Renders a Datatable's own configured form (its Form Template). Requires `id` (the Datatable's id).
+`solodev_form` | Wraps `$content` in a `<form>` that submits directly to a Datatable, without a separate form template. Requires `datatable_id`, `dynamic_id`; optional `action`, `method` (default `post`).
+`landing_page_form` | Renders a Datatable's form for use on a Calendar entry (landing page/blog post), including honeypot spam protection and re-population on validation error.
+`form_repeater_search` | A simple search box that submits to the current page (pairs with a `repeater`'s built-in `table_filter` support).
+`captcha` | Renders a CAPTCHA image + input for a form, when not viewing as an admin.
+`recaptcha` | Renders Google reCAPTCHA v3 for a form, if a site-wide reCAPTCHA key is configured.

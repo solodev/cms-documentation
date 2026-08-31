@@ -1,25 +1,27 @@
 # Shortcodes
 
-Shortcodes are the contextual templating language of Solodev. They are small pieces of code that perform dedicated functions in your CMS, simplifying the addition of features to your website. This includes things like adding custom search, embedding videos, applying navigation, and various other functionalities – all of which can be handled without writing direct code.
-
-Here’s an example of a Solodev shortcode for embedding Google Custom Search on a website:
+Shortcodes are Solodev's templating language &mdash; small `[bracketed]` tags that pull in data, control page flow, or render a widget, written directly alongside HTML in a page's markup. They're parsed server-side before a page is served.
 
 ```js
-[google_website_search]
+[google_website_search google_cse_id="XXXXXXXXXXXXXXXXXX"]
 ```
 
-Similar to other templating systems, Solodev uses double brackets `[ ]` to open and close templated expressions and double curly braces for HTML fields. Inside these brackets, a developer can use shortcode functions and reference content schema properties. These templating expressions are written alongside standard HTML.
+Self-closing shortcodes look like `[shortcode attr="value"]`. Enclosing shortcodes wrap content: `[shortcode attr="value"]...content...[/shortcode]`. Double curly braces `{{field_name}}` reference a content field inside an enclosing shortcode like `[repeater]` or `[entry]`.
 
-The Solodev shortcode framework allows you to create special kinds of functionality that can be attached to certain pages. This can be done by adding the corresponding shortcode into the page text itself. Shortcodes handle all the tricky parsing, eliminating the need for writing a custom expression for each example. Helper functions are included for setting and fetching default attributes, and the framework also supports both self-closing and enclosing shortcodes.
+## Categories
 
-## Types of Shortcodes
-
-There are several categories of shortcodes in Solodev:
-
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-<a href="/shortcodes/basic-shortcodes/">Basic shortcodes</a> | Includes fundamentals like admin, asset files, print data, lower casing text, error reporting, and more.
-<a href="/shortcodes/generic-shortcodes/">Generic shortcodes</a> | Covers common examples such as embedding Google Search, YouTube video, conditionals, and more.
-<a href="/shortcodes/shortcodes-for-login-forms/">Shortcodes for Secured Account Logins</a> | Pertains to contact and login forms for a variety of use cases.
-<a href="/shortcodes/shortcodes-for-pages--sections/">Shortcodes for Pages</a> | Features more complex functionality that can be added to web page structure such as titles, descriptions, navigation, breadcrumbs, and more.
-<a href="/shortcodes/shortcodes-for-modules/">Shortcodes for Modules</a> | Provides features for modules including repeaters, entries, date and tag filtering, and more.
+<a href="/shortcodes/core/">Core</a> | Fundamentals: admin/frontend gating, asset files, layout and formatting, string helpers, dates, error reporting.
+<a href="/shortcodes/extended/">Extended</a> | Conditionals, filters, Google Search, and other add-on integrations.
+<a href="/shortcodes/page/">Page</a> | Page and folder metadata &mdash; titles, descriptions, navigation, breadcrumbs.
+<a href="/shortcodes/module/">Module</a> | Pull and filter entries from a Datatable or Calendar module: repeaters, detail pages, categories, tags, pagination.
+<a href="/shortcodes/user/">User</a> | Login, signup, and account-management forms for secured areas of a site.
+
+!!! Note:
+Every real, currently-registered shortcode is covered somewhere in these five sections. A handful of older tags found in the CMS source are commented out or explicitly marked for removal in favor of a replacement (for example, `cal_detail` and `calendar_detail` were replaced by [entry](/shortcodes/module/)) &mdash; those aren't documented here since they don't do anything if used.
+!!!
+
+## Writing your own
+
+A website can register its own PHP file of custom shortcodes, on top of the built-in ones. See [Building Custom Shortcodes](/shortcodes/building-custom-shortcodes/).
