@@ -9,11 +9,11 @@ Everything related to connecting Solodev CMS to outside infrastructure and servi
 [CDN Information](/providers/aws/cdn-information/) | Configure your website to use a Content Delivery Network.
 [SSL Information](/providers/aws/ssl-information/) | Add an SSL certificate to secure traffic to your website.
 
-## Solodev
+## Webpack
 
 **Name** | **Description**
 :--- | ---
-[Add Webpack to your website](/providers/solodev/how-to-add-webpack-to-your-website/) | Bundle JavaScript, SCSS, and CSS for more advanced frontend styling.
+[Webpack](/providers/webpack/) | Connect once, map it to a website, and Solodev scaffolds a starter `package.json` for you -- plus the full manual guide for SCSS and JavaScript bundling.
 
 ## GoDaddy
 
