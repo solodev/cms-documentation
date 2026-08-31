@@ -2,8 +2,6 @@
 
 Your password, Two-Factor Authentication, and API tokens are all managed from one Security page.
 
-<p><img src="../../images/profile/security.png" alt="Security page"></p>
-
 **Name** | **Description** 
 :--- | ---
 [Change Password](/profile/security/change-password/) | Update your account password.
