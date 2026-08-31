@@ -1,39 +1,17 @@
 # Add Task
 
-Create a new task, assign members, and schedule a due date.
+Open the page, file, or module entry the task is about, then click the people icon in the top-right of its editor toolbar to open its task panel. Click **+ Add task**.
 
-<img src="../../../images/add-task.png" alt="add-task" style="width: 60%; display: block"></a>
---- 
+<p><img src="../../../../images/support/add-task-form.png" alt="New Task form: name, due date, and assignee"></p>
 
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-Add Task | Create a new task for a file, page, or object in your CMS deployment. 
+New Task | Type a name for the task in the box.
+Calendar icon | Set a due date.
+Assignee icon | Start typing a name to add one or more assignees.
 
-!!! Tip: 
-To add or manage tasks while logged into your CMS deployment, click on the “people” icon in the upper right corner of your screen: 
-<img src="../../../images/add-task1.png" alt="add-task1" style="width: 30%; display: block"></a>
-!!!
+Click **Submit task**. Every assignee automatically receives an email with the task details.
 
----
-
-## Task Detail
-Name your task, assign members, and add a due date.
-
-<img src="../../../images/add-task2.png" alt="add-task2" style="width: 60%; display: block"></a>
-
-**Name** | **Description** 
-:--- | ---
-New Task | Provide a name for your task. 
-Assignee(s) | Add members from your CMS deployment to your task. 
-Due Date | Use the calendar to schedule a due date for your task. 
-
-!!! Note: 
-A webpage or file containing a meta description will automatically appear in your tasks window.
-!!!
-
-## Confirm
-Once you have completed entering your task details, click **Submit task**. The member(s) assigned to the task will automatically receive an email with information regarding the task. 
-
-!!! Tip: 
-If a member has not received their task email, ask them to check their spam folder.
+!!! Tip:
+If a member says they didn't get their task email, ask them to check their spam folder.
 !!!
