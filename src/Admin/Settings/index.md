@@ -14,4 +14,3 @@ The Settings section contains a wide range of functionality regarding your Solod
 <a href="/admin/settings/workflow/">Workflow</a> | Add workflows to your forms.
 <a href="/admin/settings/reports/">Reports</a> | Check your users activity log.
 <a href="/admin/settings/branding/">Branding</a> | Update your branding and update colors.
-<a href="/admin/settings/config/">Config</a> | Add and update the configuration of your CMS.

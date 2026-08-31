@@ -47,6 +47,6 @@ Enable CDN | Turn on CDN delivery and reveal the rest of the CDN options.
 CDN website address | The CDN website address or origin URL.
 CDN Provider | Choose your CDN provider from the dropdown (for example, AWS).
 AWS CDN (distribution) | The AWS CloudFront distribution to use.
-AWS Account Config | Links to the [AWS Account](/admin/settings/config/#aws) config section to connect your AWS account.
+AWS Account Config | Links to the [AWS](/providers/aws/) provider to connect your AWS account.
 
 Click **Submit** to save your changes.
