@@ -1,6 +1,6 @@
 {
-  "version": "3.12.0",
-  "created": "2026-09-01T14:10:58Z",
+  "version": "4.6.0",
+  "created": "2026-09-01T18:38:35Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -9,7 +9,8 @@
       "path": "404.html"
     },
     {
-      "path": "account\\api-tokens\\index.html"
+      "path": "account\\api-tokens\\index.html",
+      "old": true
     },
     {
       "path": "account\\change-email\\index.html",
@@ -24,125 +25,218 @@
       "old": true
     },
     {
-      "path": "account\\index.html"
+      "path": "account\\index.html",
+      "old": true
     },
     {
-      "path": "account\\manage-email\\index.html"
+      "path": "account\\manage-email\\index.html",
+      "old": true
     },
     {
-      "path": "account\\manage-password\\index.html"
+      "path": "account\\manage-password\\index.html",
+      "old": true
     },
     {
-      "path": "account\\manage-profile\\index.html"
+      "path": "account\\manage-profile\\index.html",
+      "old": true
     },
     {
       "path": "admin\\api\\api-keys\\index.html"
     },
     {
-      "path": "admin\\api\\api-tokens\\index.html"
+      "path": "admin\\api\\api-keys\\index.md"
+    },
+    {
+      "path": "admin\\api\\api-tokens\\index.html",
+      "old": true
     },
     {
       "path": "admin\\api\\index.html"
     },
     {
+      "path": "admin\\api\\index.md"
+    },
+    {
       "path": "admin\\api\\module-api\\index.html"
+    },
+    {
+      "path": "admin\\api\\module-api\\index.md"
     },
     {
       "path": "admin\\api\\system-api\\index.html"
     },
     {
-      "path": "admin\\filesystem\\index.html"
+      "path": "admin\\api\\system-api\\index.md"
+    },
+    {
+      "path": "admin\\filesystem\\index.html",
+      "old": true
     },
     {
       "path": "admin\\index.html"
     },
     {
-      "path": "admin\\settings\\add-app\\index.html"
+      "path": "admin\\index.md"
     },
     {
-      "path": "admin\\settings\\add-workflow\\index.html"
+      "path": "admin\\settings\\add-app\\index.html",
+      "old": true
+    },
+    {
+      "path": "admin\\settings\\add-workflow\\index.html",
+      "old": true
     },
     {
       "path": "admin\\settings\\apps\\add-app\\index.html"
     },
     {
+      "path": "admin\\settings\\apps\\add-app\\index.md"
+    },
+    {
       "path": "admin\\settings\\apps\\app\\index.html"
+    },
+    {
+      "path": "admin\\settings\\apps\\app\\index.md"
     },
     {
       "path": "admin\\settings\\apps\\index.html"
     },
     {
+      "path": "admin\\settings\\apps\\index.md"
+    },
+    {
       "path": "admin\\settings\\apps\\shopping-cart\\index.html"
+    },
+    {
+      "path": "admin\\settings\\apps\\shopping-cart\\index.md"
     },
     {
       "path": "admin\\settings\\branding\\index.html"
     },
     {
+      "path": "admin\\settings\\branding\\index.md"
+    },
+    {
       "path": "admin\\settings\\collections\\add-collection\\index.html"
+    },
+    {
+      "path": "admin\\settings\\collections\\add-collection\\index.md"
     },
     {
       "path": "admin\\settings\\collections\\delete-collection\\index.html"
     },
     {
+      "path": "admin\\settings\\collections\\delete-collection\\index.md"
+    },
+    {
       "path": "admin\\settings\\collections\\index.html"
+    },
+    {
+      "path": "admin\\settings\\collections\\index.md"
     },
     {
       "path": "admin\\settings\\collections\\update-collection\\index.html"
     },
     {
-      "path": "admin\\settings\\config\\index.html"
+      "path": "admin\\settings\\collections\\update-collection\\index.md"
+    },
+    {
+      "path": "admin\\settings\\config\\index.html",
+      "old": true
     },
     {
       "path": "admin\\settings\\index.html"
     },
     {
+      "path": "admin\\settings\\index.md"
+    },
+    {
       "path": "admin\\settings\\layouts\\index.html"
+    },
+    {
+      "path": "admin\\settings\\layouts\\index.md"
     },
     {
       "path": "admin\\settings\\permissions\\index.html"
     },
     {
-      "path": "admin\\settings\\permissions\\permission-detail\\index.html"
+      "path": "admin\\settings\\permissions\\index.md"
+    },
+    {
+      "path": "admin\\settings\\permissions\\permission-detail\\index.html",
+      "old": true
     },
     {
       "path": "admin\\settings\\permissions\\permissions-overview\\index.html",
       "old": true
     },
     {
-      "path": "admin\\settings\\permissions\\view-permissions\\index.html"
+      "path": "admin\\settings\\permissions\\view-permissions\\index.html",
+      "old": true
     },
     {
       "path": "admin\\settings\\providers\\add-connection\\index.html"
     },
     {
+      "path": "admin\\settings\\providers\\add-connection\\index.md"
+    },
+    {
       "path": "admin\\settings\\providers\\delete\\index.html"
+    },
+    {
+      "path": "admin\\settings\\providers\\delete\\index.md"
     },
     {
       "path": "admin\\settings\\providers\\index.html"
     },
     {
+      "path": "admin\\settings\\providers\\index.md"
+    },
+    {
       "path": "admin\\settings\\providers\\modify\\index.html"
+    },
+    {
+      "path": "admin\\settings\\providers\\modify\\index.md"
     },
     {
       "path": "admin\\settings\\reports\\index.html"
     },
     {
+      "path": "admin\\settings\\reports\\index.md"
+    },
+    {
       "path": "admin\\settings\\workflow\\add-workflow\\index.html"
+    },
+    {
+      "path": "admin\\settings\\workflow\\add-workflow\\index.md"
     },
     {
       "path": "admin\\settings\\workflow\\index.html"
     },
     {
-      "path": "admin\\settings\\workflow\\workflow-detail\\index.html"
+      "path": "admin\\settings\\workflow\\index.md"
+    },
+    {
+      "path": "admin\\settings\\workflow\\workflow-detail\\index.html",
+      "old": true
     },
     {
       "path": "admin\\settings\\workflow\\workflow-overview\\index.html"
     },
     {
+      "path": "admin\\settings\\workflow\\workflow-overview\\index.md"
+    },
+    {
       "path": "apps\\hello-world\\index.html"
     },
     {
+      "path": "apps\\hello-world\\index.md"
+    },
+    {
       "path": "apps\\index.html"
+    },
+    {
+      "path": "apps\\index.md"
     },
     {
       "path": "CNAME"
@@ -151,220 +245,397 @@
       "path": "dashboard\\index.html"
     },
     {
-      "path": "documents\\add-category\\index.html"
+      "path": "dashboard\\index.md"
     },
     {
-      "path": "documents\\add-file-group\\index.html"
+      "path": "documents\\add-category\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\add-file\\index.html"
+      "path": "documents\\add-file-group\\index.html",
+      "old": true
+    },
+    {
+      "path": "documents\\add-file\\index.html",
+      "old": true
     },
     {
       "path": "documents\\add-folder\\index.html"
     },
     {
-      "path": "documents\\copy\\index.html"
+      "path": "documents\\add-folder\\index.md"
     },
     {
-      "path": "documents\\delete\\index.html"
+      "path": "documents\\copy\\index.html",
+      "old": true
+    },
+    {
+      "path": "documents\\delete\\index.html",
+      "old": true
     },
     {
       "path": "documents\\document-overview\\copy\\index.html"
     },
     {
+      "path": "documents\\document-overview\\copy\\index.md"
+    },
+    {
       "path": "documents\\document-overview\\delete\\index.html"
+    },
+    {
+      "path": "documents\\document-overview\\delete\\index.md"
+    },
+    {
+      "path": "documents\\document-overview\\editing-a-file\\index.html"
+    },
+    {
+      "path": "documents\\document-overview\\editing-a-file\\index.md"
+    },
+    {
+      "path": "documents\\document-overview\\history\\index.html"
+    },
+    {
+      "path": "documents\\document-overview\\history\\index.md"
     },
     {
       "path": "documents\\document-overview\\index.html"
     },
     {
+      "path": "documents\\document-overview\\index.md"
+    },
+    {
       "path": "documents\\document-overview\\move\\index.html"
+    },
+    {
+      "path": "documents\\document-overview\\move\\index.md"
     },
     {
       "path": "documents\\document-overview\\permissions\\index.html"
     },
     {
+      "path": "documents\\document-overview\\permissions\\index.md"
+    },
+    {
+      "path": "documents\\document-overview\\replace-file\\index.html"
+    },
+    {
+      "path": "documents\\document-overview\\replace-file\\index.md"
+    },
+    {
       "path": "documents\\document-overview\\update-folder\\index.html"
+    },
+    {
+      "path": "documents\\document-overview\\update-folder\\index.md"
     },
     {
       "path": "documents\\document-overview\\upload\\index.html"
     },
     {
-      "path": "documents\\editing-files\\add-to-group\\index.html"
+      "path": "documents\\document-overview\\upload\\index.md"
     },
     {
-      "path": "documents\\editing-files\\code-files\\index.html"
+      "path": "documents\\editing-files\\add-to-group\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\copy\\index.html"
+      "path": "documents\\editing-files\\code-files\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\delete\\index.html"
+      "path": "documents\\editing-files\\copy\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\history\\index.html"
+      "path": "documents\\editing-files\\delete\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\html-files\\index.html"
+      "path": "documents\\editing-files\\history\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\includes\\index.html"
+      "path": "documents\\editing-files\\html-files\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\index.html"
+      "path": "documents\\editing-files\\includes\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\move\\index.html"
+      "path": "documents\\editing-files\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\overwrite-current-file\\index.html"
+      "path": "documents\\editing-files\\move\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\editing-files\\show-or-hide-meta-data\\index.html"
+      "path": "documents\\editing-files\\overwrite-current-file\\index.html",
+      "old": true
+    },
+    {
+      "path": "documents\\editing-files\\show-or-hide-meta-data\\index.html",
+      "old": true
     },
     {
       "path": "documents\\index.html"
     },
     {
-      "path": "documents\\move\\index.html"
+      "path": "documents\\index.md"
     },
     {
-      "path": "documents\\permissions\\index.html"
+      "path": "documents\\move\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\update-folder\\index.html"
+      "path": "documents\\permissions\\index.html",
+      "old": true
     },
     {
-      "path": "documents\\upload\\index.html"
+      "path": "documents\\update-folder\\index.html",
+      "old": true
+    },
+    {
+      "path": "documents\\upload\\index.html",
+      "old": true
     },
     {
       "path": "engage\\experiment\\add-experiment\\index.html"
     },
     {
+      "path": "engage\\experiment\\add-experiment\\index.md"
+    },
+    {
       "path": "engage\\experiment\\experiment-overview\\add-entry\\index.html"
+    },
+    {
+      "path": "engage\\experiment\\experiment-overview\\add-entry\\index.md"
     },
     {
       "path": "engage\\experiment\\experiment-overview\\delete\\index.html"
     },
     {
+      "path": "engage\\experiment\\experiment-overview\\delete\\index.md"
+    },
+    {
       "path": "engage\\experiment\\experiment-overview\\index.html"
+    },
+    {
+      "path": "engage\\experiment\\experiment-overview\\index.md"
     },
     {
       "path": "engage\\experiment\\experiment-overview\\modify\\index.html"
     },
     {
+      "path": "engage\\experiment\\experiment-overview\\modify\\index.md"
+    },
+    {
       "path": "engage\\experiment\\index.html"
+    },
+    {
+      "path": "engage\\experiment\\index.md"
     },
     {
       "path": "engage\\file-group\\add-file-group\\index.html"
     },
     {
+      "path": "engage\\file-group\\add-file-group\\index.md"
+    },
+    {
       "path": "engage\\file-group\\file-group-overview\\add-entry\\index.html"
+    },
+    {
+      "path": "engage\\file-group\\file-group-overview\\add-entry\\index.md"
     },
     {
       "path": "engage\\file-group\\file-group-overview\\delete\\index.html"
     },
     {
+      "path": "engage\\file-group\\file-group-overview\\delete\\index.md"
+    },
+    {
       "path": "engage\\file-group\\file-group-overview\\index.html"
+    },
+    {
+      "path": "engage\\file-group\\file-group-overview\\index.md"
     },
     {
       "path": "engage\\file-group\\file-group-overview\\modify\\index.html"
     },
     {
+      "path": "engage\\file-group\\file-group-overview\\modify\\index.md"
+    },
+    {
       "path": "engage\\file-group\\index.html"
+    },
+    {
+      "path": "engage\\file-group\\index.md"
     },
     {
       "path": "engage\\index.html"
     },
     {
+      "path": "engage\\index.md"
+    },
+    {
       "path": "engage\\scheduler\\add-scheduler\\index.html"
+    },
+    {
+      "path": "engage\\scheduler\\add-scheduler\\index.md"
     },
     {
       "path": "engage\\scheduler\\index.html"
     },
     {
+      "path": "engage\\scheduler\\index.md"
+    },
+    {
       "path": "engage\\scheduler\\scheduler-overview\\add-entry\\index.html"
+    },
+    {
+      "path": "engage\\scheduler\\scheduler-overview\\add-entry\\index.md"
     },
     {
       "path": "engage\\scheduler\\scheduler-overview\\delete\\index.html"
     },
     {
+      "path": "engage\\scheduler\\scheduler-overview\\delete\\index.md"
+    },
+    {
       "path": "engage\\scheduler\\scheduler-overview\\index.html"
+    },
+    {
+      "path": "engage\\scheduler\\scheduler-overview\\index.md"
     },
     {
       "path": "engage\\scheduler\\scheduler-overview\\modify\\index.html"
     },
     {
+      "path": "engage\\scheduler\\scheduler-overview\\modify\\index.md"
+    },
+    {
       "path": "engage\\segment\\add-segment\\index.html"
+    },
+    {
+      "path": "engage\\segment\\add-segment\\index.md"
     },
     {
       "path": "engage\\segment\\index.html"
     },
     {
+      "path": "engage\\segment\\index.md"
+    },
+    {
       "path": "engage\\segment\\segment-overview\\index.html"
+    },
+    {
+      "path": "engage\\segment\\segment-overview\\index.md"
     },
     {
       "path": "engage\\segment\\segment-overview\\manage-members\\index.html"
     },
     {
+      "path": "engage\\segment\\segment-overview\\manage-members\\index.md"
+    },
+    {
       "path": "engage\\segment\\segment-overview\\update-segment\\index.html"
+    },
+    {
+      "path": "engage\\segment\\segment-overview\\update-segment\\index.md"
     },
     {
       "path": "forms\\add-form\\index.html"
     },
     {
+      "path": "forms\\add-form\\index.md"
+    },
+    {
       "path": "forms\\form-overview\\addentry\\index.html"
+    },
+    {
+      "path": "forms\\form-overview\\addentry\\index.md"
     },
     {
       "path": "forms\\form-overview\\delete\\index.html"
     },
     {
+      "path": "forms\\form-overview\\delete\\index.md"
+    },
+    {
       "path": "forms\\form-overview\\export\\index.html"
+    },
+    {
+      "path": "forms\\form-overview\\export\\index.md"
     },
     {
       "path": "forms\\form-overview\\import\\index.html"
     },
     {
+      "path": "forms\\form-overview\\import\\index.md"
+    },
+    {
       "path": "forms\\form-overview\\index.html"
+    },
+    {
+      "path": "forms\\form-overview\\index.md"
     },
     {
       "path": "forms\\form-overview\\modify\\index.html"
     },
     {
+      "path": "forms\\form-overview\\modify\\index.md"
+    },
+    {
       "path": "forms\\form-overview\\workflow\\index.html"
     },
     {
-      "path": "forms\\form\\add-entry\\index.html"
+      "path": "forms\\form-overview\\workflow\\index.md"
     },
     {
-      "path": "forms\\form\\delete\\index.html"
+      "path": "forms\\form\\add-entry\\index.html",
+      "old": true
     },
     {
-      "path": "forms\\form\\export\\index.html"
+      "path": "forms\\form\\delete\\index.html",
+      "old": true
     },
     {
-      "path": "forms\\form\\import\\index.html"
+      "path": "forms\\form\\export\\index.html",
+      "old": true
     },
     {
-      "path": "forms\\form\\index.html"
+      "path": "forms\\form\\import\\index.html",
+      "old": true
     },
     {
-      "path": "forms\\form\\modify\\advanced\\index.html"
+      "path": "forms\\form\\index.html",
+      "old": true
     },
     {
-      "path": "forms\\form\\modify\\customer.io\\index.html"
+      "path": "forms\\form\\modify\\advanced\\index.html",
+      "old": true
     },
     {
-      "path": "forms\\form\\modify\\email\\index.html"
+      "path": "forms\\form\\modify\\customer.io\\index.html",
+      "old": true
     },
     {
-      "path": "forms\\form\\modify\\index.html"
+      "path": "forms\\form\\modify\\email\\index.html",
+      "old": true
     },
     {
-      "path": "forms\\form\\workflow\\index.html"
+      "path": "forms\\form\\modify\\index.html",
+      "old": true
+    },
+    {
+      "path": "forms\\form\\workflow\\index.html",
+      "old": true
     },
     {
       "path": "forms\\index.html"
+    },
+    {
+      "path": "forms\\index.md"
     },
     {
       "path": "icons\\icon-api-compass-solid.svg"
@@ -807,7 +1078,11 @@
       "path": "images\\addwebsite2.png"
     },
     {
-      "path": "images\\admin.jpg"
+      "path": "images\\admin.jpg",
+      "old": true
+    },
+    {
+      "path": "images\\admin\\admin-menu.png"
     },
     {
       "path": "images\\admin\\reports\\activity-report.png"
@@ -852,7 +1127,17 @@
       "path": "images\\admin\\settings\\permissions\\permissions-list.png"
     },
     {
-      "path": "images\\admin\\settings\\settings.jpg"
+      "path": "images\\admin\\settings\\providers\\customerio-add-form.png"
+    },
+    {
+      "path": "images\\admin\\settings\\providers\\customerio-card.png"
+    },
+    {
+      "path": "images\\admin\\settings\\settings.jpg",
+      "old": true
+    },
+    {
+      "path": "images\\admin\\settings\\settings.png"
     },
     {
       "path": "images\\admin\\workflow\\add-workflow-file-type.png"
@@ -1304,6 +1589,9 @@
       "path": "images\\documents\\add-folder-form.png"
     },
     {
+      "path": "images\\documents\\copy-file-folder.jpg"
+    },
+    {
       "path": "images\\documents\\documents-actions.jpg"
     },
     {
@@ -1322,10 +1610,22 @@
       "path": "images\\documents\\documents.jpg"
     },
     {
+      "path": "images\\documents\\file-actions-dropdown.png"
+    },
+    {
+      "path": "images\\documents\\file-publish-dropdown.png"
+    },
+    {
+      "path": "images\\documents\\folder-toolbar-add-file.png"
+    },
+    {
       "path": "images\\documents\\folder-toolbar.png"
     },
     {
       "path": "images\\documents\\permissions-form.png"
+    },
+    {
+      "path": "images\\documents\\replace-file.png"
     },
     {
       "path": "images\\documents\\update-default-folder.jpg"
@@ -1767,6 +2067,81 @@
     },
     {
       "path": "images\\form-studio2.jpg"
+    },
+    {
+      "path": "images\\form\\add-form-location.jpg"
+    },
+    {
+      "path": "images\\form\\add-form-name.jpg"
+    },
+    {
+      "path": "images\\form\\add-form-template.jpg"
+    },
+    {
+      "path": "images\\form\\add-form.jpg"
+    },
+    {
+      "path": "images\\form\\cio-config-accordion.jpg"
+    },
+    {
+      "path": "images\\form\\cio-credentials.jpg"
+    },
+    {
+      "path": "images\\form\\config-nav.jpg"
+    },
+    {
+      "path": "images\\form\\customerio-form.jpg"
+    },
+    {
+      "path": "images\\form\\file-form-shortcode.jpg"
+    },
+    {
+      "path": "images\\form\\file-publish-button.jpg"
+    },
+    {
+      "path": "images\\form\\form-create-file.jpg"
+    },
+    {
+      "path": "images\\form\\forms-main-nav.jpg"
+    },
+    {
+      "path": "images\\form\\main-nav-filesystem.jpg"
+    },
+    {
+      "path": "images\\form\\modify-form-advanced.jpg"
+    },
+    {
+      "path": "images\\form\\modify-form-email.jpg"
+    },
+    {
+      "path": "images\\form\\modify-form.jpg"
+    },
+    {
+      "path": "images\\form\\name-form.jpg"
+    },
+    {
+      "path": "images\\form\\return-page.jpg"
+    },
+    {
+      "path": "images\\form\\settings-main-nav.jpg"
+    },
+    {
+      "path": "images\\form\\stml-dynamic-div.jpg"
+    },
+    {
+      "path": "images\\form\\stml-publish.jpg"
+    },
+    {
+      "path": "images\\form\\stml-with-form.jpg"
+    },
+    {
+      "path": "images\\form\\url-redirect.jpg"
+    },
+    {
+      "path": "images\\form\\website-nav-form.jpg"
+    },
+    {
+      "path": "images\\form\\website-nav-stml.jpg"
     },
     {
       "path": "images\\forms-dashboard-get-id.png"
@@ -2434,6 +2809,12 @@
     },
     {
       "path": "images\\module-permissions.png"
+    },
+    {
+      "path": "images\\module\\modify-module-advanced.jpg"
+    },
+    {
+      "path": "images\\module\\modify-module.jpg"
     },
     {
       "path": "images\\moduleapi.jpg"
@@ -4415,91 +4796,120 @@
       "path": "images\\workspace.png"
     },
     {
-      "path": "images\\workspace\\dashboard.jpg"
+      "path": "images\\workspace\\dashboard.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\documents\\copy-file-folder.jpg"
+      "path": "images\\workspace\\documents\\copy-file-folder.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\add-form-location.jpg"
+      "path": "images\\workspace\\form\\add-form-location.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\add-form-name.jpg"
+      "path": "images\\workspace\\form\\add-form-name.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\add-form-template.jpg"
+      "path": "images\\workspace\\form\\add-form-template.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\add-form.jpg"
+      "path": "images\\workspace\\form\\add-form.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\cio-config-accordion.jpg"
+      "path": "images\\workspace\\form\\cio-config-accordion.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\cio-credentials.jpg"
+      "path": "images\\workspace\\form\\cio-credentials.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\config-nav.jpg"
+      "path": "images\\workspace\\form\\config-nav.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\customerio-form.jpg"
+      "path": "images\\workspace\\form\\customerio-form.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\file-form-shortcode.jpg"
+      "path": "images\\workspace\\form\\file-form-shortcode.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\file-publish-button.jpg"
+      "path": "images\\workspace\\form\\file-publish-button.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\form-create-file.jpg"
+      "path": "images\\workspace\\form\\form-create-file.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\forms-main-nav.jpg"
+      "path": "images\\workspace\\form\\forms-main-nav.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\main-nav-filesystem.jpg"
+      "path": "images\\workspace\\form\\main-nav-filesystem.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\modify-form-advanced.jpg"
+      "path": "images\\workspace\\form\\modify-form-advanced.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\modify-form-email.jpg"
+      "path": "images\\workspace\\form\\modify-form-email.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\modify-form.jpg"
+      "path": "images\\workspace\\form\\modify-form.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\name-form.jpg"
+      "path": "images\\workspace\\form\\name-form.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\return-page.jpg"
+      "path": "images\\workspace\\form\\return-page.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\settings-main-nav.jpg"
+      "path": "images\\workspace\\form\\settings-main-nav.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\stml-dynamic-div.jpg"
+      "path": "images\\workspace\\form\\stml-dynamic-div.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\stml-publish.jpg"
+      "path": "images\\workspace\\form\\stml-publish.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\stml-with-form.jpg"
+      "path": "images\\workspace\\form\\stml-with-form.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\url-redirect.jpg"
+      "path": "images\\workspace\\form\\url-redirect.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\website-nav-form.jpg"
+      "path": "images\\workspace\\form\\website-nav-form.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\form\\website-nav-stml.jpg"
+      "path": "images\\workspace\\form\\website-nav-stml.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\module\\modify-module-advanced.jpg"
+      "path": "images\\workspace\\module\\modify-module-advanced.jpg",
+      "old": true
     },
     {
-      "path": "images\\workspace\\module\\modify-module.jpg"
+      "path": "images\\workspace\\module\\modify-module.jpg",
+      "old": true
     },
     {
       "path": "images\\wowza.jpg"
@@ -4520,7 +4930,16 @@
       "path": "index.html"
     },
     {
+      "path": "index.md"
+    },
+    {
+      "path": "llms.txt"
+    },
+    {
       "path": "modules\\add-module\\index.html"
+    },
+    {
+      "path": "modules\\add-module\\index.md"
     },
     {
       "path": "modules\\blog\\index.html",
@@ -4530,19 +4949,37 @@
       "path": "modules\\catalog\\alert\\index.html"
     },
     {
+      "path": "modules\\catalog\\alert\\index.md"
+    },
+    {
       "path": "modules\\catalog\\blog\\index.html"
+    },
+    {
+      "path": "modules\\catalog\\blog\\index.md"
     },
     {
       "path": "modules\\catalog\\calendar\\index.html"
     },
     {
+      "path": "modules\\catalog\\calendar\\index.md"
+    },
+    {
       "path": "modules\\catalog\\contact\\index.html"
+    },
+    {
+      "path": "modules\\catalog\\contact\\index.md"
     },
     {
       "path": "modules\\catalog\\index.html"
     },
     {
+      "path": "modules\\catalog\\index.md"
+    },
+    {
       "path": "modules\\catalog\\news\\index.html"
+    },
+    {
+      "path": "modules\\catalog\\news\\index.md"
     },
     {
       "path": "modules\\catalog\\news\\news.zip"
@@ -4551,7 +4988,13 @@
       "path": "modules\\catalog\\quick-links\\index.html"
     },
     {
+      "path": "modules\\catalog\\quick-links\\index.md"
+    },
+    {
       "path": "modules\\catalog\\slider\\index.html"
+    },
+    {
+      "path": "modules\\catalog\\slider\\index.md"
     },
     {
       "path": "modules\\events\\index.html",
@@ -4565,143 +5008,247 @@
       "path": "modules\\index.html"
     },
     {
+      "path": "modules\\index.md"
+    },
+    {
       "path": "modules\\module-overview\\add-entry\\index.html"
+    },
+    {
+      "path": "modules\\module-overview\\add-entry\\index.md"
     },
     {
       "path": "modules\\module-overview\\delete\\index.html"
     },
     {
+      "path": "modules\\module-overview\\delete\\index.md"
+    },
+    {
       "path": "modules\\module-overview\\export\\index.html"
+    },
+    {
+      "path": "modules\\module-overview\\export\\index.md"
     },
     {
       "path": "modules\\module-overview\\import\\index.html"
     },
     {
+      "path": "modules\\module-overview\\import\\index.md"
+    },
+    {
       "path": "modules\\module-overview\\index.html"
+    },
+    {
+      "path": "modules\\module-overview\\index.md"
     },
     {
       "path": "modules\\module-overview\\modify\\index.html"
     },
     {
+      "path": "modules\\module-overview\\modify\\index.md"
+    },
+    {
       "path": "modules\\module-overview\\workflow\\index.html"
     },
     {
-      "path": "modules\\module\\add-entry\\index.html"
+      "path": "modules\\module-overview\\workflow\\index.md"
     },
     {
-      "path": "modules\\module\\delete\\index.html"
+      "path": "modules\\module\\add-entry\\index.html",
+      "old": true
     },
     {
-      "path": "modules\\module\\export\\index.html"
+      "path": "modules\\module\\delete\\index.html",
+      "old": true
     },
     {
-      "path": "modules\\module\\import\\index.html"
+      "path": "modules\\module\\export\\index.html",
+      "old": true
     },
     {
-      "path": "modules\\module\\index.html"
+      "path": "modules\\module\\import\\index.html",
+      "old": true
     },
     {
-      "path": "modules\\module\\modify\\advanced\\index.html"
+      "path": "modules\\module\\index.html",
+      "old": true
     },
     {
-      "path": "modules\\module\\modify\\index.html"
+      "path": "modules\\module\\modify\\advanced\\index.html",
+      "old": true
+    },
+    {
+      "path": "modules\\module\\modify\\index.html",
+      "old": true
     },
     {
       "path": "modules\\news\\index.html",
       "old": true
     },
     {
-      "path": "organization\\add-contact\\index.html"
+      "path": "organization\\add-contact\\index.html",
+      "old": true
     },
     {
-      "path": "organization\\add-group\\index.html"
+      "path": "organization\\add-group\\index.html",
+      "old": true
     },
     {
-      "path": "organization\\add-user\\index.html"
+      "path": "organization\\add-user\\index.html",
+      "old": true
     },
     {
       "path": "organization\\agents\\add-agent\\index.html"
     },
     {
+      "path": "organization\\agents\\add-agent\\index.md"
+    },
+    {
       "path": "organization\\agents\\agent-overview\\add-agent-run\\index.html"
+    },
+    {
+      "path": "organization\\agents\\agent-overview\\add-agent-run\\index.md"
     },
     {
       "path": "organization\\agents\\agent-overview\\agent-studio\\index.html"
     },
     {
+      "path": "organization\\agents\\agent-overview\\agent-studio\\index.md"
+    },
+    {
       "path": "organization\\agents\\agent-overview\\delete\\index.html"
+    },
+    {
+      "path": "organization\\agents\\agent-overview\\delete\\index.md"
     },
     {
       "path": "organization\\agents\\agent-overview\\edit-mapping\\index.html"
     },
     {
+      "path": "organization\\agents\\agent-overview\\edit-mapping\\index.md"
+    },
+    {
       "path": "organization\\agents\\agent-overview\\index.html"
+    },
+    {
+      "path": "organization\\agents\\agent-overview\\index.md"
     },
     {
       "path": "organization\\agents\\agent-overview\\mcp-settings\\index.html"
     },
     {
+      "path": "organization\\agents\\agent-overview\\mcp-settings\\index.md"
+    },
+    {
       "path": "organization\\agents\\index.html"
+    },
+    {
+      "path": "organization\\agents\\index.md"
     },
     {
       "path": "organization\\contacts\\add-contact\\index.html"
     },
     {
+      "path": "organization\\contacts\\add-contact\\index.md"
+    },
+    {
       "path": "organization\\contacts\\contacts-overview\\delete\\index.html"
+    },
+    {
+      "path": "organization\\contacts\\contacts-overview\\delete\\index.md"
     },
     {
       "path": "organization\\contacts\\contacts-overview\\index.html"
     },
     {
+      "path": "organization\\contacts\\contacts-overview\\index.md"
+    },
+    {
       "path": "organization\\contacts\\contacts-overview\\modify\\index.html"
+    },
+    {
+      "path": "organization\\contacts\\contacts-overview\\modify\\index.md"
     },
     {
       "path": "organization\\contacts\\contacts-overview\\reset-password\\index.html"
     },
     {
+      "path": "organization\\contacts\\contacts-overview\\reset-password\\index.md"
+    },
+    {
       "path": "organization\\contacts\\contacts-overview\\view-as-customer\\index.html"
     },
     {
-      "path": "organization\\contacts\\contacts\\index.html"
+      "path": "organization\\contacts\\contacts-overview\\view-as-customer\\index.md"
     },
     {
-      "path": "organization\\contacts\\delete\\index.html"
+      "path": "organization\\contacts\\contacts\\index.html",
+      "old": true
+    },
+    {
+      "path": "organization\\contacts\\delete\\index.html",
+      "old": true
     },
     {
       "path": "organization\\contacts\\index.html"
     },
     {
-      "path": "organization\\contacts\\modify\\index.html"
+      "path": "organization\\contacts\\index.md"
     },
     {
-      "path": "organization\\contacts\\reset-password\\index.html"
+      "path": "organization\\contacts\\modify\\index.html",
+      "old": true
+    },
+    {
+      "path": "organization\\contacts\\reset-password\\index.html",
+      "old": true
     },
     {
       "path": "organization\\groups\\add-group\\index.html"
     },
     {
+      "path": "organization\\groups\\add-group\\index.md"
+    },
+    {
       "path": "organization\\groups\\group-overview\\index.html"
+    },
+    {
+      "path": "organization\\groups\\group-overview\\index.md"
     },
     {
       "path": "organization\\groups\\group-overview\\modify\\index.html"
     },
     {
+      "path": "organization\\groups\\group-overview\\modify\\index.md"
+    },
+    {
       "path": "organization\\groups\\group-overview\\permissions\\index.html"
     },
     {
-      "path": "organization\\groups\\group\\index.html"
+      "path": "organization\\groups\\group-overview\\permissions\\index.md"
+    },
+    {
+      "path": "organization\\groups\\group\\index.html",
+      "old": true
     },
     {
       "path": "organization\\groups\\index.html"
     },
     {
-      "path": "organization\\groups\\modify\\index.html"
+      "path": "organization\\groups\\index.md"
     },
     {
-      "path": "organization\\groups\\permissions\\index.html"
+      "path": "organization\\groups\\modify\\index.html",
+      "old": true
+    },
+    {
+      "path": "organization\\groups\\permissions\\index.html",
+      "old": true
     },
     {
       "path": "organization\\index.html"
+    },
+    {
+      "path": "organization\\index.md"
     },
     {
       "path": "organization\\spam-keyword-list.jpg"
@@ -4710,95 +5257,181 @@
       "path": "organization\\users\\add-user\\index.html"
     },
     {
+      "path": "organization\\users\\add-user\\index.md"
+    },
+    {
       "path": "organization\\users\\index.html"
+    },
+    {
+      "path": "organization\\users\\index.md"
     },
     {
       "path": "organization\\users\\user-overview\\delete-user\\index.html"
     },
     {
+      "path": "organization\\users\\user-overview\\delete-user\\index.md"
+    },
+    {
       "path": "organization\\users\\user-overview\\index.html"
     },
     {
-      "path": "organization\\users\\user-overview\\login-as-user\\index.html",
-      "old": true
+      "path": "organization\\users\\user-overview\\index.md"
+    },
+    {
+      "path": "organization\\users\\user-overview\\login-as-user\\index.html"
+    },
+    {
+      "path": "organization\\users\\user-overview\\login-as-user\\index.md"
     },
     {
       "path": "organization\\users\\user-overview\\modify-user\\index.html"
     },
     {
+      "path": "organization\\users\\user-overview\\modify-user\\index.md"
+    },
+    {
       "path": "organization\\users\\user-overview\\permissions\\index.html"
+    },
+    {
+      "path": "organization\\users\\user-overview\\permissions\\index.md"
     },
     {
       "path": "organization\\users\\user-overview\\reset-password\\index.html"
     },
     {
-      "path": "organization\\users\\user\\delete\\index.html"
+      "path": "organization\\users\\user-overview\\reset-password\\index.md"
     },
     {
-      "path": "organization\\users\\user\\index.html"
+      "path": "organization\\users\\user\\delete\\index.html",
+      "old": true
     },
     {
-      "path": "organization\\users\\user\\login-as-user\\index.html"
+      "path": "organization\\users\\user\\index.html",
+      "old": true
     },
     {
-      "path": "organization\\users\\user\\modify\\index.html"
+      "path": "organization\\users\\user\\login-as-user\\index.html",
+      "old": true
     },
     {
-      "path": "organization\\users\\user\\permissions\\index.html"
+      "path": "organization\\users\\user\\modify\\index.html",
+      "old": true
     },
     {
-      "path": "organization\\users\\user\\reset-password\\index.html"
+      "path": "organization\\users\\user\\permissions\\index.html",
+      "old": true
+    },
+    {
+      "path": "organization\\users\\user\\reset-password\\index.html",
+      "old": true
     },
     {
       "path": "overview\\index.html"
     },
     {
+      "path": "overview\\index.md"
+    },
+    {
       "path": "profile\\general\\index.html"
+    },
+    {
+      "path": "profile\\general\\index.md"
     },
     {
       "path": "profile\\general\\manage-email\\index.html"
     },
     {
+      "path": "profile\\general\\manage-email\\index.md"
+    },
+    {
       "path": "profile\\general\\manage-profile\\index.html"
+    },
+    {
+      "path": "profile\\general\\manage-profile\\index.md"
     },
     {
       "path": "profile\\index.html"
     },
     {
+      "path": "profile\\index.md"
+    },
+    {
       "path": "profile\\security\\api-tokens\\index.html"
+    },
+    {
+      "path": "profile\\security\\api-tokens\\index.md"
     },
     {
       "path": "profile\\security\\change-password\\index.html"
     },
     {
+      "path": "profile\\security\\change-password\\index.md"
+    },
+    {
       "path": "profile\\security\\index.html"
+    },
+    {
+      "path": "profile\\security\\index.md"
     },
     {
       "path": "profile\\security\\two-factor-authentication\\index.html"
     },
     {
+      "path": "profile\\security\\two-factor-authentication\\index.md"
+    },
+    {
       "path": "providers\\add-permissions-to-group\\index.html"
+    },
+    {
+      "path": "providers\\add-permissions-to-group\\index.md"
     },
     {
       "path": "providers\\aws\\cdn-information\\index.html"
     },
     {
+      "path": "providers\\aws\\cdn-information\\index.md"
+    },
+    {
       "path": "providers\\aws\\index.html"
+    },
+    {
+      "path": "providers\\aws\\index.md"
     },
     {
       "path": "providers\\aws\\ssl-information\\index.html"
     },
     {
+      "path": "providers\\aws\\ssl-information\\index.md"
+    },
+    {
+      "path": "providers\\customer.io\\index.html"
+    },
+    {
+      "path": "providers\\customer.io\\index.md"
+    },
+    {
       "path": "providers\\godaddy\\index.html"
+    },
+    {
+      "path": "providers\\godaddy\\index.md"
     },
     {
       "path": "providers\\index.html"
     },
     {
+      "path": "providers\\index.md"
+    },
+    {
       "path": "providers\\route53\\index.html"
     },
     {
+      "path": "providers\\route53\\index.md"
+    },
+    {
       "path": "providers\\webpack\\index.html"
+    },
+    {
+      "path": "providers\\webpack\\index.md"
     },
     {
       "path": "providers\\webpack\\package.json"
@@ -4813,31 +5446,59 @@
       "path": "quickstart\\concepts\\virtual-private-cloud\\index.html"
     },
     {
+      "path": "quickstart\\concepts\\virtual-private-cloud\\index.md"
+    },
+    {
       "path": "quickstart\\index.html"
     },
     {
-      "path": "quickstart\\solodev-cms-for-eks\\index.html"
+      "path": "quickstart\\index.md"
+    },
+    {
+      "path": "quickstart\\solodev-cms-for-eks\\index.html",
+      "old": true
     },
     {
       "path": "quickstart\\solodev-cms-for-kubernetes\\index.html"
     },
     {
+      "path": "quickstart\\solodev-cms-for-kubernetes\\index.md"
+    },
+    {
       "path": "quickstart\\solodev-cms-serverless\\index.html"
+    },
+    {
+      "path": "quickstart\\solodev-cms-serverless\\index.md"
     },
     {
       "path": "quickstart\\solodev-enterprise\\index.html"
     },
     {
+      "path": "quickstart\\solodev-enterprise\\index.md"
+    },
+    {
       "path": "quickstart\\solodev-micro\\index.html"
+    },
+    {
+      "path": "quickstart\\solodev-micro\\index.md"
     },
     {
       "path": "quickstart\\solodev-pro\\index.html"
     },
     {
+      "path": "quickstart\\solodev-pro\\index.md"
+    },
+    {
       "path": "release-notes\\index.html"
     },
     {
+      "path": "release-notes\\index.md"
+    },
+    {
       "path": "release-notes\\updated\\index.html"
+    },
+    {
+      "path": "release-notes\\updated\\index.md"
     },
     {
       "path": "resources\\css\\retype.css"
@@ -4850,6 +5511,9 @@
     },
     {
       "path": "resources\\js\\config.js"
+    },
+    {
+      "path": "resources\\js\\instagram.js"
     },
     {
       "path": "resources\\js\\lunr.js"
@@ -4889,37 +5553,73 @@
       "path": "shortcodes\\building-custom-shortcodes\\index.html"
     },
     {
+      "path": "shortcodes\\building-custom-shortcodes\\index.md"
+    },
+    {
       "path": "shortcodes\\core\\admin\\index.html"
+    },
+    {
+      "path": "shortcodes\\core\\admin\\index.md"
     },
     {
       "path": "shortcodes\\core\\get-asset-file-name\\index.html"
     },
     {
+      "path": "shortcodes\\core\\get-asset-file-name\\index.md"
+    },
+    {
       "path": "shortcodes\\core\\get-asset-file-url\\index.html"
+    },
+    {
+      "path": "shortcodes\\core\\get-asset-file-url\\index.md"
     },
     {
       "path": "shortcodes\\core\\index.html"
     },
     {
+      "path": "shortcodes\\core\\index.md"
+    },
+    {
       "path": "shortcodes\\core\\lower-case\\index.html"
+    },
+    {
+      "path": "shortcodes\\core\\lower-case\\index.md"
     },
     {
       "path": "shortcodes\\core\\no-spaces\\index.html"
     },
     {
+      "path": "shortcodes\\core\\no-spaces\\index.md"
+    },
+    {
       "path": "shortcodes\\core\\print-date\\index.html"
+    },
+    {
+      "path": "shortcodes\\core\\print-date\\index.md"
     },
     {
       "path": "shortcodes\\extended\\google-search\\index.html"
     },
     {
+      "path": "shortcodes\\extended\\google-search\\index.md"
+    },
+    {
       "path": "shortcodes\\extended\\index.html"
+    },
+    {
+      "path": "shortcodes\\extended\\index.md"
     },
     {
       "path": "shortcodes\\extended\\report-errors\\index.html"
     },
     {
+      "path": "shortcodes\\extended\\report-errors\\index.md"
+    },
+    {
       "path": "shortcodes\\extended\\youtube-embed\\index.html"
+    },
+    {
+      "path": "shortcodes\\extended\\youtube-embed\\index.md"
     },
     {
       "path": "shortcodes\\generic-shortcodes\\index.html",
@@ -4929,6 +5629,9 @@
       "path": "shortcodes\\index.html"
     },
     {
+      "path": "shortcodes\\index.md"
+    },
+    {
       "path": "shortcodes\\miscellaneous-shortcodes\\index.html",
       "old": true
     },
@@ -4936,70 +5639,139 @@
       "path": "shortcodes\\module\\calendar-entry-attachments\\index.html"
     },
     {
+      "path": "shortcodes\\module\\calendar-entry-attachments\\index.md"
+    },
+    {
       "path": "shortcodes\\module\\calendar-entry-categories\\index.html"
+    },
+    {
+      "path": "shortcodes\\module\\calendar-entry-categories\\index.md"
     },
     {
       "path": "shortcodes\\module\\captcha\\index.html"
     },
     {
+      "path": "shortcodes\\module\\captcha\\index.md"
+    },
+    {
       "path": "shortcodes\\module\\category-filter\\index.html"
+    },
+    {
+      "path": "shortcodes\\module\\category-filter\\index.md"
     },
     {
       "path": "shortcodes\\module\\category-repeat\\index.html"
     },
     {
+      "path": "shortcodes\\module\\category-repeat\\index.md"
+    },
+    {
       "path": "shortcodes\\module\\date-filter\\index.html"
+    },
+    {
+      "path": "shortcodes\\module\\date-filter\\index.md"
     },
     {
       "path": "shortcodes\\module\\detail\\index.html"
     },
     {
+      "path": "shortcodes\\module\\detail\\index.md"
+    },
+    {
       "path": "shortcodes\\module\\entry-tags-repeat\\index.html"
+    },
+    {
+      "path": "shortcodes\\module\\entry-tags-repeat\\index.md"
     },
     {
       "path": "shortcodes\\module\\event-date\\index.html"
     },
     {
+      "path": "shortcodes\\module\\event-date\\index.md"
+    },
+    {
       "path": "shortcodes\\module\\full-calendar\\index.html"
+    },
+    {
+      "path": "shortcodes\\module\\full-calendar\\index.md"
     },
     {
       "path": "shortcodes\\module\\index.html"
     },
     {
+      "path": "shortcodes\\module\\index.md"
+    },
+    {
       "path": "shortcodes\\module\\month-list\\index.html"
+    },
+    {
+      "path": "shortcodes\\module\\month-list\\index.md"
     },
     {
       "path": "shortcodes\\module\\recaptcha\\index.html"
     },
     {
+      "path": "shortcodes\\module\\recaptcha\\index.md"
+    },
+    {
       "path": "shortcodes\\module\\repeat-entries-exist\\index.html"
+    },
+    {
+      "path": "shortcodes\\module\\repeat-entries-exist\\index.md"
     },
     {
       "path": "shortcodes\\module\\repeater\\index.html"
     },
     {
+      "path": "shortcodes\\module\\repeater\\index.md"
+    },
+    {
       "path": "shortcodes\\module\\search-filter\\index.html"
+    },
+    {
+      "path": "shortcodes\\module\\search-filter\\index.md"
     },
     {
       "path": "shortcodes\\module\\solodev-form\\index.html"
     },
     {
+      "path": "shortcodes\\module\\solodev-form\\index.md"
+    },
+    {
       "path": "shortcodes\\module\\sub-entry\\index.html"
+    },
+    {
+      "path": "shortcodes\\module\\sub-entry\\index.md"
     },
     {
       "path": "shortcodes\\module\\tag-filter\\index.html"
     },
     {
+      "path": "shortcodes\\module\\tag-filter\\index.md"
+    },
+    {
       "path": "shortcodes\\page\\index.html"
+    },
+    {
+      "path": "shortcodes\\page\\index.md"
     },
     {
       "path": "shortcodes\\page\\page-description\\index.html"
     },
     {
+      "path": "shortcodes\\page\\page-description\\index.md"
+    },
+    {
       "path": "shortcodes\\page\\page-title\\index.html"
     },
     {
+      "path": "shortcodes\\page\\page-title\\index.md"
+    },
+    {
       "path": "shortcodes\\page\\parent-folder-title\\index.html"
+    },
+    {
+      "path": "shortcodes\\page\\parent-folder-title\\index.md"
     },
     {
       "path": "shortcodes\\shortcodes-for-login-forms\\index.html",
@@ -5025,37 +5797,67 @@
       "path": "shortcodes\\shortcodes-overview\\index.html"
     },
     {
+      "path": "shortcodes\\shortcodes-overview\\index.md"
+    },
+    {
       "path": "shortcodes\\user\\contact-form-forgot-password\\index.html"
+    },
+    {
+      "path": "shortcodes\\user\\contact-form-forgot-password\\index.md"
     },
     {
       "path": "shortcodes\\user\\contact-form-login\\index.html"
     },
     {
+      "path": "shortcodes\\user\\contact-form-login\\index.md"
+    },
+    {
       "path": "shortcodes\\user\\contact-form-reset-password\\index.html"
+    },
+    {
+      "path": "shortcodes\\user\\contact-form-reset-password\\index.md"
     },
     {
       "path": "shortcodes\\user\\contact-form-signup\\index.html"
     },
     {
+      "path": "shortcodes\\user\\contact-form-signup\\index.md"
+    },
+    {
       "path": "shortcodes\\user\\contact-form-update\\index.html"
+    },
+    {
+      "path": "shortcodes\\user\\contact-form-update\\index.md"
     },
     {
       "path": "shortcodes\\user\\index.html"
     },
     {
-      "path": "sitemap.xml.gz"
+      "path": "shortcodes\\user\\index.md"
+    },
+    {
+      "path": "sitemap.xml"
+    },
+    {
+      "path": "sitemap.xml.gz",
+      "old": true
     },
     {
       "path": "source\\index.html"
     },
     {
+      "path": "source\\index.md"
+    },
+    {
       "path": "static\\custom.css"
     },
     {
-      "path": "support\\add-task\\index.html"
+      "path": "support\\add-task\\index.html",
+      "old": true
     },
     {
-      "path": "support\\documentation\\index.html"
+      "path": "support\\documentation\\index.html",
+      "old": true
     },
     {
       "path": "support\\help\\index.html",
@@ -5065,38 +5867,65 @@
       "path": "support\\index.html"
     },
     {
+      "path": "support\\index.md"
+    },
+    {
       "path": "support\\tasks\\add-task\\index.html"
+    },
+    {
+      "path": "support\\tasks\\add-task\\index.md"
     },
     {
       "path": "support\\tasks\\index.html"
     },
     {
+      "path": "support\\tasks\\index.md"
+    },
+    {
       "path": "support\\tasks\\update-task\\index.html"
+    },
+    {
+      "path": "support\\tasks\\update-task\\index.md"
     },
     {
       "path": "themes\\enterprise\\index.html"
     },
     {
+      "path": "themes\\enterprise\\index.md"
+    },
+    {
       "path": "themes\\index.html"
+    },
+    {
+      "path": "themes\\index.md"
     },
     {
       "path": "themes\\micro\\index.html"
     },
     {
+      "path": "themes\\micro\\index.md"
+    },
+    {
       "path": "themes\\pro\\index.html"
+    },
+    {
+      "path": "themes\\pro\\index.md"
     },
     {
       "path": "tutorials\\add-form\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\add-groups\\index.html"
+      "path": "tutorials\\add-groups\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\add-module\\index.html"
+      "path": "tutorials\\add-module\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\add-page-template-old\\index.html"
+      "path": "tutorials\\add-page-template-old\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\add-page-template\\index.html",
@@ -5115,172 +5944,224 @@
       "old": true
     },
     {
-      "path": "tutorials\\add-website\\index.html"
+      "path": "tutorials\\add-website\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\add-form\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\add-form\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\add-module\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\add-module\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\add-website\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\add-website\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\archive-history\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\archive-history\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\assigning-users-or-groups-to-objects\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\assigning-users-or-groups-to-objects\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\best-practices-for-users-and-groups\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\best-practices-for-users-and-groups\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\components\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\components\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\customize-solodev-themes-and-layouts\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\customize-solodev-themes-and-layouts\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\experiments\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\experiments\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\file-groups\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\file-groups\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\forms-overview\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\forms-overview\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\include-web-libraries-in-solodev-cms\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\include-web-libraries-in-solodev-cms\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\manage-your-blog-in-solodev\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\manage-your-blog-in-solodev\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\managing-files\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\managing-files\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\managing-folders\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\managing-folders\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\managing-module-content\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\managing-module-content\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\managing-scheduler-entries\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\managing-scheduler-entries\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\managing-user-groups\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\managing-user-groups\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\scheduler\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\scheduler\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\solodev-tasks\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\solodev-tasks\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\cms\\users\\index.html"
+      "path": "tutorials\\advanced-development\\cms\\users\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\creating-a-package\\index.html"
+      "path": "tutorials\\advanced-development\\creating-a-package\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\deleting-a-website\\index.html"
+      "path": "tutorials\\advanced-development\\deleting-a-website\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\fileparse.php\\index.html"
+      "path": "tutorials\\advanced-development\\fileparse.php\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\advanced-development\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\installing-packages\\index.html"
+      "path": "tutorials\\advanced-development\\installing-packages\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\managing-301-redirects\\index.html"
+      "path": "tutorials\\advanced-development\\managing-301-redirects\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\managing-domain-redirects-in-solodev\\index.html"
+      "path": "tutorials\\advanced-development\\managing-domain-redirects-in-solodev\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\packages-overview\\index.html"
+      "path": "tutorials\\advanced-development\\packages-overview\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\advanced-development\\website-settings\\index.html"
+      "path": "tutorials\\advanced-development\\website-settings\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\appendix\\create-a-content-template\\index.html"
+      "path": "tutorials\\appendix\\create-a-content-template\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\appendix\\create-a-homepage-template\\index.html"
+      "path": "tutorials\\appendix\\create-a-homepage-template\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\appendix\\create-a-sectional-template\\index.html"
+      "path": "tutorials\\appendix\\create-a-sectional-template\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\appendix\\index.html"
+      "path": "tutorials\\appendix\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\apps\\add-a-wysiwyg-toolbar-to-a-text-area-for-a-module-form\\index.html"
+      "path": "tutorials\\apps\\add-a-wysiwyg-toolbar-to-a-text-area-for-a-module-form\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\apps\\apps-overview\\index.html"
+      "path": "tutorials\\apps\\apps-overview\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\apps\\create-a-career-module\\index.html"
+      "path": "tutorials\\apps\\create-a-career-module\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\apps\\create-a-landing-page-module\\index.html"
+      "path": "tutorials\\apps\\create-a-landing-page-module\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\apps\\create-a-news-module\\index.html"
+      "path": "tutorials\\apps\\create-a-news-module\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\apps\\create-a-team-module\\index.html"
+      "path": "tutorials\\apps\\create-a-team-module\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\apps\\create-an-events-module\\index.html"
+      "path": "tutorials\\apps\\create-an-events-module\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\apps\\create-categories-for-modules\\index.html"
+      "path": "tutorials\\apps\\create-categories-for-modules\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\apps\\create-mags-for-modules\\index.html"
+      "path": "tutorials\\apps\\create-mags-for-modules\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\apps\\faq-module\\index.html"
+      "path": "tutorials\\apps\\faq-module\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\apps\\index.html"
+      "path": "tutorials\\apps\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cdn-information\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\accessing-code\\index.html"
+      "path": "tutorials\\cms\\accessing-code\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-an-email-tickler\\index.html"
+      "path": "tutorials\\cms\\add-an-email-tickler\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-form\\index.html"
+      "path": "tutorials\\cms\\add-form\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-groups-users-permissions\\index.html"
+      "path": "tutorials\\cms\\add-groups-users-permissions\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\add-groups\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\add-module\\index.html"
+      "path": "tutorials\\cms\\add-module\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-module\\solodev-spacejet-2023.zip"
+      "path": "tutorials\\cms\\add-module\\solodev-spacejet-2023.zip",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\add-page-template-copy\\index.html",
@@ -5291,121 +6172,152 @@
       "old": true
     },
     {
-      "path": "tutorials\\cms\\add-page-template\\index.html"
+      "path": "tutorials\\cms\\add-page-template\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\add-page\\index.html"
+      "path": "tutorials\\cms\\add-page\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\add-permissions-to-group\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\add-theme\\index.html"
+      "path": "tutorials\\cms\\add-theme\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\add-users\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\add-website-backup\\index.html"
+      "path": "tutorials\\cms\\add-website-backup\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\alt-tags\\index.html"
+      "path": "tutorials\\cms\\alt-tags\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\backup-and-restore\\index.html"
+      "path": "tutorials\\cms\\backup-and-restore\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\build-your-page\\index.html"
+      "path": "tutorials\\cms\\build-your-page\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\cdn-information\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\connect-module\\index.html"
+      "path": "tutorials\\cms\\connect-module\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\connect-your-dns\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\convert-your-design-to-basic-html-css-and-javascript\\index.html"
+      "path": "tutorials\\cms\\convert-your-design-to-basic-html-css-and-javascript\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\create-a-base-template\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\create-a-category-page\\index.html"
+      "path": "tutorials\\cms\\create-a-category-page\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\create-a-contact-form\\index.html"
+      "path": "tutorials\\cms\\create-a-contact-form\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\create-a-page-template\\index.html"
+      "path": "tutorials\\cms\\create-a-page-template\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\create-an-image-gallery\\index.html"
+      "path": "tutorials\\cms\\create-an-image-gallery\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\create-an-image-slider\\index.html"
+      "path": "tutorials\\cms\\create-an-image-slider\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\create-an-interior-template\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\create-an-intranet\\index.html"
+      "path": "tutorials\\cms\\create-an-intranet\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\create-and-manage-your-folder-structure-in-solodev\\index.html"
+      "path": "tutorials\\cms\\create-and-manage-your-folder-structure-in-solodev\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\createmodule\\index.html"
+      "path": "tutorials\\cms\\createmodule\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\createmodule\\module.tpl"
+      "path": "tutorials\\cms\\createmodule\\module.tpl",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\createmodule\\solodev-spacejet-2023.zip"
+      "path": "tutorials\\cms\\createmodule\\solodev-spacejet-2023.zip",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\creating-a-sitemap-for-your-website\\index.html"
+      "path": "tutorials\\cms\\creating-a-sitemap-for-your-website\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\customizing-your-theme\\index.html"
+      "path": "tutorials\\cms\\customizing-your-theme\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\designing-your-websites-layout\\index.html"
+      "path": "tutorials\\cms\\designing-your-websites-layout\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\how-to-add-a-website\\app.js"
+      "path": "tutorials\\cms\\how-to-add-a-website\\app.js",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\how-to-add-a-website\\fonts.zip"
+      "path": "tutorials\\cms\\how-to-add-a-website\\fonts.zip",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\how-to-add-a-website\\globalheader.txt"
+      "path": "tutorials\\cms\\how-to-add-a-website\\globalheader.txt",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\how-to-add-a-website\\globaltag.txt"
+      "path": "tutorials\\cms\\how-to-add-a-website\\globaltag.txt",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\how-to-add-a-website\\index.html"
+      "path": "tutorials\\cms\\how-to-add-a-website\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\how-to-add-a-website\\package.json"
+      "path": "tutorials\\cms\\how-to-add-a-website\\package.json",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\how-to-add-a-website\\utils.js"
+      "path": "tutorials\\cms\\how-to-add-a-website\\utils.js",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\how-to-add-a-website\\webpack.css.config.js"
+      "path": "tutorials\\cms\\how-to-add-a-website\\webpack.css.config.js",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\how-to-add-a-website\\webpack.js.config.js"
+      "path": "tutorials\\cms\\how-to-add-a-website\\webpack.js.config.js",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\how-to-add-website\\globalheader.txt",
@@ -5420,80 +6332,100 @@
       "old": true
     },
     {
-      "path": "tutorials\\cms\\how-to-make-a-theme\\index.html"
+      "path": "tutorials\\cms\\how-to-make-a-theme\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\howtoimportatheme\\index.html"
+      "path": "tutorials\\cms\\howtoimportatheme\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\index.html"
+      "path": "tutorials\\cms\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\inline-editing\\index.html"
+      "path": "tutorials\\cms\\inline-editing\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\installing-and-configuring-a-theme\\index.html"
+      "path": "tutorials\\cms\\installing-and-configuring-a-theme\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\manage-slider-entries\\index.html"
+      "path": "tutorials\\cms\\manage-slider-entries\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\modules\\enhance-your-calendar-with-full-calendar-plugin\\index.html"
+      "path": "tutorials\\cms\\modules\\enhance-your-calendar-with-full-calendar-plugin\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\modules\\how-to-add-categories\\index.html"
+      "path": "tutorials\\cms\\modules\\how-to-add-categories\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\modules\\index.html"
+      "path": "tutorials\\cms\\modules\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\page-meta-data\\index.html"
+      "path": "tutorials\\cms\\page-meta-data\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\recaptcha\\index.html"
+      "path": "tutorials\\cms\\recaptcha\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\registering-domain\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\spam-keyword-list\\index.html"
+      "path": "tutorials\\cms\\spam-keyword-list\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\cms\\split-page-content-out-into-multiple-dynamicdivs\\index.html"
+      "path": "tutorials\\cms\\split-page-content-out-into-multiple-dynamicdivs\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\cms\\ssl-information\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\cms\\use-of-dynamicdivs\\index.html"
+      "path": "tutorials\\cms\\use-of-dynamicdivs\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\connect-your-dns\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\create-a-base-template\\index.html"
+      "path": "tutorials\\create-a-base-template\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\create-an-interior-template\\index.html"
+      "path": "tutorials\\create-an-interior-template\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\index.html"
+      "path": "tutorials\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\integrations\\add-permissions-to-group\\index.html"
+      "path": "tutorials\\integrations\\add-permissions-to-group\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\integrations\\aws\\cdn-information\\index.html"
+      "path": "tutorials\\integrations\\aws\\cdn-information\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\integrations\\aws\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\integrations\\aws\\ssl-information\\index.html"
+      "path": "tutorials\\integrations\\aws\\ssl-information\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\integrations\\cdn-information\\index.html",
@@ -5508,48 +6440,60 @@
       "old": true
     },
     {
-      "path": "tutorials\\integrations\\google\\index.html"
+      "path": "tutorials\\integrations\\google\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\integrations\\index.html"
+      "path": "tutorials\\integrations\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\integrations\\registering-domain\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\integrations\\solodev\\configure-ipquailty\\index.html"
+      "path": "tutorials\\integrations\\solodev\\configure-ipquailty\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\integrations\\solodev\\connect-your-dns\\index.html"
+      "path": "tutorials\\integrations\\solodev\\connect-your-dns\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\app.js"
+      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\app.js",
+      "old": true
     },
     {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\index.html"
+      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\index.html",
+      "old": true
     },
     {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\package.json"
+      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\package.json",
+      "old": true
     },
     {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\webpack.config.js"
+      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\webpack.config.js",
+      "old": true
     },
     {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\webpack.css.config.js"
+      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\webpack.css.config.js",
+      "old": true
     },
     {
-      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\webpack.js.config.js"
+      "path": "tutorials\\integrations\\solodev\\how-to-add-webpack-to-your-website\\webpack.js.config.js",
+      "old": true
     },
     {
-      "path": "tutorials\\integrations\\solodev\\how-to-restrict-access-in-website-to-authorized-users\\index.html"
+      "path": "tutorials\\integrations\\solodev\\how-to-restrict-access-in-website-to-authorized-users\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\integrations\\solodev\\index.html",
       "old": true
     },
     {
-      "path": "tutorials\\integrations\\solodev\\registering-domain\\index.html"
+      "path": "tutorials\\integrations\\solodev\\registering-domain\\index.html",
+      "old": true
     },
     {
       "path": "tutorials\\integrations\\ssl-information\\index.html",
@@ -5697,304 +6641,609 @@
       "path": "websites\\add-page\\index.html"
     },
     {
+      "path": "websites\\add-page\\index.md"
+    },
+    {
       "path": "websites\\add-website\\index.html"
     },
     {
-      "path": "websites\\category\\category-detail\\index.html"
+      "path": "websites\\add-website\\index.md"
     },
     {
-      "path": "websites\\category\\index.html"
+      "path": "websites\\category\\category-detail\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\category\\modify\\index.html"
+      "path": "websites\\category\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\category\\modify\\index.html",
+      "old": true
     },
     {
       "path": "websites\\delete-website\\index.html"
     },
     {
-      "path": "websites\\experiment\\delete\\index.html"
+      "path": "websites\\delete-website\\index.md"
     },
     {
-      "path": "websites\\experiment\\index.html"
+      "path": "websites\\experiment\\delete\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\experiment\\save\\index.html"
+      "path": "websites\\experiment\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\file-group\\add-entry\\index.html"
+      "path": "websites\\experiment\\save\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\file-group\\delete\\index.html"
+      "path": "websites\\file-group\\add-entry\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\file-group\\file-group-detail\\index.html"
+      "path": "websites\\file-group\\delete\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\file-group\\index.html"
+      "path": "websites\\file-group\\file-group-detail\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\file-group\\modify\\index.html"
+      "path": "websites\\file-group\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\file\\add-to-file-group\\index.html"
+      "path": "websites\\file-group\\modify\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\file\\copy\\index.html"
+      "path": "websites\\file-overview\\add-to-file-group\\index.html"
     },
     {
-      "path": "websites\\file\\delete\\index.html"
+      "path": "websites\\file-overview\\add-to-file-group\\index.md"
     },
     {
-      "path": "websites\\file\\draft\\index.html"
+      "path": "websites\\file-overview\\attachments\\index.html"
     },
     {
-      "path": "websites\\file\\history\\index.html"
+      "path": "websites\\file-overview\\attachments\\index.md"
     },
     {
-      "path": "websites\\file\\index.html"
+      "path": "websites\\file-overview\\copy-file\\index.html"
     },
     {
-      "path": "websites\\file\\meta-column\\index.html"
+      "path": "websites\\file-overview\\copy-file\\index.md"
     },
     {
-      "path": "websites\\file\\move\\index.html"
+      "path": "websites\\file-overview\\delete-file\\index.html"
     },
     {
-      "path": "websites\\file\\publish\\index.html"
+      "path": "websites\\file-overview\\delete-file\\index.md"
     },
     {
-      "path": "websites\\file\\stage\\index.html"
+      "path": "websites\\file-overview\\events\\index.html"
     },
     {
-      "path": "websites\\folder\\add-category\\index.html"
+      "path": "websites\\file-overview\\events\\index.md"
     },
     {
-      "path": "websites\\folder\\add-experiment\\index.html"
+      "path": "websites\\file-overview\\file-history\\index.html"
     },
     {
-      "path": "websites\\folder\\add-file-group\\index.html"
+      "path": "websites\\file-overview\\file-history\\index.md"
     },
     {
-      "path": "websites\\folder\\add-file\\index.html"
+      "path": "websites\\file-overview\\includes\\index.html"
     },
     {
-      "path": "websites\\folder\\add-folder\\index.html"
+      "path": "websites\\file-overview\\includes\\index.md"
     },
     {
-      "path": "websites\\folder\\add-link\\index.html"
+      "path": "websites\\file-overview\\index.html"
     },
     {
-      "path": "websites\\folder\\add-page\\index.html"
+      "path": "websites\\file-overview\\index.md"
     },
     {
-      "path": "websites\\folder\\add-scheduler\\index.html"
+      "path": "websites\\file-overview\\meta-column\\index.html"
     },
     {
-      "path": "websites\\folder\\index.html"
+      "path": "websites\\file-overview\\meta-column\\index.md"
     },
     {
-      "path": "websites\\folder\\permissions\\index.html"
+      "path": "websites\\file-overview\\move-file\\index.html"
     },
     {
-      "path": "websites\\folder\\publish\\index.html"
+      "path": "websites\\file-overview\\move-file\\index.md"
     },
     {
-      "path": "websites\\folder\\stage\\index.html"
+      "path": "websites\\file-overview\\publish-stage-draft\\index.html"
     },
     {
-      "path": "websites\\folder\\update-folder\\index.html"
+      "path": "websites\\file-overview\\publish-stage-draft\\index.md"
     },
     {
-      "path": "websites\\folder\\upload\\index.html"
+      "path": "websites\\file-overview\\replace-file\\index.html"
+    },
+    {
+      "path": "websites\\file-overview\\replace-file\\index.md"
+    },
+    {
+      "path": "websites\\file-overview\\tasks\\index.html"
+    },
+    {
+      "path": "websites\\file-overview\\tasks\\index.md"
+    },
+    {
+      "path": "websites\\file-overview\\update-file\\index.html"
+    },
+    {
+      "path": "websites\\file-overview\\update-file\\index.md"
+    },
+    {
+      "path": "websites\\file\\add-to-file-group\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\file\\copy\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\file\\delete\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\file\\draft\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\file\\history\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\file\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\file\\meta-column\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\file\\move\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\file\\publish\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\file\\stage\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder-overview\\add-category\\index.html"
+    },
+    {
+      "path": "websites\\folder-overview\\add-category\\index.md"
+    },
+    {
+      "path": "websites\\folder-overview\\add-file\\index.html"
+    },
+    {
+      "path": "websites\\folder-overview\\add-file\\index.md"
+    },
+    {
+      "path": "websites\\folder-overview\\add-folder\\index.html"
+    },
+    {
+      "path": "websites\\folder-overview\\add-folder\\index.md"
+    },
+    {
+      "path": "websites\\folder-overview\\add-link\\index.html"
+    },
+    {
+      "path": "websites\\folder-overview\\add-link\\index.md"
+    },
+    {
+      "path": "websites\\folder-overview\\index.html"
+    },
+    {
+      "path": "websites\\folder-overview\\index.md"
+    },
+    {
+      "path": "websites\\folder-overview\\permissions\\index.html"
+    },
+    {
+      "path": "websites\\folder-overview\\permissions\\index.md"
+    },
+    {
+      "path": "websites\\folder-overview\\publish\\index.html"
+    },
+    {
+      "path": "websites\\folder-overview\\publish\\index.md"
+    },
+    {
+      "path": "websites\\folder-overview\\stage\\index.html"
+    },
+    {
+      "path": "websites\\folder-overview\\stage\\index.md"
+    },
+    {
+      "path": "websites\\folder-overview\\update-folder\\index.html"
+    },
+    {
+      "path": "websites\\folder-overview\\update-folder\\index.md"
+    },
+    {
+      "path": "websites\\folder-overview\\update-folder\\restrict-access\\index.html"
+    },
+    {
+      "path": "websites\\folder-overview\\update-folder\\restrict-access\\index.md"
+    },
+    {
+      "path": "websites\\folder-overview\\upload\\index.html"
+    },
+    {
+      "path": "websites\\folder-overview\\upload\\index.md"
+    },
+    {
+      "path": "websites\\folder\\add-category\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\add-experiment\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\add-file-group\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\add-file\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\add-folder\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\add-link\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\add-page\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\add-scheduler\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\permissions\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\publish\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\stage\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\update-folder\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\folder\\upload\\index.html",
+      "old": true
     },
     {
       "path": "websites\\index.html"
     },
     {
-      "path": "websites\\manage-files\\attachments\\index.html"
+      "path": "websites\\index.md"
     },
     {
-      "path": "websites\\manage-files\\copy-file\\index.html"
+      "path": "websites\\manage-files\\attachments\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-files\\delete-file\\index.html"
+      "path": "websites\\manage-files\\copy-file\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-files\\events\\index.html"
+      "path": "websites\\manage-files\\delete-file\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-files\\file-history\\index.html"
+      "path": "websites\\manage-files\\events\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-files\\includes\\index.html"
+      "path": "websites\\manage-files\\file-history\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-files\\index.html"
+      "path": "websites\\manage-files\\includes\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-files\\move-file\\index.html"
+      "path": "websites\\manage-files\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-files\\publish-stage-draft\\index.html"
+      "path": "websites\\manage-files\\move-file\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-files\\replace-file\\index.html"
+      "path": "websites\\manage-files\\publish-stage-draft\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-files\\tasks\\index.html"
+      "path": "websites\\manage-files\\replace-file\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-files\\update-file\\index.html"
+      "path": "websites\\manage-files\\tasks\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-folder\\add-category\\index.html"
+      "path": "websites\\manage-files\\update-file\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-folder\\add-file\\index.html"
+      "path": "websites\\manage-folder\\add-category\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-folder\\add-folder\\index.html"
+      "path": "websites\\manage-folder\\add-file\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-folder\\add-link\\index.html"
+      "path": "websites\\manage-folder\\add-folder\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-folder\\index.html"
+      "path": "websites\\manage-folder\\add-link\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-folder\\permissions\\index.html"
+      "path": "websites\\manage-folder\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-folder\\publish\\index.html"
+      "path": "websites\\manage-folder\\permissions\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-folder\\stage\\index.html"
+      "path": "websites\\manage-folder\\publish\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-folder\\update-folder\\index.html"
+      "path": "websites\\manage-folder\\stage\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\manage-folder\\upload\\index.html"
+      "path": "websites\\manage-folder\\update-folder\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\manage-folder\\upload\\index.html",
+      "old": true
     },
     {
       "path": "websites\\members\\index.html"
     },
     {
+      "path": "websites\\members\\index.md"
+    },
+    {
       "path": "websites\\page-overview\\components\\index.html"
+    },
+    {
+      "path": "websites\\page-overview\\components\\index.md"
     },
     {
       "path": "websites\\page-overview\\dynamic-div\\index.html"
     },
     {
+      "path": "websites\\page-overview\\dynamic-div\\index.md"
+    },
+    {
       "path": "websites\\page-overview\\experiment\\index.html"
+    },
+    {
+      "path": "websites\\page-overview\\experiment\\index.md"
     },
     {
       "path": "websites\\page-overview\\file-group\\index.html"
     },
     {
+      "path": "websites\\page-overview\\file-group\\index.md"
+    },
+    {
       "path": "websites\\page-overview\\file\\index.html"
+    },
+    {
+      "path": "websites\\page-overview\\file\\index.md"
     },
     {
       "path": "websites\\page-overview\\form\\index.html"
     },
     {
+      "path": "websites\\page-overview\\form\\index.md"
+    },
+    {
       "path": "websites\\page-overview\\index.html"
+    },
+    {
+      "path": "websites\\page-overview\\index.md"
     },
     {
       "path": "websites\\page-overview\\module\\index.html"
     },
     {
+      "path": "websites\\page-overview\\module\\index.md"
+    },
+    {
+      "path": "websites\\page-overview\\page-cache\\index.html"
+    },
+    {
+      "path": "websites\\page-overview\\page-cache\\index.md"
+    },
+    {
       "path": "websites\\page-overview\\scheduler\\index.html"
     },
     {
-      "path": "websites\\page\\add-to-file-group\\index.html"
+      "path": "websites\\page-overview\\scheduler\\index.md"
     },
     {
-      "path": "websites\\page\\copy\\index.html"
+      "path": "websites\\page-overview\\status-dropdown\\index.html"
     },
     {
-      "path": "websites\\page\\delete\\index.html"
+      "path": "websites\\page-overview\\status-dropdown\\index.md"
     },
     {
-      "path": "websites\\page\\draft\\index.html"
+      "path": "websites\\page\\add-to-file-group\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\page\\history\\index.html"
+      "path": "websites\\page\\copy\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\page\\index.html"
+      "path": "websites\\page\\delete\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\page\\meta-column\\index.html"
+      "path": "websites\\page\\draft\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\page\\meta-column\\page-cache\\index.html"
+      "path": "websites\\page\\history\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\page\\meta-column\\status-dropdown\\index.html"
+      "path": "websites\\page\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\page\\move\\index.html"
+      "path": "websites\\page\\meta-column\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\page\\publish\\index.html"
+      "path": "websites\\page\\meta-column\\page-cache\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\page\\stage\\index.html"
+      "path": "websites\\page\\meta-column\\status-dropdown\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\restricted-access\\index.html"
+      "path": "websites\\page\\move\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\scheduler\\add-entry\\index.html"
+      "path": "websites\\page\\publish\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\scheduler\\delete\\index.html"
+      "path": "websites\\page\\stage\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\scheduler\\index.html"
+      "path": "websites\\restricted-access\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\scheduler\\modify\\index.html"
+      "path": "websites\\scheduler\\add-entry\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\scheduler\\scheduler-detail\\index.html"
+      "path": "websites\\scheduler\\delete\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\scheduler\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\scheduler\\modify\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\scheduler\\scheduler-detail\\index.html",
+      "old": true
     },
     {
       "path": "websites\\update-web-files\\index.html"
     },
     {
+      "path": "websites\\update-web-files\\index.md"
+    },
+    {
       "path": "websites\\website-overview\\generate-sitemap\\index.html"
+    },
+    {
+      "path": "websites\\website-overview\\generate-sitemap\\index.md"
     },
     {
       "path": "websites\\website-overview\\index.html"
     },
     {
+      "path": "websites\\website-overview\\index.md"
+    },
+    {
       "path": "websites\\website-overview\\permissions\\index.html"
+    },
+    {
+      "path": "websites\\website-overview\\permissions\\index.md"
     },
     {
       "path": "websites\\website-overview\\redirects\\index.html"
     },
     {
+      "path": "websites\\website-overview\\redirects\\index.md"
+    },
+    {
       "path": "websites\\website-overview\\update-website\\index.html"
+    },
+    {
+      "path": "websites\\website-overview\\update-website\\index.md"
     },
     {
       "path": "websites\\website-overview\\vhost\\index.html"
     },
     {
-      "path": "websites\\website\\index.html"
+      "path": "websites\\website-overview\\vhost\\index.md"
     },
     {
-      "path": "websites\\website\\permissions\\index.html"
+      "path": "websites\\website\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\website\\redirects\\index.html"
+      "path": "websites\\website\\permissions\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\website\\update-website\\index.html"
+      "path": "websites\\website\\redirects\\index.html",
+      "old": true
     },
     {
-      "path": "websites\\website\\vhost\\index.html"
+      "path": "websites\\website\\update-website\\index.html",
+      "old": true
+    },
+    {
+      "path": "websites\\website\\vhost\\index.html",
+      "old": true
     },
     {
       "path": "workspace\\documents\\document-overview\\add-category\\index.html",
