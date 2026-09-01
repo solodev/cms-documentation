@@ -1,21 +1,33 @@
+<link rel="stylesheet" href="/static/custom.css">
+
 # Welcome
 
 <p><img src="../images/solodev-banner.png" alt="Solodev CMS - Create amazing websites and apps in the Cloud"></p>
 
 Solodev is an enterprise content management system (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud.
 
-Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b" target="_blank" rel="noopener noreferrer">AWS Marketplace</a>. Subscription licensing is available as CMS Micro, CMS Pro, CMS Enterprise, or a containerized option for Kubernetes (CMS for EKS). Click on a product in the table below to view a Quickstart guide:
+## Explore the Docs
 
-**Name** | **Description** 
-:--- | ---
-[Micro](/quickstart/solodev-micro/) | The perfect launch pad for small development or proof of concept (PoC) projects.
-[Pro](/quickstart/solodev-pro/) | A single-server deployment designed for business-level projects that require moderate scalability.
-[Enterprise](/quickstart/solodev-enterprise/) | A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps. 
-[CMS for EKS](/quickstart/solodev-cms-for-kubernetes/) | A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. Only available in the AWS Marketplace.
+<div class="nav-shortcuts">
 
-!!!Tip:
-Need help with a custom enterprise deployment with unique requirements? <a href="https://www.solodev.com/contact/" target="_blank" rel="noopener noreferrer">Contact our professional services team</a>.
-!!! 
+- [:icon-device-desktop: Dashboard](/dashboard/)
+- [:icon-list-unordered: Source](/source/)
+- [:icon-globe: Websites](/websites/)
+- [:icon-calendar: Modules](/modules/)
+- [:icon-database: Forms](/forms/)
+- [:icon-file-directory: Documents](/documents/)
+- [:icon-megaphone: Engage](/engage/)
+- [:icon-organization: Organization](/organization/)
+- [:icon-question: Support](/support/)
+- [:icon-key: Admin](/admin/)
+- [:icon-person: Profile](/profile/)
+- [:icon-file-code: Shortcodes](/shortcodes/)
+- [:icon-project-symlink: Themes](/themes/)
+- [:icon-plug: Providers](/providers/)
+- [:icon-checklist: Quickstart](/quickstart/)
+- [:icon-info: Release Notes](/release-notes/)
+
+</div>
 
 ## Features
 
@@ -45,6 +57,39 @@ Use Solodev’s A/B testing to create content “experiments” and optimize you
 
 :icon-comment-discussion: <span class="ml-2">**Manage and collaborate with your team**</span><br>
 Set up individual users and groups and manage their roles using the industry’s most granular permissions system. Invite new members to CMS deployments, assign tasks, collaborate on website projects, and manage your team at every level. 
+
+---
+
+## Quickstart
+
+Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.com/marketplace/seller-profile?id=8e11c912-6253-41b8-b065-bf32bd27911b" target="_blank" rel="noopener noreferrer">AWS Marketplace</a>. Subscription licensing is available as CMS Micro, CMS Pro, CMS Enterprise, or a containerized option for Kubernetes (CMS for EKS). Click a product below to view its Quickstart guide:
+
+<div class="quickstart-grid">
+  <a href="/quickstart/solodev-micro/">
+    <img src="../images/quickstart/cms-micro-logo.png" alt="CMS Micro logo">
+    <h3>Micro</h3>
+    <p>The perfect launch pad for small development or proof of concept (PoC) projects.</p>
+  </a>
+  <a href="/quickstart/solodev-pro/">
+    <img src="../images/quickstart/cms-pro-logo.jpg" alt="CMS Pro logo">
+    <h3>Pro</h3>
+    <p>A single-server deployment designed for business-level projects that require moderate scalability.</p>
+  </a>
+  <a href="/quickstart/solodev-enterprise/">
+    <img src="../images/quickstart/cms-enterprise-logo.jpg" alt="CMS Enterprise logo">
+    <h3>Enterprise</h3>
+    <p>A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps.</p>
+  </a>
+  <a href="/quickstart/solodev-cms-for-kubernetes/">
+    <img src="../images/quickstart/cms-eks-logo.jpg" alt="CMS for EKS logo">
+    <h3>CMS for EKS</h3>
+    <p>A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. AWS Marketplace only.</p>
+  </a>
+</div>
+
+!!!Tip:
+Need help with a custom enterprise deployment with unique requirements? <a href="https://www.solodev.com/contact/" target="_blank" rel="noopener noreferrer">Contact our professional services team</a>.
+!!! 
 
 ---
 

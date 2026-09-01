@@ -69,3 +69,104 @@
   flex: none;
   text-decoration: none;
 }
+
+/* Homepage: shortcut grid to every top-level nav section. Rendered from a
+   markdown list (each - [:icon-x: Label](url) becomes its own <li>) so the
+   :icon-x: shortcode actually expands - it's only processed inside markdown-
+   parsed text, not inside a raw HTML block with no blank line after the
+   opening tag (CommonMark treats that as a raw passthrough block). */
+.nav-shortcuts ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: .75rem;
+  margin: 1.5rem 0 2.5rem;
+  padding: 0;
+  list-style: none;
+}
+.nav-shortcuts li {
+  margin: 0;
+}
+.nav-shortcuts a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  height: 100%;
+  padding: 1.1rem .75rem;
+  border: 1px solid #e2e8ec;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #223;
+  font-weight: 600;
+  font-size: .88rem;
+  text-align: center;
+  transition: border-color .15s ease, background-color .15s ease;
+}
+.nav-shortcuts a:hover {
+  border-color: #0488ce;
+  background-color: #f3f9ff;
+}
+.nav-shortcuts a .docs-icon {
+  width: 26px;
+  height: 26px;
+  color: #0488ce;
+}
+.dark .nav-shortcuts a,
+[data-rt-theme="dark"] .nav-shortcuts a {
+  border-color: #333;
+  color: #eee;
+}
+.dark .nav-shortcuts a:hover,
+[data-rt-theme="dark"] .nav-shortcuts a:hover {
+  border-color: #0488ce;
+  background-color: rgba(4, 136, 206, .1);
+}
+
+/* Homepage: Quickstart product cards. */
+.quickstart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+.quickstart-grid a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: .5rem;
+  padding: 1.5rem 1.1rem 1.1rem;
+  border: 1px solid #e2e8ec;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.quickstart-grid a:hover {
+  border-color: #0488ce;
+  box-shadow: 0 2px 10px rgba(4, 136, 206, .12);
+}
+.quickstart-grid img {
+  width: 52px;
+  height: 52px;
+  flex: none;
+  margin-bottom: .25rem;
+}
+.quickstart-grid h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #223;
+}
+.quickstart-grid p {
+  margin: 0;
+  font-size: .82rem;
+  color: #667;
+  line-height: 1.35;
+}
+.dark .quickstart-grid a,
+[data-rt-theme="dark"] .quickstart-grid a {
+  border-color: #333;
+}
+.dark .quickstart-grid h3,
+[data-rt-theme="dark"] .quickstart-grid h3 {
+  color: #eee;
+}
