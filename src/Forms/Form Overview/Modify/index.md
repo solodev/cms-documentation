@@ -23,8 +23,6 @@ Return Behavior | What happens in the visitor's browser after they submit -- red
 Notification Type | What triggers a notification email (Form Submission, and other options).
 Tickler Email Address | Add one or more email addresses to notify on each submission.
 
-Want submissions routed into a marketing automation platform instead of (or in addition to) email? See [Customer.io](/forms/form-overview/modify/customer.io/).
-
 ### Customizing the email template
 
 The form's own template is reused for the notification email, so keep a few things in mind if you want that email to look right:
