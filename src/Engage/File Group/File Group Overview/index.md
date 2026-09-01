@@ -7,10 +7,12 @@ A File Group can be used to:
 - Display a list of a group's files and their content on the front end of a website.
 - Create an internal document repository where users upload and share files grouped by type, category, or relevance.
 
-Once you've [added a File Group](/engage/add-file-group/), it appears in this list. Click its name to open this Overview and manage it.
+Once you've [added a File Group](/engage/file-group/add-file-group/), it appears in this list. Click its name to open this Overview and manage it.
 
 **Name** | **Description**
 :--- | ---
-[Add Entry](/engage/file-group-overview/add-entry/) | Add a file to the group.
-[Modify](/engage/file-group-overview/modify/) | Edit the group's name, title, or description.
-[Delete](/engage/file-group-overview/delete/) | Permanently remove the group.
+Filter | Find a file in the group by typing its name in the search bar, then click **Find**.
+Date Filter | Filter the group's files by date.
+[Add Entry](/engage/file-group/file-group-overview/add-entry/) | Add a file to the group.
+[Modify](/engage/file-group/file-group-overview/modify/) | Edit the group's name, title, or description.
+[Delete](/engage/file-group/file-group-overview/delete/) | Permanently remove the group.

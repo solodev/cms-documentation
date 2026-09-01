@@ -9,7 +9,7 @@ A/B Testing is the most essential tool marketers can use to target visitors by t
 Name | Add the experiment name. The name of the experiment should be lowercase and separated with dashes.
 Title | Add the experiment title. This will be the Title displayed on your site.
 Description | Add the experiment description. This description can be utilized on your website's frontend or for organizational purposes.
-Experiment Items | Optionally add one or more variants now (a file, a Variant name, and a Frequency traffic-split percentage) instead of adding them one at a time afterward with [Add Entry](/engage/experiment-overview/add-entry/).
+Experiment Items | Optionally add one or more variants now (a file, a Variant name, and a Frequency traffic-split percentage) instead of adding them one at a time afterward with [Add Entry](/engage/experiment/experiment-overview/add-entry/).
 Confirm | After filling out all the required fields, please click the **Submit** button to save your changes.
 
 !!! Note:

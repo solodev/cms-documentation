@@ -9,5 +9,5 @@ Create a Scheduler, then add one or more entries to it &mdash; each entry is a f
 Name | Add the scheduler name. The name of the scheduler should be lowercase and separated with dashes.
 Title | Add the scheduler title. This will be the Title displayed on your site.
 Description | Add the scheduler description. This description can be utilized on your website's frontend or for organizational purposes.
-Scheduled Files | Optionally add one or more entries now (a file plus a start date) instead of adding them one at a time afterward with [Add Entry](/engage/scheduler-overview/add-entry/).
+Scheduled Files | Optionally add one or more entries now (a file plus a start date) instead of adding them one at a time afterward with [Add Entry](/engage/scheduler/scheduler-overview/add-entry/).
 Confirm | After filling out all the required fields, please click the **Submit** button to save your changes.

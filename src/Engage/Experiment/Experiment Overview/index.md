@@ -6,10 +6,10 @@ A/B Testing is the most essential tool marketers can use to target visitors by t
 Content being tested can't be a page itself; it has to be a file in the web files directory with an .html or .tpl extension.
 !!!
 
-Once you've [added an Experiment](/engage/add-experiment/), it appears in this list. Click its name to open this Overview, which tracks **Views** and **Conversions** per variant plus a **Views Over Time** chart, and manage it.
+Once you've [added an Experiment](/engage/experiment/add-experiment/), it appears in this list. Click its name to open this Overview, which tracks **Views** and **Conversions** per variant plus a **Views Over Time** chart, and manage it.
 
 **Name** | **Description**
 :--- | ---
-[Add Entry](/engage/experiment-overview/add-entry/) | Add a variant (a file and its Frequency) to the Experiment.
-[Modify](/engage/experiment-overview/modify/) | Edit the Experiment's name and settings.
-[Delete](/engage/experiment-overview/delete/) | Permanently remove the Experiment.
+[Add Entry](/engage/experiment/experiment-overview/add-entry/) | Add a variant (a file and its Frequency) to the Experiment.
+[Modify](/engage/experiment/experiment-overview/modify/) | Edit the Experiment's name and settings.
+[Delete](/engage/experiment/experiment-overview/delete/) | Permanently remove the Experiment.

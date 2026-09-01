@@ -23,7 +23,7 @@ Submissions are saved as [Contacts](/organization/contacts/) using the CMS's fix
 :--- | ---
 Name | The form's internal name. Lowercase, letters/numbers/hyphens only.
 Type | **Contact Form**.
-Segments | Optionally list one or more [Segments](/engage/add-segment/) (comma-separated) to automatically group everyone who submits this form. Typing a new name creates that segment.
+Segments | Optionally list one or more [Segments](/engage/segment/add-segment/) (comma-separated) to automatically group everyone who submits this form. Typing a new name creates that segment.
 Form Template | Optionally upload a form template instead of building one from scratch.
 Add | Click **Add** to create the form.
 
