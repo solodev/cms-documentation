@@ -1,4 +1,4 @@
-#
+﻿#
 
 <div class="header">
   <div class="inner">
@@ -64,8 +64,8 @@ These steps will guide you through the process of installing the Contact Form Mo
 
 1. Navigate to `Websites > example.com > web files > content`
 <ul style="padding-left: 50px;">
-  <li><a href="/websites/manage-folder/add-folder/">Create a folder</a> called <code>contact</code></li>
-  <li>In the contact folder, <a href="/websites/manage-folder/add-file/">create a new code file</a> called <code>contact.tpl</code></li>
+  <li><a href="/websites/folder-overview/add-folder/">Create a folder</a> called <code>contact</code></li>
+  <li>In the contact folder, <a href="/websites/folder-overview/add-file/">create a new code file</a> called <code>contact.tpl</code></li>
 </ul>
 
 2. Add the contact code using the example template provided below.
@@ -102,7 +102,7 @@ You need to add the ID number of your contact datatable to the form shortcode wi
 
 4. Navigate to `Websites > example.com > www`
 <ul style="padding-left: 50px;">
-  <li><a href="/websites/manage-folder/add-folder/">Create a folder</a> called <code>contact</code></li>
+  <li><a href="/websites/folder-overview/add-folder/">Create a folder</a> called <code>contact</code></li>
   <li>In the contact folder, <a href="/websites/add-page/">create a page</a> called <code>index.stml</code></li>
 </ul>
 

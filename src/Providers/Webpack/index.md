@@ -1,4 +1,4 @@
-# Webpack
+﻿# Webpack
 
 Webpack is a modular bundler that compiles JavaScript, SCSS, and CSS into packages used to manage frontend assets at the browser level. You'll need it installed with your website to add more advanced styling features. This page covers both the fast way to get started (the Webpack provider) and the full manual setup for SCSS and JavaScript bundling.
 
@@ -48,7 +48,7 @@ SCSS can be used to style more complex visual elements on a web page, including 
 
 <img src="../../images/add-css-folder.jpg" alt="Add css folder"></br>
 
-**Step 3**: Click on the **css** folder and [Add a File](/websites/manage-folder/add-file/) called **app.css**.
+**Step 3**: Click on the **css** folder and [Add a File](/websites/folder-overview/add-file/) called **app.css**.
 
 <img src="../../images/add-app-css.jpg" alt="Add css folder"></br>
 
@@ -56,11 +56,11 @@ SCSS can be used to style more complex visual elements on a web page, including 
 Please leave this file empty. This file will dynamically include the compiled CSS for your site.
 !!!
 
-**Step 4**: Click on **web files** and [Add Folder](/websites/manage-folder/add-folder/) called **scss**. Once Complete, click **Submit**.
+**Step 4**: Click on **web files** and [Add Folder](/websites/folder-overview/add-folder/) called **scss**. Once Complete, click **Submit**.
 
 <img src="../../images/add-scss-folder.jpg" alt="Add SCSS folder"></a>
 
-**Step 5**: On the new scss folder, [create a file](/websites/manage-folder/add-file/) called **app.scss**:
+**Step 5**: On the new scss folder, [create a file](/websites/folder-overview/add-file/) called **app.scss**:
 
 <img src="../../images/add-app-scss.jpg" alt="Add app.scss file"></a>
 
@@ -98,15 +98,15 @@ With `package.json` and `webpack/webpack.config.js` in place (via the provider a
 
 <img src="../../images/webpack/add-js-folder.jpg" alt="Add js folder" style="width: 500px;"></a>
 
-**Step 3**: Click on the **js** folder and [Add a File](/websites/manage-folder/add-file/) called **app.js**.
+**Step 3**: Click on the **js** folder and [Add a File](/websites/folder-overview/add-file/) called **app.js**.
 
 <img src="../../images/webpack/add-app-js.jpg" alt="Add js file" style="width: 500px;"></a>
 
-**Step 4**: Click on **web files** and [Add Folder](/websites/manage-folder/add-folder/) called **js**.
+**Step 4**: Click on **web files** and [Add Folder](/websites/folder-overview/add-folder/) called **js**.
 
 <img src="../../images/webpack/js-folder-web-files.jpg" alt="JS folder under web files"></a>
 
-**Step 5**: On the new **js folder** in your left menu, [create a file](/websites/manage-folder/add-file/) called **app.js**.
+**Step 5**: On the new **js folder** in your left menu, [create a file](/websites/folder-overview/add-file/) called **app.js**.
 
 <img src="../../images/webpack/add-app-js.jpg" alt="Add js file" style="width: 500px;"></a>
 
@@ -143,11 +143,11 @@ In this section, we will show you how you can add your own SCSS to your site.
 
 <img src="../../images/scss-folder.png" alt="scss folder"></a>
 
-**Step 2:** Using the right-hand menu, click [Add Folder](/websites/manage-folder/add-folder/). Name it **utilities**. Once Complete click **Submit**.
+**Step 2:** Using the right-hand menu, click [Add Folder](/websites/folder-overview/add-folder/). Name it **utilities**. Once Complete click **Submit**.
 
 <img src="../../images/scss-utilities.png" alt="scss utilities"></a>
 
-**Step 3:** Click on the **utilities** folder and, using the same right-hand menu, click [Add File](/websites/manage-folder/add-file/). Create a new file called **variables.scss** and select **Code** for the **File Type**. Once complete, click **Submit**.
+**Step 3:** Click on the **utilities** folder and, using the same right-hand menu, click [Add File](/websites/folder-overview/add-file/). Create a new file called **variables.scss** and select **Code** for the **File Type**. Once complete, click **Submit**.
 
 <img src="../../images/scss-utilities-vars.png" alt="scss utilities vars"></a>
 

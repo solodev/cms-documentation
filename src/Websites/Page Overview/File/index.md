@@ -14,7 +14,7 @@ Insert an HTML or Template Code file from your website's web files &mdash; usefu
 :--- | ---
 Search file | Filter the list by name.
 [Add File](#quick-add) | Create a new file on the spot if the one you need doesn't exist yet.
-Results list | Files from your website's [web files](/websites/manage-files/), grouped by location.
+Results list | Files from your website's [web files](/websites/file-overview/), grouped by location.
 Preview pane | Selecting a file previews its code alongside its Type, ID, Module, Location, Title, Modified, Added, and Parent Folder.
 Choose | Insert the selected file at the drop location.
 

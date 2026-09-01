@@ -1,4 +1,4 @@
-#
+﻿#
 
 <link rel="stylesheet" href="/static/custom.css">
 
@@ -68,8 +68,8 @@ These steps will guide you through the process of installing the Calendar Module
 
 1. Navigate to `Websites > example.com > web files > content`
 <ul style="padding-left: 50px;">
-  <li><a href="/websites/manage-folder/add-folder/">Create a folder</a> called <code>calendar</code></li>
-  <li>In the calendar folder, <a href="/websites/manage-folder/add-file/">create a new code file</a> called <code>calendar-repeater.tpl</code></li>
+  <li><a href="/websites/folder-overview/add-folder/">Create a folder</a> called <code>calendar</code></li>
+  <li>In the calendar folder, <a href="/websites/folder-overview/add-file/">create a new code file</a> called <code>calendar-repeater.tpl</code></li>
 </ul>
 
 2. Add the calendar code using the example template provided below.
@@ -113,7 +113,7 @@ You need to add the ID number of your calendar module to the repeater shortcode 
 
 4. Navigate to `Websites > example.com > www`
 <ul style="padding-left: 50px;">
-  <li><a href="/websites/manage-folder/add-folder/">Create a folder</a> called <code>calendar</code></li>
+  <li><a href="/websites/folder-overview/add-folder/">Create a folder</a> called <code>calendar</code></li>
   <li>In the calendar folder, <a href="/websites/add-page/">create a page</a> called <code>index.stml</code></li>
   <li>Give your page a Title, and select a Template (optional)</li>
 </ul>
@@ -130,7 +130,7 @@ You need to add the ID number of your calendar module to the repeater shortcode 
 
 {% tab title="Step 3: Create Your Event Detail Page" %}
 
-1. [Create a file](/websites/manage-folder/add-file/) in your preferred location.
+1. [Create a file](/websites/folder-overview/add-file/) in your preferred location.
 
 2. Add the HTML code for your calendar list layout using the example code provided
 

@@ -50,11 +50,11 @@ A page you're editing has a vertical icon rail on its left edge. Each icon is a 
 Every picker (except Dynamic Div, which has none) shares the same layout: a searchable list on the left with a **+ Add** shortcut if you need to create a new one on the spot, and a preview pane on the right showing the selected item's details before you commit.
 
 !!! Tip:
-Drop directly onto an empty dynamic div, not just anywhere on the canvas. If the File you drop is itself a template with its own dynamic div inside (like [base-template.tpl](/websites/manage-files/)), that inner div becomes a new drop target &mdash; you can keep nesting components inside it the same way, building up a full page like header → Module → footer.
+Drop directly onto an empty dynamic div, not just anywhere on the canvas. If the File you drop is itself a template with its own dynamic div inside (like [base-template.tpl](/websites/file-overview/)), that inner div becomes a new drop target &mdash; you can keep nesting components inside it the same way, building up a full page like header → Module → footer.
 !!!
 
 !!! Note:
-Dropping a component updates the page in your browser immediately, but it isn't saved yet. Use [Publish, Stage, or Draft](/websites/manage-files/publish-stage-draft/) once you're done to save your changes &mdash; the same as any other file.
+Dropping a component updates the page in your browser immediately, but it isn't saved yet. Use [Publish, Stage, or Draft](/websites/file-overview/publish-stage-draft/) once you're done to save your changes &mdash; the same as any other file.
 !!!
 
 ## Viewing your page
@@ -108,9 +108,9 @@ Heading | Change the heading status of your text (H1, H2, paragraph, etc.).
 Add Link | Apply a hyperlink to any text.
 Remove Link | Remove a hyperlink from any text.
 Paste from Word | Add copied text from Microsoft Word to your page content.
-<a href="/websites/manage-files/publish-stage-draft/">Draft</a> | Create a draft version of your code or content.
-<a href="/websites/manage-files/publish-stage-draft/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
-<a href="/websites/manage-files/publish-stage-draft/">Publish</a> | Push your code or content to live production.
+<a href="/websites/file-overview/publish-stage-draft/">Draft</a> | Create a draft version of your code or content.
+<a href="/websites/file-overview/publish-stage-draft/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
+<a href="/websites/file-overview/publish-stage-draft/">Publish</a> | Push your code or content to live production.
 
 !!! **Note**:
 You can also use the tab in the upper right corner of the Metadata panel to Draft, Stage, or Publish your changes. 
@@ -134,13 +134,13 @@ In addition to in-line editing, you can access the code to update a div or .tpl 
 
 **Name** | **Description**
 :--- | ---
-<a href="/websites/manage-files/publish-stage-draft/">Draft</a> | Create a draft version of your code or content.
-<a href="/websites/manage-files/publish-stage-draft/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
-<a href="/websites/manage-files/publish-stage-draft/">Publish</a> | Push your code or content to live production. 
-<a href="/websites/manage-files/file-history/">History</a> | Review previous versions of your content or code and restore a saved version.
-<a href="/websites/manage-files/copy-file/">Copy</a> | Copy the file for editing or additional use elsewhere in your website.
-<a href="/websites/manage-files/move-file/">Move</a> | Relocate the file based on your taxonomy.
-<a href="/websites/manage-files/delete-file/">Delete</a> | Permanently delete the file from your CMS.
+<a href="/websites/file-overview/publish-stage-draft/">Draft</a> | Create a draft version of your code or content.
+<a href="/websites/file-overview/publish-stage-draft/">Stage</a> | Set up a staged version of your code or content for review as part of your workflow. 
+<a href="/websites/file-overview/publish-stage-draft/">Publish</a> | Push your code or content to live production. 
+<a href="/websites/file-overview/file-history/">History</a> | Review previous versions of your content or code and restore a saved version.
+<a href="/websites/file-overview/copy-file/">Copy</a> | Copy the file for editing or additional use elsewhere in your website.
+<a href="/websites/file-overview/move-file/">Move</a> | Relocate the file based on your taxonomy.
+<a href="/websites/file-overview/delete-file/">Delete</a> | Permanently delete the file from your CMS.
 
 **Step 4**: After updating your content, use the **Draft**, **Stage**, or **Publish** buttons in the editing pane to save your changes for review or to push live directly.
 
@@ -151,9 +151,9 @@ In addition to Draft, Stage, and Publish, the editing pane offers additional fea
 **Name** | **Description**
 :--- | ---
 <a href="#manage-meta-information-with-the-metadata-panel">Meta</a> | Add meta information and details using the right-hand panel.
-<a href="/websites/manage-files/includes/">File Includes</a> | Check where your file is being used across the system.
-<a href="/websites/manage-files/replace-file/">Overwrite Current File</a> | Upload a file to overwrite the current one. 
-<a href="/websites/manage-files/tasks/">Tasks</a> | Access the tasks modal.
+<a href="/websites/file-overview/includes/">File Includes</a> | Check where your file is being used across the system.
+<a href="/websites/file-overview/replace-file/">Overwrite Current File</a> | Upload a file to overwrite the current one. 
+<a href="/websites/file-overview/tasks/">Tasks</a> | Access the tasks modal.
 Fullscreen | Maximize your file view to fullscreen.
 Collapse Menu | Collapse the metadata panel.
 

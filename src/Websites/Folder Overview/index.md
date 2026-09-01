@@ -1,4 +1,4 @@
-﻿# Manage Folder
+﻿# Folder Overview
 
 Click into the **web files** or **www** folder from a website's [Website Overview](/websites/website-overview/) to manage its contents: add pages, files, and subfolders, upload assets, and set permissions.
 
@@ -6,12 +6,12 @@ Click into the **web files** or **www** folder from a website's [Website Overvie
 
 **Name** | **Description**
 :--- | ---
-[Upload](/websites/manage-folder/upload/) | Drag and drop or browse files into your folder.
-[Add Folder](/websites/manage-folder/add-folder/) | Create a new subfolder and add specific details like name and title.
-[Add File](/websites/manage-folder/add-file/) | Add an HTML, Template Code, or README file to the folder.
+[Upload](/websites/folder-overview/upload/) | Drag and drop or browse files into your folder.
+[Add Folder](/websites/folder-overview/add-folder/) | Create a new subfolder and add specific details like name and title.
+[Add File](/websites/folder-overview/add-file/) | Add an HTML, Template Code, or README file to the folder.
 [Add Page](/websites/add-page/) | Add a new page (www folder only).
-[Add Link](/websites/manage-folder/add-link/) | Add and rank a link and control properties such as opening in a new window.
-[Add Category](/websites/manage-folder/add-category/) | Group and organize content items in categories.
+[Add Link](/websites/folder-overview/add-link/) | Add and rank a link and control properties such as opening in a new window.
+[Add Category](/websites/folder-overview/add-category/) | Group and organize content items in categories.
 Copy | Duplicate the folder.
 Move | Relocate the folder elsewhere in your website.
 Delete | Permanently delete the folder.
@@ -20,10 +20,10 @@ Delete | Permanently delete the folder.
 
 **Name** | **Description**
 :--- | ---
-[Update](/websites/manage-folder/update-folder/) | Change the folder's name, title, and other properties.
-[Stage](/websites/manage-folder/stage/) | Stage all pages and files in the folder immediately &mdash; no confirmation form.
-[Publish](/websites/manage-folder/publish/) | Publish all pages and files in the folder immediately &mdash; no confirmation form.
-[Permissions](/websites/manage-folder/permissions/) | Manage user access to files and folders with specific roles.
+[Update](/websites/folder-overview/update-folder/) | Change the folder's name, title, and other properties.
+[Stage](/websites/folder-overview/stage/) | Stage all pages and files in the folder immediately &mdash; no confirmation form.
+[Publish](/websites/folder-overview/publish/) | Publish all pages and files in the folder immediately &mdash; no confirmation form.
+[Permissions](/websites/folder-overview/permissions/) | Manage user access to files and folders with specific roles.
 
 !!! Note
 File Groups, Experiments, and Scheduler are also inserted into a folder, but they're documented under [Engage](/engage/) alongside the rest of that section: [Add File Group](/engage/file-group/add-file-group/), [Add Experiment](/engage/experiment/add-experiment/), [Add Scheduler](/engage/scheduler/add-scheduler/).

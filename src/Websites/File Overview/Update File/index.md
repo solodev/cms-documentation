@@ -10,7 +10,7 @@ Title | Update the file's display title.
 Description | Add or update a brief description of the file.
 Publish Date | Schedule when the file should automatically publish.
 Expire Date | Choose when the file should expire: never, 1 day, 10 days, 30 days, 90 days, or 1 year.
-[Advanced](/websites/manage-files/update-file/#advanced) | Expand for additional scheduling and behavior options.
+[Advanced](/websites/file-overview/update-file/#advanced) | Expand for additional scheduling and behavior options.
 Submit | Once you've made your changes, click **Submit** to apply them.
 
 ## Advanced

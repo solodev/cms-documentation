@@ -1,4 +1,4 @@
-#
+﻿#
 
 <link rel="stylesheet" href="/static/custom.css">
 
@@ -70,8 +70,8 @@ The blog module comes with pre-configured entries that you can customize by acce
 
 1. Navigate to `Websites > example.com > web files > content`
 <ul style="padding-left: 50px;">
-  <li><a href="/websites/manage-folder/add-folder/">Create a folder</a> called <code>blog</code></li>
-  <li>In the blog folder, <a href="/websites/manage-folder/add-file/">create a new code file</a> called <code>blog-repeater.tpl</code></li>
+  <li><a href="/websites/folder-overview/add-folder/">Create a folder</a> called <code>blog</code></li>
+  <li>In the blog folder, <a href="/websites/folder-overview/add-file/">create a new code file</a> called <code>blog-repeater.tpl</code></li>
 </ul>
 
 2. Add the blog code using the example template provided below.
@@ -117,7 +117,7 @@ You need to add the ID number of your calendar module to the repeater shortcode 
 
 4. Navigate to `Websites > example.com > www`
 <ul style="padding-left: 50px;">
-  <li><a href="/websites/manage-folder/add-folder/">Create a folder</a> called <code>blog</code></li>
+  <li><a href="/websites/folder-overview/add-folder/">Create a folder</a> called <code>blog</code></li>
   <li>In the blog folder, <a href="/websites/add-page/">create a page</a> called <code>index.stml</code></li>
   <li>Give your page a Title, and select a Template (optional)</li>
 </ul>
@@ -134,7 +134,7 @@ You need to add the ID number of your calendar module to the repeater shortcode 
 
 {% tab title="Step 3: Create Your Blog Detail Page" %}
 
-1. Navigate to `web files > content > blog` and [create a new code file](/websites/manage-folder/add-file/) called `blog-detail.tpl`.
+1. Navigate to `web files > content > blog` and [create a new code file](/websites/folder-overview/add-file/) called `blog-detail.tpl`.
 
 2. Add the blog detail code using the example template provided below.
 

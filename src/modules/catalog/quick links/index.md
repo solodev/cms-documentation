@@ -1,4 +1,4 @@
-#
+﻿#
 
 <link rel="stylesheet" href="/static/custom.css">
 
@@ -70,8 +70,8 @@ The quick links module comes with pre-configured entries that you can customize 
 
 1. Navigate to `Websites > example.com > web files > content`
 <ul style="padding-left: 50px;">
-  <li><a href="/websites/manage-folder/add-folder/">Create a folder</a> called <code>quick-links</code></li>
-  <li>In the quick-links folder, <a href="/websites/manage-folder/add-file/">create a new code file</a> called <code>quick-links-repeater.tpl</code></li>
+  <li><a href="/websites/folder-overview/add-folder/">Create a folder</a> called <code>quick-links</code></li>
+  <li>In the quick-links folder, <a href="/websites/folder-overview/add-file/">create a new code file</a> called <code>quick-links-repeater.tpl</code></li>
 </ul>
 
 2. Add the quick links code using the example template provided below.

@@ -1,4 +1,4 @@
-#
+﻿#
 
 <link rel="stylesheet" href="/static/custom.css">
 
@@ -60,8 +60,8 @@ These steps will guide you through the process of installing the News Module and
 
 1. Navigate to `Websites > example.com > web files > content`
 <ul style="padding-left: 50px;">
-  <li><a href="/websites/manage-folder/add-folder/">Create a folder</a> called <code>news</code></li>
-  <li>In the news folder, <a href="/websites/manage-folder/add-file/">create a new code file</a> called <code>news-repeater.tpl</code></li>
+  <li><a href="/websites/folder-overview/add-folder/">Create a folder</a> called <code>news</code></li>
+  <li>In the news folder, <a href="/websites/folder-overview/add-file/">create a new code file</a> called <code>news-repeater.tpl</code></li>
 </ul>
 
 2. Add the news code using the example template provided below.
@@ -112,7 +112,7 @@ You need to add the ID number of your news module to the repeater shortcode with
 
 4. Navigate to `Websites > example.com > www`
 <ul style="padding-left: 50px;">
-  <li><a href="/websites/manage-folder/add-folder/">Create a folder</a> called <code>news</code></li>
+  <li><a href="/websites/folder-overview/add-folder/">Create a folder</a> called <code>news</code></li>
   <li>In the news folder, <a href="/websites/add-page/">create a page</a> called <code>index.stml</code></li>
   <li>Give your page a Title, and select a Template (optional)</li>
 </ul>
@@ -129,7 +129,7 @@ You need to add the ID number of your news module to the repeater shortcode with
 
 {% tab title="Step 3: Create Your News Detail Page" %}
 
-1. Navigate to `Websites > example.com > web files > content > news` and [create a new code file](/websites/manage-folder/add-file/) called `news-detail.tpl`.
+1. Navigate to `Websites > example.com > web files > content > news` and [create a new code file](/websites/folder-overview/add-file/) called `news-detail.tpl`.
 
 2. Add the news detail code using the example template provided below.
 

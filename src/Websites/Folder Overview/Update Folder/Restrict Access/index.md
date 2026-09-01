@@ -8,7 +8,7 @@ Go to the folder you want to restrict, open **Update Folder**, and expand **Webs
 
 <p><img src="../../../../images/websites/restrict-access-checkbox.jpg" alt="Restrict Access in Website to Authorized Users checkbox"></p>
 
-See [Update Folder](/websites/manage-folder/update-folder/) for the rest of that form's fields.
+See [Update Folder](/websites/folder-overview/update-folder/) for the rest of that form's fields.
 
 !!! Note:
 This flag documents that a folder is meant to be restricted -- it doesn't enforce anything by itself. The actual redirect comes from the `[contact_form_session]` shortcode below, placed on the pages inside the folder.

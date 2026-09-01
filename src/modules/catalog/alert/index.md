@@ -1,4 +1,4 @@
-#
+﻿#
 
 <link rel="stylesheet" href="/static/custom.css">
 
@@ -70,8 +70,8 @@ The alert module comes with a pre-configured entry that you can customize by acc
 
 1. Navigate to `Websites > example.com > web files > content`
 <ul style="padding-left: 50px;">
-  <li><a href="/websites/manage-folder/add-folder/">Create a folder</a> called <code>alert</code></li>
-  <li>In the alert folder, <a href="/websites/manage-folder/add-file/">create a new code file</a> named <code>alert-bar.tpl</code></li>
+  <li><a href="/websites/folder-overview/add-folder/">Create a folder</a> called <code>alert</code></li>
+  <li>In the alert folder, <a href="/websites/folder-overview/add-file/">create a new code file</a> named <code>alert-bar.tpl</code></li>
 </ul>
 
 2. Add the alert code using the example template provided below.
