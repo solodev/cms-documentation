@@ -2,10 +2,6 @@
 
 ### v11.8 (Recent Updates)
 
-This entry covers everything added since the last release notes update, consolidated into one "since 2024" entry rather than split release-by-release.
-
-Native Provider integrations (SSO, Customer.io, Google Business Profile, Mailchimp, Constant Contact, Dynamics 365, DeepL, Salesforce, and accessibility scanning providers) are in active use but not yet covered here -- see [Providers](/admin/settings/providers/) for what's documented so far.
-
 #### Key Release Highlights
  - Native Cart and Checkout system (Inventory, Shopping Cart, Coupons, Shipping, Tax, Payment) for selling directly from a website
  - Two-Factor Authentication (TOTP) available on every user account
