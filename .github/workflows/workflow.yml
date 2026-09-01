@@ -21,7 +21,7 @@ jobs:
         uses: retypeapp/action-build@latest
         id: build
         with:
-          key: "${{ secrets.RETYPE_LICENSE_KEY }}"
+          key: "${{ vars.RETYPE_LICENSE_KEY || secrets.RETYPE_LICENSE_KEY }}"
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
