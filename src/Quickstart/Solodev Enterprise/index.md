@@ -1,6 +1,15 @@
-# CMS Enterprise
+# 
 
-CMS Enterprise is an enterprise-grade content management system built from the ground up for Amazon Web Services (AWS). It is designed for high-availability websites and apps that require a secure, scalable, and redundant infrastructure powered by the AWS Cloud.
+<div class="quickstart-header">
+  <div class="inner">
+    <img src="../../images/quickstart/cms-enterprise-logo.jpg" alt="CMS Enterprise Logo">
+    <div>
+      <h1>CMS Enterprise</h1>
+      <p>An enterprise-grade content management system built from the ground up for Amazon Web Services (AWS).</p>
+    </div>
+  </div>
+  <a class="btn-subscribe" href="https://aws.amazon.com/marketplace/pp/prodview-btylxhjxu6pew" target="_blank" rel="noopener noreferrer">SUBSCRIBE</a>
+</div>
 
 <p><a href="https://aws.amazon.com/marketplace/pp/prodview-btylxhjxu6pew" target="_blank" rel="noopener noreferrer">CMS Enterprise on AWS Marketplace</a> &mdash; $999.00/month + $0.40&ndash;$0.70/hour usage, by EC2 instance type.</p>
 
@@ -31,7 +40,13 @@ Additional technology frameworks and libraries include <a href="https://www.linu
 
 ## Prerequisites
 
-Before launching CMS Enterprise, you will need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started. Once completed, return to this article and follow the instructions below:
+Before launching CMS Enterprise, make sure you have:
+
+* An existing <a href="https://portal.aws.amazon.com/billing/signup" target="_blank" rel="noopener noreferrer">AWS Account</a>.
+* An existing <a href="https://console.aws.amazon.com/ec2/" target="_blank" rel="noopener noreferrer">EC2 Key Pair</a>.
+* A preexisting VPC in the region you intend to launch in. If you don't have one, <a href="https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create?stackName=solodev-vpc&templateURL=https://s3.amazonaws.com/solodev-cms/cloudformation/infrastructure/vpc.yaml" target="_blank" rel="noopener noreferrer">launch this stack</a> to create one first.
+
+You'll also need to subscribe to Solodev on the AWS Marketplace. Click the button below to get started, then return to this article and follow the instructions below:
 
 <div class="border p-4" style="height: 137px; margin-bottom: 20px; align-items: center; display: flex;">
   <div style="width: 50%; float: left; text-align: center;">
@@ -42,6 +57,10 @@ Before launching CMS Enterprise, you will need to subscribe to Solodev on the AW
   </div>
 </div>
 
+!!! Note:
+Already subscribed? Skip ahead to [Launch this software](#launch-this-software).
+!!!
+
 ## AWS Setup
 
 At the top of the AWS Marketplace listing page for the CMS Enterprise, click the **“Continue to Subscribe”** button.
@@ -49,12 +68,6 @@ At the top of the AWS Marketplace listing page for the CMS Enterprise, click the
 ### Subscribe to this Software
 
 By subscribing, you gain access to a comprehensive suite of tools and features designed to enhance your productivity and streamline your workflow.
-
-<!-- <p><img src="../../images/quickstart/enterprise/cms-enterprise-marketplace-listing.jpg" alt="CMS Enterprise Marketplace listing" style="width: 80%;"></p> -->
-
-<!-- **Step 2:** Configure your VPC and EC2 Key Pair.
-
-Please note that a <a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html" target="_blank">VPC</a> and <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html" target="_blank">EC2 Key Pair</a> must be configured within the region you intend to launch your stack. If the following items are already created, you can skip directly to launch. -->
 
 <p><img src="../../images/quickstart/enterprise/enterprise-configuration.png" alt="CMS Enterprise Configuration" style="width: 80%;"></p>
 
@@ -111,6 +124,7 @@ PublicSubnet2ID | The ID of the public subnet in Availability Zone 2 in your exi
 InstanceType | The EC2 instance type you wish to launch
 InstanceCount | Number of instances behind the load balancer. Minimum 2 required for high availability.
 KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances
+AmiAlias | A user-defined name identifying the Amazon Machine Image (AMI) to launch. Leave the default unless Solodev support has given you a specific alias to use.
 
 <p><img src="../../images/quickstart/enterprise/enterprise-network-settings.jpg" alt="Network Settings"></p>
 
@@ -120,6 +134,7 @@ KeyName | Name of an existing EC2 KeyPair to enable SSH access to the instances
 :--- | ---
 AdminUser | The solodev admin username
 AdminPassword | The solodev admin password
+AdminCidrIpAccess | The CIDR range allowed to reach the admin layer. Change this from the default `127.0.0.1/32` to your own IP or CIDR range before launching.
 DatabaseUsername | The database admin account username
 DatabasePassword | The database root password
 
@@ -147,11 +162,23 @@ StorageEncrypted | Enable encryption for both Database (RDS) and Filesystem (EFS
 
 <p><img src="../../images/quickstart/enterprise/enterprise-network-settings-optional.jpg" alt="Network Settings - Optional"></p>
 
-**Step 6:** Confirm your stack details
+**Step 6:** Optional: SSO Settings
+
+If your organization uses single sign-on, configure it here. Leave these blank to sign in with a standard Solodev admin account instead.
+
+**Parameter Name** | **Description** 
+:--- | ---
+SsoProviderUrl | The issuer URL of your OpenID Connect provider.
+SsoClientId | The client ID registered with your SSO provider for this CMS instance.
+SsoClientSecret | The client secret paired with the SSO Client ID above.
+
+<p><img src="../../images/quickstart/enterprise/enterprise-sso-optional.jpg" alt="SSO Settings - Optional" style="width: 40%;"></p>
+
+**Step 7:** Confirm your stack details
 
 Click the **"Next"** button on the bottom of the screen to continue.
 
-**Step 7:** Specify Options
+**Step 8:** Specify Options
 
 Generally speaking, no additional options need to be configured. If you are experiencing continued problems installing the software, disable **"Rollback on failure"** under the **"Advanced"** options. This will allow for further troubleshooting if necessary. Click on the **"Next"** button to continue.
 
@@ -159,7 +186,7 @@ Generally speaking, no additional options need to be configured. If you are expe
 <p><img src="../../images/specific-options2.png" alt="Parameters "></p>
 <p><img src="../../images/specific-options3.png" alt="Parameters "></p>
 
-**Step 8:** Review
+**Step 9:** Review
 
 Review all CloudFront details and options. Ensure that the "I acknowledge that AWS CloudFormation might create IAM resources with custom names" checkbox is selected as well as the "I acknowledge that AWS CloudFormation might require the following capability: CAPABILITY_AUTO_EXPAND" checkbox. Click on the **"Create"** button to launch your stack.
 
@@ -192,12 +219,60 @@ Visit the IP address or the backend domain you previously configured. Log in to 
 
 Please [follow this link](/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
 
-<!-- ## Canceling your subscription
+### Migrate to a New Server
 
-If you would like to cancel your Solodev subscription and you have chosen hourly billing plans, just delete the stack connected with your CMS Pro. -->
+Moving your Solodev CMS to a different server? Follow the [server migration guide](/tutorials/cms/backup-and-restore/).
 
-<!-- <p><img src="../../images/cmsproawssubscribe16.png" alt="CMSProSubscribe"></p> -->
-
-<!-- !!! Note :
-To simplify the process please disable **View nested** button in you AWS and remove the main stack.
-!!! -->
+<style>
+  .quickstart-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #eef6ff;
+    border-radius: 8px;
+  }
+  .quickstart-header .inner {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .quickstart-header img {
+    width: 70px;
+    flex: none;
+  }
+  .quickstart-header h1 {
+    margin: 0 0 0.25rem;
+    font-size: 1.75rem;
+  }
+  .quickstart-header p {
+    margin: 0;
+  }
+  .quickstart-header .btn-subscribe {
+    flex: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    background-color: #f7941d;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .quickstart-header .btn-subscribe:hover {
+    background-color: #e0820f;
+  }
+  /* Keep the header on its light background even when the site is in dark mode -
+     the logo art assumes a light ground. */
+  .dark .quickstart-header,
+  [data-rt-theme="dark"] .quickstart-header {
+    background-color: #eef6ff;
+  }
+  .dark .quickstart-header h1,
+  .dark .quickstart-header p,
+  [data-rt-theme="dark"] .quickstart-header h1,
+  [data-rt-theme="dark"] .quickstart-header p {
+    color: #222;
+  }
+</style>
