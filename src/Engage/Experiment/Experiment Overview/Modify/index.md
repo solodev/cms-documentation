@@ -2,9 +2,13 @@
 
 Edit an Experiment's name and settings, and manage its variants.
 
+<p><img src="../../../../images/engage/experiment-modify.png" alt="Modify form" style="width: 45%;"></p>
+
 **Name** | **Description**
 :--- | ---
-Name | The name of the Experiment.
+Name | The internal name of the Experiment.
+Title | The display title shown wherever the Experiment is listed.
+Description | A short description of what's being tested.
 Google Experiment ID | Send conversion data to Google Optimize, which is integrated with Google Analytics, for granular tracking.
 
 ## Variants
