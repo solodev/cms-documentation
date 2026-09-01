@@ -51,6 +51,18 @@ Pull and filter entries from a <a href="/modules/">Datatable or Calendar module<
 `template_cond` (alias `template_sub_cond`) | Like [cond](/shortcodes/extended/), but for use inside a `template_repeater` block.
 `template_value_isset` / `template_value_isset_assignment` | Like `value_isset`, but for use inside a `template_repeater` block; the `_assignment` variant assigns a default instead of just checking.
 
+## Filters & archive navigation
+
+Pair these with a `repeater` and `js_pager` to build a filterable, paginated list without a page reload — each filter shortcode registers its own input's id in a global that `js_pager` binds to automatically.
+
+**Shortcode** | **Description**
+:--- | ---
+`category_filter` | Renders a dropdown of a module's categories. Requires `calendar_id` or `category_group_id`; optional `input_id` (defaults to `category_filter`, binds to `js_pager`'s `category_filter_input_id`), `input_class`, `order`, `all_text`, `all_value`, `parent_category` (list sub-categories of one category only).
+`date_filter` | Renders a dropdown of date-range presets (Today, Last 7 Days, This Year, etc.), plus optional specific years. Optional `id` (binds to `js_pager`'s `date_filter_input_id`), `class`, `label`, `years` (comma list, e.g. `2023,2024`, or a range like `2020-2024`), `year_format` (`range` or `simple`), `show_all_option`, `default_filters`.
+`search_filter` | Renders a keyword search box with a submit button. Optional `id` (binds to `js_pager`'s `table_filter_input_id`), `class`, `label`, `show_label`, `button_id`, `button_class`, `button_text`, `bootstrap_version`.
+`tag_filter` | Renders a dropdown of tag values. Optional `id`, `class`, `tag_values` (comma-separated list — shows four placeholder tags if omitted).
+`month_list` | Renders a rolling 12-month archive navigator starting from a given month/year — the pattern behind a "browse by month" blog/news sidebar. Optional `start_year`, `start_month` (default: current month/year). Inside the block, use `{{name}}`/`{{month}}` (full month name), `{{abbr}}` (abbreviated), `{{number}}`/`{{id}}` (month number), `{{year}}`.
+
 ## Forms backed by a module
 
 **Shortcode** | **Description**
