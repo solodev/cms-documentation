@@ -1,19 +1,23 @@
-# Pro
+# 
 
-Go hyper with a theme built for performance. Pro Theme is a business-grade, multi-page responsive theme package, built on the Bootstrap 5.3 engine and fully customizable with ease -- the step up from Micro Theme for sites that need more than one page.
+<link rel="stylesheet" href="/static/custom.css">
+
+<div class="header">
+  <div class="inner">
+    <img src="../../images/themes/pro-logo.png" alt="Pro Logo">
+    <div>
+      <h1>Pro</h1>
+      <p>The theme for pros! Build business-grade sites using a complete, mobile-responsive theme package with multiple pages and ready-to-go modules.</p>
+    </div>
+  </div>
+  <a class="btn-blue-lg" href="https://solodev-pro.s3.us-east-1.amazonaws.com/releases/pro-latest.zip" target="_blank" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span>DOWNLOAD</a>
+</div>
+
+Pro Theme is a business-grade, multi-page responsive theme package, built on the Bootstrap 5.3 engine and fully customizable with ease -- the step up from Micro Theme for sites that need more than one page.
 
 A great solution for growing businesses, Pro Theme pairs a polished, high-performance design with modules that are easy to customize and drive your experience further -- including a built-in blog engine so you can create articles, publish with ease, and build your SEO right out of the box.
 
-<div class="border p-4" style="height: 255px; margin-bottom: 20px;">
-  <div style="width: 40%; float: left;">
-    <p><img src="../../images/themes/pro-theme.png" alt="Pro Theme"></p>
-  </div>
-  <div style="width: 50%; float: left; padding-left: 30px;">
-    <h2>Pro Theme</h2>
-    <p class="mt-3">Business-grade responsive theme package with multiple pages and modules -- built for performance.</p>
-    <a href="https://solodev-pro.s3.us-east-1.amazonaws.com/releases/pro-latest.zip">Download Theme.</a>
-  </div>
-</div>
+<p><img src="../../images/themes/pro-theme.png" alt="Pro Theme" style="max-width: 480px; width: 100%; height: auto; display: block; margin: 0 auto;"></p>
 
 * **Built for performance:** Powered by the Bootstrap 5.3 engine, Pro Theme is built to load fast and look sharp across every page.
 * **Accelerate with Quicklinks:** Pro Theme includes modules that are easy to customize and drive your experience to the next level.
