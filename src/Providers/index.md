@@ -27,15 +27,21 @@ Everything related to connecting Solodev CMS to outside infrastructure and servi
 :--- | ---
 [Route53](/providers/route53/) | Point AWS Route 53 DNS at your Solodev CMS deployment.
 
+## Messaging
+
+**Name** | **Description**
+:--- | ---
+[Customer.io](/providers/customer.io/) | Messaging and event delivery, plus automatic Contacts/Segments sync.
+
 ## Permissions
 
 **Name** | **Description**
 :--- | ---
 [Add Permissions to Group](/providers/add-permissions-to-group/) | Specify which Actions and Resources are available to a group.
 
-## OAuth Providers
+## Other Provider Connections
 
-For the CMS's own Provider connections -- SSO, Customer.io, Google Business Profile, Mailchimp, Constant Contact, Dynamics 365, DeepL, Salesforce, and accessibility scanning providers -- see [Admin > Settings > Providers](/admin/settings/providers/).
+For the CMS's remaining Provider connections -- SSO, Google Business Profile, Mailchimp, Constant Contact, Dynamics 365, DeepL, Salesforce, and accessibility scanning providers -- see [Admin > Settings > Providers](/admin/settings/providers/). Individual setup guides for these aren't written yet; each one needs its own page against a real, working connection.
 
 !!! Note:
 Looking for password-protecting part of a website's frontend? See [Restrict Access](/websites/folder-overview/update-folder/restrict-access/) under Websites.

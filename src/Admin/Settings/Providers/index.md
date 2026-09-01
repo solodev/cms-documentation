@@ -7,7 +7,7 @@ Providers connect the CMS to outside services &mdash; Git hosts, SSO, marketing/
 [Add Connection](/admin/settings/providers/add-connection/) | Connect an available provider.
 [Modify](/admin/settings/providers/modify/) | Change an existing connection's settings.
 [Delete](/admin/settings/providers/delete/) | Remove a connection.
-[Customer.io](/admin/settings/providers/customer.io/) | Messaging and event delivery, plus automatic Contacts/Segments sync.
+[Customer.io](/providers/customer.io/) | Messaging and event delivery, plus automatic Contacts/Segments sync.
 
 !!! Note
 Most individual providers' specific setup fields aren't documented here yet &mdash; each one needs its own page written against a real, working connection rather than guessed from configuration. If you're setting one up, work with your Solodev engineer.
