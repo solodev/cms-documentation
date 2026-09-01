@@ -19,9 +19,19 @@ Get notified when someone submits the form.
 
 **Name** | **Description**
 :--- | ---
-Return Behavior | What happens in the visitor's browser after they submit.
+Return Behavior | What happens in the visitor's browser after they submit -- redirect to a URL, or show a custom uploaded return page.
 Notification Type | What triggers a notification email (Form Submission, and other options).
 Tickler Email Address | Add one or more email addresses to notify on each submission.
+
+Want submissions routed into a marketing automation platform instead of (or in addition to) email? See [Customer.io](/forms/form-overview/modify/customer.io/).
+
+### Customizing the email template
+
+The form's own template is reused for the notification email, so keep a few things in mind if you want that email to look right:
+
+- Give the submit input `type="submit"` -- otherwise the submit button itself shows up in the email body.
+- Input values are converted to `<p>input value</p>` in the generated email.
+- For more layout control, build the form's fields inside an HTML table.
 
 ## Table Schema
 
@@ -55,4 +65,9 @@ Most of this section matches [Module Overview's Advanced Options](/modules/modul
 :--- | ---
 Allowed File Extensions for Uploads | Comma-separated list (e.g. `jpg, png, pdf`) restricting what visitors can attach via a File field.
 Enable CSRF | Checked by default -- protects the form against cross-site request forgery.
+Honeypot Protection | Adds a hidden field real visitors never fill in -- submissions that fill it are silently treated as spam.
+Enable Captcha | Require a CAPTCHA challenge before the form can be submitted.
+Block Anonymous Submissions | Require a logged-in contact session to submit.
+Flat Entries | Store subtable values as flat entries instead of nested ones.
+Sanitize URLs from submissions | Strip URLs out of submitted field values before they're saved.
 Enforce User Permissions | Require a logged-in, permitted user to submit.

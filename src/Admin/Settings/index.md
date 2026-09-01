@@ -1,8 +1,8 @@
 ﻿# Settings
 
-The Settings section contains a wide range of functionality regarding your Solodev environment.
+The Settings section contains a wide range of functionality regarding your Solodev environment. **Connected Providers** at the top surfaces core system connections (like your SMTP mail provider) at a glance -- click **View all providers** to see and manage every connection under [Providers](/admin/settings/providers/).
 
-<p><img src="../../images/admin/settings/settings.jpg" alt="Settings list"></p>
+<p><img src="../../images/admin/settings/settings.png" alt="Settings dashboard: Connected Providers, and tiles for Collections, Apps, Layouts, Providers, Permissions, Workflow, Reports, and Branding"></p>
 
 **Name** | **Description** 
 :--- | ---

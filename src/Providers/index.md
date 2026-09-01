@@ -38,5 +38,5 @@ Everything related to connecting Solodev CMS to outside infrastructure and servi
 For the CMS's own Provider connections -- SSO, Customer.io, Google Business Profile, Mailchimp, Constant Contact, Dynamics 365, DeepL, Salesforce, and accessibility scanning providers -- see [Admin > Settings > Providers](/admin/settings/providers/).
 
 !!! Note:
-Looking for password-protecting part of a website's frontend? See [Restricted Access](/websites/restricted-access/) under Websites.
+Looking for password-protecting part of a website's frontend? See [Restrict Access](/websites/manage-folder/update-folder/restrict-access/) under Websites.
 !!!

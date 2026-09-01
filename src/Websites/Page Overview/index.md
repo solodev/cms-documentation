@@ -172,7 +172,7 @@ The Metadata panel can be collapsed using the small “>” icon in the upper le
 **Name** | **Description**
 :--- | ---
 Name | Click the pencil icon to update the name of your page.
-Published | View the published/staged/draft versions of your page using the picker below the name.
+[Published](/websites/page-overview/status-dropdown/) | Switch between the Draft, Stage, Origin, and Published views using the picker below the name.
 Title | Add/Update a title to your page.  
 Description | Provide an overview of your page for unfurling and other applications. Limit: 255 characters. 
 Keywords | Include the top keywords from your content to improve SEO. Limit: 180 characters.
@@ -202,4 +202,4 @@ Body Role | Specifies the role of the main content area in the page's structure,
 Body Class | HTML attribute that assigns one or more classes to the page's main content area. 
 Header Code | Allows you to add custom code to the page's header section.
 Is Template | If enabled, this indicates that the page is a template for other pages. 
-Is Cached | If enabled, the page content may be cached to improve performance. 
+Is Cached | If enabled, the page content is cached to improve performance. See [Page Cache](/websites/page-overview/page-cache/) to set the TTL.

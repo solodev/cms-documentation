@@ -10,7 +10,7 @@ View and manage a specific user. Click a user's name from the [Users](/organizat
 <a href="/organization/users/user-overview/reset-password/">Reset Password</a> | Send an email that lets the user set a new password.
 <a href="/organization/users/user-overview/permissions/">Permissions</a> | Manage the user's access to apps and modules in your CMS.
 <a href="/organization/users/user-overview/delete-user/">Delete</a> | Remove the user from your CMS deployment.
-Login as User | Sign in as this user, in their own session.
+<a href="/organization/users/user-overview/login-as-user/">Login as User</a> | Sign in as this user, in their own session.
 
 !!! Note:
 Only users with an admin role can manage or modify another user's profile details.

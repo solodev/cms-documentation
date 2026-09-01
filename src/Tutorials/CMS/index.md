@@ -1,1 +1,0 @@
-CMS tutorials provide step-by-step instructions for activating, managing, and optimizing the features and functionality in Solodev.

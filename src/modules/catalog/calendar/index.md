@@ -184,10 +184,6 @@ If you already have entries added to your module, you will need to resave them t
 
 {% endtabs %}
 
-!!! Note:
-Do you want to take your calendar to the next level? Explore our [full calendar tutorial](/tutorials/cms/modules/enhance-your-calendar-with-full-calendar-plugin/).
-!!!
-
 ## Support
 
 Support for Calendar Module is handled directly through Solodev's global help desk. For more information regarding support queries, go to [www.solodev.com](https://www.solodev.com/).

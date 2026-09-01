@@ -28,7 +28,7 @@ Datatable Category Group ID | The ID for a group of categories. Click **Browse**
 Datatable Category ID | The ID for a specific category.
 Image | Click **Upload Image** to add or update the folder's image.
 Include in Website Navigation | Mark this option to structure the folder to display in navigation menus.
-Restrict Access in Website to Authorized Users | Allows access to the folder and contents to be password protected for website visitors.
+[Restrict Access in Website to Authorized Users](/websites/manage-folder/update-folder/restrict-access/) | Allows access to the folder and contents to be password protected for website visitors. See [Restrict Access](/websites/manage-folder/update-folder/restrict-access/) for the full setup, including the shortcode that enforces it.
 Enable Publish Contents to Filesystem | Publishes the folder's contents directly to the filesystem.
 
 ## Advanced

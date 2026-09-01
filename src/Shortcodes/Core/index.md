@@ -7,7 +7,7 @@ Fundamentals: admin/frontend gating, asset files, string helpers, dates, error r
 **Shortcode** | **Description**
 :--- | ---
 [Admin](/shortcodes/core/admin/) | `[admin_only]...[/admin_only]` shows content only on the backend; `[non_admin_only]...[/non_admin_only]` shows it only on the live frontend.
-[Report Errors](/shortcodes/core/report-errors/) | Turns on PHP error display and warnings for the rest of the request.
+[Report Errors](/shortcodes/extended/report-errors/) | Turns on PHP error display and warnings for the rest of the request.
 [Get Asset File Name](/shortcodes/core/get-asset-file-name/) | Returns the file name for an `id` (asset_file_id).
 [Get Asset File URL](/shortcodes/core/get-asset-file-url/) | Returns the URL path for an `id` (asset_file_id).
 [Lower Case](/shortcodes/core/lower-case/) | `[lower_case]...[/lower_case]` &mdash; lowercases the enclosed content.

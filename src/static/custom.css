@@ -155,6 +155,8 @@
   margin: 0;
   font-size: 1.05rem;
   color: #223;
+  text-align: center;
+  width: 100%;
 }
 .quickstart-grid p {
   margin: 0;

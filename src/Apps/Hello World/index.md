@@ -22,7 +22,7 @@ Install "Hello World" and learn how apps can be constructed within Solodev. Reve
 - Have a [Solodev CMS](/quickstart).
 
 !!!Note: 
-For step-by-step instructions on adding an App in your CMS, please visit [Add an App](/admin/settings/add-app/).
+For step-by-step instructions on adding an App in your CMS, please visit [Add an App](/admin/settings/apps/add-app/).
 !!!
 
 ## Support
