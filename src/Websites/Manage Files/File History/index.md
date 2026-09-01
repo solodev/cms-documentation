@@ -1,8 +1,8 @@
-# File History
+﻿# File History
 
 Review previous saved versions of a file's code or content, compare any two versions, and restore an older one. From an open file, click the **...** menu next to **Publish**, then click **History**.
 
-<p><img src="../../../../images/websites/files/history-file.png" alt="History panel showing version list and a diff view" style="width: 80%;"></p>
+<p><img src="../../../images/websites/files/history-file.png" alt="History panel showing version list and a diff view" style="width: 80%;"></p>
 
 **Name** | **Description**
 :--- | ---

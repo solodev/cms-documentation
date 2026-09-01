@@ -1,8 +1,8 @@
-# Change Password
+﻿# Change Password
 
 Change the password for your account, from the **Security** page.
 
-<p><img src="../../../../images/profile/security.png" alt="Security page"></p>
+<p><img src="../../../images/profile/security.png" alt="Security page"></p>
 
 **Name** | **Description** 
 :--- | ---

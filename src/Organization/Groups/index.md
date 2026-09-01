@@ -1,8 +1,8 @@
-# Groups
+﻿# Groups
 
 Create groups in your CMS, add members, and manage their roles and permissions. Click a group's name to view or modify its details.
 
-<p><img src="../../../images/organization/groups-list.png" alt="Groups list"></p>
+<p><img src="../../images/organization/groups-list.png" alt="Groups list"></p>
 
 **Name** | **Description** 
 :--- | ---

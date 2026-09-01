@@ -1,8 +1,8 @@
-# Source
+﻿# Source
 
 Source is the combined tree for everything in your CMS deployment &mdash; Websites, Modules, Users, Documents, and Forms all in one place, instead of navigating into each section separately. It's useful when you need to work across the whole system at once: finding an object without knowing which section it lives under, or moving/copying between areas that otherwise live in separate parts of the nav.
 
-<img src="../../../images/filesystem.png" alt="Source tree" style="width: 80%; display: block"></a>
+<img src="../images/filesystem.png" alt="Source tree" style="width: 80%; display: block"></a>
 
 The main catalogs are:
 
@@ -26,7 +26,7 @@ A catalog only appears in the tree once it contains at least one item -- an empt
 
 Click into any catalog to manage it with the same options available from its own section. Use **Search** at the top to find a file without browsing the tree.
 
-<img src="../../../images/filesystem2.jpg" alt="Source management"></a>
+<img src="../images/filesystem2.jpg" alt="Source management"></a>
 
 **Name** | **Description**
 :--- | ---

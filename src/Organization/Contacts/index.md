@@ -1,8 +1,8 @@
-# Contacts 
+﻿# Contacts 
 
 Contacts are frontend/storefront customers, distinct from the [Users](/organization/users/) who log into the CMS itself. Click a contact's name to view or manage their details, or use **Search** at the top to find one.
 
-<p><img src="../../../images/organization/contacts-list.png" alt="Contacts list"></p>
+<p><img src="../../images/organization/contacts-list.png" alt="Contacts list"></p>
 
 **Name** | **Description** 
 :--- | ---

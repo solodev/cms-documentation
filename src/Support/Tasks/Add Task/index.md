@@ -1,8 +1,8 @@
-# Add Task
+﻿# Add Task
 
 Open the page, file, or module entry the task is about, then click the people icon in the top-right of its editor toolbar to open its task panel. Click **+ Add task**.
 
-<p><img src="../../../../images/support/add-task-form.png" alt="New Task form: note, due date, and assignees"></p>
+<p><img src="../../../images/support/add-task-form.png" alt="New Task form: note, due date, and assignees"></p>
 
 **Name** | **Description**
 :--- | ---

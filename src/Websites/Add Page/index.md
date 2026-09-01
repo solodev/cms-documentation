@@ -1,4 +1,4 @@
-# Add Page
+﻿# Add Page
 
 A page is the basic building block of a website. It acts as a container for your content while providing a general structure based on your layout template and styling. From an open **www** folder, click **+ Add** and select **Add Page**.
 
@@ -10,7 +10,7 @@ While a page is composed of hypertext markup and served in a browser, all pages 
 if you're creating an HTML page with a code editor, you need to manually give it an extension of ".stml" before you upload the file to your Solodev CMS.
 !!!
 
-<p><img src="../../../images/websites/pages/add-page-layouts.png" alt="Add Page form" style="width: 45%;"></p>
+<p><img src="../../images/websites/pages/add-page-layouts.png" alt="Add Page form" style="width: 45%;"></p>
 
 **Name** | **Description**
 :--- | ---

@@ -1,8 +1,8 @@
-# Add Folder
+﻿# Add Folder
 
 Folders are built in a nested tree hierarchy and serve as containers of all Solodev resources, including files and folders to your website(s). From an open folder, click **+ Add** and select **Add Folder**.
 
-<p><img src="../../../../images/folders/add-folder.png" alt="Add Folder form" style="width: 40%;"></p>
+<p><img src="../../../images/folders/add-folder.png" alt="Add Folder form" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---

@@ -1,8 +1,8 @@
-# Dashboard
+﻿# Dashboard
 
 The Dashboard is the home screen of your CMS. From here, you can quickly connect to your websites and recent work, manage users and groups, track tasks, and more. You can also access advanced admin features, including Settings and the API.
 
-<p><img src="../../../images/dashboard/dashboard.png" alt="Solodev CMS Dashboard"></p>
+<p><img src="../images/dashboard/dashboard.png" alt="Solodev CMS Dashboard"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -26,7 +26,7 @@ The main Dashboard has two sections below the search bar: **Websites** and **Rec
 
 A global search bar sits at the top of the Dashboard. It searches Mongo directly, across both files (HTML, STML pages, documents, images) and module/datatable entries &mdash; a result can be a page like `county.html` or a specific record like `datatable_entry_id: 7248`.
 
-<p><img src="../../../images/dashboard/search.png" alt="Search field" style="width: 60%;"></p>
+<p><img src="../images/dashboard/search.png" alt="Search field" style="width: 60%;"></p>
 
 Results are shown in a table with **Name**, **Modified**, and **By** columns. Click a result to open it directly.
 
@@ -38,7 +38,7 @@ Press **Enter** or click the search button to run the search. Click **Close** to
 
 You can access any active websites using the cards on the main Dashboard.
 
-<p><img src="../../../images/dashboard/websites.png" alt="Website Cards"></p>
+<p><img src="../images/dashboard/websites.png" alt="Website Cards"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -54,13 +54,13 @@ From the Dashboard, you can quickly link to the most recent website pages, templ
 
 To access a specific file, click on a row in the **Recents** table. 
 
-<p><img src="../../../images/dashboard/recent-files.png" alt="Recent Files" style="width: 70%;"></p>
+<p><img src="../images/dashboard/recent-files.png" alt="Recent Files" style="width: 70%;"></p>
 
 ## Profile 
 
 Use the links in the lower left corner of your Dashboard to manage your profile or log out from Solodev CMS.  
 
-<p><img src="../../../images/dashboard/dashboard-profile.png" alt="Profile Flyout" style="width: 20%;"></p>
+<p><img src="../images/dashboard/dashboard-profile.png" alt="Profile Flyout" style="width: 20%;"></p>
 
 **Name** | **Description** 
 :--- | ---

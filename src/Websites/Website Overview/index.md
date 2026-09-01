@@ -1,4 +1,4 @@
-# Website Overview
+﻿# Website Overview
 
 You can manage any website in your Solodev CMS to update details, adjust the Vhost, apply redirects, and modify permissions for your team. You will also have access to the [web files](/websites/website-overview/#web-files) and [www](/websites/website-overview/#www) folders for managing your website's pages, templates, and other assets. 
 
@@ -6,7 +6,7 @@ You can manage any website in your Solodev CMS to update details, adjust the Vho
 
 After selecting an active website in your Solodev CMS, you're directed to that website's dashboard: a left-hand file tree, a live preview of the site in the middle, and a details/actions panel on the right.
 
-<p><img src="../../../../images/websites/website-overview.png" alt="Website Overview dashboard"></p>
+<p><img src="../../images/websites/website-overview.png" alt="Website Overview dashboard"></p>
 
 **Left: file tree** &mdash; expand **web files** and **www** to browse the site's folders and pages, and switch between websites using the dropdown at the top of the tree.
 

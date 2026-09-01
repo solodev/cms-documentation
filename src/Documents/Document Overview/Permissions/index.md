@@ -1,8 +1,8 @@
-# Permissions
+﻿# Permissions
 
 Manage which users/groups can access a folder and what they can do in it. From a folder's page, open the **...** menu and click **Permissions**.
 
-<p><img src="../../../../images/documents/permissions-form.png" alt="Permissions panel"></p>
+<p><img src="../../../images/documents/permissions-form.png" alt="Permissions panel"></p>
 
 **Name** | **Description**
 :--- | ---

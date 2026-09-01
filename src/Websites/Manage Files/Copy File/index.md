@@ -1,8 +1,8 @@
-# Copy File
+﻿# Copy File
 
 Duplicate a file, optionally into a different folder. From an open file, click the **...** menu next to **Publish**, then click **Copy**.
 
-<p><img src="../../../../images/websites/files/copy-file.png" alt="Copy panel for a file" style="width: 45%;"></p>
+<p><img src="../../../images/websites/files/copy-file.png" alt="Copy panel for a file" style="width: 45%;"></p>
 
 **Name** | **Description**
 :--- | ---

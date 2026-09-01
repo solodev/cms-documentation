@@ -1,8 +1,8 @@
-# Upload
+﻿# Upload
 
 Upload a file from your computer. From an open folder, click **Upload**.
 
-<p><img src="../../../../images/folders/upload-files.png" alt="Upload Files panel" style="width: 40%;"></p>
+<p><img src="../../../images/folders/upload-files.png" alt="Upload Files panel" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---

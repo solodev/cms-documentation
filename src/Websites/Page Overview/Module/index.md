@@ -1,14 +1,14 @@
-# Module
+﻿# Module
 
 Insert a low-code module &mdash; a Blog, Calendar, Datatable, or other <a href="/modules/">module</a> already built for this website.
 
-<p><img src="../../../../images/websites/pages/rail-module.png" alt="Module icon in the component palette"></p>
+<p><img src="../../../images/websites/pages/rail-module.png" alt="Module icon in the component palette"></p>
 
 **Step 1**: While editing a page, find the vertical icon rail on the left edge of the page canvas. Module is the fourth icon from the top.
 
 **Step 2**: Drag it onto an empty region of the canvas. This opens **Select Module**.
 
-<p><img src="../../../../images/websites/pages/select-module-picker.png" alt="Select Module picker"></p>
+<p><img src="../../../images/websites/pages/select-module-picker.png" alt="Select Module picker"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -22,7 +22,7 @@ Choose | Insert the selected module at the drop location.
 
 If nothing in the list fits, click **+ Add Module** to create one without leaving the page. This is a lighter version of the full [Add Module](/modules/add-module/) form.
 
-<p><img src="../../../../images/websites/pages/quickadd-module.png" alt="Quick Add Module form"></p>
+<p><img src="../../../images/websites/pages/quickadd-module.png" alt="Quick Add Module form"></p>
 
 **Name** | **Description**
 :--- | ---

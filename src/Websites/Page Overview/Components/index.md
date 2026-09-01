@@ -1,14 +1,14 @@
-# Components
+﻿# Components
 
 Insert a saved, reusable group of components &mdash; a bundle of elements you've saved together for reuse across pages, rather than rebuilding them each time.
 
-<p><img src="../../../../images/websites/pages/rail-components.png" alt="Components icon in the component palette"></p>
+<p><img src="../../../images/websites/pages/rail-components.png" alt="Components icon in the component palette"></p>
 
 **Step 1**: While editing a page, find the vertical icon rail on the left edge of the page canvas. Components is the second icon from the top.
 
 **Step 2**: Drag it onto an empty region of the canvas. This opens **Select Components**.
 
-<p><img src="../../../../images/websites/pages/select-components-picker.png" alt="Select Components picker"></p>
+<p><img src="../../../images/websites/pages/select-components-picker.png" alt="Select Components picker"></p>
 
 **Name** | **Description**
 :--- | ---

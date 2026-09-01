@@ -1,8 +1,8 @@
-# Manage Profile
+﻿# Manage Profile
 
 Update your account details, including your name, phone number, timezone, title, company, and session timeout.
 
-<p><img src="../../../../images/profile/profile.png" alt="Profile form"></p>
+<p><img src="../../../images/profile/profile.png" alt="Profile form"></p>
 
 **Name** | **Description** 
 :--- | ---

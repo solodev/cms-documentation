@@ -1,10 +1,10 @@
-# Themes
+﻿# Themes
 
 Themes determine the overall look and feel of your website, including its layout, colors, fonts, and style. By selecting a theme, you can quickly and easily customize the appearance of your site to match your brand or personal preference. 
 
 <div class="border p-4" style="height: 255px; margin-bottom: 20px;">
   <div style="width: 40%; float: left;">
-    <p><img src="../../images/themes/micro-theme.jpg" alt="Micro Theme"></p>
+    <p><img src="../images/themes/micro-theme.jpg" alt="Micro Theme"></p>
   </div>
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2><a href="/themes/micro">Micro Theme</a></h2>
@@ -15,7 +15,7 @@ Themes determine the overall look and feel of your website, including its layout
 
 <div class="border p-4" style="height: 255px; margin-bottom: 20px;">
   <div style="width: 40%; float: left;">
-    <p><img src="../../images/themes/pro-theme.png" alt="Pro Theme"></p>
+    <p><img src="../images/themes/pro-theme.png" alt="Pro Theme"></p>
   </div>
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2><a href="/themes/pro">Pro Theme</a></h2>
@@ -26,7 +26,7 @@ Themes determine the overall look and feel of your website, including its layout
 
 <div class="border p-4" style="height: 255px; margin-bottom: 20px;">
   <div style="width: 40%; float: left;">
-    <p><img src="../../images/themes/enterprise-theme.png" alt="Enterprise Theme"></p>
+    <p><img src="../images/themes/enterprise-theme.png" alt="Enterprise Theme"></p>
   </div>
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2><a href="/themes/enterprise">Enterprise Theme</a></h2>

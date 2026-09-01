@@ -1,10 +1,10 @@
-# Page Overview
+﻿# Page Overview
 
 In Solodev, you can update any page on your website under the www folder. You can build a page from scratch using a layout template and a drag-and-drop component palette, directly edit an existing page using in-line editing tools with a visual preview, or access the underlying code for each div on your page.
 
 In this article, you will learn how to build a new page from a layout template and the component palette, access an existing page in your www folder, modify it using the editing options available in your CMS, and update your page's meta information and details.
 
-<p><img src="../../../images/websites/pages/built-page-overview.png" alt="A real page built from a base template, a Blog module, and shared header/footer"></p>
+<p><img src="../../images/websites/pages/built-page-overview.png" alt="A real page built from a base template, a Blog module, and shared header/footer"></p>
 
 The page above was built entirely with the process in this article: a [layout template](#building-a-page) for the header/nav/footer, then a [Module](#adding-content-with-the-component-palette) dropped in for the Blog.
 
@@ -34,7 +34,7 @@ The Base, Homepage, Sectional, and Content layouts are built-in Bootstrap system
 
 A page you're editing has a vertical icon rail on its left edge. Each icon is a draggable component type &mdash; drag one onto an empty region of the page canvas to insert it:
 
-<p><img src="../../../images/websites/pages/component-rail.png" alt="Component palette rail" style="width: 6%;"></p>
+<p><img src="../../images/websites/pages/component-rail.png" alt="Component palette rail" style="width: 6%;"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -62,7 +62,7 @@ The Solodev editing experience is highly visual and provides a fully rendered pr
 
 Using the toolbar at the top of the screen, you can instantly view your page in a desktop, tablet, and smartphone format to test responsiveness and make in-line edits. You can also highlight divs, open a tab to your live page, and expand the window to maximize your viewable area.
 
-<p><img src="../../../images/websites/pages/page-preview-toolbar.png" alt="Page preview toolbar with mobile/tablet/desktop toggles and expand"></p>
+<p><img src="../../images/websites/pages/page-preview-toolbar.png" alt="Page preview toolbar with mobile/tablet/desktop toggles and expand"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -82,15 +82,15 @@ This low-code method is ideal for making quick changes to your content like upda
 
 **Step 1**: Open the **www folder** in the left-hand menu and select a page to edit. Remember to click on the triangle graphic to the left of each folder to access its contents.
 
-<p><img src="../../../images/left-side-menu.jpg" alt="manage-folder" style="width: 20%;"></p>
+<p><img src="../../images/left-side-menu.jpg" alt="manage-folder" style="width: 20%;"></p>
 
 **Step 2**: On your selected page, click on the section you wish to edit to access the dynamic div. A small flag with a pencil icon and text will appear in the upper left corner. Click on the icon to directly edit the page.
 
-<p><img src="../../../images/spacejet-div-access.jpg" alt="manage-folder"></p>
+<p><img src="../../images/spacejet-div-access.jpg" alt="manage-folder"></p>
 
 **Step 3**: Once activated, an editing toolbar will appear in your div, allowing you to select text and update your page directly. You can apply styles for bold, italic, and underlined text and change the heading styles. You can also apply numbering, bullets, and links to your content. 
 
-<p><img src="../../../images/spacejet-div-inline-editor.jpg" alt="manage-folder"></p>
+<p><img src="../../images/spacejet-div-inline-editor.jpg" alt="manage-folder"></p>
 
 !!! **Note**: 
 
@@ -122,15 +122,15 @@ In addition to in-line editing, you can access the code to update a div or .tpl 
 
 **Step 1**: Open the **www folder** in the left-hand menu and select a page to edit. Remember to click on the triangle graphic to the left of each folder to access its contents.
 
-<p><img src="../../../images/left-side-menu.jpg" alt="manage-folder" style="width: 20%;"></p>
+<p><img src="../../images/left-side-menu.jpg" alt="manage-folder" style="width: 20%;"></p>
 
 **Step 2**: On your selected page, click on the section you wish to edit to access the dynamic div. A small flag with a pencil icon and text will appear in the upper left corner. Click on the text to access the code for the div. 
 
-<p><img src="../../../images/spacejet-div-access-2.jpg" alt="manage-folder"></p>
+<p><img src="../../images/spacejet-div-access-2.jpg" alt="manage-folder"></p>
 
 **Step 3**: Once the code appears, you can make any desired modifications by accessing the menu on the right side panel.
 
-<p><img src="../../../images/websites/update-file.jpg" alt="Update file"></p>
+<p><img src="../../images/websites/update-file.jpg" alt="Update file"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -163,7 +163,7 @@ When updating a page using in-line editing, you can view and manage your meta in
 
 The Metadata panel provides quick access to details such as the page ID, which team member made the last update, and the page's location in your website structure. It also provides editable components for page name, description, keywords, and more. 
 
-<p><img src="../../../images/websites/spacejet-metadata-panel.jpg" alt="Metadata Panel"></p>
+<p><img src="../../images/websites/spacejet-metadata-panel.jpg" alt="Metadata Panel"></p>
 
 !!! **Note**:
 The Metadata panel can be collapsed using the small “>” icon in the upper left of the window.
@@ -181,13 +181,13 @@ Structured | When you structure a page, you ensure its visibility in your websit
 ### Unfurling Preview 
 The Metadata panel also previews how the page will unfurl in search results and other applications like Slack.
 
-<p><img src="../../../images/spacejet-unfurl.jpg" alt="Page unfurling" style="width: 43%;"></p>
+<p><img src="../../images/spacejet-unfurl.jpg" alt="Page unfurling" style="width: 43%;"></p>
 
 ### Advanced
 
 Customize your page's behavior, appearance, and functionality with granular settings to add social media images, control rank, manage header code, and more.
 
-<p><img src="../../../images/websites/metadata-panel-advanced.jpg" alt="Advanced options on metadata panel" style="width: 40%;"></p>
+<p><img src="../../images/websites/metadata-panel-advanced.jpg" alt="Advanced options on metadata panel" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---

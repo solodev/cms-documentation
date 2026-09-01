@@ -1,8 +1,8 @@
-# Publish, Stage & Draft
+﻿# Publish, Stage & Draft
 
 Every file has one workflow-status button in the top right of the code editor. Click the caret next to it to switch which status your changes are saved as.
 
-<p><img src="../../../../images/websites/files/publish-stage-draft.png" alt="Publish button with Stage and Draft options" style="width: 40%;"></p>
+<p><img src="../../../images/websites/files/publish-stage-draft.png" alt="Publish button with Stage and Draft options" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---

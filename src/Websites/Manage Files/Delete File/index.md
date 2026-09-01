@@ -1,8 +1,8 @@
-# Delete File
+﻿# Delete File
 
 Permanently remove a file from your website. From an open file, click the **...** menu next to **Publish**, then click **Delete**.
 
-<p><img src="../../../../images/websites/files/delete-file.png" alt="Delete confirmation for a file" style="width: 45%;"></p>
+<p><img src="../../../images/websites/files/delete-file.png" alt="Delete confirmation for a file" style="width: 45%;"></p>
 
 **Name** | **Description**
 :--- | ---

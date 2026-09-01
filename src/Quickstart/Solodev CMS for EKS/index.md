@@ -124,7 +124,7 @@ The following command opens a localhost dashboard where you can view the cluster
 1. Copy the key from the command line and paste into the Bearer token field in the browser.
 2. Explore the interface to familiarize yourself with its layout and functionalities.
 
-<p><img src="../../images/quickstart/eks/eks-kubernetes-dashboard.jpg" alt="EKS Kubernetes dashboard" style="width: 62%;"></p>
+<p><img src="../../images/quickstart/eks/eks-dashboard-console.jpg" alt="EKS Kubernetes dashboard" style="width: 62%;"></p>
 
 ## Install Solodev CMS for EKS
 

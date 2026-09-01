@@ -1,4 +1,4 @@
-# Restricted Access
+﻿# Restricted Access
 
 Password-protect part of a website's frontend so only logged-in contacts can see it. Two pieces work together: a folder-level flag that marks a folder as restricted, and a shortcode that actually enforces the redirect on each protected page.
 
@@ -6,7 +6,7 @@ Password-protect part of a website's frontend so only logged-in contacts can see
 
 Go to the folder you want to restrict, open **Update Folder**, and expand **Website Properties**. Check **Restrict Access in Website to Authorized Users** and click **Submit**.
 
-<p><img src="../../../images/websites/restrict-access-checkbox.jpg" alt="Restrict Access in Website to Authorized Users checkbox"></p>
+<p><img src="../../images/websites/restrict-access-checkbox.jpg" alt="Restrict Access in Website to Authorized Users checkbox"></p>
 
 See [Update Folder](/websites/manage-folder/update-folder/) for the rest of that form's fields.
 

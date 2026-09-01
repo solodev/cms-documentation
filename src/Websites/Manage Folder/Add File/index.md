@@ -1,8 +1,8 @@
-# Add File 
+﻿# Add File 
 
 In the Solodev CMS, a file serves many purposes. Examples of a file include HTML or code files, like .tpl. Files are stored in folders with a different Resource View depending on their file type. From an open folder, click **+ Add** and select **Add File**.
 
-<p><img src="../../../../images/folders/add-file.png" alt="Add File form" style="width: 40%;"></p>
+<p><img src="../../../images/folders/add-file.png" alt="Add File form" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---

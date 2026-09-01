@@ -1,8 +1,8 @@
-# Manage Folder
+﻿# Manage Folder
 
 Click into the **web files** or **www** folder from a website's [Website Overview](/websites/website-overview/) to manage its contents: add pages, files, and subfolders, upload assets, and set permissions.
 
-<p><img src="../../../images/websites/folder/folder.png" alt="Folder view with real content"></p>
+<p><img src="../../images/websites/folder/folder.png" alt="Folder view with real content"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -33,7 +33,7 @@ File Groups, Experiments, and Scheduler are also inserted into a folder, but the
 
 Manage the folder access permissions for users and groups.
 
-<p><img src="../../../images/permissions/folder-permissions.png" alt="Folder Permissions" style="width: 50%;"></p>
+<p><img src="../../images/permissions/folder-permissions.png" alt="Folder Permissions" style="width: 50%;"></p>
 
 **Name** | **Description**
 :--- | ---

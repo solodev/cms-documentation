@@ -1,8 +1,8 @@
-# Events
+﻿# Events
 
 Map a [Calendar](/modules/) entry to a file so the two stay linked. From an open file, click the calendar icon in the icon row above **Publish**.
 
-<p><img src="../../../../images/websites/files/events-file.png" alt="Events panel for a file" style="width: 40%;"></p>
+<p><img src="../../../images/websites/files/events-file.png" alt="Events panel for a file" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---

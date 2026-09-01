@@ -1,8 +1,8 @@
-# Form Overview
+﻿# Form Overview
 
 A form's own page, where you review submissions and manage the form itself. Click a form's name from [Forms](/forms/) to open it. The columns shown depend on the form's type -- a Module Form shows its own schema fields (Company, Email, Issue Category, and so on below); a Contact Form shows the standard Contact fields.
 
-<p><img src="../../../images/forms/form-overview-module.png" alt="Form Overview for a Module Form with real submissions"></p>
+<p><img src="../../images/forms/form-overview-module.png" alt="Form Overview for a Module Form with real submissions"></p>
 
 **Name** | **Description**
 :--- | ---

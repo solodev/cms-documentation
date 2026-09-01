@@ -1,8 +1,8 @@
-# Settings
+﻿# Settings
 
 The Settings section contains a wide range of functionality regarding your Solodev environment.
 
-<p><img src="../../../images/admin/settings/settings.jpg" alt="Settings list"></p>
+<p><img src="../../images/admin/settings/settings.jpg" alt="Settings list"></p>
 
 **Name** | **Description** 
 :--- | ---

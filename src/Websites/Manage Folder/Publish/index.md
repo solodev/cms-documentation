@@ -1,4 +1,4 @@
-# Publish
+﻿# Publish
 
 Automatically publish all pages and files in a designated folder. 
 
@@ -10,7 +10,7 @@ Publishing will apply to all pages and files within a selected folder. Make sure
 
 **Step 2:** Click the **...** menu next to **+ Add**, then click **Publish**. There's no confirmation form to fill out &mdash; this applies immediately.
 
-<p><img src="../../../../images/folders/publish-dashboard.png" alt="Folder actions menu with Publish"></p>
+<p><img src="../../../images/folders/publish-dashboard.png" alt="Folder actions menu with Publish"></p>
 
 !!!Note:
 On a large folder, publishing can take a few moments to finish. Avoid navigating away until it completes.

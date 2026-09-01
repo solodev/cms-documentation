@@ -1,4 +1,4 @@
-# Forms
+﻿# Forms
 
 A form collects information from website visitors -- a newsletter signup, a contact request, an event RSVP -- and stores each submission as an entry you can review later. Every form is one of two types, chosen when you [add it](/forms/add-form/):
 
@@ -19,7 +19,7 @@ Module Form is still what most users should reach for -- it's the well-tested, f
 
 The Forms dashboard lists every form in your Solodev CMS, along with its location and members.
 
-<img src="../../../images/forms/forms-dashboard.png" alt="Forms dashboard with real forms" style="width: 100%; display: block"></a>
+<img src="../images/forms/forms-dashboard.png" alt="Forms dashboard with real forms" style="width: 100%; display: block"></a>
 
 **Name** | **Description**
 :--- | ---
@@ -33,7 +33,7 @@ Click a form's name to open it and manage its submissions -- see [Form Overview]
 
 Click on any of the icons under the member column in the table to add, remove, or manage user roles.
 
-<img src="../../../images/forms/forms-permissions.png" alt="member permissions" style="width: 40%; display: block"></a>
+<img src="../images/forms/forms-permissions.png" alt="member permissions" style="width: 40%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

@@ -1,8 +1,8 @@
-# Update Task
+﻿# Update Task
 
 Open a task from [My Tasks](/support/tasks/) or from its object's task panel to post updates, change its status, and log hours.
 
-<p><img src="../../../../images/support/update-task-panel.png" alt="An open task, with its activity feed and Status/Hours Spent/comment controls"></p>
+<p><img src="../../../images/support/update-task-panel.png" alt="An open task, with its activity feed and Status/Hours Spent/comment controls"></p>
 
 **Name** | **Description**
 :--- | ---

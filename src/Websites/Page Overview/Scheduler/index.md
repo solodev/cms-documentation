@@ -1,14 +1,14 @@
-# Scheduler
+﻿# Scheduler
 
 Insert a [scheduler](/engage/scheduler/scheduler-overview/) &mdash; swaps one HTML/TPL file in for another automatically at a set date and time, with no one needing to manually publish the change. Each entry is a file plus a start date; whichever entry's start date is the most recent one that's already passed is what renders. Add a second entry with a later start date and the scheduler automatically switches to it the moment that date arrives &mdash; there's no separate "frequency" setting, the file's own start date is the whole schedule.
 
-<p><img src="../../../../images/websites/pages/rail-scheduler.png" alt="Scheduler icon in the component palette"></p>
+<p><img src="../../../images/websites/pages/rail-scheduler.png" alt="Scheduler icon in the component palette"></p>
 
 **Step 1**: While editing a page, find the vertical icon rail on the left edge of the page canvas. Scheduler is the seventh icon from the top.
 
 **Step 2**: Drag it onto an empty region of the canvas. This opens **Select Scheduler**. Search for an existing scheduler and select it to preview its details before choosing it.
 
-<p><img src="../../../../images/websites/pages/select-scheduler-picker.png" alt="Select Scheduler picker with a real scheduler selected"></p>
+<p><img src="../../../images/websites/pages/select-scheduler-picker.png" alt="Select Scheduler picker with a real scheduler selected"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -22,7 +22,7 @@ Choose | Insert the selected scheduler at the drop location.
 
 If nothing in the list fits, click **+ Add Scheduler** to create one without leaving the page. This is a lighter version of the full [Add Scheduler](/engage/scheduler/add-scheduler/) form &mdash; it also lets you schedule an entry immediately, so it's ready to use as soon as you insert it.
 
-<p><img src="../../../../images/websites/pages/quickadd-scheduler.png" alt="Quick Add Scheduler form"></p>
+<p><img src="../../../images/websites/pages/quickadd-scheduler.png" alt="Quick Add Scheduler form"></p>
 
 **Name** | **Description**
 :--- | ---

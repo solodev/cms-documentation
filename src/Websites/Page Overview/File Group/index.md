@@ -1,18 +1,18 @@
-# File Group
+﻿# File Group
 
 Insert a [file group](/engage/file-group/file-group-overview/) &mdash; a named set of related files grouped together, like a folder of PDFs, spreadsheets, or images, that you can drop into a page as one unit instead of linking each file individually.
 
-<p><img src="../../../../images/websites/pages/filegroup-3files.png" alt="A file group with three real files attached"></p>
+<p><img src="../../../images/websites/pages/filegroup-3files.png" alt="A file group with three real files attached"></p>
 
 A file group's own detail page (**File Group Overview** in the left nav under Engage) is where you build it out &mdash; **Add Entry** attaches one more file at a time, each becoming a row in the group.
 
-<p><img src="../../../../images/websites/pages/rail-filegroup.png" alt="File Group icon in the component palette"></p>
+<p><img src="../../../images/websites/pages/rail-filegroup.png" alt="File Group icon in the component palette"></p>
 
 **Step 1**: While editing a page, find the vertical icon rail on the left edge of the page canvas. File Group is the sixth icon from the top.
 
 **Step 2**: Drag it onto an empty region of the canvas. This opens **Select File Group**. Search for an existing file group and select it to preview its details before choosing it.
 
-<p><img src="../../../../images/websites/pages/select-filegroup-picker.png" alt="Select File Group picker with a real file group selected"></p>
+<p><img src="../../../images/websites/pages/select-filegroup-picker.png" alt="Select File Group picker with a real file group selected"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -26,7 +26,7 @@ Choose | Insert the selected file group at the drop location.
 
 If nothing in the list fits, click **+ Add File Group** to create one without leaving the page. This is a lighter version of the full [Add File Group](/engage/file-group/add-file-group/) form &mdash; it also lets you attach files to the group immediately, so it's ready to use as soon as you insert it.
 
-<p><img src="../../../../images/websites/pages/quickadd-filegroup.png" alt="Quick Add File Group form"></p>
+<p><img src="../../../images/websites/pages/quickadd-filegroup.png" alt="Quick Add File Group form"></p>
 
 **Name** | **Description**
 :--- | ---

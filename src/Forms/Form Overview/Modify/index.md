@@ -1,8 +1,8 @@
-# Modify
+﻿# Modify
 
 Change a form's own settings. From the form's overview page, click **Modify**. A Module Form's Modify panel is built on the same underlying schema as [Module Overview's Modify](/modules/module-overview/modify/) -- Grid Display, Table Schema, and API Info work identically -- with two form-specific additions: Email Options and Relationships.
 
-<p><img src="../../../../images/forms/form-modify-top.png" alt="Modify panel: Name, Type, Form Template, Grid Display"></p>
+<p><img src="../../../images/forms/form-modify-top.png" alt="Modify panel: Name, Type, Form Template, Grid Display"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -15,7 +15,7 @@ Grid Display -- Display/Hide Columns | Choose which schema fields show as column
 
 Get notified when someone submits the form.
 
-<p><img src="../../../../images/forms/form-modify-email.png" alt="Email Options section"></p>
+<p><img src="../../../images/forms/form-modify-email.png" alt="Email Options section"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -31,7 +31,7 @@ Add, edit, or remove the fields a submission can have -- identical to [Module Ov
 
 Relate this form's entries to another module.
 
-<p><img src="../../../../images/forms/form-modify-relationships.png" alt="Relationships section"></p>
+<p><img src="../../../images/forms/form-modify-relationships.png" alt="Relationships section"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -49,7 +49,7 @@ Connection details for reading this form's submissions via the REST API -- ident
 
 Most of this section matches [Module Overview's Advanced Options](/modules/module-overview/modify/#advanced-options) (Custom Icon, Geo-Coded Fields, Field Name to use in URL, Error Document, Asset Fields, Post Processing, Export/Delete), plus a few fields specific to public-facing forms:
 
-<p><img src="../../../../images/forms/form-modify-advanced.png" alt="Advanced Options, form-specific fields"></p>
+<p><img src="../../../images/forms/form-modify-advanced.png" alt="Advanced Options, form-specific fields"></p>
 
 **Name** | **Description**
 :--- | ---

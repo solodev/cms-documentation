@@ -1,8 +1,8 @@
-<link rel="stylesheet" href="/static/custom.css">
+﻿<link rel="stylesheet" href="/static/custom.css">
 
 # Welcome
 
-<p><img src="../images/solodev-banner.png" alt="Solodev CMS - Create amazing websites and apps in the Cloud"></p>
+<p><img src="images/solodev-banner.png" alt="Solodev CMS - Create amazing websites and apps in the Cloud"></p>
 
 Solodev is an enterprise content management system (CMS) and customer experience platform that empowers individuals and teams to collaborate on their digital transformation in the cloud.
 
@@ -66,22 +66,22 @@ Solodev CMS can be deployed in minutes through the <a href="https://aws.amazon.c
 
 <div class="quickstart-grid">
   <a href="/quickstart/solodev-micro/">
-    <img src="../images/quickstart/cms-micro-logo.png" alt="CMS Micro logo">
+    <img src="images/quickstart/cms-micro-logo.png" alt="CMS Micro logo">
     <h3>Micro</h3>
     <p>The perfect launch pad for small development or proof of concept (PoC) projects.</p>
   </a>
   <a href="/quickstart/solodev-pro/">
-    <img src="../images/quickstart/cms-pro-logo.jpg" alt="CMS Pro logo">
+    <img src="images/quickstart/cms-pro-logo.jpg" alt="CMS Pro logo">
     <h3>Pro</h3>
     <p>A single-server deployment designed for business-level projects that require moderate scalability.</p>
   </a>
   <a href="/quickstart/solodev-enterprise/">
-    <img src="../images/quickstart/cms-enterprise-logo.jpg" alt="CMS Enterprise logo">
+    <img src="images/quickstart/cms-enterprise-logo.jpg" alt="CMS Enterprise logo">
     <h3>Enterprise</h3>
     <p>A cluster deployment with load balancing and auto-scaling, designed for high-availability websites and apps.</p>
   </a>
   <a href="/quickstart/solodev-cms-for-kubernetes/">
-    <img src="../images/quickstart/cms-eks-logo.jpg" alt="CMS for EKS logo">
+    <img src="images/quickstart/cms-eks-logo.jpg" alt="CMS for EKS logo">
     <h3>CMS for EKS</h3>
     <p>A container-based CMS deployment with orchestration via Kubernetes and Amazon EKS. AWS Marketplace only.</p>
   </a>

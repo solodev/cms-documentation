@@ -1,8 +1,8 @@
-# Update Website
+﻿# Update Website
 
 Click the pencil icon over the live preview, or **Update** on a website's [Website Overview](/websites/website-overview/) dashboard, to edit its site title, framework, social links, and other settings.
 
-<p><img src="../../../../images/websites/update-website.png" alt="Update Website form" style="max-width: 520px;"></p>
+<p><img src="../../../images/websites/update-website.png" alt="Update Website form" style="max-width: 520px;"></p>
 
 **Name** | **Description** 
 :--- | ---

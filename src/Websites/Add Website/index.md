@@ -1,8 +1,8 @@
-# Add Website
+﻿# Add Website
 
 From the [Websites](/websites/) list, click **Add Website** to create a new website in your CMS deployment by completing a short form.
 
-<p><img src="../../../images/tutorials/add-website/add-website-form.png" alt="Add website form" style="width: 80%;"></p>
+<p><img src="../../images/tutorials/add-website/add-website-form.png" alt="Add website form" style="width: 80%;"></p>
 
 Field | Description
 --- | ---
@@ -19,7 +19,7 @@ A theme can only be applied when creating a site, and cannot be added to an exis
 
 Click the Theme Picker to see all five options.
 
-<p><img src="../../../images/tutorials/add-website/add-website-theme-picker.png" alt="Theme Picker options: Blank, Micro, Pro, Enterprise, and Upload Theme Zip" style="max-width: 456px; width: 100%;"></p>
+<p><img src="../../images/tutorials/add-website/add-website-theme-picker.png" alt="Theme Picker options: Blank, Micro, Pro, Enterprise, and Upload Theme Zip" style="max-width: 456px; width: 100%;"></p>
 
 **Option** | **Description**
 :--- | ---
@@ -37,4 +37,4 @@ Choose this to install a theme package you already have on hand, rather than one
 
 Once you've filled in the form, click **Add** to create your website. You'll land on its [Website Overview](/websites/website-overview/) page, with a starter page already scaffolded.
 
-<p><img src="../../../images/websites/website-overview.png" alt="The newly created website's Website Overview dashboard"></p>
+<p><img src="../../images/websites/website-overview.png" alt="The newly created website's Website Overview dashboard"></p>

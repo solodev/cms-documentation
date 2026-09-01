@@ -1,8 +1,8 @@
-# Add Category 
+﻿# Add Category 
 
 Category pages allow to optimize SEO and enhance overall user experience. In Solodev CMS, developers can attach category pages to modules by attaching them to category collections and attaching their collection of categories to the module itself. Before creating a category, create a collection. From an open folder, click **+ Add** and select **Add Category**.
 
-<p><img src="../../../../images/folders/add-category.png" alt="Add Category form" style="width: 40%;"></p>
+<p><img src="../../../images/folders/add-category.png" alt="Add Category form" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -16,7 +16,7 @@ Confirm | After filling out all the required fields, please click the **Submit**
 
 Manage where your categories display.
 
-<p><img src="../../../../images/folders/website-properties.jpg" alt="Website Properties Accordion" style="width: 40%;"></p>
+<p><img src="../../../images/folders/website-properties.jpg" alt="Website Properties Accordion" style="width: 40%;"></p>
 
 **Name** | **Description**
 :--- | ---

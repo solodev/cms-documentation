@@ -1,10 +1,10 @@
-# Organization
+﻿# Organization
 
 In your Organization, you can manage the individual users in your CMS, create groups and invite members, build custom contact lists, and configure AI Agents.
 
 There are four main sections in your Organization. Each can be accessed using the left navigation:
 
-<img src="../../../images/organization/organization-nav.png" alt="Organization nav group: Users, Groups, Contacts, Agents" style="width: 20%; display: block"></a>
+<img src="../images/organization/organization-nav.png" alt="Organization nav group: Users, Groups, Contacts, Agents" style="width: 20%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---

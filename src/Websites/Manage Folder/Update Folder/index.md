@@ -1,8 +1,8 @@
-# Update Folder 
+﻿# Update Folder 
 
 Folders are built in a nested tree hierarchy and serve as containers for all Solodev resources, including files and folders for the website(s). Modify and customize folders to suit your needs. A folder can be used as a company intranet document repository or to store HTML, TPL, and STML files destined for the web.
 
-<p><img src="../../../../images/folders/update-folder.png" alt="Update Folder form" style="width: 45%;"></p>
+<p><img src="../../../images/folders/update-folder.png" alt="Update Folder form" style="width: 45%;"></p>
 
 **Name** | **Description**
 :--- | ---

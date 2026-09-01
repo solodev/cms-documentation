@@ -1,14 +1,14 @@
-# File
+﻿# File
 
 Insert an HTML or Template Code file from your website's web files &mdash; useful for reusable page structure like a base template, header, or footer.
 
-<p><img src="../../../../images/websites/pages/rail-file.png" alt="File icon in the component palette"></p>
+<p><img src="../../../images/websites/pages/rail-file.png" alt="File icon in the component palette"></p>
 
 **Step 1**: While editing a page, find the vertical icon rail on the left edge of the page canvas. File is the third icon from the top.
 
 **Step 2**: Drag it onto an empty region of the canvas. This opens **Select File**.
 
-<p><img src="../../../../images/websites/pages/select-file-picker.png" alt="Select File picker with a template previewed"></p>
+<p><img src="../../../images/websites/pages/select-file-picker.png" alt="Select File picker with a template previewed"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -22,7 +22,7 @@ Choose | Insert the selected file at the drop location.
 
 If nothing in the list fits, click **+ Add File** to create one without leaving the page.
 
-<p><img src="../../../../images/websites/pages/quickadd-file.png" alt="Quick Add File form"></p>
+<p><img src="../../../images/websites/pages/quickadd-file.png" alt="Quick Add File form"></p>
 
 **Name** | **Description**
 :--- | ---

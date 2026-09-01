@@ -1,8 +1,8 @@
-# Document Overview
+﻿# Document Overview
 
 A folder's own page, where you upload files, organize with more folders, and manage what's already there. Click a folder's name from [Documents](/documents/) (or from inside another folder) to open it.
 
-<p><img src="../../../../images/documents/folder-toolbar.png" alt="A folder's toolbar: Upload, Add Folder, and the ... actions menu"></p>
+<p><img src="../../images/documents/folder-toolbar.png" alt="A folder's toolbar: Upload, Add Folder, and the ... actions menu"></p>
 
 **Name** | **Description**
 :--- | ---
