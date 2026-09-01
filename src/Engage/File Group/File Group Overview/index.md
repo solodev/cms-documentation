@@ -9,10 +9,11 @@ A File Group can be used to:
 
 Once you've [added a File Group](/engage/file-group/add-file-group/), it appears in this list. Click its name to open this Overview and manage it.
 
+<p><img src="../../../images/engage/file-group-overview.png" alt="File Group Overview"></p>
+
 **Name** | **Description**
 :--- | ---
-Filter | Find a file in the group by typing its name in the search bar, then click **Find**.
-Date Filter | Filter the group's files by date.
+Search | Find a file in the group by typing its name in the search bar.
 [Add Entry](/engage/file-group/file-group-overview/add-entry/) | Add a file to the group.
 [Modify](/engage/file-group/file-group-overview/modify/) | Edit the group's name, title, or description.
 [Delete](/engage/file-group/file-group-overview/delete/) | Permanently remove the group.

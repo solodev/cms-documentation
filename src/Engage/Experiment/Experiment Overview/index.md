@@ -8,6 +8,8 @@ Content being tested can't be a page itself; it has to be a file in the web file
 
 Once you've [added an Experiment](/engage/experiment/add-experiment/), it appears in this list. Click its name to open this Overview, which tracks **Views** and **Conversions** per variant plus a **Views Over Time** chart, and manage it.
 
+<p><img src="../../../images/engage/experiment-overview.png" alt="Experiment Overview"></p>
+
 **Name** | **Description**
 :--- | ---
 [Add Entry](/engage/experiment/experiment-overview/add-entry/) | Add a variant (a file and its Frequency) to the Experiment.

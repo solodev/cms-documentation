@@ -4,6 +4,8 @@ A Segment groups contacts by shared criteria so content, campaigns, or personali
 
 Once you've [added a Segment](/engage/segment/add-segment/), it appears in this list. Click its name to open this Overview and manage it.
 
+<p><img src="../../../images/engage/segment-overview.png" alt="Segment Overview" style="width: 70%;"></p>
+
 **Name** | **Description**
 :--- | ---
 [Update Segment](/engage/segment/segment-overview/update-segment/) | Change a Segment's name or purpose.
