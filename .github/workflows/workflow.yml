@@ -21,7 +21,7 @@ jobs:
         run: npm ci
 
       - name: Retype Build
-        run: npx retype build --output dist --key "${{ vars.RETYPE_LICENSE_KEY || secrets.RETYPE_LICENSE_KEY }}"
+        run: node node_modules/retypeapp/retype.js build --output dist --key "${{ vars.RETYPE_LICENSE_KEY || secrets.RETYPE_LICENSE_KEY }}"
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
