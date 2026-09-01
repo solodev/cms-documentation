@@ -1,0 +1,128 @@
+#
+
+<link rel="stylesheet" href="/static/custom.css">
+
+<div class="header">
+  <div class="inner">
+    <img src="../../../Images/modules/alert/icon.svg" alt="Alert Icon" style="width: 80px;">
+    <div>
+      <h1>Alert</h1>
+      <p>Boost user engagement with eye-catching, personalized alert notifications.</p>
+    </div>
+  </div>
+  <a href="https://solodev-alert.s3.us-east-1.amazonaws.com/releases/alert-latest.zip" class="btn-blue-lg"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span>DOWNLOAD</a>
+</div>
+
+The Solodev Alert Module effortlessly manage and display alerts on your website. Customize messages to match your needs and make sure your audience never misses an important update.
+
+- **Create and manage alerts with ease -** Set up alerts quickly through an intuitive module. Easily update or remove messages as your needs change.
+
+- **Fully customizable display and behavior -** Control exactly when alerts appear and how long they stay visible. Tailor the experience to suit different types of messages and user needs.
+
+- **Keep your users informed in real-time -** Make sure visitors never miss important updates, announcements, or warnings. Whether it’s system maintenance or promotional messages, deliver them instantly and reliably.
+
+## Prerequisites
+
+- Have a [Solodev CMS](/quickstart).
+- Have a [Website](/websites/add-website/).
+
+!!!Note: 
+We use Bootstrap 5 in our packages. You can update your code to match your own framework, styles, or preferences as needed.
+!!!
+
+## Step-by-Step Setup Guide
+
+These steps will guide you through the process of installing the Alert Module and getting it live on your page.
+
+{% tabs %}
+
+{% tab title="Step 1: Install the Alert Module" %}
+
+1. Navigate to Modules
+<ul style="padding-left: 50px;">
+  <li>In your CMS dashboard, click <strong>Modules</strong> in the left navigation menu</li>
+  <li>Click the <strong>Add Module</strong> button</li>
+</ul>
+
+2. [Add the module](/modules/add-module/)
+<ul style="padding-left: 50px;">
+  <li>Give your alert module a name</li>
+  <li>Select from the three options:
+    <ul>
+      <li><strong>Datatable:</strong> Creates a simple data table structure</li>
+      <li><strong>Module:</strong> Builds a custom module from scratch</li>
+      <li><strong>Package:</strong> Installs a pre-built module from a zip file</li>
+    </ul>
+  </li>
+  <li>For the purpose of this tutorial, select <strong>Package:</strong> and use this <a href="https://solodev-alert.s3.us-east-1.amazonaws.com/releases/alert-latest.zip" style="display: inline-flex; align-items: center;">zip file <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="#0488ce" style="margin-left: .4rem;"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg>.</a></li>
+  <li>Click <span class="text-blue">Submit</span>.</li>
+</ul>
+
+<img src="../../../Images/modules/alert/add-alert.jpg" alt="Add Alert" style="width: 40%; margin-bottom: 20px;">
+
+!!!Note:
+The alert module comes with a pre-configured entry that you can customize by accessing the module entry.
+!!!
+
+{% endtab %}
+
+{% tab title="Step 2: Create your Alert Bar" %}
+
+1. Navigate to `Websites > example.com > web files > content`
+<ul style="padding-left: 50px;">
+  <li><a href="/websites/manage-folder/add-folder/">Create a folder</a> called <code>alert</code></li>
+  <li>In the alert folder, <a href="/websites/manage-folder/add-file/">create a new code file</a> named <code>alert-bar.tpl</code></li>
+</ul>
+
+2. Add the alert code using the example template provided below.
+
+```html alert-bar.tpl
+[repeater id="" limit="0,1" display_type="news"]
+  <div class="text-center bg-primary py-2">
+    <div class="container">
+      [is_set value="{{alert_link}}"]
+        [cond type="is" subject="{{alert_link_external}}" value="1"]
+          <a href="{{alert_link}}" class="text-white" target="_blank" rel="noopener noreferrer">{{event_title}}</a>
+        [/cond]
+        [cond type="is_not" subject="{{alert_link_external}}" value="1"]
+          <a href="{{alert_link}}" class="text-white">{{event_title}}</a>
+        [/cond]
+      [/is_set]
+      
+      [is_empty value="{{alert_link}}"]
+        <span class="text-white">{{event_title}}</span>
+      [/is_empty]
+    </div>
+  </div>
+[/repeater]
+```
+
+<!-- {{{event_title}}} -->
+
+!!!danger Important!
+You need to add the ID number of your alert module to the repeater shortcode within the `id=""` attribute.
+!!!
+
+3. Click <span class="text-blue">Publish</span>.
+
+4. Open your homepage `index.stml` or the desired page where you want to add the alert bar.
+
+5. [Insert your alert-bar file](/websites/page-overview/#add-a-file-to-page) into the page.
+
+6. Click <span class="text-blue">Publish</span>.
+
+7. Go to your website and refresh the page to see your alert bar in action.
+
+<img src="../../../Images/modules/alert/alert-bar.jpg" alt="Alert Bar on Page">
+
+{% endtab %}
+
+{% endtabs %}
+
+## Support
+
+Support for Alert Module is handled directly through Solodev's global help desk. For more information regarding support queries, go to [www.solodev.com](https://www.solodev.com/).
+
+!!!Note:
+To learn more about shortcodes and how they work, visit our [shortcodes](/shortcodes) documentation.
+!!!
