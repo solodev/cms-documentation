@@ -1,17 +1,20 @@
 # 
 
-<div class="quickstart-header">
+<link rel="stylesheet" href="/static/custom.css">
+
+<div class="header">
   <div class="inner">
     <img src="../../images/quickstart/cms-enterprise-logo.jpg" alt="CMS Enterprise Logo">
     <div>
       <h1>CMS Enterprise</h1>
-      <p>An enterprise-grade content management system built from the ground up for Amazon Web Services (AWS).</p>
+      <p style="margin-bottom: .5rem;">An enterprise-grade content management system built from the ground up for <br>Amazon Web Services (AWS).</p>
+      <p class="mb-0"><a href="../../images/quickstart/enterprise/solodev-cms-enterprise-architecture-2024-2.jpg" rel="noopener noreferrer" target="_blank">Diagram <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation" width="16" height="16" style="display: inline; vertical-align: middle;"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"></path><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"></path></g></svg></a></p>
     </div>
   </div>
-  <a class="btn-subscribe" href="https://aws.amazon.com/marketplace/pp/prodview-btylxhjxu6pew" target="_blank" rel="noopener noreferrer">SUBSCRIBE</a>
+  <a class="btn-orange-lg" href="https://aws.amazon.com/marketplace/pp/prodview-btylxhjxu6pew" rel="noopener noreferrer" target="_blank">SUBSCRIBE <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
 </div>
 
-<p><a href="https://aws.amazon.com/marketplace/pp/prodview-btylxhjxu6pew" target="_blank" rel="noopener noreferrer">CMS Enterprise on AWS Marketplace</a> &mdash; $999.00/month + $0.40&ndash;$0.70/hour usage, by EC2 instance type.</p>
+<p>$999.00/month + $0.40&ndash;$0.70/hour usage, by EC2 instance type.</p>
 
 ## Overview
 
@@ -219,60 +222,4 @@ Visit the IP address or the backend domain you previously configured. Log in to 
 
 Please [follow this link](/websites/add-website/) to learn more about Solodev and to learn how to build your first website.
 
-### Migrate to a New Server
-
-Moving your Solodev CMS to a different server? Follow the [server migration guide](/tutorials/cms/backup-and-restore/).
-
-<style>
-  .quickstart-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding: 2rem 1.5rem;
-    margin-bottom: 1.5rem;
-    background-color: #eef6ff;
-    border-radius: 8px;
-  }
-  .quickstart-header .inner {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-  }
-  .quickstart-header img {
-    width: 70px;
-    flex: none;
-  }
-  .quickstart-header h1 {
-    margin: 0 0 0.25rem;
-    font-size: 1.75rem;
-  }
-  .quickstart-header p {
-    margin: 0;
-  }
-  .quickstart-header .btn-subscribe {
-    flex: none;
-    padding: 0.6rem 1.5rem;
-    border-radius: 20px;
-    background-color: #f7941d;
-    color: #fff;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  .quickstart-header .btn-subscribe:hover {
-    background-color: #e0820f;
-  }
-  /* Keep the header on its light background even when the site is in dark mode -
-     the logo art assumes a light ground. */
-  .dark .quickstart-header,
-  [data-rt-theme="dark"] .quickstart-header {
-    background-color: #eef6ff;
-  }
-  .dark .quickstart-header h1,
-  .dark .quickstart-header p,
-  [data-rt-theme="dark"] .quickstart-header h1,
-  [data-rt-theme="dark"] .quickstart-header p {
-    color: #222;
-  }
-</style>
+Moving your Solodev CMS to a different server, or need help with a backup and restore? Contact Solodev support.

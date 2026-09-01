@@ -1,8 +1,20 @@
-# CMS for EKS
+# 
 
-A fully containerized version of Solodev CMS orchestrated via AWS EKS (Elastic Kubernetes Service). Ideal for high-availability enterprise applications, CMS for EKS provides a flexible, modern, scalable solution for delivering websites and applications to meet the most demanding production requirements.
+<link rel="stylesheet" href="/static/custom.css">
 
-<p><a href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6" target="_blank" rel="noopener noreferrer">CMS for EKS on AWS Marketplace</a> &mdash; billed per-node, starting at $875.00/month for a single node, with volume tiers up to 10,000 nodes and multi-year contract discounts.</p>
+<div class="header">
+  <div class="inner">
+    <img src="../../images/quickstart/cms-eks-logo.jpg" alt="CMS for EKS Logo">
+    <div>
+      <h1>CMS for EKS</h1>
+      <p style="margin-bottom: .5rem;">A fully containerized version of Solodev CMS orchestrated via <br>AWS EKS (Elastic Kubernetes Service).</p>
+      <p class="mb-0"><a href="../../images/quickstart/kubernetes/solodev-eks-architecture.jpg" rel="noopener noreferrer" target="_blank">Diagram <svg xmlns="http://www.w3.org/2000/svg" class="docs-icon" viewBox="0 0 24 24" role="presentation" width="16" height="16" style="display: inline; vertical-align: middle;"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"></path><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"></path></g></svg></a></p>
+    </div>
+  </div>
+  <a class="btn-orange-lg" href="https://aws.amazon.com/marketplace/pp/prodview-s7tpcn3m7fuf6" rel="noopener noreferrer" target="_blank">SUBSCRIBE <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
+</div>
+
+<p>Billed per-node, starting at $875.00/month for a single node, with volume tiers up to 10,000 nodes and multi-year contract discounts.</p>
 
 ## Overview
 

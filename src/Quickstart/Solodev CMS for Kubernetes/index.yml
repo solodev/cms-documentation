@@ -1,3 +1,4 @@
 order: 10
-icon: container
+icon: "../../Images/quickstart/cms-eks-logo.jpg"
 expanded: false
+title: CMS for EKS

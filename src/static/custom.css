@@ -1,0 +1,71 @@
+/* Site-wide additions on top of the base Retype theme. */
+
+/* Product headers (Quickstart / Themes / Modules pages) - matches the
+   styles used on cms.solodev.net/static/custom.css, with one fix: the
+   live site never sets a light-mode text color for .header h1/p, so on
+   pages where .dark isn't applied the text inherits a near-white color
+   and is unreadable against the light blue background. We set it
+   explicitly instead of only under .dark. */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  padding: 2rem 1.5rem;
+  margin-bottom: 2rem;
+  background-color: #eef6ff;
+}
+.header .inner {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1.5rem;
+  min-width: 0;
+}
+.header img {
+  width: 80px;
+  flex: none;
+}
+.header a.btn-orange-lg,
+.header a.btn-blue-lg {
+  flex-shrink: 0;
+}
+.header h1 {
+  margin-left: 0;
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  color: #222;
+}
+.header p {
+  padding-left: 2rem;
+  margin-bottom: 0;
+  color: #222;
+}
+.btn-orange-lg {
+  background-color: #f99700;
+  color: #fff !important;
+  padding: .5rem 3rem;
+  border-radius: 20px;
+  font-weight: 600;
+  display: inline-flex;
+  flex: none;
+  text-decoration: none;
+}
+.btn-orange-lg span,
+.btn-blue-lg span {
+  padding-left: .5rem;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+}
+.btn-blue-lg {
+  background-color: #0488ce;
+  color: #fff !important;
+  padding: .5rem 2.5rem;
+  border-radius: 20px;
+  font-weight: 600;
+  display: inline-flex;
+  flex: none;
+  text-decoration: none;
+}
