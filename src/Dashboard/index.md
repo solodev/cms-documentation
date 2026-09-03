@@ -24,7 +24,7 @@ The main Dashboard has two sections below the search bar: **Websites** and **Rec
 
 ## Search
 
-A global search bar sits at the top of the Dashboard. It searches Mongo directly, across both files (HTML, STML pages, documents, images) and module/datatable entries &mdash; a result can be a file like `county.stml` or a specific record like `datatable_entry_id: 7248`.
+A global search bar sits at the top of the Dashboard. It searches Mongo directly, across both files (HTML, STML pages, documents, images) and module/datatable entries &mdash; a result can be a file like `department.html`, a page like `county.stml` or a specific file or module id entry like `7248`.
 
 <p><img src="../images/dashboard/search-demo.png" alt="Search field" style="width: 100%;"></p>
 
