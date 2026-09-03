@@ -24,9 +24,9 @@ The main Dashboard has two sections below the search bar: **Websites** and **Rec
 
 ## Search
 
-A global search bar sits at the top of the Dashboard. It searches Mongo directly, across both files (HTML, STML pages, documents, images) and module/datatable entries &mdash; a result can be a page like `county.html` or a specific record like `datatable_entry_id: 7248`.
+A global search bar sits at the top of the Dashboard. It searches Mongo directly, across both files (HTML, STML pages, documents, images) and module/datatable entries &mdash; a result can be a file like `department.html`, a page like `county.stml` or a specific file id or module entry id like `7248`.
 
-<p><img src="../images/dashboard/search.png" alt="Search field" style="width: 60%;"></p>
+<p><img src="../images/dashboard/search-demo.png" alt="Search field" style="width: 100%;"></p>
 
 Results are shown in a table with **Name**, **Modified**, and **By** columns. Click a result to open it directly.
 
@@ -38,7 +38,7 @@ Press **Enter** or click the search button to run the search. Click **Close** to
 
 You can access any active websites using the cards on the main Dashboard.
 
-<p><img src="../images/dashboard/websites.png" alt="Website Cards"></p>
+<p><img src="../images/dashboard/website-cards.png" alt="Website Cards"></p>
 
 **Name** | **Description** 
 :--- | ---
