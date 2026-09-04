@@ -13,23 +13,51 @@ Grid Display -- Display/Hide Columns | Choose which schema fields show as column
 
 ## Email Options
 
-Get notified when someone submits the form.
+Control what a visitor sees after submitting, and what gets emailed out when they do.
 
-<p><img src="../../../images/forms/form-modify-email.png" alt="Email Options section"></p>
+<p><img src="../../../images/forms/form-modify-email.png" alt="Email Options section, default Form Submission notification type"></p>
 
 **Name** | **Description**
 :--- | ---
 Return Behavior | What happens in the visitor's browser after they submit -- redirect to a URL, or show a custom uploaded return page.
-Notification Type | What triggers a notification email (Form Submission, and other options).
-Tickler Email Address | Add one or more email addresses to notify on each submission.
+Notification Type | What the notification email looks like: **Form Submission** (default) or **Custom Email**. See below.
+Tickler Email Address | Add one or more email addresses to notify on each submission, regardless of Notification Type.
 
-### Customizing the email template
+### Notification Type: Form Submission (default)
 
-The form's own template is reused for the notification email, so keep a few things in mind if you want that email to look right:
+Reuses the form's own **Form Template** (the same file uploaded at the top of this panel) to build the notification email -- each field's submitted value is swapped into that template automatically. A couple of things to know if you're relying on this default:
 
 - Give the submit input `type="submit"` -- otherwise the submit button itself shows up in the email body.
 - Input values are converted to `<p>input value</p>` in the generated email.
-- For more layout control, build the form's fields inside an HTML table.
+- For more layout control within this default, build the form's fields inside an HTML table.
+- If no Form Template is set at all, the notification falls back to a plain two-column table of every submitted field and value -- functional, but not branded.
+
+### Notification Type: Custom Email
+
+Choose this to send a fully custom-designed HTML email instead of reusing the form template -- this is the option to reach for if you want a polished, on-brand results email (a nicely formatted confirmation, a receipt-style layout, etc.).
+
+<p><img src="../../../images/forms/form-modify-email-custom.png" alt="Email Options section with Custom Email selected, showing the To Field and Upload Custom Email button"></p>
+
+**Name** | **Description**
+:--- | ---
+"To" Field | Which submitted field's value the email goes to -- typically the visitor's own **email** field, so they get a copy of their submission.
+Upload Custom Email | Upload the HTML file that becomes the email's content.
+
+#### Referencing submitted data in the HTML file
+
+The uploaded file runs as a real template with each submitted field available as a PHP variable, so you can drop values in anywhere:
+
+```html
+<p><strong>Name:</strong> <?= $assignmentVars['givenname'] ?? '' ?> <?= $assignmentVars['sn'] ?? '' ?></p>
+<p><strong>Email:</strong> <?= $assignmentVars['email'] ?? '' ?></p>
+<p><strong>Tour Date:</strong> <?= $assignmentVars['tour_date'] ?? '' ?></p>
+```
+
+`$assignmentVars['field_name']` works for any field defined in this form's [Table Schema](#table-schema) -- swap `field_name` for the exact field name shown there. A handful of built-in fields are always available too: `email`, `givenname`, `sn`, `primaryphone`, `date_added`, `date_modified`. Regular [shortcodes](/shortcodes/) work in this file as well.
+
+!!! Note:
+This is HTML/CSS only -- there is currently no way to send the results as a PDF attachment. If a submitter needs a polished, well-formatted copy of their answers, a styled Custom Email is the closest supported option.
+!!!
 
 ## Table Schema
 
