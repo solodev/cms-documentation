@@ -43,6 +43,10 @@ Choose this to send a fully custom-designed HTML email instead of reusing the fo
 "To" Field | Which submitted field's value the email goes to -- typically the visitor's own **email** field, so they get a copy of their submission.
 Upload Custom Email | Upload the HTML file that becomes the email's content.
 
+!!! Note:
+**Return Behavior and Notification Type are completely independent.** You do not need to set a Return Page (or anything else under Return Behavior) for a Custom Email to work -- Return Behavior only controls what the *visitor's browser* shows after they submit; Notification Type controls what gets *emailed*. Leave Return Behavior at "Choose option" if you don't need a custom thank-you page.
+!!!
+
 #### Referencing submitted data in the HTML file
 
 The uploaded file runs as a real template with each submitted field available as a PHP variable, so you can drop values in anywhere:
@@ -53,7 +57,15 @@ The uploaded file runs as a real template with each submitted field available as
 <p><strong>Tour Date:</strong> <?= $assignmentVars['tour_date'] ?? '' ?></p>
 ```
 
-`$assignmentVars['field_name']` works for any field defined in this form's [Table Schema](#table-schema) -- swap `field_name` for the exact field name shown there. A handful of built-in fields are always available too: `email`, `givenname`, `sn`, `primaryphone`, `date_added`, `date_modified`. Regular [shortcodes](/shortcodes/) work in this file as well.
+**`$assignmentVars['field_name']` only works for fields you yourself defined when you built this form** -- open this form's [Table Schema](#table-schema) and use the exact field name shown there in place of `field_name` above (`tour_date` in the example is a placeholder -- your form almost certainly uses different names). A handful of built-in fields are always available too, regardless of your schema: `email`, `givenname`, `sn`, `primaryphone`, `date_added`, `date_modified`. Regular [shortcodes](/shortcodes/) work in this file as well.
+
+`date_added` and `date_modified` come through as a raw Unix timestamp, not a formatted date -- wrap them in PHP's `date()` if you want to display them:
+
+```html
+<p>Submitted <?= !empty($assignmentVars['date_added']) ? date('n/j/Y g:ia', $assignmentVars['date_added']) : '' ?></p>
+```
+
+**[Download a working sample template](../../../files/forms/sample-custom-email-template.html)** -- a real, tested Custom Email file with a header, a clean field table, and the date formatting above already wired up. Upload it as-is to see it work, then swap in your own field names and styling.
 
 !!! Note:
 This is HTML/CSS only -- there is currently no way to send the results as a PDF attachment. If a submitter needs a polished, well-formatted copy of their answers, a styled Custom Email is the closest supported option.

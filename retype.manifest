@@ -1,6 +1,6 @@
 {
   "version": "4.6.0",
-  "created": "2026-09-04T20:07:34Z",
+  "created": "2026-09-04T20:27:12Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -1050,6 +1050,9 @@
     },
     {
       "path": "engage\\segment\\segment-overview\\update-segment\\index.md"
+    },
+    {
+      "path": "files\\forms\\sample-custom-email-template.html"
     },
     {
       "path": "forms/add-form/index.html",
