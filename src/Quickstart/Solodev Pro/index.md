@@ -12,6 +12,7 @@
     </div>
   </div>
   <a class="btn-orange-lg" href="https://aws.amazon.com/marketplace/pp/prodview-2km2dv5ozjtga" rel="noopener noreferrer" target="_blank">SUBSCRIBE <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-3.5a.75.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.784 2.784 2 3.75 2Zm6.854-1h4.146a.25.25 0 0 1 .25.25v4.146a.25.25 0 0 1-.427.177L13.03 4.03 9.28 7.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.75-3.75-1.543-1.543A.25.25 0 0 1 10.604 1Z"></path></svg></span></a>
+  <a class="btn-blue-lg" href="#launch-this-software">ALREADY SUBSCRIBED? LAUNCH <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M9.5 2c-1.955 0-3.9.685-5.256 1.918a.75.75 0 0 0-.244.55v2.084L2.276 8.276A2.75 2.75 0 0 0 1.5 10.19V13.5a.75.75 0 0 0 .75.75h3.31c.73 0 1.43-.29 1.945-.805l1.724-1.724h2.084a.75.75 0 0 0 .55-.244C13.315 10.4 14 8.455 14 6.5 14 3.5 12.5 2 9.5 2Zm-2.9 9.69-1.724 1.725a.75.75 0 0 1-.53.22H3v-1.446a1.25 1.25 0 0 1 .354-.874L4.31 10.354ZM10 8a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"></path></svg></span></a>
 </div>
 
 ## Overview
