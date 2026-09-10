@@ -93,6 +93,29 @@ Field | Which field on that module the relationship uses.
 
 Connection details for reading this form's submissions via the REST API -- identical to [Module Overview's API Info](/modules/module-overview/modify/#api-info).
 
+## CMS Contact Mapping
+
+Only appears once **Sync entries to CMS Contacts** has been turned on for this form -- either when it was [added](/forms/add-form/#module-form), or by switching it on here. Maps this form's own field names to the standard [Contact](/organization/contacts/) fields, so every submission also creates or updates a Contact record alongside its entry in this module's own table.
+
+<p><img src="../../../images/forms/form-modify-contact-mapping.png" alt="CMS Contact Mapping section with a custom field mapping"></p>
+
+**Name** | **Description**
+:--- | ---
+Add Mapping | Add a new source/destination row.
+Left column | One of this form's own field names, exactly as it appears in [Table Schema](#table-schema) -- `work_email`, `first_name`, whatever you actually called it.
+Right column | The Contact field that source maps to: **Email**, **First Name**, **Last Name**, or **Primary Phone**.
+Trash icon | Remove a mapping row.
+
+The same mapping is also editable as raw JSON underneath the row editor -- `{"work_email": "email", "first_name": "givenname"}` -- if you'd rather paste one in directly than build it row by row.
+
+!!! Note:
+**An Email destination is required.** It's the one field the sync uses to decide whether a submission is a new Contact or an update to an existing one -- resubmitting with the same email updates that Contact's name and phone rather than creating a duplicate. A mapping with no field pointed at Email won't save.
+!!!
+
+A form switched on via **Sync entries to CMS Contacts** starts with an identity mapping (`email` to Email, `givenname` to First Name, `sn` to Sn, `primaryphone` to Primary Phone) already saved -- convenient if your schema happens to use those exact names, but most schemas don't, so open this section and re-point each row at your own field names once the form's fields are in place. Source fields not present in a given submission are simply skipped, so it's safe to map more fields than any one entry actually fills in.
+
+Sync runs from the same place regardless of how an entry was created or updated -- the CMS's own Add/Update Entry, a public visitor submitting the live form, the REST API, or MCP all go through it identically.
+
 ## Advanced Options
 
 Most of this section matches [Module Overview's Advanced Options](/modules/module-overview/modify/#advanced-options) (Custom Icon, Geo-Coded Fields, Field Name to use in URL, Error Document, Asset Fields, Post Processing, Export/Delete), plus a few fields specific to public-facing forms:
