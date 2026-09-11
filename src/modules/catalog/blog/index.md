@@ -177,7 +177,7 @@ You need to add the ID number of your calendar module to the repeater shortcode 
 </ul>
 
 !!!danger Important!
-If you already have entries added to your module, you will need to resave them to generate the path. To do this, go to **Modify**, scroll to Advanced, check the **Resave All Entries** option, and then click <span class="text-blue">Submit</span>
+If you already have entries added to your module, their cached data (including the URL used to link to them) won't reflect the change until it's refreshed. To do this, go to **Modify**, scroll to Advanced, check the **Resync Cache (On Submit)** option, and then click <span class="text-blue">Submit</span> -- this refreshes every entry's cache without resaving the entries themselves, so it won't re-trigger assignment workflows, tickler emails, or change any entry's Modified date.
 !!!
 
 8. Go to your website, refresh the blog page, and click on an entry
