@@ -6,7 +6,12 @@ Shortcodes are Solodev's templating language &mdash; small `[bracketed]` tags th
 [google_website_search google_cse_id="XXXXXXXXXXXXXXXXXX"]
 ```
 
-Self-closing shortcodes look like `[shortcode attr="value"]`. Enclosing shortcodes wrap content: `[shortcode attr="value"]...content...[/shortcode]`. Double curly braces `{{field_name}}` reference a content field inside an enclosing shortcode like `[repeater]` or `[entry]`.
+Self-closing shortcodes look like `[shortcode attr="value"]`. 
+
+Enclosing shortcodes wrap content and use an opening and closing tag: `[shortcode attr="value"]...content...[/shortcode]`. 
+
+Double curly braces `{{field_name}}` are used to reference content fields within an enclosing shortcode, such as [repeater] or [entry]. The field names correspond to the fields available in your modules.
+<!-- {{{field_name}}} -->
 
 ## Categories
 
@@ -17,10 +22,6 @@ Self-closing shortcodes look like `[shortcode attr="value"]`. Enclosing shortcod
 <a href="/shortcodes/page/">Page</a> | Page and folder metadata &mdash; titles, descriptions, navigation, breadcrumbs.
 <a href="/shortcodes/module/">Module</a> | Pull and filter entries from a Datatable or Calendar module: repeaters, detail pages, categories, tags, pagination.
 <a href="/shortcodes/user/">User</a> | Login, signup, and account-management forms for secured areas of a site.
-
-!!! Note:
-Every real, currently-registered shortcode is covered somewhere in these five sections. A handful of older tags found in the CMS source are commented out or explicitly marked for removal in favor of a replacement (for example, `cal_detail` and `calendar_detail` were replaced by [entry](/shortcodes/module/)) &mdash; those aren't documented here since they don't do anything if used.
-!!!
 
 ## Writing your own
 
