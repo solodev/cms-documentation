@@ -1,6 +1,6 @@
 ﻿# Modules
 
-Static HTML only gets you so far. With Modules, Solodev CMS goes beyond simple page display to give you dynamic, interactive content that keeps visitors engaged. Add a blog to share updates, a calendar to manage events, an image slider to showcase your best work, and more. Modules turn your CMS from a place to publish pages into a platform for building real, functional experiences.
+With Modules, Solodev CMS goes beyond simple page display to give you dynamic, interactive content that keeps visitors engaged. Add a blog to share updates, a calendar to manage events, an image slider to showcase your best work, and more. Modules turn your CMS from a place to publish pages into a platform for building real, functional experiences.
 
 The modules dashboard gives you an overview of existing modules presented as a list. Each module has details such as name, location, and members assigned to each one.
 
@@ -20,7 +20,7 @@ Use the search field in the upper right corner to locate a specific module and f
 
 ## Members Permissions
 
-Click on the members column in the row that displays the module name to assign or remove members and manage their roles.
+Click on the Members column next to a module name to add or remove users and manage their roles.
 
 <p><img src="../images/permissions/module-permissions.png" alt="Module Permissions" style="width: 40%;"></p>
 
