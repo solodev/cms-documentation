@@ -20,7 +20,7 @@ Use the search field in the upper right corner to locate a specific module and f
 
 ## Members Permissions
 
-Click on the Members column next to a module name to add or remove users and manage their roles.
+Click on the Members column in the module row to add or remove users and manage their roles.
 
 <p><img src="../images/permissions/module-permissions.png" alt="Module Permissions" style="width: 40%;"></p>
 
