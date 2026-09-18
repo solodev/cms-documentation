@@ -1,6 +1,4 @@
-﻿# Websites
-
-The Websites list shows every website in your CMS deployment. On a brand new deployment, this starts out empty.
+﻿The Websites list shows every website in your CMS deployment. On a brand new deployment, this starts out empty.
 
 !!!Note:
 Solodev CMS is natively multi-site — one deployment and one login can manage any number of independent websites (and apps). Each site is self-contained, but resources like files and images can be shared across sites.
