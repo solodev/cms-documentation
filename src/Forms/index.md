@@ -24,7 +24,6 @@ The Forms dashboard lists every form in your Solodev CMS, along with its locatio
 **Name** | **Description**
 :--- | ---
 [Add Form](/forms/add-form/) | Create a new form.
-Location | Filter your list by selecting a location from the dropdown menu at the upper right.
 Search | Locate a form in your system by entering its name in the search field at the upper right.
 
 Click a form's name to open it and manage its submissions -- see [Form Overview](/forms/form-overview/).
