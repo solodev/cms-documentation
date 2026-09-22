@@ -17,7 +17,7 @@ From the [Forms](/forms/) list, click **Add Form**. The fields shown depend on w
 
 Submissions are saved as [Contacts](/organization/contacts/) using the CMS's fixed, built-in contact schema -- no new database table is created.
 
-<p><img src="../../images/forms/add-form-contact.png" alt="Add Form with Type set to Contact Form"></p>
+<p><img src="../../images/forms/add-form-contact.png" alt="Add Form with Type set to Contact Form" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -31,7 +31,7 @@ Add | Click **Add** to create the form.
 
 Submissions are saved to a custom module with a schema you design yourself -- the same schema builder used by [Add Module](/modules/add-module/). Every Module Form creates its own database table, so reserve this for structured, non-personal data (an RSVP count, a survey response) rather than anything that includes someone's name, email, or other personal details -- unless you turn on **Sync entries to CMS Contacts** below, which is exactly for that case; see the note on [Forms](/forms/) for why.
 
-<p><img src="../../images/forms/add-form-module.png" alt="Add Form with Type set to Module Form"></p>
+<p><img src="../../images/forms/add-form-module.png" alt="Add Form with Type set to Module Form" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
