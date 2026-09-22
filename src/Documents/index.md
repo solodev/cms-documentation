@@ -1,6 +1,6 @@
 # Documents
 
-Documents is a general-purpose file repository, separate from any specific website -- think of it as a shared Dropbox-style space for files your organization needs, rather than a website's own web files. It sits alongside Websites, Modules, and Forms in the left navigation.
+Documents is a general-purpose file repository, separate from any specific website -- think of it as a shared Dropbox-style space for files your organizational needs, rather than a website's own web files. It sits alongside Websites, Modules, and Forms in the left navigation.
 
 At the top level, Documents just lists folders.
 

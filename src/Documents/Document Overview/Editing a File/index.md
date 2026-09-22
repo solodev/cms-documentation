@@ -2,7 +2,7 @@
 
 Click a file's name from a folder's page to open it in the editor -- a WYSIWYG toolbar on the left for HTML files (plain code files open directly in a text editor instead), and a details/actions panel on the right.
 
-<p><img src="../../../images/documents/file-actions-dropdown.png" alt="File details panel: Publish, the ... actions menu, and file info" style="width: 45%;"></p>
+<p><img src="../../../images/documents/file-actions-dropdown.png" alt="File details panel: Publish, the ... actions menu, and file info" style="width: 45%;" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -14,7 +14,7 @@ Title / Description | Click the pencil icon on either to add or update them.
 
 ## Publish, Stage & Draft
 
-<p><img src="../../../images/documents/file-publish-dropdown.png" alt="Publish button with Stage and Draft options" style="width: 45%;"></p>
+<p><img src="../../../images/documents/file-publish-dropdown.png" alt="Publish button with Stage and Draft options" style="width: 45%;" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

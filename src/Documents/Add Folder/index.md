@@ -2,7 +2,7 @@
 
 Create a new folder in Documents to organize files in. From [Documents](/documents/), click **Add Folder**.
 
-<p><img src="../../images/documents/add-folder-form.png" alt="Add Folder form"></p>
+<p><img src="../../images/documents/add-folder-form.png" alt="Add Folder form" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

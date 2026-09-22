@@ -1,6 +1,7 @@
 # Delete
 
-Permanently remove one or more files/folders. From a folder's page, select the item(s) with their row checkboxes, then click **Delete** in the toolbar that appears.
+Permanently remove one or more files/folders. From the parent folder's page, select the item(s) with their row checkboxes, then click **Delete** in the toolbar that appears.
+
 
 **Name** | **Description**
 :--- | ---

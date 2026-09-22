@@ -2,7 +2,7 @@
 
 Add one or more real files from your computer into the current folder. From a folder's page, click **Upload**.
 
-<p><img src="../../../images/documents/upload-form.png" alt="Upload Files panel with a drag-and-drop zone"></p>
+<p><img src="../../../images/documents/upload-form.png" alt="Upload Files panel with a drag-and-drop zone" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
