@@ -1,8 +1,8 @@
 ﻿# Update Folder
 
-Change a folder's own name, title, and description, map it into a website's navigation, or delete it. From a folder's page, open the **...** menu and click **Update**.
+Change a folder's name, title, and description, map it into a website's navigation, or delete it. From a folder's page, open the **...** menu and click **Update**.
 
-<p><img src="../../../images/documents/update-folder-top.png" alt="Update panel: Name, Title, Description"></p>
+<p><img src="../../../images/documents/update-folder-top.png" alt="Update panel: Name, Title, Description" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -14,7 +14,7 @@ Description | An optional description.
 
 Optionally map this folder into a website's front-end navigation.
 
-<p><img src="../../../images/documents/update-folder-website-props.png" alt="Website Properties section"></p>
+<p><img src="../../../images/documents/update-folder-website-props.png" alt="Website Properties section" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -26,7 +26,7 @@ Datatable Category Group ID / Datatable Category ID | Associate this folder with
 
 ## Advanced
 
-<p><img src="../../../images/documents/update-folder-advanced.png" alt="Advanced section with the Delete confirmation"></p>
+<p><img src="../../../images/documents/update-folder-advanced.png" alt="Advanced section with the Delete confirmation" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
