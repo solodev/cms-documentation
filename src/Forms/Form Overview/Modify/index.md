@@ -1,8 +1,8 @@
 ﻿# Modify
 
-Change a form's own settings. From the form's overview page, click **Modify**. A Module Form's Modify panel is built on the same underlying schema as [Module Overview's Modify](/modules/module-overview/modify/) -- Grid Display, Table Schema, and API Info work identically -- with two form-specific additions: Email Options and Relationships.
+Change a form's settings. From the form's overview page, click **Modify**. A Module Form's Modify panel is built on the same underlying schema as [Module Overview's Modify](/modules/module-overview/modify/) -- Grid Display, Table Schema, and API Info work identically -- with two form-specific additions: Email Options and Relationships.
 
-<p><img src="../../../images/forms/form-modify-top.png" alt="Modify panel: Name, Type, Form Template, Grid Display"></p>
+<p><img src="../../../images/forms/form-modify-top.png" alt="Modify panel: Name, Type, Form Template, Grid Display" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -13,9 +13,9 @@ Grid Display -- Display/Hide Columns | Choose which schema fields show as column
 
 ## Email Options
 
-Control what a visitor sees after submitting, and what gets emailed out when they do.
+Control what a visitor sees after submitting, who gets notified and what gets emailed out when they do.
 
-<p><img src="../../../images/forms/form-modify-email.png" alt="Email Options section, default Form Submission notification type"></p>
+<p><img src="../../../images/forms/form-modify-email.png" alt="Email Options section, default Form Submission notification type" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -36,7 +36,7 @@ Reuses the form's own **Form Template** (the same file uploaded at the top of th
 
 Choose this to send a fully custom-designed HTML email instead of reusing the form template -- this is the option to reach for if you want a polished, on-brand results email (a nicely formatted confirmation, a receipt-style layout, etc.).
 
-<p><img src="../../../images/forms/form-modify-email-custom.png" alt="Email Options section with Custom Email selected, showing the To Field and Upload Custom Email button"></p>
+<p><img src="../../../images/forms/form-modify-email-custom.png" alt="Email Options section with Custom Email selected, showing the To Field and Upload Custom Email button" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -79,7 +79,7 @@ Add, edit, or remove the fields a submission can have -- identical to [Module Ov
 
 Relate this form's entries to another module.
 
-<p><img src="../../../images/forms/form-modify-relationships.png" alt="Relationships section"></p>
+<p><img src="../../../images/forms/form-modify-relationships.png" alt="Relationships section" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -97,7 +97,7 @@ Connection details for reading this form's submissions via the REST API -- ident
 
 Only appears once **Sync entries to CMS Contacts** has been turned on for this form -- either when it was [added](/forms/add-form/#module-form), or by switching it on here. Maps this form's own field names to the standard [Contact](/organization/contacts/) fields, so every submission also creates or updates a Contact record alongside its entry in this module's own table.
 
-<p><img src="../../../images/forms/form-modify-contact-mapping.png" alt="CMS Contact Mapping section with a custom field mapping"></p>
+<p><img src="../../../images/forms/form-modify-contact-mapping.png" alt="CMS Contact Mapping section with a custom field mapping" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -120,7 +120,7 @@ Sync runs from the same place regardless of how an entry was created or updated 
 
 Most of this section matches [Module Overview's Advanced Options](/modules/module-overview/modify/#advanced-options) (Custom Icon, Geo-Coded Fields, Field Name to use in URL, Error Document, Asset Fields, Post Processing, Export/Delete), plus a few fields specific to public-facing forms:
 
-<p><img src="../../../images/forms/form-modify-advanced.png" alt="Advanced Options, form-specific fields"></p>
+<p><img src="../../../images/forms/form-modify-advanced.png" alt="Advanced Options, form-specific fields" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

@@ -19,12 +19,11 @@ Module Form is still what most users should reach for -- it's the well-tested, f
 
 The Forms dashboard lists every form in your Solodev CMS, along with its location and members.
 
-<img src="../images/forms/forms-dashboard.png" alt="Forms dashboard with real forms" style="width: 100%; display: block"></a>
+<img src="../images/forms/forms-dashboard.png" alt="Forms dashboard with real forms" style="width: 100%; display: block" class="border"></a>
 
 **Name** | **Description**
 :--- | ---
 [Add Form](/forms/add-form/) | Create a new form.
-Location | Filter your list by selecting a location from the dropdown menu at the upper right.
 Search | Locate a form in your system by entering its name in the search field at the upper right.
 
 Click a form's name to open it and manage its submissions -- see [Form Overview](/forms/form-overview/).
@@ -33,7 +32,7 @@ Click a form's name to open it and manage its submissions -- see [Form Overview]
 
 Click on any of the icons under the member column in the table to add, remove, or manage user roles.
 
-<img src="../images/forms/forms-permissions.png" alt="member permissions" style="width: 40%; display: block"></a>
+<img src="../images/forms/forms-permissions.png" alt="member permissions" style="width: 40%; display: block" class="border"></a>
 
 **Name** | **Description** 
 :--- | ---
