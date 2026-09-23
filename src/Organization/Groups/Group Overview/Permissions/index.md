@@ -2,7 +2,7 @@
 
 Review every app and folder this group has been granted access to. From [Group Overview](/organization/groups/group-overview/), open the **...** menu and click **Permissions**.
 
-<p><img src="../../../../images/organization/group-permissions.png" alt="Permissions panel for a group"></p>
+<p><img src="../../../../images/organization/group-permissions-admin.png" alt="Permissions panel for a group" class="border" style="width: 50%;"></p>
 
 **Name** | **Description** 
 :--- | ---

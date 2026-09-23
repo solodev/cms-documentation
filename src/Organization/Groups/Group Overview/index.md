@@ -1,8 +1,8 @@
 # Group Overview
 
-View and manage a specific group. Click a group's name from the [Groups](/organization/groups/) list to open it.
+View and manage a specific group. Click a group's name from the [Groups](/organization/groups/) overview list to open it.
 
-<p><img src="../../../images/organization/group-overview.png" alt="Group Overview with real members"></p>
+<p><img src="../../../images/organization/group-overview.png" alt="Group Overview with real members" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---

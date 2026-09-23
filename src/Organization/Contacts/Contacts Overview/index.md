@@ -2,7 +2,7 @@
 
 View and manage a specific contact. Click a contact's name from the [Contacts](/organization/contacts/) list to open it.
 
-<p><img src="../../../images/organization/contacts-overview.png" alt="Contacts Overview with real contact details"></p>
+<p><img src="../../../images/organization/contacts-overview.png" alt="Contacts Overview with real contact details" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---

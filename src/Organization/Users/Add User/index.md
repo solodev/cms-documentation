@@ -1,8 +1,8 @@
 # Add User
 
-From the [Users](/organization/users/) list, click **Add User**.
+From the [Users](/organization/users/) view, click **Add User**. Adding a new user will send them an email with a link to sign up for an account on your CMS deployment.
 
-<p><img src="../../../images/organization/add-user.png" alt="Add User form"></p>
+<p><img src="../../../images/organization/add-user.png" alt="Add User form" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---

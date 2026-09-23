@@ -2,7 +2,7 @@
 
 Review and manage every permission this user has been granted directly -- across folders, groups, and individual modules. From [User Overview](/organization/users/user-overview/), open the **...** menu and click **Permissions**.
 
-<p><img src="../../../../images/organization/user-permissions.png" alt="Permissions list for a real user"></p>
+<p><img src="../../../../images/organization/user-permissions.png" alt="Permissions list for a real user" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---

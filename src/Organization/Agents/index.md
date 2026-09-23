@@ -2,7 +2,7 @@
 
 Agents are AI workspaces that can carry out CMS tasks &mdash; through chat threads and automated runs &mdash; against your Solodev deployment. Each Agent workspace is a separate, configured assistant with its own settings, mapping, and connection details.
 
-<p><img src="../../images/organization/agents-list.png" alt="Agents list"></p>
+<p><img src="../../images/organization/agents-list.png" alt="Agents list" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
