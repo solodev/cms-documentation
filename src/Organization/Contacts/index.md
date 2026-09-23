@@ -1,6 +1,6 @@
 ﻿# Contacts 
 
-Contacts are frontend/storefront customers, distinct from the [Users](/organization/users/) who log into the CMS itself. Click a contact's name to view or manage their details, or use the **Search** at the top to a specific contact.
+Contacts are frontend/storefront customers, distinct from the [Users](/organization/users/) who log into the CMS itself. Click a contact's name to view or manage their details, or use the **Search** at the top find a specific contact.
 
 <p><img src="../../images/organization/contacts-list.png" alt="Contacts list" class="border"></p>
 
