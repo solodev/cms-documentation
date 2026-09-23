@@ -7,7 +7,7 @@ From the [Agents](/organization/agents/) list, click **Add Agent**.
 **Name** | **Description**
 :--- | ---
 Name | The agent's name.
-Agent Provider | The connected [Agent Provider](/providers/) this agent runs through. Required.
+Agent Provider | The connected [Agent Provider](/providers/) this agent runs through. **Required**.
 
 ## Connect a provider first
 

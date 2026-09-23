@@ -1,6 +1,6 @@
 # Agent Overview
 
-Configure, run, and manage an existing Agent workspace. Click on an Agent's name from the [Agents](/organization/agents/) list to open it.
+Configure, run, and manage an Agent workspace. Click on an Agent's name from the [Agents](/organization/agents/) list to open it.
 
 **Name** | **Description**
 :--- | ---
