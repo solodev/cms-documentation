@@ -1,15 +1,16 @@
-﻿# Permissions
+﻿Permissions is a powerful tool that allows you to manage access for users and groups. You can manage existing permissions by changing group roles or removing permission entirely.
 
-Assign roles to users or groups, manage and remove permissions. Click the **"+"** button to assign permissions to a new user/group.
+From the website dashboard, open the **Update** dropdown menu and select **Permissions**.
 
-<p><img src="../../../images/permissions/general-permissions.png" alt="Permissions panel" style="max-width: 520px;"></p>
+<p><img src="../../../images/websites/permissions.jpg" alt="Permissions panel" style="max-width: 520px;" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---
-Name | Begin typing the user/group name, and then select the matching entry from the dropdown.
-Role | Assign a View, Stager, Editor, or Admin role via the dropdown menu.
-Delete | Click the **"x"** button to remove the user or group from permissions.
-Confirm | After filling out all the required fields, please click the **Submit** button to save your changes.
+Name | Enter the name of an existing member or group you wish to add to your website.
+Role | Assign a View, Stage, Editor, or Admin role via the dropdown menu.
+Add | Click on the **Plus** button to add it to the permissions table.
+Remove | Click the **“x”** button to remove a member from a website.
+Submit | Once you have completed all the fields, click **Submit** to apply your changes.
 
 !!! Note:
 A group or group member can be assigned one of four roles in Solodev CMS:
