@@ -1,8 +1,8 @@
 # Modify
 
-Update a contact's details. From [Contacts Overview](/organization/contacts/contacts-overview/), click **Modify**.
+Update a contact's details. From the [Contacts Overview](/organization/contacts/contacts-overview/), click **Modify**.
 
-<p><img src="../../../../images/organization/contact-modify.png" alt="Modify Contact form"></p>
+<p><img src="../../../../images/organization/contact-modify.png" alt="Modify Contact form" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---

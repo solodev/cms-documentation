@@ -2,7 +2,7 @@
 
 View and manage a specific user. Click a user's name from the [Users](/organization/users/) list to open it.
 
-<p><img src="../../../images/organization/user-overview.png" alt="User Overview for a real user, showing Worked on, Groups, and Profile"></p>
+<p><img src="../../../images/organization/user-overview.png" alt="User Overview for a real user, showing Worked on, Groups, and Profile" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---

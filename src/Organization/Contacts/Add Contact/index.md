@@ -2,7 +2,7 @@
 
 From the [Contacts](/organization/contacts/) list, click **Add Contact**.
 
-<p><img src="../../../images/organization/add-contact.png" alt="Add Contact form"></p>
+<p><img src="../../../images/organization/add-contact.png" alt="Add Contact form" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---
