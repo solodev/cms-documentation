@@ -1,6 +1,6 @@
 # Scheduler
 
-Scheduler swaps a file's content in and out automatically at a set date and time, without anyone needing to manually publish the change when the date arrives. Click a Scheduler's name to view or manage it.
+The Scheduler swaps a file's content in and out automatically at a set date and time, without anyone needing to manually publish the change when the date arrives. Click a Scheduler's name to view or manage it.
 
 <p><img src="../../images/websites/scheduler-list.png" alt="Schedulers list"></p>
 

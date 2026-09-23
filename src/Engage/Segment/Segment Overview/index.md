@@ -13,4 +13,4 @@ Once you've [added a Segment](/engage/segment/add-segment/), it appears in this 
 
 ## Importing from a Connected Provider
 
-If your organization has a Customer.io connection configured under Providers, a Segment can be populated from that connection instead of managed by hand. This requires a provider connection to already be set up &mdash; see your administrator if Providers isn't configured for your deployment.
+If your organization has an external email marketing platform (Customer.io, Mailchimp, etc.) connection configured under Providers, a Segment can be populated from that connection instead of managed by hand. This requires a provider connection to already be set up &mdash; see your administrator if Providers isn't configured for your deployment.

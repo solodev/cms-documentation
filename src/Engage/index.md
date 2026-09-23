@@ -1,8 +1,8 @@
 # Engage
 
-Engage groups the tools used to reach and test content with specific audiences, separate from the core content-management tools like Websites, Modules, Forms, and Documents. It sits in the left navigation right after those.
+Engage groups the tools used to reach and test content with specific audiences, separate from the core content-management tools like Websites, Modules, Forms, and Documents. It sits in the left navigation.
 
-Each entity below follows the same pattern as Organization: an **Add** page to create a new one, and an **Overview** page &mdash; opened by clicking an existing item in its list &mdash; for adding entries, editing, and permissions.
+Each entity below follows the same pattern as Organization: an **Add** action to create a new one, and an **Overview** page &mdash; opened by clicking an existing item in its list &mdash; for adding entries, editing, and permissions.
 
 **Name** | **Description**
 :--- | ---

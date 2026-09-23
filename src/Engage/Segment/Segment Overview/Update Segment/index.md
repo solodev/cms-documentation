@@ -2,7 +2,7 @@
 
 Edit a Segment's Name or Purpose. From an open Segment, click **Modify**.
 
-<p><img src="../../../../images/engage/update-segment.png" alt="Modify form" style="width: 50%;"></p>
+<p><img src="../../../../images/engage/update-segment.png" alt="Modify form" style="width: 75%;"></p>
 
 **Name** | **Description**
 :--- | ---
