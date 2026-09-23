@@ -1,6 +1,4 @@
-﻿# Generate Sitemap
-
-A sitemap is an `.xml` file that lists and organizes all the web pages within a site. It helps search engines understand the site's structure and how its pages are connected. After generating the sitemap, you can find **sitemap.xml** under the **www** folder. 
+﻿A sitemap is an `.xml` file that lists and organizes all the web pages within a site. It helps search engines understand the site's structure and how its pages are connected. After generating the sitemap, you can find **sitemap.xml** under the **www** folder. 
 
 From the website dashboard, open the **Update** dropdown menu and select **Generate Sitemap**.
 
