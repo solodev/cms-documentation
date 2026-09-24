@@ -1,6 +1,6 @@
 ﻿# Tasks
 
-Tasks are a way to assign specific jobs to CMS users, offering a trackable activity log to help admins view who worked on a task, when it was worked on, how much time has been spent on the task and it's current status.Tasks are always attached to a real object &mdash; a page, a file, or a module entry (a Datatable row, a Calendar entry) &mdash; rather than living in a separate project-management tool. Open any object's editor and click the people icon in the toolbar to see and manage its tasks. The same panel works the same way whether the object is an STML page or a plain HTML file.
+Tasks are a way to assign specific jobs to CMS users, offering a trackable activity log to help admins view who worked on a task, when it was worked on, how much time has been spent on the task and its current status.Tasks are always attached to a real object &mdash; a page, a file, or a module entry (a Datatable row, a Calendar entry) &mdash; rather than living in a separate project-management tool. Open any object's editor and click the people icon in the toolbar to see and manage its tasks. The same panel works the same way whether the object is an STML page or a plain HTML file.
 
 <p><img src="../../images/support/document-tasks-panel.png" alt="Task panel on about.html, showing a real assigned task and its activity feed" class="border"></p>
 
