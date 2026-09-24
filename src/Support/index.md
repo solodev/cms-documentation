@@ -1,6 +1,6 @@
 # Support
 
-Support is where Tasks live &mdash; a lightweight, built-in project-management layer (think a mini Asana inside the CMS) for assigning and tracking work tied directly to real pages, files, and module entries.
+Support is where Tasks live &mdash; a lightweight, built-in project-management layer (think of it like a mini Asana inside the CMS) for assigning and tracking work tied directly to real pages, files, and module entries.
 
 **Name** | **Description**
 :--- | ---
