@@ -1,6 +1,8 @@
 # Profile
 
-Manage your account details and security from your profile, reached through your avatar in the lower-left corner of the CMS.
+Manage your user account details and security from the profile screen, reached through your avatar in the lower-left corner of the CMS.
+
+<p><img src="../../../images/profile/avatar.png" alt="avatar example" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---

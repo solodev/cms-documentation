@@ -1,6 +1,6 @@
 # Security
 
-Your password, Two-Factor Authentication, and API tokens are all managed from one Security page.
+Your password, Two-Factor Authentication (2FA), and API tokens are all managed from the Security page.
 
 **Name** | **Description** 
 :--- | ---

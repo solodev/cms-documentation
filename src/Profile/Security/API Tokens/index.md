@@ -4,7 +4,7 @@ Add, store, and manage API tokens associated with your account, allowing you to 
 
 Existing tokens are listed in a table on this page, each with its name, API key, status, and version.
 
-<p><img src="../../../images/profile/tokens-list.png" alt="API Tokens list with a real, active token"></p>
+<p><img src="../../../images/profile/tokens-list.png" alt="API Tokens list with a real, active token" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -14,13 +14,13 @@ Status | **Active** or **Inactive**. Click **Make inactive** / **Activate** to t
 Version | The API version this token is scoped to.
 Delete | Permanently remove the token.
 
-<p><img src="../../../images/profile/tokens-revealed.png" alt="API Tokens list with the key revealed"></p>
+<p><img src="../../../images/profile/tokens-revealed.png" alt="API Tokens list with the key revealed" class="border"></p>
 
 ## Add Token
 
 Click **Add API Token**.
 
-<p><img src="../../../images/profile/add-token.png" alt="Add API Token form"></p>
+<p><img src="../../../images/profile/add-token.png" alt="Add API Token form" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -32,7 +32,7 @@ Click **Submit** to create the token.
 
 Click **Make inactive** (or **Activate**, if it's already inactive) next to a token. Confirm on the flyout that appears.
 
-<p><img src="../../../images/profile/token-toggle-confirm.png" alt="Confirmation flyout for changing a token's status"></p>
+<p><img src="../../../images/profile/token-toggle-confirm.png" alt="Confirmation flyout for changing a token's status" class="border"></p>
 
 !!! Note:
 Deactivating a token immediately stops it from working -- you won't be able to use that API key until you reactivate it. Deleting a token cannot be undone; once removed, you'll need to create a new one.

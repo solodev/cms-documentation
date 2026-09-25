@@ -7,7 +7,7 @@ Solodev CMS supports Two-Factor Authentication (2FA) using a standard authentica
 1. Go to the **Security** page and click **Enable 2FA**.
 2. On the **Set Up Two-Factor Authentication** screen, scan the displayed QR code with your authenticator app, or enter the secret key manually.
 
-<p><img src="../../../images/profile/2fa-setup.png" alt="Set Up Two-Factor Authentication screen with QR code and secret key"></p>
+<p><img src="../../../images/profile/2fa-setup.png" alt="Set Up Two-Factor Authentication screen with QR code and secret key" class="border"></p>
 
 3. Enter the 6-digit code from your app and click **Confirm Setup**.
 
@@ -17,7 +17,7 @@ If you start setup and change your mind, click **Cancel** rather than leaving th
 
 Once enabled, the Security page shows **Two-Factor Authentication is currently enabled**, and you'll be prompted for a 6-digit code from your authenticator app after your password on future sign-ins.
 
-<p><img src="../../../images/profile/security-2fa-enabled.png" alt="Security page with 2FA enabled"></p>
+<p><img src="../../../images/profile/security-2fa-enabled.png" alt="Security page with 2FA enabled" class="border"></p>
 
 ## Disable 2FA
 
