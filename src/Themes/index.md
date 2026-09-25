@@ -1,21 +1,21 @@
 ﻿# Themes
 
-Themes determine the overall look and feel of your website, including its layout, colors, fonts, and style. By selecting a theme, you can quickly and easily customize the appearance of your site to match your brand or personal preference. 
+Themes determine the overall look and feel of your website, including its layout, colors, fonts, functionality, and style. By selecting a theme, you can quickly and easily customize the appearance of your site to match your organization's brand or personal preference. 
 
 <div class="border p-4" style="height: 255px; margin-bottom: 20px;">
   <div style="width: 40%; float: left;">
-    <p><img src="../images/themes/micro-theme.jpg" alt="Micro Theme"></p>
+    <p><img src="../images/themes/micro-theme.jpg" alt="Micro Theme" class="border"></p>
   </div>
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2><a href="/themes/micro">Micro Theme</a></h2>
-    <p class="mt-3">Create a lightweight, one-page website in seconds that's beautiful on every screen. Think big with a one-page template with everything you need!</p>
+    <p class="mt-3">A lightweight, one-page website deployed in seconds that's beautiful on every screen. Think big with a one-page template with everything you need!</p>
     <a href="https://solodev-micro.s3.amazonaws.com/releases/micro-latest.zip">Download Theme.</a>
   </div>
 </div>
 
 <div class="border p-4" style="height: 255px; margin-bottom: 20px;">
   <div style="width: 40%; float: left;">
-    <p><img src="../images/themes/pro-theme.png" alt="Pro Theme"></p>
+    <p><img src="../images/themes/pro-theme.png" alt="Pro Theme" class="border"></p>
   </div>
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2><a href="/themes/pro">Pro Theme</a></h2>
@@ -26,7 +26,7 @@ Themes determine the overall look and feel of your website, including its layout
 
 <div class="border p-4" style="height: 255px; margin-bottom: 20px;">
   <div style="width: 40%; float: left;">
-    <p><img src="../images/themes/enterprise-theme.png" alt="Enterprise Theme"></p>
+    <p><img src="../images/themes/enterprise-theme.png" alt="Enterprise Theme" class="border"></p>
   </div>
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2><a href="/themes/enterprise">Enterprise Theme</a></h2>
