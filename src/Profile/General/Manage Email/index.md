@@ -2,7 +2,7 @@
 
 Update the email address associated with your account.
 
-<p><img src="../../../images/profile/change-email.png" alt="Manage Email form"></p>
+<p><img src="../../../images/profile/change-email.png" alt="Manage Email form" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---

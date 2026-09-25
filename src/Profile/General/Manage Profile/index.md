@@ -2,7 +2,7 @@
 
 Update your account details, including your name, phone number, timezone, title, company, and session timeout.
 
-<p><img src="../../../images/profile/profile.png" alt="Profile form"></p>
+<p><img src="../../../images/profile/profile.png" alt="Profile form" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -16,7 +16,7 @@ Session Timeout | How long you can stay idle before the CMS signs you out: 20 Mi
 
 ## Profile Image
 
-Hover over your profile circle and click to add or replace your photo.
+Hover over your profile avatar and click to add or replace your photo.
 
 !!!Tip:
 This is the image your team members see when collaborating in the CMS. Consider something intuitive, like a headshot or a unique graphic that's easy to identify.
