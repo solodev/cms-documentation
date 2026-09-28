@@ -1,6 +1,9 @@
 ﻿# Providers
 
-Everything related to connecting Solodev CMS to outside infrastructure and services, in one place.
+Providers are the preferred way to connect Solodev CMS to outside infrastructure and services.
+Everything related to connecting Solodev CMS to external services can be found here.
+
+<p><img src="../../images/providers/providers-dashboard.png" alt="The providers Dashboard" class="border"></p>
 
 ## AWS
 
@@ -31,7 +34,7 @@ Everything related to connecting Solodev CMS to outside infrastructure and servi
 
 **Name** | **Description**
 :--- | ---
-[Customer.io](/providers/customer.io/) | Messaging and event delivery, plus automatic Contacts/Segments sync.
+[Customer.io](/providers/customer.io/) | Messaging and event tracking, plus automatic Contacts/Segments sync.
 
 ## Permissions
 
