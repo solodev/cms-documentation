@@ -20,9 +20,9 @@ A great solution for large organizations, Enterprise Theme pairs a polished, hig
 <p><img src="../../images/themes/enterprise-theme.png" alt="Enterprise Theme" style="max-width: 480px; width: 100%; height: auto; display: block; margin: 0 auto;" class="border"></p>
 
 * **Built for scale:** Powered by the Bootstrap 5.3 engine, Enterprise Theme is designed to run large, high-traffic websites without compromising on speed.
-* **Accelerate with Quicklinks:** Enterprise Theme includes modules that are easy to customize and drive your experience to the next level.
-* **Built-in Blog module:** Create articles, publish with ease, and build your SEO -- a full blog engine included out of the box.
-* **Calendar and Shortcodes included:** Enterprise Theme ships with Calendar and Shortcodes modules ready to use, alongside the Blog module.
+* **Accelerate with Quicklinks:** Enterprise Theme includes modules, like [Quick Links](/modules/catalog/quick-links) that are easy to customize and drive your customers user experience to the next level.
+* **Built-in Blog module:** Create articles, publish with ease, and build your SEO -- a [full blog](/modules/catalog/blog) engine included out of the box.
+* **Calendar and Shortcodes included:** Enterprise Theme ships with [Calendar](/modules/catalog/calendar) and Shortcodes modules ready to use, alongside the Blog module.
 * **Mobile responsive out-of-the-box:** Every template in Enterprise Theme is optimized for desktop, tablet, and mobile devices.
 * **Powered by Solodev CMS:** A stable and scalable theme with multiple template pages, backed by the power of Solodev CMS -- giving you world-class content management capabilities and complete documentation to build and manage on your own.
 
@@ -36,7 +36,7 @@ Enterprise Theme is the advanced-tier template package built for large-scale org
 * Mobile responsive templates
 * Customize with logos, colors, images and content
 * Complete access to HTML for custom coding
-* Add modules, apps, integrations, and more
+* Add modules, apps, integrations, providers, and more
 * Powered by Solodev CMS
 
 ## Support
