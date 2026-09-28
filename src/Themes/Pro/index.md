@@ -20,9 +20,9 @@ A great solution for growing businesses, Pro Theme pairs a polished, high-perfor
 <p><img src="../../images/themes/pro-theme.png" alt="Pro Theme" style="max-width: 480px; width: 100%; height: auto; display: block; margin: 0 auto;" class="border"></p>
 
 * **Built for performance:** Powered by the Bootstrap 5.3 engine, Pro Theme is built to load fast and look sharp across every page.
-* **Accelerate with Quicklinks:** Pro Theme includes modules that are easy to customize and drive your experience to the next level.
-* **Built-in Blog module:** Create articles, publish with ease, and build your SEO -- a full blog engine included out of the box.
-* **Calendar and Shortcodes included:** Pro Theme ships with Calendar and Shortcodes modules ready to use, alongside the Blog module.
+* **Accelerate with Quicklinks:** Pro Theme includes modules, like [Quick Links](/modules/catalog/quick-links), that are easy to customize and drive your experience to the next level.
+* **Built-in Blog module:** Create articles, publish with ease, and build your SEO -- a full [blog engine](/modules/catalog/blog) included out of the box.
+* **Calendar and Shortcodes included:** Pro Theme ships with [Calendar](/modules/catalog/calendar) and Shortcodes modules ready to use, alongside the Blog module.
 * **Mobile responsive out-of-the-box:** Every template in Pro Theme is optimized for desktop, tablet, and mobile devices.
 * **Powered by Solodev CMS:** A stable and scalable theme with multiple template pages, backed by the power of Solodev CMS -- giving you world-class content management capabilities and complete documentation to build and manage on your own.
 
@@ -36,7 +36,7 @@ Pro Theme is a multi-page website template package built for businesses that hav
 * Mobile responsive templates
 * Customize with logos, colors, images and content
 * Complete access to HTML for custom coding
-* Add modules, apps, integrations, and more
+* Add modules, apps, integrations, providers, and more
 * Powered by Solodev CMS
 
 ## Support

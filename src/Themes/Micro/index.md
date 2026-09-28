@@ -17,7 +17,7 @@ A clean, easy-to-use, one-page website theme that's built for growth. Start with
 
 A great solution for small business websites and projects, Micro Theme takes care of the basics so you can focus on content. Use the homepage slider to post multiple hero images. Customize detail pages with targeted content. Add a contact form with your specific personal or company details. In just minutes, you can have an amazing, mobile-responsive website to promote your business like never before.
 
-<p><img src="../../images/themes/micro-theme.jpg" alt="Micro Theme" style="max-width: 480px; width: 100%; height: auto; display: block; margin: 0 auto;"></p>
+<p><img src="../../images/themes/micro-theme.jpg" alt="Micro Theme" style="max-width: 480px; width: 100%; height: auto; display: block; margin: 0 auto;" class="border"></p>
 
 * **Quickly launch with a ready-made design:** With just a few simple steps, you can have a fully-functional website ready to go live in no time.
 * **No code? No problem:** Perfect for less technical users, Micro Theme is flexible, easy to set up, and doesn't require a single line of code to get started. But if you're ambitious with code – or even a seasoned programmer that wants full access to HTML – you're always a click away from editing source code and taking control.
@@ -35,7 +35,7 @@ Micro Theme is a one-page website template that's perfect for small sites and pr
 * Mobile responsive templates
 * Customize with logos, colors, images and content
 * Complete access to HTML for custom coding
-* Add modules, apps, integrations, and more
+* Add modules, apps, integrations, providers, and more
 * Powered by Solodev CMS
 
 ## Support
