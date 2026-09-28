@@ -1,0 +1,544 @@
+diff --git a/src/Profile/General/Manage Email/index.md b/src/Profile/General/Manage Email/index.md
+index de2a4bc8..62f17085 100644
+--- a/src/Profile/General/Manage Email/index.md	
++++ b/src/Profile/General/Manage Email/index.md	
+@@ -2,7 +2,7 @@
+ 
+ Update the email address associated with your account.
+ 
+-<p><img src="../../../images/profile/change-email.png" alt="Manage Email form"></p>
++<p><img src="../../../images/profile/change-email.png" alt="Manage Email form" class="border"></p>
+ 
+ **Name** | **Description** 
+ :--- | ---
+diff --git a/src/Profile/General/Manage Profile/index.md b/src/Profile/General/Manage Profile/index.md
+index fab6bc22..14386f1f 100644
+--- a/src/Profile/General/Manage Profile/index.md	
++++ b/src/Profile/General/Manage Profile/index.md	
+@@ -2,7 +2,7 @@
+ 
+ Update your account details, including your name, phone number, timezone, title, company, and session timeout.
+ 
+-<p><img src="../../../images/profile/profile.png" alt="Profile form"></p>
++<p><img src="../../../images/profile/profile.png" alt="Profile form" class="border"></p>
+ 
+ **Name** | **Description** 
+ :--- | ---
+@@ -16,7 +16,7 @@ Session Timeout | How long you can stay idle before the CMS signs you out: 20 Mi
+ 
+ ## Profile Image
+ 
+-Hover over your profile circle and click to add or replace your photo.
++Hover over your profile avatar and click to add or replace your photo.
+ 
+ !!!Tip:
+ This is the image your team members see when collaborating in the CMS. Consider something intuitive, like a headshot or a unique graphic that's easy to identify.
+diff --git a/src/Profile/Security/API Tokens/index.md b/src/Profile/Security/API Tokens/index.md
+index 35801adf..257ca6d5 100644
+--- a/src/Profile/Security/API Tokens/index.md	
++++ b/src/Profile/Security/API Tokens/index.md	
+@@ -4,7 +4,7 @@ Add, store, and manage API tokens associated with your account, allowing you to
+ 
+ Existing tokens are listed in a table on this page, each with its name, API key, status, and version.
+ 
+-<p><img src="../../../images/profile/tokens-list.png" alt="API Tokens list with a real, active token"></p>
++<p><img src="../../../images/profile/tokens-list.png" alt="API Tokens list with a real, active token" class="border"></p>
+ 
+ **Name** | **Description** 
+ :--- | ---
+@@ -14,13 +14,13 @@ Status | **Active** or **Inactive**. Click **Make inactive** / **Activate** to t
+ Version | The API version this token is scoped to.
+ Delete | Permanently remove the token.
+ 
+-<p><img src="../../../images/profile/tokens-revealed.png" alt="API Tokens list with the key revealed"></p>
++<p><img src="../../../images/profile/tokens-revealed.png" alt="API Tokens list with the key revealed" class="border"></p>
+ 
+ ## Add Token
+ 
+ Click **Add API Token**.
+ 
+-<p><img src="../../../images/profile/add-token.png" alt="Add API Token form"></p>
++<p><img src="../../../images/profile/add-token.png" alt="Add API Token form" class="border"></p>
+ 
+ **Name** | **Description** 
+ :--- | ---
+@@ -32,7 +32,7 @@ Click **Submit** to create the token.
+ 
+ Click **Make inactive** (or **Activate**, if it's already inactive) next to a token. Confirm on the flyout that appears.
+ 
+-<p><img src="../../../images/profile/token-toggle-confirm.png" alt="Confirmation flyout for changing a token's status"></p>
++<p><img src="../../../images/profile/token-toggle-confirm.png" alt="Confirmation flyout for changing a token's status" class="border"></p>
+ 
+ !!! Note:
+ Deactivating a token immediately stops it from working -- you won't be able to use that API key until you reactivate it. Deleting a token cannot be undone; once removed, you'll need to create a new one.
+diff --git a/src/Profile/Security/Change Password/index.md b/src/Profile/Security/Change Password/index.md
+index 8748a6f9..1fb9ce2c 100644
+--- a/src/Profile/Security/Change Password/index.md	
++++ b/src/Profile/Security/Change Password/index.md	
+@@ -2,7 +2,7 @@
+ 
+ Change the password for your account, from the **Security** page.
+ 
+-<p><img src="../../../images/profile/security.png" alt="Security page"></p>
++<p><img src="../../../images/profile/security.png" alt="Security page" class="border"></p>
+ 
+ **Name** | **Description** 
+ :--- | ---
+diff --git a/src/Profile/Security/Two-Factor Authentication/index.md b/src/Profile/Security/Two-Factor Authentication/index.md
+index fc42e406..cf45c524 100644
+--- a/src/Profile/Security/Two-Factor Authentication/index.md	
++++ b/src/Profile/Security/Two-Factor Authentication/index.md	
+@@ -7,7 +7,7 @@ Solodev CMS supports Two-Factor Authentication (2FA) using a standard authentica
+ 1. Go to the **Security** page and click **Enable 2FA**.
+ 2. On the **Set Up Two-Factor Authentication** screen, scan the displayed QR code with your authenticator app, or enter the secret key manually.
+ 
+-<p><img src="../../../images/profile/2fa-setup.png" alt="Set Up Two-Factor Authentication screen with QR code and secret key"></p>
++<p><img src="../../../images/profile/2fa-setup.png" alt="Set Up Two-Factor Authentication screen with QR code and secret key" class="border"></p>
+ 
+ 3. Enter the 6-digit code from your app and click **Confirm Setup**.
+ 
+@@ -17,7 +17,7 @@ If you start setup and change your mind, click **Cancel** rather than leaving th
+ 
+ Once enabled, the Security page shows **Two-Factor Authentication is currently enabled**, and you'll be prompted for a 6-digit code from your authenticator app after your password on future sign-ins.
+ 
+-<p><img src="../../../images/profile/security-2fa-enabled.png" alt="Security page with 2FA enabled"></p>
++<p><img src="../../../images/profile/security-2fa-enabled.png" alt="Security page with 2FA enabled" class="border"></p>
+ 
+ ## Disable 2FA
+ 
+diff --git a/src/Profile/Security/index.md b/src/Profile/Security/index.md
+index cc891c95..05a984ff 100644
+--- a/src/Profile/Security/index.md
++++ b/src/Profile/Security/index.md
+@@ -1,6 +1,6 @@
+ # Security
+ 
+-Your password, Two-Factor Authentication, and API tokens are all managed from one Security page.
++Your password, Two-Factor Authentication (2FA), and API tokens are all managed from the Security page.
+ 
+ **Name** | **Description** 
+ :--- | ---
+diff --git a/src/Profile/index.md b/src/Profile/index.md
+index 273b3097..f625bff9 100644
+--- a/src/Profile/index.md
++++ b/src/Profile/index.md
+@@ -1,6 +1,8 @@
+ # Profile
+ 
+-Manage your account details and security from your profile, reached through your avatar in the lower-left corner of the CMS.
++Manage your user account details and security from the profile screen, reached through your avatar in the lower-left corner of the CMS.
++
++<p><img src="../../../images/profile/avatar.png" alt="avatar example" class="border"></p>
+ 
+ **Name** | **Description** 
+ :--- | ---
+diff --git a/src/Providers/AWS/SSL Information/index.md b/src/Providers/AWS/SSL Information/index.md
+index 1b9dfdcb..9a62749b 100644
+--- a/src/Providers/AWS/SSL Information/index.md	
++++ b/src/Providers/AWS/SSL Information/index.md	
+@@ -42,7 +42,7 @@ SSL (Secure Sockets Layer) is the standard security technology for establishing
+ 
+ **Step 5**. Choose your validation method and select the default DNS validation method, which is recommended. This involves proving your ownership of the domain through DNS records.
+ 
+-**Step 6**. When choosing your key algorithm choose the default RSA 2048 key algorithm. This is a secure choice for generating cryptographic keys.
++**Step 6**. When choosing your key algorithm choose the default **RSA 2048** key algorithm. This is a secure choice for generating cryptographic keys.
+ 
+ !!!Note 
+ Tagging is optional and you can choose whether to add tags for better organization and management, but it's not mandatory.
+@@ -75,7 +75,7 @@ By following these steps, you'll be able to successfully request a public certif
+ 
+ **Step 5**. Select the default DNS validation method that is recommended. This involves proving your ownership of the domain through DNS records.
+ 
+-**Step 6**. When choosing your key algorithm choose the default RSA 2048 key algorithm. This is a secure choice for generating cryptographic keys.
++**Step 6**. When choosing your key algorithm choose the default **RSA 2048** key algorithm. This is a secure choice for generating cryptographic keys.
+ 
+ !!!Note 
+ Tagging is optional and you can choose whether to add tags for better organization and management.
+diff --git a/src/Providers/Add permissions to group/index.md b/src/Providers/Add permissions to group/index.md
+index 4daf7078..45586581 100644
+--- a/src/Providers/Add permissions to group/index.md	
++++ b/src/Providers/Add permissions to group/index.md	
+@@ -11,15 +11,15 @@ Solodev features a permissions management system that allows administrators to s
+ 
+ **Step 1**. Click **Groups** located under the Organization section of the Solodev Dashboard and click on the group you wish to grant specific permissions to.
+ 
+-<!-- <img src="../../images/addgrouppermissions.png" alt="base template" style="width: 100%; display: block"></a>
++<!-- <img src="../../images/addgrouppermissions.png" alt="base template" style="width: 100%; display: block" class="border"></a>
+ -->
+ 
+ 
+ **Step 2**. Click the **Manage** button, and specify places and levels of access you wish to grant to a group by clicking next to the components and choosing the roles from the dropdown menu.
+ 
+-<!--<img src="../../images/addgrouppermissions1.png" alt="base template" style="width: 100%; display: block"></a>
++<!--<img src="../../images/addgrouppermissions1.png" alt="base template" style="width: 100%; display: block" class="border"></a>
+ -->
+-<img src="../../images/addgrouppermissions2.png" alt="base template" style="width: 40%; display: block"></a>
++<img src="../../images/addgrouppermissions2.png" alt="base template" style="width: 40%; display: block" class="border"></a>
+ 
+ 
+ !!! Note:
+@@ -33,4 +33,4 @@ A group or group member can be assigned one of four roles in Solodev CMS:
+ 
+ **Step 3** . Once you have completed all the fields, click Submit to apply your changes.
+ 
+-<!-- <img src="../../images/addgrouppermissions3.png" alt="base template" style="width: 50%; display: block"></a> -->
++<!-- <img src="../../images/addgrouppermissions3.png" alt="base template" style="width: 50%; display: block" class="border"></a> -->
+diff --git a/src/Providers/Customer.io/index.md b/src/Providers/Customer.io/index.md
+index ecbdfe38..d7f20b84 100644
+--- a/src/Providers/Customer.io/index.md
++++ b/src/Providers/Customer.io/index.md
+@@ -1,12 +1,12 @@
+ # Customer.io
+ 
+-Connects the CMS to [Customer.io](https://customer.io/) for messaging and event delivery. Once connected, Contacts and Segments sync to it automatically -- there's no separate manual sync step.
++Connects the CMS to [Customer.io](https://customer.io/) for messaging and event tracking. Once connected, Contacts and Segments sync to it automatically -- there's no separate manual sync step.
+ 
+-<p><img src="../../images/admin/settings/providers/customerio-card.png" alt="Customer.io provider card: Messaging Provider, Forms and Contacts support" style="width: 38%;"></p>
++<p><img src="../../images/admin/settings/providers/customerio-card.png" alt="Customer.io provider card: Messaging Provider, Forms and Contacts support" style="width: 38%;" class="border"></p>
+ 
+ From [Providers](/admin/settings/providers/), find **Customer.io** under Available Providers (tagged **Forms** and **Contacts**) and click **Connect Provider**, then **Add** to open the connection form.
+ 
+-<p><img src="../../images/admin/settings/providers/customerio-add-form.png" alt="Customer.io connection form: Region, Site ID, App API Key, Track API Key" style="width: 45%;"></p>
++<p><img src="../../images/admin/settings/providers/customerio-add-form.png" alt="Customer.io connection form: Region, Site ID, App API Key, Track API Key" style="width: 45%;" class="border"></p>
+ 
+ Fill in the common fields described in [Add Connection](/admin/settings/providers/add-connection/), plus these Customer.io-specific ones:
+ 
+diff --git a/src/Providers/Webpack/index.md b/src/Providers/Webpack/index.md
+index 2f362b16..a190fe65 100644
+--- a/src/Providers/Webpack/index.md
++++ b/src/Providers/Webpack/index.md
+@@ -6,7 +6,7 @@ Webpack is a modular bundler that compiles JavaScript, SCSS, and CSS into packag
+ 
+ The fastest way to get a website started with Webpack. Connect the Webpack provider once, map it to a website, and Solodev scaffolds the starter setup into that website's `web files` folder for you -- no manual file creation needed.
+ 
+-<p><img src="../../images/providers/webpack-provider-detail.png" alt="Webpack provider detail page"></p>
++<p><img src="../../images/providers/webpack-provider-detail.png" alt="Webpack provider detail page" class="border"></p>
+ 
+ From [Providers](/providers/), open **Webpack** and click **Add**. There's nothing to configure -- name the connection and save.
+ 
+@@ -14,7 +14,7 @@ From [Providers](/providers/), open **Webpack** and click **Add**. There's nothi
+ 
+ Open the website's [Update Website](/websites/website-overview/update-website/) form, expand **Providers**, and choose your connection under **Webpack Connection**. Click **Submit**.
+ 
+-<p><img src="../../images/providers/update-website-webpack-picker.png" alt="Webpack Connection picker inside Update Website's Providers section"></p>
++<p><img src="../../images/providers/update-website-webpack-picker.png" alt="Webpack Connection picker inside Update Website's Providers section" class="border"></p>
+ 
+ That's it -- Solodev creates these files in the website's `web files` folder at that point:
+ 
+@@ -40,17 +40,23 @@ With `package.json` and `webpack/webpack.css.config.js` in place (via the provid
+ 
+ SCSS can be used to style more complex visual elements on a web page, including hero sliders, galleries, buttons, images, color palettes, fonts, and even themes and layouts.
+ 
++**Example SCSS and compiled CSS via Webpack**
++
++| SCSS | Compiled CSS |
++| --- | --- |
++| <code>ul {<br>&nbsp;&nbsp;&nbsp;&nbsp;li {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-decoration: underline;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>}</code> | `ul li a {text-decoration: underline}` |
++
+ **Step 1**: From the left-hand menu, click on the **"_"** folder under **www**. Using the menu on the right, click **Add Folder**.
+ 
+-<img src="../../images/add-page-www.png" alt="Underscore folder" style="width: 25%;"></br>
++<img src="../../images/add-page-www.png" alt="Underscore folder" style="width: 25%;" class="border"></br>
+ 
+ **Step 2**: In the modal, create a folder called **"css"**. You can add an optional title and description, but it is not required. Once complete, click **Submit**.
+ 
+-<img src="../../images/add-css-folder.jpg" alt="Add css folder"></br>
++<img src="../../images/add-css-folder.jpg" alt="Add css folder" class="border"></br>
+ 
+ **Step 3**: Click on the **css** folder and [Add a File](/websites/folder-overview/add-file/) called **app.css**.
+ 
+-<img src="../../images/add-app-css.jpg" alt="Add css folder"></br>
++<img src="../../images/add-app-css.jpg" alt="Add css folder" class="border"></br>
+ 
+ !!!Note
+ Please leave this file empty. This file will dynamically include the compiled CSS for your site.
+@@ -58,11 +64,11 @@ Please leave this file empty. This file will dynamically include the compiled CS
+ 
+ **Step 4**: Click on **web files** and [Add Folder](/websites/folder-overview/add-folder/) called **scss**. Once Complete, click **Submit**.
+ 
+-<img src="../../images/add-scss-folder.jpg" alt="Add SCSS folder"></a>
++<img src="../../images/add-scss-folder.jpg" alt="Add SCSS folder" class="border"></a>
+ 
+ **Step 5**: On the new scss folder, [create a file](/websites/folder-overview/add-file/) called **app.scss**:
+ 
+-<img src="../../images/add-app-scss.jpg" alt="Add app.scss file"></a>
++<img src="../../images/add-app-scss.jpg" alt="Add app.scss file" class="border"></a>
+ 
+ **Step 6**: Paste the following sample code into the file. Once Complete, click **Submit**.
+ 
+@@ -72,7 +78,7 @@ Please leave this file empty. This file will dynamically include the compiled CS
+ 
+ **Step 7**: Go to your website dashboard and click on **Update Website** and navigate to the **Meta Information** accordion.
+ 
+-<img src="../../images/update-website-meta-information.png" alt="Update website meta information" style="width: 500px;"></a>
++<img src="../../images/update-website-meta-information.png" alt="Update website meta information" style="width: 500px;" class="border"></a>
+ 
+ **Step 8**: Under **"Global Header Insert"** add the following script:
+ 
+@@ -92,23 +98,23 @@ With `package.json` and `webpack/webpack.config.js` in place (via the provider a
+ 
+ **Step 1**: From the left-hand menu, click on the **"_"** folder under **www**. Using the menu on the right, click **Add Folder**.
+ 
+-<img src="../../images/add-page-www.png" alt="Underscore folder" style="width: 25%;"></br>
++<img src="../../images/add-page-www.png" alt="Underscore folder" style="width: 25%;" class="border"></br>
+ 
+ **Step 2**: In the modal, create a folder called **"js"**. You can add an optional title and description, but it is not required. Once complete, click **Submit**.
+ 
+-<img src="../../images/webpack/add-js-folder.jpg" alt="Add js folder" style="width: 500px;"></a>
++<img src="../../images/webpack/add-js-folder.jpg" alt="Add js folder" style="width: 500px;" class="border"></a>
+ 
+ **Step 3**: Click on the **js** folder and [Add a File](/websites/folder-overview/add-file/) called **app.js**.
+ 
+-<img src="../../images/webpack/add-app-js.jpg" alt="Add js file" style="width: 500px;"></a>
++<img src="../../images/webpack/add-app-js.jpg" alt="Add js file" style="width: 500px;" class="border"></a>
+ 
+ **Step 4**: Click on **web files** and [Add Folder](/websites/folder-overview/add-folder/) called **js**.
+ 
+-<img src="../../images/webpack/js-folder-web-files.jpg" alt="JS folder under web files"></a>
++<img src="../../images/webpack/js-folder-web-files.jpg" alt="JS folder under web files" class="border"></a>
+ 
+ **Step 5**: On the new **js folder** in your left menu, [create a file](/websites/folder-overview/add-file/) called **app.js**.
+ 
+-<img src="../../images/webpack/add-app-js.jpg" alt="Add js file" style="width: 500px;"></a>
++<img src="../../images/webpack/add-app-js.jpg" alt="Add js file" style="width: 500px;" class="border"></a>
+ 
+ **Step 6**: Paste the following sample code into the file. Once Complete, click **Submit**.
+ 
+@@ -123,7 +129,7 @@ import 'bootstrap';
+ 
+ **Step 7**: Go to your website dashboard and click on **Update Website** and navigate to the **Meta Information** accordion.
+ 
+-<img src="../../images/update-website-meta-information.png" alt="Update website meta information" style="width: 500px;"></a>
++<img src="../../images/update-website-meta-information.png" alt="Update website meta information" style="width: 500px;" class="border"></a>
+ 
+ **Step 8**: Under **"Global Header Insert"** add the following script:
+ 
+@@ -141,15 +147,15 @@ In this section, we will show you how you can add your own SCSS to your site.
+ 
+ **Step 1:** Under web files, click on the **SCSS** folder. 
+ 
+-<img src="../../images/scss-folder.png" alt="scss folder"></a>
++<img src="../../images/scss-folder.png" alt="scss folder" class="border"></a>
+ 
+ **Step 2:** Using the right-hand menu, click [Add Folder](/websites/folder-overview/add-folder/). Name it **utilities**. Once Complete click **Submit**.
+ 
+-<img src="../../images/scss-utilities.png" alt="scss utilities"></a>
++<img src="../../images/scss-utilities.png" alt="scss utilities" class="border"></a>
+ 
+ **Step 3:** Click on the **utilities** folder and, using the same right-hand menu, click [Add File](/websites/folder-overview/add-file/). Create a new file called **variables.scss** and select **Code** for the **File Type**. Once complete, click **Submit**.
+ 
+-<img src="../../images/scss-utilities-vars.png" alt="scss utilities vars"></a>
++<img src="../../images/scss-utilities-vars.png" alt="scss utilities vars" class="border"></a>
+ 
+ **Step 4:** In the file code editor, add the following code sample. 
+ 
+@@ -173,18 +179,18 @@ $theme-colors: (
+ This sample code contains a few color variables you can use to style your template. These variables will overwrite Bootstrap's colors used on our SpaceJet theme.
+ !!!
+ 
+-**Step 5:** To link your newly created file, click on the **app.scss** file under the **scss** folder. Add the following import before Bootstrap code. Click **Publish**.
++**Step 5:** To use your newly created file, click on the **app.scss** file under the **scss** folder. Add the following import before Bootstrap code. Click **Publish**.
+ 
+ ```js
+ @import 'utilities/variables';
+ ```
+ 
+-<img src="../../images/scss-vars.jpg" alt="SCSS app.scss file with list of imports"></a>
++<img src="../../images/scss-vars.jpg" alt="SCSS app.scss file with list of imports" class="border"></a>
+ 
+ Once complete, click **Publish**.
+ 
+ !!!warning Note:
+-Your variables.scss file needs to be added before the bootstrap import. All other scss files you add need to go after the bootstrap imports. Solodev highly recommends creating a components folder for all your other styles and to keep some level of organization within your CMS.
++Your variables.scss file needs to be added before the Bootstrap import. All other scss files you add need to go after the bootstrap imports. Solodev highly recommends creating a components folder for all your other styles and to keep some level of organization within your CMS.
+ !!!!
+ 
+ **Step 6:** Go to your front end and see the new colors.
+diff --git a/src/Providers/index.md b/src/Providers/index.md
+index 12c84390..fa17c83e 100644
+--- a/src/Providers/index.md
++++ b/src/Providers/index.md
+@@ -1,6 +1,9 @@
+ ﻿# Providers
+ 
+-Everything related to connecting Solodev CMS to outside infrastructure and services, in one place.
++Providers are the preferred way to connect Solodev CMS to outside infrastructure and services.
++Everything related to connecting Solodev CMS to external services can be found here.
++
++<p><img src="../../images/providers/providers-dashboard.png" alt="The providers Dashboard" class="border"></p>
+ 
+ ## AWS
+ 
+@@ -31,7 +34,7 @@ Everything related to connecting Solodev CMS to outside infrastructure and servi
+ 
+ **Name** | **Description**
+ :--- | ---
+-[Customer.io](/providers/customer.io/) | Messaging and event delivery, plus automatic Contacts/Segments sync.
++[Customer.io](/providers/customer.io/) | Messaging and event tracking, plus automatic Contacts/Segments sync.
+ 
+ ## Permissions
+ 
+diff --git a/src/Themes/Enterprise/index.md b/src/Themes/Enterprise/index.md
+index df9d92a7..a31cb8cc 100644
+--- a/src/Themes/Enterprise/index.md
++++ b/src/Themes/Enterprise/index.md
+@@ -7,22 +7,22 @@
+     <img src="../../images/themes/enterprise-logo.png" alt="Enterprise Logo">
+     <div>
+       <h1>Enterprise</h1>
+-      <p>Get agency-quality features to power your enterprise-grade website! Build it beautifully with mobile-responsive templates and leverage advanced out-of-the-box modules.</p>
++      <p style="padding-left:0;">Get agency-quality features to power your enterprise-grade website! Build it beautifully with mobile-responsive templates and leverage advanced out-of-the-box modules.</p>
+     </div>
+   </div>
+   <a class="btn-blue-lg" href="https://solodev-enterprise.s3.amazonaws.com/releases/enterprise-latest.zip" target="_blank" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span>DOWNLOAD</a>
+ </div>
+ 
+-Enterprise Theme is a sleek, mobile-responsive theme powered by the Bootstrap 5.3 engine and fully customizable with ease -- built with enterprise-grade templates and advanced out-of-the-box modules for organizations that need to run large, complex sites at scale.
++Enterprise Theme is a sleek, mobile-responsive theme powered by the [Bootstrap 5.3](https://getbootstrap.com/) engine and fully customizable with ease -- built with enterprise-grade templates and advanced out-of-the-box modules for organizations that need to run large, complex sites at scale.
+ 
+ A great solution for large organizations, Enterprise Theme pairs a polished, high-performance design with modules that are easy to customize and drive your experience further -- including a built-in blog engine so you can create articles, publish with ease, and build your SEO right out of the box.
+ 
+-<p><img src="../../images/themes/enterprise-theme.png" alt="Enterprise Theme" style="max-width: 480px; width: 100%; height: auto; display: block; margin: 0 auto;"></p>
++<p><img src="../../images/themes/enterprise-theme.png" alt="Enterprise Theme" style="max-width: 480px; width: 100%; height: auto; display: block; margin: 0 auto;" class="border"></p>
+ 
+ * **Built for scale:** Powered by the Bootstrap 5.3 engine, Enterprise Theme is designed to run large, high-traffic websites without compromising on speed.
+-* **Accelerate with Quicklinks:** Enterprise Theme includes modules that are easy to customize and drive your experience to the next level.
+-* **Built-in Blog module:** Create articles, publish with ease, and build your SEO -- a full blog engine included out of the box.
+-* **Calendar and Shortcodes included:** Enterprise Theme ships with Calendar and Shortcodes modules ready to use, alongside the Blog module.
++* **Accelerate with Quicklinks:** Enterprise Theme includes modules, like [Quick Links](/modules/catalog/quick-links) that are easy to customize and drive your customers user experience to the next level.
++* **Built-in Blog module:** Create articles, publish with ease, and build your SEO -- a [full blog](/modules/catalog/blog) engine included out of the box.
++* **Calendar and Shortcodes included:** Enterprise Theme ships with [Calendar](/modules/catalog/calendar) and Shortcodes modules ready to use, alongside the Blog module.
+ * **Mobile responsive out-of-the-box:** Every template in Enterprise Theme is optimized for desktop, tablet, and mobile devices.
+ * **Powered by Solodev CMS:** A stable and scalable theme with multiple template pages, backed by the power of Solodev CMS -- giving you world-class content management capabilities and complete documentation to build and manage on your own.
+ 
+@@ -36,7 +36,7 @@ Enterprise Theme is the advanced-tier template package built for large-scale org
+ * Mobile responsive templates
+ * Customize with logos, colors, images and content
+ * Complete access to HTML for custom coding
+-* Add modules, apps, integrations, and more
++* Add modules, apps, integrations, providers, and more
+ * Powered by Solodev CMS
+ 
+ ## Support
+diff --git a/src/Themes/Micro/index.md b/src/Themes/Micro/index.md
+index 8e0563a1..400b1816 100644
+--- a/src/Themes/Micro/index.md
++++ b/src/Themes/Micro/index.md
+@@ -4,10 +4,10 @@
+ 
+ <div class="header">
+   <div class="inner">
+-    <img src="../../images/themes/micro-logo.png" alt="Micro Logo">
++    <img src="../../images/themes/micro-logo.png" alt="Micro Logo" class="border">
+     <div>
+       <h1>Micro</h1>
+-      <p>Take your business to new heights with Micro Theme.</p>
++      <p style="padding-left:0;">Take your business to new heights with Micro Theme.</p>
+     </div>
+   </div>
+   <a class="btn-blue-lg" href="https://solodev-micro.s3.amazonaws.com/releases/micro-latest.zip" target="_blank" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span>DOWNLOAD</a>
+@@ -17,11 +17,11 @@ A clean, easy-to-use, one-page website theme that's built for growth. Start with
+ 
+ A great solution for small business websites and projects, Micro Theme takes care of the basics so you can focus on content. Use the homepage slider to post multiple hero images. Customize detail pages with targeted content. Add a contact form with your specific personal or company details. In just minutes, you can have an amazing, mobile-responsive website to promote your business like never before.
+ 
+-<p><img src="../../images/themes/micro-theme.jpg" alt="Micro Theme" style="max-width: 480px; width: 100%; height: auto; display: block; margin: 0 auto;"></p>
++<p><img src="../../images/themes/micro-theme.jpg" alt="Micro Theme" style="max-width: 480px; width: 100%; height: auto; display: block; margin: 0 auto;" class="border"></p>
+ 
+ * **Quickly launch with a ready-made design:** With just a few simple steps, you can have a fully-functional website ready to go live in no time.
+-* **No code? No problem:** Perfect for less technical users, Micro Theme is flexible, easy to set up, and doesn't require a single line of code to get started. But if you're ambitious with code – or even a seasoned programmer that wants full access to HTML – you're always a click away from source code and taking control.
+-* **Mobile responsive out-of-the-box:** Built with the popular Bootstrap framework, every template in Micro Theme is optimized for desktop, tablet, and mobile devices. 
++* **No code? No problem:** Perfect for less technical users, Micro Theme is flexible, easy to set up, and doesn't require a single line of code to get started. But if you're ambitious with code – or even a seasoned programmer that wants full access to HTML – you're always a click away from editing source code and taking control.
++* **Mobile responsive out-of-the-box:** Built with the popular [Bootstrap](https://getbootstrap.com/) framework, every template in Micro Theme is optimized for desktop, tablet, and mobile devices. 
+ * **Customize with your brand:** Easily add the images, logos, content, and marketing assets you need for your company's brand.
+ * **Connect with customers:** With Micro Theme, you've got tools to create content and kickstart your digital customer experience. You can also use the handy form to capture interest and convert leads in Solodev.
+ * **Powered by Solodev CMS:** Not only do you have a stable and scalable theme with multiple template pages, but it's all backed by the power of Solodev CMS - giving you world-class content management capabilities and complete documentation to build and manage on your own.
+@@ -35,7 +35,7 @@ Micro Theme is a one-page website template that's perfect for small sites and pr
+ * Mobile responsive templates
+ * Customize with logos, colors, images and content
+ * Complete access to HTML for custom coding
+-* Add modules, apps, integrations, and more
++* Add modules, apps, integrations, providers, and more
+ * Powered by Solodev CMS
+ 
+ ## Support
+diff --git a/src/Themes/Pro/index.md b/src/Themes/Pro/index.md
+index ad35c5c9..3a8a18a5 100644
+--- a/src/Themes/Pro/index.md
++++ b/src/Themes/Pro/index.md
+@@ -7,22 +7,22 @@
+     <img src="../../images/themes/pro-logo.png" alt="Pro Logo">
+     <div>
+       <h1>Pro</h1>
+-      <p>The theme for pros! Build business-grade sites using a complete, mobile-responsive theme package with multiple pages and ready-to-go modules.</p>
++      <p style="padding-left:0;">The theme for pros! Build business-grade sites using a complete, mobile-responsive theme package with multiple pages and ready-to-go modules.</p>
+     </div>
+   </div>
+   <a class="btn-blue-lg" href="https://solodev-pro.s3.us-east-1.amazonaws.com/releases/pro-latest.zip" target="_blank" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" fill="#fff"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></span>DOWNLOAD</a>
+ </div>
+ 
+-Pro Theme is a business-grade, multi-page responsive theme package, built on the Bootstrap 5.3 engine and fully customizable with ease -- the step up from Micro Theme for sites that need more than one page.
++Pro Theme is a business-grade, multi-page responsive theme package, built on the [Bootstrap 5.3](https://getbootstrap.com/)  engine and fully customizable with ease -- the step up from Micro Theme for sites that need more than one page.
+ 
+ A great solution for growing businesses, Pro Theme pairs a polished, high-performance design with modules that are easy to customize and drive your experience further -- including a built-in blog engine so you can create articles, publish with ease, and build your SEO right out of the box.
+ 
+-<p><img src="../../images/themes/pro-theme.png" alt="Pro Theme" style="max-width: 480px; width: 100%; height: auto; display: block; margin: 0 auto;"></p>
++<p><img src="../../images/themes/pro-theme.png" alt="Pro Theme" style="max-width: 480px; width: 100%; height: auto; display: block; margin: 0 auto;" class="border"></p>
+ 
+ * **Built for performance:** Powered by the Bootstrap 5.3 engine, Pro Theme is built to load fast and look sharp across every page.
+-* **Accelerate with Quicklinks:** Pro Theme includes modules that are easy to customize and drive your experience to the next level.
+-* **Built-in Blog module:** Create articles, publish with ease, and build your SEO -- a full blog engine included out of the box.
+-* **Calendar and Shortcodes included:** Pro Theme ships with Calendar and Shortcodes modules ready to use, alongside the Blog module.
++* **Accelerate with Quicklinks:** Pro Theme includes modules, like [Quick Links](/modules/catalog/quick-links), that are easy to customize and drive your experience to the next level.
++* **Built-in Blog module:** Create articles, publish with ease, and build your SEO -- a full [blog engine](/modules/catalog/blog) included out of the box.
++* **Calendar and Shortcodes included:** Pro Theme ships with [Calendar](/modules/catalog/calendar) and Shortcodes modules ready to use, alongside the Blog module.
+ * **Mobile responsive out-of-the-box:** Every template in Pro Theme is optimized for desktop, tablet, and mobile devices.
+ * **Powered by Solodev CMS:** A stable and scalable theme with multiple template pages, backed by the power of Solodev CMS -- giving you world-class content management capabilities and complete documentation to build and manage on your own.
+ 
+@@ -36,7 +36,7 @@ Pro Theme is a multi-page website template package built for businesses that hav
+ * Mobile responsive templates
+ * Customize with logos, colors, images and content
+ * Complete access to HTML for custom coding
+-* Add modules, apps, integrations, and more
++* Add modules, apps, integrations, providers, and more
+ * Powered by Solodev CMS
+ 
+ ## Support
+diff --git a/src/Themes/index.md b/src/Themes/index.md
+index 1d5d5035..e45c8144 100644
+--- a/src/Themes/index.md
++++ b/src/Themes/index.md
+@@ -1,21 +1,21 @@
+ ﻿# Themes
+ 
+-Themes determine the overall look and feel of your website, including its layout, colors, fonts, and style. By selecting a theme, you can quickly and easily customize the appearance of your site to match your brand or personal preference. 
++Themes determine the overall look and feel of your website, including its layout, colors, fonts, functionality, and style. By selecting a theme, you can quickly and easily customize the appearance of your site to match your organization's brand or personal preference. 
+ 
+ <div class="border p-4" style="height: 255px; margin-bottom: 20px;">
+   <div style="width: 40%; float: left;">
+-    <p><img src="../images/themes/micro-theme.jpg" alt="Micro Theme"></p>
++    <p><img src="../images/themes/micro-theme.jpg" alt="Micro Theme" class="border"></p>
+   </div>
+   <div style="width: 50%; float: left; padding-left: 30px;">
+     <h2><a href="/themes/micro">Micro Theme</a></h2>
+-    <p class="mt-3">Create a lightweight, one-page website in seconds that's beautiful on every screen. Think big with a one-page template with everything you need!</p>
++    <p class="mt-3">A lightweight, one-page website deployed in seconds that's beautiful on every screen. Think big with a one-page template with everything you need!</p>
+     <a href="https://solodev-micro.s3.amazonaws.com/releases/micro-latest.zip">Download Theme.</a>
+   </div>
+ </div>
+ 
+ <div class="border p-4" style="height: 255px; margin-bottom: 20px;">
+   <div style="width: 40%; float: left;">
+-    <p><img src="../images/themes/pro-theme.png" alt="Pro Theme"></p>
++    <p><img src="../images/themes/pro-theme.png" alt="Pro Theme" class="border"></p>
+   </div>
+   <div style="width: 50%; float: left; padding-left: 30px;">
+     <h2><a href="/themes/pro">Pro Theme</a></h2>
+@@ -26,7 +26,7 @@ Themes determine the overall look and feel of your website, including its layout
+ 
+ <div class="border p-4" style="height: 255px; margin-bottom: 20px;">
+   <div style="width: 40%; float: left;">
+-    <p><img src="../images/themes/enterprise-theme.png" alt="Enterprise Theme"></p>
++    <p><img src="../images/themes/enterprise-theme.png" alt="Enterprise Theme" class="border"></p>
+   </div>
+   <div style="width: 50%; float: left; padding-left: 30px;">
+     <h2><a href="/themes/enterprise">Enterprise Theme</a></h2>
