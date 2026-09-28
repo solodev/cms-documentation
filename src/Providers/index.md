@@ -3,7 +3,7 @@
 Providers are the preferred way to connect Solodev CMS to outside infrastructure and services.
 Everything related to connecting Solodev CMS to external services can be found here.
 
-<p><img src="../../images/providers/providers-dashboard.png" alt="The providers Dashboard" class="border"></p>
+<p><img src="../images/providers/providers-dashboard.png" alt="The providers Dashboard" class="border"></p>
 
 ## AWS
 
