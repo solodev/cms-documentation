@@ -1,8 +1,8 @@
-﻿# Folder Overview
+﻿Folders are built in a nested tree hierarchy and serve as containers for all Solodev resources, including files and folders for the website(s). Modify and customize folders to suit your needs. A folder can be used as a company intranet document repository or to store HTML, TPL, and STML files destined for the web.
 
 Click into the **web files** or **www** folder from a website's [Website Overview](/websites/website-overview/) to manage its contents: add pages, files, and subfolders, upload assets, and set permissions.
 
-<p><img src="../../images/websites/folder/folder.png" alt="Folder view with real content"></p>
+<p><img src="../../images/websites/folder/folder.png" alt="Folder view with content" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -26,14 +26,14 @@ Delete | Permanently delete the folder.
 [Permissions](/websites/folder-overview/permissions/) | Manage user access to files and folders with specific roles.
 
 !!! Note
-File Groups, Experiments, and Scheduler are also inserted into a folder, but they're documented under [Engage](/engage/) alongside the rest of that section: [Add File Group](/engage/file-group/add-file-group/), [Add Experiment](/engage/experiment/add-experiment/), [Add Scheduler](/engage/scheduler/add-scheduler/).
+For information on File Groups, Experiments, and Scheduler, please refer to [Engage](/engage/).
 !!!
 
 ## Members
 
 Manage the folder access permissions for users and groups.
 
-<p><img src="../../images/permissions/folder-permissions.png" alt="Folder Permissions" style="width: 50%;"></p>
+<p><img src="../../images/websites/folder/folder-permissions.png" alt="Folder permissions modal" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
