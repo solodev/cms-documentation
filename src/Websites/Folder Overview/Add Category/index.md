@@ -1,8 +1,10 @@
 ﻿# Add Category 
 
-Category pages allow to optimize SEO and enhance overall user experience. In Solodev CMS, developers can attach category pages to modules by attaching them to category collections and attaching their collection of categories to the module itself. Before creating a category, create a collection. From an open folder, click **+ Add** and select **Add Category**.
+Category pages help optimize SEO and enhance the overall user experience. In Solodev CMS, developers can attach category pages to modules by adding categories to a collection and then attaching the collection to the module. Before creating a category, [create a collection](/admin/settings/collections/add-collection/).
 
-<p><img src="../../../images/folders/add-category.png" alt="Add Category form" style="width: 40%;"></p>
+From an open folder, click **+ Add** and select **Add Category**.
+
+<p><img src="../../../images/folders/add-category.png" alt="Add Category form" style="width: 40%;" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -16,8 +18,9 @@ Confirm | After filling out all the required fields, please click the **Submit**
 
 Manage where your categories display.
 
-<p><img src="../../../images/folders/website-properties.jpg" alt="Website Properties Accordion" style="width: 40%;"></p>
+<p><img src="../../../images/folders/website-properties-categories.png" alt="Website Properties Accordion" style="width: 40%;" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
-Page Template | Add page template by clicking the browse button. The page template will serve as an index for Datatable Categories.
+Datatable Category Group ID | The ID for a group of categories. Click **Browse** and select the desired Category Group/Collection.
+Datatable Category ID | The ID for a specific category.
