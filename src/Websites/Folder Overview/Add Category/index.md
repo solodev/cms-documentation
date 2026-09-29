@@ -16,7 +16,7 @@ Confirm | After filling out all the required fields, please click the **Submit**
 
 ## Website Properties
 
-Manage where your categories display.
+Manage where your categories display by expanding **Website Properties** in the **Update** folder modal.
 
 <p><img src="../../../images/folders/website-properties-categories.png" alt="Website Properties Accordion" style="width: 40%;" class="border"></p>
 
