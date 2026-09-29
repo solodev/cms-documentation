@@ -1,4 +1,4 @@
-﻿You can add a URL link to your website. In Solodev, links are commonly used for navigation elements. 
+﻿You can add a URL link to your website. In Solodev CMS, links are commonly used for navigation elements. 
 
 From an open folder, click **+ Add** and select **Add Link**.
 
