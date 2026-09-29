@@ -1,8 +1,8 @@
 ﻿# Update Folder 
 
-Folders are built in a nested tree hierarchy and serve as containers for all Solodev resources, including files and folders for the website(s). Modify and customize folders to suit your needs. A folder can be used as a company intranet document repository or to store HTML, TPL, and STML files destined for the web.
+From the left tree, navigate to and open the folder you want to update, then click **Update** from the **...** actions menu.
 
-<p><img src="../../../images/folders/update-folder.png" alt="Update Folder form" style="width: 45%;"></p>
+<p><img src="../../../images/folders/update-folder.png" alt="Update Folder form" style="width: 45%;" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -16,15 +16,15 @@ Submit | Once you have completed all the fields, click **Submit** to apply your 
 
 ## Website Properties
 
-Control how folders work with websites.
+Control how folders work with websites. Configure folder settings, organization, and website associations.
 
 **Name** | **Description**
 :--- | ---
-Menu Name | If you'd like a different title to appear on the menu navigation than the folder title.
+Menu Name | If you would like a different title to appear on the menu navigation than the folder title.
 Rank | Modify the rank to determine the folder's display order in the menu navigation. **Lowest number listed first.**
 Layout | How the contents of the folder are displayed in the navigation: Default, Basic, Content, Media, Thumbnails, Gallery, or Custom.
 Levels | How deep the elements in the folder will be displayed in the navigation: Default, 1, 2, or 3.
-Datatable Category Group ID | The ID for a group of categories. Click **Browse** and select the desired Category Group.
+Datatable Category Group ID | The ID for a group of categories. Click **Browse** and select the desired Category Group/Collection.
 Datatable Category ID | The ID for a specific category.
 Image | Click **Upload Image** to add or update the folder's image.
 Include in Website Navigation | Mark this option to structure the folder to display in navigation menus.

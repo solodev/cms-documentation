@@ -1,10 +1,11 @@
-﻿# Upload
+﻿To upload files to a folder from your computer, click **Upload**. You can drag and drop multiple files, or upload a single file at a time by clicking **Browse**.
 
-Upload a file from your computer. From an open folder, click **Upload**.
-
-<p><img src="../../../images/folders/upload-files.png" alt="Upload Files panel" style="width: 40%;"></p>
+<p><img src="../../../images/folders/upload-files.png" alt="Upload Files panel" style="max-width: 40%;" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
-Drop Area | Drag the file you want to upload from your computer and drop it here.
-Browse | Click to browse your computer and select the file to upload.
+Drop Area | Drag and drop multiple files from your computer to upload them in bulk.
+Browse | Click to browse your computer and select a file to upload.
+Upload | Upload and publish the file(s).
+Upload + Stage | Upload and stage the file(s).
+Upload + Save | Upload and save the file(s).
