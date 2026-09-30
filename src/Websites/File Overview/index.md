@@ -1,12 +1,10 @@
-﻿# File Overview
+﻿Under **Web Files**, you can open a specific file in the code editor to make changes. This includes `.html` files, template files (`.tpl`), config files, `package.json`, form assets, and other components that power your website's structure. Click a file to open it.
 
-Under **web files**, you can update folders or open a specific file to edit it with the code editor. This includes template files (.tpl), config files, package.json, form assets, and other components that power your website's structure. Click on a file to open it.
-
-<p><img src="../../images/websites/code-file.png" alt="A template file open in the code editor"></p>
+<p><img src="../../images/websites/code-file.png" alt="A template file open in the code editor" class="border"></p>
 
 Once a file is open, its actions are split across three groups: the workflow-status button, the **...** actions menu, and an icon row above them both.
 
-<p><img src="../../images/websites/files/actions-menu.png" alt="The three action groups on an open file: icon row, Publish button, and the ... actions menu" style="width: 45%;"></p>
+<p><img src="../../images/websites/files/actions-menu.png" alt="The three action groups on an open file: icon row, Publish button, and the ... actions menu" class="border"></p>
 
 ## Publish, Stage & Draft
 
