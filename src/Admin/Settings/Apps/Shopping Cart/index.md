@@ -33,7 +33,7 @@ Administrators can review completed transactions under **Payments**, and export 
 ## Security Notes for Administrators
 
 - Checkout pages carry CSRF protection; if you are customizing checkout templates, don't strip the hidden CSRF fields the templates already include.
-- Payment credentials (processor keys/secrets) belong in the CMS's provider/settings configuration, never hardcoded into a page or template.
+- Payment credentials (processor keys/secrets) belong in the CMS's provider/settings configuration, **never** hardcoded into a page or template.
 - Test coupon, shipping, and tax logic with a real test order before relying on it for a live sale -- these three interact, and a rule that looks correct in isolation can produce an unexpected total once combined.
 
 !!! Note

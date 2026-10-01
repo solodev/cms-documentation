@@ -1,6 +1,6 @@
 # Collections
 
-A Collection is a container whose children are categories pulled from a module &mdash; a blog, a Datatable, or another category-driven module &mdash; tied to a page template that generates a public detail page for every category automatically, instead of an administrator building a category detail page by hand for each one.
+A Collection is a container whose children are categories connected to a module &mdash; a blog, a Datatable, or another category-driven module &mdash; tied to a page template that generates a public detail page for every category automatically, instead of an administrator building a category detail page by hand for each one.
 
 <p><img src="../../../images/admin/settings/collections/collections-list.png" alt="Collections list showing the real blog-categories collection" class="border"></p>
 
