@@ -2,7 +2,7 @@
 
 The Layouts Library is a browsable set of seeded page layouts and reusable components used by the Add Page flow. It lives under Settings > Layouts, organized into **System Layouts**, **Custom Layouts**, and **Page Components**.
 
-<p><img src="../../../images/admin/settings/layouts/layouts-library.png" alt="Layouts Library, listing System Layouts and Page Components"></p>
+<p><img src="../../../images/admin/settings/layouts/layouts-library.png" alt="Layouts Library, listing System Layouts and Page Components" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -10,7 +10,7 @@ System Layouts | Starter page shells seeded by the CMS -- Base Template, Homepag
 Custom Layouts | Reusable layouts saved from real pages, tracked here as they're used through the layout library flow. Empty until a page has saved one.
 Page Components | Smaller, section-level building blocks (hero banners, promo tiles, overview grids) meant to be dropped into a layout's body regions rather than used as a full page shell on their own.
 
-<p><img src="../../../images/admin/settings/layouts/page-components.png" alt="Page Components library, showing Hero Classic, Sectional Tile, and Overview Section"></p>
+<p><img src="../../../images/admin/settings/layouts/page-components.png" alt="Page Components library, showing Hero Classic, Sectional Tile, and Overview Section" class="border"></p>
 
 !!! Note
 Layouts are a browse-and-copy library, not a full CRUD screen -- there's no in-place Edit or Delete for a layout here. **Preview** and **Copy** are the two available actions.
@@ -20,13 +20,13 @@ Layouts are a browse-and-copy library, not a full CRUD screen -- there's no in-p
 
 Click **Preview** on any layout or component to open its real rendered markup in a new tab -- header, footer, and any sample content it ships with, exactly as a page built from it would start out.
 
-<p><img src="../../../images/admin/settings/layouts/layout-preview.png" alt="Full-page preview of the Base Template system layout"></p>
+<p><img src="../../../images/admin/settings/layouts/layout-preview.png" alt="Full-page preview of the Base Template system layout" class="border"></p>
 
 ## Copy
 
 Click **Copy** on a layout to open the same builder used when adding a page, pre-filled with that layout's markup, framework, and description as a starting point.
 
-<p><img src="../../../images/admin/settings/layouts/add-layout-form.png" alt="Add Layout form, pre-filled from Base Template, with a live preview panel"></p>
+<p><img src="../../../images/admin/settings/layouts/add-layout-form.png" alt="Add Layout form, pre-filled from Base Template, with a live preview panel" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

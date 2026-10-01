@@ -2,7 +2,7 @@
 
 Click **Add Collection**. The same form is used to update a Collection later (see [Update Collection](/admin/settings/collections/update-collection/)).
 
-<p><img src="../../../../images/admin/settings/collections/add-collection-form.png" alt="Add Collection form with Website Properties expanded"></p>
+<p><img src="../../../../images/admin/settings/collections/add-collection-form.png" alt="Add Collection form with Website Properties expanded" class="border"></p>
 
 Field | Description
 --- | ---

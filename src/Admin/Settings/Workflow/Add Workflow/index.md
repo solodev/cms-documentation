@@ -2,7 +2,7 @@
 
 From [Workflow](/admin/settings/workflow/), click **Add Workflow**. The fields shown depend on which **Type** you pick.
 
-<p><img src="../../../../images/admin/workflow/add-workflow-top.png" alt="Add Workflow: Name and Type"></p>
+<p><img src="../../../../images/admin/workflow/add-workflow-top.png" alt="Add Workflow: Name and Type" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -13,7 +13,7 @@ Type | What triggers the rule -- see below.
 
 Fires when a file changes state.
 
-<p><img src="../../../../images/admin/workflow/add-workflow-file-type.png" alt="Add Workflow with a File-type trigger selected"></p>
+<p><img src="../../../../images/admin/workflow/add-workflow-file-type.png" alt="Add Workflow with a File-type trigger selected" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -24,7 +24,7 @@ Assign to user | Optionally assign a follow-up task to a user when the rule fire
 
 Fires when a task is marked complete, either by a specific user or by any member of a group.
 
-<p><img src="../../../../images/admin/workflow/add-workflow-task-type.png" alt="Add Workflow with a Task-type trigger selected"></p>
+<p><img src="../../../../images/admin/workflow/add-workflow-task-type.png" alt="Add Workflow with a Task-type trigger selected" class="border"></p>
 
 Same **Completed by user** / **Assign to user** fields as the File triggers above.
 

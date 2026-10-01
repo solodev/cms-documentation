@@ -1,8 +1,8 @@
 ﻿# Admin
 
-Admin consists of two sections:
+The Admin area provides access to several important features of your Solodev CMS. Admin consists of two sections:
 
-<p><img src="../images/admin/admin-menu.png" alt="ADMIN nav section: Settings and API"></p>
+<p><img src="../images/admin/admin-menu.png" alt="ADMIN nav section: Settings and API" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---

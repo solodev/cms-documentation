@@ -27,7 +27,7 @@ Value | To authorize yourself, copy and paste the value found in <a href="/admin
 Authorize | Authorize yourself.
 
 !!!Note:
-Follow the steps on this page to create a [CMS API Token](/admin/api/api-keys/).
+Follow the steps on this page to create an [API Token](/admin/api/api-keys/).
 !!!
 
 
@@ -52,6 +52,8 @@ Click on **Cancel** to cancel the action.
 The Swagger-UI on this page is served from `/public/api/system`, but the endpoints it documents actually live under `/api/v2` on your CMS domain — that's the base URL every request below uses. Every request needs an `Authorization: Bearer <your API key>` header; get a key from <a href="/profile/security/api-tokens/">Profile > API Tokens</a> or <a href="/admin/api/api-keys/">API Keys</a>.
 
 This walks through the full lifecycle of an Asset File (any file or page in the CMS) using nothing but curl: find a folder, create a file, read it back, update it, publish it, and delete it.
+
+Follow the example below.
 
 ### 1. Find the folder to create the file in
 

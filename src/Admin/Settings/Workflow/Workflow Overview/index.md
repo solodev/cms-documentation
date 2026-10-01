@@ -2,7 +2,7 @@
 
 Edit or delete an existing workflow rule. Click a rule's name from [Workflow](/admin/settings/workflow/) to open it.
 
-<p><img src="../../../../images/admin/workflow/workflow-overview.png" alt="Workflow Overview showing a real Form Submission rule"></p>
+<p><img src="../../../../images/admin/workflow/workflow-overview.png" alt="Workflow Overview showing a real Form Submission rule" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -15,7 +15,7 @@ Save | Apply your changes.
 
 ## Delete
 
-<p><img src="../../../../images/admin/workflow/workflow-delete.png" alt="Delete confirmation"></p>
+<p><img src="../../../../images/admin/workflow/workflow-delete.png" alt="Delete confirmation" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
