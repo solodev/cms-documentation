@@ -6,8 +6,8 @@ Adding an app in Solodev CMS is a simple process and can be completed in minutes
 
 **Name** | **Description** 
 :--- | ---
-Name | Customize the name.
-Location | Choose the location.
+Name | Customize the App name.
+Location | Choose the location of the app.
 Package | Upload the app.
 
 ## Confirm

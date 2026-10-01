@@ -8,7 +8,7 @@ Branding controls how the CMS backend itself looks for your organization &mdash;
 :--- | ---
 Logo | Click **Browse** to pick a logo from Documents. Recommended size: 360px x 360px.
 Custom CSS | Change the primary/secondary button colors and add raw CSS to restyle the backend. Collapsible.
-Custom Dashboard | Replace the default Dashboard with your own markup. Collapsible.
+Custom Dashboard | Replace the default Dashboard with your own markup.
 
 ## Custom CSS
 

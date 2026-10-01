@@ -2,7 +2,7 @@
 
 Click a Collection in the list to open it. This is also where you manage the categories inside it.
 
-<p><img src="../../../../images/admin/settings/collections/collection-detail.png" alt="Collection detail page, with Modify/Delete actions and the category tree" class="border"></p>
+<p><img src="../../../../images/admin/settings/collections/collection-detail-update.png" alt="Collection detail page, with Modify/Delete actions and the category tree" class="border"></p>
 
 ## Change the Collection's settings
 
