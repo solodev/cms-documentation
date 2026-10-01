@@ -2,7 +2,7 @@
 
 Two built-in reports for auditing activity and access. From [Settings](/admin/settings/), click **Reports**.
 
-<p><img src="../../../images/admin/reports/reports-landing.png" alt="Reports landing page with Activity Report and Content Review Report"></p>
+<p><img src="../../../images/admin/reports/reports-landing.png" alt="Reports landing page with Activity Report and Content Review Report" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -11,7 +11,7 @@ Two built-in reports for auditing activity and access. From [Settings](/admin/se
 
 ## Activity Report
 
-<p><img src="../../../images/admin/reports/activity-report.png" alt="Activity Report with filters and a real activity log"></p>
+<p><img src="../../../images/admin/reports/activity-report.png" alt="Activity Report with filters and a real activity log" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -24,6 +24,6 @@ Results show, per action: the user, date, IP address, the action taken (Update A
 
 ## Content Review Report
 
-<p><img src="../../../images/admin/reports/content-review-report.png" alt="Content Review Report populated for a real user"></p>
+<p><img src="../../../images/admin/reports/content-review-report.png" alt="Content Review Report populated for a real user" class="border"></p>
 
 Choose one user, then click **Find**. The report lists every page and module post that user can access -- content name, type, when and by whom it was last modified, its path, and a link summary -- with **Open** on each row to jump to that item. Useful for confirming exactly what a given user's permissions grant them before or after a permissions change.

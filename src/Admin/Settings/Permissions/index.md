@@ -2,7 +2,7 @@
 
 Permissions is a single searchable index of every User and User Group in the CMS &mdash; a fast way to find who you're looking for without digging through Organization > Users or Organization > Groups separately. It doesn't manage permissions directly; each row links to that user's or group's own real detail page, where roles are actually granted.
 
-<p><img src="../../../images/admin/settings/permissions/permissions-list.png" alt="Permissions list showing User Groups and Users"></p>
+<p><img src="../../../images/admin/settings/permissions/permissions-list.png" alt="Permissions list showing User Groups and Users" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

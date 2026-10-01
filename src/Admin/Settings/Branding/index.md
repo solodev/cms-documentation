@@ -2,7 +2,7 @@
 
 Branding controls how the CMS backend itself looks for your organization &mdash; the logo, button colors, custom CSS, and an optional custom dashboard shown after login.
 
-<p><img src="../../../images/admin/settings/branding/branding.png" alt="Branding page, with Custom CSS and Custom Dashboard expanded"></p>
+<p><img src="../../../images/admin/settings/branding/branding.png" alt="Branding page, with Custom CSS and Custom Dashboard expanded" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

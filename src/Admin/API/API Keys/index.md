@@ -1,10 +1,10 @@
 # API Keys
 
-An API key is similar to a password and allows you to authenticate to Solodev's APIs to perform actions as you.
+An API key is a unique string of characters that acts like a password, identifying and authorizing your application or account to access to Solodev's APIs to perform actions as an authenitcated user.
 
-On the API Keys page, you have the list of existing keys. Each key has details such as the key name, status, and a secret that can be previewed using the eye icon.
+On the API Keys page, you can view a list of existing keys. Each key has details such as the key name, status, and a secret that can be previewed using the eye icon.
 
-<img src="../../../images/apitokens.jpg" alt="apitokens" style="width: 100%; display: block"></a>
+<img src="../../../images/apitokens.jpg" alt="apitokens" class="border" style="width: 100%; display: block"></a>
 
 **Name** | **Description** 
 :--- | ---
@@ -14,7 +14,7 @@ On the API Keys page, you have the list of existing keys. Each key has details s
 
 Add a new API key.
 
-<img src="../../../images/apitokens2.jpg" alt="apitokens2" style="width: 45%; display: block"></a>
+<img src="../../../images/apitokens2.jpg" alt="apitokens2" class="border" style="width: 45%; display: block"></a>
 
 ## Confirm
 
