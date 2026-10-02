@@ -1,14 +1,12 @@
-﻿# Form
-
-Insert a form built with the [Forms](/forms/) builder.
+﻿Insert a form built with the [Forms](/forms/) builder.
 
 <p><img src="../../../images/websites/pages/rail-form.png" alt="Form icon in the component palette"></p>
 
-**Step 1**: While editing a page, find the vertical icon rail on the left edge of the page canvas. Form is the fifth icon from the top.
+While editing a page, find the vertical icon rail on the left edge of the page canvas. Form is the fifth icon from the top.
 
-**Step 2**: Drag it onto an empty region of the canvas. This opens **Select Form**. Search for an existing form and select it to preview its fields before choosing it.
+Drag it onto an empty region of the canvas. This opens **Select Form**. Search for an existing form and select it to preview its fields before choosing it.
 
-<p><img src="../../../images/websites/pages/select-form-picker.png" alt="Select Form picker with a real form selected"></p>
+<p><img src="../../../images/websites/pages/select-form-picker.png" alt="Select Form picker with a real form selected" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -18,11 +16,15 @@ Results list | [Forms](/forms/) that already exist for this website.
 Preview pane | Selecting a form previews its fields before you commit.
 Choose | Insert the selected form at the drop location.
 
+!!! Note:
+When dragging elements into the content area, make sure the Dynamic Div where you want to place the element is selected. The selected Dynamic Div will be highlighted in light blue.
+!!!
+
 ## Quick Add
 
 If nothing in the list fits, click **+ Add Form** to create one without leaving the page.
 
-<p><img src="../../../images/websites/pages/quickadd-form.png" alt="Quick Add Form dialog"></p>
+<p><img src="../../../images/websites/pages/quickadd-form.png" alt="Quick Add Form dialog" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

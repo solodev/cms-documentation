@@ -18,7 +18,6 @@ Search components | Filter the list by name.
 Results list | Your saved component groups. Select one to preview it on the right before choosing.
 Choose | Insert the selected component group at the drop location.
 
-
 !!! Note:
 When dragging elements into the content area, make sure the Dynamic Div where you want to place the element is selected. The selected Dynamic Div will be highlighted in light blue.
 !!!

@@ -1,16 +1,14 @@
-﻿# File Group
-
-Insert a [file group](/engage/file-group/file-group-overview/) &mdash; a named set of related files grouped together, like a folder of PDFs, spreadsheets, or images, that you can drop into a page as one unit instead of linking each file individually.
-
-<p><img src="../../../images/websites/pages/filegroup-3files.png" alt="A file group with three real files attached"></p>
-
-A file group's own detail page (**File Group Overview** in the left nav under Engage) is where you build it out &mdash; **Add Entry** attaches one more file at a time, each becoming a row in the group.
+﻿Insert a [file group](/engage/file-group/file-group-overview/) &mdash; a named set of related files grouped together, like a folder of PDFs, spreadsheets, or images, that you can drop into a page as one unit instead of linking each file individually.
 
 <p><img src="../../../images/websites/pages/rail-filegroup.png" alt="File Group icon in the component palette"></p>
 
-**Step 1**: While editing a page, find the vertical icon rail on the left edge of the page canvas. File Group is the sixth icon from the top.
+A file group's own detail page (**File Group Overview** in the left nav under Engage) is where you build it out &mdash; **Add Entry** attaches one more file at a time, each becoming a row in the group.
 
-**Step 2**: Drag it onto an empty region of the canvas. This opens **Select File Group**. Search for an existing file group and select it to preview its details before choosing it.
+<p><img src="../../../images/websites/pages/filegroup-3files.png" alt="A file group with three real files attached"></p>
+
+While editing a page, find the vertical icon rail on the left edge of the page canvas. File Group is the sixth icon from the top.
+
+Drag it onto an empty region of the canvas. This opens **Select File Group**. Search for an existing file group and select it to preview its details before choosing it.
 
 <p><img src="../../../images/websites/pages/select-filegroup-picker.png" alt="Select File Group picker with a real file group selected"></p>
 
