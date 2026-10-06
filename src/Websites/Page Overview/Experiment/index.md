@@ -1,20 +1,18 @@
-﻿# Experiment
+﻿An [**A/B experiment**](/engage/experiment/experiment-overview/) alternates between two or more HTML/TPL files for visitors and tracks which version performs best. Each visit is randomly assigned to a variant based on the **Frequency** percentage set for that variant. The experiment tracks views and, once a visit is marked as converted, conversions for each variant, allowing you to compare their conversion rates.
 
-Insert an [A/B experiment](/engage/experiment/experiment-overview/) &mdash; alternates between two or more HTML/TPL files for visitors and tracks which one performs best. Each visit randomly shows one variant, weighted by the **Frequency** percentage you set on it, and every view (and, once you mark a visit as converted, every conversion) is counted per variant so you can compare real conversion rates.
-
-<p><img src="../../../images/websites/pages/experiment-3variants.png" alt="A three-variant A/B/C test with a 50/30/20 traffic split"></p>
+<p><img src="../../../images/websites/pages/experiment-3variants.png" alt="A three-variant A/B/C test with a 50/30/20 traffic split" class="border"></p>
 
 !!! Note:
-Content being tested can't be a page itself; it has to be a file with an .html extension in your web files (not an .stml page).
+Content being tested cannot be a page itself. It must be an `.html` or `.tpl` file located in your web files, not an `.stml` page.
 !!!
+
+While editing a page, find the vertical icon rail on the left edge of the page canvas. Experiment is the last icon, at the bottom.
 
 <p><img src="../../../images/websites/pages/rail-experiment.png" alt="Experiment icon in the component palette"></p>
 
-**Step 1**: While editing a page, find the vertical icon rail on the left edge of the page canvas. Experiment is the last icon, at the bottom.
+Drag it onto an empty region of the canvas. This opens **Select Experiment**. Search for an existing experiment and select it to preview its details before choosing it.
 
-**Step 2**: Drag it onto an empty region of the canvas. This opens **Select Experiment**. Search for an existing experiment and select it to preview its details before choosing it.
-
-<p><img src="../../../images/websites/pages/select-experiment-picker.png" alt="Select Experiment picker with a real experiment selected"></p>
+<p><img src="../../../images/websites/pages/select-experiment-picker.png" alt="Select Experiment picker with a real experiment selected" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -28,7 +26,7 @@ Choose | Insert the selected experiment at the drop location.
 
 If nothing in the list fits, click **+ Add Experiment** to create one without leaving the page. It also lets you add variants immediately, so the experiment is usable as soon as you insert it.
 
-<p><img src="../../../images/websites/pages/quickadd-experiment.png" alt="Quick Add Experiment form"></p>
+<p><img src="../../../images/websites/pages/quickadd-experiment.png" alt="Quick Add Experiment form" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
