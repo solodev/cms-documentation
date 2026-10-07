@@ -1,14 +1,12 @@
-﻿# Modules
-
-With Modules, Solodev CMS goes beyond simple page display to give you dynamic, interactive content that keeps visitors engaged. Add a blog to share updates, a calendar to manage events, an image slider to showcase your best work, and more. Modules turn your CMS from a place to publish pages into a platform for building real, functional experiences.
+﻿With Modules, Solodev CMS goes beyond simple page display to give you dynamic, interactive content that keeps visitors engaged. Add a blog to share updates, a calendar to manage events, an image slider to showcase your best work, and more. Modules turn your CMS from a place to publish pages into a platform for building real, functional experiences.
 
 The modules dashboard gives you an overview of existing modules presented as a list. Each module has details such as name, location, and members assigned to each one.
 
 You can access all tools from the module dashboard to manage module infrastructure effectively.
 
-To get started click on the <a href="/modules/add-module/">Add Module</a> button. If you have a module already installed, you can click on the module name to see its options and modify it.
+To get started click on the [Add Module](/modules/add-module/) button. If you have a module already installed, you can click on the module name to see its options and modify it.
 
-<p><img src="../images/modules/modules.png" alt="Modules list"></p>
+<p><img src="../images/modules/modules.png" alt="Modules list" class="border"></p>
 
 !!!Tip:
 Use the search field in the upper right corner to locate a specific module and filter your modules by site.
@@ -16,13 +14,13 @@ Use the search field in the upper right corner to locate a specific module and f
 
 **Name** | **Description** 
 :--- | ---
-<a href="/modules/add-module/">Add Module</a> | Click the **Add Module** button on the right.
+[Add Module](/modules/add-module/) | Click the **Add Module** button on the right.
 
 ## Members Permissions
 
 Click on the Members column in the module row to add or remove users and manage their roles.
 
-<p><img src="../images/permissions/module-permissions.png" alt="Module Permissions" style="width: 40%;"></p>
+<p><img src="../images/permissions/module-permissions.png" alt="Module Permissions" class="border" style="width: 40%;"></p>
 
 **Name** | **Description** 
 :--- | ---
