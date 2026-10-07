@@ -4,7 +4,7 @@
 
 <div class="header">
   <div class="inner">
-    <img src="../../../Images/modules/alert/icon.svg" alt="Alert Icon" style="width: 80px;">
+    <img src="../../../images/modules/alert/grid-1x2.svg" alt="Alert Icon" style="max-width: 80px;">
     <div>
       <h1>Alert</h1>
       <p>Boost user engagement with eye-catching, personalized alert notifications.</p>

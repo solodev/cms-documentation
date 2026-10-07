@@ -2,7 +2,7 @@
 
 <div class="header">
   <div class="inner">
-    <img src="../../../Images/modules/contact/icon.jpg" alt="Contact Icon" style="width: 80px;">
+    <img src="../../../images/modules/contact/person-lines-fill.svg" alt="Contact Icon" style="width: 80px;">
     <div>
       <h1>Contact</h1>
       <p>Make it easy for visitors to connect with you directly on your website.</p>

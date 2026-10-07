@@ -4,7 +4,7 @@
 
 <div class="header">
   <div class="inner">
-    <img src="../../../Images/modules/blog/icon.jpg" alt="Blog Icon" style="width: 80px;">
+    <img src="../../../images/modules/blog/journal-text.svg" alt="Blog Icon" style="width: 80px;">
     <div>
       <h1>Blog</h1>
       <p>Share stories, insights, and ideas with beautifully structured blog content.</p>

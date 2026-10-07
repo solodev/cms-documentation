@@ -4,7 +4,7 @@
 
 <div class="header">
   <div class="inner">
-    <img src="../../../Images/modules/slider/icon.jpg" alt="Slider Icon" style="width: 80px;">
+    <img src="../../../images/modules/slider/images.svg" alt="Slider Icon" style="width: 80px;">
     <div>
       <h1>Hero Slider</h1>
       <p>Create stunning hero sliders that captivate visitors and showcase your most important content.</p>

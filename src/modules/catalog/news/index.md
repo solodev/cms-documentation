@@ -4,7 +4,7 @@
 
 <div class="header">
   <div class="inner">
-    <img src="../../../Images/modules/news/icon.jpg" alt="News Icon" style="width: 80px;">
+    <img src="../../../images/modules/news/newspaper.svg" alt="Newspaper Icon" style="width: 80px;">
     <div>
       <h1>News</h1>
       <p>Keep your users informed about your company happenings or press releases <br>with the News Desk.</p>

@@ -4,7 +4,7 @@
 
 <div class="header">
   <div class="inner">
-    <img src="../../../Images/modules/calendar/icon.jpg" alt="Calendar Icon" style="width: 80px;">
+    <img src="../../../images/modules/calendar/calendar3.svg" alt="Calendar Icon" style="width: 80px;">
     <div>
       <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem; color: #222;">Calendar</h1>
       <p style="padding-left: 2rem; margin-bottom: 0; color: #222;">Promote events and keep your audience connected with a dynamic calendar.</p>

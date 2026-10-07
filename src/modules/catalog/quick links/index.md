@@ -4,7 +4,7 @@
 
 <div class="header">
   <div class="inner">
-    <img src="../../../Images/modules/quick-links/icon.jpg" alt="Quick Links Icon" style="width: 80px;">
+    <img src="../../../images/modules/quick-links/link-45deg.svg" alt="Quick Links Icon" style="width: 80px;">
     <div>
       <h1>Quick Links</h1>
       <p>Give visitors faster access to the most important pages on your site.</p>
