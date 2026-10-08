@@ -1,8 +1,6 @@
-# Add Entry
-
 Add a variant to the Experiment: a file, and the share of traffic it should receive. From an open Experiment, click **Add Entry**.
 
-<p><img src="../../../../images/websites/experiment-add-entry.png" alt="Add Entry form" style="width: 45%;"></p>
+<p><img src="../../../../images/websites/experiment-add-entry.png" alt="Add Entry form" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

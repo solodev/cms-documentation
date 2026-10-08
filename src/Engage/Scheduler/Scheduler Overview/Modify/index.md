@@ -1,8 +1,6 @@
-# Modify
-
 Edit a Scheduler's Name, Title, or Description.
 
-<p><img src="../../../../images/engage/scheduler-modify.png" alt="Modify form" style="width: 45%;"></p>
+<p><img src="../../../../images/engage/scheduler-modify.png" alt="Modify form" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
