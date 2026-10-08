@@ -1,8 +1,6 @@
-# Modify
-
 Update a contact's details. From the [Contacts Overview](/organization/contacts/contacts-overview/), click **Modify**.
 
-<p><img src="../../../../images/organization/contact-modify.png" alt="Modify Contact form" class="border"></p>
+<p><img src="../../../../images/organization/contact-modify.png" alt="Modify Contact form" class="border" style="max-width: 40%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -24,13 +22,11 @@ Notification Preferences | Expand to set email/text notification options -- see 
 
 Expand this section to manage how the contact is notified.
 
+<p><img src="../../../../images/organization/notification-preferences.png" alt="Notification Preferences" class="border" style="max-width: 40%;"></p>
+
 **Name** | **Description** 
 :--- | ---
 Notify me via email | Notify the contact via email.
 Notify me via text message | Notify the contact via text message.
 Phone Carrier | The contact's phone carrier, used for text notifications.
 Notes | Any additional notes.
-
-## Confirm
-
-Once you've made your changes, click **Submit**.

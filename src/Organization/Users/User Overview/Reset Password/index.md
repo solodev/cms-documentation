@@ -1,6 +1,6 @@
-# Reset Password
+Occasionally, a CMS user might need to reset their password. You can send a user an email to reset their password, disabling their current password immediately. 
 
-Occasionally, a CMS user might need to reset their password. You can send a user an email to reset their password, disabling their current password immediately. From the [User Overview](/organization/users/user-overview/), open the **...** menu and click **Reset Password**.
+From the [User Overview](/organization/users/user-overview/), open the **...** menu and click **Reset Password**.
 
 <p><img src="../../../../images/organization/user-reset-password.png" alt="Reset Password confirmation" class="border"></p>
 

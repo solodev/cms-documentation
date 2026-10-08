@@ -1,6 +1,6 @@
-# View as Customer
-
 Solodev CMS supports a read-only Customer Impersonation tool so a super admin can see a frontend contact's storefront exactly as that customer sees it &mdash; useful for troubleshooting a reported issue without asking the customer for their password.
+
+<p><img src="../../../../images/organization/view-as-customer.png" alt="View as Customer" class="border" style="max-width: 60%;"></p>
 
 !!! Note
 Impersonation is restricted to super admins. It is intentionally not available to regular Admin, Editor, Stager, or View roles.
