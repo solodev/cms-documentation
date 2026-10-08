@@ -1,5 +1,3 @@
-# Add Agent
-
 From the [Agents](/organization/agents/) list, click **Add Agent**.
 
 <p><img src="../../../images/organization/add-agent.png" alt="Add Agent form" class="border"></p>

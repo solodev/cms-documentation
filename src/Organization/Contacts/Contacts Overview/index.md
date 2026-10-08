@@ -1,15 +1,13 @@
-# Contacts Overview 
-
 View and manage a specific contact. Click a contact's name from the [Contacts](/organization/contacts/) list to open it.
 
 <p><img src="../../../images/organization/contacts-overview.png" alt="Contacts Overview with real contact details" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---
-<a href="/organization/contacts/contacts-overview/modify/">Modify</a> | Update the contact's details.
-<a href="/organization/contacts/contacts-overview/reset-password/">Reset Password</a> | Reset the contact's storefront password.
-<a href="/organization/contacts/contacts-overview/delete/">Delete</a> | Permanently remove the contact.
-<a href="/organization/contacts/contacts-overview/view-as-customer/">View as Customer</a> | Start a read-only storefront session as this contact, for troubleshooting.
+[Modify](/organization/contacts/contacts-overview/modify/) | Update the contact's details.
+[Reset Password](/organization/contacts/contacts-overview/reset-password/) | Reset the contact's storefront password.
+[Delete](/organization/contacts/contacts-overview/delete/) | Permanently remove the contact.
+[View as Customer](/organization/contacts/contacts-overview/view-as-customer/) | Start a read-only storefront session as the contact for troubleshooting.
 
 ## Contact Information
 

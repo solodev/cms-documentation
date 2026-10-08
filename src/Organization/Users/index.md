@@ -1,6 +1,4 @@
-﻿# Users
-
-View, manage, and invite users to your CMS deployment. Click on a user's name to see their details, including which groups they're a member of.
+﻿View, manage, and invite users to your CMS deployment. Click on a user's name to see their details, including which groups they're a member of.
 
 <p><img src="../../images/organization/users-list.png" alt="Users list" class="border"></p>
 

@@ -1,5 +1,3 @@
-# Modify
-
 Update a user's profile details. From the [User Overview](/organization/users/user-overview/), click **Modify**.
 
 <p><img src="../../../../images/organization/user-modify.png" alt="Modify User form" class="border"></p>
