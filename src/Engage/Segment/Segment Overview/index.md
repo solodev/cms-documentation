@@ -1,10 +1,8 @@
-# Segment Overview
-
 A Segment groups contacts by shared criteria so content, campaigns, or personalization can target a specific audience instead of everyone.
 
-Once you've [added a Segment](/engage/segment/add-segment/), it appears in this list. Click its name to open this Overview and manage it.
+Once you've [added a Segment](/engage/segment/add-segment/), it appears in the overview list. Click its name to open this Overview and manage it.
 
-<p><img src="../../../images/engage/segment-overview.png" alt="Segment Overview" style="width: 70%;"></p>
+<p><img src="../../../images/engage/segment-overview.png" alt="Segment Overview" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -13,4 +11,4 @@ Once you've [added a Segment](/engage/segment/add-segment/), it appears in this 
 
 ## Importing from a Connected Provider
 
-If your organization has an external email marketing platform (Customer.io, Mailchimp, etc.) connection configured under Providers, a Segment can be populated from that connection instead of managed by hand. This requires a provider connection to already be set up &mdash; see your administrator if Providers isn't configured for your deployment.
+If your organization has an external email marketing platform (Customer.io, Mailchimp, etc.) connection configured under [Providers](/providers), a Segment can be populated from that connection instead of managed by hand. This requires a provider connection to already be set up &mdash; see your administrator if Providers isn't configured for your deployment.

@@ -1,6 +1,6 @@
-# Experiments
-
 A/B Testing is the most essential tool marketers can use to target visitors by testing their responses to varying content. An Experiment holds two or more variants &mdash; each a file and a frequency (traffic-split percentage) &mdash; and tracks Views and Conversions per variant so you can see which one actually performs best. Click an Experiment's name to view or manage it.
+
+<p><img src="../../images/engage/experiments-list.png" alt="Experiment table" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

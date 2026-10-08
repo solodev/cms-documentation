@@ -1,8 +1,8 @@
-# Add Entry
+Add a file to the Scheduler along with the date it should go live, the Scheduler will swap it in automatically. 
 
-Add a file to the Scheduler along with the date it should go live, the Scheduler will swap it in automatically. From an Scheduler detail view, click **Add Entry**.
+From an Scheduler detail view, click **Add Entry**.
 
-<p><img src="../../../../images/websites/scheduler-add-entry.png" alt="Add Entry form" style="width: 45%;"></p>
+<p><img src="../../../../images/websites/scheduler-add-entry.png" alt="Add Entry form" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

@@ -1,8 +1,6 @@
-# Add Entry
-
 Add a file to the File Group. You can also add an existing file to a group directly from that file, using its **Add to File Group** action.
 
-<p><img src="../../../../images/engage/file-group-add-entry.png" alt="Add Entry form" style="width: 45%;"></p>
+<p><img src="../../../../images/engage/file-group-add-entry.png" alt="Add Entry form" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

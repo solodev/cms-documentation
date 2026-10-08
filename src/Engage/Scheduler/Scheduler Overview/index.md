@@ -1,8 +1,6 @@
-# Scheduler Overview
+Each Scheduler entry consists of a file and a start date. The entry with the most recent start date that has already passed is the one that's live. Add a second entry with a later start date, and Scheduler automatically switches to it when that date arrives.
 
-The Scheduler swaps a file's content in and out automatically at a set date and time, without anyone needing to manually publish the change when the date arrives. Each entry in a Scheduler is a file plus a start date; whichever entry has the most recent start date that's already passed is the one that's live. Add a second entry with a later start date and Scheduler automatically switches to it the moment that date arrives.
-
-<p><img src="../../../images/websites/scheduler-list.png" alt="Schedulers list"></p>
+<p><img src="../../../images/websites/scheduler-detail.png" alt="Scheduler detail" class="border"></p>
 
 Scheduler is commonly used to:
 
