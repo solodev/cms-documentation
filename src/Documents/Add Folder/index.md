@@ -11,4 +11,4 @@ Title | The folder's display title.
 Description | An optional description, for organizational purposes.
 Submit | Click **Submit** to create the folder.
 
-Once created, click the folder's name to open it -- see [Document Overview](/documents/document-overview/) for everything you can do inside it, including adding more folders to build out a nested structure.
+Once created, click the folder's name to open it &mdash; see [Document Overview](/documents/document-overview/) for everything you can do inside it, including adding more folders to build out a nested structure.

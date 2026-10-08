@@ -1,6 +1,4 @@
-﻿# Update Folder 
-
-From the left tree, navigate to and open the folder you want to update, then click **Update** from the **...** actions menu.
+﻿From the left tree, navigate to and open the folder you want to update, then click **Update** from the **...** actions menu.
 
 <p><img src="../../../images/folders/update-folder.png" alt="Update Folder form" style="width: 45%;" class="border"></p>
 
@@ -18,6 +16,8 @@ Submit | Once you have completed all the fields, click **Submit** to apply your 
 
 Control how folders work with websites. Configure folder settings, organization, and website associations.
 
+<p><img src="../../../images/documents/update-folder-website-props.png" alt="Website Properties section" class="border" style="max-width: 35%;"></p>
+
 **Name** | **Description**
 :--- | ---
 Menu Name | If you would like a different title to appear on the menu navigation than the folder title.
@@ -32,6 +32,10 @@ Include in Website Navigation | Mark this option to structure the folder to disp
 Enable Publish Contents to Filesystem | Publishes the folder's contents directly to the filesystem.
 
 ## Advanced
+
+Permanently delete the folder.
+
+<p><img src="../../../images/documents/update-folder-advanced.png" alt="Advanced section with the Delete confirmation" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

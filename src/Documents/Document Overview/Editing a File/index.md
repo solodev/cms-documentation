@@ -1,8 +1,6 @@
-# Editing a File
+Click a file's name from a folder's page to open it in the editor &mdash; a WYSIWYG toolbar on the left for HTML files (plain code files open directly in a text editor instead), and a details/actions panel on the right.
 
-Click a file's name from a folder's page to open it in the editor -- a WYSIWYG toolbar on the left for HTML files (plain code files open directly in a text editor instead), and a details/actions panel on the right.
-
-<p><img src="../../../images/documents/file-actions-dropdown.png" alt="File details panel: Publish, the ... actions menu, and file info" style="width: 45%;" class="border"></p>
+<p><img src="../../../images/websites/files/actions-menu.png" alt="The three action groups on an open file: icon row, Publish button, and the ... actions menu" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -14,7 +12,7 @@ Title / Description | Click the pencil icon on either to add or update them.
 
 ## Publish, Stage & Draft
 
-<p><img src="../../../images/documents/file-publish-dropdown.png" alt="Publish button with Stage and Draft options" style="width: 45%;" class="border"></p>
+<p><img src="../../../images/documents/file-publish-dropdown.png" alt="Publish button with Stage and Draft options" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -26,6 +24,8 @@ Draft | Save a private draft, visible only to you and other editors, without sta
 
 Click the **...** menu next to Publish for actions on the file itself:
 
+<p><img src="../../../images/websites/files/actions-menu.png" alt="The three action groups on an open file: icon row, Publish button, and the ... actions menu" class="border"></p>
+
 **Name** | **Description**
 :--- | ---
 Update | Change the file's title, description, and publish/expire scheduling.
@@ -35,6 +35,8 @@ Update | Change the file's title, description, and publish/expire scheduling.
 ## Icon row
 
 The icons above the details panel switch between its different views:
+
+<p><img src="../../../images/documents/icon-row.png" alt="Icon row options" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

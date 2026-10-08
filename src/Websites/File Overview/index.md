@@ -26,6 +26,10 @@ Click the **...** button next to **Publish** for file management actions.
 
 ## Icon row
 
+The icons above the details panel switch between its different views:
+
+<p><img src="../../images/documents/icon-row.png" alt="Icon row options" class="border"></p>
+
 **Name** | **Description**
 :--- | ---
 Info | The default right-hand panel: name, published status, ID, modified date, location, and editable title/description.
