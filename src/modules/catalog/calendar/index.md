@@ -4,7 +4,7 @@
 
 <div class="header">
   <div class="inner">
-    <img src="../../../Images/modules/calendar/icon.jpg" alt="Calendar Icon" style="width: 80px;">
+    <img src="../../../images/modules/calendar/calendar3.svg" alt="Calendar Icon" style="width: 80px;">
     <div>
       <h1 style="margin-left: 0; font-size: 2rem; margin-bottom: 0.25rem; color: #222;">Calendar</h1>
       <p style="padding-left: 2rem; margin-bottom: 0; color: #222;">Promote events and keep your audience connected with a dynamic calendar.</p>
@@ -49,18 +49,11 @@ These steps will guide you through the process of installing the Calendar Module
 2. [Add the module](/modules/add-module/)
 <ul style="padding-left: 50px;">
   <li>Give your calendar module a name</li>
-  <li>Select from the three options:
-    <ul>
-      <li><strong>Datatable:</strong> Creates a simple data table structure</li>
-      <li><strong>Module:</strong> Builds a custom module from scratch</li>
-      <li><strong>Package:</strong> Installs a pre-built module from a zip file</li>
-    </ul>
-  </li>
-  <li>In this case, select <strong>Package:</strong> and use this <a href="https://solodev-calendar.s3.us-east-1.amazonaws.com/releases/calendar-latest.zip" style="display: inline-flex; align-items: center;">zip file <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="#0488ce" style="margin-left: .4rem;"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg>.</a></li>
+  <li>Select the Calendar Module from the Module Picker</li>
   <li>Click <span class="text-blue">Submit</span>.</li>
 </ul>
 
-<img src="../../../Images/modules/calendar/add-calendar.jpg" alt="Add Calendar" style="width: 45%; margin-bottom: 20px;">
+<p><img src="../../../images/modules/calendar/add-calendar.png" alt="Add Calendar" class="border" style="max-width: 60%;"></p>
 
 {% endtab %}
 

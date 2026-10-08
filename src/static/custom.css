@@ -38,7 +38,6 @@
   color: #222;
 }
 .header p {
-  padding-left: 2rem;
   margin-bottom: 0;
   color: #222;
 }
@@ -55,6 +54,7 @@
 .btn-orange-lg span,
 .btn-blue-lg span {
   padding-left: .5rem;
+  padding-right: .5rem;
   display: inline-flex;
   align-items: center;
   font-weight: 600;
