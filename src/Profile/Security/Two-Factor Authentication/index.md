@@ -1,6 +1,6 @@
-﻿# Two-Factor Authentication
+﻿Solodev CMS supports Two-Factor Authentication (2FA) using a standard authenticator app (any TOTP app -- Google Authenticator, Microsoft Authenticator, Authy, etc.). Enabling it adds a second check beyond your password when you sign in.
 
-Solodev CMS supports Two-Factor Authentication (2FA) using a standard authenticator app (any TOTP app -- Google Authenticator, Microsoft Authenticator, Authy, etc.). Enabling it adds a second check beyond your password when you sign in.
+<p><img src="../../../images/profile/2fa.png" alt="Two-Factor Authentication" class="border" style="max-width: 48%;"></p>
 
 ## Enable 2FA
 
@@ -17,16 +17,16 @@ If you start setup and change your mind, click **Cancel** rather than leaving th
 
 Once enabled, the Security page shows **Two-Factor Authentication is currently enabled**, and you'll be prompted for a 6-digit code from your authenticator app after your password on future sign-ins.
 
-<p><img src="../../../images/profile/security-2fa-enabled.png" alt="Security page with 2FA enabled" class="border"></p>
-
 ## Disable 2FA
 
-Go to the **Security** page and click **Disable 2FA**. Do this only if you're certain -- while 2FA is off, your account relies on your password alone.
+To turn off 2FA, go to the **Security** page and click **Disable 2FA**. Only do this if you're sure. Without 2FA, your account is protected by your password alone.
+
+<p><img src="../../../images/profile/security-2fa-enabled.png" alt="Security page with 2FA enabled" class="border"></p>
 
 ## Losing access to your authenticator app
 
 If you can no longer generate codes (lost phone, deleted app, etc.), you cannot disable 2FA yourself without being able to sign in. Contact a CMS administrator who can access your account to disable 2FA on your behalf, then re-enable it with a new device.
 
 !!! Tip
-Before traveling or replacing your phone, confirm your authenticator app has cloud backup enabled, or note down its recovery/backup codes if it offers them. Solodev's 2FA setup itself does not issue separate backup codes -- your authenticator app is the only source of your codes.
+Before traveling or replacing your phone, confirm your authenticator app has cloud backup enabled, or note down its recovery/backup codes if it offers them. Solodev's 2FA setup itself does not issue separate backup codes &mdash; your authenticator app is the only source of your codes.
 !!!
