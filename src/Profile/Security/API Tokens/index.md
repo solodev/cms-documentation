@@ -31,7 +31,7 @@ To deactivate an API key, click **Make Inactive** next to it in the API Keys tab
 <p><img src="../../../images/admin/api/toggle-token.png" alt="Toggle API Token" class="border"></p>
 
 !!! Note:
-Deactivating a token immediately stops it from working -- you won't be able to use that API key until you reactivate it. Deleting a token cannot be undone; once removed, you'll need to create a new one.
+Deactivating a token immediately stops it from working &mdash; you won't be able to use that API key until you reactivate it. Deleting a token cannot be undone; once removed, you'll need to create a new one.
 !!!
 
 ## Delete
