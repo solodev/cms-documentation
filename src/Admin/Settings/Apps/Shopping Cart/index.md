@@ -1,32 +1,30 @@
-# Shopping Cart
-
 Solodev CMS includes a native shopping cart and checkout system for selling products or services directly from a website, built on the **Inventory** module and the **Payment** module family.
 
 !!! Note
-This is a substantial, structural capability -- setting it up (connecting a payment processor, configuring shipping and tax, building the storefront pages) is administrator/developer work, not routine content editing. This page is a map of the pieces, not a full setup walkthrough.
+This is a substantial, structural capability &mdash; setting it up (connecting a payment processor, configuring shipping and tax, building the storefront pages) is administrator/developer work, not routine content editing. This page is a map of the pieces, not a full setup walkthrough.
 !!!
 
 ## The Pieces
 
-- **Inventory** -- the sellable items. An Inventory entry is a product or plan: its price, description, images, and any variant/feature options.
-- **Shopping Cart** -- the frontend cart session. Visitors add Inventory entries to a cart, which persists across their storefront session.
-- **Checkout** -- the guided flow a customer completes to purchase: login/guest checkout, billing and shipping details, coupon application, tax and shipping calculation, and payment.
-- **Payment** -- processes the transaction (`Payment_Process`) and manages the resulting records: `Payment_Invoice`, `Payment_Customer`, `Payment_Detail`.
-- **Coupon** -- discount codes that can be applied at checkout.
-- **Shipping** -- configurable shipping methods, including flat-rate and table-based (rate-by-region) options.
-- **Tax** -- tax rules applied during checkout.
+- **Inventory** &mdash; the sellable items. An Inventory entry is a product or plan: its price, description, images, and any variant/feature options.
+- **Shopping Cart** &mdash; the frontend cart session. Visitors add Inventory entries to a cart, which persists across their storefront session.
+- **Checkout** &mdash; the guided flow a customer completes to purchase: login/guest checkout, billing and shipping details, coupon application, tax and shipping calculation, and payment.
+- **Payment** &mdash; processes the transaction (`Payment_Process`) and manages the resulting records: `Payment_Invoice`, `Payment_Customer`, `Payment_Detail`.
+- **Coupon** &mdash; discount codes that can be applied at checkout.
+- **Shipping** &mdash; configurable shipping methods, including flat-rate and table-based (rate-by-region) options.
+- **Tax** &mdash; tax rules applied during checkout.
 
 ## Checkout Flow
 
 The checkout flow, in order, is:
 
-1. **Shopping Cart** -- the customer reviews items and quantities.
-2. **Checkout Login** -- the customer signs in or continues as a guest.
-3. **Billing/Shipping** -- the customer enters billing and shipping information.
-4. **Coupon** (optional) -- the customer applies a discount code, if any.
-5. **Shipping and Tax** -- calculated based on the destination and configured rules.
-6. **Checkout Confirm** -- the customer reviews the full order before paying.
-7. **Payment** -- the transaction is processed and a **Payment Receipt** is generated.
+1. **Shopping Cart** &mdash; the customer reviews items and quantities.
+2. **Checkout Login** &mdash; the customer signs in or continues as a guest.
+3. **Billing/Shipping** &mdash; the customer enters billing and shipping information.
+4. **Coupon** (optional) &mdash; the customer applies a discount code, if any.
+5. **Shipping and Tax** &mdash; calculated based on the destination and configured rules.
+6. **Checkout Confirm** &mdash; the customer reviews the full order before paying.
+7. **Payment** &mdash; the transaction is processed and a **Payment Receipt** is generated.
 
 Administrators can review completed transactions under **Payments**, and export payment or shipping-table data when needed.
 
