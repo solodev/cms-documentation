@@ -1,8 +1,6 @@
-﻿# Change Password
+﻿Change your account password from the **Security** page.
 
-Change the password for your account, from the **Security** page.
-
-<p><img src="../../../images/profile/security.png" alt="Security page" class="border"></p>
+<p><img src="../../../images/profile/security.png" alt="Security page" class="border" style="max-width: 48%;"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -17,7 +15,3 @@ Your password in Solodev must be a minimum of 8 characters long and must contain
 - one number
 - one special character from this approved set: @#$%^&*!=
 !!!
-
-## Confirm
-
-Once you've entered your current and new password, click **Submit**.

@@ -1,6 +1,6 @@
-# Security
+Use the Security page to manage your password, two-factor authentication (2FA), and API tokens.
 
-Your password, Two-Factor Authentication (2FA), and API tokens are all managed from the Security page.
+<p><img src="../../images/profile/security-nav.png" alt="Security navigation" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---
