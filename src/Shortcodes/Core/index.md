@@ -27,17 +27,13 @@ Bootstrap-era column and content-block helpers. Each is an enclosing shortcode: 
 
 **Shortcode** | **Description**
 :--- | ---
-`one_half` / `one_half_last` | Two-column split (50/50). Use the `_last` variant on the final column in a row to clear the float.
-`one_third` / `one_third_last`, `two_thirds` / `two_thirds_last` | Three-column split (33/33/33, or 33/66).
-`one_fourth` / `one_fourth_last`, `three_fourths` / `three_fourths_last` | Four-column split (25/25/25/25, or 25/75).
-`one_fifth`, `two_fifth`, `three_fifth`, `four_fifth` (each with a `_last` variant) | Five-column split.
-`one_sixth` / `one_sixth_last`, `five_sixth` / `five_sixth_last` | Six-column split (one-sixth, or one-sixth/five-sixths).
-`clear` | Self-closing &mdash; clears floated columns.
-`clearline` | Self-closing &mdash; a horizontal rule followed by a clear.
-`callout` | `[callout width="" align="left|right|center"]...[/callout]` &mdash; a styled callout box.
-`button` | `[button link="" size="medium" color="" target="_self" caption="" align="right"]Label[/button]` &mdash; a styled button/link.
-`tabgroup` / `tab` | `[tabgroup]` wraps one or more `[tab title="..." id="..."]...[/tab]` blocks into a tabbed interface.
-`toggle` | `[toggle title="..." style="list"]...[/toggle]` &mdash; a collapsible content block.
+[Columns](/shortcodes/core/columns/) | Splits content into two to six columns, with options like 50/50, 33/66, and 25/75.
+[Clear](/shortcodes/core/clear/) | Clears floated columns.
+[Clear Line](/shortcodes/core/clear-line/) | A horizontal rule followed by a clear.
+[Callout](/shortcodes/core/callout/) | A styled callout box.
+[Button](/shortcodes/core/button/) | A styled button/link.
+[Tabgroup / Tab](/shortcodes/core/tabgroup-tab/) | `Tabgroup` wraps one or more `tab` blocks into a tabbed interface.
+[Toggle](/shortcodes/core/toggle/) | A collapsible content block.
 
 !!! Note:
 These layout helpers only supply markup and CSS class names (`one_half`, `callout`, and so on) &mdash; your website's own CSS/JS needs to style and, for tabs/toggle, wire up the interaction.
