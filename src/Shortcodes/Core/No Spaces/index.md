@@ -9,7 +9,13 @@ Removes spaces from the content within the enclosing shortcode to make it databa
 **Code Example:**
 
 ```js
-<p>[no_spaces]This is a title[/no_spaces]</p>
+[no_spaces]Contact Us Form[/no_spaces]
+```
+
+**Output:**
+
+```
+ContactUsForm
 ```
 
 !!!Note:
