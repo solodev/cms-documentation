@@ -1,15 +1,13 @@
-# Extended
-
 Conditionals, filters, and add-on integrations.
 
 ## Conditionals
 
 **Shortcode** | **Description**
 :--- | ---
-`cond` (aliases `if_cond`, `sub_cond`) | `[cond type="is|is_not|greater_than|less_than" subject="..." value="..."]...[else]...[/cond]` &mdash; an if/else block. `sub_cond` is the same function, just meant for nesting inside another `[cond]`.
-`is_set` (alias `if_set`) | `[is_set value="{{field}}"]...[/is_set]` &mdash; renders the enclosed content only if `value` is set/non-empty.
-`is_empty` (alias `if_empty`) | `[is_empty value="{{field}}"]...[/is_empty]` &mdash; renders the enclosed content only if `value` is empty.
-`repeater_entries_exists` | `[repeater_entries_exists id="..." type="does|does_not"]...[/repeater_entries_exists]` &mdash; renders the enclosed content based on whether a [repeater](/shortcodes/module/) with the same attributes would return any entries.
+[Conditionals](/shortcodes/extended/conditionals/) | Shows content only when a condition is met, with an optional `[else]` for when it isn't. Also available as `[if_cond]`, and as `[sub_cond]` for nesting.
+[Is Set](/shortcodes/extended/is-set/) | Renders the enclosed content only if `value` is set/non-empty.
+[Is Empty](/shortcodes/extended/is-empty/) | Renders the enclosed content only if `value` is empty.
+[Repeater Entries Exist](/shortcodes/extended/repeater-entries-exists/) | Renders the enclosed content based on whether a [repeater](/shortcodes/module/repeater) with the same attributes would return any entries.
 
 ## Filters
 
