@@ -19,3 +19,23 @@ You can add the following file types:
 - **Template Code** &mdash; Solodev's text editor supports a wide range of code file types, including .js, .css, .php, .xml, and .json. To use JavaScript or CSS files across all pages, reference the file path in the Global Header Insert found in [Update Website](/websites/website-overview/update-website/).
 - **README** &mdash; A plain-text file for documentation or notes within the folder.
 - **Upload File** &mdash; Upload a file from your computer.
+
+## Embed an Iframe
+
+Use an iframe to display content from another website on your page, such as a video, map, or form. Paste the iframe code into your page's HTML where you want the content to appear.
+
+```html
+<iframe src="https://www.example.com/embed" title="Description of the embedded content" width="100%" height="450" loading="lazy"></iframe>
+```
+
+To make the iframe resize with the page, wrap it in a Bootstrap ratio container:
+
+```html
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Video title" loading="lazy" allowfullscreen></iframe>
+</div>
+```
+
+!!!Note:
+Always include a `title` attribute that describes the embedded content. Screen readers use it to tell visitors what the iframe contains.
+!!!
