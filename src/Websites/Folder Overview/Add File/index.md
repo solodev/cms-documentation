@@ -28,6 +28,10 @@ Use an iframe to display content from another website on your page, such as a vi
 <iframe src="https://www.example.com/embed" title="Description of the embedded content" width="100%" height="450" loading="lazy"></iframe>
 ```
 
+!!!Note:
+Always include a `title` attribute that describes the embedded content. Screen readers use it to tell visitors what the iframe contains.
+!!!
+
 To make the iframe resize with the page, wrap it in a Bootstrap ratio container:
 
 ```html
@@ -37,5 +41,5 @@ To make the iframe resize with the page, wrap it in a Bootstrap ratio container:
 ```
 
 !!!Note:
-Always include a `title` attribute that describes the embedded content. Screen readers use it to tell visitors what the iframe contains.
+For a full list of iframe attributes and what they do, see [MDN's iframe reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe).
 !!!
