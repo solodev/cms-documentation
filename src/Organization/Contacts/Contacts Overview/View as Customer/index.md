@@ -1,6 +1,6 @@
-# View as Customer
-
 Solodev CMS supports a read-only Customer Impersonation tool so a super admin can see a frontend contact's storefront exactly as that customer sees it &mdash; useful for troubleshooting a reported issue without asking the customer for their password.
+
+<p><img src="../../../../images/organization/view-as-customer.png" alt="View as Customer" class="border" style="max-width: 60%;"></p>
 
 !!! Note
 Impersonation is restricted to super admins. It is intentionally not available to regular Admin, Editor, Stager, or View roles.
@@ -9,7 +9,7 @@ Impersonation is restricted to super admins. It is intentionally not available t
 ## Start an impersonation session
 
 1. Go to **Organization > Contacts** and open the contact you need to view as.
-2. Open the **...** menu on [Contacts Overview](/organization/contacts/contacts-overview/) and click **View as Customer**.
+2. Open the **...** menu on the [Contacts Overview](/organization/contacts/contacts-overview/) and click **View as Customer**.
 3. On the **View as Customer** screen, choose the website from the **Website** dropdown. Only websites with a resolvable public address are listed.
 4. Click **Create secure login**.
 5. The CMS opens a secure, single-use login into that customer's storefront session.

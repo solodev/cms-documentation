@@ -1,12 +1,12 @@
 ﻿# Update Website
 
-Click the pencil icon over the live preview, or **Update** on a website's [Website Overview](/websites/website-overview/) dashboard, to edit its site title, framework, social links, and other settings.
+Click the **Update** button on a website's [Website Overview](/websites/website-overview/) dashboard, to edit its site title, framework, social links, and other settings.
 
-<p><img src="../../../images/websites/update-website.png" alt="Update Website form" style="max-width: 520px;"></p>
+<p><img src="../../../images/websites/update-website.png" alt="Update Website form" style="max-width: 490px;" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---
-Site Title | Add or update the site title.
+Site Title | Add or update the site title. The site title is used as the browser title and in the page's meta information.
 Preferred Canonical Domain | Select which of the website's addresses (production, staging, etc.) search engines should treat as the canonical version.
 Canonical HTTPS | Check this to set the canonical tag to `https` instead of `http`.
 Web Framework | Choose the CSS/JS framework new pages are built with (Bootstrap 5, Bootstrap 4, Tailwind CSS, Bulma, Foundation 6), or **Custom** to manage your own.
@@ -16,15 +16,19 @@ Include framework CDN on page render | Loads the framework from a CDN automatica
 
 Assign a class to the `<body>` element and add Global HTML/Header code that applies across every page of the site.
 
+<p><img src="../../../images/websites/update-website-header.png" alt="Update Website Header form" style="max-width: 420px;" class="border"></p>
+
 **Name** | **Description** 
 :--- | ---
-Body Class | One or more HTML classes applied to the `<body>` element, separated by spaces.
-Global HTML Tag | HTML or code applied universally across all pages of the website.
+Body Class | Add one or more HTML classes applied to the global `<body>` element, separated by spaces.
+Global HTML Tag | HTML or code applied universally across all pages of the website. This code is used for the <br>`<!DOCTYPE>` declaration and `<html>` tag.
 Global Header Insert | Code injected into the `<head>` of every page &mdash; useful for metadata, analytics, and third-party integrations.
 
 ## Social
 
 Manage the social links and handle used for card metadata across the site.
+
+<p><img src="../../../images/websites/update-website-social.png" alt="Update Website Social form" style="max-width: 420px;" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -37,6 +41,10 @@ Pinterest URL | Full URL to your Pinterest profile.
 TikTok URL | Full URL to your TikTok profile.
 
 ## Advanced
+
+Update the site's timezone, add a custom shortcode file, and export your website.
+
+<p><img src="../../../images/websites/update-website-advanced.png" alt="Update Website Advanced form" style="max-width: 420px;" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---

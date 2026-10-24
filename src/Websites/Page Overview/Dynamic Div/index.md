@@ -1,9 +1,11 @@
-﻿# Dynamic Div
-
-A dynamic div is a blank, editable content region &mdash; the basic building block you drop text, images, or other content into via <a href="/websites/page-overview/#in-line-editing">in-line editing</a>.
+﻿A Dynamic Div is a blank, editable content region — the basic building block for adding text, images, and other content through [in-line editing](/websites/page-overview/#in-line-editing).
 
 <p><img src="../../../images/websites/pages/rail-dynamicdiv.png" alt="Dynamic Div icon in the component palette"></p>
 
-**Step 1**: While editing a page, find the vertical icon rail on the left edge of the page canvas. Dynamic Div is the top icon (a **+**).
+While editing a page, find the vertical icon rail on the left side of the page canvas. Dynamic Div is the top icon, represented by a **+**.
 
-**Step 2**: Drag it onto an empty region of the canvas. Unlike every other component in the rail, Dynamic Div has no picker &mdash; it inserts directly and is immediately ready for content.
+Drag the Dynamic Div onto an empty region of the canvas. Unlike the other components in the rail, Dynamic Div has no picker — it is inserted directly and is immediately ready for content.
+
+!!! Note:
+When dragging elements into the content area, make sure the Dynamic Div where you want to place the element is selected. The selected Dynamic Div will be highlighted in light blue.
+!!!

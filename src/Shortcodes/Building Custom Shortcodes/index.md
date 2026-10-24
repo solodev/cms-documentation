@@ -4,7 +4,7 @@ A website can register its own PHP file of custom shortcodes, on top of the buil
 
 ## Step 1: Create a PHP shortcode file
 
-Create a `.php` file (for example, under web files > content > a `shortcodes` folder) using **Add File** > **Code**, and append the `.php` extension to the file name.
+Create a `.php` file (for example, under web files > a `shortcodes` folder) using **Add File** > **Code**, and append the `.php` extension to the file name.
 
 Define a function for your shortcode and register it with `add_shortcode()`. The function name is the shortcode's implementation; the first argument to `add_shortcode()` is the tag name used in `[brackets]`:
 

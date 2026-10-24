@@ -1,4 +1,4 @@
-Returns lowercased version of the string value within the enclosing shortcode. 
+Converts the enclosed text to lowercase.
 
 **Shortcode:**
 
@@ -9,7 +9,13 @@ Returns lowercased version of the string value within the enclosing shortcode.
 **Code Example:**
 
 ```js
-<p>[lower_case]Title[/lower_case]</p>
+[lower_case]Welcome to OUR Site[/lower_case]
+```
+
+**Output:**
+
+```
+welcome to our site
 ```
 
 !!!Note:

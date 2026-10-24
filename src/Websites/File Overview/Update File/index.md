@@ -1,8 +1,6 @@
-﻿# Update File
+﻿Change a file's name, description, and publish/expire scheduling without editing its content. From an open file, click the **...** menu next to **Publish**, then click **Update**.
 
-Change a file's name, description, and publish/expire scheduling without editing its content. From an open file, click the **...** menu next to **Publish**, then click **Update**.
-
-<p><img src="../../../images/websites/files/update-file.png" alt="Update panel for a file" style="width: 45%;"></p>
+<p><img src="../../../images/websites/files/update-file.png" alt="Update panel for a file" style="width: 40%;" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -16,3 +14,7 @@ Submit | Once you've made your changes, click **Submit** to apply them.
 ## Advanced
 
 Click **Advanced** to expand additional options for scheduling exactly when a file publishes or expires.
+
+**Name** | **Description**
+:--- | ---
+Cache | If enabled, the file content is cached to improve performance.

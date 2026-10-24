@@ -1,6 +1,6 @@
 # MCP Settings
 
-Turns on Solodev CMS tools for the agent over MCP (Model Context Protocol), so the agent can call real CMS actions instead of only chatting.
+Turn on Solodev CMS tools for the agent over MCP (Model Context Protocol), so the agent can call real CMS actions instead of only chatting.
 
 **Name** | **Description**
 :--- | ---

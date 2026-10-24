@@ -1,8 +1,6 @@
-# Modify
-
 Edit a File Group's name, title, or description.
 
-<p><img src="../../../../images/engage/file-group-modify.png" alt="Modify form" style="width: 45%;"></p>
+<p><img src="../../../../images/engage/file-group-modify.png" alt="Modify form" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

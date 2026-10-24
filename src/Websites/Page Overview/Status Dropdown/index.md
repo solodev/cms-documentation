@@ -1,8 +1,8 @@
 The page status dropdown lets you switch which version of a page you're viewing and editing. There are four statuses: **Draft**, **Stage**, **Origin**, and **Published**.
 
-You can change the page view by selecting any of the options from the [Metadata panel](/websites/page-overview/#manage-meta-information-with-the-metadata-panel).
+You can change the page view by selecting any of the options from the [Metadata panel](/websites/page-overview/meta-column).
 
-<p><img src="/images/websites/page/status-dropdown.jpg" alt="Page Status Dropdown Menu" style="width: 16%;"></p>
+<p><img src="/images/websites/pages/page-status.png" alt="Page Status Dropdown Menu" style="width: 25%;" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

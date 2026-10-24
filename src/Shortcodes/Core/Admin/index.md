@@ -1,3 +1,5 @@
+Admin shortcodes control where content appears. Use them to show content only in the CMS backend or only on the live site.
+
 ## Admin Only
 
 This shortcode specifies that the content inside of the ```[admin_only]``` ```[/admin_only]``` code should be shown on the backend. Developers may use this shortcode in conjunction with ```[non_admin_only]``` ```[/non_admin_only]``` shortcode to partition frontend and backend content and prevent them from interfering with one another.

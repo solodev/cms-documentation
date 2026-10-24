@@ -42,7 +42,7 @@ SSL (Secure Sockets Layer) is the standard security technology for establishing 
 
 **Step 5**. Choose your validation method and select the default DNS validation method, which is recommended. This involves proving your ownership of the domain through DNS records.
 
-**Step 6**. When choosing your key algorithm choose the default RSA 2048 key algorithm. This is a secure choice for generating cryptographic keys.
+**Step 6**. When choosing your key algorithm choose the default **RSA 2048** key algorithm. This is a secure choice for generating cryptographic keys.
 
 !!!Note 
 Tagging is optional and you can choose whether to add tags for better organization and management, but it's not mandatory.
@@ -75,7 +75,7 @@ By following these steps, you'll be able to successfully request a public certif
 
 **Step 5**. Select the default DNS validation method that is recommended. This involves proving your ownership of the domain through DNS records.
 
-**Step 6**. When choosing your key algorithm choose the default RSA 2048 key algorithm. This is a secure choice for generating cryptographic keys.
+**Step 6**. When choosing your key algorithm choose the default **RSA 2048** key algorithm. This is a secure choice for generating cryptographic keys.
 
 !!!Note 
 Tagging is optional and you can choose whether to add tags for better organization and management.

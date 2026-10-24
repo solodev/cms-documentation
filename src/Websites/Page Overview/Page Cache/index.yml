@@ -1,4 +1,4 @@
-order: 5
+order: 100
 icon: database
 title: Page Cache
 expanded: false

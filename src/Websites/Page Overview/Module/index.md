@@ -1,14 +1,12 @@
-﻿# Module
-
-Insert a low-code module &mdash; a Blog, Calendar, Datatable, or other <a href="/modules/">module</a> already built for this website.
+﻿Insert a low-code module &mdash; a Blog, Calendar, Datatable, or other [module](/modules/) already built for this website.
 
 <p><img src="../../../images/websites/pages/rail-module.png" alt="Module icon in the component palette"></p>
 
-**Step 1**: While editing a page, find the vertical icon rail on the left edge of the page canvas. Module is the fourth icon from the top.
+While editing a page, find the vertical icon rail on the left edge of the page canvas. Module is the fourth icon from the top.
 
-**Step 2**: Drag it onto an empty region of the canvas. This opens **Select Module**.
+Drag it onto an empty region of the canvas. This opens **Select Module**.
 
-<p><img src="../../../images/websites/pages/select-module-picker.png" alt="Select Module picker"></p>
+<p><img src="../../../images/websites/pages/select-module-picker.png" alt="Select Module picker" class="border"></p>
 
 **Name** | **Description**
 :--- | ---
@@ -18,11 +16,15 @@ Results list | [Modules](/modules/) that already exist for this website, with th
 Preview pane | Selecting a module previews its details before you commit.
 Choose | Insert the selected module at the drop location.
 
+!!! Note:
+When dragging elements into the content area, make sure the Dynamic Div where you want to place the element is selected. The selected Dynamic Div will be highlighted in light blue.
+!!!
+
 ## Quick Add
 
 If nothing in the list fits, click **+ Add Module** to create one without leaving the page. This is a lighter version of the full [Add Module](/modules/add-module/) form.
 
-<p><img src="../../../images/websites/pages/quickadd-module.png" alt="Quick Add Module form"></p>
+<p><img src="../../../images/websites/pages/quickadd-module.png" alt="Quick Add Module form" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

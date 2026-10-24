@@ -1,15 +1,10 @@
-# Add App
+Add a new app to Solodev CMS. Fill in the form below, then click **Add**.
 
-Adding an app in Solodev CMS is a simple process and can be completed in minutes.
+<p><img src="../../../../images/admin/settings/apps/add-app.png" alt="Add App form" class="border"></p>
 
-<img src="../../../../images/addapp.png" alt="addapp" style="width: 80%; display: block"></a>
-
-**Name** | **Description** 
+**Name** | **Description**
 :--- | ---
-Name | Customize the name.
-Location | Choose the location.
-Package | Upload the app.
-
-## Confirm
-
-Once you have completed all the fields, click **Add** to add your app.
+Name | Enter a name for the app.
+Location | Choose where the app is installed.
+Package | Upload the app's `.zip` file.
+Public S3 Package | Or, enter a publicly readable S3 URI for the app package.

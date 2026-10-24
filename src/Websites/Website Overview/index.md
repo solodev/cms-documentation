@@ -1,12 +1,10 @@
-﻿# Website Overview
-
-You can manage any website in your Solodev CMS to update details, adjust the Vhost, apply redirects, and modify permissions for your team. You will also have access to the [web files](/websites/website-overview/#web-files) and [www](/websites/website-overview/#www) folders for managing your website's pages, templates, and other assets. 
+﻿You can manage any website in your Solodev CMS to update details, adjust the Vhost, apply redirects, and modify permissions for your team. You will also have access to the [web files](/websites/website-overview/#web-files) and [www](/websites/website-overview/#www) folders for managing your website's pages, templates, and other assets. 
 
 ## Website Dashboard
 
 After selecting an active website in your Solodev CMS, you're directed to that website's dashboard: a left-hand file tree, a live preview of the site in the middle, and a details/actions panel on the right.
 
-<p><img src="../../images/websites/website-overview.png" alt="Website Overview dashboard"></p>
+<p><img src="../../images/websites/website-overview-new-site.png" class="border" alt="Website Overview dashboard"></p>
 
 **Left: file tree** &mdash; expand **web files** and **www** to browse the site's folders and pages, and switch between websites using the dropdown at the top of the tree.
 
@@ -15,10 +13,10 @@ Click the back arrow or **Websites** at the top of the tree to return to the mai
 !!!
 
 !!!Tip:
-If the file tree looks empty, you (or your group) may not be a member of this website yet -- being in a group with broad app-level access isn't the same as having permissions on this specific website. Add yourself via [Permissions](/websites/website-overview/permissions/) below.
+If the file tree looks empty, you (or your group) may not be a member of this website yet — being in a group with broad app-level access isn't the same as having permissions on this specific website. Add yourself via [Permissions](/websites/website-overview/permissions/).
 !!!
 
-**Center: live preview** &mdash; the toolbar above it has a pencil icon (opens [Update Website](/websites/website-overview/update-website/) to edit the site title, framework, social links, and other settings), device-width toggles (mobile/tablet/desktop) to preview responsively, and an expand icon for full screen.
+**Center: live preview** &mdash; the toolbar above the preview includes a pencil icon to edit the index.stml page (your homepage), device-width toggles (mobile, tablet, and desktop) for responsive previews, and an expand icon to view the preview in full screen.
 
 **Right: details and actions** &mdash; shows the website's name, description, and thumbnail, followed by its addresses:
 
@@ -28,14 +26,15 @@ URL | The live public address.
 Origin URL | The non-cached, origin address.
 Staging URL | The staging address used for testing.
 
-Below that, the **Update** dropdown provides:
+The **Update** dropdown provides:
 
 **Name** | **Description** 
 :--- | ---
+[Update](/websites/website-overview/update-website/) | Edit the website's site title, framework, social links, and other settings.
 [Vhost](/websites/website-overview/vhost/) | Manage the website's primary URL, domain information, CDN, SSL, and advanced settings.
 [Redirects](/websites/website-overview/redirects/) | Edit the website's `.htaccess` file directly to add 301 redirects and other rules.
 [Permissions](/websites/website-overview/permissions/) | Manage roles for users and groups on your team.
-[Generate Sitemap](/websites/website-overview/generate-sitemap/) | Build the website's sitemap.
+[Generate Sitemap](/websites/website-overview/generate-sitemap/) | Build the website's sitemap in XML format.
 
 At the bottom of the panel, **Pages** lists the site's most recently worked-on pages as thumbnails, with a **+** button to add a new one. Click any page to open it.
 
@@ -52,6 +51,8 @@ The web files folder houses the backend elements that power the structure of you
 The www folder includes all the frontend pages and files that are publicly accessible when a visitor navigates your website. The www folder is where you can [manage pages](/websites/page-overview/) on your website.
 
 ### Using web files and www 
+
+<p><img src="../../images/websites/website-tree.png" class="border" alt="Website tree"></p>
 
 There are several functions you can perform in web files and www at the folder and the file level:
 

@@ -1,12 +1,10 @@
-﻿# Websites
-
-The Websites list shows every website in your CMS deployment. On a brand new deployment, this starts out empty.
+﻿The Websites list shows every website in your CMS deployment. On a brand new deployment, this starts out empty.
 
 !!!Note:
-Solodev CMS is natively multi-site -- one deployment and one login can manage any number of independent websites (and apps). Each site is self-contained, but resources like files and images can be shared across sites.
+Solodev CMS is natively multi-site — one deployment and one login can manage any number of independent websites (and apps). Each site is self-contained, but resources like files and images can be shared across sites.
 !!!
 
-<p><img src="../images/websites/websites.png" alt="Empty Websites list with the Add Website button"></p>
+<p><img src="../images/websites/websites.png" alt="Empty Websites list with the Add Website button" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---
@@ -20,13 +18,16 @@ Once you've [added a website](/websites/add-website/), it appears in this list. 
 
 ## Permissions
 
-Click on any of the members next to a website name to add or remove website members and manage their roles. 
+Click on the Members column next to a website name to add or remove users and manage their roles.
+
+<p><img src="../images/websites/permissions.jpg" alt="Website permissions modal" class="border"></p>
 
 **Name** | **Description** 
 :--- | ---
-Name | Enter the name of an existing member or group you wish to add to your website. Then, click on the <br>**Plus** button to add it to the permissions table.
+Name | Enter the name of an existing member or group you wish to add to your website.
 Role | Assign a View, Stage, Editor, or Admin role via the dropdown menu.
-Remove | Click the “x” button to remove a member from a website.
+Add | Click on the **Plus** button to add it to the permissions table.
+Remove | Click the **“x”** button to remove a member from a website.
 Submit | Once you have completed all the fields, click **Submit** to apply your changes.
 
 !!! Note:

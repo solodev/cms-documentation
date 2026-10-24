@@ -1,8 +1,6 @@
-# Segments
-
 A Segment groups contacts by shared criteria so content, campaigns, or personalization can target a specific audience instead of everyone. Click a Segment's name to view or manage it.
 
-<p><img src="../../images/engage/segments-list.png" alt="Segments list"></p>
+<p><img src="../../images/engage/segments-list.png" alt="Segments list" class="border"></p>
 
 **Name** | **Description**
 :--- | ---

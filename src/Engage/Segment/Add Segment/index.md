@@ -1,6 +1,6 @@
-# Add Segment
+Click the **Add Segment** button from the Segments Overview.
 
-<p><img src="../../../images/engage/add-segment.png" alt="Add Segment form" style="width: 50%;"></p>
+<p><img src="../../../images/engage/add-segment.png" alt="Add Segment form" class="border"></p>
 
 Field | Description
 --- | ---
