@@ -36,6 +36,12 @@ Everything related to connecting Solodev CMS to external services can be found h
 :--- | ---
 [Customer.io](/providers/customer.io/) | Messaging and event tracking, plus automatic Contacts/Segments sync.
 
+## Accessibility
+
+**Name** | **Description**
+:--- | ---
+[Accessibility](/providers/accessibility/) | Checks pages, entries, and PDFs against WCAG and PDF/UA-1 using OpenADA. It can also check spelling and grammar with LanguageTool and fix PDFs with Adobe PDF Services.
+
 ## Permissions
 
 **Name** | **Description**
