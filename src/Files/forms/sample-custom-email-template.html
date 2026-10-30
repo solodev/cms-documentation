@@ -13,15 +13,15 @@
         <table cellpadding="6" cellspacing="0" style="width:100%; border-collapse:collapse;">
           <tr>
             <td style="border-bottom:1px solid #eee;"><strong>Name</strong></td>
-            <td style="border-bottom:1px solid #eee;"><?= $assignmentVars['givenname'] ?? '' ?> <?= $assignmentVars['sn'] ?? '' ?></td>
+            <td style="border-bottom:1px solid #eee;">{{givenname}} {{sn}}</td>
           </tr>
           <tr>
             <td style="border-bottom:1px solid #eee;"><strong>Email</strong></td>
-            <td style="border-bottom:1px solid #eee;"><?= $assignmentVars['email'] ?? '' ?></td>
+            <td style="border-bottom:1px solid #eee;">{{email}}</td>
           </tr>
           <tr>
             <td style="border-bottom:1px solid #eee;"><strong>Phone</strong></td>
-            <td style="border-bottom:1px solid #eee;"><?= $assignmentVars['primaryphone'] ?? '' ?></td>
+            <td style="border-bottom:1px solid #eee;">{{primaryphone}}</td>
           </tr>
           <!--
             Add one row per extra field on your form's Table Schema.
@@ -29,10 +29,9 @@
           -->
           <tr>
             <td style="border-bottom:1px solid #eee;"><strong>Your Field Label</strong></td>
-            <td style="border-bottom:1px solid #eee;"><?= $assignmentVars['your_field_name'] ?? '' ?></td>
+            <td style="border-bottom:1px solid #eee;">{{your_field_name}}</td>
           </tr>
         </table>
-        <p style="margin:24px 0 0; color:#777; font-size:12px;">Submitted <?= !empty($assignmentVars['date_added']) ? date('n/j/Y g:ia', $assignmentVars['date_added']) : '' ?></p>
       </td>
     </tr>
   </table>

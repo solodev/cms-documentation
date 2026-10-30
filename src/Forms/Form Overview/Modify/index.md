@@ -45,26 +45,24 @@ Upload Custom Email | Upload the HTML file that becomes the email's content.
 **Return Behavior and Notification Type are completely independent.** You do not need to set a Return Page (or anything else under Return Behavior) for a Custom Email to work &mdash; Return Behavior only controls what the *visitor's browser* shows after they submit; Notification Type controls what gets *emailed*. Leave Return Behavior at "Choose option" if you don't need a custom thank-you page.
 !!!
 
-#### Referencing submitted data in the HTML file
+#### Referencing submitted data in return pages and custom emails
 
-The uploaded file runs as a template with each submitted field available as a variable, so you can drop values in anywhere:
+Uploaded Return Page and Custom Email files use the same template syntax for both Contact forms and Datatable forms. Reference any submitted field by wrapping its exact field name in double braces:
 
 ```html
-<p><strong>Name:</strong>{{ givenname }} {{ sn }}</p>
-<p><strong>Email:</strong>{{ email }}</p>
-<p><strong>Tour Date:</strong>{{ tour_date }}</p>
+<p><strong>Name:</strong> {{givenname}} {{sn}}</p>
+<p><strong>Email:</strong> {{email}}</p>
+<p><strong>Tour Date:</strong> {{tour_date}}</p>
 ```
 <!-- {{{tour_date}}} -->
 
-Open the form's [Table Schema](#table-schema) and use the exact field name shown there in place (`tour_date` in the example is a placeholder &mdash; your form almost certainly uses different names). A handful of built-in fields are always available too, regardless of your schema: `email`, `givenname`, `sn`, `primaryphone`, `date_added`, `date_modified`. Regular [shortcodes](/shortcodes/) work in this file as well.
+**`{{field_name}}` only resolves fields available on the submitted entry.** For a Datatable form, open its [Table Schema](#table-schema) and use the exact custom field name shown there. Contact forms expose their submitted custom fields the same way. Built-in fields include `email`, `givenname`, `sn`, `primaryphone`, `date_added`, and `date_modified`. Regular [shortcodes](/shortcodes/) work in both template types as well.
 
-`date_added` and `date_modified` come through as a raw Unix timestamp, not a formatted date &mdash; wrap them in PHP's `date()` if you want to display them:
+PHP is not executed in Return Page or Custom Email files. Use CMS shortcodes and `{{field_name}}` tokens for all dynamic content.
 
-```html
-<p>Submitted <?= !empty($assignmentVars['date_added']) ? date('n/j/Y g:ia', $assignmentVars['date_added']) : '' ?></p>
-```
+`date_added` and `date_modified` resolve to their raw Unix timestamps.
 
-**[Download a working sample template](../../../files/forms/sample-custom-email-template.html)** &mdash; a real, tested Custom Email file with a header, a clean field table, and the date formatting above already wired up. Upload it as-is to see it work, then swap in your own field names and styling.
+**[Download a working sample template](../../../files/forms/sample-custom-email-template.html)** -- a Custom Email file with a header and a clean field table already wired up. Upload it as-is to see it work, then swap in your own field names and styling.
 
 !!! Note:
 This is HTML/CSS only &mdash; there is currently no way to send the results as a PDF attachment. If a submitter needs a polished, well-formatted copy of their answers, a styled Custom Email is the closest supported option.

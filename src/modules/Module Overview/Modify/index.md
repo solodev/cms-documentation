@@ -42,8 +42,14 @@ Geo-Coded Fields | Comma-separated field names used to generate latitude/longitu
 Field Name to use in URL | Which field's value appears in the entry's URL (`event_title` is the default).
 Error Document | Browse to the content shown when an entry has expired (past its Stop date).
 Asset Fields | Link a field in this module to a public URL.
-Enable Attachments / Gallery, Enforce User Permissions, Enable User Groups, Protect Fields, Enable Website Mapping, Resave All Entries (On Submit) | Checkboxes toggling each of these behaviors for the module.
-Export Module | Downloads the module's own schema/form definition (not its entries &mdash; see [Export](/modules/module-overview/export/) for entry data).
+Enable Attachments / Gallery, Enforce User Permissions, Enable User Groups, Protect Fields, Enable Website Mapping | Checkboxes toggling each of these behaviors for the module.
+Resync Cache (On Submit) | Refreshes every entry's cached data (including the URL used to link to it) on this Submit, without resaving the entries themselves -- so it won't re-trigger assignment workflows, tickler emails, or change any entry's Modified date. Use this after a change (like adding a category mapping) that existing entries' cached data needs to catch up to.
+
+<p><img src="../../../images/modules/module-delete-whole.png" alt="Export Module and Delete Module controls"></p>
+
+**Name** | **Description**
+:--- | ---
+Export Module | Downloads the module's own schema/form definition (not its entries -- see [Export](/modules/module-overview/export/) for entry data).
 Add Template Map | Define custom attributes for future access.
 Delete | Permanently deletes the whole module and all its entries. Type **DELETE** into the confirmation field first &mdash; this can't be undone.
 
