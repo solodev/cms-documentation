@@ -13,7 +13,7 @@ Page and folder metadata &mdash; titles, descriptions, navigation, breadcrumbs.
 `category_name` | Looks up a Datatable category's name by its `id`.
 `category_description` | Looks up a Datatable category's description by its `id`.
 `page_path` | The current request's URL path (`$_SERVER['REQUEST_URI']`).
-`breadcrumb` | The formatted breadcrumb trail up to the site root. Optional `delimiter` (default `\|`) and `home_overwrite` (replace the word "Home", e.g. with an icon).
+[Breadcrumb](/shortcodes/page/breadcrumb/) | The linked breadcrumb trail from the site root to the current page.
 `parent_nav` | The current navigation items of the parent folder.
 `solodev_nav` | Renders the folder tree as navigation markup. Requires `parent_category_id` (the folder to start from); optional `levels` (how deep) and `nav_class`.
 `print_event_end` | Like [Print Date](/shortcodes/core/print-date/), formatted for a Calendar entry's end time &mdash; typically paired with `print_date` for the start time. Requires `format`; optional `separator`.
