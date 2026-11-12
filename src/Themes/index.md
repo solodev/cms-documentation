@@ -9,7 +9,7 @@ Themes determine the overall look and feel of your website, including its layout
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2><a href="/themes/micro">Micro Theme</a></h2>
     <p class="mt-3">A lightweight, one-page website deployed in seconds that's beautiful on every screen. Think big with a one-page template with everything you need!</p>
-    <a href="https://solodev-micro.s3.amazonaws.com/releases/micro-latest.zip">Download Theme.</a>
+    <a href="https://solodev-marketplace.s3.us-east-1.amazonaws.com/themes/micro/latest.zip">Download Theme.</a>
   </div>
 </div>
 
@@ -20,7 +20,7 @@ Themes determine the overall look and feel of your website, including its layout
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2><a href="/themes/pro">Pro Theme</a></h2>
     <p class="mt-3">Business-grade responsive theme package with multiple pages and modules -- built for performance.</p>
-    <a href="https://solodev-pro.s3.us-east-1.amazonaws.com/releases/pro-latest.zip">Download Theme.</a>
+    <a href="https://solodev-marketplace.s3.us-east-1.amazonaws.com/themes/pro/latest.zip">Download Theme.</a>
   </div>
 </div>
 
@@ -31,7 +31,7 @@ Themes determine the overall look and feel of your website, including its layout
   <div style="width: 50%; float: left; padding-left: 30px;">
     <h2><a href="/themes/enterprise">Enterprise Theme</a></h2>
     <p class="mt-3">Enterprise-grade templates and advanced out-of-the-box modules -- the engine for powering large-scale websites.</p>
-    <a href="https://solodev-enterprise.s3.amazonaws.com/releases/enterprise-latest.zip">Download Theme.</a>
+    <a href="https://solodev-marketplace.s3.us-east-1.amazonaws.com/themes/enterprise/latest.zip">Download Theme.</a>
   </div>
 </div>
 
