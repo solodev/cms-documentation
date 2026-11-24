@@ -61,6 +61,10 @@ The alert module comes with a pre-configured entry that you can customize by acc
 
 {% tab title="Step 2: Create your Alert Bar" %}
 
+!!!Note:
+Newer CMS versions already include a repeater file in the Alerts module. If yours does, skip to **Step 3**.
+!!!
+
 1. Navigate to `Websites > example.com > web files > content`
 <ul style="padding-left: 50px;">
   <li><a href="/websites/folder-overview/add-folder/">Create a folder</a> called <code>alert</code></li>
@@ -106,7 +110,27 @@ You need to add the ID number of your alert module to the repeater shortcode wit
 
 7. Go to your website and refresh the page to see your alert bar in action.
 
-<img src="../../../Images/modules/alert/alert-bar.jpg" alt="Alert Bar on Page">
+<img src="../../../Images/modules/alert/alert-bar.jpg" alt="Alert Bar on Page" class="border">
+
+{% endtab %}
+
+{% tab title="Step 3: Add Alerts to your page" %}
+
+1. Open the desired page where you want to add the alerts module.
+
+2. Find the vertical icon rail on the left edge of the page canvas. Module is the fourth icon from the top. Drag it onto an empty region of the canvas.
+
+<img src="../../../Images/modules/add-module-drag-and-drop.png" alt="Drag and drop modules" class="border mb-4">
+
+3. Search and select the alerts module. Click **Choose**. This will insert the alert module into the page.
+
+<img src="../../../Images/modules/alert/alert-select-module.png" alt="Modules select modal" class="border mb-4" style="width: 85%;">
+
+4. Click <span class="text-blue">Publish</span>.
+
+5. Go to your website and refresh the page to see your alerts in action.
+
+<img src="../../../Images/modules/alert/alert-bar.jpg" alt="Alert Bar on Page" class="border">
 
 {% endtab %}
 

@@ -89,8 +89,8 @@ Newer CMS versions already include a repeater file in the Documents module. If y
           <td>{{event_title}}</td>
           <td>{{doc_type}}</td>
           <td class="text-end">
-            <a href="[get_asset_file_url id='{{doc_file}}']" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer" aria-label="Download {{event_title}}">
-              <i class="bi bi-download me-1" aria-hidden="true"></i>Download
+            <a href="[get_asset_file_url id='{{doc_file}}']" class="btn btn-sm btn-primary text-white" target="_blank" rel="noopener noreferrer" aria-label="Download {{event_title}}">
+              <i class="bi bi-download me-1" aria-hidden="true"></i>
             </a>
           </td>
         </tr>
@@ -129,13 +129,17 @@ You need to add the ID number of your documents module to the repeater shortcode
 
 <img src="../../../Images/modules/add-module-drag-and-drop.png" alt="Drag and drop modules" class="border mb-4">
 
-3. Search and select the documents module. Click **Choose**.
+3. Search and select the documents module. Click **Choose**. This will insert the document module into the page.
+
+<img src="../../../Images/modules/documents/documents-select-module.png" alt="Modules select modal" class="border mb-4" style="width: 85%;">
 
 4. Click <span class="text-blue">Publish</span>.
 
 5. Go to your website and refresh the page to see your documents in action.
 
 <img src="../../../Images/modules/documents-result.png" alt="Drag and drop modules" class="border mb-4">
+
+{% endtab %}
 
 {% endtabs %}
 
